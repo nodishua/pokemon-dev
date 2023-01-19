@@ -1,0 +1,49 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.pull-left.pagination-detail {
+			display:none;
+		}
+
+		#internal-serv > div {
+			margin-top: 8px;
+		}
+
+		#internal-serv label {
+			width: 112px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"blacklist") }}</h4></div>
+		</div>
+
+		<div class="well">
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		<div class="form-inline">
+        				<div class="from-group">
+        					<button id="" class="btn btn-primary" onclick="">{{ _(u"Delete selected") }}</button>
+        					<button id="" class="btn btn-primary" onclick="">{{ _(u"Brush into the server") }}</button>
+        					<button id="" class="btn btn-primary" onclick="">{{ _(u"Add blacklist") }}</button>
+        				</div>
+					</div>
+	        	</div>
+	        </div>
+	        <div class="row">
+	        	123
+	        </div>
+		</div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+
+	</script>
+{% end %}

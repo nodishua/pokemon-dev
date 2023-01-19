@@ -1,0 +1,502 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.t {
+			margin-top: 18px;
+		}
+
+		.l {
+			margin-left: 18px;
+		}
+
+		.r {
+			margin-right: 8px;
+		}
+
+		a {
+			cursor:pointer;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="modal fade" id="act-role-detail" tabindex="-1" role="dialog">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                <h4 class="modal-title">{{ _(u"Player details") }}</h4>
+		            </div>
+		            <div class="modal-body">
+		            	<table id='act-role-table'></table>
+		            </div>
+		            <div class="modal-footer">
+		            	<button id="act-role-btn1" class='btn btn-warning'></button>
+		            	<button id="act-role-btn2" class='btn btn-warning'></button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="modal fade" id="act-union-detail" tabindex="-1" role="dialog">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                <h4 class="modal-title">{{ _(u"Details of the union") }}</h4>
+		            </div>
+		            <div class="modal-body">
+		            	<table id='act-union-table'></table>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="row">
+			<div class="title"><h4>{{ _(u"Player activity") }}</h4></div>
+		</div>
+
+		<div class="well">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="form-inline">
+        				<div class="from-group">
+        					<label>{{ _(u"server nickname") }}</label>
+        					<input id="serv-select" type="text" class="form-control input-s" data-toggle="modal" data-target="#serv-select-modal">
+        					<label id="role-search-label" class="l hidden">{{ _(u"Character ID, name, channel ID") }}</label>
+        					<input id="role-search-id" type="text" class="form-control hidden">
+        					<button id="query" class="btn btn-primary" onclick="online_role_click('online_role_table')">{{ _(u"Inquire")}}</button>
+
+        					<button id="silent" class="btn btn-warning pull-right hidden" onclick="">{{ _(u"Seal") }}</button>
+        					<button id="ban" class="btn btn-warning pull-right hidden r" onclick="">{{ _(u"Prohibit") }}</button>
+        				</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row t">
+				<div class="col-lg-12">
+	        		<ul class="nav nav-tabs">
+					    <li class="active"><a href="#online_role" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Online player") }}</a></li>
+						<li><a href="#role_info" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"View player") }}</a></li>
+						<li><a href="#role_mailbox" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Player mailbox") }}</a></li>
+						<!-- <li><a href="#pw_rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Arena ranking") }}</a> </li> -->
+						<li><a href="#fighting_rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Battlepower rankings") }}</a> </li>
+						<li><a href="#arena" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Arena ranking") }}</a> </li>
+						<li><a href="#pokedex" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Favorites ") }}</a> </li>
+						<!-- <li><a href="#stars_rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Star rankings") }}</a> </li>
+						<li><a href="#cardNum_rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Beast Training Ranking") }}</a> </li>
+						<li><a href="#trails_rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Trial rankings") }}</a> </li>
+						<li><a href="#union_rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Union rankings ") }}</a> </li> -->
+					</ul>
+	        	</div>
+			</div>
+
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		<div id="tabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="online_role">
+							<div>
+								<table id="online_role_table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="role_info">
+							<div>
+								<table id="role_info_table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="role_mailbox">
+							<div>
+								<table id="role_mailbox_table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="fighting_rank">
+							<div>
+								<table id="fighting_rank_table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="arena">
+							<div>
+								<table id="arena_table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="pokedex">
+							<div>
+								<table id="pokedex_table"></table>
+							</div>
+						</div>
+
+					</div>
+
+	        	</div>
+	        </div>
+		</div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function online_role_click(tableID) {
+			const servName = $('#serv-select').val();
+
+			if (servName === "") {
+				alert("Please Select Server");
+				return;
+			}
+
+			$.ajax({
+				url: "/online_role",
+				type: "get",
+				async: true,
+				data: {servName: servName},
+				success: function(rep) {
+					let columns = rep.columns;
+					columns[1].formatter = function(value, row, index) {
+						return `<a onclick='role_info_click("role_info_table", "${servName}", "${value}")'>${value}</a>`;
+					}
+					$("#"+tableID).bootstrapTable('destroy');
+					$("#"+tableID).bootstrapTable({
+						url: "/online_role",
+						method: "get",
+						pagination: true,
+						striped: false,
+						sidePagination: "server",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+						search: true,
+						showColumns: true,
+						showRefresh: true,
+						columns: columns,
+						queryParams: function(params) {
+							return {
+								servName: encodeURIComponent(servName),
+								limit: params.limit,
+								offset: params.offset,
+							}
+						}
+					})
+				}
+			})
+		}
+
+		function role_info_click(tableID) {
+			let servName = $('#serv-select').val();
+			let roleSearch = $('#role-search-id').val();
+			let auto = false;
+
+			if (arguments.length === 3) {
+				servName = arguments[1];
+				roleSearch = arguments[2];
+				auto = true;
+			}
+
+			if (servName === "" || roleSearch === "") {
+				alert("Please Select Server and Role");
+				return;
+			}
+
+			$.ajax({
+				url: "/role_detail",
+				type: "get",
+				async: true,
+				data: {servName: servName, roleSearch: roleSearch},
+				success: function(rep) {
+					let ban_flag = rep.data[0].disable_flag === true;
+					let silent_flag = rep.data[0].silent_flag === true;
+
+					let $ban = $('#ban');
+					let $silent = $('#silent');
+
+					$ban.text(ban_flag ? '{{ _(u"cancellation ") }}' : '{{ _(u""Seal") }}');
+					$silent.text(silent_flag ? '{{ _(u"Dismiss") }}' : '{{ _(u"Forbidden ") }}');
+
+					if (ban_flag === true) {
+						$ban.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'disable', 'false')`)
+					} else {
+						$ban.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'disable', 'true')`)
+					}
+
+					if (silent_flag === true) {
+						$silent.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'silent', 'false')`)
+					} else {
+						$silent.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'silent', 'true')`)
+					}
+
+					$("#"+tableID).bootstrapTable('destroy');
+					$("#"+tableID).bootstrapTable({
+						cache: false,
+						cardView: true,
+						columns: rep["columns"],
+						data: rep["data"]
+					})
+
+					if (auto) {
+						// $("a[href='#role_info']").tab("show");
+						$("a[href='#role_info']").trigger("click");
+					}
+				}
+			})
+		}
+
+		function role_mailbox_click(tableID) {
+			const servName = $('#serv-select').val();
+			const roleSearch = $('#role-search-id').val();
+
+			if (servName === "" || roleSearch === "") {
+				alert("Please Select Server and Role");
+				return;
+			}
+
+			$.ajax({
+				url: "/role_mail",
+				type: "get",
+				async: true,
+				data: {servName: servName, roleSearch: roleSearch},
+				success: function(result) {
+					$("#"+tableID).bootstrapTable('destroy');
+					$("#"+tableID).bootstrapTable({
+						cache: false,
+						pagination: true,
+						sidePagination: "client",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+						columns: result["columns"],
+						data: result["data"]
+					})
+				}
+			})
+		}
+
+		function fighting_rank_click(tableID) {
+			const servName = $('#serv-select').val();
+
+			if (servName === "") {
+				alert("Please Select Server");
+				return;
+			}
+
+			$.ajax({
+				url: "/fighting_rank",
+				type: "get",
+				async: true,
+				data: {servName: servName},
+				success: function(result) {
+					// for (let i in result["columns"]) {
+					// 	if (result["columns"][i].field == 'roleID') {
+					// 		result["columns"][i].formatter = function(value) {
+					// 			return '<button type="button" class="btn btn-link btn-xs">' + value + '</button>';
+					// 		}
+					// 	}
+					// }
+
+					let columns = result["columns"];
+
+					$("#"+tableID).bootstrapTable('destroy');
+					$("#"+tableID).bootstrapTable({
+						url: "/fighting_rank",
+						method: "get",
+						pagination: true,
+						striped: false,
+						sidePagination: "server",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+						search: true,
+						showColumns: true,
+						showRefresh: true,
+						columns: columns,
+						queryParams: function(params) {
+							return {
+								servName: encodeURIComponent(servName),
+								limit: params.limit,
+								offset: params.offset,
+								sort: params.sort,
+								order: params.order
+							};
+						},
+						// onClickCell: function(field, value, row) {
+						// 	if (field !== 'id')
+						// 		return;
+
+						// 	let roleID = row.id;
+
+						// 	$.ajax({
+						// 		url: '/role_detail',
+						// 		type: 'get',
+						// 		data: {servName: servName, roleSearch: roleID},
+						// 		success: function(rep) {
+						// 			_show_detail_ban(servName, rep);
+						// 			$('#act-role-detail').modal('show');
+						// 		}
+						// 	})
+						// },
+					});
+				},
+			})
+		}
+
+		function arena_click(tableID) {
+			const servName = $('#serv-select').val();
+
+			if (servName === "") {
+				alert("Please Select Server");
+				return;
+			}
+
+			$.ajax({
+				url: "/arena_rank",
+				type: "get",
+				async: true,
+				data: {servName: servName},
+				success: function(result) {
+					$("#"+tableID).bootstrapTable('destroy');
+					$("#"+tableID).bootstrapTable({
+						url: "/arena_rank",
+						method: "get",
+						pagination: true,
+						striped: false,
+						sidePagination: "server",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+						search: true,
+						showColumns: true,
+						showRefresh: true,
+						columns: result.columns,
+						queryParams: function(params) {
+							return {
+								servName: encodeURIComponent(servName),
+								limit: params.limit,
+								offset: params.offset,
+								sort: params.sort,
+								order: params.order
+							};
+						},
+
+					});
+				},
+			})
+		}
+
+		function pokedex_click(tableID) {
+			const servName = $('#serv-select').val();
+
+			if (servName === "") {
+				alert("Please Select Server");
+				return;
+			}
+
+			$.ajax({
+				url: "/pokedex_rank",
+				type: "get",
+				async: true,
+				data: {servName: servName},
+				success: function(result) {
+					$("#"+tableID).bootstrapTable('destroy');
+					$("#"+tableID).bootstrapTable({
+						url: "/pokedex_rank",
+						method: "get",
+						pagination: true,
+						striped: false,
+						sidePagination: "server",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+						search: true,
+						showColumns: true,
+						showRefresh: true,
+						columns: result.columns,
+						queryParams: function(params) {
+							return {
+								servName: encodeURIComponent(servName),
+								limit: params.limit,
+								offset: params.offset,
+								sort: params.sort,
+								order: params.order
+							};
+						},
+
+					});
+				},
+			})
+		}
+
+		function changeFixedForTab(self) {
+			let href = $(self).attr("href");
+
+			if (href === "#role_info" || href === "#role_mailbox") {
+				$("#role-search-label").removeClass("hidden")
+				$("#role-search-id").removeClass("hidden")
+			} else {
+				$("#role-search-label").addClass("hidden")
+				$("#role-search-id").addClass("hidden")
+			}
+
+			if (href === "#role_info") {
+				$("#ban").removeClass('hidden');
+				$('#silent').removeClass('hidden');
+			} else {
+				$("#ban").addClass('hidden');
+				$('#silent').addClass('hidden');
+			}
+
+			let tableID = href.slice(1) + "_table";
+			let onClick = href.slice(1) + `_click("${tableID}")`;
+			$("#query").attr("onclick", onClick)
+		}
+
+		function ban_player(servName, roleID, banType, val) {
+			$.ajax({
+				url: '/ban_player',
+				type: 'get',
+				async: true,
+				data: {roleID: roleID, servName: servName, banType: banType, val: val},
+				success: function(result) {
+					alert('success')
+					role_info_click('role_info_table', servName, roleID);
+				}
+			})
+		}
+
+		function _show_detail_ban(servName, rep) {
+			let ban_flag = rep.data[0].disable_flag === true;
+			let silent_flag = rep.data[0].silent_flag === true;
+
+			let $ban = $('#act-role-btn1');
+			let $silent = $('#act-role-btn2');
+
+			$ban.text(ban_flag ? '{{ _(u"Cancel ")}} ':' {{_ (u" seal number ")}} ');
+			$silent.text(silent_flag ? '{{ _(u"Forbidden to cancel ") }}' : '{{ _(u"Forbidden ") }}');
+
+			if (ban_flag === true) {
+				$ban.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'disable', 'true')`)
+			} else {
+				$ban.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'disable', 'false')`)
+			}
+
+			if (silent_flag === true) {
+				$silent.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'silent', 'true')`)
+			} else {
+				$silent.attr('onclick', `ban_player('${servName}', '${rep.data[0].id}', 'silent', 'false')`)
+			}
+
+			$("#act-role-table").bootstrapTable('destroy');
+			$("#act-role-table").bootstrapTable({
+				cache: false,
+				cardView: true,
+				columns: rep["columns"],
+				data: rep["data"]
+			})
+		}
+
+	</script>
+{% end %}

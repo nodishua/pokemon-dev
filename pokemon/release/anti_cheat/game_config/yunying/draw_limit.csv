@@ -1,0 +1,40 @@
+变量名,_yyId,_beizhu,card1,res1,resScale1,resPos1,titleRes1,posRes1,card2,res2,resScale2,resPos2,titleRes2,posRes2
+默认值,,,,,1,{x=0;y=0},"""""","""""",,,1,{x=0;y=0},"""""",""""""
+ID,活动ID,备注,卡牌ID,立绘,立绘缩放,立绘偏移位子,卡牌名字美术字资源,定位美术字资源,卡牌ID,立绘,立绘缩放,立绘偏移位子,卡牌名字美术字资源,定位美术字资源
+1,100012,Gulardo,1971,config/big_hero/normal/img_383_gld@.png,2.618,,common/txt/txt_gld.png,common/txt/txt_dw_gld.png,,,,,,
+2,100022,Gulardo Kyoka,1971,config/big_hero/normal/img_383_gld@.png,2.618,,common/txt/txt_gld.png,common/txt/txt_dw_gld.png,1961,,2,,common/txt/txt_gok.png,common/txt/txt_dw_gok.png
+3,1256,Gulardo,1971,config/big_hero/normal/img_383_gld@.png," ",,common/txt/txt_gld.png,common/txt/txt_dw_gld.png,,,,,,
+4,1335,Rogia,1261,config/big_hero/normal/img_249_lqy@.png,2.618,,common/txt/txt_lqy.png,common/txt/txt_dw_lqy.png,,,,,,
+5,1385,Dianthi-Bite Land Shark,3631,config/big_hero/standby/img_719_dax@.png,2.33,,common/txt/txt_dax.png,common/txt/txt_dw_dax.png,,,,,,
+6,1431,Gulardo,1971,config/big_hero/normal/img_383_gld@.png,2.618,,common/txt/txt_gld.png,common/txt/txt_dw_gld.png,,,,,,
+7,,Rayquaza,1981,config/big_hero/normal/img_384_lkz@.png,2.618,,common/txt/txt_lkz.png,common/txt/txt_dw_lkz.png,,,,,,
+8,1516,Rogia,1261,config/big_hero/normal/img_249_lqy@.png,2.618,,common/txt/txt_lqy.png,common/txt/txt_dw_lqy.png,,,,,,
+9,100022,Dale Itianchi,2431,config/big_hero/normal/img_491_dkly@.png,1.6,,common/txt/txt_dkly.png,common/txt/txt_dw_dkly.png,3631,config/big_hero/standby/img_719_dax@.png,2.33,,common/txt/txt_dax.png,common/txt/txt_dw_dax.png
+10,,Regichkas/Rogia,2381,config/big_hero/normal/img_486_ljqks@.png,2.33,,common/txt/txt_ljqks.png,common/txt/txt_dw_ljqks.png,1261,config/big_hero/normal/img_249_lqy@.png,2.14,,common/txt/txt_lqy.png,common/txt/txt_dw_lqy.png
+11,,Dialga,1981,config/big_hero/normal/img_384_lkz@.png,2.33,,common/txt/txt_lkz.png,common/txt/txt_dw_lkz.png,2351,config/big_hero/normal/img_483_dylk@.png,2.33,,common/txt/txt_dylk.png,common/txt/txt_dw_dylk.png
+12,,Palkia Gaioca,1961,config/big_hero/normal/img_382_gok@.png,2,,common/txt/txt_gok.png,common/txt/txt_dw_gok.png,2361,config/big_hero/normal/img_484_plqy@.png,2.33,,common/txt/txt_plqy.png,common/txt/txt_dw_plqy.png
+13,,Guradotianci,1971,config/big_hero/normal/img_383_gld@.png,2.618,,common/txt/txt_gld.png,common/txt/txt_dw_gld.png,3631,config/big_hero/standby/img_719_dax@.png,2.33,,common/txt/txt_dax.png,common/txt/txt_dw_dax.png
+14,,Giratina Dacrai,2391,config/big_hero/normal/img_487_qldnsxt@.png,2,,common/txt/txt_qldn.png,common/txt/txt_dw_qldn.png,2431,config/big_hero/normal/img_491_dkly@.png,1.6,,common/txt/txt_dkly.png,common/txt/txt_dw_dkly.png
+15,,Regichkas/Semi,2441,config/big_hero/normal/img_492_xm@.png,2,,common/txt/txt_xm.png,common/txt/txt_dw_xm.png,2381,config/big_hero/normal/img_486_ljqks@.png,2.33,,common/txt/txt_ljqks.png,common/txt/txt_dw_ljqks.png
+16,,Rift Seat Rogia,1981,config/big_hero/normal/img_384_lkz@.png,2.33,,common/txt/txt_lkz.png,common/txt/txt_dw_lkz.png,1261,config/big_hero/normal/img_249_lqy@.png,2.618,,common/txt/txt_lqy.png,common/txt/txt_dw_lqy.png
+17,,Hupatia Lucca,3641,config/big_hero/normal/img_720_cjhp@.png,2,,common/txt/txt_cjhp.png,common/txt/txt_dw_hp.png,2351,config/big_hero/normal/img_483_dylk@.png,2.33,,common/txt/txt_dylk.png,common/txt/txt_dw_dylk.png
+18,,Palkiya Rahiram,3211,config/big_hero/normal/img_643_lxlm@.png,2,,common/txt/txt_lxlm.png,common/txt/txt_dw_lxlm.png,2361,config/big_hero/normal/img_484_plqy@.png,2.33,,common/txt/txt_plqy.png,common/txt/txt_dw_plqy.png
+19,,Rift Seat Darkrai,1981,config/big_hero/normal/img_384_lkz@.png,2.33,,common/txt/txt_lkz.png,common/txt/txt_dw_lkz.png,2431,config/big_hero/normal/img_491_dkly@.png,1.6,,common/txt/txt_dkly.png,common/txt/txt_dw_dkly.png
+20,,Giratina Zekrom,3221,config/big_hero/normal/img_644_jklm@.png,2,,common/txt/txt_jklm.png,common/txt/txt_dw_jklm.png,2391,config/big_hero/normal/img_487_qldnsxt@.png,2,,common/txt/txt_qldn.png,common/txt/txt_dw_qldn.png
+21,,Dacrei Gruado,2431,config/big_hero/normal/img_491_dkly@.png,1.6,,common/txt/txt_dkly.png,common/txt/txt_dw_dkly.png,1971,config/big_hero/normal/img_383_gld@.png,2.618,,common/txt/txt_gld.png,common/txt/txt_dw_gld.png
+22,,Regicz Kaskeoka,1961,config/big_hero/normal/img_382_gok@.png,2,,common/txt/txt_gok.png,common/txt/txt_dw_gok.png,2381,config/big_hero/normal/img_486_ljqks@.png,2.33,,common/txt/txt_ljqks.png,common/txt/txt_dw_ljqks.png
+23,,Kyurem/Semi,3241,config/big_hero/normal/img_646_qlm@.png,2,,common/txt/txt_qlm.png,common/txt/txt_dw_qlm.png,2441,config/big_hero/normal/img_492_xm@.png,2,,common/txt/txt_xm.png,common/txt/txt_dw_xm.png
+24,,Regichkas/Tianxi,2381,config/big_hero/normal/img_486_ljqks@.png,2.33,,common/txt/txt_ljqks.png,common/txt/txt_dw_ljqks.png,3631,config/big_hero/standby/img_719_dax@.png,2.33,,common/txt/txt_dax.png,common/txt/txt_dw_dax.png
+25,,Gaiokalochia,1961,config/big_hero/normal/img_382_gok@.png,2,,common/txt/txt_gok.png,common/txt/txt_dw_gok.png,1261,config/big_hero/normal/img_249_lqy@.png,2.618,,common/txt/txt_lqy.png,common/txt/txt_dw_lqy.png
+26,,meloyetahupa,3261,config/big_hero/normal/img_648_mlyt@.png,2,,common/txt/txt_mlyt.png,common/txt/txt_dw_mlyt.png,3641,config/big_hero/normal/img_720_cjhp@.png,2,,common/txt/txt_cjhp.png,common/txt/txt_dw_hp.png
+27,,Kiraqi/Rashiram,1991,config/big_hero/normal/img_385_jlq@.png,2,,common/txt/txt_jlq.png,common/txt/txt_dw_jlq.png,3211,config/big_hero/normal/img_643_lxlm@.png,2,,common/txt/txt_lxlm.png,common/txt/txt_dw_lxlm.png
+28,,Tianxi/Lugia,3631,config/big_hero/standby/img_719_dax@.png,2.33,,common/txt/txt_dax.png,common/txt/txt_dw_dax.png,1261,config/big_hero/normal/img_249_lqy@.png,2.14,,common/txt/txt_lqy.png,common/txt/txt_dw_lqy.png
+29,,Palkia/Darkrai,2361,config/big_hero/normal/img_484_plqy@.png,2.33,,common/txt/txt_plqy.png,common/txt/txt_dw_plqy.png,2431,config/big_hero/normal/img_491_dkly@.png,1.6,,common/txt/txt_dkly.png,common/txt/txt_dw_dkly.png
+30,,Meltan/Czech Rom,4171,config/big_hero/normal/img_809_mlmt@.png,2,,common/txt/txt_mlmt.png,common/txt/txt_dw_mlmt.png,3221,config/big_hero/normal/img_644_jklm@.png,2,,common/txt/txt_jklm.png,common/txt/txt_dw_jklm.png
+31,,Rift Seat Gulardo,1981,config/big_hero/normal/img_384_lkz@.png,2.33,,common/txt/txt_lkz.png,common/txt/txt_dw_lkz.png,1971,config/big_hero/normal/img_383_gld@.png,2.618,,common/txt/txt_gld.png,common/txt/txt_dw_gld.png
+32,,Giratina Regichkas,2391,config/big_hero/normal/img_487_qldnsxt@.png,2,,common/txt/txt_qldn.png,common/txt/txt_dw_qldn.png,2381,config/big_hero/normal/img_486_ljqks@.png,2.33,,common/txt/txt_ljqks.png,common/txt/txt_dw_ljqks.png
+33,,Yveltal Kyurem,3611,config/big_hero/normal/img_717_ypete@.png,2,,common/txt/txt_ypete.png,common/txt/txt_dw_ypete.png,3241,config/big_hero/normal/img_646_qlm@.png,2,,common/txt/txt_qlm.png,common/txt/txt_dw_qlm.png
+34,,Guradotianci,1961,config/big_hero/normal/img_382_gok@.png,2,,common/txt/txt_gok.png,common/txt/txt_dw_gok.png,3631,config/big_hero/standby/img_719_dax@.png,2.33,,common/txt/txt_dax.png,common/txt/txt_dw_dax.png
+35,,Shamy/Dialga,2441,config/big_hero/normal/img_492_xm@.png,2,,common/txt/txt_xm.png,common/txt/txt_dw_xm.png,2351,config/big_hero/normal/img_483_dylk@.png,2.33,,common/txt/txt_dylk.png,common/txt/txt_dw_dylk.png
+36,,Rabbi Meloyetta,1281,config/big_hero/normal/img_251_slb@.png,2,,common/txt/txt_slb.png,common/txt/txt_dw_slb.png,3261,config/big_hero/normal/img_648_mlyt@.png,2,,common/txt/txt_mlyt.png,common/txt/txt_dw_mlyt.png
+37,,Darkley,2431,config/big_hero/normal/img_491_dkly@.png,1.6,,common/txt/txt_dkly.png,common/txt/txt_dw_dkly.png,,,,,,

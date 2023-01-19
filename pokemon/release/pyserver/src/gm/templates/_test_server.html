@@ -1,0 +1,276 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<!-- x-editable -->
+	<link rel="stylesheet" href={{ static_url("node_modules/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css") }} />
+	<script src={{ static_url("node_modules/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js") }}></script>
+	<!-- bootstrap-table extensions -->
+	<script src={{ static_url("node_modules/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.min.js") }}></script>
+
+	<style>
+		.pull-left.pagination-detail {
+			display:none;
+		}
+
+		#internal-serv > div {
+			margin-top: 8px;
+		}
+
+		#internal-serv label {
+			width: 112px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>server configuration</h4></div>
+		</div>
+		<div class="well">
+			<div class="row">
+	        	<div class="col-lg-6 col-md-6 border-left">
+	        		<div>
+	        			<button id='save-setting' class='btn btn-primary'>Save configuration</button>
+	        		</div>
+	        		<table id="t1"></table>
+	        	</div>
+	        	<div class="col-lg-6 col-md-6">
+	        		<div id="internal-serv">
+	        			<div>
+	        				<form class="form-inline">
+		        				<div class="form-group">
+		        					<label>Current server time</label>
+		        					<div id="show-serv-time" class="form-control">{{ internal_server_time }}</div>
+		        				</div>
+		        			</form>
+	        			</div>
+	        			<div>
+	        				<form class="form-inline">
+		        				<div class="form-group">
+		        					<label>Change the server time</label>
+		        					<input id="w-serv-time" type="datetime-local" class="form-control">
+		        					<input id="submit-serv-time" type="button" class="form-control btn btn-primary" value="Confirm the change">
+		        				</div>
+		        			</form>
+	        			</div>
+	        			<div>
+	        				<form class="form-inline">
+		        				<div class="form-group">
+		        					<label>Restart the selection servicet the selection service</label>
+		        					<input id="restart-serv" type="button" class="form-control btn btn-primary" value="Start to restart">
+		        					<div id="restart-serv-display" class="form-control hidden"></div>
+		        				</div>
+		        			</form>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </div>
+		</div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function restartServ(id) {
+			$.ajax({
+    			url: "/test_server/t",
+    			type: "post",
+    			async: true,
+    			dataType: "json",
+    			contentType: "application/json",
+    			data: JSON.stringify([id]),
+    			success: function(rep) {
+					$('#t1').bootstrapTable('refresh');
+					alert("success.");
+    			}
+    		})
+		}
+
+		$(function() {
+			// Comparison table data
+			const compare = function(n) {
+				let ret = {};
+				let a = null;
+				let b = null;
+
+				for (let i=0; i<n.length; i++) {
+					b = n[i]
+					if (!(b.id in cData))
+						continue
+
+					a = cData[n[i].id]
+
+					if (!(a.language === b.language)) {
+						if (!(a.id in ret))
+							ret[a.id] = {};
+						ret[a.id].language = b.language;
+					}
+					if (!(a.openDate === b.openDate)) {
+						if (!(a.id in ret))
+							ret[a.id] = {};
+						ret[a.id].openDate = b.openDate;
+					}
+				}
+
+				return ret
+			}
+
+			// servTable Field configuration
+			const servTableColumns = [
+				{field: 'checked', checkbox: true, align: 'center', valign: 'middle',},
+	        	{field: 'id', title: 'Area clothing', align: 'center',},
+	            {field: 'dev', title: 'name', align: 'center',},
+	            {field: 'openDate', title: 'Start time', align: 'center', 'editable': {'type': 'text',}},
+	            {field: 'language', title: 'language', align: 'center', 'editable': {'type': 'text',}},
+	            {field: 'status', title: 'state', align: 'center',},
+	            {field: 'op', title: '', align: 'center',
+		            formatter: function(value, row, index) {
+		            	let btn = `<button class="btn btn-primary btn-xs" onclick="restartServ('${row.id}')">Restart</button>`
+	                	return btn;
+					}
+				}
+			]
+
+			// Real -time time
+			function formatDate(Date) {
+				var month = Date.getMonth() + 1;
+				var day = Date.getDate();
+				if (month < 10) {
+					month = "0" + month;
+				};
+				if (day < 10) {
+					day = "0" + day;
+				};
+				var date = Date.getFullYear() + "-" + month + "-" + day;
+				var time = Date.toTimeString().split(" ")[0];
+				return date + " " + time;
+			};
+			var servTime = window.setInterval(function(){
+				// var ele = $("#internal-server-time").children().eq(1);
+				var ele = $("#show-serv-time");
+				var time = new Date(ele.text());
+				time.setSeconds(time.getSeconds() + 1);
+				ele.text(formatDate(time));
+			}, 1000);
+
+			$('#t1').bootstrapTable({
+		        url: '/test_server/t',
+		        method: 'get',
+		        ajaxOptions: {async: false},
+		        dataType: 'json',
+		        cache: false,
+		        striped: true,
+		        pagination: true,
+		        sidePagination: "client",
+		        paginationVAlign: "top",
+		        paginationAlign: "left",
+		        pageNumber: 1,
+		        pageSize: 20,
+		        pageList: [20, 30, 40, 50],
+		        sortName: "id",
+		    	sortOrder: "asc",
+		        search: false,
+		        strictSearch: true,
+		        searchOnEnterKey: true,
+		        searchAlign: "right",
+		        showColumns: false,
+		        showRefresh: false,
+		        clickToSelect: true,
+		        classes: "table table-hover table-no-bordered",
+		        columns: servTableColumns,
+		    });
+			const data = $('#t1').bootstrapTable('getData')
+			var cData = {};
+			for (let i=0; i<data.length; i++) {
+				cData[data[i].id] = JSON.parse(JSON.stringify(data[i]))
+			}
+
+			// Change time
+			$("#submit-serv-time").on("click", function() {
+				var t = $("#w-serv-time").val();
+				if (t === "") {
+					alert("Please fill in the full time！");
+				} else {
+					self = $(this);
+					self.addClass("disabled");
+					var tmp = t.split("T");
+					t = tmp[0] + " " + tmp[1] + ":00";
+					console.log(t)
+					$.ajax({
+						url: "/test_server",
+						type: "post",
+						dataType: "json",
+						contentType: "application/json",
+						async: true,
+						data: JSON.stringify({"time": t}),
+						success: function(rep) {
+							if (rep.ret === "invalid") {
+								alert("Timeout, please log in again！");
+								return;
+							}
+							if (rep.ret) {
+								$("#show-serv-time").text(t);
+							}
+						},
+						complete: function() {
+							self.removeClass("disabled");
+						}
+					})
+				}
+			});
+
+			// Restart
+			$("#restart-serv").on("click", function() {
+				var selected = $('#t1').bootstrapTable('getSelections');
+		    	var area = new Array();
+		    	if (selected.length === 0) {
+		    		alert("Uncontired area service");
+		    	} else {
+		    		self = $(this);
+		    		self.addClass("disabled");
+		    		for (var i=0; i<selected.length; i++) {
+		    			area.push(selected[i]["id"]);
+		    		};
+		    		$.ajax({
+		    			url: "/test_server/t",
+		    			type: "post",
+		    			async: true,
+		    			dataType: "json",
+		    			contentType: "application/json",
+		    			data: JSON.stringify(area),
+		    			success: function(rep) {
+		    				if (rep.ret === "invalid") {
+								alert("Timeout, please log in again！");
+								return;
+							}
+							if (rep.ret) {
+								$('#t1').bootstrapTable('refresh');
+								alert("Restart successfully.");
+								self.removeClass("disabled");
+							}
+		    			}
+		    		})
+		    	};
+			})
+
+			// Save configuration
+			$('#save-setting').on("click", function() {
+				$('#t1').bootstrapTable('getData');
+				let m = compare(data);
+				console.log(m)
+				$.ajax({
+					url: '/test_server/set',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify(m),
+					success: function(result) {
+						alert('success')
+					}
+				})
+			})
+		})
+	</script>
+{% end %}

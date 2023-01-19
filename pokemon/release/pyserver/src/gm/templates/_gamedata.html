@@ -1,0 +1,301 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<script src={{ static_url("node_modules/chart.js/dist/Chart.min.js") }}></script>
+	<link rel="stylesheet" href={{ static_url("node_modules/chart.js/dist/Chart.min.css") }} />
+	<style>
+
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u'Game data') }}</h4></div>
+		</div>
+
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<form class="form-inline" role="form">
+        				<div class="form-group">
+						  	<label>{{ _(u'server')}} </label>
+						    <input id="serv-select" class="form-control input-sm" data-toggle="modal" data-target="#serv-select-modal">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label>{{ _(u'channel')}} </label>
+						    <input id="channel-select" class="form-control input-sm" data-toggle="modal" data-target="#channel-select-modal">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label>{{ _(u'time')}} </label>
+						    <input id="date" type="date" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m hidden">
+						  	<label>{{ _(u'Starting time')}} </label>
+						    <input id="start-date" type="date" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m hidden">
+						  	<label>{{ _(u'End Time')}} </label>
+						    <input id="end-date" type="date" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label></label>
+						    <input id='search' type="button" class="form-control btn btn-success btn-circle input-sm" value='{{ _(u"Inquire")}}' onclick='onlineClick()'>
+						</div>
+					</form>
+        		</div>
+        	</div>
+
+        	<div class="row margin-top-m">
+        		<div class="col-lg-12">
+	        		<ul class="nav nav-tabs">
+					    <li class="active"><a href="#online" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Today's online") }}</a></li>
+						<li><a href="#lost" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Loss statistics ") }}</a></li>
+						<li><a href="#ltv" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"LTV") }}</a></li>
+					</ul>
+	        	</div>
+        	</div>
+
+        	<div class="row">
+	        	<div class="col-lg-12">
+	        		<div id="tabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="online">
+			        		<div id='fu-chart' class='margin-top-m'>
+			        			<canvas id="result-chart"></canvas>
+			        		</div>
+						</div>
+
+						<div class="tab-pane fade" id="lost">
+							<div>
+								<table id="result-table1"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="ltv">
+							<div>
+								<table id="result-table2"></table>
+							</div>
+						</div>
+
+					</div>
+
+	        	</div>
+	        </div>
+
+        	<div class="row margin-top-m">
+        		<div id='fu-chart' class="col-lg-12">
+        			<canvas id="result-chart"></canvas>
+        		</div>
+        	</div>
+        </div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function changeFixedForTab(self) {
+			let clickFun = null;
+			let href = $(self).attr("href");
+			let $startDate = $("#start-date");
+			let $endDate = $("#end-date");
+			let $date = $("#date");
+
+			if (href === '#online') {
+				clickFun = 'onlineClick()';
+				$startDate.parent().addClass('hidden');
+				$endDate.parent().addClass('hidden');
+				$date.parent().removeClass('hidden');
+			}
+			else if (href === '#lost' || href === '#ltv') {
+				if (href === '#lost')
+					clickFun = 'lostClick()';
+				else
+					clickFun = 'ltvClick()';
+
+				$startDate.parent().removeClass('hidden');
+				$endDate.parent().removeClass('hidden');
+				$date.parent().addClass('hidden');
+			}
+			else {
+				console.log('tab error');
+				return;
+			}
+
+			$("#search").attr("onclick", clickFun);
+		}
+
+		function getReqData() {
+			let reqData = {};
+
+			// serv channel
+			let servName = $("#serv-select").val();
+			if (servName)
+				reqData.servName = servName;
+			let channelName = $("#channel-select").val();
+			if (channelName)
+				reqData.channel = channelName;
+
+			// date
+			if (!($('#date').parent().hasClass('hidden'))) {
+				let date = $('#date').val()
+				if (date)
+					reqData.date = date2int(date);
+			}
+
+			if (!($('#start-date').parent().hasClass('hidden'))) {
+				let d = getStartAndEndDate()
+				if (d === null || d[0] === null || d[1] === null) {
+					alert('date is error');
+					return false;
+				}
+				reqData.startDate = d[0];
+				reqData.endDate = d[1];
+			}
+
+			return reqData;
+		}
+
+		function onlineClick() {
+			let reqData = getReqData();
+			if (reqData === false)
+				return;
+
+			$.ajax({
+				url: '/online_player',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(result) {
+					resetCanvas("result-chart", "fu-chart");
+					// line chart
+					let ctx = document.getElementById("result-chart");
+					let chartData = {
+						labels: result.labels,
+						datasets: [
+							{
+								label: 'today',
+								data: result.datas.today,
+
+								fill: false,
+				                backgroundColor: 'transparent',
+				                borderColor: 'red',
+				                borderWidth: 1.5,
+				                pointBackgroundColor: 'red',
+				                pointRadius: 2, // Point radius size
+				                lineTension: 0, //Bending of lines
+				                steppedLine: false, //When True, the folding line will lose tension
+							},
+							{
+								label: 'yesterday',
+								data: result.datas.yesterday,
+
+								fill: false,
+				                backgroundColor: 'transparent',
+				                borderColor: 'gray',
+				                borderWidth: 1.5,
+				                pointBackgroundColor: 'gray',
+								pointradius: 2, // point radius size
+								LineTension: 0, // line curvature
+								Steppedline: False, // When True, the folding line will lose tension
+							},
+							{
+								label: reqData.date,
+								data: result.datas.choice,
+
+								fill: false,
+				                backgroundColor: 'transparent',
+				                borderColor: 'blue',
+				                borderWidth: 1.5,
+				                pointBackgroundColor: 'blue',
+				                pointradius: 2, // point radius size
+								LineTension: 0, // line curvature
+								Steppedline: False, // When True, the folding line will lose tension
+							},
+						]
+					};
+					if (!(reqData.date)) {
+						chartData.datasets.splice(2,1)
+					}
+					let c1 = new Chart(ctx, {
+						type: 'line',
+						data: chartData,
+						options: ChartOptions,
+					});
+				}
+			})
+
+		}
+
+		function lostClick() {
+			let reqData = getReqData();
+			if (reqData === false)
+				return;
+
+			$.ajax({
+				url: '/lost',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(result) {
+					$('#result-table1').bootstrapTable('destroy')
+					$('#result-table1').bootstrapTable({
+				        pagination: true,
+						striped: true,
+						sidePagination: "client",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+		                columns: result["columns"],
+		                data: result["data"],
+		    //             rowStyle: function (row, index) {
+		    //                 var dt = new Date();
+		    //                 dt.setFullYear(row.date / 10000, (row.date / 100) % 100, row.date % 100);
+		    //                 if (dt.getDay() === 5)
+		    //                     return {classes: 'warning'};
+		    //                 return {}
+						// },
+						locale: userLocale
+				    });
+				}
+			})
+
+		}
+
+		function ltvClick() {
+			let reqData = getReqData();
+			if (reqData === false)
+				return;
+
+			$.ajax({
+				url: '/ltv',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(result) {
+					$('#result-table2').bootstrapTable('destroy');
+					$('#result-table2').bootstrapTable({
+				        pagination: true,
+						striped: true,
+						sidePagination: "client",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+				        columns: result["columns"],
+				        data: result["data"],
+				        locale: userLocale
+				    });
+				}
+			})
+
+		}
+
+		$(function() {
+			paddingInputDate($("#start-date"));
+			paddingInputDate($("#end-date"));
+		})
+	</script>
+{% end %}

@@ -1,0 +1,23 @@
+﻿变量名,huodongID,timing,dropsTempo,timeScore
+默认值,0,0,{},0
+ID,活动版本ID,时间阶段,掉落个数,得分
+1,101031,15,{1=12; 2=6;effect=effect1_loop},30
+2,101031,40,{1=35;2=12;effect=effect1_loop},40
+3,101031,60,{1=33;2=11;effect=effect2_loop},50
+4,101031,80,{1=40;2=13;effect=effect2_loop},60
+5,101031,100,{1=50;2=14;effect=effect3_loop},70
+6,101031,120,{1=50;2=14;effect=effect3_loop},70
+,,,,
+11,10001,5,{1=5; 2=2;effect=effect1_loop},5
+12,10001,15,{1=10; 2=4;effect=effect1_loop},10
+13,10001,20,{1=11;2=4;effect=effect1_loop},15
+14,10001,30,{1=14;2=4;effect=effect1_loop},20
+15,10001,40,{1=14;2=4;effect=effect1_loop},20
+16,10001,50,{1=20;2=5;effect=effect2_loop},25
+17,10001,60,{1=20;2=6;effect=effect2_loop},25
+18,10001,70,{1=20;2=6;effect=effect2_loop},30
+19,10001,80,{1=20;2=7;effect=effect2_loop},30
+20,10001,90,{1=25;2=7;effect=effect3_loop},35
+21,10001,100,{1=25;2=7;effect=effect3_loop},35
+22,10001,110,{1=25;2=7;effect=effect3_loop},35
+23,10001,120,{1=25;2=7;effect=effect3_loop},35

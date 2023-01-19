@@ -1,0 +1,151 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"Retain query")}}</h4></div>
+		</div>
+
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<form class="form-inline" role="form">
+        				<!-- <div class="form-group">
+						  	<label class="radio-inline">
+					            <input type="radio" name="optionsRadiosinline" value="option1" checked>New users
+					        </label>
+					        <label class="radio-inline">
+					            <input type="radio" name="optionsRadiosinline" value="option2" >Paying users
+					        </label>
+					        <label class="radio-inline">
+					            <input type="radio" name="optionsRadiosinline" value="option3" >New payment users
+					        </label>
+						</div> -->
+						<div class="form-group">
+						  	<label>{{ _(u'server') }}</label>
+						    <input id="serv-select" class="form-control input-sm" data-toggle="modal" data-target="#serv-select-modal">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label>{{ _(u'channel') }} </label>
+						    <input id="channel-select" class="form-control input-sm" data-toggle="modal" data-target="#channel-select-modal">
+						  </div>
+					    <div class="form-group margin-left-m">
+						  	<label>{{ _(u'Starting time') }}</label>
+					        <input id='start-date' type="date" class="form-control input-sm">
+					  	</div>
+					  	<div class="form-group margin-left-m">
+						  	<label>{{ _(u'End Time') }}</label>
+					        <input id="end-date" type="date" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label></label>
+					        <input id="search" type="button" class="form-control btn btn-success btn-circle input-sm" value="Inquire">
+						</div>
+					</form>
+        		</div>
+        	</div>
+        	<div class="row margin-top-m">
+				<div class="col-lg-12">
+	        		<ul class="nav nav-tabs">
+					    <li class="active"><a href="#account-info" data-toggle="tab">{{ _(u"Account dimension ") }}</a></li>
+						<li><a href="#role-info" data-toggle="tab">{{ _(u"Role dimension") }}</a></li>
+					</ul>
+	        	</div>
+			</div>
+        	<div class="row margin-top-m">
+        		<div class="col-lg-12">
+        			<div id="tabContent" class="tab-content">
+						<div class="dimension tab-pane fade in active" id="account-info">
+							<div>
+								<table id="result-table"></table>
+							</div>
+						</div>
+
+						<div class="dimension tab-pane fade" id="role-info">
+							<div>
+								<table id="result-table2"></table>
+							</div>
+						</div>
+					</div>
+        		</div>
+        	</div>
+        </div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		$(function() {
+			paddingInputDate($("#start-date"));
+			paddingInputDate($("#end-date"));
+
+			$('#search').on('click', function() {
+				let reqData = {};
+
+				let tag = "account-info";
+				$(".dimension").each(function(index, ele) {
+					if ($(ele).hasClass("active")) {
+						tag = ele.id;
+					}
+				})
+				reqData.tag = tag;
+
+				let d = getStartAndEndDate()
+				if (d === null || d[0] === null || d[1] === null) {
+					alert('date is error');
+					return;
+				}
+				reqData.startDate = d[0];
+				reqData.endDate = d[1];
+
+				let servName = $("#serv-select").val();
+				if (servName)
+					reqData.servName = servName;
+				let channelName = $("#channel-select").val();
+				if (channelName)
+					reqData.channel = channelName;
+
+				$.ajax({
+					url: '/retention',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify(reqData),
+					success: function(result) {
+						let element = '#result-table';
+						if (tag === "role-info") {
+							element = '#result-table2';
+						}
+						$(element).bootstrapTable('destroy');
+						$(element).bootstrapTable({
+					        pagination: true,
+							striped: true,
+							sidePagination: "client",
+							pageNumber: 1,
+							pageSize: 10,
+							pageList: [10, 20, 30, 40, 50],
+					        columns: result["columns"],
+					        data: result["data"],
+					        // rowStyle: function (row, index) {
+					        //   var dt = new Date();
+					        //   dt.setFullYear(row.date / 10000, (row.date / 100) % 100, row.date % 100);
+					        //   if (dt.getDay() === 5)
+					        //     return {classes: 'warning'};
+					        //   return {};
+					        // },
+					        locale: userLocale
+					    });
+					}
+				})
+
+
+			})
+		})
+	</script>
+{% end %}

@@ -1,0 +1,261 @@
+{% extends "dashboard.html" %}
+
+{% block head %}
+	<style>
+		.issue-detail-header > div {
+			float: none;
+			display: inline-block;
+    		vertical-align: middle;
+    		text-align: center;
+		}
+
+		.chart-f {
+			display: inline-block;
+		}
+
+		.chart-f + div {
+			display: inline-block;
+			float: right;
+		}
+
+		#div-crashinfo-frequency-chart {
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+
+		#extra_info {
+			font-size: 13px;
+			color: #777;
+			text-align: left;
+		}
+
+		.pull-left.pagination-detail {
+			display:none;
+		}
+
+		#full-btn {
+			cursor: pointer;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="row m-head">
+		<div class="col-lg-3 col-md-4 col-sm-5 col-xs-6"><h4>Break Data Analysis -Issue Details<h4></div>
+	</div>
+
+	<div class="modal fade" id="switch-status-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+							aria-hidden="true">×
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						Please enter the remarks information
+					</h4>
+				</div>
+				<div class="modal-body">
+					<textarea id="switch-status-content" class="form-control" placeholder="Please add remarks here " maxlength="200" rows="3"></textarea>
+					<div>
+						<strong><span id="switch-status-error" style="color: red"></span></strong>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default"
+							data-dismiss="modal">closure
+					</button>
+					{% if info["status"] %}
+						<button type="button" onclick="switchStatus(-1)" class="btn btn-primary">submit</button>
+					{% else %}
+						<button type="button" onclick="switchStatus(1)" class="btn btn-primary">submit</button>
+					{% end %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="well">
+		<div class="row issue-detail-header">
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<div id="stack-id">{{ info["id"] }}</div>
+			</div>
+			<div class="col-lg-1 col-md-1">
+				{% if "ident_more" in info %}
+					<div id="stack-style" params=-1>Crash</div>
+				{% else %}
+					<div id="stack-style" params=1>Error</div>
+				{% end %}
+			</div>
+			<div class="col-lg-5 col-md-5">
+				{% if len(info["feature"]) > 135 %}
+					<div>{{ info["feature"][:130] + "~~~" }}</div>
+				{% else %}
+					<div>{{ info["feature"] }}</div>
+				{% end %}
+			</div>
+			<div class="col-lg-1 col-md-1">
+				<div>Report</div>
+				<div id="full-version">
+					{% for i in info["report_version"] %}
+						<div>{{ i }}</div>
+					{% end %}
+				</div>
+				<div><a id="full-btn"></a></div>
+			</div>
+			<div class="col-lg-1 col-md-1">
+				<div>Number of reports</div>
+				<div>{{ info["count"] }}</div>
+			</div>
+			<div class="col-lg-1 col-md-1">
+				<div>Influence users</div>
+				{% if tag == 'shuma'%}
+					<div>{{ len(info["game_account"]) }}</div>
+				{% else %}
+					<div>{{ len(info["imei"]) }}</div>
+				{% end %}
+			</div>
+			<div class="col-lg-1 col-md-1">
+				{% if info["status"] %}
+					<div><a href="#switch-status-modal" class="btn btn-primary" data-toggle="modal">Turn to unprocessed <o unprocessed</a></div>
+				{% else %}
+					<div><a href="#switch-status-modal" class="btn btn-success" data-toggle="modal">Turn to processed</a></div>
+				{% end %}
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+			<div class="well">
+		        <div>
+					<span>Equipment distribution map</span>
+				</div>
+				<canvas id="crashinfo-equipment-chart" width='115' height='35'></canvas>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+			<div class="well">
+				<div>
+					<span>System distribution diagram</span>
+				</div>
+				<canvas id="crashinfo-system-chart" width='115' height='35'></canvas>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+			<div class="well">
+		        <div>
+					<span>SDK distribution map</span>
+				</div>
+				<canvas id="crashinfo-sdk-chart" width='115' height='35'></canvas>
+			</div>
+		</div>
+	</div>
+
+	<div class="well">
+		<div>
+			<div class="chart-f">
+				<span>Distributed map of the number of reports</span>
+			</div>
+			<div>
+				<form role="form">
+				  <div class="form-group">
+				    <select id="ch-chart-select" class="form-control input-sm">
+				      <option option_value=24>24 hours</option>
+				      <option option_value=7>7 days</option>
+				      <option option_value=30>30 days</option>
+				    </select>
+				  </div>
+				</form>
+			</div>
+		</div>
+		<div id="div-crashinfo-frequency-chart">
+			<canvas class="my-4 w-100" id="crashinfo-frequency-chart" width="600" height="80"></canvas>
+		</div>
+	</div>
+
+	<div class="row">
+    	<div class="col-lg-3">
+    		<div class="well">
+				<div>
+					<span>Detail</span>
+				</div>
+				<div>
+					<table id="crashinfo-table" ></table>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3">
+			<div class="well">
+				<div style="margin-bottom: 5px;">
+					<span>Device Information</span>
+				</div>
+				<div class="pre-scrollable">
+					<table class="table table-striped table-condensed">
+					  <tbody id="extra_info"></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="well">
+				<div>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#crash-con-a" data-toggle="tab">Error message</a></li>
+						{% if "ident_more" in info %}
+							<li><a href="#crash-thr-a" data-toggle="tab">Error threadr thread</a></li>
+						    <li><a href="#crash-all-a" data-toggle="tab">All threads</a></li>
+						{% end %}
+						<li><a href="#app_debug_log" data-toggle="tab">Player running log</a></li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<div id="crash-con-a" class="tab-pane fade in active">
+						<div class="pre-scrollable">
+							<pre id="crash-con"></pre>
+						</div>
+					</div>
+					<div id="crash-thr-a" class="tab-pane fade">
+						<div class="pre-scrollable">
+							<pre id="crash-thr"></pre>
+						</div>
+					</div>
+					<div id="crash-all-a" class="tab-pane fade">
+						<div class="pre-scrollable">
+							<pre id="crash-all"></pre>
+						</div>
+					</div>
+					<div id="app_debug_log" class="tab-pane fade">
+						<div class="pre-scrollable">
+							<pre id="app_debug">test</pre>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="well">
+    	<div>
+			<form id="crash_comment" role="form">
+			  <div class="form-group">
+			    <label for="name">Remark</label>
+			    <textarea class="form-control" placeholder="Please add remarks here" maxlength="200" rows="3"></textarea>
+			    <button type="button" class="btn btn-primary" style="float:right; margin-top:5px;">submit</button>
+			    <div style="clear: both;"></div>
+			  </div>
+			</form>
+		</div>
+		<div id="crash_comment_view" style="width: 70%;">
+			{% for com in info["comment"] %}
+				<p>{{ com["name"]}} {{ com["time"] }}：</p>
+				<pre>{{ com["comments"] }}</pre>
+			{% end %}
+		</div>
+	</div>
+{% end %}
+
+{% block foot %}
+	<script src={{ static_url("js/fileupload.js") }}></script>
+	<script src={{ static_url("js/crashinfo.js") }}></script>
+{% end %}

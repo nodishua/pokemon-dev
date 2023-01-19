@@ -1,0 +1,48 @@
+﻿"﻿变量名",huodongID,_beizhu,name,name_tw,name_en,name_vn,name_kr,res,item,rechargeID,limitType,limitNum
+默认值,0,"""""","""""","""""","""""","""""","""""","""""",{},-1,,
+ID,活动版本ID,备注,礼包名字,礼包名字,礼包名字,礼包名字,礼包名字,礼包图标,内容(3种最多）,recharge表id,限购类型(1当日限购;2本次活动内限购;3不限购),限购次数
+1,101016,Growth gift pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx4.png,{rmb=60;stamina=100;gold=50000},102,2,1
+2,101016,Accessory growth gift pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx7.png,{501=3;100=5;930=10},106,2,1
+3,101016,Individual Value Gift Pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx5.png,{rmb=300;19=10;gold=100000},106,2,1
+4,101016,card draw package,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_zjbx6.png,{519=10;gold=100000;13=20},108,2,1
+5,101016,card draw package,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx8.png,{519=20;gold=200000;13=30},111,2,1
+,,,comeback pack,,,,,,,,,
+6,101017,Growth gift pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx4.png,{rmb=60;stamina=100;gold=50000},102,2,1
+7,101017,Accessory growth gift pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx7.png,{501=3;100=5;930=10},106,2,1
+8,101017,Individual Value Gift Pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx5.png,{rmb=300;19=10;gold=100000},106,2,1
+9,101017,card draw package,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_zjbx6.png,{519=10;gold=100000},108,2,1
+10,101017,card draw package,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx8.png,{519=20;gold=200000},111,2,1
+,,,comeback pack,,,,,,,,,
+11,101018,Growth gift pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx4.png,{rmb=60;stamina=100;gold=50000},102,2,1
+12,101018,Accessory growth gift pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx7.png,{501=3;100=5;930=10},106,2,1
+13,101018,Individual Value Gift Pack,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx5.png,{rmb=300;19=10;13=10},106,2,1
+14,101018,card draw package,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_zjbx6.png,{519=10;gold=100000;13=20},108,2,1
+15,101018,card draw package,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx8.png,{519=20;gold=200000;13=30},111,2,1
+,,,comeback pack,,,,,,,,,
+101,1001,Return to growth gift pack - 6 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+102,1001,Gold coin gift pack - 30 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+103,1001,Return Fragment Gift Pack - 98 yuan - limited to one purchase,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+104,1001,Draw card gift package - 198 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+105,1001,Purple gift bag - 328 yuan - purchase once a week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+106,1001,Returning star gift package - 328 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1
+,,,comeback pack,,,,,,,,,
+201,1002,Return to growth gift pack - 6 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+202,1002,Gold coin gift pack - 30 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+203,1002,Return Fragment Gift Pack - 98 yuan - limited to one purchase,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+204,1002,Draw card gift package - 198 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+205,1002,Purple gift bag - 328 yuan - purchase once a week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+206,1002,Returning star gift package - 328 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1
+,,,comeback pack,,,,,,,,,
+301,1003,Return to growth gift pack - 6 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+302,1003,Gold coin gift pack - 30 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+303,1003,Return Fragment Gift Pack - 98 yuan - limited to one purchase,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+304,1003,Draw card gift package - 198 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+305,1003,Purple gift bag - 328 yuan - purchase once a week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+306,1003,Returning star gift package - 328 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1
+,,,comeback pack,,,,,,,,,
+401,1004,Return to growth gift pack - 6 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+402,1004,Gold coin gift pack - 30 yuan - purchase once,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+403,1004,Return Fragment Gift Pack - 98 yuan - limited to one purchase,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+404,1004,Draw card gift package - 198 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+405,1004,Purple gift bag - 328 yuan - purchase once a week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+406,1004,Returning star gift package - 328 yuan - purchase limit 1 time per week,comeback pack,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1

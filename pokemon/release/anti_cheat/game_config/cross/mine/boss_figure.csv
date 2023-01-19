@@ -1,0 +1,6 @@
+变量名,bossRes,effectName,_beizhu
+默认值,"""""","""""",""""""
+ID,boss资源路径,boss动作名,备注
+1,"""crossmine/q_bossrukou.skel""","""standby_loop3""",The default is to display the activity entrance of the big boss
+2,"""crossmine/q_bossrukou.skel""","""standby_loop2""",One of the random objects at the entrance of the small boss
+3,"""crossmine/q_bossrukou.skel""","""standby_loop1""",One of the random objects at the entrance of the small boss

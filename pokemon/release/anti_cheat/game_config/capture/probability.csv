@@ -1,0 +1,14 @@
+﻿"﻿变量名",probability,desc,desc_tw,desc_en,desc_vn,desc_kr
+默认值,0,"""""","""""","""""","""""",""""""
+ID,最大等级,文本描述,文本描述,文本描述,文本描述,文本描述_韩
+,,,,,,
+1,100,Guarantee success,肯定成功,Guarantee success,Đảm bảo thành công,100% 성공
+2,90,It's basically stable,基本上是穩了,It's basically stable,Về cơ bản nó ổn định,매우 안정적
+3,80,Extremely high success rate,成功率極高,Extremely high success rate,Tỷ lệ thành công cực cao,성공률 극도로 높음
+4,70,High success rate,成功率很高,High success rate,Tỷ lệ thành công cao,성공률 무척 높음
+5,50,Success rate,成功率高,Success rate,Tỉ lệ thành công,성공률 높음
+6,40,Above average success rate,成功率中上,Above average success rate,Tỷ lệ thành công trên trung bình,성공률 중상
+7,30,Average success rate,成功率中等,Average success rate,Tỷ lệ thành công trung bình,성공률 보통
+8,20,Low success rate,成功率低,Low success rate,Tỷ lệ thành công thấp,성공률 낮음
+9,15,Low success rate,成功率很低,Low success rate,Tỷ lệ thành công thấp,성공률 무척 낮음
+10,10,Extremely low success rate,成功率極低,Extremely low success rate,Tỷ lệ thành công cực kỳ thấp,성공률 극도로 낮음

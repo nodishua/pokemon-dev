@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>Email the character</title>
+  </head>
+  <body>
+    <div id="body">
+      <div id="header">
+        <h1> Email the character</h1>
+      </div>
+
+      Please log in to the game first, and then perform the query operation</br></br>
+
+
+<div id="cardlist">
+<form action="/gm/send_mail_to_role" method="get">
+  Choose a role:</br>
+<select name="role_db_id">
+{% block body %}
+  {% for entry in entries %}
+    <option value="{{ entry[0] }}">{{ entry[1] }}</option>
+  {% end %}
+{% end %}
+</select></br></br>
+Select the send type (mail.csv):</br>
+<select name="mail_type">
+{% block body2 %}
+  {% for entry in mails %}
+    <option value="{{ entry[0] }}">{{ entry[1] }}</option>
+  {% end %}
+{% end %}
+</select></br></br>
+Enter a title:</br>
+<input type="text" name="subject" value="title">
+</br></br>Enter email content ：</br>
+<textarea name="content" rows="10" cols="30">
+  content
+</textarea>
+</br></br>Enter the attachment CSV ID, the configuration method is the same as the csv dictionary, the format is "{coin1=100;11=1;cards=<1;21>}":</br>
+<input type="text" name="attachs" value="{}"></br>
+</br></br><input type="submit" value="send">
+</form>
+</div>
+
+{{ gmRetInfo }}</br></br>
+<pre>
+{{ roleInfo }}
+</pre>
+
+
+    </div>
+  </body>
+</html>

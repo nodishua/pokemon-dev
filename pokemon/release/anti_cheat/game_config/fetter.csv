@@ -1,0 +1,617 @@
+﻿变量名,name,name_tw,name_en,name_kr,desc,desc_tw,desc_en,desc_vn,desc_th,cards,equipID,skinID,attrMap
+默认值,"""""","""""","""""",,,"""""","""""","""""","""""",<>,,,{}
+签到id,名称,名稱,名称,名称_韩,描述,描述,描述,描述,描述,关联卡牌id修正(这里程序用的是卡牌id，如果初始形态被删除，需要修改这里的id，需要程序优化),关联装备,关联皮肤,属性提升修正
+,,,,,,,,,,,,,
+11,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<281;2301;371;>,,,{7=10%;8=10%}
+12,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<781;1291;2011;>,,,{1=10%}
+13,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<11;21>,,,{7=10%;8=10%}
+111,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<1231;2481;1611;>,,,{7=10%;8=10%}
+112,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<791;3291;3341;>,,,{1=10%}
+113,Sun will,太陽意志,Sun will,태양의 의지,,,,,,<1;21>,,,{7=10%;8=10%}
+211,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<3471;91;3281;>,,,{7=10%;8=10%}
+212,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<801;551;631;>,,,{1=10%}
+213,Overturn,覆舟之勢,Overturn,전복,,,,,,<1;11>,,,{7=10%;8=10%}
+311,Bug Rising,蟲蟲崛起,Bug Rising,버그의 상승,,,,,,<351;71;81;>,,,{7=8%;8=8%}
+312,Forest Power,森林力量,Forest Power,숲의 힘,,,,,,<41;191;2681;>,,,{1=10%}
+313,Team Friendship,群體情誼,Team Friendship,그룹 우정,,,,,,<2891;551>,,,{7=8%;8=8%}
+411,Bug Rising,蟲蟲崛起,Bug Rising,버그의 상승,,,," ",,<31;111;51;>,,,{7=8%;8=8%}
+412,Forest Power,森林力量,Forest Power,숲의 힘,,,,,,<71;121;351;>,,,{1=10%}
+413,Team Friendship,群體情誼,Team Friendship,그룹 우정,,,,,,<2891;2681>,,,{7=8%;8=8%}
+511,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<281;91;271;>,,,{7=10%;8=10%}
+512,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<471;1441;191;>,,,{1=10%}
+513,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<131;301;891;>,,,{7=10%;8=10%}
+611,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<231;461;691;>,,,{7=8%;8=8%}
+612,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<351;1441;271;>,,,{1=10%}
+613,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<371;2891>,,,{7=8%;8=8%}
+711,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<41;31;2011;>,,,{7=8%;8=8%}
+712,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<351;451;3511;>,,,{1=10%}
+713,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<2271;271>,,,{7=8%;8=8%}
+811,Poison-type companions,毒系同伴,Poison-type companions,독의 동반자,,,,,,<101;371;451;>,,,{7=8%;8=8%}
+812,Poisonous Body,毒之身軀,Poisonous Body,유독 한 몸,,,,,,<121;111;2271;>,,,{1=10%}
+813,Mysterious power,神秘力量,Mysterious power,신비한 힘,,,,,,<781;51>,,,{7=8%;8=8%}
+911,Electric family,雷電家族,Electric family,라이덴 가족,,,,,,<51;551;731;>,,,{7=10%;8=10%}
+912,Power of Nature,自然之力,Power of Nature,자연의 힘,,,,,,<471;2071;591;>,,,{1=10%}
+913,Electric awareness,電光意識,Electric awareness,전기 광학 인식,,,,,,<1;11;21;>,,,{7=10%;8=10%}
+1011,Forest companions,森林同伴,Forest companions,숲의 동반자,,,,,,<351;691;301;>,,,{7=8%;8=8%}
+1012,Geomancy,大地掌控,Geomancy,지구 통제,,,,,,<451;61;2611;>,,,{1=10%}
+1013,Awakening detection,覺醒感應,Awakening detection,각성 유도,,,,,,<2071;481>,,,{7=8%;8=8%}
+1111,Poison-type companions,毒系同伴,Poison-type companions,독의 동반자,,,,,,<171;281;371;>,,,{7=8%;8=8%}
+1112,Poisonous Body,毒之身軀,Poisonous Body,유독 한 몸,,,,,,<121;81;481;>,,,{1=10%}
+1113,Mysterious power,神秘力量,Mysterious power,신비한 힘,,,,,,<1441;481>,,,{7=8%;8=8%}
+1211,Poison-type companions,毒系同伴,Poison-type companions,독의 동반자,,,,,,<1;481;2681;>,,,{7=8%;8=8%}
+1212,Poisonous Body,毒之身軀,Poisonous Body,유독 한 몸,,,,,,<111;2271;81;>,,,{1=10%}
+1213,Mysterious power,神秘力量,Mysterious power,신비한 힘,,,,,,<2922;2071>,,,{7=8%;8=8%}
+1311,Dragon Buster,龍族剋星,Dragon Buster,드래곤 네메시스,,,,,,<1441;1841;1081;>,,,{7=10%;8=10%}
+1312,Wide Companion,廣域夥伴,Wide Companion,광역 파트너,,,,,,<3431;891;451;>,,,{1=10%}
+1313,Moonblast,月亮之力,Moonblast,달의 힘,,,,,,<3281;1861;2921;>,,,{7=10%;8=10%}
+1511,Pokémon Alliance,妖精同盟,Pokémon Alliance,페어리 리그,,,,,,<3351;3431>,,,{7=10%;8=10%}
+1512,Normal Family,普通家庭,Normal Family,정상적인 가족,,,,,,<1441;471>,,,{1=10%}
+1513,Singing Idol,歌唱偶像,Singing Idol,노래하는 아이돌,,,,,,<1391;131>,,,{7=10%;8=10%}
+1611,Poison Bug,毒蟲出沒,Poison Bug,독충 출몰,,,,,,<3771;281;2271;>,,,{7=10%;8=10%}
+1612,Flying Family,飛行家族,Flying Family,비행 가족,,,,,,<3591;3661;2891;>,,,{1=12%}
+1613,Brock’s Partner,小剛夥伴,Brock’s Partner,웅의 파트너,,,,,,<401;1311;1351;>,,,{7=10%;8=10%}
+1614,Forest Counter,森林對抗,Forest Counter,산림 대항,,,,,,<1241;111;191;>,,,{23=500}
+1711,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<81;2271;3281;>,,,{7=8%;8=8%}
+1712,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<1351;1;2011;>,,,{1=10%}
+1713,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<371;2681;131;>,,,{7=8%;8=8%}
+1911,Bug Rising,蟲蟲崛起,Bug Rising,버그의 상승,,,,,,<61;371;1441;>,,,{7=8%;8=8%}
+1912,Forest Power,森林力量,Forest Power,숲의 힘,,,,,,<41;2681;481;>,,,{1=10%}
+1913,Team Friendship,群體情誼,Team Friendship,그룹 우정,,,,,,<301;3281>,,,{7=8%;8=8%}
+2211,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<631;1351>,,,{7=10%;8=10%}
+2212,Let's go,沖鴨沖鴨,Let's go,종덕 종덕,,,,,,<341;601>,,,{1=10%}
+2213,Turning water into ice,凝水成冰,Turning water into ice,얼음으로 응축,,,,,,<1861;3011>,,,{7=10%;8=10%}
+2311,Fighting Forces,格鬥勢力,Fighting Forces,싸우는 힘,,,,,,<451;2271;3511;>,,,{7=8%;8=8%}
+2312,Fist Power,拳之力量,Fist Power,주먹의 힘,,,,,,<461;271;2631;>,,,{1=10%}
+2313,Technique control,技巧掌控,Technique control,스킬 컨트롤,,,,,,<3011;371>,,,{7=8%;8=8%}
+2411,Towering Rage,怒火沖天,Towering Rage,너무 화났어,,,,,,<1231;3341;1611;>,,,{7=10%;8=10%}
+2412,Dog Pound,狗狗出擊,Dog Pound,개 공격,,,,,,<1171;1841>,,,{1=12%}
+2413,70mph,速度七十邁,70mph,70 걸음,,,,,,<261;351>,,,{7=10%;8=10%}
+2414,Fusion of Water and Fire,水火相融,Fusion of Water and Fire,물과 불,,,,,,<3301;791;551;>,,,{14=500}
+2611,Special Power,特異功能,Special Power,특정 기능,,,,,,<1391;1901>,,,{7=10%;8=10%}
+2612,Dispel Evil Spirits,惡靈退散,Dispel Evil Spirits,악령 퇴각,,,,,,<391;2921;3561;>,,,{1=12%}
+2613,Telepathy,心電感應,Telepathy,텔레파시,,,,,,<881;91;2891;>,,,{7=10%;8=10%}
+2614,Half asleep,半夢半醒,Half asleep,반쯤 깨어,,,,,,<1421;1441>,,,{22=500}
+2711,Fighting Forces,格鬥勢力,Fighting Forces,싸우는 힘,,,,,,<1071;471;3281;>,,,{7=10%;8=10%}
+2712,Fist Power,拳之力量,Fist Power,주먹의 힘,,,,,,<2631;3511;2271;>,,,{1=10%}
+2713,Technique control,技巧掌控,Technique control,스킬 컨트롤,,,,,,<2611;301;2821;>,,,{7=10%;8=10%}
+2811,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<2301;3281;1351;>,,,{7=10%;8=10%}
+2812,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<1;781;2011;>,,,{1=10%}
+2813,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<781;2681;2271;>,,,{7=10%;8=10%}
+3011,Rock Barrier,岩石壁壘,Rock Barrier,바위 장벽,,,,,,<3501;491;801;>,,,{7=10%;8=10%}
+3012,Sandstorm,沙暴之勢,Sandstorm,모래 폭풍,,,,,,<691;2591;101;>,,,{1=10%}
+3013,Natural combination,自然組合,Natural combination,자연스러운 조합,,,,,,<2481;2011;2611;>,,,{7=10%;8=10%}
+3311,Electric family,雷電家族,Electric family,라이덴 가족,,,,,,<591;731;2071;>,,,{7=10%;8=10%}
+3312,Steel Frame,鋼筋鐵骨,Steel Frame,강화 된 철 뼈,,,,,,<1901;2961>,,,{1=12%}
+3313,Charging and Shoving Around,橫衝直撞,Charging and Shoving Around,날 뛰기,,,,,,<1501;2611>,,,{7=10%;8=10%}
+3314,Levitation Control,懸浮操控,Levitation Control,플로팅 컨트롤,,,,,,<3021;2871;3561;>,,,{23=500}
+3411,General relationship,一般關係,General relationship,일반적인 관계,,,,,,<51;3511>,,,{7=10%;8=10%}
+3412,Duck Legion,鴨鴨軍團,Duck Legion,오리 군대,,,,,,<601;221>,,,{1=10%}
+3413,Companions,同行夥伴,Companions,동료 파트너,,,,,,<2241;391;91;>,,,{7=10%;8=10%}
+3511,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<61;471;51;>,,,{7=8%;8=8%}
+3512,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<71;891;3511;>,,,{1=10%}
+3513,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<2891;371;1611;>,,,{7=8%;8=8%}
+3711,Poison-type companions,毒系同伴,Poison-type companions,독의 동반자,,,,,,<81;471;2611;>,,,{7=10%;8=10%}
+3712,Poisonous Body,毒之身軀,Poisonous Body,유독 한 몸,,,,,,<481;2271;281;>,,,{1=10%}
+3713,Mysterious power,神秘力量,Mysterious power,신비한 힘,,,,,,<2721;551;2591;>,,,{7=10%;8=10%}
+3811,Water Habitat,水棲息地,Water Habitat,물 서식지,,,,,,<1241;2031;801;>,,,{7=10%;8=10%}
+3812,Stalwart Shell,堅硬外殼,Stalwart Shell,딱딱한 껍데기,,,,,,<3021;1901;3411;>,,,{1=12%}
+3813,Beach Adventure,海灘奇遇,Beach Adventure,해변 기우,,,,,,<641;631;551;>,,,{7=10%;8=10%}
+3814,Frozen Age,冰凍紀元,Frozen Age,얼음 기원,,,,,,<1081;2301;3501;>,,,{23=500}
+3911,Ghost Detection,幽靈感應,Ghost Detection,영감은,,,,,,<1811;3411;2921;>,,,{7=10%;8=10%}
+3912,Tremble with fear,膽戰心寒,Tremble with fear,냉각,,,,,,<3021>,,,{1=12%}
+3913,Poisonous evil,怨毒邪力,Poisonous evil,끔찍한 힘,,,,,,<481;2271;2681;>,,,{7=10%;8=10%}
+3914,Mischievous,調皮搗蛋,Mischievous,못된,,,,,,<2821;2721;1081;>,,,{22=500}
+4011,Rock Skin,岩石皮膚,Rock Skin,바위 피부,,,,,,<1251;301>,,,{7=10%;8=10%}
+4012,Geomancy,大地掌控,Geomancy,지구 통제,,,,,,<491;2611>,,,{1=12%}
+4013,Steel Family,鋼鐵家族,Steel Family,강철 가족,,,,,,<3411;1501;2961;>,,,{7=10%;8=10%}
+4014,Pledge Partner,誓約夥伴,Pledge Partner,맹세 파트너,,,,,,<2241;271;461;>,,,{23=500}
+4511,Forest companions,森林同伴,Forest companions,숲의 동반자,,,,,,<61;301;2591;>,,,{7=8%;8=8%}
+4512,Geomancy,大地掌控,Geomancy,지구 통제,,,,,,<101;1611;2611;>,,,{1=10%}
+4513,Awakening detection,覺醒感應,Awakening detection,각성 유도,,,,,,<2891;51>,,,{7=8%;8=8%}
+4611,Fighting Forces,格鬥勢力,Fighting Forces,싸우는 힘,,,,,,<191;3511;2631;>,,,{7=10%;8=10%}
+4612,Fist Power,拳之力量,Fist Power,주먹의 힘,,,,,,<231;271;2271;>,,,{1=10%}
+4613,Technique control,技巧掌控,Technique control,스킬 컨트롤,,,,,,<2891;1071>,,,{7=10%;8=10%}
+4711,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<3341;2591;2631;>,,,{7=10%;8=10%}
+4712,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<51;1441;301;>,,,{1=10%}
+4713,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<131;271;71;>,,,{7=10%;8=10%}
+4811,Poison-type companions,毒系同伴,Poison-type companions,독의 동반자,,,,,,<791;2871;3431;>,,,{7=10%;8=10%}
+4812,Poisonous Body,毒之身軀,Poisonous Body,유독 한 몸,,,,,,<371;2271;2961;>,,,{1=10%}
+4813,Mysterious power,神秘力量,Mysterious power,신비한 힘,,,,,,<2721;331;1861;>,,,{7=10%;8=10%}
+4911,Forest companions,森林同伴,Forest companions,숲의 동반자,,,,,,<1251;2231;1611;>,,,{7=10%;8=10%}
+4912,Rock solid,堅若磐石,Rock solid,바위처럼 단단함,,,,,,<1501;301;2591;>,,,{1=12%}
+4913,Spreading of Ground Fire,地火蔓延,Spreading of Ground Fire,지상 화재 확산,,,,,,<1231;2481>,,,{7=10%;8=10%}
+4914,Tonnage Crush,噸位碾壓,Tonnage Crush,톤수 롤링,,,,,,<3501;1861>,,,{23=500}
+5011,Benevolence,醫者仁心,Benevolence,의자인심,,,,,,<3351;781;1351;>,,,{7=10%;8=10%}
+5012,Cutie Alliance,萌寵聯盟,Cutie Alliance,펫의 연맹,,,,,,<3541;221;2841;>,,,{1=12%}
+5013,Strong Belief,強大信念,Strong Belief,강한 신념,,,,,,<7001;2891;3281;>,,,{7=10%;8=10%}
+5014,Power of Happiness,幸福之力,Power of Happiness,행복의 힘,,,,,,<1771;1891;861;>,,,{23=500}
+5411,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<3471;891;81;>,,,{7=8%;8=8%}
+5412,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<1351;21;551;>,,,{1=10%}
+5413,Overturn,覆舟之勢,Overturn,전복,,,,,,<2271;1861>,,,{7=8%;8=8%}
+5511,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<781;1861;2301;>,,,{7=10%;8=10%}
+5512,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<21;801;3471;>,,,{1=10%}
+5513,Overturn,覆舟之勢,Overturn,전복,,,,,,<2871;2921;3501;>,,,{7=10%;8=10%}
+5711,Bug Rising,蟲蟲崛起,Bug Rising,버그의 상승,,,,,,<1071;2681;31;>,,,{7=10%;8=10%}
+5712,Hardened Body,體質硬化,Hardened Body,물리적 경화,,,,,,<3411;2961>,,,{1=12%}
+5713,Assassins Alliance,刺客聯盟,Assassins Alliance,리그 오브 어쌔신,,,,,,<1291;3301>,,,{7=10%;8=10%}
+5714,Blade,刀鋒戰士,Blade,블레이드 워리어,,,,,,<691;3001>,,,{14=500}
+5911,Electric family,雷電家族,Electric family,라이덴 가족,,,,,,<1221;881;2891;>,,,{7=10%;8=10%}
+5912,Thunderbolt,十萬伏特,Thunderbolt,10만볼트,,,,,,<731;91;2071;>,,,{1=12%}
+5913,Insulator,絕緣體質,Insulator,절연체,,,,,,<2231;2611>,,,{7=10%;8=10%}
+5914,Conductive body,導電體質,Conductive body,지휘자,,,,,,<3301;21>,,,{14=500}
+6011,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<3291;741;1301;>,,,{7=10%;8=10%}
+6012,Flame of life,生命之焰,Flame of life,생명의 불꽃,,,,,,<1231>,,,{1=12%}
+6013,Let's go,沖鴨沖鴨,Let's go,종덕 종덕,,,,,,<221;341>,,,{7=10%;8=10%}
+6014,Fusion of Water and Fire,水火相融,Fusion of Water and Fire,물과 불,,,,,,<1311;631>,,,{14=500}
+6111,,蟲蟲軍團,,,,,,,,<571;1071;2681;>,,,{7=10%;8=10%}
+6112,,恢復剋星,,,,,,,,<1031;161;2271;>,,,{1=12%}
+6113,,物理鐵牆,,,,,,,,<491;301;3281;>,,,{7=10%;8=10%}
+6114,,超級巨鉗,,,,,,,,<801;3471>,,,{14=500}
+6311,Tide Power,怒濤之力,Tide Power,분노의 힘,,,,,,<1241;1311;801;>,,,{7=10%;8=10%}
+6312,Blessings of the Water God,水神祝福,Blessings of the Water God,물신의 축복,,,,,,<551;21;3301;>,,,{1=12%}
+6313,Overturn,覆舟之勢,Overturn,전복,,,,,,<1611;2721>,,,{7=10%;8=10%}
+6314,Flying Desire,飛翔渴望,Flying Desire,비행 욕망,,,,,,<1891;3511;2891;351>,,,{14=500}
+6411,Force of Water,水流力量,Force of Water,현재 힘,,,,,,<1311;381;801;>,,,{7=10%;8=10%}
+6412,Ice Bloodline,冰系一脈,Ice Bloodline,아이스 라인,,,,,,<1921;3501;2301;>,,,{1=12%}
+6413,Gentle Heart,溫柔之心,Gentle Heart,부드러운 마음,,,,,,<1501;471>,,,{7=10%;8=10%}
+6414,Think Tank,智囊擔當,Think Tank,싱크 탱크,,,,,,<261;1901;221;>,,,{23=500}
+6911,Rock Barrier,岩石壁壘,Rock Barrier,바위 장벽,,,,,,<3471;2011;2631;>,,,{7=10%;8=10%}
+6912,Sandstorm,沙暴之勢,Sandstorm,모래 폭풍,,,,,,<301;101;801;>,,,{1=10%}
+6913,Natural combination,自然組合,Natural combination,자연스러운 조합,,,,,,<451;2611;2591;>,,,{7=10%;8=10%}
+7011,Rock Assault,岩石突擊,Rock Assault,암석 돌격,,,,,,<3171;3501;691;>,,,{7=10%;8=10%}
+7012,Low-altitude Field,低空領域,Low-altitude Field,저공 영역,,,,,,<3661;161;51;>,,,{1=12%}
+7013,Contract of Forest,森林之約,Contract of Forest,숲의 약속,,,,,,<381;1311;2841;>,,,{7=10%;8=10%}
+7014,Miracle Recovery,奇跡復原,Miracle Recovery,기적의 복원,,,,,,<711;1851;81;>,,,{14=500}
+7111,Swimmer,游泳健將,Swimmer,수영,,,,,,<1311;3471;541;>,,,{7=10%;8=10%}
+7112,Glutton who sleeps a lot,貪吃嗜睡,Glutton who sleeps a lot,폭식과 졸음,,,,,,<1421>,,,{1=12%}
+7113,Pledge Partner,誓約夥伴,Pledge Partner,맹세 파트너,,,,,,<1251;3501;471;>,,,{7=10%;8=10%}
+7114,Powerful combination,強力組合,Powerful combination,강력한 조합,,,,,,<401;631>,,,{23=500}
+7211,The Legend of the Legendary Birds,聖鳥傳說,The Legend of the Legendary Birds,신성한 새의 전설,,,,,,<731;741>,,,{7=10%;8=10%}
+7212,Glaciate,冰封千里,Glaciate,수천 마일의 얼어 붙은,,,,,,<3501;3021;3011;>,,,{1=12%}
+7213,Turning water into ice,凝水成冰,Turning water into ice,얼음으로 응축,,,,,,<1241;2922;3471;>,,,{7=10%;8=10%}
+7214,Ice and Fire,冰火兩重,Ice and Fire,더블 아이스,,,,,,<1231;3291;11;>,,,{22=500}
+7311,The Legend of the Legendary Birds,聖鳥傳說,The Legend of the Legendary Birds,신성한 새의 전설,,,,,,<741;721>,,,{7=10%;8=10%}
+7312,Thunderstorm,驅雷擎電,Thunderstorm,드라이브 썬더,,,,,,<331;1221;91;>,,,{1=12%}
+7313,Fast As Lightning,風馳電掣,Fast As Lightning,빠른 스위치,,,,,,<51;3511;71;>,,,{7=10%;8=10%}
+7314,Overload weakening,超載虛弱,Overload weakening,과부하 및 약점,,,,,,<1811;471;1441;>,,,{23=500}
+7411,The Legend of the Legendary Birds,聖鳥傳說,The Legend of the Legendary Birds,신성한 새의 전설,,,,,,<731;721>,,,{7=10%;8=10%}
+7412,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<1231;1171;3291;>,,,{1=12%}
+7413,Burning Flames,燎原之火,Burning Flames,프레리 프레리의 불,,,,,,<1291;781;281;>,,,{7=10%;8=10%}
+7414,Attack all,全體打擊,Attack all,모든 타격,,,,,,<131;301;481;>,,,{14=500}
+7511,Dragon-type family,龍系家族,Dragon-type family,드래곤 패밀리,,,,,,<3141;1891>,,,{7=10%;8=10%}
+7512,Extra-large size,肥大體型,Extra-large size,비대,,,,,,<3541;2481;3281;>,,,{1=12%}
+7513,Outrage,逆鱗之怒,Outrage,규모의 분노,,,,,,<3001;2231>,,,{7=10%;8=10%}
+7514,Fury Strike,憤怒一擊,Fury Strike,화난 타격,,,,,,<1301;3341;791;>,,,{14=500}
+7611,King's Laurel,王者桂冠,King's Laurel,월계관,,,,,,<1271;2231;1251;>,,,{7=15%;8=15%}
+7612,Extraordinary Psychic Powers,超凡念力,Extraordinary Psychic Powers,놀라운 힘,,,,,,<771;1901;261;>,,,{1=20%}
+7613,Same Energy Source,力量同源,Same Energy Source,같은 힘,,,,,,<771;1391>,,,{7=15%;8=15%}
+7614,Absolute suppression,絕對壓制,Absolute suppression,절대 억제,,,,,,<1981;2301;271;>,,,{14=750}
+7711,Aura Hero,波導勇者,Aura Hero,파동의 용사,,,,,,<2241;711>,,,{7=10%;8=10%}
+7712,Psycho Synchronize,精神同步,Psycho Synchronize,정신 동기화,,,,,,<261;3291>,,,{1=12%}
+7713,Danger Detection,危機覺察,Danger Detection,위기 인식,,,,,,<1171;1081>,,,{7=10%;8=10%}
+7714,Super Imitation,超級仿製,Super Imitation,슈퍼 모방,,,,,,<761>,,,{22=500}
+7811,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<281;2301;2011;>,,,{7=10%;8=10%}
+7812,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<1;3281;1291;>,,,{1=10%}
+7813,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<271;2591;131;>,,,{7=10%;8=10%}
+7911,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<1611;2481;3291;>,,,{7=10%;8=10%}
+7912,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<2611;691;3281;>,,,{1=10%}
+7913,Sun will,太陽意志,Sun will,태양의 의지,,,,,,<601;2631;3341;>,,,{7=10%;8=10%}
+8011,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<551;3471;21;2922>,,,{7=10%;8=10%}
+8012,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<471;1861;3011;>,,,{1=10%}
+8013,Overturn,覆舟之勢,Overturn,전복,,,,,,<1311;2271;371;>,,,{7=10%;8=10%}
+8611,Fairy Blood,妖精血脈,Fairy Blood,포켓몬 혈통,,,,,,<1391;131;151;>,,,{7=10%;8=10%}
+8612,Flying Family,飛行家族,Flying Family,비행 가족,,,,,,<161;571;701;2891>,,,{1=12%}
+8613,Trap Escape,逃離陷阱,Trap Escape,함정 탈출,,,,,,<491;2231;121;>,,,{7=10%;8=10%}
+8614,Rival Showdown,勁敵對決,Rival Showdown,강적 대결,,,,,,<2031;2471;791;61>,,,{14=500}
+8811,Electric family,雷電家族,Electric family,라이덴 가족,,,,,,<591;731>,,,{7=10%;8=10%}
+8812,Coat Static,毛皮靜電,Coat Static,모피 정적,,,,,,<1221;2071;91;>,,,{1=12%}
+8813,Dragon-like,似龍非龍,Dragon-like,용처럼,,,,,,<631;601;11;>,,,{7=10%;8=10%}
+8814,Furries,毛茸茸們,Furries,모피,,,,,,<2891;3431>,,,{23=500}
+8911,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<51;71;61;471>,,,{7=8%;8=8%}
+8912,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<551;3431;131;>,,,{1=10%}
+8913,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<551;801;1861;>,,,{7=8%;8=8%}
+9711,404404,趣味魔法,404404,404404,,,,,,<131;3431;3291;>,,,{7=10%;8=10%}
+9712,404404,鬼屋集合,404404,404404,,,,,,<391;1811;2991;>,,,{1=12%}
+9713,404404,夢境掌控,404404,404404,,,,,,<1801;2841;3561;>,,,{7=10%;8=10%}
+9714,404404,幽靈出沒,404404,404404,,,,,,<771;1851>,,,{22=500}
+10311,Ground Strike,地面打擊,Ground Strike,지상 타격,,,,,,<401;1311;2611;>,,,{7=10%;8=10%}
+10312,Low-altitude Fly,低空飛行,Low-altitude Fly,저공 비행,,,,,,<161;701;341;>,,,{1=12%}
+10313,Hoen Counter,豐緣對抗,Hoen Counter,호연 대결,,,,,,<241;1291;271;451>,,,{7=10%;8=10%}
+10314,Maze Blitz,沖出迷宮,Maze Blitz,미궁 돌파,,,,,,<2031;2011;2271;>,,,{23=500}
+10711,Bug Rising,蟲蟲崛起,Bug Rising,버그의 상승,,,,,,<571;2681;191;41>,,,{7=10%;8=10%}
+10712,Heart of a Fighter,好鬥之心,Heart of a Fighter,투쟁의 심장,,,,,,<1301;271;461;>,,,{1=12%}
+10713,Poison injection,毒素注入,Poison injection,독소 주입,,,,,,<391;2271>,,,{7=10%;8=10%}
+10714,Eradicate evil,除惡務盡,Eradicate evil,악을 멀리하십시오,,,,,,<3141;1841>,,,{14=500}
+10811,Ice-type family,冰系家族,Ice-type family,얼음 가족,,,,,,<721;2301;3501;>,,,{7=10%;8=10%}
+10812,The most evil of the generation,世代最惡,The most evil of the generation,세대에서 최악,,,,,,<2721;1841>,,,{1=12%}
+10813,Evil Spirit Appears,惡鬼上門,Evil Spirit Appears,악령이 온다,,,,,,<391;1171;2921;>,,,{7=10%;8=10%}
+10814,Poor combination,不良組合,Poor combination,잘못된 조합,,,,,,<2821;2271;2631;>,,,{14=500}
+11711,Cerberus,地獄惡犬,Cerberus,헬 하운드,,,,,,<1081;3141>,,,{7=10%;8=10%}
+11712,Dog Pound,狗狗出擊,Dog Pound,개 공격,,,,,,<241;1841>,,,{1=12%}
+11713,Inferno,地獄烈焰,Inferno,지옥 불,,,,,,<601;3341;1611;>,,,{7=10%;8=10%}
+11714,No strangers allowed,生人勿近,No strangers allowed,가까이 오지 마,,,,,,<391;1851;3561;>,,,{23=500}
+12211,Legend of the Legendary Beasts,聖獸傳說,Legend of the Legendary Beasts,성수 전설,,,,,,<1241;1231>,,,{7=10%;8=10%}
+12212,Thunder arrives,雷電降臨,Thunder arrives,천둥이오고있다,,,,,,<591;731;2071;>,,,{1=12%}
+12213,Quick Attack,電光火石,Quick Attack,전광석화,,,,,,<1251;2591>,,,{7=10%;8=10%}
+12214,Master of Control,控場大師,Master of Control,현장 제어 석사,,,,,,<261;2301>,,,{23=500}
+12311,Legend of the Legendary Beasts,聖獸傳說,Legend of the Legendary Beasts,성수 전설,,,,,,<1221;1241>,,,{7=10%;8=10%}
+12312,Towering Rage,怒火沖天,Towering Rage,너무 화났어,,,,,,<241;741;11;>,,,{1=12%}
+12313,King of Crystals,結晶帝王,King of Crystals,크리스탈 황제,,,,,,<551;801;401;>,,,{7=10%;8=10%}
+12314,Turning ore into steel,百煉成鋼,Turning ore into steel,강철로 단련하다,,,,,,<1901;1501>,,,{23=500}
+12411,Legend of the Legendary Beasts,聖獸傳說,Legend of the Legendary Beasts,성수 전설,,,,,,<1221;1231>,,,{7=10%;8=10%}
+12412,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<1311;3301;21;>,,,{1=12%}
+12413,Swift and agile,迅捷靈動,Swift and agile,신속하고 유연함,,,,,,<1291;51>,,,{7=10%;8=10%}
+12414,A Mirage,鏡花水月,A Mirage,거울 꽃 물 달,,,,,,<2821;131>,,,{23=500}
+12511,Rock Barrier,岩石壁壘,Rock Barrier,바위 장벽,,,,,,<491;1501;401;>,,,{7=10%;8=10%}
+12512,Sandstorm,沙暴之勢,Sandstorm,모래 폭풍,,,,,,<2231;2611;101;>,,,{1=12%}
+12513,Worst Generation,極惡世代,Worst Generation,이블 세대,,,,,,<2721;1081>,,,{7=10%;8=10%}
+12514,Rock Cannon,轟岩大炮,Rock Cannon,록 캐넌,,,,,,<751;2591>,,,{23=500}
+12611,Heroic Legends,霸主傳說,Heroic Legends,대 군주 전설,,,,,,<1271>,,,{7=15%;8=15%}
+12612,Leader of the Legendary Birds,聖鳥統領,Leader of the Legendary Birds,홀리 버드 사령관,,,,,,<721;731;741;>,,,{1=20%}
+12613,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<1961;1241;3301;>,,,{7=15%;8=15%}
+12614,Psychic Body,超能之軀,Psychic Body,슈퍼 바디,,,,,,<771;1901;551;>,,,{23=750}
+12711,Master of the Sky,天空主宰,Master of the Sky,하늘을 지배하세요,,,,,,<761;741>,,,{7=15%;8=15%}
+12712,Rise from the Ashes,浴火重生,Rise from the Ashes,잿더미에서 일어나,,,,,,<1221;1231;1241;>,,,{1=20%}
+12713,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<1231;741;1301;>,,,{7=15%;8=15%}
+12714,Rainbow Wing,彩虹羽翼,Rainbow Wing,무지개 날개,,,,,,<1261;721;3511;51>,,,{23=750}
+12811,Psuchic Legion,超能軍團,Psuchic Legion,초능력 군단,,,,,,<1991;261;771;1391>,,,{7=15%;8=15%}
+12812,Rescuing Hand,救死扶傷,Rescuing Hand,인술,,,,,,<2441;501;861;>,,,{1=20%}
+12813,Time Gap,時間縫隙,Time Gap,시간의 틈,,,,,,<2841;1941;1951;2401>,,,{7=15%;8=15%}
+12814,Guardian Partner,守護夥伴,Guardian Partner,파트너 수호,,,,,,<4171;3251;3541;>,,,{23=750}
+12911,Three Gems,寶石三家,Three Gems,젬 산지 아,,,,,,<1301;1311>,,,{7=10%;8=10%}
+12912,Complicated and Tricky,盤根錯節,Complicated and Tricky,얽혀,,,,,,<2011;3281;1;>,,,{1=12%}
+12913,Sparring,不服單挑,Sparring,확신 할 수 없음,,,,,,<571;1421;1301;>,,,{7=10%;8=10%}
+12914,Nourish All Things on Earth,滋潤萬物,Nourish All Things on Earth,모든 것을 보습,,,,,,<1241;2922;781;1351>,,,{14=500}
+13011,Three Gems,寶石三家,Three Gems,젬 산지 아,,,,,,<1291;1311>,,,{7=10%;8=10%}
+13012,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<741;1231;11;>,,,{1=12%}
+13013,Sparring,不服單挑,Sparring,확신 할 수 없음,,,,,,<571;1291;51;>,,,{7=10%;8=10%}
+13014,Fighting Expert,格鬥專家,Fighting Expert,격투 전문가,,,,,,<1391;271;1251;>,,,{14=500}
+13111,Three Gems,寶石三家,Three Gems,젬 산지 아,,,,,,<1301;1291>,,,{7=10%;8=10%}
+13112,Tide Power,怒濤之力,Tide Power,분노의 힘,,,,,,<1241;631;801;>,,,{1=12%}
+13113,Smutty,汙力滔滔,Smutty,난류 오염,,,,,,<371;2922>,,,{7=10%;8=10%}
+13114,Born to be cute,天生呆萌,Born to be cute,귀엽게 태어나,,,,,,<771;221;2871;>,,,{23=500}
+13511,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<281;2301;171;>,,,{7=8%;8=8%}
+13512,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<541;551;801;>,,,{1=10%}
+13513,Overturn,覆舟之勢,Overturn,전복,,,,,,<131;461;2631;>,,,{7=8%;8=8%}
+13911,Extraordinary will,超凡意志,Extraordinary will,특별한 의지,,,,,,<261;771>,,,{7=10%;8=10%}
+13912,Pokémon Alliance,妖精同盟,Pokémon Alliance,페어리 리그,,,,,,<3351;131;151;>,,,{1=12%}
+13913,Pokémon Contests,華麗大賽,Pokémon Contests,화려한 콘테스트,,,,,,<1891>,,,{7=10%;8=10%}
+13914,Dazzling Gleam,魔法閃耀,Dazzling Gleam,매직 샤인,,,,,,<391;3291>,,,{22=500}
+14211,One Punch Man,一拳超人,One Punch Man,원 펀맨,,,,,,<1251;1071>,,,{7=10%;8=10%}
+14212,Normal Family,普通家庭,Normal Family,정상적인 가족,,,,,,<51;1441;471;>,,,{1=12%}
+14213,Strong and Healthy Physique,身強體壯,Strong and Healthy Physique,강한 몸매,,,,,,<3541;2631;271;>,,,{7=10%;8=10%}
+14214,Lazybones,懶人根骨,Lazybones,게으른 뿌리,,,,,,<261;711>,,,{14=500}
+14411,Original Formation,原始組合,Original Formation,원래 조합,,,,,,<471;51;1421;>,,,{7=10%;8=10%}
+14412,Protect the relationship,守護情誼,Protect the relationship,후견,,,,,,<1611;801;2631;>,,,{1=10%}
+14413,Awakening power,覺醒力量,Awakening power,각성 력,,,,,,<471;2611;61;>,,,{7=10%;8=10%}
+15011,Steel Will,鋼鐵意志,Steel Will,강철 같은 의지,,,,,,<1901;331>,,,{7=10%;8=10%}
+15012,Rock armor addition,堅甲附體,Rock armor addition,강력한 갑옷,,,,,,<1071;2011;3281;>,,,{1=12%}
+15013,Oppressive,橫行霸道,Oppressive,맹렬한,,,,,,<491;2721>,,,{7=10%;8=10%}
+15014,Rock Head,岩石腦袋,Rock Head,바위 머리,,,,,,<2591;401;301;>,,,{23=500}
+16111,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<2481;3341;3291;>,,,{7=10%;8=10%}
+16112,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<11;601;791;2611>,,,{1=10%}
+16113,Sun will,太陽意志,Sun will,태양의 의지,,,,,,<1441;2301;3511;>,,,{7=10%;8=10%}
+17711,Summer Friend,夏日好友,Summer Friend,여름 친구,,,,,,<381;1241;221;>,,,{7=10%;8=10%}
+17712,Surfing Buddy,衝浪夥伴,Surfing Buddy,서핑 파트너,,,,,,<2031;1351;21;>,,,{1=12%}
+17713,Giga Impact,終極衝擊,Giga Impact,최종 충격,,,,,,<3301;631;551;>,,,{7=10%;8=10%}
+17714,Life Dew,	生命水滴,Life Dew,생명 물방울,,,,,,<3771;641;2401;>,,,{23=500}
+18011,Multi Phantom,魅影重重,Multi Phantom,환상,,,,,,<1811;3561>,,,{7=10%;8=10%}
+18012,Floating Charge,漂浮打擊,Floating Charge,플로팅 스트라이크,,,,,,<2871;481;2961;>,,,{1=10%}
+18013,Branch of Ghost,幽靈支脈,Branch of Ghost,유령 가지,,,,,,<2991;2921;2922;>,,,{7=10%;8=10%}
+18111,Ghost Detection,幽靈感應,Ghost Detection,영감은,,,,,,<391;3411;3561;>,,,{7=10%;8=10%}
+18112,Different Dimension,異度空間,Different Dimension,외계인 공간,,,,,,<1391;771>,,,{1=12%}
+18113,Gigantic Power,巨人之力,Gigantic Power,거인의 힘,,,,,,<1421;2631>,,,{7=10%;8=10%}
+18114,Trick,惡搞戲法,Trick,속이기,,,,,,<2271;131;481;>,,,{22=500}
+18411,Catastrophe Alert,災禍預警,Catastrophe Alert,재해 경고,,,,,,<2821;3141>,,,{7=10%;8=10%}
+18412,Giving Relief to Disaster Together,協力救災,Giving Relief to Disaster Together,재난 구호를 위해 협력,,,,,,<1291;1311;1351;>,,,{1=12%}
+18413,Punish the evil and praise the good,懲惡揚善,Punish the evil and praise the good,악을 벌하고 선을 장려하십시오,,,,,,<3301;241>,,,{7=10%;8=10%}
+18414,Mega Evolution,超級進化,Mega Evolution,슈퍼 진화,,,,,,<2301;21;41;>,,,{23=500}
+18511,Tremble with fear,膽戰心寒,Tremble with fear,냉각,,,,,,<3021;2871;3011;>,,,{7=10%;8=10%}
+18512,Snowstorm,冰雪交加,Snowstorm,눈과 얼음,,,,,,<3301;3501>,,,{1=10%}
+18513,No strangers allowed,生人勿近,No strangers allowed,가까이 오지 마,,,,,,<391;2301>,,,{7=10%;8=10%}
+18611,Ice-type family,冰系家族,Ice-type family,얼음 가족,,,,,,<2871;3011;551;>,,,{7=10%;8=10%}
+18612,Blizzard Detection,暴雪感應,Blizzard Detection,블리자드 유도,,,,,,<801;3471;1311;>,,,{1=10%}
+18613,Freezing Power,冰封力量,Freezing Power,얼어 붙은 힘,,,,,,<471;2301;371;>,,,{7=10%;8=10%}
+18911,Dragon Rising,龍族崛起,Dragon Rising,드래곤 라이즈,,,,,,<3141;3001>,,,{7=10%;8=10%}
+18912,Strong Iron Head,頭鐵剛毅,Strong Iron Head,머리 철제 인내,,,,,,<2961;331;2611;>,,,{1=12%}
+18913,Power of the Pseudo-legendary,准神之力,Power of the Pseudo-legendary,준신의 힘,,,,,,<2231;3541>,,,{7=10%;8=10%}
+18914,Flying Desire,飛翔渴望,Flying Desire,비행 욕망,,,,,,<3511;2891;351;>,,,{14=500}
+19011,Steel Frame,鋼筋鐵骨,Steel Frame,강화 된 철 뼈,,,,,,<331;1501>,,,{7=10%;8=10%}
+19012,Certain science,某某科學,Certain science,그래서 과학,,,,,,<261;3021>,,,{1=12%}
+19013,Getting into Shape,強身健體,Getting into Shape,체력,,,,,,<1071;271;2631;>,,,{7=10%;8=10%}
+19014,Neural Network,神經網路,Neural Network,신경망,,,,,,<331;2591;2961;>,,,{23=500}
+19111,Ancient Power,原始之力,Ancient Power,원시의 힘,,,,,,<1251;401;3501;>,,,{7=10%;8=10%}
+19112,Rock Guard,岩石護身,Rock Guard,락 가드,,,,,,<491;1501;691;>,,,{1=12%}
+19113,Eternal guardian,永恆守護,Eternal guardian,영원한 수호자,,,,,,<1921;1931>,,,{7=10%;8=10%}
+19114,Fight back,溯源而戰,Fight back,근원에 반격,,,,,,<2381;2241>,,,{23=500}
+19211,Icy veins,冰冷一脈,Icy veins,얼음 정맥,,,,,,<721;3021;1851;>,,,{7=10%;8=10%}
+19212,Hidden Ice Clan,隱秘冰族,Hidden Ice Clan,숨겨진 아이스 레이스,,,,,,<1081;381;1861;>,,,{1=12%}
+19213,Eternal guardian,永恆守護,Eternal guardian,영원한 수호자,,,,,,<1911;1931>,,,{7=10%;8=10%}
+19214,Fight back,溯源而戰,Fight back,근원에 반격,,,,,,<2381;2241>,,,{23=500}
+19311,Steel Frame,鋼筋鐵骨,Steel Frame,강화 된 철 뼈,,,,,,<1501;1901;2961;>,,,{7=10%;8=10%}
+19312,Hold the iron,抱團頭鐵,Hold the iron,바 오투 안투 아이언,,,,,,<331;571;2611;>,,,{1=12%}
+19313,Eternal guardian,永恆守護,Eternal guardian,영원한 수호자,,,,,,<1911;1921>,,,{7=10%;8=10%}
+19411,Psuchic Legion,超能軍團,Psuchic Legion,슈퍼 군단,,,,,,<1391;2401;2841;>,,,{7=10%;8=10%}
+19412,Dragon Family,龍系家族,Dragon Family,드래곤 패밀리,,,,,,<751;1891;3591;4131>,,,{1=12%}
+19413,Vow Partner,誓約夥伴,Vow Partner,맹세 파트너,,,,,,<721;701;341;2891>,,,{7=10%;8=10%}
+19414,Eon Pokémon,無限精靈,Eon Pokémon,무한 마법사,,,,,,<1951;1031;801;691>,,,{23=500}
+19511,Psuchic Legion,超能軍團,Psuchic Legion,슈퍼 군단,,,,,,<261;1901;551;>,,,{7=10%;8=10%}
+19512,Dragon Family,龍系家族,Dragon Family,드래곤 패밀리,,,,,,<751;1891;3591;4131>,,,{1=12%}
+19513,Vow Partner,誓約夥伴,Vow Partner,맹세 파트너,,,,,,<741;701;3511;51>,,,{7=10%;8=10%}
+19514,Eon Pokémon,無限精靈,Eon Pokémon,무한 마법사,,,,,,<1941;1031;801;691>,,,{14=500}
+19314,Fight back,溯源而戰,Fight back,근원에 반격,,,,,,<2381;2241>,,,{23=500}
+19611,Duel of Fate,命運對決,Duel of Fate,운명의 대결,,,,,,<1971;91>,,,{7=15%;8=15%}
+19612,Ocean Expansion,海洋擴張,Ocean Expansion,해양 확장,,,,,,<1241;1311;3301;>,,,{1=20%}
+19613,Overlord of the Three Realms,三界霸主,Overlord of the Three Realms,세 왕국의 대 군주,,,,,,<1981;2231>,,,{7=15%;8=15%}
+19614,Power of Nature,呼風喚雨,Power of Nature,바람을 불러 비를 불러,,,,,,<751;631>,,,{23=750}
+19711,Power of the Overlord,霸主之力,Power of the Overlord,대군주의 힘,,,,,,<1981;1891>,,,{7=15%;8=15%}
+19712,Adapt to different situations,水來土掩,Adapt to different situations,은폐,,,,,,<1961;1241;631;>,,,{1=20%}
+19713,Rage of Volcano,火山之怒,Rage of Volcano,화산 분노,,,,,,<1251;1231;1611;>,,,{7=15%;8=15%}
+19714,Creation of Continent,大陸創世,Creation of Continent,대륙 창조,,,,,,<1251;1501;2591;>,,,{23=750}
+19811,Fight of the Overlords,霸主爭奪,Fight of the Overlords,지배,,,,,,<1961;1251>,,,{7=15%;8=15%}
+19812,The Rise of the Dragon-type,龍系崛起,The Rise of the Dragon-type,드래곤 라이즈,,,,,,<1891;3141;3541;>,,,{1=20%}
+19813,Check and balance of airspace,領空制衡,Check and balance of airspace,공역 점검 및 균형,,,,,,<1261;751;31;>,,,{7=15%;8=15%}
+19814,Destructive Strike,毀滅打擊,Destructive Strike,엄청난 타격,,,,,,<1971;3001;1301;>,,,{14=750}
+19911,Will of Steel,鋼之意志,Will of Steel,강철의 의지,,,,,,<2351;3161;1501;>,,,{7=15%;8=15%}
+19912,Extraordinary Body,超凡身軀,Extraordinary Body,비범한 몸,,,,,,<3641;1901;2401;>,,,{1=20%}
+19913,Wishing Companion,許願同伴,Wishing Companion,소원 친구,,,,,,<1391;3351;861;>,,,{7=15%;8=15%}
+19914,Millennium Comet,千年彗星,Millennium Comet,천년 혜성,,,,,,<1971;1841;1891;3171>,,,{23=750}
+20211,,烈焰戰場,,,,,,,,<1231;601;241;11>,,,{7=10%;8=10%}
+20212,,格鬥高手,,,,,,,,<2241;2631;2481;3511>,,,{1=12%}
+20213,,神奧禦三家,,,,,,,,<2031;2011>,,,{7=10%;8=10%}
+20214,,高深拳法,,,,,,,,<1301;271;461;231>,,,{14=500}
+20311,Water Rookie,水系新秀,Water Rookie,워터 루키,,,,,,<641;3771;221;>,,,{7=10%;8=10%}
+20312,Steel body,鋼鐵身軀,Steel body,스틸 바디,,,,,,<2241;2611>,,,{1=12%}
+20313,Battle of Capture,收服之戰,Battle of Capture,정복하다,,,,,,<401;1231;91;>,,,{7=10%;8=10%}
+20314,Triangle Friendship,三角情誼,Triangle Friendship,삼각형 우정,,,,,,<591;891>,,,{14=500}
+20111,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<281;781;2301;>,,,{7=10%;8=10%}
+20112,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<1441;3281;1291;>,,,{1=10%}
+20113,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<471;2611;3431;>,,,{7=10%;8=10%}
+20711,Electric family,雷電家族,Electric family,라이덴 가족,,,,,,<51;3291;2301;>,,,{7=10%;8=10%}
+20712,Power of Nature,自然之力,Power of Nature,자연의 힘,,,,,,<91;1081;3511;>,,,{1=10%}
+20713,Electric awareness,電光意識,Electric awareness,전기 광학 인식,,,,,,<131;3281;2961;>,,,{7=10%;8=10%}
+22311,Strongest on Earth,地表強者,Strongest on Earth,표면에 강함,,,,,,<491;2721>,,,{7=10%;8=10%}
+22312,Hidden Killing Intentions,潛藏殺機,Hidden Killing Intentions,숨겨진 살인,,,,,,<571;801;101;>,,,{1=12%}
+22313,Return to Reason,回歸理智,Return to Reason,이유로 돌아 가기,,,,,,<3301;1301>,,,{7=10%;8=10%}
+22314,Blade,刀鋒戰士,Blade,블레이드 워리어,,,,,,<3001;691>,,,{14=500}
+22411,Fighting Forces,格鬥勢力,Fighting Forces,싸우는 힘,,,,,,<1301;3511;2631;>,,,{7=10%;8=10%}
+22412,Pledge Partner,誓約夥伴,Pledge Partner,맹세 파트너,,,,,,<771;1081;91;>,,,{1=12%}
+22413,Unyielding,不屈意志,Unyielding,불굴의 의지,,,,,,<1391;271;341;>,,,{7=10%;8=10%}
+22414,Hidden Steel Race,隱秘鋼族,Hidden Steel Race,숨겨진 강철 제품군,,,,,,<571;331>,,,{14=500}
+22711,Poison-type companions,毒系同伴,Poison-type companions,독의 동반자,,,,,,<131;471;3011;>,,,{7=10%;8=10%}
+22712,Poisonous Body,毒之身軀,Poisonous Body,유독 한 몸,,,,,,<481;271;2631;>,,,{1=10%}
+22713,Mysterious power,神秘力量,Mysterious power,신비한 힘,,,,,,<281;371;1081;>,,,{7=10%;8=10%}
+23011,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<281;781;2011;>,,,{7=10%;8=10%}
+23012,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<1081;3281;1861;>,,,{1=10%}
+23013,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<2871;3011;3431;>,,,{7=10%;8=10%}
+23511,Extraordinary Will,超凡意志,Extraordinary Will,특별한 의지,,,,,,<1261;1931;1901;>,,,{7=15%;8=15%}
+23512,Dragon Army,龍龍軍團,Dragon Army,드래곤 아미,,,,,,<751;3141;3001;>,,,{1=20%}
+23513,Mythical Pokémon,神話精靈,Mythical Pokémon,신화 엘프,,,,,,<2391;1941>,,,{7=15%;8=15%}
+23514,Time and Space,時空傳說,Time and Space,시간과 공간의 전설,,,,,,<2361;1891;2231;>,,,{14=750}
+23611,Force of Water,水流力量,Force of Water,현재 힘,,,,,,<631;1241;3301;>,,,{7=15%;8=15%}
+23612,Dragon Attack,龍族出擊,Dragon Attack,드래곤 공격,,,,,,<2391;1951;751;>,,,{1=20%}
+23613,Vow Friends,誓約朋友,Vow Friends,서약 친구,,,,,,<2431;1841;1071;>,,,{7=15%;8=15%}
+23614,Time and Space Duel,時空對決,Time and Space Duel,시간과 공간 대결,,,,,,<2351;3591>,,,{14=750}
+23811,Power of Awaken,蘇醒之力,Power of Awaken,각성의 힘,,,,,,<2361;1421;711;>,,,{7=15%;8=15%}
+23812,Rise from the land,崛陸而起,Rise from the land,땅에서 일어나,,,,,,<1971;401;2231;>,,,{1=20%}
+23813,Eternal Legend,永恆傳說,Eternal Legend,영원한 전설,,,,,,<1911;1921;1931;>,,,{7=15%;8=15%}
+23814,Right and Evil,亦正亦邪,Right and Evil,옳고 그름 모두,,,,,,<2431;2821;1081;>,,,{14=750}
+23911,Ghost Rookie,幽靈新影,Ghost Rookie,유령 그림자,,,,,,<2991;1811;3661;>,,,{7=15%;8=15%}
+23912,Sky Lord,飛龍在天,Sky Lord,비룡재천,,,,,,<3591;3141;1891;>,,,{1=20%}
+23913,Exodus Encounter,異界對抗,Exodus Encounter,이계대항,,,,,,<2441;2031;1861;>,,,{7=15%;8=15%}
+23914,Mythical Pokémon,神話精靈,Mythical Pokémon,신화요정,,,,,,<2351;2361>,,,{23=750}
+24011,Extraordinary ability,超凡能力,Extraordinary ability,비범 한 능력,,,,,,<1901;261;551;>,,,{7=10%;8=10%}
+24012,Pledge Partner,誓約夥伴,Pledge Partner,맹세 파트너,,,,,,<751;491;2961;>,,,{1=12%}
+24013,Dance from the new moon,新月起舞,Dance from the new moon,뉴 문 댄스,,,,,,<2431>,,,{7=10%;8=10%}
+24014,Elegant incarnation,優雅化身,Elegant incarnation,우아한 화신,,,,,,<1391;2471;2841;>,,,{23=500}
+24311,Evil forces,邪惡勢力,Evil forces,악의 세력,,,,,,<2821;2721;3301>,,,{7=15%;8=15%}
+24312,Mystery,神奧對決,Mystery,신오 대결,,,,,,<1981;1071;1291;>,,,{1=20%}
+24313,Moonless night,無月之夜,Moonless night,달이없는 밤,,,,,,<2381;2401>,,,{7=15%;8=15%}
+24314,Space-time protection,時空保護,Space-time protection,시간과 공간 보호,,,,,,<2351;1391;471;>,,,{22=750}
+24411,Grass Rookie,草系新貴,Grass Rookie,풀 타입 새 포켓몬,,,,,,<2471;1291;3661;>,,,{7=15%;8=15%}
+24412,Stealth Fly,隱秘飛行,Stealth Fly,은밀 비행,,,,,,<1271;701;3591;>,,,{1=20%}
+24413,Adventure Parter,探險同伴,Adventure Parter,탐험 파트너,,,,,,<3631;3771;3841;>,,,{7=15%;8=15%}
+24414,Exodus Dispute,異界紛爭,Exodus Dispute,이계 분쟁,,,,,,<2391;4131;2031;>,,,{23=750}
+24711,Grass Power,草系力量,Grass Power,잔디 힘,,,,,,<1291;3661;781;>,,,{7=10%;8=10%}
+24712,Allelopathy,相生相剋,Allelopathy,타감,,,,,,<1301;2301;2481;>,,,{1=12%}
+24713,Vow Partner,誓約夥伴,Vow Partner,맹세 파트너,,,,,,<2991;2922;2871;>,,,{7=10%;8=10%}
+24714,Graceful Incarnation,優雅化身,Graceful Incarnation,우아한 화신,,,,,,<2401;2841>,,,{22=500}
+24811,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<3341;791;1611;>,,,{7=10%;8=10%}
+24812,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<11;3291;3341;>,,,{1=10%}
+24813,Sun will,太陽意志,Sun will,태양의 의지,,,,,,<2631;2271;131;>,,,{7=10%;8=10%}
+25911,Rock Barrier,岩石壁壘,Rock Barrier,바위 장벽,,,,,,<491;301;691;>,,,{7=10%;8=10%}
+25912,Sandstorm,沙暴之勢,Sandstorm,모래 폭풍,,,,,,<2071;2961;1501;>,,,{1=10%}
+25913,Natural combination,自然組合,Natural combination,자연스러운 조합,,,,,,<2611;3011;1291;>,,,{7=10%;8=10%}
+26111,Forest companions,森林同伴,Forest companions,숲의 동반자,,,,,,<1611;691;2591;>,,,{7=10%;8=10%}
+26112,Geomancy,大地掌控,Geomancy,지구 통제,,,,,,<51;2631;3511;>,,,{1=10%}
+26113,Awakening detection,覺醒感應,Awakening detection,각성 유도,,,,,,<2681;781;1081;>,,,{7=10%;8=10%}
+26311,Fighting Forces,格鬥勢力,Fighting Forces,싸우는 힘,,,,,,<271;3511;2271;>,,,{7=10%;8=10%}
+26312,Fist Power,拳之力量,Fist Power,주먹의 힘,,,,,,<471;1441;231;461>,,,{1=10%}
+26313,Technique control,技巧掌控,Technique control,스킬 컨트롤,,,,,,<301;2481;3011;>,,,{7=10%;8=10%}
+26811,Bug Rising,蟲蟲崛起,Bug Rising,버그의 상승,,,,,,<371;481;2271;>,,,{7=10%;8=10%}
+26812,Forest Power,森林力量,Forest Power,숲의 힘,,,,,,<2591;281;2301;>,,,{1=10%}
+26813,Team Friendship,群體情誼,Team Friendship,그룹 우정,,,,,,<3471;2961;2611;>,,,{7=10%;8=10%}
+27211,Strongest on Earth,地表強者,Strongest on Earth,표면에 강함,,,,,,<2231;491>,,,{7=10%;8=10%}
+27212,Bad Conduct,品行不端,Bad Conduct,버릇 없음,,,,,,<2271;21>,,,{1=12%}
+27213,Movie Showdown,電影對決,Movie Showdown,영화 대결,,,,,,<1251;2821;2591;>,,,{7=10%;8=10%}
+27214,Full of malice,惡意滿滿,Full of malice,악의로 가득 찬,,,,,,<3141;1081;481;>,,,{14=500}
+28211,Master of Illusions,幻影霸者,Master of Illusions,팬텀 오버로드,,,,,,<1221;1231;1241;>,,,{7=10%;8=10%}
+28212,Prankster,惡作劇者,Prankster,장난 꾸러기,,,,,,<2721;2271;1081;>,,,{1=12%}
+28213,Agile Actions,身手矯健,Agile Actions,원기 왕성한,,,,,,<271;2631;461;>,,,{7=10%;8=10%}
+28214,Best Friend Forever,基情四射,Best Friend Forever,열렬한,,,,,,<2241>,,,{14=500}
+28411,Hidden Psychic Powers,隱秘超能,Hidden Psychic Powers,시크릿 슈퍼,,,,,,<3291;551>,,,{7=10%;8=10%}
+28412,Dream Master,夢境大師,Dream Master,드림 마스터,,,,,,<771>,,,{1=10%}
+28413,Princess Link,公主連結,Princess Link,프린세스 링크,,,,,,<3351;1391>,,,{7=10%;8=10%}
+28711,Ice-type family,冰系家族,Ice-type family,얼음 가족,,,,,,<2301;1861;3011;>,,,{7=10%;8=10%}
+28712,Blizzard Detection,暴雪感應,Blizzard Detection,블리자드 유도,,,,,,<3501;1081;2921;>,,,{1=10%}
+28713,Freezing Power,冰封力量,Freezing Power,얼어 붙은 힘,,,,,,<1351;801;371;>,,,{7=10%;8=10%}
+28911,Electric family,雷電家族,Electric family,라이덴 가족,,,,,,<351;71;1441;>,,,{7=10%;8=10%}
+28912,Power of Nature,自然之力,Power of Nature,자연의 힘,,,,,,<3511;51;2071;>,,,{1=10%}
+28913,Electric awareness,電光意識,Electric awareness,전기 광학 인식,,,,,,<91;11;3511;>,,,{7=10%;8=10%}
+29211,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<2922;551;801;>,,,{7=10%;8=10%}
+29212,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<3501;3011;3471;>,,,{1=10%}
+29213,Overturn,覆舟之勢,Overturn,전복,,,,,,<371;541;21;>,,,{7=10%;8=10%}
+29611,Steel Will,鋼鐵意志,Steel Will,강철 같은 의지,,,,,,<801;3281;2071;>,,,{7=10%;8=10%}
+29612,Resilient Body,剛毅之軀,Resilient Body,꿋꿋함,,,,,,<1081;2631;3511;>,,,{1=10%}
+29613,Danger Detection,危機感應,Danger Detection,위기 감지,,,,,,<131;3431;1081;>,,,{7=10%;8=10%}
+29911,Spiritual Power,靈界力量,Spiritual Power,영적인 힘,,,,,,<391;1811;3561;>,,,{7=10%;8=10%}
+29912,Flame Body,火焰之軀,Flame Body,화염의 몸,,,,,,<601;741>,,,{1=12%}
+29913,Pledge Partner,誓約夥伴,Pledge Partner,맹세 파트너,,,,,,<2922;2871;2471;>,,,{7=10%;8=10%}
+29914,Hex,禍不單行,Hex,병상첨병,,,,,,<3411;2821;2921;>,,,{14=500}
+30011,Dragon-type family,龍系家族,Dragon-type family,드래곤 패밀리,,,,,,<3141;751>,,,{7=10%;8=10%}
+30012,Opelucid Gym,雙龍道館,Opelucid Gym,더블 드래곤로드 파빌리온,,,,,,<1891>,,,{1=12%}
+30013,Companions,同行夥伴,Companions,동료 파트너,,,,,,<2891;2611>,,,{7=10%;8=10%}
+30014,Blade,刀鋒戰士,Blade,블레이드 워리어,,,,,,<2231;571;691;>,,,{14=500}
+30111,Ice-type family,冰系家族,Ice-type family,얼음 가족,,,,,,<1861;2871;3501;>,,,{7=10%;8=10%}
+30112,Blizzard Detection,暴雪感應,Blizzard Detection,블리자드 유도,,,,,,<171;1081;2011;>,,,{1=10%}
+30113,Freezing Power,冰封力量,Freezing Power,얼어 붙은 힘,,,,,,<2271;3431;551;>,,,{7=10%;8=10%}
+30211,Frozen Will,寒冰意志,Frozen Will,얼음 의지,,,,,,<721;3011;3501;>,,,{7=10%;8=10%}
+30212,Shield of the Brave,盾之勇者,Shield of the Brave,방패 영웅,,,,,,<3541;3411>,,,{1=12%}
+30213,Rainstorm,雨雪交加,Rainstorm,비와 눈,,,,,,<3301;2301;1851;>,,,{7=10%;8=10%}
+30214,Weather Control,天氣管制,Weather Control,날씨 제어,,,,,,<731;51;71;>,,,{23=500}
+31411,Dragon Pulse,龍之波動,Dragon Pulse,용의 파동,,,,,,<751;1891>,,,{7=10%;8=10%}
+31412,Demon Flame,惡魔盛焰,Demon Flame,악마의 불꽃,,,,,,<1171;2481;791;>,,,{1=12%}
+31413,Full of evil,惡貫滿盈,Full of evil,악으로 가득,,,,,,<2821;1841>,,,{7=10%;8=10%}
+31414,Big Meeting,多頭會議,Big Meeting,다자간 회의,,,,,,<1901;2871;351;>,,,{14=500}
+31511,Rise of Bug,蟲蟲崛起,Rise of Bug,버그의 상승,,,,,,<571;1071;41;>,,,{7=10%;8=10%}
+31512,Hidden Fire,隱秘火系,Hidden Fire,숨겨진 불,,,,,,<1171;2991;1611;>,,,{1=12%}
+31513,Vow Partner,誓約夥伴,Vow Partner,맹세 파트너,,,,,,<2821;1811;3281;>,,,{7=10%;8=10%}
+31514,Water & Fire,水火無情,Water & Fire,무자비한,,,,,,<381;2481;221;>,,,{14=500}
+31611,Steel Family,鋼鐵世家,Steel Family,강철 세가,,,,,,<1931;2031;571;>,,,{7=10%;8=10%}
+31612,Fighting Warrior,格鬥勇士,Fighting Warrior,격투 용사,,,,,,<3251;1301;2631;>,,,{1=12%}
+31613,Swords of Justice,聖劍士,Swords of Justice,성검사,,,,,,<3171;3181>,,,{7=10%;8=10%}
+31614,Adventure Parter,探險同伴,Adventure Parter,탐험 파트너,,,,,,<3021;1911;2481;>,,,{14=500}
+31711,Rock Slide,岩崩,Rock Slide,무너진 바위,,,,,,<701;401;2591;>,,,{7=10%;8=10%}
+31712,Fighter,格鬥家,Fighter,격투가,,,,,,<3251;2241;461;>,,,{1=12%}
+31713,Swords of Justice,聖劍士,Swords of Justice,성검사,,,,,,<3161;3181>,,,{7=10%;8=10%}
+31714,Sword Dance,劍舞,Sword Dance,칼춤,,,,,,<1071;3001;341;>,,,{14=500}
+31811,Leaf Storm,草葉風暴,Leaf Storm,풀잎 폭풍,,,,,,<3661;3841;2301;>,,,{7=10%;8=10%}
+31812,Fighter,搏命者,Fighter,목숨을 버린 자,,,,,,<3251;1071;3511;>,,,{1=12%}
+31813,Swords of Justice,聖劍士,Swords of Justice,성검사,,,,,,<3161;3171>,,,{7=10%;8=10%}
+31814,Mystery Debut,神秘登場,Mystery Debut,신비 등장,,,,,,<2401;3351;2841;2891>,,,{23=500}
+32011,,雷電打擊,,,,,,,,<591;731;1221;>,,,{7=10%;8=10%}
+32012,,飛來飛去,,,,,,,,<51;2891;3511;>,,,{1=12%}
+32013,,形體變化,,,,,,,,<3411;461;1851;>,,,{7=10%;8=10%}
+32014,,傳說三雲神,,,,,,,,<3191;3231>,,,{14=500}
+32111,Dragon Pulse,龍之波動,Dragon Pulse,용의 파동,,,,,,<2351;3141;4131;>,,,{7=15%;8=15%}
+32112,Force of Fire,火之勢力,Force of Fire,불꽃의 세력,,,,,,<1271;3151;1171;1301>,,,{1=20%}
+32113,Vow Companion,誓約同伴,Vow Companion,서약 파트너,,,,,,<2721;3001;2471;2841>,,,{7=15%;8=15%}
+32114,Unova Legend,合眾傳說,Unova Legend,하나의 전설,,,,,,<3221;601;881;>,,,{23=750}
+32211,Dragon Series,龍系出擊,Dragon Series,드래곤계 출격,,,,,,<2361;3001;2231;>,,,{7=15%;8=15%}
+32212,Thunder Control,雷電操控,Thunder Control,번개 조종,,,,,,<731;1221;881;>,,,{1=20%}
+32213,Summon Power,召喚之力,Summon Power,소환의 힘,,,,,,<3641;1941;1951;>,,,{7=15%;8=15%}
+32214,Black & White Hero,黑白英雄,Black & White Hero,흑백 영웅,,,,,,<3211;861;2471;>,,,{14=750}
+32411,Blizzard Incoming,暴雪降臨,Blizzard Incoming,폭설 강림,,,,,,<721;641;1921>,,,{7=15%;8=15%}
+32412,Tao Trio,道之三龍,Tao Trio,음양 트리오,,,,,,<3211;3221>,,,{1=20%}
+32413,Sacred Sword Duel,聖劍決鬥,Sacred Sword Duel,성검의 결투,,,,,,<3251;2471;3001;3021>,,,{7=15%;8=15%}
+32414,Hoopa's Call,胡帕的召喚,Hoopa's Call,후파의 부름,,,,,,<2391;3301;751;>,,,{23=750}
+32511,Overturning,覆舟之勢,Overturning,난파한 형세,,,,,,<1241;3771;801;>,,,{7=10%;8=10%}
+32512,Fighter,格鬥家,Fighter,격투가,,,,,,<2241;1301;461;>,,,{1=12%}
+32513,Vow Companion,誓約同伴,Vow Companion,서약 파트너,,,,,,<3151;3511;551;>,,,{7=10%;8=10%}
+32514,Telepathy,心靈感應,Telepathy,텔레파시,,,,,,<1951;771>,,,{14=500}
+32611,General Relationship,一般關係,General Relationship,보통 관계,,,,,,<2381;711;341;>,,,{7=15%;8=15%}
+32612,Mental Synchronize,精神同步,Mental Synchronize,정신 동기화,,,,,,<3641;1391;1901;>,,,{1=20%}
+32613,Sacred Sword Companion,聖劍同行,Sacred Sword Companion,성검 동행,,,,,,<3161;2821;2721;>,,,{7=15%;8=15%}
+32614,Crisis Sensing,危機感應,Crisis Sensing,위기 감응,,,,,,<2441;1251;701;>,,,{22=750}
+32711,,蟲系軍團,,,,,,,,<571;1071;3151;611>,,,{7=15%;8=15%}
+32712,,鋼鐵守護,,,,,,,,<4171;1501;1901;>,,,{1=20%}
+32713,,遠古生物,,,,,,,,<1991;701;3501;691>,,,{7=15%;8=15%}
+32714,,鋼鐵炮臺,,,,,,,,<2351;1931;3161;>,,,{14=750}
+32811,Grass Pledge,草之誓約,Grass Pledge,풀의 맹세,,,,,,<281;781;2301;>,,,{7=10%;8=10%}
+32812,Forest Will,森林意志,Forest Will,숲의 의지,,,,,,<1351;2011;3511;>,,,{1=10%}
+32813,Adventure Partner,冒險同伴,Adventure Partner,모험 동반자,,,,,,<3431;1071;1611;>,,,{7=10%;8=10%}
+32911,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<2481;11;1611;>,,,{7=10%;8=10%}
+32912,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<3341;3281;791;>,,,{1=10%}
+32913,Sun will,太陽意志,Sun will,태양의 의지,,,,,,<121;2271;2611;>,,,{7=10%;8=10%}
+33011,Rising Above All,出類拔萃,Rising Above All,훌륭해,,,,,,<3291;3281>,,,{7=10%;8=10%}
+33012,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<1241;631;1311;21>,,,{1=12%}
+33013,Showdown,勁敵對決,Showdown,라이벌 대결,,,,,,<1291;11>,,,{7=10%;8=10%}
+33014,Eradicate evil,除惡務盡,Eradicate evil,악을 멀리하십시오,,,,,,<2821;1841>,,,{14=500}
+33411,Flame Control,火焰掌控,Flame Control,화염 제어,,,,,,<471;1611;101;>,,,{7=10%;8=10%}
+33412,Power of Fire,炎焰之力,Power of Fire,화염의 힘,,,,,,<1441;2481;271;>,,,{1=10%}
+33413,Sun will,太陽意志,Sun will,태양의 의지,,,,,,<471;3511;2071;>,,,{7=10%;8=10%}
+33511,Pokémon Alliance,妖精聯盟,Pokémon Alliance,페어리 리그,,,,,,<131;3431;1391;>,,,{7=10%;8=10%}
+33512,Battle on the Wetlands,濕地之戰,Battle on the Wetlands,습지 전투,,,,,,<3541;3511;2071;>,,,{1=12%}
+33513,Symbiosis,花草共生,Symbiosis,꽃과 식물의 공생,,,,,,<1291;281;781;>,,,{7=10%;8=10%}
+33514,Princess Link,公主連結,Princess Link,프린세스 링크,,,,,,<3631;2841>,,,{23=500}
+34111,Appearance of Ghosts,幽靈出沒,Appearance of Ghosts,유령 유령,,,,,,<391;1811>,,,{7=10%;8=10%}
+34112,Steel Will,鋼鐵意志,Steel Will,강철 같은 의지,,,,,,<1901;331;2961;>,,,{1=12%}
+34113,Knives Out,利刃出鞘,Knives Out,칼집에서 칼,,,,,,<571;691>,,,{7=10%;8=10%}
+34114,Shield of the Brave,盾之勇者,Shield of the Brave,방패 영웅,,,,,,<3021;3501;2011;>,,,{23=500}
+34311,Dragon Buster,龍族剋星,Dragon Buster,드래곤 네메시스,,,,,,<171;281;2631;>,,,{7=10%;8=10%}
+34312,Wide Companion,廣域夥伴,Wide Companion,광역 파트너,,,,,,<471;691;2961;>,,,{1=10%}
+34313,Moonblast,月亮之力,Moonblast,달의 힘,,,,,,<131;2301;2011;>,,,{7=10%;8=10%}
+34711,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<551;21;801;>,,,{7=10%;8=10%}
+34712,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<1441;1861;2871;>,,,{1=10%}
+34713,Overturn,覆舟之勢,Overturn,전복,,,,,,<2922;2011;3011;>,,,{7=10%;8=10%}
+35011,Rock Barrier,岩石壁壘,Rock Barrier,바위 장벽,,,,,,<301;691;2591;>,,,{7=10%;8=10%}
+35012,Sandstorm,沙暴之勢,Sandstorm,모래 폭풍,,,,,,<1081;2871;3011;>,,,{1=10%}
+35013,Natural combination,自然組合,Natural combination,자연스러운 조합,,,,,,<541;2301;1861;>,,,{7=10%;8=10%}
+35111,Fighting Forces,格鬥勢力,Fighting Forces,싸우는 힘,,,,,,<271;2631;2271;>,,,{7=10%;8=10%}
+35112,Fist Power,拳之力量,Fist Power,주먹의 힘,,,,,,<231;461;1441;51>,,,{1=10%}
+35113,Technique control,技巧掌控,Technique control,스킬 컨트롤,,,,,,<2961;791;3431;>,,,{7=10%;8=10%}
+35411,Dragon Pulse,龍之波動,Dragon Pulse,용의 파동,,,,,,<3141;1891>,,,{7=10%;8=10%}
+35412,Extra-large size,肥大體型,Extra-large size,비대,,,,,,<751;711;2481;>,,,{1=12%}
+35413,Shield of the Brave,盾之勇者,Shield of the Brave,방패 영웅,,,,,,<3021;3501;2011;>,,,{7=10%;8=10%}
+35414,Companions,同行夥伴,Companions,동료 파트너,,,,,,<3301;3511;91;>,,,{23=500}
+35611,Ghost Detection,幽靈感應,Ghost Detection,영감은,,,,,,<1351;801;781;>,,,{7=8%;8=8%}
+35612,Phantom Companion,魅影同伴,Phantom Companion,팬텀 컴패니언,,,,,,<171;2011;3281;>,,,{1=10%}
+35613,Soul Power,魂魄之力,Soul Power,아스트랄 파워,,,,,,<2961;111;301;>,,,{7=8%;8=8%}
+35911,Low-altitude forces,低空勢力,Low-altitude forces,낮은 고도의 힘,,,,,,<571;51>,,,{7=10%;8=10%}
+35912,Dealing damage with a roar,輸出全靠吼,Dealing damage with a roar,출력은 모두 포효에 달려 있습니다.,,,,,,<1391;1441;61;>,,,{1=12%}
+35913,Dragon Team,龍龍軍團,Dragon Team,드래곤 아미,,,,,,<2231;3541>,,,{7=10%;8=10%}
+35914,Cave Living,洞穴索居,Cave Living,동굴 체류,,,,,,<401;301>,,,{23=500}
+36011,,美麗動人,,,,,,,,<3261;1771;2401;>,,,{7=15%;8=15%}
+36012,,妖精同盟,,,,,,,,<3351;1391;861;3681>,,,{1=20%}
+36013,,大地復蘇,,,,,,,,<1971;2441;3631;>,,,{7=15%;8=15%}
+36014,,X/Y,,,,,,,,<3611;>,,,{23=750}
+36111,King of Destruction,破壞之王,King of Destruction,파괴의 왕,,,,,,<2431;3171;1031;>,,,{7=15%;8=15%}
+36112,Demon Prayer,惡魔禱告,Demon Prayer,악마 기도,,,,,,<3641;4131;381;>,,,{1=20%}
+36113,Dark Legion,惡系軍團,Dark Legion,악계 군단,,,,,,<1171;1841;2821;1801>,,,{7=15%;8=15%}
+36114,Tooth for tooth,以牙還牙,Tooth for tooth,첨예한 대립,,,,,,<3241;1911;1811;>,,,{14=750}
+36311,Gifted,天賦異稟,Gifted,하늘이 내린 재능,,,,,,<761;771;3541;>,,,{7=15%;8=15%}
+36312,The Diamond Glow,鑽石輝光,The Diamond Glow,다이아몬드 글로우,,,,,,<1251;1501;491;>,,,{1=20%}
+36313,Princess Link,公主連結,Princess Link,프린세스 링크,,,,,,<1271;1391;2841;>,,,{7=15%;8=15%}
+36314,Enhance and counteract,相生相剋,Enhance and counteract,타감,,,,,,<3431;1981;131;3541>,,,{23=750}
+36411,Extraordinary Will,超凡意志,Extraordinary Will,비범한 의지,,,,,,<261;1941;1951;1901>,,,{7=15%;8=15%}
+36412,Retribution Aura,懲戒光環,Retribution Aura,징계 후광,,,,,,<2391;2991;3661;>,,,{1=20%}
+36413,Raw Power,原始力量,Raw Power,원초의 힘,,,,,,<1971;751;401;301>,,,{7=15%;8=15%}
+36414,Counter Destroy,毀滅對抗,Counter Destroy,파멸 대항,,,,,,<3211;3301;1031;>,,,{14=750}
+36611,Grass Power,草系力量,Grass Power,잔디 힘,,,,,,<1291;2471;281;>,,,{7=10%;8=10%}
+36612,Ghost Around,鬼影出沒,Ghost Around,유령 감염,,,,,,<3411;1851;2922;>,,,{1=12%}
+36613,Vow Partner,誓約夥伴,Vow Partner,맹세 파트너,,,,,,<591;271;91;>,,,{7=10%;8=10%}
+36614,Precision Hunting,精准狩獵,Precision Hunting,정밀 사냥,,,,,,<3001;571;3511;>,,,{14=500}
+36811,,妖精同盟,,,,,,,,<3351;1391;3431;>,,,{7=10%;8=10%}
+36812,,水樣年華,,,,,,,,<1241;641;1311;>,,,{1=12%}
+36813,,海洋生物,,,,,,,,<3771;381;3471;1861>,,,{7=10%;8=10%}
+36814,,美麗動人,,,,,,,,<1771;2401;>,,,{23=500}
+37711,Poison Strike,毒擊學習,Poison Strike,악랄학습,,,,,,<161;371;81;>,,,{7=10%;8=10%}
+37712,Aqua Smash,水流衝擊,Aqua Smash,물살충격,,,,,,<641;631>,,,{1=12%}
+37713,James!,小次郎!,James!,코지로！,,,,,,<3661;391;3011;>,,,{7=10%;8=10%}
+37714,Adventure Companion,冒險同伴,Adventure Companion,모험 짝꿍,,,,,,<241;301;481;>,,,{23=500}
+38411,Grass Power,草系力量,Grass Power,잔디 힘,,,,,,<3661;2011;781;>,,,{7=10%;8=10%}
+38412,Super Encounter,超級對抗,Super Encounter,슈퍼 대결,,,,,,<381;3771;221;1861>,,,{1=12%}
+38413,Aroma Pervade,香氣彌漫,Aroma Pervade," 향기 자욱",,,,,,<711;3281;281;>,,,{7=10%;8=10%}
+38414,Run Companion,竟跑同伴,Run Companion,달리기 파트너,,,,,,<241;2241;271;>,,,{14=500}
+41311,Gas Attack,毒氣攻擊,Gas Attack,독가스 공격,,,,,,<161;3771;2681;>,,,{7=10%;8=10%}
+41312,Dragon Like,似龍非龍,Dragon Like,용과 닮음,,,,,,<3591;1891;701;>,,,{1=12%}
+41313,Power of Oath,誓約之力,Power of Oath,서약의 힘,,,,,,<3661;3841;221;>,,,{7=10%;8=10%}
+41314,Peer Partner,同行夥伴,Peer Partner,동행 파트너,,,,,,<751;91;341;>,,,{14=500}
+41611,,大型幻獸,,,,,,,,<2431;4171;3251;>,,,{7=15%;8=15%}
+41612,,無影無蹤,,,,,,,,<3201;701;731;3661>,,,{1=20%}
+41613,,高速儲能,,,,,,,,<3271;591;881;>,,,{7=15%;8=15%}
+41614,,雷電身法,,,,,,,,<3221;7001;1221;>,,,{14=750}
+41711,Extreme Steel,極限鋼鐵,Extreme Steel,극한 강철,,,,,,<1991;3161;3411;>,,,{7=15%;8=15%}
+41712,Laser Cannon,加農光炮,Laser Cannon,캐논 빔,,,,,,<1901;331;1931;21>,,,{1=20%}
+41713,Metal Uproar,金屬大騷動,Metal Uproar,금속 대소동,,,,,,<2441;3661;3771;>,,,{7=15%;8=15%}
+41714,Alliance Battle,聯盟對戰,Alliance Battle,연맹 대전,,,,,,<3221;3841;571;1301>,,,{23=750}
+70011,Quick Attack,電光一閃,Quick Attack,전광 번쩍,,,,,,<331;731;2071;91>,,,{7=10%;8=10%}
+70012,Sacred Fire,神聖之火,Sacred Fire,성스러운 불꽃,,,,,,<1301;2991;2481;11>,,,{1=12%}
+70013,Oath of Water,水之誓約,Oath of Water,물의 서약,,,,,,<3301;3771;221;21>,,,{7=10%;8=10%}
+70014,Gravity,萬有引力,Gravity,만유인력,,,,,,<2471;3841;781;1>,,,{22=500}
+90011,Best Partner,最佳拍檔,Best Partner,최고의 파트너,,,,,,<9002;9003>,,,{7=10%;8=10%}
+90021,Best Partner,最佳拍檔,Best Partner,최고의 파트너,,,,,,<9001;9003>,,,{7=10%;8=10%}
+90031,Best Partner,最佳拍檔,Best Partner,최고의 파트너,,,,,,<9001;9002>,,,{7=15%;8=15%}
+29221,Force of Current,水流力量,Force of Current,현재 힘,,,,,,<2921;801;891;>,,,{7=10%;8=10%}
+29222,Water Pulse,水之波動,Water Pulse,물의파동,,,,,,<3471;541;691;>,,,{1=10%}
+29223,Overturn,覆舟之勢,Overturn,전복,,,,,,<2011;121;3011;>,,,{7=10%;8=10%}

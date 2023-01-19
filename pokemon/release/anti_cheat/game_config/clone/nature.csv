@@ -1,0 +1,22 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,weight,weight_kr,spine,CDTime,fix,robot1,robot2,robot3,robot4,recommendAttr
+默认值,"""""","""""","""""","""""","""""",0,0,"""""",0,0,0,1,2,3,<>
+属性ID,元素名,元素名,元素名,元素名_越南,元素名_韩,权值,权值,spine配置,冷却时间（单位：天数）,机器人修正值（只对6个基础属性及精灵等级和技能等级进行修正）,机器人1卡牌ID,机器人2卡牌ID,机器人3卡牌ID,机器人4卡牌ID,推荐属性列表(填数字，数量任意)
+,,,,,,,,,,,,,,,
+1,Normal,一般,Normal,Thường,노말,100,100,18ys/huizhang1.skel,2,0.75,603,13,3303,2302,<7>
+2,Fire,火,Fire,Lửa,불꽃,100,100,18ys/huizhang1.skel,2,0.75,93,263,572,1172,<3;9;13>
+3,Water,水,Water,Nước,물,100,100,18ys/huizhang1.skel,2,0.75,303,1392,1253,3143,<4;5>
+4,Grass,草,Grass,Cỏ,풀,100,100,18ys/huizhang1.skel,2,0.75,2963,303,3413,1393,<2;6;8;10;12>
+5,Electic,電,Electic,Điện,전기,100,100,18ys/huizhang1.skel,2,0.75,3,793,372,631,<9>
+6,Ice,冰,Ice,Băng,얼음,100,100,18ys/huizhang3.skel,2,0.75,482,593,803,1293,<2;7;13;17>
+7,Fighting,格鬥,Fighting,Cách đấu,격투,100,100,18ys/huizhang3.skel,2,0.75,1353,332,1853,3293,<10;11;18>
+8,Poison,毒,Poison,Độc,독,100,100,18ys/huizhang2.skel,2,0.75,23,1841,133,3502,<9;11>
+9,Ground,地面,Ground,Mặt đất,땅,100,100,18ys/huizhang1.skel,2,0.75,692,2593,1443,753,<3;4;6>
+10,Fly,飛行,Fly,Phi hành,비행,100,100,18ys/huizhang3.skel,2,0.75,462,1394,551,3003,<5;6;13>
+11,Psychic,超能,Psychic,Siêu năng,에스퍼,100,100,18ys/huizhang3.skel,2,0.75,122,542,283,731,<12;14;16>
+12,Bug,蟲,Bug,Trùng,벌레,100,100,18ys/huizhang3.skel,2,0.75,1863,1071,3021,2073,<2;10;13>
+13,Rock,岩石,Rock,Nham thạch,바위,100,100,18ys/huizhang2.skel,2,0.75,333,1252,2683,2873,<3;4;7;9;17>
+14,Ghost,幽靈,Ghost,U linh,유령,100,100,18ys/huizhang3.skel,2,0.75,102,771,1302,1503,<14;16>
+15,Dragon,龍,Dragon,Rồng,드래곤,50,30,18ys/huizhang2.skel,2,0.75,1423,1082,113,893,<6;15;18>
+16,Dark,惡,Dark,Ác,악,100,100,18ys/huizhang2.skel,2,0.75,1612,1231,53,741,<7;12;18>
+17,Steel,鋼,Steel,Thép,강철,100,100,18ys/huizhang2.skel,2,0.75,3472,1221,2923,883,<2;7;9>
+18,Fairy,妖精,Fairy,Yêu tinh,페어리,100,100,18ys/huizhang2.skel,2,0.75,2633,721,464,3353,<8;17>

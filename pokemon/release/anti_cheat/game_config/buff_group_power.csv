@@ -1,0 +1,17 @@
+变量名,_beizhu1,_beizhu2,beDispel,beImmune,beTransfer,beCopy,beChange
+默认值,,,1,1,1,1,1
+ID,功能说明,功能说明,被驱散性（1-能被驱散；0-不能被驱散）,被免疫性,被转移性,被复制性,被转化性
+,,,,,,,
+101,Generic can be affected,,1,1,1,1,1
+102,Generic cannot be affected,,0,1,0,0,0
+103,GM cannot be affected at all,,0,0,0,0,0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+201,monarch snake,,1,0,1,1,0
+202,,,1,1,1,1,0
+203,Will-o'-the-wisp,,1,1,0,0,0
+204,Hoopa Nimbus,,1,1,0,0,0
+205,Kyurem Mark,,1,1,0,0,0
+206,Y god steals--gain,,0,0,0,1,0
+207,God Steal--Debuff,,1,1,0,0,0

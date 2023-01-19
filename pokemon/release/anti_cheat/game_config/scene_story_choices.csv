@@ -1,0 +1,19 @@
+﻿"﻿变量名",text,text_tw,text_en,text_vn,text_kr,startStoryID,skills
+默认值,"""""","""""","""""","""""","""""",0,{}
+ID,Option text,選項文本,Option text,Văn bản tùy chọn,옵션 텍스트,选项跳转剧情ID,选项添加buff({skillID=num;...})
+1,Golden apple,金蘋果,Golden apple,,황금 사과,3000007,{66016=1}
+2,Silver apple,銀蘋果,Silver apple,,실버 사과,3000009,{66017=1}
+3,Rotten apple,爛蘋果,Rotten apple,,썩은 사과,3000011,{66016=1;66017=1}
+,,,,,,,
+11,Golden Apple 2,金蘋果2,Golden Apple 2,,황금 사과2,11,{66016=1}
+21,Silver Apple 2,銀蘋果2,Silver Apple 2,,실버 사과2,21,{66017=1}
+31,Rotten apple 2,爛蘋果2,Rotten apple 2,,썩은 사과2,31,{66016=1;66017=1}
+,,,,,,,
+100001,Go left,走左邊,Go left,,왼쪽 가기,100007,{50000001=1}
+100002,Go right,走右邊,Go right,,오른쪽 가기,100009,
+,,,,,,,
+100101,I choose you! Squirtle! Use water to unfreeze,出來吧！傑尼龜！用水來解凍！,I choose you! Squirtle! Use water to unfreeze,,나와라! 꼬부기! 물로 해동!,100105,
+100102,I choose you! Charmander! Use fire to unfreeze!,出來吧！小火龍！用火來解凍！,I choose you! Charmander! Use fire to unfreeze!,,나와라! 파이리! 불꽃로 해동!,100107,{50000002=1}
+,,,,,,,
+100601,Heals the Feebas first,優先治療醜醜魚,Heals the Feebas first,,빈티나를 우선 치료,100612,{50000011=1}
+100602,Chasing off teen hooligan first,優先趕跑不良少年,Chasing off teen hooligan first,,불량 소년을 우선적으로 쫓아내다,100614,{50000012=1}

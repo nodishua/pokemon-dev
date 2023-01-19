@@ -1,0 +1,19 @@
+变量名,_beizhu,libID,drawTriggerType,drawTriggerTimes,weightStart,weightEnd,effectLimit,startCount,probInit,probStep,probLimit,probMiniTimes,probEffectInterval,selected,unselected
+默认值,0,0,2,0,0,0,0,0,0,0.01,0.2,30,50,2,1
+ID,备注,掉落库ID,触发次数类型(0从X次开始;1权值累加;2概率触发;3每X次;4第X次),触发次数条件,权值上限,权值下限,生效次数上限,开始次数,概率初值,概率递增,概率上限,概率保底次数,概率生效间隔,玩家选定套装权重修正,非玩家选定套装权值修正
+,,,,,,,,,,,,,,,
+1,Green Overall Correction,22501,0,1,0,0,0,0,,,,,,3,1
+,,,,,,,,,,,,,,,
+11,blue overall correction,22502,0,1,0,0,0,0,,,,,,3,1
+,,,,,,,,,,,,,,,
+21,Purple - comes out every 6 times or so,22503,1,2,0.013,0.02,0,2,,,,,,4.5,1
+22,Purple - must be released for the first time,22503,3,1,,,1,1,,,,,,1,0
+23,Purple - Overall Correction,22503,0,1,0,0,0,0,,,,,,2,1
+,,,,,,,,,,,,,,,
+31,Orange - comes out every 6 times or so,22504,1,2,0.013,0.02,0,2,,,,,,4.5,1
+32,Orange - must be out for the first time,22504,3,1,,,1,1,,,,,,1,0
+33,Orange - Overall Correction,22504,0,1,0,0,0,0,,,,,,2,1
+,,,,,,,,,,,,,,,
+41,Red - out every 6 times or so,22505,1,2,0.013,0.02,0,2,,,,,,4.5,1
+42,Red - must be released for the first time,22505,3,1,,,1,1,,,,,,1,0
+43,red - overall correction,22505,0,1,0,0,0,0,,,,,,2,1

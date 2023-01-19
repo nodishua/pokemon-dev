@@ -1,0 +1,7 @@
+﻿变量名,huodongID,range,pngResource,spineResource
+默认值,1001,<>,<>,<>
+ID,活动版本号,楼层区间,png资源,spine资源
+1,1,<0;1>,"<""activity/sky_scraper/img_fz1.png"";""activity/sky_scraper/img_fz5.png"";""activity/sky_scraper/img_fz6.png"";""activity/sky_scraper/img_fz8.png"">",
+2,1,<1;35>,"<""activity/sky_scraper/img_fz1.png"";""activity/sky_scraper/img_fz2.png"";""activity/sky_scraper/img_fz3.png"";""activity/sky_scraper/img_fz4.png"";""activity/sky_scraper/img_fz5.png"";""activity/sky_scraper/img_fz6.png"";""activity/sky_scraper/img_fz7.png"";""activity/sky_scraper/img_fz8.png"";""activity/sky_scraper/img_fz9.png"";""activity/sky_scraper/img_fz10.png"";""activity/sky_scraper/img_fz11.png"";""activity/sky_scraper/img_fz12.png"";""activity/sky_scraper/img_fz13.png"";""activity/sky_scraper/img_fz14.png"";""activity/sky_scraper/img_fz15.png"">",
+3,1,<35;50>,,"<""skyscraper/floor_2.skel"";""skyscraper/floor_3.skel"";""skyscraper/floor_5.skel"";""skyscraper/flooor_6.skel"">"
+4,1,<50;51>,,"<""skyscraper/floor_1.skel"">"

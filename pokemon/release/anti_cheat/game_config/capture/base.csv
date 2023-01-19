@@ -1,0 +1,4 @@
+变量名,weightMax,weightMin,dailyMax,onceMax
+默认值,0,0,0,0
+ID,权值上限,权值下限,日最大出现上限,同时存在最大值
+1,0.006,0.008,10,10

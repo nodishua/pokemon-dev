@@ -1,0 +1,7 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,icon,preTalentpoint,roleLevel,showLevel,showLevel_en,showLevel_kr,des,des_tw,des_en,des_vn,des_kr,languages
+默认值,,,,,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+treeID,名称,名称,名称,名称_越南,名称_韩,icon,前置天赋点,战队等级要求,显示等级,显示等级,显示等级,天赋类描述,天赋类描述,天赋类描述,天赋类描述_越南,天赋类描述_韩,语言区域
+1,Basic,基礎,Basic,Cơ sở,기초,talent/icon_jc.png,0,25,0,0,0,"Team's base stats ",全隊基礎屬性,"Team's base stats ",404404,전체 팀 기초 속성,
+2,Normal,進階,Normal,Tiến giai,진급,talent/icon_jj.png,150,45,0,0,0,Stat boost for Pokémons in the team,隊伍中精靈加成屬性,Stat boost for Pokémons in the team,404404,팀 내 포켓몬 보너스 속성,
+3,Element,元素,Element,Nguyên tố,엘리먼트,talent/icon_ys.png,220,65,0,0,0,Pokémon type exclusive bonus #F36##C0xf76b45#(All [Element] HP bonus are only effective for the Pokémon's primary type),精靈系別專屬加成#F36##C0xf76b45#（【元素】內的生命加成隻對第一屬性是對應元素的精靈生效）,Pokémon type exclusive bonus #F36##C0xf76b45#(All [Element] HP bonus are only effective for the Pokémon's primary type),404404,포켓몬 계열별 전용 보너스#F36##C0xf76b45#([엘리먼트] 내 HP 보너스는 첫 번째 속성이 엘리먼트와 대응하는 포켓몬에게만 유효),
+4,Challenge,挑戰,Challenge,Khiêu chiến,도전,talent/icon_tz.png,550,75,0,70,70,Exclusive bonus in event gameplay,活動玩法內專屬加成,Exclusive bonus in event gameplay,404404,,<cn>

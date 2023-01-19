@@ -1,0 +1,8 @@
+变量名,_beizhu1,limitBuff,forbiddenBuff,forbiddenPassiveSkill,disableBattleState,cfgIds
+默认值,,<>,<>,<>,0,<>
+ID,备注,额外回合buff节点,禁用buff节点,禁用被动技能节点,1：不触发回合开始节点，2：不触发回合结束的节点，0：正常触发,对应的额外回合id
+,,,,,,
+1,Prophet's second half,,<5;24;25>,<2;23>,1,<4161681>
+2,Prophet's first half,,<6;42>,<9;18;24;25;28>,2,
+,,,,,,
+1000,Extra round default node,<5;6;7;8;10;14;15;24;25;40>,,,,

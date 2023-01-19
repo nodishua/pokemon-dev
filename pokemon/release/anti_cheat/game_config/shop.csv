@@ -1,0 +1,19 @@
+变量名,_NAME,group,fontSize,fontSize_en,fontSize_tw,fontSize_kr
+默认值,,1,50,50,50,40
+ID,商店名,页签,字号,字号,字号,字号
+1,Featured,1,50,50,50,40
+2,guild,1,50,50,50,40
+3, fragment, 1, 50, 50, 50, 40
+4, competitive, 2, 50, 50, 50, 40
+5,explorer,1,50,50,50,40
+6, Ether Paradise, 2, 50, 44, 50, 40
+7,Quartz Assembly,2,50,36,50,40
+8,accessory store,1,50,50,50,40
+9,guild battle,2,50,50,50,40
+10, Cross-server Quartz Conference, 2, 48, 32, 40, 40
+,cross server arena,2,,,,
+12,fishing shop,2,50,36,50,40
+13,real-time match,2,,,,
+14,fashion,3,,,,
+15, cross server commercial street, 2,50,50,50,40
+16,expedition,2,50,50,50,40

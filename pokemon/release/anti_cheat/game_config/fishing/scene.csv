@@ -1,0 +1,8 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,res,type,needLv,priview,characterPos,lock
+默认值,"""""","""""","""""","""""","""""","""""",1,1,<>,<>,0
+ID,名字,名字,英文副标题,名字,名字,资源目录,场景类型,需要钓鱼等级,鱼类预览,人物位置,场景开关(0为不开启)
+1,Tidal Coast,潮汐海岸,Tidal Coast,,조석의 해안,fishing/diaoyu_cj_shatan.skel,1,,<1;2;3;4;101;102;201;202>,<460;-160>,1
+2,Silent Swamp,寂夜沼澤,Silent Swamp,,고요 한 밤 늪,fishing/diaoyu_cj_miwu.skel,1,4,<5;6;7;8;103;104;203;204>,<560;-100>,1
+3,Nile Valley,逆徊山谷,Nile Valley,,거꾸로 된 계곡,fishing/diaoyuchangjing3.skel,1,10,<9;10;11;105;106;107;205;206>,<660;-160>,1
+,,,,,,,,,,,
+999,Fishing Contest,釣魚大賽,Fishing Contest,,낚시대회,fishing/diaoyu_cj_shatan.skel,2,1,<1;3;5;7;10;101;103;106;201;203;206;9999>,<360;-240>,1

@@ -1,0 +1,301 @@
+{
+  "storagemerge.kr.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_1", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_1?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.1"
+      }
+    ]
+  }, 
+  "storagemerge.kr.10": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_10", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_10?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.10"
+      }
+    ]
+  }, 
+  "storagemerge.kr.11": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_11", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.42:27017/gamemerge_kr_11?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.11"
+      }
+    ]
+  }, 
+  "storagemerge.kr.12": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_12", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.42:27017/gamemerge_kr_12?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.12"
+      }
+    ]
+  }, 
+  "storagemerge.kr.13": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_13", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.42:27017/gamemerge_kr_13?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.13"
+      }
+    ]
+  }, 
+  "storagemerge.kr.14": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_14", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_14?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.14"
+      }
+    ]
+  }, 
+  "storagemerge.kr.15": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_15", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_15?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.15"
+      }
+    ]
+  }, 
+  "storagemerge.kr.16": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_16", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_16?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.16"
+      }
+    ]
+  }, 
+  "storagemerge.kr.17": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_17", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_17?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.17"
+      }
+    ]
+  }, 
+  "storagemerge.kr.18": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_18", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_18?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.18"
+      }
+    ]
+  }, 
+  "storagemerge.kr.19": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_19", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_19?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.19"
+      }
+    ]
+  }, 
+  "storagemerge.kr.2": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_2", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_2?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.2"
+      }
+    ]
+  }, 
+  "storagemerge.kr.20": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_20", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_20?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.20"
+      }
+    ]
+  }, 
+  "storagemerge.kr.21": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_21", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_21?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.21"
+      }
+    ]
+  }, 
+  "storagemerge.kr.22": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_22", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_22?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.22"
+      }
+    ]
+  }, 
+  "storagemerge.kr.23": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_23", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_23?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.23"
+      }
+    ]
+  }, 
+  "storagemerge.kr.3": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_3", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_3?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.3"
+      }
+    ]
+  }, 
+  "storagemerge.kr.4": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_4", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_4?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.4"
+      }
+    ]
+  }, 
+  "storagemerge.kr.5": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_5", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_5?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.5"
+      }
+    ]
+  }, 
+  "storagemerge.kr.6": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_6", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_6?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.6"
+      }
+    ]
+  }, 
+  "storagemerge.kr.7": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_7", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_7?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.7"
+      }
+    ]
+  }, 
+  "storagemerge.kr.8": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_8", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_8?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.8"
+      }
+    ]
+  }, 
+  "storagemerge.kr.9": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_kr_9", 
+        "mongodb": "mongodb://mongouser:123456@192.168.1.9:27017/gamemerge_kr_9?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.kr.9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+﻿"﻿变量名",huodongID,times,taskType,taskParam,taskSpecialParam,desc,desc_tw,desc_en,desc_vn,desc_kr,award,jumpTo
+默认值,0,1,0,9999,{},"""""","""""","""""","""""","""""",0,""""""
+ID,活动版本ID,可完成次数,任务类型,任务参数,任务特殊参数,任务描述,任务描述,任务描述,任务描述,任务描述,任务次数奖励,跳转目标
+101,1001,1,30,3,,Difficult dungeon challenges 3 times,困難副本挑戰3次,,,하드 던전 3회 도전,1,20000
+102,1001,1,18,3,,Join Fortune 3 times,聚寶3次,Join Fortune 3 times,,보물단지 3회,1,gainGold
+103,1001,1,32,4,,Clear Daily Dungeon 4 times,日常副本通關4次,Clear Daily Dungeon 4 times,,일일 던전 4회 클리어,1,activityGate
+104,1001,1,41,5,,Challenge in the Arena 5 times,進行5次競技場挑戰,Challenge in the Arena 5 times,,아레나 도전 5회 진행,1,arena
+105,1001,1,26,2,,Purchase Stamina 2 times,購買2次體力,Purchase Stamina 2 times,,체력 2회 구매,1,gainStamina
+106,1001,5,22,60,,"Every 60 diamonds purchased, up to 5 times",每充值60鑽，可完成5次,"Every 60 diamonds purchased, up to 5 times",,60다이아 충전할 때마다 5회 완료 가능,1,recharge
+,,,,,,,,,,,,
+111,1002,10,22,60,,"Top-up 60 diamonds, up to 10 times",每充值60鑽，可完成10次,"Top-up 60 diamonds, up to 10 times",,60다이아 충전할 때마다 10회 완료 가능,1,recharge
+112,1002,3,21,200,,"Consume 200 diamonds, up to 3 times",每消耗200鑽，可完成3次,"Consume 200 diamonds, up to 3 times",,200다이아 충전할 때마다 3회 완료 가능,1,
+113,1002,1,18,5,,Join Fortune 5 times,聚寶5次,Join Fortune 5 times,,보물단지 5회,1,gainGold
+114,1002,1,29,30,,Clear Common Dungeon 30 times,普通副本通關30次,Clear Common Dungeon 30 times,,일반 던전 30회 클리어,1,10000
+115,1002,1,41,5,,Challenge in the Arena 5 times,進行5次競技場挑戰,Challenge in the Arena 5 times,,아레나 도전 5회 진행,1,arena
+116,1002,1,26,2,,Purchase Stamina 2 times,購買2次體力,Purchase Stamina 2 times,,체력 2회 구매,1,gainStamina
+,,,,,,,,,,,,
+121,1003,10,22,60,,"Top-up 60 diamonds, up to 10 times",每充值60鑽，可完成10次,"Top-up 60 diamonds, up to 10 times",,60다이아 충전할 때마다 10회 완료 가능,1,recharge
+122,1003,3,21,200,,"Consume 200 diamonds, up to 3 times",每消耗200鑽，可完成3次,"Consume 200 diamonds, up to 3 times",,200다이아 충전할 때마다 3회 완료 가능,1,
+123,1003,1,18,5,,Join Fortune 5 times,聚寶5次,Join Fortune 5 times,,보물단지 5회,1,gainGold
+124,1003,1,29,30,,Clear Common Dungeon 30 times,普通副本通關30次,Clear Common Dungeon 30 times,,일반 던전 30회 클리어,1,10000
+125,1003,1,41,5,,Challenge in the Arena 5 times,進行5次競技場挑戰,Challenge in the Arena 5 times,,아레나 도전 5회 진행,1,arena
+126,1003,1,26,2,,Purchase Stamina 2 times,購買2次體力,Purchase Stamina 2 times,,체력 2회 구매,1,gainStamina
+,,,,,,,,,,,,
+131,1004,10,22,60,,"Top-up 60 diamonds, up to 10 times",每充值60鑽，可完成10次,"Top-up 60 diamonds, up to 10 times",,60다이아 충전할 때마다 10회 완료 가능,1,recharge
+132,1004,3,21,200,,"Consume 200 diamonds, up to 3 times",每消耗200鑽，可完成3次,"Consume 200 diamonds, up to 3 times",,200다이아 충전할 때마다 3회 완료 가능,1,
+133,1004,1,18,5,,Join Fortune 5 times,聚寶5次,Join Fortune 5 times,,보물단지 5회,1,gainGold
+134,1004,1,29,30,,Clear Common Dungeon 30 times,普通副本通關30次,Clear Common Dungeon 30 times,,일반 던전 30회 클리어,1,10000
+135,1004,1,41,5,,Challenge in the Arena 5 times,進行5次競技場挑戰,Challenge in the Arena 5 times,,아레나 도전 5회 진행,1,arena
+136,1004,1,26,2,,Purchase Stamina 2 times,購買2次體力,Purchase Stamina 2 times,,체력 2회 구매,1,gainStamina

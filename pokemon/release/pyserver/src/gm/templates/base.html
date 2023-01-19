@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src={{ static_url("node_modules/jquery/dist/jquery.min.js") }}></script>
+    <link rel="stylesheet" href={{ static_url("node_modules/bootstrap/dist/css/bootstrap.min.css") }} />
+    <script src={{ static_url("node_modules/bootstrap/dist/js/bootstrap.min.js") }}></script>
+    <link rel="stylesheet" href={{ static_url("css/base.css") }} />
+    {% block head %}{% end %}
+    {% block title %}
+        <title>GM Web</title>
+    {% end %}
+</head>
+<body>
+    {% block body %}{% end %}
+
+    <footer language='{{ userLocale }}'></footer>
+    <script src={{ static_url("js/base.js") }}></script>
+    {% block foot %}{% end %}
+</body>
+</html>

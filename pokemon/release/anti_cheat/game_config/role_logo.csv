@@ -1,0 +1,479 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,icon,cardID,itemID,roleID,skinID,languages,unlockDesc,unlockDesc_tw,unlockDesc_en,unlockDesc_vn,unlockDesc_kr
+默认值,"""""","""""","""""","""""","""""",config/portrait/speedranktouxiang/img_25_pkq@.png,,,,,<cn;tw;en;vn;th;kr>,"""特殊途径解锁""","""特殊途徑解鎖""",Special path unlocking,Special path unlocking,"""특수 경로로 개방"""
+ID,名字,名字,名字,名字_越南,名字_韩,icon（支持spine）,卡牌id,物品id,形象id,皮肤id,语言区域,解锁条件,解锁条件,解锁条件,解锁条件_越南,解锁条件_韩
+1,Ash,小智,Ash,404404,지우,config/portrait/toptouxiang/img_role_1@.png,,,1,,<cn;tw;en;vn;th;kr>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+2,Misty,小霞,Misty,404404,이슬,config/portrait/toptouxiang/img_role_2@.png,,,2,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+3,Rapp,拉普,Rapp,404404,랩,config/portrait/toptouxiang/img_role_3@.png,,,3,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+4,Plumeria,布林美麗,Plumeria,404404,플루메리,config/portrait/toptouxiang/img_role_4@.png,,,4,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+5,Morgan,露美旦,Morgan,404404,르마탱,config/portrait/toptouxiang/img_role_5@.png,,,5,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+6,Merry,梅雅麗,Merry,404404,메아리,config/portrait/toptouxiang/img_role_6@.png,,,6,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+7,Alexa,三色堇,Alexa,404404,팬지,config/portrait/toptouxiang/img_role_7@.png,,,7,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+8,Viola,紫羅蘭,Viola,404404,비올라,config/portrait/toptouxiang/img_role_8@.png,,,8,,<cn;kr>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+9,Marlon,西子伊,Marlon,404404,시즈,config/portrait/toptouxiang/img_role_9@.png,,,9,,<cn;kr;en;tw>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+10,Roxanne,杜娟,Roxanne,404404,원규,config/portrait/toptouxiang/img_role_10@.png,,,10,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+11,Colress,阿克羅瑪,Colress,404404,아크로마,config/portrait/toptouxiang/img_role_11@.png,,,11,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+12,Flannery,亞莎,Flannery,404404,민지,config/portrait/toptouxiang/img_role_12@.png,,,12,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+13,Hugh,修,Hugh,404404,휴이,config/portrait/toptouxiang/img_role_13@.png,,,13,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+14,Roxie,霍米加,Roxie,404404,보미카,config/portrait/toptouxiang/img_role_14@.png,,,14,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+15,Bianca,白露,Bianca,404404,벨,config/portrait/toptouxiang/img_role_15@.png,,,15,,<cn;kr;en;tw>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+16,Korrina,可爾妮,Korrina,404404,코르니,config/portrait/toptouxiang/img_role_16@.png,,,16,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+17,Dana,蘭晝妮,Dana,404404,라쥬르네,config/portrait/toptouxiang/img_role_17@.png,,,17,,<cn;kr;tw>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+18,Evelyn,露夕華,Evelyn,404404,르수아르,config/portrait/toptouxiang/img_role_18@.png,,,18,,<cn;kr;tw>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+19,Nita,蘭妞夜,Nita,404404,라뉴이,config/portrait/toptouxiang/img_role_19@.png,,,19,,<cn;kr>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+20,Lenora,蘆薈,Lenora,404404,알로에,config/portrait/toptouxiang/img_role_20@.png,,,20,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+21,Hilda,斗子,Hilda,404404,투희,config/portrait/toptouxiang/img_role_21@.png,,,21,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+22,Rosa,芽衣,Rosa,404404,명희,config/portrait/toptouxiang/img_role_22@.png,,,22,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+23,Millis,彌莉絲,Millis,404404,밀리스,config/portrait/toptouxiang/img_role_23@.png,,,23,,<cn;kr>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+24,Phoebe,芙蓉,Phoebe,404404,회연,config/portrait/toptouxiang/img_role_24@.png,,,24,,<cn;kr;en>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+25,Lana,水蓮,Lana,404404,수련,config/portrait/toptouxiang/img_role_25@.png,,,25,,<cn;kr;tw>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+26,Green,碧藍,Green,404404,블루,config/portrait/toptouxiang/img_role_26@.png,,,26,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+27,Brock,小剛,Brock,404404,웅,config/portrait/toptouxiang/img_role_27@.png,,,27,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+28,Wicke,碧珂,Wicke,404404,비케,config/portrait/toptouxiang/img_role_28@.png,,,28,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+29,Tupp,達帕,Tupp,404404,터퍼,config/portrait/toptouxiang/img_role_29@.png,,,29,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+,Sycamore,布拉塔諾,Sycamore,404404,플라타느 박사,config/portrait/toptouxiang/img_role_30@.png,,,30,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+31,Alain,艾嵐,Alain,404404,알랭,config/portrait/toptouxiang/img_role_31@.png,,,31,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+,Professor Oak,大木博士,Professor Oak,404404,오박사,config/portrait/toptouxiang/img_role_32@.png,,,32,,,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+33,Lange,,,,,config/portrait/toptouxiang/img_role_33@.png,,,33,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+34,Mizuki,,,,,config/portrait/toptouxiang/img_role_34@.png,,,34,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+35,Kojiro,,,,,config/portrait/toptouxiang/img_role_35@.png,,,35,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+36,Musashi,,,,,config/portrait/toptouxiang/img_role_36@.png,,,36,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+37,Ash (Christmas),,,,,config/portrait/toptouxiang/img_role_37@.png,,,37,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+38,Xiaoxia (Christmas),,,,,config/portrait/toptouxiang/img_role_38@.png,,,38,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+39,Lana’s Token (Summer limited),水蓮(夏日限定),Lana’s Token (Summer limited),,,config/portrait/toptouxiang/img_role_39@.png,,,39,,<cn;tw;en;kr>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+40,Gladio,格拉吉欧,,,,config/portrait/toptouxiang/img_role_40@.png,,,40,,<>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+41,mao,玛奥,,,,config/portrait/toptouxiang/img_role_41@.png,,,41,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+42,Lillie,莉莉艾,,,,config/portrait/toptouxiang/img_role_42@.png,,,42,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+43,Acerola,阿塞萝拉,,,,config/portrait/toptouxiang/img_role_43@.png,,,43,,<cn>,Can be used after unlocking the avatar,解鎖訓練家形象後可使用,Can be used after unlocking the avatar,404404,트레이너 아바타 개방 시 사용 가능
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+900,Pikachu Christmas version,皮卡丘聖誕版,Pikachu Christmas version,404404,피카츄 크리스마스 버전,config/portrait/toptouxiang/img_pkq.png,,2300,,,,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+901,Dedenne Spring version,電電鼠新春版,Dedenne Spring version,404404,데덴네 설날 버전,config/portrait/toptouxiang/img_dds.png,,2301,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+,Piplup,波加曼,Piplup,404404,팽도리,config/portrait/toptouxiang/icon_sd_bjm.png,,2302,,,,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+,Gengar,耿鬼,Gengar,404404,팬텀,config/portrait/toptouxiang/icon_sd_gs.png,,2303,,,,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+904,Squirtle,傑尼龜,Squirtle,404404,꼬부기,config/portrait/toptouxiang/icon_sd_jng.png,,2304,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+905,Meowth,喵喵,Meowth,404404,냐옹,config/portrait/toptouxiang/icon_sd_mm.png,,2305,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+,Rowlet,木木梟,Rowlet,404404,나몰빼미,config/portrait/toptouxiang/icon_sd_mmx.png,,2306,,,,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+907,Bulbasaur,妙蛙種子,Bulbasaur,Diệu con ếch hạt giống,이상해씨,config/portrait/toptouxiang/icon_sd_mwzz.png,,2307,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+,Pikachu,皮卡丘,Pikachu,404404,피카츄,config/portrait/toptouxiang/icon_sd_pkq.png,,2308,,,,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+909,Charmander,小火龍,Charmander,Tiểu hỏa long,파이리,config/portrait/toptouxiang/icon_sd_xhl.png,,2309,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+910,Eevee,伊布,Eevee,404404,이브이,config/portrait/toptouxiang/icon_sd_yb.png,,2310,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+,Umbreon,月精靈,Umbreon,404404,달의 포켓몬,config/portrait/toptouxiang/icon_sd_yjl.png,,2311,,,,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+912,Marshtomp,沼躍魚,Marshtomp,404404,늪짱이,config/portrait/toptouxiang/icon_sd_zyy.png,,2312,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+913,Snorlax Labor Day Exclusive,卡比獸勞動節限定,Snorlax Labor Day Exclusive,404404,잠만보 노동자의 날 한정,config/portrait/toptouxiang/img_wy.png,,2313,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+914,"Children's Day Exclusive Gothita ",歌德寶寶61限定,"Children's Day Exclusive Gothita ",404404,고디탱 61 한정,config/portrait/toptouxiang/img_ly.png,,2314,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+915,Miao Frog Zongzi,妙蛙粽子,404404,404404,이상해씨 연잎밥,config/portrait/toptouxiang/icon_mwzz_tx.png,,2315,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+916,Eat Cakes,吃餅嘛,Eat Cakes,404404,과자 먹을래,config/portrait/toptouxiang/icon_ddzq.png,,2316,,,<cn;tw;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+917,Comparing,比心,404404,404404,손하트,config/portrait/toptouxiang/icon_pkqgq.png,,2317,,,<cn;tw;kr;en>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+918,camouflage,偽裝,Mask,404404,위장,config/portrait/toptouxiang/icon_wsj.png,,2318,,,<cn;tw;kr;en>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+919,Dressed Bear 2020 Christmas Limited,穿著熊2020聖誕限定,404404,404404,이븐곰 2020 크리스마스 한정,config/portrait/toptouxiang/icon_2021sdtx.png,,2319,,,<cn;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+920,Lucky Egg 2021 New Year's Day Limited,吉利蛋2021元旦限定,404404,404404,럭키 2021 새해 한정,config/portrait/toptouxiang/icon_2021ydtx.png,,2320,,,<cn;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+921,Christmas Phantom·Geometric Snowflakes,聖誕魔影·幾何雪花,404,404,404,config/portrait/speedranktouxiang/img_615_jhxhsd@.png,,,,101,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+922,Ice Princess Tianci,冰雪公主·蒂安希,404,404,404,config/portrait/speedranktouxiang/img_719_daxsd@.png,,,,102,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+923,Master Thief Darkrai,怪盜·達克萊伊,"Master Thief Darkrai ",404,도둑·다크라이,config/portrait/speedranktouxiang/img_491_dklygd@.png,,,,104,<cn;tw;kr;en>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+924,Street Fighter·Flying Mantis,街頭拳手·飛天螳螂,404,404,404,config/portrait/speedranktouxiang/img_212_jqtljtqs@.png,,,,105,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+925,Big Milk Tank 2021,大奶罐·2021,404,404,밀크탱크·2021,config/portrait/toptouxiang/img_dng.png,,2321,,,<cn;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+926,Bring the red envelope,紅包拿來,404,404,보너스를 가져오세요,config/portrait/toptouxiang/icon_2021year@.png,,2322,,,<cn;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+927,Get married · 2021,終成眷屬·2021,404,404,발렌타인데이·2021,config/portrait/toptouxiang/icon_qrj_tx.png,,2323,,,<cn;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+928,Fish and Dragon Night Dance·Xanaiduo,魚龍夜舞·沙奈朵,404,404,어룡야무·가디안,config/portrait/speedranktouxiang/img_282_sndyx@.png,,,,106,<cn;tw>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+929,1st Anniversary Pikachu,1周年·皮卡丘,404,404,,config/portrait/toptouxiang/img_pkq_znq.png,,2324,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404405,프로필 획득 후 사용 가능
+930,move brick meow meow,搬磚喵喵,404404,404404,404404,config/portrait/toptouxiang/icon_wy_tx.png,,2325,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404405,프로필 획득 후 사용 가능
+931,Six Days Naughty Panda,六一·頑皮熊貓,404404,404404,404404,config/portrait/toptouxiang/img_lyetj.png,,2326,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+932,Zongye boy,粽葉童子,404404,404404,404404,config/portrait/toptouxiang/icon_dwj2_tx.png,,2327,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+933,Demons of the Western Regions: Punish Hoopa,,404404,404404,404404,config/portrait/speedranktouxiang/img_720_cjhppf@.png,,,,108,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+934,Summer Pikachu,夏日·皮卡丘,Summer Pikachu,404404,여름· 피카츄,config/portrait/toptouxiang/img_xrj1@.png,,2328,,,<cn;tw;en;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+935,Summer Squirtle,夏日·傑尼龜,Summer Squirtle,404404,여름· 꼬부기,config/portrait/toptouxiang/img_xrj2@.png,,2329,,,<cn;tw;en;kr>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+936,Fireball Mouse Mid-Autumn Festival,火球鼠·中秋,,,브케인 · 추석,config/portrait/toptouxiang/icon_zqj_tx.png,,2330,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+937,Gala Caracalla,盛典·卡拉卡拉,,,,config/portrait/toptouxiang/icon_21gq_tx.png,,2331,,,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404406,프로필 획득 후 사용 가능
+938,Silver Sky Armor,銀霄戰甲,404,404,404,config/portrait/speedranktouxiang/img_384_cjlkzpf@.png,,,,111,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+939,street skateboard,街頭滑板,404,404,404,config/portrait/speedranktouxiang/img_448_lklopf@.png,,,,109,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+940,Time Rogue,時間俠盜,404,404,404,config/portrait/speedranktouxiang/img_251_slbpf@.png,,,,110,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+941,ghost captain,幽灵船长,404,404,404,config/portrait/speedranktouxiang/img_94_ggpf@.png,,,,112,<cn>,Can be used after obtaining the avatar,獲得頭像後可使用,Can be used after obtaining the avatar,404404,프로필 획득 후 사용 가능
+,,,,,,,,,,,,,,,,
+1001,Bulbasaur,妙蛙種子,Bulbasaur,Diệu con ếch hạt giống,이상해씨,config/portrait/speedranktouxiang/img_1_mwzz@.png,1,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1002,Ivysaur,妙蛙草,Ivysaur,404404,이상해풀,config/portrait/speedranktouxiang/img_2_mwc@.png,2,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1003,Venusaur,妙蛙花,Venusaur,404404,이상해꽃,config/portrait/speedranktouxiang/img_3_mwh@.png,3,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1004,Charmander,小火龍,Charmander,Tiểu hỏa long,파이리,config/portrait/speedranktouxiang/img_4_xhl@.png,11,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1005,Charmeleon,火恐龍,Charmeleon,404404,리자드,config/portrait/speedranktouxiang/img_5_hkl@.png,12,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1006,Charizard,噴火龍,Charizard,404404,리자몽,config/portrait/speedranktouxiang/img_6_phl@.png,13,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1009,Squirtle,傑尼龜,Squirtle,404404,꼬부기,config/portrait/speedranktouxiang/img_7_jng@.png,21,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1010,Wartortle,卡咪龜,Wartortle,404404,어니부기,config/portrait/speedranktouxiang/img_8_kmg@.png,22,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1011,Blastoise,水箭龜,Blastoise,404404,거북왕,config/portrait/speedranktouxiang/img_9_sjg@.png,23,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1012,Caterpie,綠毛蟲,Caterpie,404404,캐터피,config/portrait/speedranktouxiang/img_10_lmc@.png,31,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Metapod,鐵甲蛹,Metapod,404404,단데기,config/portrait/speedranktouxiang/img_11_tjy@.png,32,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1014,Butterfree,巴大蝶,Butterfree,404404,버터플,config/portrait/speedranktouxiang/img_12_bdd@.png,33,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Weedle,獨角蟲,Weedle,404404,뿔충이,config/portrait/speedranktouxiang/img_13_djc@.png,,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Kakuna,鐵殼蛹,Kakuna,404404,딱충이,config/portrait/speedranktouxiang/img_14_tky@.png,,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1017,Beedrill,大針蜂,Beedrill,404404,독침붕,config/portrait/speedranktouxiang/img_15_dzf@.png,41,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1018,Pidgey,波波,Pidgey,404404,구구,config/portrait/speedranktouxiang/img_16_bb@.png,51,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1019,Pidgeotto,比比鳥,Pidgeotto,404404,피죤,config/portrait/speedranktouxiang/img_17_bbn@.png,52,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1020,Pidgeot,大比鳥,Pidgeot,404404,피죤투,config/portrait/speedranktouxiang/img_18_dbn@.png,53,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1021,Rattata,小拉達,Rattata,404404,꼬렛,config/portrait/speedranktouxiang/img_19_xld@.png,61,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1022,Raticate,拉達,Raticate,404404,레트라,config/portrait/speedranktouxiang/img_20_ld@.png,62,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1023,Spearow,烈雀,Spearow,404404,깨비참,config/portrait/speedranktouxiang/img_21_lq@.png,71,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1024,Fearow,大嘴雀,Fearow,404404,깨비드릴조,config/portrait/speedranktouxiang/img_22_dzq@.png,72,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1025,Ekans,阿柏蛇,Ekans,404404,아보,config/portrait/speedranktouxiang/img_23_abs@.png,81,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1026,Arbok,阿柏怪,Arbok,404404,아보크,config/portrait/speedranktouxiang/img_24_abg@.png,82,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1027,Pichu,皮丘,Pichu,404404,피츄,config/portrait/speedranktouxiang/img_172_pq@.png,91,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1028,Pikachu,皮卡丘,Pikachu,404404,피카츄,config/portrait/speedranktouxiang/img_25_pkq@.png,92,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1029,Raichu,雷丘,Raichu,404404,라이츄,config/portrait/speedranktouxiang/img_26_lq@.png,93,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1030,Sandshrew,穿山鼠,Sandshrew,404404,모래두지,config/portrait/speedranktouxiang/img_27_css@.png,101,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1031,Sandslash,穿山王,Sandslash,404404,고지,config/portrait/speedranktouxiang/img_28_csw@.png,102,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1032,Nidoran♀,尼多蘭,Nidoran♀,404404,니드런♀,config/portrait/speedranktouxiang/img_29_ndl@.png,111,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1033,Nidorina,尼多娜,Nidorina,404404,니드리나,config/portrait/speedranktouxiang/img_30_ndn@.png,112,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1034,Nidoqueen,尼多後,Nidoqueen,404404,니드퀸,config/portrait/speedranktouxiang/img_31_ndh@.png,113,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1035,Nidoran♂,尼多朗,Nidoran♂,404404,니드런♂,config/portrait/speedranktouxiang/img_32_ndl@.png,121,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1036,Nidorino,尼多力諾,Nidorino,404404,니드리노,config/portrait/speedranktouxiang/img_33_ndln@.png,122,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1037,"Nidoking ",尼多王,"Nidoking ",404404,니드킹,config/portrait/speedranktouxiang/img_34_ndw@.png,123,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1038,Cleffa,皮寶寶,Cleffa,404404,삐,config/portrait/speedranktouxiang/img_173_pbb@.png,131,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1039,Clefairy,皮皮,Clefairy,404404,삐삐,config/portrait/speedranktouxiang/img_35_pp@.png,132,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1040,Clefable,皮可西,Clefable,404404,픽시,config/portrait/speedranktouxiang/img_36_pkx@.png,133,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1041,Oddish,走路草,Oddish,404404,뚜벅초,config/portrait/speedranktouxiang/img_43_zlc@.png,171,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1042,Gloom,臭臭花,Gloom,404404,냄새꼬,config/portrait/speedranktouxiang/img_44_cch@.png,172,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1043,Vileplume,霸王花,Vileplume,404404,라플레시아,config/portrait/speedranktouxiang/img_45_bwh@.png,173,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1044,Venonat,毛球,Venonat,404404,콘팡,config/portrait/speedranktouxiang/img_48_mq@.png,191,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1045,Venomoth,摩魯蛾,Venomoth,404404,도나리,config/portrait/speedranktouxiang/img_49_mle@.png,192,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1046,Mankey,猴怪,Mankey,404404,망키,config/portrait/speedranktouxiang/img_56_hg@.png,231,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1047,Primeape,火暴猴,Primeape,404404,성원숭,config/portrait/speedranktouxiang/img_57_hbh@.png,232,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1048,Abra,凱西,Abra,404404,캐이시,config/portrait/speedranktouxiang/img_63_kx@.png,261,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1049,Kadabra,勇基拉,Kadabra,404404,윤겔라,config/portrait/speedranktouxiang/img_64_yjl@.png,262,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1050,Alakazam,胡地,Alakazam,404404,후딘,config/portrait/speedranktouxiang/img_65_hd@.png,263,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1052,Machop,腕力,Machop,404404,알통몬,config/portrait/speedranktouxiang/img_66_wl@.png,271,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1053,Machoke,豪力,Machoke,404404,근육몬,config/portrait/speedranktouxiang/img_67_hl@.png,272,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1054,Machamp,怪力,Machamp,404404,괴력몬,config/portrait/speedranktouxiang/img_68_gl@.png,273,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1055,Bellsprout,喇叭芽,Bellsprout,404404,모다피,config/portrait/speedranktouxiang/img_69_lby@.png,281,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1056,Weepinbell,口呆花,Weepinbell,404404,우츠동,config/portrait/speedranktouxiang/img_70_kdh@.png,282,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1057,Victreebel,大食花,Victreebel,404404,우츠보트,config/portrait/speedranktouxiang/img_71_dsh@.png,283,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1058,Geodude,小拳石,Geodude,404404,꼬마돌,config/portrait/speedranktouxiang/img_74_xqs@.png,301,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1059,Graveler,隆隆石,Graveler,404404,데구리,config/portrait/speedranktouxiang/img_75_lls@.png,302,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1060,Magnemite,小磁怪,Magnemite,404404,코일,config/portrait/speedranktouxiang/img_81_xcg@.png,331,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1061,Magneton,三合一磁怪,Magneton,404404,레어코일,config/portrait/speedranktouxiang/img_82_shycg@.png,332,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1062,Magnezone,自爆磁怪,Magnezone,404404,자포코일,config/portrait/speedranktouxiang/img_462_zbcg@.png,333,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1063,Doduo,嘟嘟,Doduo,404404,두두,config/portrait/speedranktouxiang/img_84_dd@.png,351,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1064,Dodrio,嘟嘟利,Dodrio,404404,두트리오,config/portrait/speedranktouxiang/img_85_ddl@.png,352,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1065,Grimer,臭泥,Grimer,404404,질퍽이,config/portrait/speedranktouxiang/img_88_cn@.png,371,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1066,Muk,臭臭泥,Muk,404404,질뻐기,config/portrait/speedranktouxiang/img_89_ccn@.png,372,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1067,Gastly,鬼斯,Gastly,404404,고오스,config/portrait/speedranktouxiang/img_92_gs@.png,391,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1068,Haunter,鬼斯通,Haunter,404404,고우스트,config/portrait/speedranktouxiang/img_93_gst@.png,392,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1069,Gengar,耿鬼,Gengar,404404,팬텀,config/portrait/speedranktouxiang/img_94_gg@.png,393,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1070,Mega Gengar,超級耿鬼,Mega Gengar,404404,메가팬텀,config/portrait/speedranktouxiang/img_94_cjgg@.png,394,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1071,Cubone,卡拉卡拉,Cubone,404404,탕구리,config/portrait/speedranktouxiang/img_104_klkl@.png,451,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1072,Marowak,嘎啦嘎啦,Marowak,404404,텅구리,config/portrait/speedranktouxiang/img_105_glgl@.png,452,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1073,Tyrogue,無畏小子,Tyrogue,404404,배루키,config/portrait/speedranktouxiang/img_236_wwxz@.png,461,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1074,Hitmonlee,飛腿郎,Hitmonlee,404404,시라소몬,config/portrait/speedranktouxiang/img_106_ftl@.png,462,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1075,Hitmonchan,快拳郎,Hitmonchan,404404,홍수몬,config/portrait/speedranktouxiang/img_107_kql@.png,463,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1076,Hitmontop,戰舞郎,Hitmontop,404404,카포에라,config/portrait/speedranktouxiang/img_237_zwl@.png,464,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1077,Lickitung,大舌頭,Lickitung,404404,내루미,config/portrait/speedranktouxiang/img_108_dst@.png,471,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1078,Lickilicky,大舌舔,Lickilicky,404404,내룸벨트,config/portrait/speedranktouxiang/img_463_dst@.png,472,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1079,Koffing,瓦斯彈,Koffing,404404,또가스,config/portrait/speedranktouxiang/img_109_wsd@.png,481,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1080,Weezing,雙彈瓦斯,Weezing,404404,또도가스,config/portrait/speedranktouxiang/img_110_sdws@.png,482,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1081,Rhyhorn,獨角犀牛,Rhyhorn,404404,뿔카노,config/portrait/speedranktouxiang/img_111_djxn@.png,491,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1082,Rhydon,鑽角犀獸,Rhydon,404404,코뿌리,config/portrait/speedranktouxiang/img_112_zjxs@.png,492,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1083,Rhyperior,超甲狂犀,Rhyperior,404404,거대코뿌리,config/portrait/speedranktouxiang/img_464_cjkx@.png,493,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1084,Goldeen,角金魚,Goldeen,404404,콘치,config/portrait/speedranktouxiang/img_118_jjy@.png,541,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1085,Seaking,金魚王,Seaking,404404,왕콘치,config/portrait/speedranktouxiang/img_119_jyw@.png,542,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1086,Staryu,海星星,Staryu,404404,별가사리,config/portrait/speedranktouxiang/img_120_hxx@.png,551,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1087,Starmie,寶石海星,Starmie,404404,아쿠스타,config/portrait/speedranktouxiang/img_121_bshx@.png,552,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1088,Scyther,飛天螳螂,Scyther,404404,스라크,config/portrait/speedranktouxiang/img_123_fttl@.png,571,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1089,Scizor,巨鉗螳螂,Scizor,404404,핫삼,config/portrait/speedranktouxiang/img_212_jqtl@.png,572,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1090,Elekid,電擊怪,Elekid,404404,에레키드,config/portrait/speedranktouxiang/img_239_djg@.png,591,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1091,Electabuzz,電擊獸,Electabuzz,404404,에레브,config/portrait/speedranktouxiang/img_125_djs@.png,592,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1092,Electivire,電擊魔獸,Electivire,404404,에레키블,config/portrait/speedranktouxiang/img_466_djms@.png,593,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1093,Magby,鴨嘴寶寶,Magby,404404,마그비,config/portrait/speedranktouxiang/img_240_yzbb@.png,601,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1094,Magmar,鴨嘴火獸,Magmar,404404,마그마,config/portrait/speedranktouxiang/img_126_yzhs@.png,602,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1095,Magmortar,鴨嘴炎獸,Magmortar,404404,마그마번,config/portrait/speedranktouxiang/img_467_yzys@.png,603,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Magikarp,鯉魚王,Magikarp,404404,잉어킹,config/portrait/speedranktouxiang/img_129_lyw@.png,,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1097,Gyarados,暴鯉龍,Gyarados,404404,갸라도스,config/portrait/speedranktouxiang/img_130_bll@.png,631,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1098,Articuno,急凍鳥,Articuno,404404,프리져,config/portrait/speedranktouxiang/img_144_jdn@.png,721,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1099,Zapdos,閃電鳥,Zapdos,404404,썬더,config/portrait/speedranktouxiang/img_145_sdn@.png,731,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1100,Moltres,火焰鳥,Moltres,404404,파이어,config/portrait/speedranktouxiang/img_146_hyn@.png,741,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1101,Dratini,迷你龍,Dratini,404404,미뇽,config/portrait/speedranktouxiang/img_147_mnl@.png,751,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1102,Dragonair,哈克龍,Dragonair,404404,신뇽,config/portrait/speedranktouxiang/img_148_hkl@.png,752,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1103,Dragonite,快龍,Dragonite,404404,망나뇽,config/portrait/speedranktouxiang/img_149_kl@.png,753,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1104,Mewtwo,超夢,Mewtwo,404404,뮤츠,config/portrait/speedranktouxiang/img_150_cm@.png,761,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1105,Mew,夢幻,Mew,404404,뮤,config/portrait/speedranktouxiang/img_151_mh@.png,771,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1106,Chikorita,菊草葉,Chikorita,404404,치코리타,config/portrait/speedranktouxiang/img_152_jcy@.png,781,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1107,Bayleaf,月桂葉,Bayleaf,404404,베이리프,config/portrait/speedranktouxiang/img_153_ygy@.png,782,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1108,Meganium,大竺葵,Meganium,404404,메가니움,config/portrait/speedranktouxiang/img_154_dzk@.png,783,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1109,Cyndaquil,火球鼠,Cyndaquil,Hỏa cầu chuột,브케인,config/portrait/speedranktouxiang/img_155_hqs@.png,791,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1110,Quilava,火岩鼠,Quilava,404404,마그케인,config/portrait/speedranktouxiang/img_156_hys@.png,792,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1111,Typhlosion,火暴獸,Typhlosion,404404,블레이범,config/portrait/speedranktouxiang/img_157_hbs@.png,793,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1112,Totodile,小鋸鱷,Totodile,404404,리아코,config/portrait/speedranktouxiang/img_158_xje@.png,801,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1113,Croconaw,藍鱷,Croconaw,404404,엘리게이,config/portrait/speedranktouxiang/img_159_le@.png,802,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1114,Feraligatr,大力鱷,Feraligatr,404404,장크로다일,config/portrait/speedranktouxiang/img_160_dle@.png,803,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1115,Mareep,咩利羊,Mareep,404404,메리프,config/portrait/speedranktouxiang/img_179_mly@.png,881,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1116,Flaaffy,茸茸羊,Flaaffy,404404,보송송,config/portrait/speedranktouxiang/img_180_rry@.png,882,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1117,Ampharos,電龍,Ampharos,404404,전룡,config/portrait/speedranktouxiang/img_181_dl@.png,883,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1118,Mega Ampharos,超級電龍,Mega Ampharos,404404,메가전룡,config/portrait/speedranktouxiang/img_181_cjdl@.png,884,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1119,Azurill,露力麗,Azurill,404404,루리리,config/portrait/speedranktouxiang/img_298_lll@.png,891,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1120,Marill,瑪力露,Marill,404404,마릴,config/portrait/speedranktouxiang/img_183_mll@.png,892,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1121,Azumarill,瑪力露麗,Azumarill,404404,마릴리,config/portrait/speedranktouxiang/img_184_mlll@.png,893,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1122,Heracross,赫拉克羅斯,Heracross,404404,헤라크로스,config/portrait/speedranktouxiang/img_214_hlkls@.png,1071,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1123,Sneasel,狃拉,Sneasel,404404,포푸니,config/portrait/speedranktouxiang/img_215_nl@.png,1081,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1124,Weavile,瑪狃拉,Weavile,404404,포푸니라,config/portrait/speedranktouxiang/img_461_mnl@.png,1082,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1125,Houndour,戴魯比,Houndour,404404,델빌,config/portrait/speedranktouxiang/img_228_dlb@.png,1171,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1126,Houndoom,黑魯加,Houndoom,404404,헬가,config/portrait/speedranktouxiang/img_229_hlj@.png,1172,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1127,Raikou,雷公,Raikou,404404,라이코,config/portrait/speedranktouxiang/img_243_lg@.png,1221,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1128,Entei,炎帝,Entei,404404,앤테이,config/portrait/speedranktouxiang/img_244_yd@.png,1231,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1129,Suicune,水君,Suicune,404404,스이쿤,config/portrait/speedranktouxiang/img_245_sj@.png,1241,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1130,Larvitar,幼基拉斯,Larvitar,404404,애버라스,config/portrait/speedranktouxiang/img_246_yjls@.png,1251,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1131,Pupitar,沙基拉斯,Pupitar,404404,데기라스,config/portrait/speedranktouxiang/img_247_sjls@.png,1252,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1132,Tyranitar,班基拉斯,Tyranitar,404404,마기라스,config/portrait/speedranktouxiang/img_248_bjls@.png,1253,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1133,Ho-Oh,鳳王,Ho-Oh,404404,칠색조,config/portrait/speedranktouxiang/img_250_fw@.png,1271,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1134,Treecko,木守宮,Treecko,404404,나무지기,config/portrait/speedranktouxiang/img_252_msg@.png,1291,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1135,Grovyle,森林蜥蜴,Grovyle,404404,나무돌이,config/portrait/speedranktouxiang/img_253_slxy@.png,1292,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1136,Sceptile,蜥蜴王,Sceptile,404404,나무킹,config/portrait/speedranktouxiang/img_254_xyw@.png,1293,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1137,Mudkip,水躍魚,Mudkip,404404,물짱이,config/portrait/speedranktouxiang/img_258_syy@.png,1311,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1138,Marshtomp,沼躍魚,Marshtomp,404404,늪짱이,config/portrait/speedranktouxiang/img_259_zyy@.png,1312,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1139,Swampert,巨沼怪,Swampert,404404,대짱이,config/portrait/speedranktouxiang/img_260_jzg@.png,1313,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1140,Mega Swampert,超級巨沼怪,Mega Swampert,404404,메가대짱이,config/portrait/speedranktouxiang/img_260_cjjzg@.png,1314,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1141,Lotad,蓮葉童子,Lotad,404404,연꽃몬,config/portrait/speedranktouxiang/img_270_lytz@.png,1351,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1142,Lombre,蓮帽小童,Lombre,404404,로토스,config/portrait/speedranktouxiang/img_271_lmxt@.png,1352,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1143,Ludicolo,樂天河童,Ludicolo,404404,로파파,config/portrait/speedranktouxiang/img_272_ltht@.png,1353,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1144,Lapras,拉魯拉絲,Lapras,404404,랄토스,config/portrait/speedranktouxiang/img_280_llls@.png,1391,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1145,Kirlia,奇魯莉安,Kirlia,404404,킬리아,config/portrait/speedranktouxiang/img_281_qlla@.png,1392,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1146,Gardevoir,沙奈朵,Gardevoir,404404,가디안,config/portrait/speedranktouxiang/img_282_snd@.png,1393,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1147,Gallade,艾路雷朵,Gallade,404404,엘레이드,config/portrait/speedranktouxiang/img_475_alld@.png,1394,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1148,Slakoth,懶人獺,Slakoth,404404,게을로,config/portrait/speedranktouxiang/img_287_lrt@.png,1421,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1149,Vigoroth,過動猿,Vigoroth,404404,발바로,config/portrait/speedranktouxiang/img_288_gdy@.png,1422,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1150,Slaking,請假王,Slaking,404404,게을킹,config/portrait/speedranktouxiang/img_289_qjw@.png,1423,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1151,Whismur,咕妞妞,Whismur,404404,소곤룡,config/portrait/speedranktouxiang/img_293_gzz@.png,1441,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1152,Loudred,吼爆彈,Loudred,404404,노공룡,config/portrait/speedranktouxiang/img_294_hbd@.png,1442,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1153,Exploud,爆音怪,Exploud,404404,폭음룡,config/portrait/speedranktouxiang/img_295_byg@.png,1443,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1154,Aron,可哥朵拉,Aron,404404,가보리,config/portrait/speedranktouxiang/img_304_kkdl@.png,1501,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1155,Lairon,可朵拉,Lairon,404404,갱도라,config/portrait/speedranktouxiang/img_305_kdl@.png,1502,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1156,Aggron,波士可朵拉,Aggron,404404,보스로라,config/portrait/speedranktouxiang/img_306_bskdl@.png,1503,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1157,Numel,呆火駝,Numel,404404,둔타,config/portrait/speedranktouxiang/img_322_dht@.png,1611,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1158,Camerupt,噴火駝,Camerupt,404404,폭타,config/portrait/speedranktouxiang/img_323_pht@.png,1612,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1159,Duskull,夜巡靈,Duskull,404404,해골몽,config/portrait/speedranktouxiang/img_355_yxl@.png,1811,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1160,Dusclops,彷徨夜靈,Dusclops,404404,미라몽,config/portrait/speedranktouxiang/img_356_phyl@.png,1812,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1161,Dusknoir,黑夜魔靈,Dusknoir,404404,야느와르몽,config/portrait/speedranktouxiang/img_477_hyml@.png,1813,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1162,Absol,阿勃梭魯,Absol,404404,앱솔,config/portrait/speedranktouxiang/img_359_absl@.png,1841,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1163,Spheal,海豹球,Spheal,404404,대굴레오,config/portrait/speedranktouxiang/img_363_hbq@.png,1861,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1164,Sealeo,海魔獅,Sealeo,404404,씨레오,config/portrait/speedranktouxiang/img_364_hms@.png,1862,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1165,Walrein,帝牙海獅,Walrein,404404,씨카이저,config/portrait/speedranktouxiang/img_365_dyhs@.png,1863,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1166,Bagon,寶貝龍,Bagon,404404,아공이,config/portrait/speedranktouxiang/img_371_bbl@.png,1891,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1167,Shelgon,甲殼龍,Shelgon,404404,쉘곤,config/portrait/speedranktouxiang/img_372_jkl@.png,1892,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1168,Salamence,暴飛龍,Salamence,404404,보만다,config/portrait/speedranktouxiang/img_373_bfl@.png,1893,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1169,Beldum,鐵啞鈴,Beldum,404404,메탕,config/portrait/speedranktouxiang/img_374_tyl@.png,1901,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1170,Metang,金屬怪,Metang,404404,메탕구,config/portrait/speedranktouxiang/img_375_jsg@.png,1902,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1171,Metagross,巨金怪,Metagross,Cự kim quái,메타그로스,config/portrait/speedranktouxiang/img_376_jjg@.png,1903,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1172,Turtwig,草苗龜,Turtwig,404404,모부기,config/portrait/speedranktouxiang/img_387_cmg@.png,2011,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1173,Grotle,樹林龜,Grotle,404404,수풀부기,config/portrait/speedranktouxiang/img_388_slg@.png,2012,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1174,Torterra,土台龜,Torterra,404404,토대부기,config/portrait/speedranktouxiang/img_389_ttg@.png,2013,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1175,Shinx,小貓怪,Shinx,404404,꼬링크,config/portrait/speedranktouxiang/img_403_xmg@.png,2071,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1176,Luxio,勒克貓,Luxio,404404,럭시오,config/portrait/speedranktouxiang/img_404_lkm@.png,2072,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1177,Luxray,倫琴貓,Luxray,404404,렌트라,config/portrait/speedranktouxiang/img_405_lqm@.png,2073,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1178,Gible,圓陸鯊,Gible,404404,딥상어동,config/portrait/speedranktouxiang/img_443_yls@.png,2231,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1179,Gabite,尖牙陸鯊,Gabite,404404,한바이트,config/portrait/speedranktouxiang/img_444_jyls@.png,2232,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1180,Garchomp,烈咬陸鯊,Garchomp,404404,한카리아스,config/portrait/speedranktouxiang/img_445_lyls@.png,2233,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1181,Croagunk,不良蛙,Croagunk,404404,삐딱구리,config/portrait/speedranktouxiang/img_453_blw@.png,2271,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1182,Toxicroak,毒骷蛙,Toxicroak,404404,독개굴,config/portrait/speedranktouxiang/img_454_dzw@.png,2272,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1183,Snover,雪笠怪,Snover,404404,눈쓰개,config/portrait/speedranktouxiang/img_459_xzg@.png,2301,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1184,Abomasnow,暴雪王,Abomasnow,404404,눈설왕,config/portrait/speedranktouxiang/img_460_bxw@.png,2302,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Mega Abomasnow,超級暴雪王,Mega Abomasnow,404404,메가눈설왕,config/portrait/speedranktouxiang/img_460_cjbxw@.png,2303,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1186,Tepig,暖暖豬,Tepig,404404,뚜꾸리,config/portrait/speedranktouxiang/img_498_nnz@.png,2481,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1187,Pignite,炒炒豬,Pignite,404404,챠오꿀,config/portrait/speedranktouxiang/img_499_ccz@.png,2482,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1188,Emboar,炎武王,Emboar,404404,염무왕,config/portrait/speedranktouxiang/img_500_yww@.png,2483,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1189,Roggenrola,石丸子,Roggenrola,404404,단굴,config/portrait/speedranktouxiang/img_524_swz@.png,2591,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1190,Boldore,地幔岩,Boldore,404404,암트르,config/portrait/speedranktouxiang/img_525_dzy@.png,2592,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1191,Gigalith,龐岩怪,Gigalith,404404,기가이어스,config/portrait/speedranktouxiang/img_526_pyg@.png,2593,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1192,Drilbur,螺釘地鼠,Drilbur,404404,두더류,config/portrait/speedranktouxiang/img_529_ldds@.png,2611,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1193,Excadrill,龍頭地鼠,Excadrill,404404,몰드류,config/portrait/speedranktouxiang/img_530_ltds@.png,2612,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1194,Timburr,搬運小匠,Timburr,404404,으랏차,config/portrait/speedranktouxiang/img_532_byxj@.png,2631,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1195,Gurdurr,鐵骨土人,Gurdurr,404404,토쇠골,config/portrait/speedranktouxiang/img_533_tgtr@.png,2632,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1196,Experienced Craftsman,修建老匠,Experienced Craftsman,404404,노보청,config/portrait/speedranktouxiang/img_534_xjlj@.png,2633,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1197,Venipede,百足蜈蚣,Venipede,404404,마디네,config/portrait/speedranktouxiang/img_543_bzwg@.png,2681,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1198,Whirlipede,車輪球,Whirlipede,404404,휠구,config/portrait/speedranktouxiang/img_544_clq@.png,2682,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1199,Scolipede,蜈蚣王,Scolipede,404404,펜드라,config/portrait/speedranktouxiang/img_545_wgw@.png,2683,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1200,Sandile,黑眼鱷,Sandile,404404,깜눈크,config/portrait/speedranktouxiang/img_551_hye@.png,2721,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1201,Krokorok,混混鱷,Krokorok,404404,악비르,config/portrait/speedranktouxiang/img_552_hhe@.png,2722,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1202,Krookodile,流氓鱷,Krookodile,404404,악비아르,config/portrait/speedranktouxiang/img_553_lme@.png,2723,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1203,Zorua,索羅亞,Zorua,404404,조로아,config/portrait/speedranktouxiang/img_570_sly@.png,2821,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1204,Zoroark,索羅亞克,Zoroark,404404,조로아크,config/portrait/speedranktouxiang/img_571_slyk@.png,2822,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1205,Vanillite,迷你冰,Vanillite,404404,바닐프티,config/portrait/speedranktouxiang/img_582_mnb@.png,2871,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1206,Vanillish,多多冰,Vanillish,404404,바닐리치,config/portrait/speedranktouxiang/img_583_ddb@.png,2872,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1207,Vanilluxe,雙倍多多冰,Vanilluxe,404404,배바닐라,config/portrait/speedranktouxiang/img_584_sbddb@.png,2873,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1208,Klink,齒輪兒,Klink,404404,기어르,config/portrait/speedranktouxiang/img_599_cle@.png,2961,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1209,Klang,齒輪組,Klang,404404,기기어르,config/portrait/speedranktouxiang/img_600_clz@.png,2962,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1210,Klinklang,齒輪怪,Klinklang,404404,기기기어르,config/portrait/speedranktouxiang/img_601_clg@.png,2963,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1211,Axew,牙牙,Axew,404404,터검니,config/portrait/speedranktouxiang/img_610_yy@.png,3001,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1212,Fraxure,斧牙龍,Fraxure,404404,액슨도,config/portrait/speedranktouxiang/img_611_fyl@.png,3002,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1213,Haxorus,雙斧戰龍,Haxorus,404404,액스라이즈,config/portrait/speedranktouxiang/img_612_sfzl@.png,3003,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1214,Cubchoo,噴嚏熊,Cubchoo,404404,코고미,config/portrait/speedranktouxiang/img_613_ptx@.png,3011,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1215,Beartic,凍原熊,Beartic,404404,툰베어,config/portrait/speedranktouxiang/img_614_dyx@.png,3012,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1216,Deino,單首龍,Deino,404404,모노두,config/portrait/speedranktouxiang/img_633_dsl@.png,3141,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1217,Zweilous,雙首暴龍,Zweilous,404404,디헤드,config/portrait/speedranktouxiang/img_634_ssbl@.png,3142,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1218,Hydreigon,三首惡龍,Hydreigon,404404,삼삼드래,config/portrait/speedranktouxiang/img_635_ssel@.png,3143,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1219,Chespin,哈力栗,Chespin,404404,도치마론,config/portrait/speedranktouxiang/img_650_hll@.png,3281,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1220,Quilladin,胖胖哈力,Quilladin,404404,도치보구,config/portrait/speedranktouxiang/img_651_pphl@.png,3282,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1221,Chesnaught,布裡卡隆,Chesnaught,404404,브리가론,config/portrait/speedranktouxiang/img_652_blkl@.png,3283,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1222,Fennekin,火狐狸,Fennekin,404404,푸호꼬,config/portrait/speedranktouxiang/img_653_hhl@.png,3291,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1223,Braixen,長尾火狐,Braixen,404404,테르나,config/portrait/speedranktouxiang/img_654_cwhh@.png,3292,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1224,Delphox,妖火紅狐,Delphox,404404,마폭시,config/portrait/speedranktouxiang/img_655_yhhh@.png,3293,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1225,Froakie,呱呱泡蛙,Froakie,404404,개구마르,config/portrait/speedranktouxiang/img_656_ggpw@.png,3301,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1226,Frogadier,呱頭蛙,Frogadier,404404,개굴반장,config/portrait/speedranktouxiang/img_657_gtw@.png,3302,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1227,Greninja,甲賀忍蛙,Greninja,404404,개굴닌자,config/portrait/speedranktouxiang/img_658_jhrw@.png,3303,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1228,Litleo,小獅獅,Litleo,404404,레오꼬,config/portrait/speedranktouxiang/img_667_xss@.png,3341,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1229,Pyroar,火炎獅,Pyroar,404404,화염레오,config/portrait/speedranktouxiang/img_668_hys@.png,3342,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1230,Flabébé,花蓓蓓,Flabébé,404404,플라베베,config/portrait/speedranktouxiang/img_669_hbb@.png,3351,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1231,Floette,花葉蒂,Floette,404404,플라엣테,config/portrait/speedranktouxiang/img_670_hyd@.png,3352,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1232,Florges,花潔夫人,Florges,404404,플라제스,config/portrait/speedranktouxiang/img_671_hjfr@.png,3353,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1233,Honedge,獨劍鞘,Honedge,404404,단칼빙,config/portrait/speedranktouxiang/img_679_djq@.png,3411,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1234,Doublade,雙劍鞘,Doublade,404404,쌍검킬,config/portrait/speedranktouxiang/img_680_sjq@.png,3412,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1235,Swirlix,綿綿泡芙,Swirlix,404404,나룸퍼프,config/portrait/speedranktouxiang/img_684_mmpf@.png,3431,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1236,Slurpuff,胖甜妮,Slurpuff,404404,나루림,config/portrait/speedranktouxiang/img_685_ptn@.png,3432,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1237,Clauncher,鐵臂槍蝦,Clauncher,404404,완철포,config/portrait/speedranktouxiang/img_692_tbqx@.png,3471,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1238,Clawitzer,鋼炮臂蝦,Clawitzer,404404,블로스터,config/portrait/speedranktouxiang/img_693_gpbx@.png,3472,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1239,Amaura,冰雪龍,Amaura,404404,아마루스,config/portrait/speedranktouxiang/img_698_bxl@.png,3501,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1240,Aurorus,冰雪巨龍,Aurorus,404404,아마루르가,config/portrait/speedranktouxiang/img_699_bxjl@.png,3502,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1241,Hawlucha,摔角鷹人,Hawlucha,404404,루차불,config/portrait/speedranktouxiang/img_701_sjyr@.png,3511,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1242,Goomy,黏黏寶,Goomy,404404,미끄메라,config/portrait/speedranktouxiang/img_704_nnb@.png,3541,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1243,Sliggoo,黏美兒,Sliggoo,404404,미끄네일,config/portrait/speedranktouxiang/img_705_nme@.png,3542,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1244,Goodra,黏美龍,Goodra,404404,미끄래곤,config/portrait/speedranktouxiang/img_706_nml@.png,3543,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1245,Phantump,小木靈,Phantump,404404,나목령,config/portrait/speedranktouxiang/img_708_xml@.png,3561,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1246,Trevenant,朽木妖,Trevenant,404404,대로트,config/portrait/speedranktouxiang/img_709_xmy@.png,3562,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1247,Growlithe,卡蒂狗,Growlithe,404404,가디,config/portrait/speedranktouxiang/img_58_kdg@.png,241,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1248,Arcanine,風速狗,Arcanine,404404,윈디,config/portrait/speedranktouxiang/img_59_fsg@.png,242,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1249,Golem,隆隆岩,Golem,404404,딱구리,config/portrait/speedranktouxiang/img_76_lly@.png,303,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1250,Kabuto,化石盔,Kabuto,404404,투구,config/portrait/speedranktouxiang/img_140_hsk@.png,691,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1251,Kabutops,鐮刀盔,Kabutops,404404,투구푸스,config/portrait/speedranktouxiang/img_141_ldk@.png,692,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1252,Lugia,洛奇亞,Lugia,LUGIA,루기아,config/portrait/speedranktouxiang/img_249_lqy@.png,1261,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1253,Torchic,火稚雞,Torchic,404404,아차모,config/portrait/speedranktouxiang/img_255_hzj@.png,1301,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1254,Combusken,力壯雞,Combusken,404404,영치코,config/portrait/speedranktouxiang/img_256_lzj@.png,1302,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1255,Blaziken,火焰雞,Blaziken,404404,번치코,config/portrait/speedranktouxiang/img_257_hyj@.png,1303,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1256,Dialga,帝牙盧卡,Dialga,404404,디아루가,config/portrait/speedranktouxiang/img_483_dylk@.png,2351,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1257,Palkia,帕路奇亞,Palkia,404404,펄기아,config/portrait/speedranktouxiang/img_484_plqy@.png,2361,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1258,Emolga,電飛鼠,Emolga,404404,에몽가,config/portrait/speedranktouxiang/img_587_dfs@.png,2891,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1259,Frillish - Female,輕飄飄·雌,Frillish - Female,404404,탱그릴: 암컷,config/portrait/speedranktouxiang/img_592_hqpp@.png,2921,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1260,Frillish - Male,輕飄飄·雄,Frillish - Male,404404,탱그릴: 수컷,config/portrait/speedranktouxiang/img_592_lqpp@.png,2922,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1261,Jellicent - Female,胖嘟嘟·雌,Jellicent - Female,404404,탱탱겔: 암컷,config/portrait/speedranktouxiang/img_593_hpdd@.png,2923,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1262,Jellicent - Male,胖嘟嘟·雄,Jellicent - Male,404404,탱탱겔: 수컷,config/portrait/speedranktouxiang/img_593_lpdd@.png,2924,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1263,Cryogonal,幾何雪花,Cryogonal,404404,프리지오,config/portrait/speedranktouxiang/img_615_jhxh@.png,3021,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1264,Aegislash - Shield Forme,堅盾劍怪·盾牌,Aegislash - Shield Forme,404404,킬가르도: 실드폼,config/portrait/speedranktouxiang/img_681_jdjg@.png,3413,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1265,Diancie,蒂安希,Diancie,404404,디안시,config/portrait/speedranktouxiang/img_719_dax@.png,3631,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1266,Solgaleo,索爾迦雷歐,Solgaleo,404404,솔가레오,config/portrait/speedranktouxiang/img_791_sejla@.png,4023,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1267,Snorunt,雪童子,Snorunt,404404,눈꼬마,config/portrait/speedranktouxiang/img_361_xtz@.png,1851,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1268,Glalie,冰鬼護,Glalie,404404,얼음귀신,config/portrait/speedranktouxiang/img_362_bgh@.png,1852,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1269,Froslass,雪妖女,Froslass,404404,눈여아,config/portrait/speedranktouxiang/img_478_xyn@.png,1853,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Mega Glalie,超級冰鬼護,Mega Glalie,404404,메가얼음귀신,config/portrait/speedranktouxiang/img_362_cjbgh@.png,1854,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1271,Riolu,利歐路,Riolu,404404,리오르,config/portrait/speedranktouxiang/img_447_lol@.png,2241,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1272,Lucario,路卡利歐,Lucario,404404,루카리오,config/portrait/speedranktouxiang/img_448_lklo@.png,2242,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Mega Lucario,超級路卡利歐,Mega Lucario,404404,메가루카리오,config/portrait/speedranktouxiang/img_445_lyls@.png,2243,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1274,Onix,大岩蛇,Onix,404404,롱스톤,config/portrait/speedranktouxiang/img_95_dys@.png,401,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1275,Steelix,大鋼蛇,Steelix,404404,강철톤,config/portrait/speedranktouxiang/img_208_dgs@.png,402,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Mega Steelix,超級大鋼蛇,Mega Steelix,404404,메가강철톤,config/portrait/speedranktouxiang/img_208_cjdgs@.png,403,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1277,Munchlax,小卡比獸,Munchlax,404404,먹고자,config/portrait/speedranktouxiang/img_446_xkbs@.png,711,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1278,Snorlax,卡比獸,Snorlax,404404,잠만보,config/portrait/speedranktouxiang/img_143_kbs@.png,712,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1279,Drilbur,螺釘地鼠,Drilbur,404404,두더류,config/portrait/speedranktouxiang/img_529_ldds@.png,2611,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1280,Excadrill,龍頭地鼠,Excadrill,404404,몰드류,config/portrait/speedranktouxiang/img_530_ltds@.png,2612,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1281,Noibat,嗡蝠,Noibat,404404,음뱃,config/portrait/speedranktouxiang/img_714_wf@.png,3591,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1282,Noivern,音波龍,Noivern,404404,음번,config/portrait/speedranktouxiang/img_715_ybl@.png,3592,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1283,Kyogre,蓋歐卡,Kyogre,404404,가이오가,config/portrait/speedranktouxiang/img_382_gok@.png,1961,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1284,Psyduck,可達鴨,Psyduck,404404,고라파덕,config/portrait/speedranktouxiang/img_54_kdy@.png,221,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1285,Psyduck,哥達鴨,Psyduck,404404,골덕,config/portrait/speedranktouxiang/img_55_gdy@.png,222,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1286,Gothita,哥德寶寶,Gothita,404404,고디탱,config/portrait/speedranktouxiang/img_574_gdbb@.png,2841,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1287,Gothorita,哥德小童,Gothorita,404404,고디보미,config/portrait/speedranktouxiang/img_575_gdxt@.png,2842,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1288,Gothitelle,哥德小姐,Gothitelle,404404,고디모아젤,config/portrait/speedranktouxiang/img_576_gdxj@.png,2843,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1289,Igglybuff,寶寶丁,Igglybuff,404404,푸푸린,config/portrait/speedranktouxiang/img_174_bbd@.png,151,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1290,Jigglypuff,胖丁,Jigglypuff,404404,푸린,config/portrait/speedranktouxiang/img_39_pd@.png,152,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1291,Wigglytuff,胖可丁,Wigglytuff,404404,푸크린,config/portrait/speedranktouxiang/img_40_pkd@.png,153,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1292,Groudon,固拉多,Groudon,404404,그란돈,config/portrait/speedranktouxiang/img_383_gld@.png,1971,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Primal Groudon,原始固拉多,Primal Groudon,404404,원시 그란돈,config/portrait/speedranktouxiang/img_383_cjgld@.png,1972,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1294,Rayquaza,裂空座,Rayquaza,Rayquaza,레쿠쟈,config/portrait/speedranktouxiang/img_384_lkz@.png,1981,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,Primal Groudon,原始固拉多,Primal Groudon,404404,원시 그란돈,,,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1296,Litwick,燭光靈,Litwick,404404,불켜미,config/portrait/speedranktouxiang/img_607_zgl@.png,2991,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1297,Lampent,燈火幽靈,Lampent,404404,램프라,config/portrait/speedranktouxiang/img_608_dhyl@.png,2992,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1298,Chandelure,水晶燈火靈,Chandelure,404404,샹델라,config/portrait/speedranktouxiang/img_609_sjdhl@.png,2993,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1299,Darkrai,達克萊伊,Darkrai,404404,다크라이,config/portrait/speedranktouxiang/img_491_dkly@.png,2431,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1300,Snivy,藤藤蛇,Snivy,404404,주리비얀,config/portrait/speedranktouxiang/img_495_tts@.png,2471,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1301,Servine,青藤蛇,Servine,404404,샤비,config/portrait/speedranktouxiang/img_496_qts@.png,2472,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1302,Serperior,君主蛇,Serperior,404404,샤로다,config/portrait/speedranktouxiang/img_497_jzs@.png,2473,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1303,Regirock,雷吉洛克,Regirock,404404,레지락,config/portrait/speedranktouxiang/img_377_ljlk@.png,1911,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1304,Regice,雷吉艾斯,Regice,404404,레지아이스,config/portrait/speedranktouxiang/img_378_ljas@.png,1921,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1305,Registeel,雷吉斯奇魯,Registeel,404404,레지스틸,config/portrait/speedranktouxiang/img_379_ljsql@.png,1931,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1306,Cresselia,克雷色利亞,Cresselia,404404,크레세리아,config/portrait/speedranktouxiang/img_488_klsly@.png,2401,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1307,Regigigas,雷吉奇卡斯,Regigigas,404404,레지기가스,config/portrait/speedranktouxiang/img_486_ljqks@.png,2381,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1308,Rowlet,木木梟,Rowlet,404404,나몰빼미,config/portrait/speedranktouxiang/img_722_mmx@.png,3661,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1309,Dartrix,投羽梟,Dartrix,404404,빼미스로우,config/portrait/speedranktouxiang/img_723_tyx@.png,3662,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1310,Decidueye,狙射樹梟,Decidueye,404404,모크나이퍼,config/portrait/speedranktouxiang/img_724_jssx@.png,3663,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1311,Farfetch'd,大蔥鴨,Farfetch'd,404404,파오리,config/portrait/speedranktouxiang/img_83_dcy@.png,341,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1312,Shadow Doll,怨影娃娃,,404404,어둠대신,config/portrait/speedranktouxiang/img_353_yyww@.png,1801,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1313,curse doll,詛咒娃娃,,404404,다크펫,config/portrait/speedranktouxiang/img_354_zzww@.png,1802,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1314,burning bug,燃燒蟲,,404404,활화르바,config/portrait/speedranktouxiang/img_636_rsc@.png,3151,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1315,Vulcan Moth,火神蛾,,404404,불카모스,config/portrait/speedranktouxiang/img_637_hse@.png,3152,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1316,Laplace,拉普拉斯,,404404,라프라스,config/portrait/speedranktouxiang/img_131_lpls@.png,641,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1317,Piplup,波加曼,Piplup,404404,팽도리,config/portrait/speedranktouxiang/img_393_bjm@.png,2031,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1318,Prinplup,波皇子,Prinplup,404404,팽태자,config/portrait/speedranktouxiang/img_394_bhz@.png,2032,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1319,Empoleon,帝王拿波,Empoleon,404404,엠페르트,config/portrait/speedranktouxiang/img_395_dwnb@.png,2033,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1320,Sonic Bat,超音蝠,,404404,404404,config/portrait/speedranktouxiang/img_41_cyf@.png,161,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1321,Big-mouthed bat,大嘴蝠,,404404,404404,config/portrait/speedranktouxiang/img_42_dzf@.png,162,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1322,Forked bat,叉字蝠,,404404,404404,config/portrait/speedranktouxiang/img_169_czf@.png,163,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1323,Good and Bad Stars,好壞星,,404404,시마사리,config/portrait/speedranktouxiang/img_747_hhx@.png,3771,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1324,super bad star,超壞星,,404404,더시마사리,config/portrait/speedranktouxiang/img_748_chx@.png,3772,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1325,Giratina,騎拉帝納,,404404,기라티나,config/portrait/speedranktouxiang/img_487_qldn@.png,2391,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1326,Giratina Genesis,騎拉帝納·起源,,404404,기라티나: 오리진,config/portrait/speedranktouxiang/img_487_cjqldn@.png,2391,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1327,shemi,謝米,,404404,쉐이미,config/portrait/speedranktouxiang/img_492_xm@.png,2441,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1328,shami sky,謝米·天空,,404404,쉐이미·하늘,config/portrait/speedranktouxiang/img_492_xmtkxt@.png,2442,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1329,sweet bamboo,甜竹竹,,404404,달콤아,config/portrait/speedranktouxiang/img_761_tzz@.png,3841,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1330,Sweet Dancer,甜舞妮,,404404,달무리나,config/portrait/speedranktouxiang/img_762_twn@.png,3842,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1331,sweet after,甜冷美後,,404404,달코퀸,config/portrait/speedranktouxiang/img_763_tlmh@.png,3843,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1332,Aerodactyl,化石翼龍,Aerodactyl,404404,프테라,config/portrait/speedranktouxiang/img_142_hsyl@.png,701,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1333,Dumbie,毒貝比,,404404,베베놈,config/portrait/speedranktouxiang/img_803_dbb@.png,4131,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1334,Tetragnathus,四顎針龍,,404404,아고용,config/portrait/speedranktouxiang/img_804_sezl@.png,4132,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1335,Ladias,拉帝亞斯,,404404,404404,config/portrait/speedranktouxiang/img_380_ldys@.png,1941,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1336,Latios,拉帝歐斯,,404404,404404,config/portrait/speedranktouxiang/img_381_ldos@.png,1951,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1337,scorpio,天蠍,,404404,글라이거,config/portrait/speedranktouxiang/img_207_tx@.png,1031,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1338,Scorpio King,天蠍王,,404404,글라이온,config/portrait/speedranktouxiang/img_472_txw@.png,1032,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1339,Punish Hoopa,懲戒胡帕,,404404,굴레에 빠진 후파,config/portrait/speedranktouxiang/img_720_cjhp@.png,3641,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1340,Liberate Hoopa,解放胡帕,,404404,굴레를 벗어난 후파,config/portrait/speedranktouxiang/img_720_jfhp@.png,3642,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1341,Rashiram,萊希拉姆,,404404,레시라무,config/portrait/speedranktouxiang/img_643_lxlm@.png,3211,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1342,Czech Roma,捷克羅姆,,404404,제크로무,config/portrait/speedranktouxiang/img_644_jklm@.png,3221,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1343,Bobbi,波克比,,404404,토게피,config/portrait/speedranktouxiang/img_175_bkb@.png,861,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1344,Poke Kigu,波克基古,,404404,토게틱,config/portrait/speedranktouxiang/img_176_bkjg@.png,862,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1345,Pokkiss,波克基斯,,404404,토게키스,config/portrait/speedranktouxiang/img_468_bkjs@.png,863,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1346,Big tongue clam,大舌貝,,404404,404404,config/portrait/speedranktouxiang/img_90_dsb@.png,381,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1347,Spiny clam,刺甲貝,,404404,404404,config/portrait/speedranktouxiang/img_91_cjb@.png,382,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1348,Kyurem,酋雷姆,,404404,404404,config/portrait/speedranktouxiang/img_646_qlm@.png,3241,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1349,Keldeo,凱路迪歐,,404404,404404,config/portrait/speedranktouxiang/img_647_kldo@.png,3251,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1350,Ash version of Pikachu,小智版皮卡丘,,404404,404404,config/portrait/speedranktouxiang/img_25_xzpkq@.png,7001,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1351,Meloetta Song,美洛耶塔·歌聲,,404404,404404,config/portrait/speedranktouxiang/img_648_mlytgsxt@.png,3261,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1352,Meloetta Dance Step,美洛耶塔·舞步,,404404,404404,config/portrait/speedranktouxiang/img_648_mlytwbxt@.png,3262,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1353,Coppaluong,勾帕路翁,,404404,404404,config/portrait/speedranktouxiang/img_638_gplw@.png,3161,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1354,Delakion,代拉基翁,,404404,404404,config/portrait/speedranktouxiang/img_639_dljw@.png,3171,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1355,Billigion,畢力吉翁,,404404,404404,config/portrait/speedranktouxiang/img_640_bljw@.png,3181,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1356,Kiraqi,基拉祈,,404404,404404,config/portrait/speedranktouxiang/img_385_jlq@.png,1991,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1357,Meltan,美錄坦,,404404,404404,config/portrait/speedranktouxiang/img_808_mlt@.png,4171,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1358,Melmetta,美錄梅塔,,404404,404404,config/portrait/speedranktouxiang/img_809_mlmt@.png,4172,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1359,Yveltal,伊裴爾塔爾,,404404,404404,config/portrait/speedranktouxiang/img_717_ypete@.png,3611,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1360,Feebas,醜醜魚,Feebas,404404,빈티나,config/portrait/speedranktouxiang/img_349_ccy@.png,1771,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1361,Milotic,美納斯,Milotic,404404,밀로틱,config/portrait/speedranktouxiang/img_350_mns@.png,1772,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1362,Rabi,時拉比,,404404,404404,config/portrait/speedranktouxiang/img_251_slb@.png,1281,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1363,Little Fudan,小福蛋,,404404,404404,config/portrait/speedranktouxiang/img_440_xfd@.png,501,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1364,Lucky Eggs,吉利蛋,,404404,404404,config/portrait/speedranktouxiang/img_113_jld@.png,502,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1365,Happy Egg,幸福蛋,,404404,404404,config/portrait/speedranktouxiang/img_242_xfd@.png,503,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1366,Kairos,凱羅斯,,404404,404404,config/portrait/speedranktouxiang/img_127_kls@.png,611,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1367,Genesect,蓋諾賽克特,,404404,404404,config/portrait/speedranktouxiang/img_649_gnskt@.png,3271,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1368,ball sea lion,球球海獅,,404404,404404,config/portrait/speedranktouxiang/img_728_qqhs@.png,3681,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1369,Flowering sea lion,花漾海獅,,404404,404404,config/portrait/speedranktouxiang/img_729_hyhs@.png,3682,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1370,Lionfish,西獅海壬,,404404,404404,config/portrait/speedranktouxiang/img_730_xshr@.png,3683,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1371,Cernias,哲爾尼亞斯,,404404,404404,config/portrait/speedranktouxiang/img_716_zenys@.png,3601,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1372,little flame monkey,小火焰猴,,404404,404404,config/portrait/speedranktouxiang/img_390_xhyh@.png,2021,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1373,Flame Monkey,猛火猴,,404404,404404,config/portrait/speedranktouxiang/img_391_mhh@.png,2022,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1374,Flamingo,烈焰猴,,404404,404404,config/portrait/speedranktouxiang/img_392_lyh@.png,2023,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1375,Dream Demon,夢妖,,404404,404404,config/portrait/speedranktouxiang/img_200_my@.png,971,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1376,Dream Demon,夢妖魔,,404404,404404,config/portrait/speedranktouxiang/img_429_mym@.png,972,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1377,Teraola,捷拉奧拉,,404404,404404,config/portrait/speedranktouxiang/img_807_jlal@.png,4161,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+1378,lightning cloud,雷電雲,,404404,404404,config/portrait/speedranktouxiang/img_642_ldy@.png,3201,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+,,,,,,,,,,,,,,,,
+3001,Mega Charizard X,超級噴火龍X,Mega Charizard X,404404,메가리자몽X,config/portrait/speedranktouxiang/img_6_cjphlx@.png,14,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3002,Mega Charizard Y,超級噴火龍Y,Mega Charizard Y,404404,메가리자몽Y,config/portrait/speedranktouxiang/img_6_cjphly@.png,15,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3003,Mega Venusaur,超級妙蛙花,Mega Venusaur,404404,메가이상해꽃,config/portrait/speedranktouxiang/img_3_cjmwh@.png,4,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3004,Mega Blastoise,超級水箭龜,Mega Blastoise,404404,메가거북왕,config/portrait/speedranktouxiang/img_9_cjsjg@.png,24,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3005,Mega Abomasnow,超級暴雪王,Mega Abomasnow,404404,메가눈설왕,config/portrait/speedranktouxiang/img_460_cjbxw@.png,2303,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3006,Mega Beedrill,超級大針蜂,Mega Beedrill,404404,메가독침붕,config/portrait/speedranktouxiang/img_15_cjdzf@.png,44,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3007,Mega Alakazam,超級胡地,Mega Alakazam,404404,메가후딘,config/portrait/speedranktouxiang/img_65_cjhd@.png,264,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3008,Super Rift Seat,404,404,404,404,config/portrait/speedranktouxiang/img_384_cjlkz@.png,1982,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3009,Super Claw Mantis,404,404,404,404,config/portrait/speedranktouxiang/img_212_cjjqtl@.png,574,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3010,Super Xanadus,超級沙奈朵,404,404,404,config/portrait/speedranktouxiang/img_282_cjsnd@.png,1396,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3011,Super Boss Cordora,超級波士可朵拉,,,,config/portrait/speedranktouxiang/img_306_cjbskdl@.png,1504,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득
+3012,Original Gulardo,原始固拉多,404,404,404,config/portrait/speedranktouxiang/img_383_cjgld@.png,1972,,,,,Unlock the Pokédex to get,解鎖對應精靈圖鑒後獲得,Unlock the Pokédex to get,404404,해당 포켓몬 도감 개방 시 획득

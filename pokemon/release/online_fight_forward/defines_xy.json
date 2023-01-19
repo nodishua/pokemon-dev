@@ -1,0 +1,242 @@
+{
+  "online_fight_forward.xy.1": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.1"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.2": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.2"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.3": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.3"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.4": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.4"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.5": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.5"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.6": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.6"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.7": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.7"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.8": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.8"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.9": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.9"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.10": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.10"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.11": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.11"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.12": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.12"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.13": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.13"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.14": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.14"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.15": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.15"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.16": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.16"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.17": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.17"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.18": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.18"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.19": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.19"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }, 
+  "online_fight_forward.xy.20": {
+    "services": [
+      {
+        "name": "online_fight_forward.xy.20"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ], 
+    "nsqlookupd": "http://192.168.0.82:4161/", 
+    "query_ip_url": "http://124.71.138.126:18080/ip"
+  }
+}

@@ -1,0 +1,1346 @@
+{
+  "account.xy.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "account",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.54:8635,192.168.0.236:8635/account?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "accountdb.xy.1"
+      }
+    ]
+  },
+  "commentdb.xy.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "comment_xy",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/comment_xy?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "commentdb.xy.1"
+      }
+    ]
+  },
+  "crossdb.xy.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_1",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_1?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.1",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.10": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_10",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/cross_xy_10?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.10",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.11": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_11",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/cross_xy_11?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.11",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.12": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_12",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/cross_xy_12?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.12",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.13": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_13",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_13?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.13",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.14": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_14",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_14?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.14",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.15": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_15",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_15?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.15",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.16": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_16",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_16?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.16",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.17": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_17",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_17?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.17",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.18": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_18",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_18?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.18",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.2": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_2",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_2?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.2",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.3": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_3",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_3?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.3",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.4": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_4",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_4?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.4",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.5": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_5",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_5?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.5",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.6": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_6",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/cross_xy_6?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.6",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.7": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_7",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/cross_xy_7?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.7",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.8": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_8",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/cross_xy_8?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.8",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.xy.9": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "cross_xy_9",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/cross_xy_9?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.xy.9",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "gift.xy.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "gift",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.54:8635,192.168.0.236:8635/gift?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "giftdb.xy.1"
+      }
+    ]
+  },
+  "paymentdb.xy.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "order",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.54:8635,192.168.0.236:8635/order?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "paymentdb.xy.1"
+      }
+    ]
+  },
+  "storage.xy.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_1",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_1?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.1"
+      }
+    ]
+  },
+  "storage.xy.10": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_10",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_10?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.10"
+      }
+    ]
+  },
+  "storage.xy.11": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_11",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_11?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.11"
+      }
+    ]
+  },
+  "storage.xy.12": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_12",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_12?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.12"
+      }
+    ]
+  },
+  "storage.xy.13": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_13",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_13?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.13"
+      }
+    ]
+  },
+  "storage.xy.14": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_14",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_14?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.14"
+      }
+    ]
+  },
+  "storage.xy.15": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_15",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_15?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.15"
+      }
+    ]
+  },
+  "storage.xy.16": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_16",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_16?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.16"
+      }
+    ]
+  },
+  "storage.xy.17": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_17",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_17?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.17"
+      }
+    ]
+  },
+  "storage.xy.18": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_18",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_18?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.18"
+      }
+    ]
+  },
+  "storage.xy.19": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_19",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_19?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.19"
+      }
+    ]
+  },
+  "storage.xy.2": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_2",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_2?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.2"
+      }
+    ]
+  },
+  "storage.xy.20": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_20",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_20?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.20"
+      }
+    ]
+  },
+  "storage.xy.21": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_21",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_21?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.21"
+      }
+    ]
+  },
+  "storage.xy.22": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_22",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_22?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.22"
+      }
+    ]
+  },
+  "storage.xy.23": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_23",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_23?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.23"
+      }
+    ]
+  },
+  "storage.xy.24": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_24",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_24?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.24"
+      }
+    ]
+  },
+  "storage.xy.25": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_25",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_25?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.25"
+      }
+    ]
+  },
+  "storage.xy.26": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_26",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_26?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.26"
+      }
+    ]
+  },
+  "storage.xy.27": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_27",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_27?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.27"
+      }
+    ]
+  },
+  "storage.xy.28": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_28",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_28?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.28"
+      }
+    ]
+  },
+  "storage.xy.29": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_29",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_29?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.29"
+      }
+    ]
+  },
+  "storage.xy.3": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_3",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_3?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.3"
+      }
+    ]
+  },
+  "storage.xy.30": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_30",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_30?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.30"
+      }
+    ]
+  },
+  "storage.xy.31": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_31",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_31?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.31"
+      }
+    ]
+  },
+  "storage.xy.32": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_32",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_32?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.32"
+      }
+    ]
+  },
+  "storage.xy.33": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_33",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_33?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.33"
+      }
+    ]
+  },
+  "storage.xy.34": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_34",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_34?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.34"
+      }
+    ]
+  },
+  "storage.xy.35": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_35",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_35?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.35"
+      }
+    ]
+  },
+  "storage.xy.36": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_36",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_36?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.36"
+      }
+    ]
+  },
+  "storage.xy.37": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_37",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_37?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.37"
+      }
+    ]
+  },
+  "storage.xy.38": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_38",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_38?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.38"
+      }
+    ]
+  },
+  "storage.xy.39": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_39",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_39?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.39"
+      }
+    ]
+  },
+  "storage.xy.4": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_4",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_4?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.4"
+      }
+    ]
+  },
+  "storage.xy.40": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_40",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_40?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.40"
+      }
+    ]
+  },
+  "storage.xy.41": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_41",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_41?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.41"
+      }
+    ]
+  },
+  "storage.xy.42": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_42",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_42?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.42"
+      }
+    ]
+  },
+  "storage.xy.43": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_43",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_43?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.43"
+      }
+    ]
+  },
+  "storage.xy.44": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_44",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_44?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.44"
+      }
+    ]
+  },
+  "storage.xy.45": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_45",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_45?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.45"
+      }
+    ]
+  },
+  "storage.xy.46": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_46",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_46?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.46"
+      }
+    ]
+  },
+  "storage.xy.47": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_47",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_47?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.47"
+      }
+    ]
+  },
+  "storage.xy.48": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_48",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_48?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.48"
+      }
+    ]
+  },
+  "storage.xy.49": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_49",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_49?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.49"
+      }
+    ]
+  },
+  "storage.xy.5": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_5",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_5?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.5"
+      }
+    ]
+  },
+  "storage.xy.50": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_50",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_50?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.50"
+      }
+    ]
+  },
+  "storage.xy.51": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_51",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_51?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.51"
+      }
+    ]
+  },
+  "storage.xy.52": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_52",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_52?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.52"
+      }
+    ]
+  },
+  "storage.xy.53": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_53",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_53?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.53"
+      }
+    ]
+  },
+  "storage.xy.54": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_54",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_54?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.54"
+      }
+    ]
+  },
+  "storage.xy.55": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_55",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_55?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.55"
+      }
+    ]
+  },
+  "storage.xy.56": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_56",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_56?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.56"
+      }
+    ]
+  },
+  "storage.xy.57": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_57",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_57?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.57"
+      }
+    ]
+  },
+  "storage.xy.58": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_58",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_58?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.58"
+      }
+    ]
+  },
+  "storage.xy.59": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_59",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_59?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.59"
+      }
+    ]
+  },
+  "storage.xy.6": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_6",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_6?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.6"
+      }
+    ]
+  },
+  "storage.xy.60": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_60",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_60?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.60"
+      }
+    ]
+  },
+  "storage.xy.61": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_61",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_61?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.61"
+      }
+    ]
+  },
+  "storage.xy.62": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_62",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_62?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.62"
+      }
+    ]
+  },
+  "storage.xy.63": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_63",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_63?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.63"
+      }
+    ]
+  },
+  "storage.xy.64": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_64",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_64?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.64"
+      }
+    ]
+  },
+  "storage.xy.65": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_65",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_65?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.65"
+      }
+    ]
+  },
+  "storage.xy.66": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_66",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_66?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.66"
+      }
+    ]
+  },
+  "storage.xy.67": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_67",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_67?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.67"
+      }
+    ]
+  },
+  "storage.xy.68": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_68",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_68?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.68"
+      }
+    ]
+  },
+  "storage.xy.69": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_69",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_69?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.69"
+      }
+    ]
+  },
+  "storage.xy.7": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_7",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_7?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.7"
+      }
+    ]
+  },
+  "storage.xy.70": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_70",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_70?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.70"
+      }
+    ]
+  },
+  "storage.xy.71": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_71",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_71?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.71"
+      }
+    ]
+  },
+  "storage.xy.72": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_72",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_72?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.72"
+      }
+    ]
+  },
+  "storage.xy.73": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_73",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_73?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.73"
+      }
+    ]
+  },
+  "storage.xy.74": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_74",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_74?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.74"
+      }
+    ]
+  },
+  "storage.xy.75": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_75",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_75?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.75"
+      }
+    ]
+  },
+  "storage.xy.76": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_76",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_76?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.76"
+      }
+    ]
+  },
+  "storage.xy.77": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_77",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_77?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.77"
+      }
+    ]
+  },
+  "storage.xy.78": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_78",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_78?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.78"
+      }
+    ]
+  },
+  "storage.xy.79": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_79",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_79?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.79"
+      }
+    ]
+  },
+  "storage.xy.8": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_8",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_8?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.8"
+      }
+    ]
+  },
+  "storage.xy.80": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_80",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.105:8635,192.168.0.168:8635/game_xy_80?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.80"
+      }
+    ]
+  },
+  "storage.xy.9": {
+    "nsqd_tcp_addresses": [
+      "192.168.0.82:4150"
+    ],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dbname": "game_xy_9",
+        "mongodb": "mongodb://gamesystem:123456@192.168.0.221:8635,192.168.0.191:8635/game_xy_9?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.xy.9"
+      }
+    ]
+  }
+}

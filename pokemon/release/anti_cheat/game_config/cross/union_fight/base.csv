@@ -1,0 +1,4 @@
+变量名,servOpenDays,unionLevel,roleLevel,preBetCost,preBetWinAward,preBetFailAward,top4BetCost,top4BetWinAward,top4BetFailAward,extraAward,sceneCount,roundLimit,attrCorrectMap
+默认值,,0,0,{},{},{},{},{},{},{},<1;1;5>,<20;10;10>,<100028;100029;100030>
+ID,相对开服开启时间,公会等级条件,玩家等级条件,初赛押注消耗,初赛押注成功奖励,初赛押注失败奖励,决赛押注消耗,决赛押注成功奖励,决赛押注失败奖励,初赛和决赛都猜中额外奖励,对应不同战场波数,对应不同战场回合限制数,对应不同战场属性修正表映射
+1,30,4,50,{coin3=500},{coin3=300},{coin3=600;rmb=50;gold=200000},{coin3=200;rmb=20;gold=100000},{coin3=1500},{coin3=3000;rmb=100;gold=600000;502=2},{coin3=800;rmb=30;gold=200000},<1;1;5>,<20;10;10>,<100028;100029;100030>

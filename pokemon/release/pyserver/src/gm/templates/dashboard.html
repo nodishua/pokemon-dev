@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+
+{% block head %}
+	<!-- bootstrap table -->
+	<link rel="stylesheet" href={{ static_url("node_modules/bootstrap-table/dist/bootstrap-table.min.css") }} />
+	<script src={{ static_url("node_modules/bootstrap-table/dist/bootstrap-table.min.js") }}></script>
+	{% if user.language == "en_US" %}
+		<script src={{ static_url("node_modules/bootstrap-table/dist/locale/bootstrap-table-en-US.js") }}></script>
+	{% elif user.language == "vi_VN" %}
+		<script src={{ static_url("node_modules/bootstrap-table/dist/locale/bootstrap-table-vi-VN.min.js") }}></script>
+	{% else %}
+		<script src={{ static_url("node_modules/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js") }}></script>
+	{% end %}
+	<link rel="stylesheet" href={{ static_url("css/dashboard.css") }} />
+	{% block css %}
+	{% end %}
+{% end %}
+
+{% block body %}
+    <div class="sidebar">
+    	<div class="sidebar-header">
+    		<a href="/"><span class="glyphicon glyphicon-home"></span> <strong> TALEGM-WEBSITE</strong></a>
+    	</div>
+    	<div class="sidebar-body">
+    		<div class="sidebar-menu">
+				<ul class="nav">
+					<li><a data-toggle="collapse" href="#qn89">
+						<div class="z">{{ _(u"Basic query") }}</div><span class="glyphicon glyphicon-chevron-up right"></span>
+					</a></li>
+				</ul>
+			</div>
+			<div id="qn89" class="collapse sidebar-content">
+				<ul class="nav">
+					<li><a href="/daily"><div class="zz">{{ _(u"Basic data query") }}</div></a></li>
+					<li><a href="/retention"><div class="zz">{{ _(u"Retain query") }}</div></a></li>
+					<li><a href="/recharge"><div class="zz">{{ _(u"Recharge query") }}</div></a></li>
+				</ul>
+			</div>
+			<div class="sidebar-menu">
+				<ul class="nav">
+					<li><a data-toggle="collapse" href="#qn69">
+						<div class="z">{{ _(u"Operating data") }}</div><span class="glyphicon glyphicon-chevron-up right"></span>
+					</a></li>
+				</ul>
+			</div>
+			<div id="qn69" class="collapse sidebar-content">
+				<ul class="nav">
+					<li><a href="/online_player"><div class="zz">{{ _(u"Game data") }}</div></a></li>
+					<li><a href="/logitem_archive"><div class="zz">{{ _(u"Data monitoring") }}</div></a></li>
+					<li><a href="/area_data"><div class="zz">{{ _(u"District service data ") }}</div></a></li>
+				</ul>
+			</div>
+			<div class="sidebar-menu">
+				<ul class="nav">
+					<li><a data-toggle="collapse" href="#qn1">
+						<div class="z">{{ _(u"GM management ") }}</div><span class="glyphicon glyphicon-chevron-up right"></span>
+					</a></li>
+				</ul>
+			</div>
+			<div id="qn1" class="collapse sidebar-content">
+				<ul class="nav">
+					<li><a href="/sendmail"><div class="zz">{{ _(u"send email") }}</div></a></li>
+					<li><a href="/role_activity"><div class="zz">{{ _(u"Player activity ") }}</div></a></li>
+					<li><a href="/operate_activity"><div class="zz">{{ _(u"Operating activities") }}</div></a></li>
+					<li><a href="/gift_packs"><div class="zz">{{ _(u"Gift package generation") }}</div></a></li>
+					<li><a href="/chat_monitor"><div class="zz">{{ _(u"Chat monitoring") }}</div></a></li>
+					<!-- <li><a href="#"><div class="zz">{{ _(u"Log view") }}</div></a></li> -->
+					<li><a href="/account_migrate"><div class="zz">{{ _(u"Account migration") }}</div></a></li>
+					<li><a href="/refreshcsv"><div class="zz">{{ _(u"GM tool") }}</div></a></li>
+					<!-- <li><a href="/blacklist"><div class="zz">{{ _(u"blacklist") }}</div></a></li> -->
+				</ul>
+			</div>
+			{% if debug %}
+				<div class="sidebar-menu">
+					<ul class="nav">
+						<li><a data-toggle="collapse" href="#qn2">
+							<div class="z">{{ _(u"Internal network test ") }}</div><span class="glyphicon glyphicon-chevron-up right"></span>
+						</a></li>
+					</ul>
+				</div>
+				<div id="qn2" class="collapse sidebar-content">
+					<ul class="nav">
+						<li><a href="/test_server"><div class="zz">{{ _(u"server configuration") }}</div></a></li>
+						<li><a href="/test_yyhuodong"><div class="zz">{{ _(u"Operation activity configuration") }}</div></a></li>
+						<!-- <li><a href="/test_fight"><div class="zz">{{ _(u"Combat test") }}</div></a></li> -->
+					</ul>
+				</div>
+			{% end %}
+    	</div>
+	</div>
+	<div class="topbar">
+		<div><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> {{ _(u"quit") }}</a></div>
+		<div>
+			<div class="dropdown">
+				<a href="#" id="dLabel" data-toggle="dropdown">
+					<span class="glyphicon glyphicon-globe"></span> {{ _(u"language") }}<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+			    	<li><a href="/lanauge_set?lang=cn">Simplified Chinese</a></li>
+			    	<li><a href="/lanauge_set?lang=en">English</a></li>
+				</ul>
+			</div>
+		</div>
+		{% if user.permission >= 999 %}
+			<div><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus"></span> {{ _(u"Add member") }}</a></div>
+			<div><a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-plus"></span> {{ _(u"Delete Member") }}</a></div>
+			{% end %}
+		<div><span class="glyphicon glyphicon-user"></span> {{ _(u"Hello") }}, {{ user.name }}</div>
+	</div>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-pushpin"></span> {{ _(u"Add member information") }}</h4>
+	            </div>
+	            <div class="modal-body">
+	            	<div id="create-account-info">
+						<div>
+							<form class="form-inline">
+								<div class="form-group">
+									<label><span class="glyphicon glyphicon-asterisk"></span> {{ _(u"Permissions level ") }}</label>
+									<select id="power-level" class="form-control">
+										<option>1</option>
+						        		<option>100</option>
+						        		<option>500</option>
+						        		<option>999</option>
+									</select>
+								</div>
+							</form>
+						</div>
+						<div>
+							<form class="form-inline">
+								<div class="form-group">
+									<label><span class="glyphicon glyphicon-user"></span> {{ _(u"username") }}</label>
+									<input id="account-name" class="form-control"/>
+									<div id="account-name-ok" class="form-control check-op check-ok hidden"><span class="glyphicon glyphicon-ok"></span></div>
+									<div id="account-name-remove" class="form-control check-op check-err hidden">{{ _(u"The user already exists") }}</div>
+								</div>
+							</form>
+						</div>
+						<div>
+							<form class="form-inline">
+								<div class="form-group">
+									<label><span class="glyphicon glyphicon-eye-close"></span> {{ _(u"password") }}</label>
+									<input id="account-pwd" type="password" class="form-control"/>
+								</div>
+							</form>
+						</div>
+						<div>
+							<form class="form-inline">
+								<div class="form-group">
+									<label><span class="glyphicon glyphicon-eye-close"></span> {{ _(u"confirm password") }}</label>
+									<input id="confirm-pwd" type="password" class="form-control"/>
+									<div id="confirm-pwd-ok" class="form-control check-op check-ok hidden"><span class="glyphicon glyphicon-ok"></span></div>
+									<div id="confirm-pwd-remove" class="form-control check-op check-err hidden"><span class="glyphicon glyphicon-remove"></span></div>
+								</div>
+							</form>
+						</div>
+						<div>
+							<span id="create-account-err" class="check-err"></span>
+						</div>
+					</div>
+	            </div>
+	            <div class="modal-footer">
+	                <button type="button" class="btn btn-default" data-dismiss="modal">{{ _(u"closure") }}</button>
+	                <button id="create-account" type="button" class="btn btn-primary">{{ _(u"submit") }}</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- servers select -->
+	<div class="modal fade" id="serv-select-modal" tabindex="-1" role="dialog">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title">{{ _(u"Choose a server") }}</h4>
+	            </div>
+	            <div class="modal-body">
+	            	{% for serv in servs %}
+	            		<div class='modal-btn-select'>
+							<button id="{{ serv }}" class="btn btn-success btn-sm" onclick="servBtnClick(this)">{{ serv }}</button>
+						</div>
+					{% end %}
+	            </div>
+	            <div class="modal-footer">
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- channels select -->
+	<div class="modal fade" id="channel-select-modal" tabindex="-1" role="dialog">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title">{{ _(u"Selection channel") }}</h4>
+	            </div>
+	            <div class="modal-body">
+	            	{% for channel in channels %}
+	            		<div class='modal-btn-select'>
+		            		{% if channel[1] == 1 %}
+								<button id="{{ channel[0] }}" class="btn btn-primary btn-sm" onclick="channelBtnClick(this)">{{ channel[0] }}</button>
+							{% else %}
+								<button id="{{ channel[0] }}" class="btn btn-success btn-sm" onclick="channelBtnClick(this)">{{ channel[0] }}</button>
+							{% end %}
+						</div>
+					{% end %}
+	            </div>
+	            <div class="modal-footer">
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- loading -->
+	<div class="modal fade" id="ajax-loading" tabindex="-1" role="dialog">
+	    <div class="modal-dialog">
+	    	<div class='modal-loading'><span><strong>Loading...</strong></span></div>
+	    </div>
+	</div>
+
+	{% block main %}
+		<div class="container-fluid main">
+	        <div class="row" style="text-align: center; padding-top: 18px;">
+	        	<div class="col-lg-3">
+	        		<div class="panel panel-primary">
+					    <div class="panel-heading">
+					        {{ _(u"Cumulative activation") }}
+					    </div>
+					    <div class="panel-body">
+					        {{ overview[0] }} {{ _(u"equipment") }}
+					    </div>
+					</div>
+	        	</div>
+	        	<div class="col-lg-3">
+	        		<div class="panel panel-primary">
+					    <div class="panel-heading">
+					        {{ _(u"Cumulative registered account") }}
+					    </div>
+					    <div class="panel-body">
+					        {{ overview[1] }} {{ _(u"Account") }}
+					    </div>
+					</div>
+	        	</div>
+	        	<div class="col-lg-3">
+	        		<div class="panel panel-primary">
+					    <div class="panel-heading">
+					        {{ _(u"Cumulative paid account") }}
+					    </div>
+					    <div class="panel-body">
+					        {{ overview[2] }} {{ _(u"Account") }}
+					    </div>
+					</div>
+	        	</div>
+	        	<div class="col-lg-3">
+	        		<div class="panel panel-primary">
+					    <div class="panel-heading">
+					        {{ _(u"Cumulative income") }}
+					    </div>
+					    <div class="panel-body">
+					        {{ overview[3] }}
+					    </div>
+					</div>
+	        	</div>
+	        </div>
+		</div>
+	{% end %}
+	<div id='copyright'>Copyright © 2014 YouMi Information Technology Inc.</div>
+{% end %}
+
+{% block foot %}
+	<script src={{ static_url("js/dashboard.js") }}></script>
+	{% block js %}
+	{% end %}
+{% end %}

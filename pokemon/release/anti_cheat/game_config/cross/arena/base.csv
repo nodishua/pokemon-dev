@@ -1,0 +1,4 @@
+﻿"﻿变量名",servOpenDays,robotName,robotName_tw,robotName_en,robotName_vn,robotName_kr,minStageID,topBattleHistoryPeriods
+"默认值",,Guardian,競技守護者,Guardian,竞技守护者,Guardian,1,<>
+"ID",相对开服开启时间,机器人名字,机器人名字,机器人名字,机器人名字,机器人名字,精彩战报最小段位,精彩战报刷新阶段
+"1",50,Guardian,競技守護者,Guardian,,경기 수호자,18,<1;2;3;4;6;7;8;9;10;11;12;13;14;15;16;17;18;22;23>

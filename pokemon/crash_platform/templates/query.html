@@ -1,0 +1,137 @@
+{% extends "dashboard.html" %}
+
+{% block head %}
+	<style>
+		.well-caption {
+			margin-left: 25px;
+			margin-bottom: 20px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="row m-head">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3"><h4>Crash data query <h4></div>
+	</div>
+
+	<div class="well">
+		<div class="row">
+			<div class="well-caption">Role report query</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3">
+				<div>
+				    <form class="bs-example bs-example-form" role="form">
+				        <div class="input-group">
+				            <span class="input-group-addon">District service selection</span>
+				            <input id="query-server" list="query-server-list" class="form-control" placeholder="Can enter the area service or select "/>
+				            <datalist id="query-server-list">
+				            	{% for serv in servers %}
+				            		<option value="{{ serv }}" />
+						    	{% end %}
+							</datalist>
+				        </div>
+				        <br />
+				        <div class="input-group">
+				            <span class="input-group-addon">Character account</span>
+				            <input id="query-role" type="text" class="form-control" placeholder="Enter character ID or account"/>
+				        </div>
+				        <br />
+				        <div class="input-group">
+				        	<span class="input-group-addon">time limit</span>
+							<input id="query-datetime" list="query-time-list" class="form-control" placeholder="You can directly enter the number of days or select the selection"/>
+							<datalist id="query-time-list">
+							<option value = "Today" />
+							<option value = "within three days" />
+							<option value = "within a week" />
+							<option value = "within one month" />
+							<option value = "All" />
+							</datalist>
+						</div>
+					    <br />
+				        <div>
+				            <input id="qr" type="button" class="form-control btn-success" value="Inquire">
+				        </div>
+				    </form>
+				</div>
+			</div>
+			<div class="col-lg-9 col-lg-9 col-sm-9">
+				<div id="query-summary"></div>
+				<hr />
+				<div id="query-description"></div>
+			</div>
+		</div>
+	</div>
+
+{% end %}
+
+{% block foot %}
+	<script>
+		$("div.sidebar ul.nav a").each(function(){
+	        $(this).removeClass("s-active")
+	    });
+	    $("#query-page").addClass("s-active");
+	    var QueryTimeCompare = {
+	    	"Today": 1,
+			"Within three days": 3,
+			"Within a week": 4,
+			"Within one month": 5,
+			"All": 0,
+	    };
+
+	    $("#qr").on("click", function() {
+	    	var server = $("#query-server").val();
+	    	var role = $("#query-role").val();
+	    	var datetime = $("#query-datetime").val();
+	    	if (server == "" || role == "") {
+	    		alert("Server and root cannot be empty！");
+	    	} else {
+	    		if (datetime in QueryTimeCompare) {
+	    			datetime = QueryTimeCompare[datetime];
+	    		} else {
+	    			datetime = parseInt(datetime);
+	    			if (isNaN(datetime)) {
+	    				datetime = 0;
+	    			}
+	    		}
+	    		var queryData = {
+	    			"server": server,
+	    			"role": role,
+	    			"query_time": datetime
+	    		};
+	    		$.ajax({
+			        url: "/querypage/role",
+			        type: 'get',
+			        dataType: 'json',
+			        async: true,
+			        data: queryData,
+			        success: function (rep) {
+			            console.log(rep);
+			            var h = "<span>server-" + server + " role-" + role + " Report" + " " + rep.sumReport + " Second-rate"+ "</span>";
+			            var h2 = "";
+			            if (rep.sumReport === 0) {
+			            	h2 = "No data！";
+			            } else {
+			            	var sl = rep.stackIdent
+				            for (var stack in sl) {
+				            	var feature = sl[stack][0];
+				            	var count = sl[stack][1];
+				            	var firstTime = sl[stack][2];
+				            	var lastTime = sl[stack][3];
+				            	if (feature.length > 135) {
+				            		feature = feature.substr(0, 130) + "~~~";
+				            	}
+				            	h2 += '<div><div>'+firstTime+' - '+lastTime+'</div><div><a href="/crashinfo?ident='+encodeURIComponent(stack)+'&type=1'+'" target="_blank">'+feature+'</a><span> '+count+'次</span></div></div><br />';
+				            }
+			            }
+			            $("#query-summary").html(h);
+			            $("#query-description").html(h2)
+			        },
+			        error: function () {
+			            alert("query fail!")
+			        },
+			    });
+	    	}
+	    })
+	</script>
+{% end %}

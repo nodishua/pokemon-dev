@@ -1,0 +1,48 @@
+﻿"﻿变量名",buildID,level,levelUpCost,levelUpCostTime,upgradeConditions,name,desc
+默认值,0,1,{},1,<>,"""""",""""""
+ID,建筑id 1:市中心 2:我的小屋,等级,升级消耗,升级所需时间(秒),升级条件,建筑名,描述
+1,1,1,,,,city ​​center,Downtown 1
+2,1,2,{gold=100},60,,city ​​center,Downtown 2
+3,1,3,{gold=200},80,,city ​​center,Downtown 3
+4,1,4,{gold=300},100,,city ​​center,Downtown 4
+5,1,5,{gold=400},120,,city ​​center,Downtown 5
+6,1,6,{gold=500},140,,city ​​center,Downtown 6
+7,1,7,{gold=600},160,,city ​​center,Downtown 7
+8,1,8,{gold=700},180,,city ​​center,Downtown 8
+9,1,9,{gold=800},200,,city ​​center,Downtown 9
+10,1,10,{gold=900},220,,city ​​center,Downtown 10
+,,,,,,,
+101,2,1,,,,my cabin,
+102,2,2,{gold=100},5,<201>,my cabin,
+103,2,3,{gold=200},5,<201>,my cabin,
+104,2,4,{gold=300},5,<201>,my cabin,
+105,2,5,{gold=400},5,<201>,my cabin,
+106,2,6,{gold=500},5,<202>,my cabin,
+107,2,7,{gold=600},5,<202>,my cabin,
+108,2,8,{gold=700},5,<203>,my cabin,
+109,2,9,{gold=800},5,<203>,my cabin,
+110,2,10,{gold=900},5,<203>,my cabin,
+,,,,,,,
+201,3,1,,,,Alchemy factory,
+202,3,2,{gold=100},5,,Alchemy factory,
+203,3,3,{gold=200},5,,Alchemy factory,
+204,3,4,{gold=300},5,,Alchemy factory,
+205,3,5,{gold=400},5,,Alchemy factory,
+206,3,6,{gold=500},5,,Alchemy factory,
+207,3,7,{gold=600},5,,Alchemy factory,
+208,3,8,{gold=700},5,,Alchemy factory,
+209,3,9,{gold=800},5,,Alchemy factory,
+210,3,10,{gold=900},5,,Alchemy factory,
+,,,,,,,
+301,4,1,,,,Financial Center,
+302,4,2,{gold=100},5,,Financial Center,
+303,4,3,{gold=200},5,,Financial Center,
+304,4,4,{gold=300},5,,Financial Center,
+305,4,5,{gold=400},5,,Financial Center,
+306,4,6,{gold=500},5,,Financial Center,
+307,4,7,{gold=600},5,,Financial Center,
+308,4,8,{gold=700},5,,Financial Center,
+309,4,9,{gold=800},5,,Financial Center,
+310,4,10,{gold=900},5,,Financial Center,
+,,,,,,,
+401,5,,,,,unknown adventure,

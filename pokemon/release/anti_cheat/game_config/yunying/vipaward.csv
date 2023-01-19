@@ -1,0 +1,18 @@
+﻿"﻿变量名",huodongID,needLevel,desc,desc_tw,desc_en,desc_vn,desc_kr,award
+默认值,0,1,"""""","""""","""""","""""","""""",{}
+ID,活动版本ID,要求等级,描述,描述,描述,描述_越南,描述_韩,奖励
+1,8001,1,VIP 1 can claim,vip1可領取,VIP 1 can claim,vip1 Nhưng nhận lấy,VIP1 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+2,8001,2,VIP 2 can claim,vip2可領取,VIP 2 can claim,vip2 Nhưng nhận lấy,VIP2 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+3,8001,3,VIP 3 can claim,vip3可領取,VIP 3 can claim,vip3 Nhưng nhận lấy,VIP3 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+4,8001,4,VIP 4 can claim,vip4可領取,VIP 4 can claim,vip4 Nhưng nhận lấy,VIP4 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+5,8001,5,VIP 5 can claim,vip5可領取,VIP 5 can claim,vip5 Nhưng nhận lấy,VIP5 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+6,8001,6,VIP 6 can claim,vip6可領取,VIP 6 can claim,vip6 Nhưng nhận lấy,VIP6 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+7,8001,7,VIP 7 can claim,vip7可領取,VIP 7 can claim,vip7 Nhưng nhận lấy,VIP7 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+8,8001,8,VIP 8 can claim,vip8可領取,VIP 8 can claim,vip8 Nhưng nhận lấy,VIP8 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+9,8001,9,VIP 9 can claim,vip9可領取,VIP 9 can claim,vip9 Nhưng nhận lấy,VIP9 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+10,8001,10,VIP 10 can claim,vip10可領取,VIP 10 can claim,vip10 Nhưng nhận lấy,VIP10 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+11,8001,11,VIP 11 can claim,vip11可領取,VIP 11 can claim,vip11 Nhưng nhận lấy,VIP11 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+12,8001,12,VIP 12 can claim,vip12可領取,VIP 12 can claim,vip12 Nhưng nhận lấy,VIP12 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+13,8001,13,VIP 13 can claim,vip13可領取,VIP 13 can claim,vip13 Nhưng nhận lấy,VIP13 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+14,8001,14,VIP 14 can claim,vip14可領取,VIP 14 can claim,vip14 Nhưng nhận lấy,VIP14 수령 가능,{gold=10000;52=100;21006=100;card = 30041}
+15,8001,15,VIP 15 can claim,vip15可領取,VIP 15 can claim,vip15 Nhưng nhận lấy,VIP15 수령 가능,{gold=10000;52=100;21006=100;card = 30041}

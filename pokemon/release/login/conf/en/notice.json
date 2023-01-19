@@ -1,0 +1,19 @@
+{
+  "activity": [
+    {
+      "content": [
+        {
+          "content": "Dear trainers,\n PocketIncoming has officially released\n NEW SERVER server carnival event has opened\n Misty have broght you some gift at your first adventur\n Get S Rank Pokemon Mew for FREE\n Login to get FREE S rank Pokemon Gengar\n Come and join this adventure right now!!!\n", 
+          "title": "Placard"
+        }
+      ], 
+      "id": 100, 
+      "titlebar": "Placard"
+    }
+  ], 
+  "banner": [
+    "login/img_banner_01@.png", 
+    "login/img_banner_02@.png", 
+    "login/img_banner_03@.png"
+  ]
+}

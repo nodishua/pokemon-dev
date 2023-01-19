@@ -1,0 +1,13 @@
+变量名,_beizhu,award,needExp,limit,sort,languages
+默认值,,{},2000,0,1,<cn;tw;en;vn;th;kr>
+ID,备注,物品,消耗经验,永久兑换次数(0-不限制),客户端排序,语言区域
+1,Orange Variety Fragments,{29002=50},10000,2,1,
+2,Emerald Star Stone,{501=1},2500,15,2,
+3,Orange Runestone Optional Treasure Box,{993=1},6000,3,3,
+4,Common Omni Fragments,{502=1},1500,50,4,
+5,juice milk,{15=5},600,0,6,
+6,Advanced Favorability Gift Box,{902=5},2000,0,7,
+7,Runestone Essence,{529=800},2000,0,8,
+8,advanced strengthening stone,{2103=3},2000,0,9,
+9,Orange Chip Optional Chest,{7324=1},6000,3,5,<cn>
+10,Purple chip material,{124=10},2000,0,10,<cn>

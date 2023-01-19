@@ -1,0 +1,55 @@
+﻿"﻿变量名",huodongID,_beizhu,titleName,titleName_tw,titleName_en,titleName_kr,name,name_tw,name_en,name_kr,targetType,targetArg,item,limit,rechargeID,rmbCost,discount,icon
+默认值,-1,"""""","""""","""""","""""","""""","""""","""""","""""","""""",-1,<>,{},0,-1,-1,-1,""""""
+ID,活动版本ID,备注,礼包标题,礼包标题,礼包标题,礼包标题,礼包名称,礼包名称,礼包名称,礼包名称,礼包类型”1:人物等级礼包;2:vip等级;3:s+神兽数量“,礼包参数,礼包内容,限购次数,recharge表ID,钻石售卖价格,折扣标签,礼包icon
+1,1001,Novice gift pack,Exclusive gift package for newcomers,專屬新人禮包,,,Novice gift pack,新手禮包,,,1,<1;9>,{11=3;13=1;gold=300000;rmb=5000;12=5},1,,1000,100,activity/exclusive_limit/box_zsdj.png
+2,1001,10+ gift packs,Exclusive level gift pack,專屬等級禮包,,,10+ gift packs,10+禮包,,,1,<10;19>,{13=3;11=1;gold=300000;rmb=5000;12=5},1,102,,100,activity/exclusive_limit/box_zsdj.png
+3,1001,20+ gift packs,Exclusive level gift pack,專屬等級禮包,,,20+ gift packs,20+禮包,,,1,<20;29>,{gold=300000;rmb=5000;12=5},1,,3000,100,activity/exclusive_limit/box_zsdj.png
+4,1001,30+ gift packs,Exclusive level gift pack,專屬等級禮包,,,30+ gift packs,30+禮包,,,1,<30;39>,{rmb=300000;gold=5000;12=5},1,104,,100,activity/exclusive_limit/box_zsdj.png
+5,1001,40+ gift packs,Exclusive level gift pack,專屬等級禮包,,,40+ gift packs,40+禮包,,,1,<40;49>,{gold=10004},1,105,,100,activity/exclusive_limit/box_zsdj.png
+6,1001,50+ gift packs,Exclusive level gift pack,專屬等級禮包,,,50+ gift packs,50+禮包,,,1,<50;59>,{11=3;13=1;gold=300000;rmb=5000;12=5},1,106,,100,activity/exclusive_limit/box_zsdj.png
+7,1001,60+ gift packs,Exclusive level gift pack,專屬等級禮包,,,60+ gift packs,60+禮包,,,1,<60;69>,{13=3;11=1;gold=300000;rmb=5000;12=5},1,107,,100,activity/exclusive_limit/box_zsdj.png
+8,1001,70+ gift packs,Exclusive level gift pack,專屬等級禮包,,,70+ gift packs,70+禮包,,,1,<70;79>,{gold=300000;rmb=5000;12=5},1,108,,100,activity/exclusive_limit/box_zsdj.png
+9,1001,80+ gift packs,Exclusive level gift pack,專屬等級禮包,,,80+ gift packs,80+禮包,,,1,<80;89>,{rmb=300000;gold=5000;12=5},1,109,,100,activity/exclusive_limit/box_zsdj.png
+10,1001,90+ gift packs,Exclusive level gift pack,專屬等級禮包,,,90+ gift packs,90+禮包,,,1,<90;99>,{gold=10004},1,110,,100,activity/exclusive_limit/box_zsdj.png
+11,1001,100+ gift packs,Exclusive level gift pack,專屬等級禮包,,,100+ gift packs,100+禮包,,,1,<100;103>,{11=3;13=1;gold=300000;rmb=5000;12=5},1,111,,100,activity/exclusive_limit/box_zsdj.png
+12,1001,full level gift pack,Exclusive full-level gift pack,專屬滿級禮包,,,full level gift pack,滿級禮包,,,1,<104;104>,{13=3;11=1;gold=300000;rmb=5000;12=5},1,112,,100,activity/exclusive_limit/box_zsdj.png
+13,1001,Bronze VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Bronze VIP Star,青銅vip之星,,,2,<1;3>,{card={id=9002};rmb=3280;519=10;942=1},1,,2000,100,activity/exclusive_limit/box_zsvip.png
+14,1001,Silver VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Silver VIP Star,白銀vip之星,,,2,<4;6>,{card={id=9002};rmb=3280;519=10;942=1},1,108,,100,activity/exclusive_limit/box_zsvip.png
+15,1001,Gold VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Gold VIP Star,黃金vip之星,,,2,<7;9>,{card={id=9002};rmb=3280;519=10;942=1},1,,4000,100,activity/exclusive_limit/box_zsvip.png
+16,1001,Platinum VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Platinum VIP Star,白金vip之星,,,2,<10;12>,{card={id=9002};rmb=3280;519=10;942=1},1,110,,100,activity/exclusive_limit/box_zsvip.png
+17,1001,diamond vip star,Exclusive noble gift bag,專屬貴族禮包,,,diamond vip star,鑽石vip之星,,,2,<13;15>,{card={id=9002};rmb=3280;519=10;942=1},1,111,,100,activity/exclusive_limit/box_zsvip.png
+18,1001,king vip star,Exclusive noble gift bag,專屬貴族禮包,,,king vip star,王者vip之星,,,2,<16;18>,{card={id=9002};rmb=3280;519=10;942=1},1,112,,100,activity/exclusive_limit/box_zsvip.png
+19,1001,Level 1 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 1 Divine Beast Master,1級神獸掌握者,,,3,<1;4>,{card={id=9003};rmb=1280;19=10;604=10;},1,,3000,100,activity/exclusive_limit/box_zsss.png
+20,1001,Level 2 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 2 Divine Beast Master,2級神獸掌握者,,,3,<5;8>,{card={id=9003};rmb=3280;19=50;604=50;452=100},1,107,,100,activity/exclusive_limit/box_zsss.png
+21,1001,Level 3 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 3 Divine Beast Master,3級神獸掌握者,,,3,<9;12>,{card={id=9003};rmb=4880;19=100;604=100;452=200},1,,6000,100,activity/exclusive_limit/box_zsss.png
+22,1001,Level 4 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 4 Divine Beast Master,4級神獸掌握者,,,3,<13;15>,{card={id=9003};rmb=6480;19=100;604=100;452=300},1,109,,100,activity/exclusive_limit/box_zsss.png
+23,1001,Level 5 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 5 Divine Beast Master,5級神獸掌握者,,,3,<16;19>,{card={id=9003};rmb=6480;19=100;604=100;452=300},1,110,,100,activity/exclusive_limit/box_zsss.png
+24,1001,Level 6 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 6 Divine Beast Master,6級神獸掌握者,,,3,<20;30>,{card={id=9003};rmb=6480;19=100;604=100;452=300},1,111,,100,activity/exclusive_limit/box_zsss.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+25,1002,Novice gift pack,Exclusive gift package for newcomers,專屬新人禮包,,,Novice gift pack,新手禮包,,,1,<1;9>,{11=3;13=1;gold=300000;rmb=5000;12=5},1,,1000,100,activity/exclusive_limit/box_zsdj.png
+26,1002,10+ gift packs,Exclusive level gift pack,專屬等級禮包,,,10+ gift packs,10+禮包,,,1,<10;19>,{13=3;11=1;gold=300000;rmb=5000;12=5},1,102,,100,activity/exclusive_limit/box_zsdj.png
+27,1002,20+ gift packs,Exclusive level gift pack,專屬等級禮包,,,20+ gift packs,20+禮包,,,1,<20;29>,{gold=300000;rmb=5000;12=5},1,,3000,100,activity/exclusive_limit/box_zsdj.png
+28,1002,30+ gift packs,Exclusive level gift pack,專屬等級禮包,,,30+ gift packs,30+禮包,,,1,<30;39>,{rmb=300000;gold=5000;12=5},1,104,,100,activity/exclusive_limit/box_zsdj.png
+29,1002,40+ gift packs,Exclusive level gift pack,專屬等級禮包,,,40+ gift packs,40+禮包,,,1,<40;49>,{gold=10004},1,105,,100,activity/exclusive_limit/box_zsdj.png
+30,1002,50+ gift packs,Exclusive level gift pack,專屬等級禮包,,,50+ gift packs,50+禮包,,,1,<50;59>,{11=3;13=1;gold=300000;rmb=5000;12=5},1,106,,100,activity/exclusive_limit/box_zsdj.png
+31,1002,60+ gift packs,Exclusive level gift pack,專屬等級禮包,,,60+ gift packs,60+禮包,,,1,<60;69>,{13=3;11=1;gold=300000;rmb=5000;12=5},1,107,,100,activity/exclusive_limit/box_zsdj.png
+32,1002,70+ gift packs,Exclusive level gift pack,專屬等級禮包,,,70+ gift packs,70+禮包,,,1,<70;79>,{gold=300000;rmb=5000;12=5},1,108,,100,activity/exclusive_limit/box_zsdj.png
+33,1002,80+ gift packs,Exclusive level gift pack,專屬等級禮包,,,80+ gift packs,80+禮包,,,1,<80;89>,{rmb=300000;gold=5000;12=5},1,109,,100,activity/exclusive_limit/box_zsdj.png
+34,1002,90+ gift packs,Exclusive level gift pack,專屬等級禮包,,,90+ gift packs,90+禮包,,,1,<90;99>,{gold=10004},1,110,,100,activity/exclusive_limit/box_zsdj.png
+35,1002,100+ gift packs,Exclusive level gift pack,專屬等級禮包,,,100+ gift packs,100+禮包,,,1,<100;103>,{11=3;13=1;gold=300000;rmb=5000;12=5},1,111,,100,activity/exclusive_limit/box_zsdj.png
+36,1002,full level gift pack,Exclusive full-level gift pack,專屬滿級禮包,,,full level gift pack,滿級禮包,,,1,<104;104>,{13=3;11=1;gold=300000;rmb=5000;12=5},1,112,,100,activity/exclusive_limit/box_zsdj.png
+37,1002,Bronze VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Bronze VIP Star,青銅vip之星,,,2,<1;3>,{card={id=9002};rmb=3280;519=10;942=1},1,,2000,100,activity/exclusive_limit/box_zsvip.png
+38,1002,Silver VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Silver VIP Star,白銀vip之星,,,2,<4;6>,{card={id=9002};rmb=3280;519=10;942=1},1,108,,100,activity/exclusive_limit/box_zsvip.png
+39,1002,Gold VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Gold VIP Star,黃金vip之星,,,2,<7;9>,{card={id=9002};rmb=3280;519=10;942=1},1,,4000,100,activity/exclusive_limit/box_zsvip.png
+40,1002,Platinum VIP Star,Exclusive noble gift bag,專屬貴族禮包,,,Platinum VIP Star,白金vip之星,,,2,<10;12>,{card={id=9002};rmb=3280;519=10;942=1},1,110,,100,activity/exclusive_limit/box_zsvip.png
+41,1002,diamond vip star,Exclusive noble gift bag,專屬貴族禮包,,,diamond vip star,鑽石vip之星,,,2,<13;15>,{card={id=9002};rmb=3280;519=10;942=1},1,111,,100,activity/exclusive_limit/box_zsvip.png
+42,1002,king vip star,Exclusive noble gift bag,專屬貴族禮包,,,king vip star,王者vip之星,,,2,<16;18>,{card={id=9002};rmb=3280;519=10;942=1},1,112,,100,activity/exclusive_limit/box_zsvip.png
+43,1002,Level 1 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 1 Divine Beast Master,1級神獸掌握者,,,3,<1;4>,{card={id=9003};rmb=1280;19=10;604=10;},1,,3000,100,activity/exclusive_limit/box_zsss.png
+44,1002,Level 2 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 2 Divine Beast Master,2級神獸掌握者,,,3,<5;8>,{card={id=9003};rmb=3280;19=50;604=50;452=100},1,107,,100,activity/exclusive_limit/box_zsss.png
+45,1002,Level 3 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 3 Divine Beast Master,3級神獸掌握者,,,3,<9;12>,{card={id=9003};rmb=4880;19=100;604=100;452=200},1,,6000,100,activity/exclusive_limit/box_zsss.png
+46,1002,Level 4 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 4 Divine Beast Master,4級神獸掌握者,,,3,<13;15>,{card={id=9003};rmb=6480;19=100;604=100;452=300},1,109,,100,activity/exclusive_limit/box_zsss.png
+47,1002,Level 5 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 5 Divine Beast Master,5級神獸掌握者,,,3,<16;19>,{card={id=9003};rmb=6480;19=100;604=100;452=300},1,110,,100,activity/exclusive_limit/box_zsss.png
+48,1002,Level 6 Divine Beast Master,Exclusive beast pack,專屬神獸禮包,,,Level 6 Divine Beast Master,6級神獸掌握者,,,3,<20;30>,{card={id=9003};rmb=6480;19=100;604=100;452=300},1,111,,100,activity/exclusive_limit/box_zsss.png

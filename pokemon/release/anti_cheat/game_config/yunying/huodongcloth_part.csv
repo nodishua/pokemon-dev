@@ -1,0 +1,36 @@
+﻿"﻿变量名",huodongID,belongPart,_beizhu,icon,showType,res,zOrder,isDefault,lookPos
+默认值,0,,"""""","""""",txt,"""""",1,FALSE,{x=0;y=0}
+ID,活动版本ID,部位，10000之后是默认装饰的部位ID,备注,造型图标,显示类型,资源,资源层级,是否默认,各个内容的场景位置偏移
+1,101030,1,red gloves,activity/snowman/icon_r_gloves.png,pic,activity/snowman/img_h_xr_shoutao.png,35,TRUE,{x=7;y=-61}
+2,101030,1,yellow gloves,activity/snowman/icon_y_gloves.png,pic,activity/snowman/img_xr_shoutao.png,35,,{x=7;y=-61}
+3,101030,1,green gloves,activity/snowman/icon_g_gloves.png,pic,activity/snowman/img_lv_xr_shoutao.png,35,,{x=7;y=-61}
+4,101030,1,blue gloves,activity/snowman/icon_b_gloves.png,pic,activity/snowman/img_lan_xr_shoutao.png,35,,{x=7;y=-61}
+5,101030,2,scarf,activity/snowman/icon_r_scarf.png,pic,activity/snowman/img_h_xr_weijin.png,35,TRUE,{x=24;y=-1}
+6,101030,2,,activity/snowman/icon_y_scarf.png,pic,activity/snowman/img_xr_weijin.png,35,,{x=24;y=-1}
+7,101030,2,,activity/snowman/icon_g_scarf.png,pic,activity/snowman/img_lv_xr_weijin.png,35,,{x=24;y=-1}
+8,101030,2,,activity/snowman/icon_b_scarf.png,pic,activity/snowman/img_lan_xr_weijin.png,35,,{x=24;y=-1}
+9,101030,3,hat,activity/snowman/icon_r_hat.png,pic,activity/snowman/img_h_xr_maozi.png,35,TRUE,{x=16;y=141}
+10,101030,3,,activity/snowman/icon_y_hat.png,pic,activity/snowman/img_xr_maozi.png,35,,{x=16;y=141}
+11,101030,3,,activity/snowman/icon_g_hat.png,pic,activity/snowman/img_lv_maozi.png,35,,{x=16;y=141}
+12,101030,3,,activity/snowman/icon_b_hat.png,pic,activity/snowman/img_lab_xr_maozi.png,35,,{x=16;y=141}
+13,101030,10000,tree shown by default,,spine,christmassnowman/shengdanshu_shu.skel,20,,{x=-124;y=-127}
+14,101030,10001,tree stars moon,,spine,christmassnowman/shengdanshu_riyue.skel,20,,{x=-124;y=-127}
+17,101030,10002,Christmas lights,,spine,christmassnowman/shengdanshu_dengpai.skel,40,,{x=-140;y=-153}
+20,101030,10003,headlight bar,,spine,christmassnowman/shengdanshu_dengtiao.skel,15,,{x=-126;y=-128}
+,,,,,,,,,
+101,10001,1,red gloves,activity/snowman/icon_r_gloves.png,pic,activity/snowman/img_h_xr_shoutao.png,35,TRUE,{x=7;y=-61}
+102,10001,1,yellow gloves,activity/snowman/icon_y_gloves.png,pic,activity/snowman/img_xr_shoutao.png,35,,{x=7;y=-61}
+103,10001,1,green gloves,activity/snowman/icon_g_gloves.png,pic,activity/snowman/img_lv_xr_shoutao.png,35,,{x=7;y=-61}
+104,10001,1,blue gloves,activity/snowman/icon_b_gloves.png,pic,activity/snowman/img_lan_xr_shoutao.png,35,,{x=7;y=-61}
+105,10001,2,scarf,activity/snowman/icon_r_scarf.png,pic,activity/snowman/img_h_xr_weijin.png,35,TRUE,{x=24;y=-1}
+106,10001,2,,activity/snowman/icon_y_scarf.png,pic,activity/snowman/img_xr_weijin.png,35,,{x=24;y=-1}
+107,10001,2,,activity/snowman/icon_g_scarf.png,pic,activity/snowman/img_lv_xr_weijin.png,35,,{x=24;y=-1}
+108,10001,2,,activity/snowman/icon_b_scarf.png,pic,activity/snowman/img_lan_xr_weijin.png,35,,{x=24;y=-1}
+109,10001,3,hat,activity/snowman/icon_r_hat.png,pic,activity/snowman/img_h_xr_maozi.png,35,TRUE,{x=16;y=141}
+110,10001,3,,activity/snowman/icon_y_hat.png,pic,activity/snowman/img_xr_maozi.png,35,,{x=16;y=141}
+111,10001,3,,activity/snowman/icon_g_hat.png,pic,activity/snowman/img_lv_maozi.png,35,,{x=16;y=141}
+112,10001,3,,activity/snowman/icon_b_hat.png,pic,activity/snowman/img_lab_xr_maozi.png,35,,{x=16;y=141}
+113,10001,10000,tree shown by default,,spine,christmassnowman/shengdanshu_shu.skel,20,,{x=-124;y=-127}
+114,10001,10001,tree stars moon,,spine,christmassnowman/shengdanshu_riyue.skel,20,,{x=-124;y=-127}
+117,10001,10002,Christmas lights,,spine,christmassnowman/shengdanshu_dengpai.skel,40,,{x=-140;y=-153}
+120,10001,10003,headlight bar,,spine,christmassnowman/shengdanshu_dengtiao.skel,15,,{x=-126;y=-128}

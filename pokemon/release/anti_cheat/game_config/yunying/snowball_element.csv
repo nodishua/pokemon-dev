@@ -1,0 +1,14 @@
+﻿"﻿变量名",huodongID,_beizhu,belongs,attr
+默认值,0,"""""",,{}
+ID,活动版本ID,备注,所属内容(1-雪球;2-道具;3-卡比兽;4-忍蛙;5-电飞鼠;),属性(value-积分;range-出现范围;life-生命值)
+1,101031,snowball,1,
+2,101031,props,2,{value=10;stayTime=3}
+3,101031,Snorlax,3,{cardId=712; cardName=kabishou; life=9;speed=8;weight=5.6;showSpeed=3;showWeight=7}
+4,101031,Koga Ninja Frog,3,{cardId=3303;cardName=hero_jiaherenwa;life=6;speed=10;weight=4;showSpeed=5;showWeight=4}
+5,101031,Electric flying squirrel,3,{cardId=2891;cardName=daodianfeishu;life=3;speed=12;weight=3;showSpeed=7;showWeight=2}
+,,,,
+11,10001,snowball,1,
+12,10001,props,2,{value=10;stayTime=1.3}
+13,10001,Snorlax,3,{cardId=712; cardName=kabishou; life=9;speed=8;weight=5.6;showSpeed=3;showWeight=7}
+14,10001,Koga Ninja Frog,3,{cardId=3303;cardName=hero_jiaherenwa;life=6;speed=10;weight=4;showSpeed=5;showWeight=4}
+15,10001,Electric flying squirrel,3,{cardId=2891;cardName=daodianfeishu;life=3;speed=13;weight=3;showSpeed=8;showWeight=2}

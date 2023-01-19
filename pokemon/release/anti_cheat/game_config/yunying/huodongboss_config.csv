@@ -1,0 +1,6 @@
+﻿﻿变量名,huodongID,staminaWeightMin,staminaWeightMax,dailyCountLimit,cd,gateLibID,res,dailyChallengeLimit
+默认值,0,0,0,0,0,,"""""",0
+ID,活动版本ID,体力权值下限,体力权值上限,每日触发次数上限,激活冷却时间,关卡库id,表现配置,每日挑战上限
+1,2020,0.005,0.015,5,60,2020,,10
+2,2021,0.005,0.015,5,60,2021,,10
+3,2022,0.005,0.015,5,60,2022,,10

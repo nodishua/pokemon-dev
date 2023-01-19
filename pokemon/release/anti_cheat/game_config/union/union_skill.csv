@@ -1,0 +1,20 @@
+﻿"﻿变量名",name,name_tw,name_en,name_kr,icon,sort,preSkill,needGuildLv,attrNatureType,attrType
+默认值,"""""","""""","""""","""""",config/item/icon_bsdmz.png,1,<>,0,0,1
+修炼组ID,修炼名称,修炼名称,修炼名称,修炼名称_韩,修炼的图标显示,排序,前置修炼,需要公会等级,自然卡牌加成目标,加成项目
+1,Source of life,生命源泉,Source of life,생명의 원천,common/icon/union_skill/icon_sm.png,1,,,0,1
+2,P. ATK Learning,物攻學習,P. ATK Learning,공격 배우기,common/icon/union_skill/icon_bs.png,2,,,0,7
+3,SP. ATK Learning,特攻學習,SP. ATK Learning,특수 공격 배우기,common/icon/union_skill/icon_bj.png,3,,,0,8
+4,P.DEF Boost,物防增強,P.DEF Boost,방어 증가,common/icon/union_skill/icon_wf.png,4,,,0,9
+5,SP.DEF Boost,特防增強,SP.DEF Boost,특수 방어 증가,common/icon/union_skill/icon_tf.png,5,,,0,10
+6,Physical Training,體能訓練,Physical Training,체력 훈련,common/icon/union_skill/icon_sm.png,6,<1;10>,6,0,1
+7,Strength Training,力量錘煉,Strength Training,힘 단련,common/icon/union_skill/icon_bs.png,7,<2;10>,6,0,7
+8,Strengthening Willpower,意志磨練,Strengthening Willpower,의지 수련,common/icon/union_skill/icon_bj.png,8,<3;10>,6,0,8
+9,Strong and Healthy Physique,健身強體,Strong and Healthy Physique,신체 강화,common/icon/union_skill/icon_wf.png,9,<4;10>,6,0,9
+10,Spirit Training,精神修煉,Spirit Training,정신 수련,common/icon/union_skill/icon_tf.png,10,<5;10>,6,0,10
+11,Defense Training,抵禦訓練,Defense Training,저항 훈련,common/icon/union_skill/icon_tg.png,11,,8,0,17
+12,Enhance resistance,強化抵禦,Enhance resistance,저항력 강화,common/icon/union_skill/icon_tg.png,12,,8,0,19
+13,Improve healing effect,精進治療效果,Improve healing effect,치료 효과 개량,common/icon/union_skill/icon_sm.png,14,,8,0,28
+14,Enhance critical hit damage,暴擊增強,Enhance critical hit damage,치명타 강화,common/icon/union_skill/icon_wg.png,15,,8,0,14
+15,Enhance critical hit damage,強化暴擊傷害,Enhance critical hit damage,치명타 피해 강화,common/icon/union_skill/icon_wg.png,16,,8,0,15
+16,Crit Resistance ↓,強化暴擊抗性,Crit Resistance ↓,치명타 내성 강화,common/icon/union_skill/icon_tf.png,17,,8,0,16
+17,Resistance rate ↓,破除抵禦,Resistance rate ↓,저항 파괴,common/icon/union_skill/icon_bs.png,13,,8,0,18

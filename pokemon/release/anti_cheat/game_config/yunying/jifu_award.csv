@@ -1,0 +1,11 @@
+﻿﻿变量名,huodongID,awardID,icon,award
+默认值,0,0,"""""",{}
+ID,活动版本ID,奖励ID(总共1-9，5是斜线奖励，有需要直接加),图标(前缀名一致，后缀1未领2已领）,奖励
+101,10011,1,activity/new_year_flip_card/icon_jfd,{rmb=188;500=2}
+102,10011,2,activity/new_year_flip_card/icon_jfd,{rmb=188;962=2}
+103,10011,3,activity/new_year_flip_card/icon_jfd,{rmb=188;973=1}
+104,10011,4,activity/new_year_flip_card/icon_jfd,{rmb=188;2152=1}
+105,10011,6,activity/new_year_flip_card/icon_jfd,{rmb=188;6059=1}
+106,10011,7,activity/new_year_flip_card/icon_jfd,{rmb=188;501=2}
+107,10011,8,activity/new_year_flip_card/icon_jfd,{rmb=188;604=20}
+108,10011,9,activity/new_year_flip_card/icon_jfd,{rmb=188;922=1}

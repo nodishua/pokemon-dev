@@ -1,0 +1,22 @@
+{
+  "crosshunting.cn.1": {
+    "nsqd_tcp_addresses": ["172.16.2.14:4150", "172.16.2.86:4150"],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": ["crossdb.cn.1"],
+        "name": "crosshunting.cn.1"
+      }
+    ]
+  },
+  "crosshunting.xy.1": {
+    "nsqd_tcp_addresses": ["192.168.0.82:4150"],
+    "nsqlookupd": "http://192.168.0.82:4161/",
+    "services": [
+      {
+        "dependent": ["crossdb.xy.1"],
+        "name": "crosshunting.xy.1"
+      }
+    ]
+  }
+}

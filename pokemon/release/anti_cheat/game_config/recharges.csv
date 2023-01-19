@@ -1,0 +1,95 @@
+﻿"﻿变量名",icon,name,name_tw,name_en,name_vn,name_kr,type,param,validRechargeHuodong,rmbDisplay,rmbDisplay_tw,rmbDisplay_en,rmbDisplay_vn,rmbDisplay_kr,rmb,rmb_en,rmb_tw,rmb_kr,firstPresent,firstDesc,firstDesc_tw,firstDesc_en,firstDesc_vn,firstDesc_kr,present,desc,desc_tw,desc_en,desc_kr,recommend,sortValue,languages
+"默认值",“”,,,,,"""""",1,{},TRUE,"""""","""""","""""","""""","""""",0,0,0,0,0,,,,,,0,,,,"""""",0,0,<cn>
+"充值项ID",充值项图标,充值项名称,充值項名稱,充值项名称,充值项名称,充值项名称,类型（1一次性，2持续性，3礼包）,特殊参数,是否激活充值类活动,消耗RMB,消耗RMB,消耗美元,消耗美元,消耗韩元,基础钻石,基础钻石,基础钻石,基础钻石,首次购买赠送,首次购买描述,首次購買描述,首次购买描述,首次购买描述,首次购买描述,普通购买赠送,普通购买描述,普通購買描述,普通购买描述,普通购买描述_韩,是否推荐,排序优先级（越大越前，未首冲+100）,语言区域
+"1",,Monthly Pass (250 Diamond),300鑽石月卡包,Monthly Pass (250 Diamond),Monthly Pass (250 Diamond),포켓몬 월정액,2,{days=30},,"""4.99""","""4.99""","""4.99""","""4.99""","""7000""",300,340,300,300,0,连续30天每天领取100钻,連續30天每天領取100鑽,Daily free claim 100 Diamond for 30 days,Daily free claim 100 Diamond for 30 days,,0,连续30天每天领取100钻,連續30天每天領取100鑽,Daily free claim 100 Diamond for 30 days,연속 30일간 매일 100다이아 수령 가능,1,,<cn;tw;en;vn;th;kr>
+"2",,Permanent Card (880 Diamond),880鑽石月卡包,Permanent Card (880 Diamond),Permanent Card (880 Diamond),마스터 월정액,2,{days=30},,"""12.99""","""12.99""","""12.99""","""12.99""","""17000""",880,880,880,880,0,连续30天每天领取150钻,連續30天每天領取150鑽,Daily free claim 100 Diamond Permanently,Daily free claim 100 Diamond Permanently,,0,连续30天每天领取150钻,連續30天每天領取150鑽,Daily free claim 100 Diamond Permanently,연속 30일간 매일 150다이아 수령 가능,1,,<cn;tw;en;vn;th;kr>
+"3",city/recharge/icon_cz_7@.png,6480 Diamond,6480鑽石,6480 Diamond,6480 Diamond,,,,,"""99.99""","""99.99""","""99.99""","""99.99""",,6480,6480,6480,6480,6480,另赠6480钻(仅首次),另贈6480鑽(僅首次),Extra 6480 Diamond (1st Recharge only),Extra 6480 Diamond (1st Recharge only),,0,,,,,1,9,
+"4",city/recharge/icon_cz_6@.png,3280 Diamond,3280鑽石,3280 Diamond,3280 Diamond,,,,,"""49.99""","""48.99""","""49.99""","""48.99""",,3280,3280,3280,3280,3280,另赠3280钻(仅首次),另贈3280鑽(僅首次),Extra 3280 Diamond (1st Recharge only),Extra 3280 Diamond (1st Recharge only),,0,,,,,1,8,
+"5",city/recharge/icon_cz_5@.png,1980 Diamond,1980鑽石,1980 Diamond,1980 Diamond,,,,,"""29.99""","""28.99""","""29.99""","""28.99""",,1980,1980,1980,1980,1980,另赠1980钻(仅首次),另贈1980鑽(僅首次),Extra 1980 Diamond (1st Recharge only),Extra 1980 Diamond (1st Recharge only),,0,,,,,1,7,
+"6",city/recharge/icon_cz_4@.png,980 Diamond,980鑽石,980 Diamond,980 Diamond,,,,,"""14.99""","""14.99""","""14.99""","""14.99""",,980,980,980,980,980,另赠980钻(仅首次),另贈980鑽(僅首次),Extra 980 Diamond (1st Recharge only),Extra 980 Diamond (1st Recharge only),,0,,,,,0,6,
+"7",city/recharge/icon_cz_3@.png,600 Diamond,600鑽石,600 Diamond,600 Diamond,,,,,"""8.99""","""9.99""","""8.99""","""9.99""",,600,600,600,600,600,另赠600钻(仅首次),另贈600鑽(僅首次),Extra 600 Diamond (1st Recharge only),Extra 600 Diamond (1st Recharge only),,0,,,,,0,5,
+"8",city/recharge/icon_cz_2@.png,300 Diamond,300鑽石,300 Diamond,300 Diamond,,,,,"""4.99""","""4.99""","""4.99""","""4.99""",,300,300,300,300,300,另赠300钻(仅首次),另贈300鑽(僅首次),Extra 300 Diamond (1st Recharge only),Extra 300 Diamond (1st Recharge only),,0,,,,,0,4,
+"9",city/recharge/icon_cz_1@.png,60 Diamond,60鑽石,60 Diamond,60 Diamond,,,,,"""0.99""","""0.99""","""0.99""","""0.99""",,60,60,60,60,60,,,,,,0,,,,,0,3,
+,,10钻石,10鑽石,10钻石,10钻石,,,,,1,1,1,1,,10,10,10,10,,,,,,,,,,,,,,
+,,1钻石1角测试,1鑽石1角測試,1钻石1角测试,1钻石1角测试,,,,,0.1,0.1,0.1,0.1,,1,1,1,1,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"101",,Direct purchase box 1,直購禮包,Direct purchase box 1,,패키지,3,,,"""0.33""","""0.33""","""0.33""","""0.33""",,10,,,,0,,,,,,,,,,,,,<cn>
+"102",,Direct purchase box 6,直購禮包,Direct purchase box 6,,패키지,3,,,"""0.99""","""0.99""","""0.99""","""0.99""","""1300""",60,66,66,66,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"103",,Direct purchase box 12,直購禮包,Direct purchase box 12,,패키지,3,,,"""1.99""","""1.99""","""1.99""","""1.99""","""2800""",120,140,140,140,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"104",,Direct purchase box 18,直購禮包,Direct purchase box 18,,패키지,3,,,"""2.99""","""2.99""","""2.99""","""2.99""","""4000""",180,200,200,200,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"105",,Direct purchase box 25,直購禮包,Direct purchase box 25,,패키지,3,,,"""3.99""","""3.99""","""3.99""","""3.99""","""5300""",250,260,260,260,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"106",,Direct purchase box 30,直購禮包,Direct purchase box 30,,패키지,3,,,"""4.99""","""4.99""","""4.99""","""4.99""","""7000""",300,340,340,340,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"107",,Direct purchase box 60,直購禮包,Direct purchase box 60,,패키지,3,,,"""8.99""","""8.99""","""8.99""","""8.99""","""12000""",600,580,580,580,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"108",,Direct purchase box 98,直購禮包,Direct purchase box 98,,패키지,3,,,"""14.99""","""14.99""","""14.99""","""14.99""","""20000""",980,980,980,980,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"109",,Direct purchase box 128,直購禮包,Direct purchase box 128,,패키지,3,,,"""19.99""","""19.99""","""19.99""","""19.99""","""26000""",1280,1340,1340,1340,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"110",,Direct purchase box 168,直購禮包,Direct purchase box 168,,패키지,3,,,"""25.99""","""25.99""","""25.99""","""25.99""","""34000""",1680,1740,1740,1740,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"111",,Direct purchase box 198,直購禮包,Direct purchase box 198,,패키지,3,,,"""29.99""","""29.99""","""29.99""","""29.99""","""40000""",1980,1980,1980,1980,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"112",,Direct purchase box 328,直購禮包,Direct purchase box 328,,패키지,3,,,"""49.99""","""49.99""","""49.99""","""49.99""","""70000""",3280,3380,3380,3380,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+"113",,Direct purchase box 648,直購禮包,Direct purchase box 648,,패키지,3,,,"""99.99""","""99.99""","""99.99""","""99.99""","""130000""",6480,6580,6580,6580,0,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,300 Diamond monthly card,300鑽石月卡,,,,2,{days=30},,"""4.99""","""4.99""",,,,340,340,340,340,0,,連續30天每天領取100鑽,,,,0,,連續30天每天領取100鑽,,,1,,<tw>
+,,880 diamond monthly card,880鑽石月卡,,,,2,{days=30},,"""14.99""","""14.99""",,,,980,980,980,980,0,,運營期間每天領取100鑽,,,,0,,運營期間每天領取100鑽,,,1,,<tw>
+,city/recharge/icon_cz_6.png,6580 Diamond,6580鑽石,,,,,,,"""99.99""","""99.99""",,,,6580,6580,6580,6580,6580,,另贈6580鑽石(僅首次),,,,0,,,,,1,9,<tw>
+,city/recharge/icon_cz_5.png,3380 Diamond,3380鑽石,,,,,,,"""49.99""","""49.99""",,,,3380,3380,3380,3380,3380,,另贈3380鑽石(僅首次),,,,0,,,,,1,8,<tw>
+,city/recharge/icon_cz_4.png,1980 Diamond,1980鑽石,,,,,,,"""29.99""","""29.99""",,,,1980,1980,1980,1980,1980,,另贈1980鑽石(僅首次),,,,0,,,,,1,7,<tw>
+,city/recharge/icon_cz_3.png,980 Diamond,980鑽石,,,,,,,"""14.99""","""14.99""",,,,980,980,980,980,980,,另贈980鑽石(僅首次),,,,0,,,,,0,6,<tw>
+,city/recharge/icon_cz_2.png,860 Diamond,860鑽石,,,,,,,"""12.99""","""12.99""",,,,580,580,580,580,580,,另贈580鑽石(僅首次),,,,0,,,,,0,5,<tw>
+,city/recharge/icon_cz_1.png,340 Diamond,340鑽石,,,,,,,"""4.99""","""4.99""",,,,340,340,340,340,340,,另贈340鑽石(僅首次),,,,0,,,,,0,4,<tw>
+,city/recharge/icon_cz_1.png,66 Diamond,66鑽石,,,,,,,"""0.99""","""0.99""",,,,66,66,66,66,66,,另贈66鑽石(僅首次),,,,0,,,,,0,3,<tw>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"1101",city/recharge/icon_cz_1@.png,66 Diamond,66鑽石,,,,,,,"""0.99""","""0.99""",,,,66,66,66,66,66,,另贈66鑽石(僅首次),,,,0,,,,,0,1,<tw>
+"1102",city/recharge/icon_cz_1@.png,140 Diamond,140鑽石,,,,,,,"""1.99""","""1.99""",,,,140,140,140,140,140,,另贈140鑽石(僅首次),,,,0,,,,,0,2,<tw>
+"1103",city/recharge/icon_cz_2@.png,200 Diamond,200鑽石,,,,,,,"""2.99""","""2.99""",,,,200,200,200,200,200,,另贈200鑽石(僅首次),,,,0,,,,,0,3,<tw>
+"1104",city/recharge/icon_cz_2@.png,260 Diamond,260鑽石,,,,,,,"""3.99""","""3.99""",,,,260,260,260,260,260,,另贈260鑽石(僅首次),,,,0,,,,,0,4,<tw>
+"1105",city/recharge/icon_cz_3@.png,340 Diamond,340鑽石,,,,,,,"""4.99""","""4.99""",,,,340,340,340,340,340,,另贈340鑽石(僅首次),,,,0,,,,,0,5,<tw>
+"1106",city/recharge/icon_cz_3@.png,580 Diamond,580鑽石,,,,,,,"""8.99""","""8.99""",,,,580,580,580,580,580,,另贈580鑽石(僅首次),,,,0,,,,,0,6,<tw>
+"1107",city/recharge/icon_cz_4@.png,860 Diamond,860鑽石,,,,,,,"""12.99""","""12.99""",,,,860,860,860,860,860,,另贈860鑽石(僅首次),,,,0,,,,,0,7,<tw>
+"1108",city/recharge/icon_cz_4@.png,980 Diamond,980鑽石,,,,,,,"""14.99""","""14.99""",,,,980,980,980,980,980,,另贈980鑽石(僅首次),,,,0,,,,,0,8,<tw>
+"1109",city/recharge/icon_cz_5@.png,1340 Diamond,1340鑽石,,,,,,,"""19.99""","""19.99""",,,,1340,1340,1340,1340,1340,,另贈1340鑽石(僅首次),,,,0,,,,,0,9,<tw>
+"1110",city/recharge/icon_cz_5@.png,1740 Diamond,1740鑽石,,,,,,,"""25.99""","""25.99""",,,,1740,1740,1740,1740,1740,,另贈1740鑽石(僅首次),,,,0,,,,,0,10,<tw>
+"1111",city/recharge/icon_cz_6@.png,1980 Diamond,1980鑽石,,,,,,,"""29.99""","""29.99""",,,,1980,1980,1980,1980,1980,,另贈1980鑽石(僅首次),,,,0,,,,,0,11,<tw>
+"1112",city/recharge/icon_cz_6@.png,3380 Diamond,3380鑽石,,,,,,,"""49.99""","""49.99""",,,,3380,3380,3380,3380,3380,,另贈3380鑽石(僅首次),,,,0,,,,,0,12,<tw>
+"1113",city/recharge/icon_cz_7@.png,6580 Diamond,6580鑽石,,,,,,,"""99.99""","""99.99""",,,,6580,6580,6580,6580,6580,,另贈6580鑽石(僅首次),,,,0,,,,,0,13,<tw>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"2101",city/recharge/icon_cz_1@.png,66 Diamond,,66 Diamond,66 Diamond,,,,,"""0.99""",,"""0.99""","""0.99""",,66,66,66,66,66,,,Extra 66 Diamond(1st Recharge only),Extra 66 Diamond(1st Recharge only),,,,,,,0,2,<en>
+"2102",city/recharge/icon_cz_1@.png,140 Diamond,,140 Diamond,140 Diamond,,,,,"""1.99""",,"""1.99""","""1.99""",,140,140,140,140,140,,,Extra 140 Diamond(1st Recharge only),Extra 140 Diamond(1st Recharge only),,,,,,,0,3,<en>
+"2103",city/recharge/icon_cz_2@.png,200 Diamond,,200 Diamond,200 Diamond,,,,,"""2.99""",,"""2.99""","""2.99""",,200,200,200,200,200,,,Extra 200 Diamond(1st Recharge only),Extra 200 Diamond(1st Recharge only),,,,,,,0,4,<en>
+"2104",city/recharge/icon_cz_2@.png,260 Diamond,,260 Diamond,260 Diamond,,,,,"""3.99""",,"""3.99""","""3.99""",,260,260,260,260,260,,,Extra 260 Diamond(1st Recharge only),Extra 260 Diamond(1st Recharge only),,,,,,,0,5,<en>
+"2105",city/recharge/icon_cz_3@.png,340 Diamond,,340 Diamond,340 Diamond,,,,,"""4.99""",,"""4.99""","""4.99""",,340,340,340,340,340,,,Extra 340 Diamond(1st Recharge only),Extra 340 Diamond(1st Recharge only),,,,,,,0,6,<en>
+"2106",city/recharge/icon_cz_3@.png,580 Diamond,,580 Diamond,580 Diamond,,,,,"""8.99""",,"""8.99""","""8.99""",,580,580,580,580,580,,,Extra 580 Diamond(1st Recharge only),Extra 580 Diamond(1st Recharge only),,,,,,,0,7,<en>
+"2107",city/recharge/icon_cz_4@.png,860 Diamond,,860 Diamond,860 Diamond,,,,,"""12.99""",,"""12.99""","""12.99""",,860,860,860,860,860,,,Extra 860 Diamond(1st Recharge only),Extra 860 Diamond(1st Recharge only),,,,,,,0,8,<en>
+"2108",city/recharge/icon_cz_4@.png,980 Diamond,,980 Diamond,980 Diamond,,,,,"""14.99""",,"""14.99""","""14.99""",,980,980,980,980,980,,,Extra 980 Diamond(1st Recharge only),Extra 980 Diamond(1st Recharge only),,,,,,,0,9,<en>
+"2109",city/recharge/icon_cz_5@.png,1340 Diamond,,1340 Diamond,1340 Diamond,,,,,"""19.99""",,"""19.99""","""19.99""",,1340,1340,1340,1340,1340,,,Extra 1340 Diamond(1st Recharge only),Extra 1340 Diamond(1st Recharge only),,,,,,,0,10,<en>
+"2110",city/recharge/icon_cz_5@.png,1740 Diamond,,1740 Diamond,1740 Diamond,,,,,"""25.99""",,"""25.99""","""25.99""",,1740,1740,1740,1740,1740,,,Extra 1740 Diamond(1st Recharge only),Extra 1740 Diamond(1st Recharge only),,,,,,,0,11,<en>
+"2111",city/recharge/icon_cz_6@.png,1980 Diamond,,1980 Diamond,1980 Diamond,,,,,"""29.99""",,"""29.99""","""29.99""",,1980,1980,1980,1980,1980,,,Extra 1980 Diamond(1st Recharge only),Extra 1980 Diamond(1st Recharge only),,,,,,,0,12,<en>
+"2112",city/recharge/icon_cz_6@.png,3380 Diamond,,3380 Diamond,3380 Diamond,,,,,"""49.99""",,"""49.99""","""49.99""",,3380,3380,3380,3380,3380,,,Extra 3380 Diamond(1st Recharge only),Extra 3380 Diamond(1st Recharge only),,,,,,,0,13,<en>
+"2113",city/recharge/icon_cz_7@.png,6580 Diamond,,6580 Diamond,6580 Diamond,,,,,"""99.99""",,"""99.99""","""99.99""",,6580,6580,6580,6580,6580,,,Extra 6580 Diamond(1st Recharge only),Extra 6580 Diamond(1st Recharge only),,,,,,,0,14,<en>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"3101",city/recharge/icon_cz_1@.png,66 diamonds,66鑽石,,120 Diamond,,,,,"""0.99""",,,"""0.99""",,120,120,120,120,120,,,,N?p 0.99 USD nh?n 120 Diamond,,0,,,,,0,1,<vn>
+"3102",city/recharge/icon_cz_1@.png,140 diamonds,140鑽石,,240 Diamond,,,,,"""1.99""",,,"""1.99""",,240,240,240,240,240,,,,N?p 1.99 USD nh?n 240 Diamond,,0,,,,,0,2,<vn>
+"3103",city/recharge/icon_cz_2@.png,200 diamonds,200鑽石,,360 Diamond,,,,,"""2.99""",,,"""2.99""",,360,360,360,360,360,,,,N?p 2.99 USD nh?n 360 Diamond,,0,,,,,0,3,<vn>
+"3104",city/recharge/icon_cz_2@.png,260 diamonds,260鑽石,,480 Diamond,,,,,"""3.99""",,,"""3.99""",,480,480,480,480,480,,,,N?p 3.99 USD nh?n 480 Diamond,,0,,,,,0,4,<vn>
+"3105",city/recharge/icon_cz_3@.png,340 diamonds,340鑽石,,600 Diamond,,,,,"""4.99""",,,"""4.99""",,600,600,600,600,600,,,,N?p 4.99 USD nh?n 600 Diamond,,0,,,,,0,5,<vn>
+"3106",city/recharge/icon_cz_3@.png,580 diamonds,580鑽石,,1080 Diamond,,,,,"""8.99""",,,"""8.99""",,1080,1080,1080,1080,1080,,,,N?p 8.99 USD nh?n 1080 Diamond,,0,,,,,0,6,<vn>
+"3107",city/recharge/icon_cz_4@.png,860 diamonds,860鑽石,,1560 Diamond,,,,,"""12.99""",,,"""12.99""",,1560,1560,1560,1560,1560,,,,N?p 12.99 USD nh?n 1560 Diamond,,0,,,,,0,7,<vn>
+"3108",city/recharge/icon_cz_4@.png,980 diamonds,980鑽石,,1800 Diamond,,,,,"""14.99""",,,"""14.99""",,1800,1800,1800,1800,1800,,,,N?p 14.99 USD nh?n 1800 Diamond,,0,,,,,0,8,<vn>
+"3109",city/recharge/icon_cz_5@.png,1340 diamonds,1340鑽石,,2400 Diamond,,,,,"""19.99""",,,"""19.99""",,2400,2400,2400,2400,2400,,,,N?p 19.99 USD nh?n 2400 Diamond,,0,,,,,0,9,<vn>
+"3110",city/recharge/icon_cz_5@.png,1740 diamonds,1740鑽石,,3120 Diamond,,,,,"""25.99""",,,"""25.99""",,3120,3120,3120,3120,3120,,,,N?p 25.99 USD nh?n 3120 Diamond,,0,,,,,0,10,<vn>
+"3111",city/recharge/icon_cz_6@.png,1980 diamond,1980鑽石,,3600 Diamond,,,,,"""29.99""",,,"""29.99""",,3600,3600,3600,3600,3600,,,,N?p 29.99 USD nh?n 3600 Diamond,,0,,,,,0,11,<vn>
+"3112",city/recharge/icon_cz_6@.png,3380 diamonds,3380鑽石,,6000 Diamond,,,,,"""49.99""",,,"""49.99""",,6000,6000,6000,6000,6000,,,,N?p 49.99 USD nh?n 6000 Diamond,,0,,,,,0,12,<vn>
+"3113",city/recharge/icon_cz_7@.png,6580 diamonds,6580鑽石,,12000 Diamond,,,,,"""99.99""",,,"""99.99""",,12000,12000,12000,12000,12000,,,,N?p 99.99 USD nh?n 12000 Diamond,,0,,,,,0,13,<vn>
+,,,,,,,,,,"""99.99""",,,"""99.99""",,,,,,,,,,N?p 99.99 USD nh?n 12000 Diamond,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"4101",city/recharge/icon_cz_1@.png,66 diamonds,66鑽石,,,66다이아,,,,66,,,,"""1300""",66,66,66,66,66,,,,,1300원으로 66다이아 획득가능,0,,,,1300원으로 66다이아 획득가능,0,1,<kr>
+"4102",city/recharge/icon_cz_1@.png,140 diamonds,140鑽石,,,140다이아,,,,140,,,,"""2800""",140,140,140,140,140,,,,,2800원으로 140다이아 획득가능,0,,,,2800원으로 140다이아 획득가능,0,2,<kr>
+"4103",city/recharge/icon_cz_2@.png,200 diamonds,200鑽石,,,200다이아,,,,200,,,,"""4000""",200,200,200,200,200,,,,,4000원으로 200다이아 획득가능,0,,,,4000원으로 200다이아 획득가능,0,3,<kr>
+"4104",city/recharge/icon_cz_2@.png,260 diamonds,260鑽石,,,260다이아,,,,260,,,,"""5300""",260,260,260,260,260,,,,,5300원으로 260다이아 획득가능,0,,,,5300원으로 260다이아 획득가능,0,4,<kr>
+"4105",city/recharge/icon_cz_3@.png,340 diamonds,340鑽石,,,340다이아,,,,340,,,,"""7000""",340,340,340,340,340,,,,,7000원으로 340다이아 획득가능,0,,,,7000원으로 340다이아 획득가능,0,5,<kr>
+"4106",city/recharge/icon_cz_3@.png,580 diamonds,580鑽石,,,580다이아,,,,580,,,,"""12000""",580,580,580,580,580,,,,,12000원으로 580다이아 획득가능,0,,,,12000원으로 580다이아 획득가능,0,6,<kr>
+"4107",city/recharge/icon_cz_4@.png,860 diamonds,860鑽石,,,860다이아,,,,860,,,,"""17000""",860,860,860,860,860,,,,,17000원으로 860다이아 획득가능,0,,,,17000원으로 860다이아 획득가능,0,7,<kr>
+"4108",city/recharge/icon_cz_4@.png,980 diamonds,980鑽石,,,980다이아,,,,980,,,,"""20000""",980,980,980,980,980,,,,,20000원으로 980다이아 획득가능,0,,,,20000원으로 980다이아 획득가능,0,8,<kr>
+"4109",city/recharge/icon_cz_5@.png,1340 diamonds,1340鑽石,,,1340다이아,,,,1340,,,,"""26000""",1340,1340,1340,1340,1340,,,,,26000원으로 1340다이아 획득가능,0,,,,26000원으로 1340다이아 획득가능,0,9,<kr>
+"4110",city/recharge/icon_cz_5@.png,1740 diamonds,1740鑽石,,,1740다이아,,,,1740,,,,"""34000""",1740,1740,1740,1740,1740,,,,,34000원으로 1740다이아 획득가능,0,,,,34000원으로 1740다이아 획득가능,0,10,<kr>
+"4111",city/recharge/icon_cz_6@.png,1980 diamond,1980鑽石,,,1980다이아,,,,1980,,,,"""40000""",1980,1980,1980,1980,1980,,,,,40000원으로 1980다이아 획득가능,0,,,,40000원으로 1980다이아 획득가능,0,11,<kr>
+"4112",city/recharge/icon_cz_6@.png,3380 diamonds,3380鑽石,,,3380다이아,,,,3380,,,,"""70000""",3380,3380,3380,3380,3380,,,,,70000원으로 3380다이아 획득가능,0,,,,70000원으로 3380다이아 획득가능,0,12,<kr>
+"4113",city/recharge/icon_cz_7@.png,6580 diamonds,6580鑽石,,,6580다이아,,,,6580,,,,"""130000""",6580,6580,6580,6580,6580,,,,,1300000원으로 6580다이아 획득가능,0,,,,1300000원으로 6580다이아 획득가능,0,13,<kr>

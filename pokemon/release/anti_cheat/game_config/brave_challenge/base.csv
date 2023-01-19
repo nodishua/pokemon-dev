@@ -1,0 +1,9 @@
+﻿﻿变量名,timesLimit,buyCost,buyTimes,addTimes,isDailyUnlockCard,isDailyRecover,isShowAward,isDailyBadge,isStarAttrAdd,title,lastAnimation,background,cards,badgeCards,monsterCards,mp,gateSeq,achiSeqID,genSeqID,badgeLibID,floorFail,weightUp,dailyWeightUp,sameTimes,goldLimit,achievementID
+默认值,0,<10;20;30>,0,0,FALSE,FALSE,FALSE,FALSE,FALSE,勇者挑战,"""""","""""",<>,<>,<>,0,<>,0,0,2001,{},0,<<1;999;0>>,999,0,0
+ID,挑战次数上限,购买次数消耗,每日可购买次数,每日回复次数,是否开启按天数解锁卡牌,次数回复方式 false重置 true加次数,是否显示通关奖励,是否每日送徽章,是否有星级加成,备注,通关显示动画,主题背景图,系统卡库,勋章招募卡池,怪物卡池,盟友入场怒气,关卡索引,成就索引ID,勋章生成库索引ID,勋章保底库ID,失败关卡节点(floor:次数),提升勋章库2权重,每日权重提升,连续相同开局次数,金币获得上限,活动道具
+1,5,,,,,,,,,,effect/jiesuan.skel,activity/brave_challenge/bg_yztz_1.png,<1;2>,<3>,<101;102;103>,0.75,<1;2;3;4;5;6;7;8;9;10;11>,1,1,2001,{6=1},10,,3,8000000,2415
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,10,<>,0,3,TRUE,TRUE,TRUE,TRUE,TRUE,勇者篇,effect/jiesuan_1.skel,activity/brave_challenge/bg_yztz_3.png,<4>,<5>,<101;102;103>,0.75,<101;102;103;104;105;106;107;108;109;110;111>,101,101,2001,{6=1},10,<<1;4;10>;<4;8;20>;<8;14;50>>,3,3000000,
+102,10,<>,0,3,TRUE,TRUE,TRUE,TRUE,TRUE,传说篇,effect/jiesuan_2.skel,activity/brave_challenge/bg_yztz_3.png,<6>,<7>,<101;102;103>,0.75,<201;202;203;204;205;206;207;208;209;210;211>,201,201,2001,{6=1},10,<<1;4;10>;<4;8;20>;<8;14;50>>,3,3000000,
+103,10,<>,0,3,TRUE,TRUE,TRUE,TRUE,TRUE,龙族篇,effect/jiesuan_3.skel,activity/brave_challenge/bg_yztz_3.png,<8>,<9>,<101;102;103>,0.75,<301;302;303;304;305;306;307;308;309;310;311>,301,301,2001,{6=1},10,<<1;4;10>;<4;8;20>;<8;14;50>>,3,3000000,
+104,10,<>,0,3,TRUE,TRUE,TRUE,TRUE,TRUE,斗战篇,effect/jiesuan_4.skel,activity/brave_challenge/bg_yztz_3.png,<10>,<11>,<101;102;103>,0.75,<401;402;403;404;405;406;407;408;409;410;411>,401,401,2001,{6=1},10,<<1;4;10>;<4;8;20>;<8;14;50>>,3,3000000,

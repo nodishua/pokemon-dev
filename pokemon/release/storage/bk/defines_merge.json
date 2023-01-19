@@ -1,0 +1,17 @@
+{
+  "storagemerge.dev.1": {
+    "debug": true, 
+    "nsqd_tcp_addresses": [
+      "192.168.1.125:4150", 
+      "192.168.1.125:4140"
+    ], 
+    "nsqlookupd": "http://192.168.1.125:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_dev1", 
+        "mongodb": "192.168.1.96:27018", 
+        "name": "storagemerge.dev.1"
+      }
+    ]
+  }
+}

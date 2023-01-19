@@ -1,0 +1,74 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,isWorldEnter,chapterType,res,baseMap,describe,ownerId,openLevel,seq,heroMapId,nightmareMapId,starAwardConds,starAwardIDs
+默认值,"""""","""""","""""","""""","""""",FALSE,,,,,,,<>,,,,
+ID,名称,名稱,名称,名称_越南,名称_韩,是否是世界入口点,章节类型1:普通2:精英3:噩梦,资源,场景地图,描述,所属世界,开放等级,索引序列,开启精英,开启噩梦,星级奖励数量序列,星级奖励ID序列
+1,,,,,,TRUE,,SJDT_1.json,,,,1,<11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35>,,,,
+,,,,,,FALSE,,SJDT_1.json,,,,1,<11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35>,,,,
+,,,,,,,,SJDT_1.json,,,,1,<11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35>,,,,
+11,Pallet Town,真新鎮,Pallet Town,404404,태초마을,,1,GKDT_ptgk1.json,city/gate/map/img_zxz.png,,1,1,<10101;10102;10103;10104;10105>,111,211,<0;6;15>,<0;1111;1112>
+12,Mysterious Tribe,神秘部落,Mysterious Tribe,404404,신비한 부락,,1,GKDT_ptgk2.json,city/gate/map/img_smbl.png,,1,1,<10201;10202;10203;10204;10205;10206>,112,212,<0;9;18>,<0;1121;1122>
+13,Abandoned city,廢棄城市,Abandoned city,404404,버려진 도시,,1,GKDT_ptgk3.json,city/gate/map/img_fqcs.png,,1,1,<10301;10302;10303;10304;10305;10306;10307;10308>,113,213,<8;16;24>,<1131;1132;1133>
+14,Resort Island,度假島,Resort Island,404404,리조트 섬,,1,GKDT_ptgk4.json,city/gate/map/img_djd.png,,1,1,<10401;10402;10403;10404;10405;10406;10407;10408>,114,214,<8;16;24>,<1141;1142;1143>
+15,Sandgem Town,砂石鎮,Sandgem Town,404404,잔모래 마을,,1,GKDT_ptgk5.json,city/gate/map/img_xbxz.png,,1,1,<10501;10502;10503;10504;10505;10506;10507;10508;10509;10510>,115,215,<10;20;30>,<1151;1152;1153>
+16,Snow field,雪原,Snow field,404404,설원,,1,GKDT_ptgk6.json,city/gate/map/img_spcj.png,,1,26,<10601;10602;10603;10604;10605;10606;10607;10608;10609;10610>,116,216,<10;20;30>,<1161;1162;1163>
+17,Poni Island,波尼島,Poni Island,404404,포니섬,,1,GKDT_ptgk7.json,city/gate/map/img_bnd.png,,1,30,<10701;10702;10703;10704;10705;10706;10707;10708;10709;10710>,117,217,<10;20;30>,<1171;1172;1173>
+18,Ula'ula Island,烏拉烏拉島,Ula'ula Island,404404,울라울라섬,,1,GKDT_ptgk8.json,city/gate/map/img_gbxs.png,,1,33,<10801;10802;10803;10804;10805;10806;10807;10808;10809;10810>,118,218,<10;20;30>,<1181;1182;1183>
+19,Akala Island,阿卡拉島,Akala Island,404404,아칼라섬,,1,GKDT_ptgk9.json,city/gate/map/img_akld.png,,1,37,<10901;10902;10903;10904;10905;10906;10907;10908;10909;10910>,119,219,<10;20;30>,<1191;1192;1193>
+20,Melemele Island,美樂美樂島,Melemele Island,404404,멜레멜레섬,,1,GKDT_ptgk10.json,city/gate/map/img_mlmld.png,,1,40,<11001;11002;11003;11004;11005;11006;11007;11008;11009;11010>,120,220,<10;20;30>,<1201;1202;1203>
+21,Trainers Academy,訓練家學校,Trainers Academy,404404,트레이너 아카데미,,1,GKDT_ptgk11.json,city/gate/map/img_alldqxx.png,,1,45,<11101;11102;11103;11104;11105;11106;11107;11108;11109;11110>,121,221,<10;20;30>,<1211;1212;1213>
+22,Hau'oli City,好奧樂市,Hau'oli City,404404,하우올리시티,,1,GKDT_ptgk12.json,city/gate/map/img_llajdhz.png,,1,50,<11201;11202;11203;11204;11205;11206;11207;11208;11209;11210>,122,222,<10;20;30>,<1221;1222;1223>
+23,Battle in Mining Area,對戰開拓區,Battle in Mining Area,404404,대전 개척 구역,,1,GKDT_ptgk13.json,city/gate/map/img_dzktq.png,,1,55,<11301;11302;11303;11304;11305;11306;11307;11308;11309;11310>,123,223,<10;20;30>,<1231;1232;1233>
+24,Ecruteak City,圓朱市,Ecruteak City,404404,인주시티,,1,GKDT_ptgk13.json,city/gate/map/img_yzs.png,,1,60,<11401;11402;11403;11404;11405;11406;11407;11408;11409;11410>,124,224,<10;20;30>,<1241;1242;1243>
+25,Ancient Altar,古代祭壇,Ancient Altar,404404,고대의 제단,,1,GKDT_ptgk13.json,city/gate/map/img_jt.png,,1,65,<11501;11502;11503;11504;11505;11506;11507;11508;11509;11510>,125,225,<10;20;30>,<1251;1252;1253>
+26,Icy Cold Plains,凜冽凍原,Icy Cold Plains,404404,서리의 광야,,1,GKDT_ptgk13.json,city/gate/map/img_by.png,,1,70,<11601;11602;11603;11604;11605;11606;11607;11608;11609;11610>,126,226,<10;20;30>,<1261;1262;1263>
+27,Amusement Park,遊樂園,Amusement Park,404404,놀이공원,,1,GKDT_ptgk13.json,city/gate/map/img_yly.png,,1,75,<11701;11702;11703;11704;11705;11706;11707;11708;11709;11710>,127,227,<10;20;30>,<1271;1272;1273>
+28,Breeder Academy,飼育家學校,Breeder Academy,404404,브리더 아카데미,,1,GKDT_ptgk13.json,city/gate/map/img_syjxx.png,,1,80,<11801;11802;11803;11804;11805;11806;11807;11808;11809;11810>,128,228,<10;20;30>,<1281;1282;1283>
+29,Circus,馬戲團,Circus,Rạp Xiếc,서커스,,1,GKDT_ptgk13.json,city/gate/map/img_mxt.png,,1,85,<11901;11902;11903;11904;11905;11906;11907;11908;11909;11910>,129,229,<10;20;30>,<1291;1292;1293>
+30,Shadow Mountain,暗影山,Shadow Mountain,404404,암영산,,1,GKDT_ptgk13.json,city/gate/map/img_ays.png,,1,90,<12001;12002;12003;12004;12005;12006;12007;12008;12009;12010>,130,230,<10;20;30>,<1301;1302;1303>
+31,Aroma City,香薰市,,404404,향수시,,1,GKDT_ptgk13.json,city/gate/map/img_xxs.png,,1,95,<12101;12102;12103;12104;12105;12106;12107;12108;12109;12110>,131,231,<10;20;30>,<1311;1312;1313>
+32,dead leaf city,枯葉市,,404404,향수시,,1,GKDT_ptgk13.json,city/gate/map/img_kys.png,,1,100,<12201;12202;12203;12204;12205;12206;12207;12208;12209;12210>,132,232,<10;20;30>,<1321;1322;1323>
+,,,,,,,,,,,,,,,,,
+111,Pallet Town,真新鎮,Pallet Town,404404,태초마을,,2,GKDT_ptgk1.json,city/gate/map/img_zxz.png,,1,1,<20101;20102;20103>,,,<0;0;9>,<0;0;1501>
+112,Mysterious Tribe,神秘部落,Mysterious Tribe,404404,신비한 부락,,2,GKDT_ptgk2.json,city/gate/map/img_smbl.png,,1,1,<20201;20202;20203>,,,<0;0;9>,<0;0;1511>
+113,Abandoned city,廢棄城市,Abandoned city,404404,버려진 도시,,2,GKDT_ptgk3.json,city/gate/map/img_fqcs.png,,1,1,<20301;20302;20303;20304>,,,<0;0;12>,<0;0;1521>
+114,Resort Island,度假島,Resort Island,404404,리조트 섬,,2,GKDT_ptgk4.json,city/gate/map/img_djd.png,,1,1,<20401;20402;20403;20404>,,,<0;0;12>,<0;0;1531>
+115,Sandgem Town,砂石鎮,Sandgem Town,404404,잔모래 마을,,2,GKDT_ptgk5.json,city/gate/map/img_xbxz.png,,1,1,<20501;20502;20503;20504;20505>,,,<0;0;15>,<0;0;1541>
+116,Snow field,雪原,Snow field,404404,설원,,2,GKDT_ptgk6.json,city/gate/map/img_spcj.png,,1,26,<20601;20602;20603;20604;20605>,,,<0;0;15>,<0;0;1551>
+117,Poni Island,波尼島,Poni Island,404404,포니섬,,2,GKDT_ptgk7.json,city/gate/map/img_bnd.png,,1,30,<20701;20702;20703;20704;20705>,,,<0;0;15>,<0;0;1561>
+118,Ula'ula Island,烏拉烏拉島,Ula'ula Island,404404,울라울라섬,,2,GKDT_ptgk8.json,city/gate/map/img_gbxs.png,,1,33,<20801;20802;20803;20804;20805>,,,<0;0;15>,<0;0;1571>
+119,Akala Island,阿卡拉島,Akala Island,404404,아칼라섬,,2,GKDT_ptgk9.json,city/gate/map/img_akld.png,,1,37,<20901;20902;20903;20904;20905>,,,<0;0;15>,<0;0;1581>
+120,Melemele Island,美樂美樂島,Melemele Island,404404,멜레멜레섬,,2,GKDT_ptgk10.json,city/gate/map/img_mlmld.png,,1,40,<21001;21002;21003;21004;21005>,,,<0;0;15>,<0;0;1591>
+121,Trainers Academy,訓練家學校,Trainers Academy,404404,트레이너 아카데미,,2,GKDT_ptgk11.json,city/gate/map/img_alldqxx.png,,1,45,<21101;21102;21103;21104;21105>,,,<0;0;15>,<0;0;1601>
+122,Hau'oli City,好奧樂市,Hau'oli City,404404,하우올리시티,,2,GKDT_ptgk12.json,city/gate/map/img_llajdhz.png,,1,50,<21201;21202;21203;21204;21205>,,,<0;0;15>,<0;0;1611>
+123,Battle in Mining Area,對戰開拓區,Battle in Mining Area,404404,대전 개척 구역,,2,GKDT_ptgk13.json,city/gate/map/img_dzktq.png,,1,55,<21301;21302;21303;21304;21305>,,,<0;0;15>,<0;0;1621>
+124,Ecruteak City,圓朱市,Ecruteak City,404404,인주시티,,2,GKDT_ptgk13.json,city/gate/map/img_yzs.png,,1,60,<21401;21402;21403;21404;21405>,,,<0;0;15>,<0;0;1631>
+125,Ancient Altar,古代祭壇,Ancient Altar,404404,고대의 제단,,2,GKDT_ptgk13.json,city/gate/map/img_jt.png,,1,65,<21501;21502;21503;21504;21505>,,,<0;0;15>,<0;0;1641>
+126,Icy Cold Plains,凜冽凍原,Icy Cold Plains,404404,서리의 광야,,2,GKDT_ptgk13.json,city/gate/map/img_by.png,,1,70,<21601;21602;21603;21604;21605>,,,<0;0;15>,<0;0;1651>
+127,Amusement Park,遊樂園,Amusement Park,404404,놀이공원,,2,GKDT_ptgk13.json,city/gate/map/img_yly.png,,1,75,<21701;21702;21703;21704;21705>,,,<0;0;15>,<0;0;1661>
+128,Breeder Academy,飼育家學校,Breeder Academy,404404,브리더 아카데미,,2,GKDT_ptgk13.json,city/gate/map/img_syjxx.png,,1,80,<21801;21802;21803;21804;21805>,,,<0;0;15>,<0;0;1671>
+129,Circus,馬戲團,Circus,Rạp Xiếc,서커스,,2,GKDT_ptgk13.json,city/gate/map/img_mxt.png,,1,85,<21901;21902;21903;21904;21905>,,,<0;0;15>,<0;0;1681>
+130,Shadow Mountain,暗影山,Shadow Mountain,404404,암영산,,2,GKDT_ptgk13.json,city/gate/map/img_ays.png,,1,90,<22001;22002;22003;22004;22005>,,,<0;0;15>,<0;0;1691>
+131,Aroma City,香薰市,,404404,향수시,,2,GKDT_ptgk13.json,city/gate/map/img_xxs.png,,1,95,<22101;22102;22103;22104;22105>,,,<0;0;15>,<0;0;1701>
+132,dead leaf city,枯葉市,,404404,향수시,,2,GKDT_ptgk13.json,city/gate/map/img_kys.png,,1,100,<22201;22202;22203;22204;22205>,,,<0;0;15>,<0;0;1711>
+,,,,,,,,,,,,,,,,,
+211,Pallet Town,真新鎮,Pallet Town,404404,태초마을,,3,GKDT_ptgk1.json,city/gate/map/img_zxz.png,,1,47,<30101;30102>,,,<0;0;6>,<0;0;6501>
+212,Mysterious Tribe,神秘部落,Mysterious Tribe,404404,신비한 부락,,3,GKDT_ptgk2.json,city/gate/map/img_smbl.png,,1,48,<30201;30202>,,,<0;0;6>,<0;0;6511>
+213,Abandoned city,廢棄城市,Abandoned city,404404,버려진 도시,,3,GKDT_ptgk3.json,city/gate/map/img_fqcs.png,,1,49,<30301;30302>,,,<0;0;6>,<0;0;6521>
+214,Resort Island,度假島,Resort Island,404404,리조트 섬,,3,GKDT_ptgk4.json,city/gate/map/img_djd.png,,1,50,<30401;30402>,,,<0;0;6>,<0;0;6531>
+215,Sandgem Town,砂石鎮,Sandgem Town,404404,잔모래 마을,,3,GKDT_ptgk5.json,city/gate/map/img_xbxz.png,,1,51,<30501;30502>,,,<0;0;6>,<0;0;6541>
+216,Snow field,雪原,Snow field,404404,설원,,3,GKDT_ptgk5.json,city/gate/map/img_spcj.png,,1,52,<30601;30602;30603>,,,<0;0;9>,<0;0;6551>
+217,Poni Island,波尼島,Poni Island,404404,포니섬,,3,GKDT_ptgk5.json,city/gate/map/img_bnd.png,,1,53,<30701;30702;30703>,,,<0;0;9>,<0;0;6561>
+218,Ula'ula Island,烏拉烏拉島,Ula'ula Island,404404,울라울라섬,,3,GKDT_ptgk5.json,city/gate/map/img_gbxs.png,,1,54,<30801;30802;30803>,,,<0;0;9>,<0;0;6571>
+219,Akala Island,阿卡拉島,Akala Island,404404,아칼라섬,,3,GKDT_ptgk1.json,city/gate/map/img_akld.png,,1,55,<30901;30902;30903>,,,<0;0;9>,<0;0;6581>
+220,Melemele Island,美樂美樂島,Melemele Island,404404,멜레멜레섬,,3,GKDT_ptgk2.json,city/gate/map/img_mlmld.png,,1,55,<31001;31002;31003>,,,<0;0;9>,<0;0;6591>
+221,Trainers Academy,訓練家學校,Trainers Academy,404404,트레이너 아카데미,,3,GKDT_ptgk3.json,city/gate/map/img_alldqxx.png,,1,60,<31101;31102;31103;31104>,,,<0;0;12>,<0;0;6601>
+222,Hau'oli City,好奧樂市,Hau'oli City,404404,하우올리시티,,3,GKDT_ptgk4.json,city/gate/map/img_llajdhz.png,,1,60,<31201;31202;31203;31204>,,,<0;0;12>,<0;0;6611>
+223,Battle in Mining Area,對戰開拓區,Battle in Mining Area,404404,대전 개척 구역,,3,GKDT_ptgk5.json,city/gate/map/img_dzktq.png,,1,60,<31301;31302;31303;31304>,,,<0;0;12>,<0;0;6621>
+224,Ecruteak City,圓朱市,Ecruteak City,404404,인주시티,,3,GKDT_ptgk5.json,city/gate/map/img_yzs.png,,1,65,<31401;31402;31403;31404>,,,<0;0;12>,<0;0;6631>
+225,Ancient Altar,古代祭壇,Ancient Altar,404404,고대의 제단,,3,GKDT_ptgk5.json,city/gate/map/img_jt.png,,1,65,<31501;31502;31503;31504>,,,<0;0;12>,<0;0;6641>
+226,Icy Cold Plains,凜冽凍原,Icy Cold Plains,404404,서리의 광야,,3,GKDT_ptgk5.json,city/gate/map/img_by.png,,1,70,<31601;31602;31603;31604>,,,<0;0;12>,<0;0;6651>
+227,Amusement Park,遊樂園,Amusement Park,404404,놀이공원,,3,GKDT_ptgk5.json,city/gate/map/img_yly.png,,1,75,<31701;31702;31703;31704>,,,<0;0;12>,<0;0;6661>
+228,Breeder Academy,飼育家學校,Breeder Academy,404404,브리더 아카데미,,3,GKDT_ptgk5.json,city/gate/map/img_syjxx.png,,1,80,<31801;31802;31803;31804;31805>,,,<0;0;15>,<0;0;6671>
+229,Circus,馬戲團,Circus,Rạp Xiếc,서커스,,3,GKDT_ptgk5.json,city/gate/map/img_mxt.png,,1,85,<31901;31902;31903;31904;31905>,,,<0;0;15>,<0;0;6681>
+230,Shadow Mountain,暗影山,Shadow Mountain,404404,암영산,,3,GKDT_ptgk13.json,city/gate/map/img_ays.png,,1,90,<32001;32002;32003;32004;32005>,,,<0;0;15>,<0;0;6691>
+231,Aroma City,香薰市,,404404,향수시,,3,GKDT_ptgk13.json,city/gate/map/img_xxs.png,,1,95,<32101;32102;32103;32104;32105>,,,<0;0;15>,<0;0;6701>
+232,dead leaf city,枯葉市,,404404,향수시,,3,GKDT_ptgk13.json,city/gate/map/img_kys.png,,1,100,<32201;32202;32203;32204;32205>,,,<0;0;15>,<0;0;6711>

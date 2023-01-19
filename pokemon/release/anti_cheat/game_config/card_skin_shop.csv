@@ -1,0 +1,6 @@
+﻿变量名,_beizhu,type,itemMap,itemCount,costMap,exchangeLimit,litSkinNum,vipStart,vipWeight,beginDate,endDate,position,extraItem,levelRange,limitType,limitTimes,showUnable,languages
+默认值,"""""",1,{},0,{},-1,0,0,1,0,20990101,1,{},<1;199>,4,1,TRUE,<cn;tw;en;vn;th;kr>
+ID,备注,类型(1-固定;2-刷新),商品ID表(id=数量),商品个数,购买消耗,兑换次数(-1表示无限次兑换),解锁所需皮肤数量,起始vip等级,刷新权重(1-必然刷新),开始贩售时间,结束贩售时间,商品栏位,购买附赠品,等级限制,限购周期类型(1-日限购;2-周限购;3-月限购;4-永久限购),限购次数,未解锁时是否可见,语言区域
+1,,1,{8000=1},1,{536=80},,,,,,,1,,,,,,<cn>
+2,,1,{8002=1},1,{536=120},,,,,,,2,,,,,,<cn>
+3,,1,{8004=2},1,{rmb=998},,,,,,,3,,,,,,<cn>

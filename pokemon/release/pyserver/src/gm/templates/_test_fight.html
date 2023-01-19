@@ -1,0 +1,297 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.t {
+			margin-top: 16px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>Combat test</h4></div>
+		</div>
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<div role="form" class="form-inline t">
+					  	<div class="form-group">
+						  	<label></label>
+						  	<button id='test-fight' class="form-control btn-primary input-sm">Start fighting test</button>
+					  	</div>
+					</div>
+        		</div>
+        	</div>
+        	<div class="row margin-top-m">
+        		<div class="col-lg-6 col-md-6">
+        			<table id="testLog"></table>
+        		</div>
+        		<div class="col-lg-6 col-md-6">
+        			<table id="testRecord"></table>
+        		</div>
+        	</div>
+        	<div class="row t">
+        		<div class="col-lg-12">
+        			<table id="testDetail"></table>
+        		</div>
+        	</div>
+        </div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function totalFooterFormatter() {
+	        return 'Total';
+	    }
+	    function sumFormatter(data) {
+	        let field = this.field;
+	        return data.reduce(function(sum, row) {
+	            return sum + (+row[field]);
+	        }, 0);
+	    }
+		$(function() {
+			const $table = $('#testLog');
+        	const $recordTable = $('#testRecord');
+
+			// Initialization table
+			$("#testLog").bootstrapTable('destroy');
+            $('#testLog').bootstrapTable({
+                columns: [{
+                    'field': 'checkbox',
+                    checkbox: true
+                }, {
+                    'field': 'item',
+                    'title': 'item',
+                    'sortable': true,
+                    'footerFormatter': totalFooterFormatter,
+                }, {
+                    'field': 'win',
+                    'title': 'win',
+                    'sortable': true,
+                    'footerFormatter': sumFormatter,
+                }, {
+                    'field': 'fail',
+                    'title': 'fail',
+                    'sortable': true,
+                    'footerFormatter': sumFormatter,
+                }, {
+                    'field': 'error',
+                    'title': 'error',
+                    'sortable': true,
+                    'footerFormatter': sumFormatter,
+                }, {
+                    'field': 'key',
+                    'title': 'key',
+                    'sortable': true,
+                }],
+                data: [{
+                    'item': 'Cross -service king',
+                    'key': 'cross_craft'
+                }, {
+                    'item': 'arena',
+                    'key': 'arena'
+                }, {
+                    'item': 'King',
+                    'key': 'craft'
+                }, {
+                    'item': 'Cross -service arena',
+                    'key': 'cross_arena'
+                }, {
+                    'item': 'Guild war',
+                    'key': 'union_fight'
+                }],
+                showFooter: true
+            });
+            $("#testRecord").bootstrapTable('destroy');
+            $('#testRecord').bootstrapTable({
+                columns: [{
+                    'field': 'id',
+                    'title': 'ID',
+                    'formatter': function(value, row, index) {
+                        return index
+                    }
+                },{
+                    'field': 'result',
+                    'title': 'result',
+                    'sortable': true,
+                }, {
+                    'field': 'dict',
+                    'title': 'detailed',
+                }],
+            });
+            $("#testLog").bootstrapTable('hideColumn', 'key');
+
+            $('#testDetail').bootstrapTable({
+                //playid
+                //name
+                //defence_name
+                //battleinfo
+                //type
+                //result
+                //tag
+                columns: [
+                {
+                    'field': 'playid',
+                    'title': 'playid',
+                    'sortable': true,
+                },
+                {
+                    'field': 'name',
+                    'title': 'name',
+                    'sortable': true,
+                },
+                {
+                    'field': 'defence_name',
+                    'title': 'defence_name',
+                    'sortable': true,
+                },
+                {
+                    'field': 'battleinfo',
+                    'title': 'battleinfo',
+                    'sortable': true,
+                },
+                {
+                    'field': 'type',
+                    'title': 'type',
+                    'sortable': true,
+                },
+                {
+                    'field': 'result',
+                    'title': 'result',
+                    'sortable': true,
+                },
+                // {
+                //     'field': 'win',
+                //     'title': 'win',
+                //     'sortable': true,
+                //     'class': 'text-success'
+                // },
+                // {
+                //     'field': 'fail',
+                //     'title': 'fail',
+                //     'sortable': true,
+                //     'class': 'text-warning'
+                // },
+                // {
+                //     'field': 'error',
+                //     'title': 'error',
+                //     'sortable': true,
+                //     'class': 'text-danger'
+                // },
+                {
+                    'field': 'tag',
+                    'title': 'tag',
+                    'sortable': true,
+                },
+                {
+                    'field': 'download',
+                    'title': '',
+                    formatter: function(value, row, index) {
+                            let url = `/test_fight/download?playid=${row.playid}&type=${row.type}`;
+                            let fileName = JSON.stringify(row.playid) + ".play";
+                            return `<a href='${url}' download='${fileName}'>download</a>`;
+                        },
+                }],
+                // detailView: true,
+                // detailFormatter: function(index, row) {
+                //     oneDetailList = detailData.filter(d => d.tag === row.tag);
+                //     let html = [];
+                //     html.push('<table data-toggle="table">')
+                //     html.push(`<thead>
+                //         <tr>
+                //             <th>playid</th>
+                //             <th>name</th>
+                //             <th>defence_name</th>
+                //             <th>battleinfo</th>
+                //             <th>type</th>
+                //             <th>result</th>
+                //             <th>tag</th>
+                //         </tr>
+                //         </thead>
+                //         <tbody>`)
+                //     for (oneDetail of oneDetailList) {
+                //         html.push('<tr>')
+                //         html.push(`<td>${oneDetail.playid}</td><td>${oneDetail.name}</td><td>${oneDetail.defence_name}</td><td>${oneDetail.battleinfo}</td><td>${oneDetail.type}</td><td>${oneDetail.result}</td><td>${oneDetail.tag}</td>`)
+                //         html.push('</tr>')
+                //     }
+                //     html.push('</tbody></table>')
+                //     return html.join('');
+                // },
+                locale: userLocale
+            }),
+            $("#testDetail").bootstrapTable('hideColumn', 'tag');
+
+            // event
+            $('#btnTest').click(function () {
+	            $(this).button('loading');
+
+	            detailData.length = 0;
+	            const data = $table.bootstrapTable('getData');
+	            let battleList = [];
+
+	            for (let d of data) {
+	                if (d.checkbox) {
+	                    battleList.push('"' + d.key + '"')
+	                }
+	            }
+
+	            const url = `/test_fight?_ajax=true&battleList=[${battleList}]`;
+
+	            $.ajax({
+	                url: url,
+	                type: 'GET',
+	                cache: false,
+	                processData: false,
+	                contentType: false,
+	                success(result){
+	                    updater.start();
+	                    $table.bootstrapTable('load', [{
+	                            'item': 'Cross -service king',
+	                            'key': 'cross_craft'
+	                        }, {
+	                            'item': 'arena',
+	                            'key': 'arena'
+	                        }, {
+	                            'item': 'King',
+	                            'key': 'craft'
+	                        }, {
+	                            'item': 'Cross -service arena',
+	                            'key': 'cross_arena'
+	                        }, {
+	                            'item': 'Guild war',
+	                            'key': 'union_fight'
+	                        }]);
+
+	                    $table.bootstrapTable('hideColumn', 'key');
+	                    {% if messages %}
+	                        {% for key, value in messages.items() %}
+	                            {% if key == 'detail' %}
+	                                let rows = [];
+	                                {% for playid, playdetail in value %}
+	                                    rows.push({'playid': playid, 'name': playdetail[0], 'defence_name': playdetail[1], 'battleinfo': playdetail[2].map(x => `"${x}" `), 'type': playdetail[2][2], 'result': playdetail[3]}, 'tag': playdetail[4])
+	                                {% end %}
+	                                $('#testDetail').bootstrapTable('load', rows);
+	                            {% else %}
+	                                $("#testLog").bootstrapTable('updateRow', {
+	                                    index: name2index[key],
+	                                    row: value
+	                                });
+	                            {% end %}
+
+	                        {% end %}
+	                    {% end %}
+	                    }
+	            }).done(function(result) {
+	                $('#btnTest').button('reset');
+
+	            }).fail(function(res) {
+	                console.log('fail');
+	            });
+	        });
+
+		})
+	</script>
+{% end %}

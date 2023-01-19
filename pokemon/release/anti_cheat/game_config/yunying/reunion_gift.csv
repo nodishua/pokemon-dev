@@ -1,0 +1,30 @@
+﻿"﻿变量名",huodongID,name,type,target,item
+默认值,0,"""""",0,0,{}
+ID,活动版本ID,礼包名字,礼包类型(1重聚礼包;2相逢有时),礼包对象(礼包类型1时为空;1回归玩家 2老玩家),礼包内容
+1,101016,reunion pack,1,,{rmb=1200;500=10;514=50}
+2,101016,Binding package,2,1,{rmb=300;gold=500000;519=3}
+3,101016,Binding package,2,2,{rmb=300;gold=300000;520=3}
+,,,,,
+4,101017,reunion pack,1,,{rmb=1500;500=20;514=100}
+5,101017,Binding package,2,1,{rmb=400;gold=500000;519=3}
+6,101017,Binding package,2,2,{rmb=300;gold=300000;520=3}
+,,,,,
+7,101018,reunion pack,1,,{rmb=1800;500=30;514=150}
+8,101018,Binding package,2,1,{rmb=500;gold=500000;519=3}
+9,101018,Binding package,2,2,{rmb=300;gold=300000;520=3}
+,,,,,
+101,1001,reunion pack,1,,{rmb=100;519=3;503=3;gold=300000}
+102,1001,Binding package,2,1,{rmb=50;502=2;501=1;gold=300000}
+103,1001,Binding package,2,2,{rmb=50;502=2;501=1;gold=300000}
+,,,,,
+201,1002,reunion pack,1,,{rmb=150;519=3;503=3;gold=300000}
+202,1002,Binding package,2,1,{rmb=50;502=2;501=1;gold=300000}
+203,1002,Binding package,2,2,{rmb=50;502=2;501=1;gold=300000}
+,,,,,
+301,1003,reunion pack,1,,{rmb=200;519=3;503=3;gold=300000}
+302,1003,Binding package,2,1,{rmb=50;502=2;501=1;gold=300000}
+303,1003,Binding package,2,2,{rmb=50;502=2;501=1;gold=300000}
+,,,,,
+401,1004,reunion pack,1,,{rmb=250;519=3;503=3;gold=300000}
+402,1004,Binding package,2,1,{rmb=50;502=2;501=1;gold=300000}
+403,1004,Binding package,2,2,{rmb=50;502=2;501=1;gold=300000}

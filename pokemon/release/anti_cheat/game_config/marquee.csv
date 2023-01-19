@@ -1,0 +1,23 @@
+变量名,key,_beizhu,sortValue,waitTime,isActive
+默认值,"""""",,1,20,0
+ID,触发key（唯一）,备注,优先级(大的优先),有效时长（min）,是否激活
+,,,,,
+1,drawCard,Diamond Draw,5,,1
+2,limitDrawCardUp,Limited draw card UP,1,,1
+3,drawHoldItem,pump carry props,4,,1
+4,capture,capture,3,,1
+5,pvpTopRank,arena champion,8,,1
+6,limitDrawCard,Soul box gets S+,6,,1
+7,limitBox,limited time mythical beast,7,,1
+8,randomTowerPass,Ether Paradise full clearance,9,,1
+9,endlessTowerPass,Adventure Road clearance reaches X,10,,1
+10,cardStar,Elves cultivated to 6 stars and above,11,,1
+11,fragCombCard,Synthesis of S+ sprite fragments,12,,1
+12,pvpTopRankLast,Arena Settlement First,12,,1
+13,craftTopRank,Quartz Clearing First,12,,1
+14,cardInLimitCard,Time-limited monsters get S+,12,,1
+15,crossArenaTopRank,Cross server arena settlement first,12,,1
+16,crossArenaTopHistoryRefresh,Cross-server arena exciting battle report refresh,12,,1
+17,crossMineTopHistoryRefresh,Cross-server resource battle exciting battle report refresh,12,,1
+18,serverLog,Server Maintenance Information,13,,1
+19,groupDrawCardUp,Optional draw card UP,2,,1

@@ -1,0 +1,4 @@
+变量名,servOpenDays,specialFish,groupSize
+默认值,,0,20
+ID,相对开服开启时间,钓鱼大赛限定鱼,分组区服数量
+1,40,9999,20

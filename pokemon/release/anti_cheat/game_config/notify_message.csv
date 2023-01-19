@@ -1,0 +1,8 @@
+变量名,_mailType,subject,subject_tw,subject_en,content,content_tw,content_en
+默认值,,"""""","""""","""""","""""","""""",""""""
+ID,消息功能（备注）,标题,標題,标题,内容,內容,内容
+1,Receive physical strength at 11 o'clock,Receive physical strength,領取體力,404,Receive physical strength at 11 o'clock,11點領取體力,404
+2,Receive stamina at 17:00,Receive physical strength,領取體力,404,Receive stamina at 17:00,17點領取體力,404
+3,Physical recovery is full,Physical recovery is full,體力恢復滿,404,Physical recovery is full,體力恢復滿,404
+4,Archaeological times are full,Archaeological times are full,考古次數滿,404,Archaeological times are full,考古次數滿,404
+5,Archaeological mines looted,The mine has been robbed!,礦洞被搶了！,Your mine has been looted!,"Your mine has been preempted by %s, the mine output reward has been sent with the email, please check it in time. \n I wish you a happy game!",您的礦洞已經被%s搶佔了，礦洞產出獎勵已隨郵件發送，請及時查收。\n    祝您遊戲愉快!,404

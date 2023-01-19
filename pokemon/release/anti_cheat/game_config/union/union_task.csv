@@ -1,0 +1,12 @@
+﻿"﻿变量名",type,userType,desc,desc_tw,desc_en,desc_kr,targetType,targetArg,targetArg2,targetDisplay,languages,contrib,award,goToPanel,sortID
+默认值,1,,"""""","""""","""""","""""",1,,,"""""",<cn;tw;en;vn;kr>,1,{},,999
+任务ID,任务结算周期类型（1每日 2每周）,执行人类型（1单人 2全公会）,任务描述,任务描述,任务描述,任务描述_韩,任务目标类型,任务目标参数,任务目标参数2,任务目标显示参数,语言区域,贡献度,奖励物品表,前往类型枚举:5位数关卡ID-关卡10000为主线不限关10100为主线第一章20000为困难不限关  gainWay获得途径   shop商店activity活动界面roleLogo头像界面figure个人形象界面gainGold点金界面recharge充值界面gainStamina购买体力friend好友界面cardBag背包界面strengthen还有培养界面handbook图鉴界面任意英文-数字表示其页签,排序值（值越大，排序越靠后）
+1,1,1,Spend 200000 coins,消耗200000金幣,Spend 200000 coins,200000코인 소모,20,200000,,200000,,30,{coin3=20;gold=5000},,10
+2,1,1,Accelerate a union member's Pokémon training 3 times,給公會成員精靈訓練加速3次,Accelerate a union member's Pokémon training 3 times,길드원의 포켓몬 훈련 3회 가속,56,3,,3,,30,{coin3=20;gold=5000},,11
+3,1,1,Donate to union 5 times,公會捐獻5次,Donate to union 5 times,길드 기부 5회,55,5,,5,,30,{coin3=20;gold=5000},,12
+4,2,1,Challenge union Dungeon 12 times in total,公會副本累積挑戰12次,Challenge union Dungeon 12 times in total,길드 던전 누적 12회 도전,59,12,,12,,200,{coin3=50;gold=20000},,102
+5,2,1,"Consumes 1,500 energy in total",累計消耗1500體力,"Consumes 1,500 energy in total",1500체력 누적 소모,28,1500,,1500,,200,{coin3=50;gold=20000},,103
+6,2,2,"All members achieve a total of 7,500 contribution points",所有會員累計獲得7500貢獻度,"All members achieve a total of 7,500 contribution points",모든 회원 공헌도 누적 7500 획득,75,7500,,7500,,1000,{coin3=200;gold=50000},,201
+7,2,2,"All members spend 50,000 diamonds in total",所有會員累計消耗50000鑽石,"All members spend 50,000 diamonds in total",모든 회원 누적 50000다이아 소모,21,50000,,50000,,1000,{coin3=200;gold=50000},,202
+8,2,2,Challenge union Dungeon a total of 200 times,公會副本累計挑戰200人次,Challenge union Dungeon a total of 200 times,길드 던전 누적 200명 도전,59,200,,200,,1000,{coin3=200;gold=50000},,203
+9,2,1,Gift shards at Wishing Center 10 times in total,許願中心累計贈送10次碎片,Gift shards at Wishing Center 10 times in total,소원 센터 조각 누적 10회 선물,98,10,,10,,200,{coin3=50;gold=20000},,101

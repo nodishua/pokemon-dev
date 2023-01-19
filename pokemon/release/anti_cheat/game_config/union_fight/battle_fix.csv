@@ -1,0 +1,13 @@
+变量名,_beizhu,attrType1,attrFix1,attrType2,attrFix2,attrType3,attrFix3,attrType4,attrFix4,attrType5,attrFix5,attrType6,attrFix6,attrType7,attrFix7
+默认值,,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+ID,进入战斗次数同ID,属性类型1治疗率,属性1修正值,属性类型2物攻,属性2修正值,属性类型3特攻,属性3修正值,属性类型4血量,属性4修正值,属性类型5物防,属性5修正值,属性类型6特防,属性6修正值,属性类型7回怒速度,属性7修正值
+1,Entering battle for the first time,28,1,7,1.2,8,1.2,1,1,9,1,10,1,5,1
+2,Enter the battle for the 2nd time,28,1,7,1,8,1,1,1,9,0.9,10,0.9,5,1
+3,Enter the battle for the 3rd time,28,0.9,7,0.9,8,0.9,1,0.9,9,0.8,10,0.8,5,0.9
+4,Enter the battle 4th time,28,0.8,7,0.8,8,0.8,1,0.8,9,0.7,10,0.7,5,0.8
+5,Enter the battle for the 5th time,28,0.7,7,0.7,8,0.7,1,0.7,9,0.6,10,0.6,5,0.7
+6,Enter the battle 6th time,28,0.6,7,0.6,8,0.6,1,0.6,9,0.5,10,0.5,5,0.6
+7,Enter the battle 7th time,28,0.5,7,0.5,8,0.5,1,0.5,9,0.4,10,0.4,5,0.5
+8,Entered the battle for the 8th time,28,0.4,7,0.5,8,0.5,1,0.5,9,0.3,10,0.3,5,0.4
+9,Entered the battle for the 9th time,28,0.4,7,0.4,8,0.4,1,0.4,9,0.3,10,0.3,5,0.4
+10,Enter the battle for the 10th time,28,0.4,7,0.4,8,0.4,1,0.4,9,0.3,10,0.3,5,0.4

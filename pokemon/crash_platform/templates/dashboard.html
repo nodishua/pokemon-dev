@@ -1,0 +1,367 @@
+{% extends "base.html" %}
+
+{% block head %}
+	<link rel="stylesheet" href={{ static_url("css/dashboard.css") }}>
+{% end %}
+
+{% block body %}
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#navbar-top-collapse">
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="/">TJ Collapse platform</a>
+			</div>
+			<div id="navbar-top-collapse" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">{{ name }}</a></li>
+					<li><a href="/logout">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+
+    <div class="sidebar">
+    	<div id="app-logo">
+    		<img src="/statics/logo_icon.png">
+    		{% if tag == 'shuma' %}
+    			<div>Digital adventure</div>
+    		{% else %}
+    			<div>Pocket monster</div>
+    		{% end %}
+    	</div>
+	    <ul class="nav">
+	        <li>
+	        	<a id="my-dashboard-show" href="/" class="s-active">
+	        		<span class="glyphicon glyphicon-home"></span>  Crash homepage
+	        	</a>
+	        </li>
+	        <li>
+	        	<a id="query-page" href="/querypage">
+		        	<span class="glyphicon glyphicon-search"></span>  Collapse query
+		        </a>
+	        </li>
+	        <li>
+	        	<a id="feedback-page" href="/feedback/page">
+		        	<span class="glyphicon glyphicon-search"></span>  Feedback query
+		        </a>
+	        </li>
+	        <li>
+	        	<a id="battle-show" href="/battle_log">
+		        	<span class="glyphicon glyphicon-search"></span> Anti -cheating war report query
+		        </a>
+	        </li>
+	        <li>
+	        	<a id="play-show" href="/play_report/query">
+		        	<span class="glyphicon glyphicon-search"></span>  Client war report querywar report query
+		        </a>
+	        </li>
+	        <li>
+	        	<a id="my-tables-show" href="/dbview">
+		        	<span class="glyphicon glyphicon-list"></span>  Data view
+		        </a>
+	        </li>
+	        <li>
+	        	<a href="#file-upload-modal" data-toggle="modal">
+	        		<span class="glyphicon glyphicon-upload"></span>  File Upload
+	        	</a>
+	        </li>
+	    </ul>
+	</div>
+
+<!-- File upload modal box -->
+	<div class="modal fade" id="file-upload-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+	        	<div id="tabContent" class="tab-content">
+	        		<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"
+								aria-hidden="true">×
+						</button>
+						<div>
+			        		<ul class="nav nav-tabs">
+							    <li class="active"><a href="#so-b" data-toggle="tab">symbols File Upload</a></li>
+								<li><a href="#dmp-b" data-toggle="tab">dmp File Upload</a></li>
+							</ul>
+			        	</div>
+					</div>
+					<div class="tab-pane fade in active" id="so-b">
+						<div class="modal-body">
+							<div>
+								<div class="margin-top-sm" style='margin-top: 8px;'>
+									<form class="form-inline">
+										<div class="form-group">
+											<label style="min-width: 108px;">platform</label>
+											<select id="phone-sys" class="form-control" style="min-width: 196px;">
+												<option>Android</option>
+								        		<option>IOS</option>
+											</select>
+										</div>
+									</form>
+								</div>
+								<div class="margin-top-xs" style='margin-top: 8px;'>
+									<form class="form-inline">
+										<div class="form-group">
+											<label class="fixed-width" style="min-width: 108px;">APP version number</label>
+											<input id="fileupload-versionid" class="form-control" placeholder="Please enter the corresponding app version number"/>
+										</div>
+									</form>
+								</div>
+								<div class="margin-top-xs" style='margin-top: 8px;'>
+									<form class="form-inline">
+										<div class="form-group">
+											<label class="fixed-width" style="min-width: 108px;">App package name </label>
+											<input id="fileupload-package" class="form-control" placeholder="Please enter the corresponding app package name"/>
+										</div>
+									</form>
+								</div>
+								<div class="margin-top-xs" style='margin-top: 8px;'>
+									<form class="form-inline">
+										<div class="form-group">
+											<label class="fixed-width" style="min-width: 108px;">App game name</label>
+											<input id="fileupload-game_name" class="form-control" placeholder="pleaseEnterTheCorrespondingAppGameName"/>
+										</div>
+									</form>
+								</div>
+								<div class="margin-top-sm" style="border-top: 2px solid #e7eaec; padding-top: 8px; margin-top: 8px;">
+									<div style="display: inline-block;">
+										<input id="location" class="form-control" style="min-width: 300px;" placeholder="Please select the file you need to uploadect the file you need to upload" disabled>
+									</div>
+									<div style="display: inline-block;">
+										<input type="button" value="Browse" class="btn btn-primary" onclick="$('#i-file').click();">
+									</div>
+									<input type="file" id='i-file' onchange="$('#location').val($('#i-file').val());" style="display: none">
+									<progress id="progressBar" style="display: none;"></progress>
+								</div>
+							</div>
+							<div>
+								<span id="version-error" style="color: red"></span>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<!-- <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button> -->
+							<button id="upload_file" type="button" class="btn btn-success">Start upload</button>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="dmp-b">
+						<div class="modal-body">
+							<div style="color: red;"><i>Please select a DMP file you want to upload。</i></div>
+							<div class="margin-top-sm" style="padding-top: 8px; margin-top: 8px;">
+								<div style="display: inline-block;">
+									<input id="location2" class="form-control" style="min-width: 300px;" placeholder="Please select the file you need to upload" disabled>
+								</div>
+								<div style="display: inline-block;">
+									<input type="button" value="Browse" class="btn btn-primary" onclick="$('#i-file2').click();">
+								</div>
+								<input type="file" id='i-file2' onchange="$('#location2').val($('#i-file2').val());" style="display: none">
+								<progress id="progressBar2" style="display: none;"></progress>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button id="dmp_upload" type="button" class="btn btn-success">Start upload</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid container-fluid-bc">
+		{% block main %}
+			<div class="row m-head">
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3"><h4>Break data analysis<h4></div>
+			</div>
+
+			<div class="well">
+				<div>
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#today-crash-data" data-toggle="tab">Real -time collapse data today</a>
+						</li>
+						<li>
+							<a href="#today-exception-data" data-toggle="tab">Real -time abnormal data today</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<div id="today-crash-data" class="tab-pane fade in active">
+						<div class="row">
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-align-left"></span>
+								Number of collapse: {{ dump_count }}
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-stats"></span>
+								Collapse:  xxx
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-align-left"></span>
+								Crash affects users:  {{ crash_user }}
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-stats"></span>
+								Start the user:  xxx
+							</div>
+						</div>
+					</div>
+
+					<div id="today-exception-data" class="tab-pane fade">
+						<div class="row">
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-align-left"></span>
+								Number of abnormal times:  {{ exception_count }}
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-stats"></span>
+								Abnormal rate:  xxx
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-align-left"></span>
+								Unusual affecting users:  {{ exception_user }}
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<span class="glyphicon glyphicon-stats"></span>
+								Start the user:  xxx
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="well">
+				<div>
+					<div style="display: inline-block;">
+						<span>Crash real -time trend chart</span>
+					</div>
+					<div style="display: inline-block; float: right;">
+						<form role="form">
+						  <div class="form-group">
+						    <select params="0" class="form-control input-sm">
+						      <option option_value=24>24 hours</option>
+						      <option option_value=7>7 days </option>
+						      <option option_value=30>30 days </option>
+						    </select>
+						  </div>
+						</form>
+					</div>
+					<div class="row">
+						<div id="chart-btn" class="col-lg-3 col-md-4 col-sm-5">
+							<div class="btn-group btn-group-xs btn-block btn-group-justified">
+								<a class="btn btn-info" href="javascript:;" btn-param="1">frequency</a>
+								<a class="btn" href="javascript:;" btn-param="2">ratio</a>
+								<a class="btn" href="javascript:;" btn-param="3">Influence users</a>
+								<a class="btn" href="javascript:;" btn-param="4">Start the user</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="div-dashboard-chart" style="padding: 0 40px 0 40px;">
+					<canvas class="my-4 w-100" id="dashboard-chart" height="40"></canvas>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="well">
+						<div>
+							<span>Today's issue statistics</span>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								<canvas id="dashboard-chart-pie1"></canvas>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								<canvas id="dashboard-chart-pie2"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="well">
+						<div style="overflow: hidden;">
+							<div style="float: left; padding-top: 7px;">Today TOP3 problem</div>
+							<div style="float: right; width: 125px;">
+								<div class="form-group">
+								  	<input id="show-time-period-ss" type="text" placeholder="选择今日时间段" class="form-control input-sm" readonly="readonly">
+								    <select id="time-period-ss" class="form-control" size=6>
+								    </select>
+								  </div>
+							</div>
+						</div>
+						<div id="top3"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="well" style="margin-bottom: 50px;" >
+				<div class="row search-group">
+					<div>
+						<span>Crane data statistics </span>
+					</div>
+					<div>
+						<form role="form">
+						  <div class="form-group">
+						    <select params=1 class="form-control input-sm">
+						    	<option option_value=7>Within a week</option>
+								<option option_value=1>within one day</option>
+								<option option_value=3>within three days</option>
+								<option option_value=30>Within 30 days</option>
+								<option option_value=60>Within 60 days</option>
+								<option option_value=0>all</option>
+						    </select>
+						  </div>
+						</form>
+					</div>
+					<div>
+						<form role="form">
+						  <div class="form-group">
+						    <select params=2 class="form-control input-sm">
+								<option option_value=0>All status</option>
+								<option option_value=-1>unprocessed status</option>
+								<option option_value=1>Processed Status</option>
+						    </select>
+						  </div>
+						</form>
+					</div>
+					<div>
+						<form role="form">
+						  <div class="form-group">
+						    <select params=3 class="form-control input-sm">
+								<option option_value=0>All errors</option>
+								<option option_value=-1>Crash error</option>
+								<option option_value=1>Exception error</option>
+						    </select>
+						  </div>
+						</form>
+					</div>
+					<div>
+						<form role="form">
+						  <div class="form-group">
+						  	<input id="show-version-ss" type="text" placeholder="Select the error report version number" class="form-control input-sm" readonly="readonly">
+						    <select id="version-ss" class="form-control" params=4 size=6>
+						        <option>All versions</option>
+						        {% for version in versionL%}
+							    	<option>{{ version }}</option>
+							    {% end %}
+						    </select>
+						  </div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<table id="dashboard-table" ></table>
+				</div>
+			</div>
+		{% end %}
+	</div>
+{% end %}
+
+{% block foot %}
+	<script src={{ static_url("js/fileupload.js") }}></script>
+	<script src={{ static_url("js/dashboard.js") }}></script>
+{% end %}

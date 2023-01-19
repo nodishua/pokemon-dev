@@ -1,0 +1,317 @@
+﻿"﻿变量名",name
+默认值,""""""
+ID,精灵名称
+1,Frog Seeds
+2,Froggrass
+3,Frog Flower
+4,Super Frog Flower
+11,Charmander
+12,fire dinosaur
+13,Charizard
+14,Super Charizard X
+15,Super Charizard Y
+21,Squirrel
+22,Cammy Turtle
+23,Blastoise
+24,Super Blastoise
+31,green caterpillar
+33,Butterfly
+43,Big Needle Bee
+44,super needle bee
+51,Bobo
+52,bibi bird
+53,Big bird
+61,Little Lada
+62,Rada
+71,sparrow
+72,Toucan
+81,Arbor snake
+82,Arbor
+91,Pichu
+92,pikachu
+93,Raichu
+101,Mountain rat
+102,Chuanshanwang
+111,Nidolan
+112,Nidorna
+113,Queen Nido
+121,Nidolan
+122,Nitorino
+123,King Nido
+131,skin baby
+132,Pippi
+133,Pixie
+151,Baby Ding
+152,Fat Ding
+153,Fat Keding
+171,walking grass
+172,stinky flower
+173,Rafflesia
+191,Hairball
+192,moru moth
+221,up to duck
+222,Gotha Duck
+231,monkey monster
+232,Fire Monkey
+241,katti dog
+242,wind speed dog
+261,casey
+262,Yongkila
+263,Hu Di
+264,Super Hudi
+271,wrist strength
+272,Hao Li
+273,Strange power
+281,trumpet buds
+282,Mouth flower
+283,big food flower
+301,Small fist stone
+302,Rumble Stone
+303,Rumble Rock
+331,Magneto
+332,Three in One Magneto
+333,Magneto
+341,Scallion Duck
+351,doodle
+352,Duduli
+371,smelly mud
+372,smelly mud
+381,Big tongue clam
+382,Spiny clam
+391,Ghost
+392,ghost stone
+393,Gengar
+394,Super Gengar
+401,rock snake
+402,steel snake
+403,super steel snake
+451,Caracalla
+452,Gala Gala
+461,dauntless boy
+462,flying legs
+463,Kuaiquan Lang
+464,War dancer
+471,big tongue
+472,Big tongue licking
+481,gas bomb
+482,double bomb gas
+491,one horned rhino
+492,Rhinoceros
+493,Super Armored Rhinoceros
+541,horned goldfish
+542,goldfish king
+551,starfish
+552,jewel starfish
+571,flying mantis
+572,Giant Pincer Mantis
+591,Zap monster
+592,Electrocute
+593,Electric Shock Monster
+601,Duckbill baby
+602,Platypus
+603,Platypus
+632,Gyarados
+641,Laplace
+691,fossil helmet
+692,sickle helmet
+701,Fossil pterosaur
+711,Snorkelling
+712,Snorlax
+721,frozen bird
+731,lightning bird
+741,flame bird
+751,mini dragon
+752,hackron
+753,fast dragon
+761,Mew-two
+771,dream
+781,Chrysanthemum leaves
+782,bay leaf
+783,Geranium
+791,fireball mouse
+792,Fire Rock Rat
+793,Pyrobeast
+801,Little Saw Alligator
+802,blue crocodile
+803,big crocodile
+881,Mare sheep
+882,wooly sheep
+883,Dianlong
+891,Lu Lili
+892,Mary Lou
+893,Mary Luli
+1071,Hercules
+1081,Huanla
+1082,Mala
+1171,Dai Ruby
+1172,Heluga
+1221,Thunder God
+1231,Yandi
+1241,Suicune
+1251,Young Kiras
+1252,Shakiras
+1253,Bankiras
+1261,Rogia
+1271,Phoenix King
+1291,Mu Shougong
+1292,forest lizard
+1293,lizard king
+1301,fire chicken
+1302,Strong Chicken
+1303,flame chicken
+1311,water jump fish
+1312,Marsh jumping fish
+1313,marsh monster
+1351,Lotus leaf boy
+1352,lotus hat boy
+1353,Lotte Kappa
+1391,Lalulas
+1392,Kirulian
+1393,Xanadu
+1394,Already
+1421,lazy otter
+1422,hyperactive ape
+1423,leave king
+1441,goo niu niu
+1442,roar bomb
+1443,Boom
+1501,cocoa dora
+1502,Cordora
+1503,Boss Cordora
+1611,dumbfounded
+1612,fire camel
+1801,Shadow Doll
+1802,curse doll
+1811,night watch
+1812,Wandering Eidolon
+1813,night genie
+1841,Absolu
+1851,snow boy
+1852,ice ghost guard
+1853,Snow Fairy
+1861,seal ball
+1862,sea magic lion
+1863,Diya sea lion
+1891,baby dragon
+1892,Crustosaurus
+1893,Tyrannosaurus
+1901,iron dumbbell
+1902,metal monster
+1903,Metagros
+1911,reggie lock
+1921,Regis
+1931,Regis Chilloo
+1941,Ladias
+1951,Latios
+1961,Gayoka
+1971,Gulardo
+1981,Rift seat
+2011,Turtle
+2012,wood turtle
+2013,Terra Turtle
+2071,kitty monster
+2072,luke cat
+2073,roentgen cat
+2231,round land shark
+2232,Fangtooth Shark
+2233,biting land shark
+2241,Riolu
+2242,lucario
+2271,bad frog
+2272,Poison Skeleton Frog
+2301,Snow hat monster
+2302,blizzard king
+2303,super blizzard king
+2351,Dialga
+2361,Palkia
+2381,Regichkas
+2391,Giratina
+2392,Giratina Origin
+2431,Darkley
+2441,Sammy Land
+2442,shami sky
+2471,vine snake
+2472,ivy snake
+2473,monarch snake
+2481,warm pig
+2482,fried pork
+2483,King Yanwu
+2591,stone balls
+2592,mantle rock
+2593,Pangyan monster
+2611,screw gopher
+2612,Gopher
+2631,porter
+2632,Ironbone
+2633,Build veterans
+2681,Centipede
+2682,Wheel Ball
+2683,King Centipede
+2721,black eyed crocodile
+2722,rogue crocodile
+2723,rogue crocodile
+2821,Soraya
+2822,Zoroak
+2841,Gothic baby
+2842,Gothic kid
+2843,Miss Goth
+2871,mini ice
+2872,lots of ice
+2873,double as much ice
+2891,Electric flying squirrel
+2921,Floating·female
+2922,Floating · Male
+2923,Chubby · Female
+2924,chubby male
+2961,Gear
+2962,gear set
+2963,Gear Monster
+2991,Candle Spirit
+2992,ghost lights
+2993,Crystal Lantern
+3001,Teeth
+3002,Axodont
+3003,Double Ax War Dragon
+3011,Sneezy Bear
+3012,Tundra Bear
+3021,geometric snowflake
+3141,Single headed dragon
+3142,Two-headed Tyrannosaurus
+3143,The Three Dragons
+3151,burning bug
+3152,Vulcan Moth
+3221,czech rom
+3281,Harley Chestnut
+3282,Chubby Harry
+3283,Bricaron
+3291,Firefox
+3292,Long Tail Firefox
+3293,Demon Fire Fox
+3301,croaking frog
+3302,Croaking frog
+3303,Koga Ninja Frog
+3341,little lion
+3342,Flame Lion
+3351,Hua Beibei
+3352,Mosaic
+3353,Mrs. Huajie
+3411,Single scabbard
+3412,double scabbard
+3413,Shield Sword Monster Shield
+3431,Soft Puffs
+3432,fat sweetie
+3471,Arm gun shrimp
+3472,Steel cannon arm shrimp
+3501,ice dragon
+3502,ice dragon
+3511,Wrestling Hawkman
+3541,sticky treasure
+3542,Sticky Mel
+3543,sticky dragon
+3561,Little wood spirit
+3562,Deadwood demon
+3631,Tianxi
+3642,Liberate Hoopa
+3771,Good and Bad Stars
+3772,super bad star
+4023,Solgaleo

@@ -1,0 +1,1 @@
+{"files": [{"size": 1029, "name": "res/version.plist", "md5": "6322a6390a16d2d622f40f01ca1c99ba"}, {"size": 2327, "name": "src/luacov.hook", "md5": "c2980441b7fa0da288f284a3ad81ed7f"}, {"size": 1015, "name": "src/packages.mvc.AppBase", "md5": "a47d1c3a12d041b2a2fcf2dba0694bd2"}], "svn_version": "31419", "git_version": "649ccad94e119359885eb110a0aff5b2771a262c"}

@@ -1,0 +1,85 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,type,showType,sortVal,totalCount,totalVal,date,conditionType,conditionNum,tipText,tipText_tw,tipText_en,tipText_vn,tipText_kr,goto
+默认值,"""""","""""","""""","""""","""""",1,1,,10,{gold=60000},7,1,1,"""""","""""","""""","""""","""""",
+ID,红包名称,红包名称,红包名称,红包名称_越南,红包名称_韩,循环类型(1-一次性;2-循环3-每天一次),红包外观表现,排序价值,个数,价值,有效期-指获取后可发放的时间,成就红包的数值来源,数值限制,飘字提示-与跳转二选一填,飘字提示-与跳转二选一填,飘字提示-与跳转二选一填,飘字提示-与跳转二选一填_越南,飘字提示-与跳转二选一填_韩,前往跳转
+,,,,,,,,,,,,,,,,,,,
+1,Winner of the arena,競技場結算稱冠,Winner of the arena,404404,아레나 결산 우승,1,2,30,10,{rmb=100},7,44,1,Requires trainer to attain Rank 1 in Arena,需要競技場結算第一名,Requires trainer to attain Rank 1 in Arena,404404,아레나 결산 1위 필요,
+2,Combat power rush to 5000,戰力衝刺達到5000,Combat power rush to 5000,404404,전투력 5000 달성,1,1,14,10,{gold=50000},7,97,5000,Requires combat power to reach 5000,需要戰鬥力到達5000,Requires combat power to reach 5000,404404,전투력 5000 달성 필요,
+3,Combat power rush to 10000,戰力衝刺達到10000,Combat power rush to 10000,404404,전투력 10000 달성,1,1,15,10,{gold=75000},7,97,10000,Requires combat power to reach 10000,需要戰鬥力到達10000,Requires combat power to reach 10000,404404,전투력 10000 달성 필요,
+4,Combat power rush to 30000,戰力衝刺達到30000,Combat power rush to 30000,404404,전투력 30000 달성,1,1,16,10,{gold=200000},7,97,30000,Requires combat power to reach 30000,需要戰鬥力到達30000,Requires combat power to reach 30000,404404,전투력 30000 달성 필요,
+5,Combat power rush to 50000,戰力衝刺達到50000,Combat power rush to 50000,404404,전투력 50000 달성,1,1,17,10,{gold=300000},7,97,50000,Requires combat power to reach 50000,需要戰鬥力到達50000,Requires combat power to reach 50000,404404,전투력 50000 달성 필요,
+6,Combat power rush to 75000,戰力衝刺達到75000,Combat power rush to 75000,404404,전투력 75000 달성,1,1,18,10,{gold=500000},7,97,75000,Requires combat power to reach 75000,需要戰鬥力到達75000,Requires combat power to reach 75000,404404,전투력 75000 달성 필요,
+7,Combat power rush to 100000,戰力衝刺達到100000,Combat power rush to 100000,404404,전투력 100000 달성,1,1,19,10,{gold=500000},7,97,100000,Requires combat power to reach 100000,需要戰鬥力到達100000,Requires combat power to reach 100000,404404,전투력 100000 달성 필요,
+8,Combat power rush to 200000,戰力衝刺達到200000,Combat power rush to 200000,404404,전투력 200000 달성,1,1,20,10,{rmb=100},7,97,200000,Requires combat power to reach 200000,需要戰鬥力到達200000,Requires combat power to reach 200000,404404,전투력 200000 달성 필요,
+9,Combat power rush to 300000,戰力衝刺達到300000,Combat power rush to 300000,404404,전투력 300000 달성,1,1,21,10,{rmb=100},7,97,300000,Requires combat power to reach 300000,需要戰鬥力到達300000,Requires combat power to reach 300000,404404,전투력 300000 달성 필요,
+10,Combat power rush to 400000,戰力衝刺達到400000,Combat power rush to 400000,404404,전투력 400000 달성,1,1,22,10,{rmb=100},7,97,400000,Requires combat power to reach 400000,需要戰鬥力到達400000,Requires combat power to reach 400000,404404,전투력 400000 달성 필요,
+11,Combat power rush to 500000,戰力衝刺達到500000,Combat power rush to 500000,404404,전투력 500000 달성,1,1,23,10,{rmb=100},7,97,500000,Requires combat power to reach 500000,需要戰鬥力到達500000,Requires combat power to reach 500000,404404,전투력 500000 달성 필요,
+12,Combat power rush to 600000,戰力衝刺達到600000,Combat power rush to 600000,404404,전투력 600000 달성,1,1,24,10,{rmb=100},7,97,600000,Requires combat power to reach 600000,需要戰鬥力到達600000,Requires combat power to reach 600000,404404,전투력 600000 달성 필요,
+13,Combat power rush to 800000,戰力衝刺達到800000,Combat power rush to 800000,404404,전투력 800000 달성,1,1,25,10,{rmb=100},7,97,800000,Requires combat power to reach 800000,需要戰鬥力到達800000,Requires combat power to reach 800000,404404,전투력 800000 달성 필요,
+14,Combat power rush to 1000000,戰力衝刺達到1000000,Combat power rush to 1000000,404404,전투력 1000000 달성,1,1,26,10,{rmb=100},7,97,1000000,Requires combat power to reach 1000000,需要戰鬥力到達1000000,Requires combat power to reach 1000000,404404,전투력 1000000 달성 필요,
+15,Combat power rush to 1200000,戰力衝刺達到1200000,Combat power rush to 1200000,404404,전투력 1200000 달성,1,1,27,10,{rmb=100},7,97,1200000,Requires combat power to reach 1200000,需要戰鬥力到達1200000,Requires combat power to reach 1200000,404404,전투력 1200000 달성 필요,
+16,Combat power rush to 1400000,戰力衝刺達到1400000,Combat power rush to 1400000,404404,전투력 1400000 달성,1,1,28,10,{rmb=100},7,97,1400000,Requires combat power to reach 1400000,需要戰鬥力到達1400000,Requires combat power to reach 1400000,404404,전투력 1400000 달성 필요,
+17,Combat power rush to 1600000,戰力衝刺達到1600000,Combat power rush to 1600000,404404,전투력 1600000 달성,1,1,29,10,{rmb=100},7,97,1600000,Requires combat power to reach 1600000,需要戰鬥力到達1600000,Requires combat power to reach 1600000,404404,전투력 1600000 달성 필요,
+18,Combat power rush to 1800000,戰力衝刺達到1800000,Combat power rush to 1800000,404404,전투력 1800000 달성,1,1,30,10,{rmb=100},7,97,1800000,Requires combat power to reach 1800000,需要戰鬥力到達1800000,Requires combat power to reach 1800000,404404,전투력 1800000 달성 필요,
+19,Combat power rush to 2000000,戰力衝刺達到2000000,Combat power rush to 2000000,404404,전투력 2000000 달성,1,1,31,10,{rmb=100},7,97,2000000,Requires combat power to reach 2000000,需要戰鬥力到達2000000,Requires combat power to reach 2000000,404404,전투력 2000000 달성 필요,
+20,Combat power rush to 2200000,戰力衝刺達到2200000,Combat power rush to 2200000,404404,전투력 2200000 달성,1,1,32,10,{rmb=100},7,97,2200000,Requires combat power to reach 2200000,需要戰鬥力到達2200000,Requires combat power to reach 2200000,404404,전투력 2200000 달성 필요,
+101,Combat power rush to 2400000,戰力衝刺達到2400000,Combat power rush to 2400000,404404,전투력 2400000 달성,1,1,33,10,{rmb=100},7,97,2400000,Requires combat power to reach 2400000,需要戰鬥力到達2400000,Requires combat power to reach 2400000,404404,전투력 2400000 달성 필요,
+102,Combat power rush to 2600000,戰力衝刺達到2600000,Combat power rush to 2600000,404404,전투력 2600000 달성,1,1,34,10,{rmb=100},7,97,2600000,Requires combat power to reach 2600000,需要戰鬥力到達2600000,Requires combat power to reach 2600000,404404,전투력 2600000 달성 필요,
+103,Combat power rush to 2800000,戰力衝刺達到2800000,Combat power rush to 2800000,404404,전투력 2800000 달성,1,1,35,10,{rmb=100},7,97,2800000,Requires combat power to reach 2800000,需要戰鬥力到達2800000,Requires combat power to reach 2800000,404404,전투력 2800000 달성 필요,
+104,Combat power rush to 3000000,戰力衝刺達到3000000,Combat power rush to 3000000,404404,전투력 3000000 달성,1,1,36,10,{rmb=100},7,97,3000000,Requires combat power to reach 3000000,需要戰鬥力到達3000000,Requires combat power to reach 3000000,404404,전투력 3000000 달성 필요,
+105,Combat power rush to 3500000,戰力衝刺達到3500000,Combat power rush to 3500000,404404,전투력 3500000 달성,1,1,37,10,{rmb=100},7,97,3500000,Requires combat power to reach 3500000,需要戰鬥力到達3500000,Requires combat power to reach 3500000,404404,전투력 3500000 달성 필요,
+106,Combat power rush to 4000000,戰力衝刺達到4000000,Combat power rush to 4000000,404404,전투력 4000000 달성,1,1,38,10,{rmb=100},7,97,4000000,Requires combat power to reach 4000000,需要戰鬥力到達4000000,Requires combat power to reach 4000000,404404,전투력 4000000 달성 필요,
+107,Combat power rush to 4500000,戰力衝刺達到4500000,Combat power rush to 4500000,404404,전투력 4500000 달성,1,1,39,10,{rmb=100},7,97,4500000,Requires combat power to reach 4500000,需要戰鬥力到達4500000,Requires combat power to reach 4500000,404404,전투력 4500000 달성 필요,
+108,Combat power rush to 5000000,戰力衝刺達到5000000,Combat power rush to 5000000,404404,전투력 5000000 달성,1,1,40,10,{rmb=100},7,97,5000000,Requires combat power to reach 5000000,需要戰鬥力到達5000000,Requires combat power to reach 5000000,404404,전투력 5000000 달성 필요,
+109,Combat power rush to 5500000,戰力衝刺達到5500000,Combat power rush to 5500000,404404,전투력 5500000 달성,1,1,41,10,{rmb=100},7,97,5500000,Requires combat power to reach 5500000,需要戰鬥力到達5500000,Requires combat power to reach 5500000,404404,전투력 5500000 달성 필요,
+110,Combat power rush to 6000000,戰力衝刺達到6000000,Combat power rush to 6000000,404404,전투력 6000000 달성,1,1,42,10,{rmb=100},7,97,6000000,Requires combat power to reach 6000000,需要戰鬥力到達6000000,Requires combat power to reach 6000000,404404,전투력 6000000 달성 필요,
+111,Combat power rush to 6500000,戰力衝刺達到6500000,Combat power rush to 6500000,404404,전투력 6500000 달성,1,1,43,10,{rmb=100},7,97,6500000,Requires combat power to reach 6500000,需要戰鬥力到達6500000,Requires combat power to reach 6500000,404404,전투력 6500000 달성 필요,
+112,Combat power rush to 7000000,戰力衝刺達到7000000,Combat power rush to 7000000,404404,전투력 7000000 달성,1,1,44,10,{rmb=100},7,97,7000000,Requires combat power to reach 7000000,需要戰鬥力到達7000000,Requires combat power to reach 7000000,404404,전투력 7000000 달성 필요,
+113,Combat power rush to 7500000,戰力衝刺達到7500000,Combat power rush to 7500000,404404,전투력 7500000 달성,1,1,45,10,{rmb=100},7,97,7500000,Requires combat power to reach 7500000,需要戰鬥力到達7500000,Requires combat power to reach 7500000,404404,전투력 7500000 달성 필요,
+114,Combat power rush to 8000000,戰力衝刺達到8000000,Combat power rush to 8000000,404404,전투력 8000000 달성,1,1,46,10,{rmb=100},7,97,8000000,Requires combat power to reach 8000000,需要戰鬥力到達8000000,Requires combat power to reach 8000000,404404,전투력 8000000 달성 필요,
+115,Combat power rush to 8500000,戰力衝刺達到8500000,Combat power rush to 8500000,404404,전투력 8500000 달성,1,1,47,10,{rmb=100},7,97,8500000,Requires combat power to reach 8500000,需要戰鬥力到達8500000,Requires combat power to reach 8500000,404404,전투력 8500000 달성 필요,
+116,Combat power rush to 9000000,戰力衝刺達到9000000,Combat power rush to 9000000,404404,전투력 9000000 달성,1,1,48,10,{rmb=100},7,97,9000000,Requires combat power to reach 9000000,需要戰鬥力到達9000000,Requires combat power to reach 9000000,404404,전투력 9000000 달성 필요,
+117,Combat power rush to 9500000,戰力衝刺達到9500000,Combat power rush to 9500000,404404,전투력 9500000 달성,1,1,49,10,{rmb=100},7,97,9500000,Requires combat power to reach 9500000,需要戰鬥力到達9500000,Requires combat power to reach 9500000,404404,전투력 9500000 달성 필요,
+118,Combat power rush to 10000000,戰力衝刺達到10000000,Combat power rush to 10000000,404404,전투력 10000000 달성,1,1,50,10,{rmb=100},7,97,10000000,Requires combat power to reach 10000000,需要戰鬥力到達10000000,Requires combat power to reach 10000000,404404,전투력 10000000 달성 필요,
+,,,,,,,,,,,,,,,,,,,
+21,Attain Team level 10,隊伍等級達到10級,Attain Team level 10,404404,팀 10레벨 달성,1,1,8,10,{gold=100000},7,1,10,Requires the team to reach level 10,需要隊伍等級到達10,Requires the team to reach level 10,404404,팀 레벨 10 달성 필요,
+22,Attain Team level 20,隊伍等級達到20級,Attain Team level 20,404404,팀 20레벨 달성,1,1,9,10,{gold=200000},7,1,20,Requires the team to reach level 20,需要隊伍等級到達20,Requires the team to reach level 20,404404,팀 레벨 20 달성 필요,
+23,Attain Team level 30,隊伍等級達到30級,Attain Team level 30,404404,팀 30레벨 달성,1,1,10,10,{gold=300000},7,1,30,Requires the team to reach level 30,需要隊伍等級到達30,Requires the team to reach level 30,404404,팀 레벨 30 달성 필요,
+24,Attain Team level 40,隊伍等級達到40級,Attain Team level 40,404404,팀 40레벨 달성,1,1,11,10,{gold=300000},7,1,40,Requires the team to reach level 40,需要隊伍等級到達40,Requires the team to reach level 40,404404,팀 레벨 40 달성 필요,
+25,Attain Team level 60,隊伍等級達到60級,Attain Team level 60,404404,팀 60레벨 달성,1,1,12,10,{gold=500000},7,1,60,Requires the team to reach level 60,需要隊伍等級到達60,Requires the team to reach level 60,404404,팀 레벨 60 달성 필요,
+26,Attain Team level 80,隊伍等級達到80級,Attain Team level 80,404404,팀 80레벨 달성,1,1,13,10,{gold=500000},7,1,80,Requires the team to reach level 80,需要隊伍等級到達80,Requires the team to reach level 80,404404,팀 레벨 80 달성 필요,
+27,Attain Team level 90,隊伍等級達到90級,Attain Team level 90,404404,팀 90레벨 달성,1,1,14,10,{gold=800000},7,1,90,Requires the team to reach level 90,需要隊伍等級到達90,Requires the team to reach level 90,404404,팀 레벨 90 달성 필요,
+28,Attain Team level 99,隊伍等級達到99級,Attain Team level 99,404404,팀 99레벨 달성,1,1,15,10,{gold=1000000},7,1,99,Requires the team to reach level 99,需要隊伍等級到達99,Requires the team to reach level 99,404404,팀 레벨 99 달성 필요,
+29,Attain Team level 104,隊伍等級達到104級,Attain Team level 104,404404,팀 104레벨 달성,1,1,16,10,{gold=1200000},7,1,104,Requires the team to reach level 104,需要隊伍等級到達104,Requires the team to reach level 104,404404,팀 레벨 104 달성 필요,
+,,,,,,,,,,,,,,,,,,,
+31,Clear main dungeon level 1-6,主線副本通關1-6,Clear main dungeon level 1-6,404404,메인 던전 1-6 클리어,1,1,1,10,{gold=50000},7,2,10105,,,,,,10105
+32,Clear main dungeon level 3-8,主線副本通關3-8,Clear main dungeon level 3-8,404404,메인 던전 3-8 클리어,1,1,2,10,{gold=100000},7,2,10308,,,,,,10308
+33,Clear main dungeon level 5-10,主線副本通關5-10,Clear main dungeon level 5-10,404404,메인 던전 5-10 클리어,1,1,3,10,{gold=200000},7,2,10510,,,,,,10510
+34,Clear main dungeon level 7-10,主線副本通關7-10,Clear main dungeon level 7-10,404404,메인 던전 7-10 클리어,1,1,4,10,{gold=300000},7,2,10710,,,,,,10710
+35,Clear main dungeon level 9-10,主線副本通關9-10,Clear main dungeon level 9-10,404404,메인 던전 9-10 클리어,1,1,5,10,{gold=500000},7,2,10910,,,,,,10910
+36,Clear main dungeon level 11-10,主線副本通關11-10,Clear main dungeon level 11-10,404404,메인 던전 11-10 클리어,1,1,6,10,{rmb=100},7,2,11110,,,,,,11110
+37,Clear main dungeon level 13-10,主線副本通關13-10,Clear main dungeon level 13-10,404404,메인 던전 13-10 클리어,1,1,7,10,{rmb=100},7,2,11310,,,,,,11310
+38,Clear main dungeon level 15-10,主線副本通關15-10,Clear main dungeon level 15-10,404404,메인 던전 15-10 클리어,1,1,7,10,{rmb=100},7,2,11510,,,,,,11510
+39,Clear main dungeon level 17-10,主線副本通關17-10,Clear main dungeon level 17-10,404404,메인 던전 17-10 클리어,1,1,7,10,{rmb=100},7,2,11710,,,,,,11710
+40,Clear main dungeon level 19-10,主線副本通關19-10,Clear main dungeon level 19-10,404404,메인 던전 19-10 클리어,1,1,7,10,{rmb=100},7,2,11910,,,,,,11910
+241,Clear main dungeon level 21-10,主線副本通關21-10,Clear main dungeon level 21-10,404404,메인 던전 21-10 클리어,1,1,7,10,{rmb=100},7,2,12110,,,,,,12110
+242,Clear main dungeon level 22-10,主線副本通關22-10,Clear main dungeon level 22-10,404404,메인 던전 22-10 클리어,1,1,7,10,{rmb=100},7,2,12210,,,,,,12210
+,,,,,,,,,,,,,,,,,,,
+41,Top-up 3280 Diamonds today,今日儲值3280鑽,Top-up 3280 Diamonds today,404404,오늘 3280다이아 충전,3,2,0,10,{rmb=100},7,22,3280,,,,,,recharge
+42,Top-up 6480 Diamonds today,今日儲值6480鑽,Top-up 6480 Diamonds today,404404,오늘 6480다이아 충전,3,2,0,10,{rmb=150},7,22,6480,,,,,,recharge
+51,Attain VIP level 5,VIP等級達到5,Attain VIP level 5,404404,VIP 5레벨 달성,1,2,0,10,{rmb=100},7,5,5,,,,,,recharge
+52,Attain VIP level 7,VIP等級達到7,Attain VIP level 7,404404,VIP 7레벨 달성,1,2,0,10,{rmb=200},7,5,7,,,,,,recharge
+53,Attain VIP level 10,VIP等級達到10,Attain VIP level 10,404404,VIP 10레벨 달성,1,2,0,10,{rmb=300},7,5,10,,,,,,recharge
+54,Attain VIP level 12,VIP等級達到12,Attain VIP level 12,404404,VIP 12레벨 달성,1,2,0,10,{rmb=400},7,5,12,,,,,,recharge
+55,Attain VIP level 15,VIP等級達到15,Attain VIP level 15,404404,VIP 15레벨 달성,1,2,0,10,{rmb=500},7,5,15,,,,,,recharge
+56,Attain VIP level 16,VIP等級達到16,Attain VIP level 16,404404,VIP 16레벨 달성,1,2,0,10,{rmb=500},7,5,16,,,,,,recharge
+57,Attain VIP level 17,VIP等級達到17,Attain VIP level 17,404404,VIP 17레벨 달성,1,2,0,10,{rmb=500},7,5,17,,,,,,recharge
+58,Attain VIP level 18,VIP等級達到18,Attain VIP level 18,404404,VIP 18레벨 달성,1,2,0,10,{rmb=500},7,5,18,,,,,,recharge
+,,,,,,,,,,,,,,,,,,,
+60,Clear nightmare level 3-1,噩夢副本通關3-1,Clear nightmare level 3-1,404404,악몽 던전 3-1 클리어,1,1,1,10,{gold=200000},7,2,30301,,,,,,30301
+61,Clear nightmare level 6-1,噩夢副本通關6-1,Clear nightmare level 6-1,404404,악몽 던전 6-1 클리어,1,1,1,10,{gold=300000},7,2,30601,,,,,,30601
+62,Clear nightmare level 9-1,噩夢副本通關9-1,Clear nightmare level 9-1,404404,악몽 던전 9-1 클리어,1,1,1,10,{gold=300000},7,2,30901,,,,,,30901
+63,Clear nightmare level 12-1,噩夢副本通關12-1,Clear nightmare level 12-1,404404,악몽 던전 12-1 클리어,1,1,1,10,{gold=500000},7,2,31201,,,,,,31201
+64,Clear nightmare level 15-1,噩夢副本通關15-1,Clear nightmare level 15-1,404404,악몽 던전 15-1 클리어,1,1,1,10,{gold=500000},7,2,31501,,,,,,31501
+65,Clear nightmare level 18-1,噩夢副本通關18-1,Clear nightmare level 18-1,404404,악몽 던전 18-1 클리어,1,1,1,10,{gold=800000},7,2,31801,,,,,,31801
+66,Clear nightmare level 21-1,噩夢副本通關21-1,Clear nightmare level 21-1,404404,악몽 던전 21-1 클리어,1,1,1,10,{gold=1200000},7,2,32101,,,,,,32101
+67,Clear nightmare level 22-1,噩夢副本通關22-1,Clear nightmare level 22-1,404404,악몽 던전 22-1 클리어,1,1,1,10,{gold=1600000},7,2,32201,,,,,,32201

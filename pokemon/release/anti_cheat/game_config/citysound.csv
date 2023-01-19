@@ -1,0 +1,6 @@
+﻿变量名,path,name,name_tw,name_en,name_kr
+默认值,"""""",默认场景,默認場景,默认场景,默认场景
+ID,资源路径,场景名字,場景名字,场景名字,场景名字_韩
+1,city.mp3,Defult,預設音樂,Defult,기본 음악
+2,city2.mp3,brisk,輕快,brisk,경쾌
+3,city3.mp3,Lyrical,抒情,Lyrical,발라드

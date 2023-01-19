@@ -1,0 +1,10 @@
+﻿"﻿变量名",huodongID,type,trigger,params,resources,name,name_tw,name_en,name_vn,name_kr,desc,desc_tw,desc_en,desc_vn,desc_kr
+默认值,1001,1,0,{},<>,"""""","""""","""""","""""","""""","""""","""""","""""","""""",""""""
+ID,活动版本号,随机事件（1转盘2厄运卡3+活动币4-活动币5飞跃格6小店99宝藏点）,触发机制（1经过触发 2停驻触发）,配置内容（转盘、厄运卡：{items=<<id;num;weight>;<...>>}这个格式中选一个；加减四叶草、飞跃格、商店：{num=相应的数or概率}；宝藏：(dist离几个格子；num随几个奖励）{dist=31; num=2; awards=<<id;num;weight>;<...>>},资源图,名字,名字tw,名字en,名字vn,名字kr,描述,描述tw,描述en,描述vn,描述kr
+1,,1,2,{items=<<8116;1;80>;<27001;1;150>;<8111;1;110>;<6393;3;150>;<8114;1;140>;<8102;5;150>;<gold;20000;150>;<8112;1;150>>},"<""icon_bg2.png"";""icon_xyzp.png"">",Wheel of Fortune,幸運轉盤,,,,Randomly get a small reward when you stop on the grid,停在格子上時可隨機獲得一個小獎勵,,,
+2,,2,2,{items=<<8102;1;100>;<8102;2;200>;<8115;1;150>;<8102;4;200>;<8117;1;150>;<8113;1;150>;<8114;1;150>>},"<""icon_bg8.png"";""icon_eyk.png"">",bad luck card,厄運卡,,,,Gain a small penalty when parking on a grid,停在格子上時會獲得一個小懲罰,,,
+3,,3,2,{num=3},"<""icon_bg4.png"";""icon_hz.png"">",Explorer Medal+,探險者勳章+,,,,Get Explorer Medal +3 when you land on a grid,停在格子上時將獲得探險者勳章+3,,,
+4,,4,2,{num=1},"<""icon_bg1.png"";""icon_hz.png"">",Explorer Medal -,探險者勳章-,,,,"When stopping on the grid, the Explorer Medal -1 will be deducted",停在格子上時得扣除探險者勳章-1,,,
+5,,5,2,{num=3},"<""icon_bg5.png"";""icon_bg6.png"";""icon_bg7.png"">",leap grid,飛躍格,,,,"After stopping on the grid, you can move forward 3 grids",停在格子上後還能再往前移動3格,,,
+6,,6,1,{num=0.6},"<""icon_bg3.png"">",shop,小店,,,,You can buy a product once when you pass or stop on the grid,途徑或停在格子上都能購買1次商品,,,
+7,,99,1,{dist=34;awards={libs=<10111;10112;10113;10114;10115>}},"<""icon_bg9.png"">",treasure chest,寶箱,,,,Passing or stopping on the grid will get super big rewards!,途徑或停在格子上都將獲得超級大獎勵！,,,

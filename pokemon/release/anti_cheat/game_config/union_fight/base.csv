@@ -1,0 +1,4 @@
+变量名,servOpenDays,servOpenDays_tw,autoSignVIP,preSignAward,finalSignAward,winAward,winLimit,winPoint,failPoint,minBetRate,betRateFix,maxBetWin
+默认值,,,,{},{},{},,,,,,
+ID,相对开服开启时间,台湾相对开服开启时间,自动报名VIP,预选赛报名奖励,决赛报名奖励,胜利奖励,胜利上限,胜利积分,失败积分,最小赔率,赔率修正系数,最大陪值
+1,14,14,3,{gold=100000;rmb=20;5503=5},{gold=200000;rmb=50;5504=5},{5503=1},6,2,1,2,1,1000000

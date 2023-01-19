@@ -1,0 +1,2470 @@
+{
+  "account.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "account",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.8:27017/account?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "accountdb.tw.1"
+      }
+    ]
+  },
+  "commentdb.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "comment_tw",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/comment_tw?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "commentdb.tw.1"
+      }
+    ]
+  },
+  "crossdb.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_1",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/cross_tw_1?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.1",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.10": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_10",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/cross_tw_10?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.10",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.11": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_11",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/cross_tw_11?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.11",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.12": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_12",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/cross_tw_12?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.12",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.13": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_13",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/cross_tw_13?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.13",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.14": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_14",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/cross_tw_14?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.14",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.15": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_15",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/cross_tw_15?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.15",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.16": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_16",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/cross_tw_16?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.16",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.17": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_17",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/cross_tw_17?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.17",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.18": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_18",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/cross_tw_18?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.18",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.19": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_19",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/cross_tw_19?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.19",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.2": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_2",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/cross_tw_2?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.2",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.20": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_20",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/cross_tw_20?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.20",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.21": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_21",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/cross_tw_21?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.21",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.22": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_22",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/cross_tw_22?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.22",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.23": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_23",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/cross_tw_23?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.23",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.24": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_24",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/cross_tw_24?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.24",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.3": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_3",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/cross_tw_3?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.3",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.4": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_4",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/cross_tw_4?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.4",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.5": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_5",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/cross_tw_5?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.5",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.6": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_6",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/cross_tw_6?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.6",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.7": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_7",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/cross_tw_7?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.7",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.8": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_8",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/cross_tw_8?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.8",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "crossdb.tw.9": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "cross_tw_9",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/cross_tw_9?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "crossdb.tw.9",
+        "pool_limit": 10
+      }
+    ]
+  },
+  "gift.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "gift",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.8:27017/gift?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "giftdb.tw.1"
+      }
+    ]
+  },
+  "paymentdb.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "order",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.8:27017/order?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "paymentdb.tw.1"
+      }
+    ]
+  },
+  "storage.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_1",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_1?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.1"
+      }
+    ]
+  },
+  "storage.tw.10": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_10",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_10?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.10"
+      }
+    ]
+  },
+  "storage.tw.100": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_100",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_100?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.100"
+      }
+    ]
+  },
+  "storage.tw.101": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_101",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_101?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.101"
+      }
+    ]
+  },
+  "storage.tw.102": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_102",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_102?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.102"
+      }
+    ]
+  },
+  "storage.tw.103": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_103",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_103?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.103"
+      }
+    ]
+  },
+  "storage.tw.104": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_104",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_104?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.104"
+      }
+    ]
+  },
+  "storage.tw.105": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_105",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_105?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.105"
+      }
+    ]
+  },
+  "storage.tw.106": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_106",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_106?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.106"
+      }
+    ]
+  },
+  "storage.tw.107": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_107",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_107?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.107"
+      }
+    ]
+  },
+  "storage.tw.108": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_108",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_108?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.108"
+      }
+    ]
+  },
+  "storage.tw.109": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_109",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_109?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.109"
+      }
+    ]
+  },
+  "storage.tw.11": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_11",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_11?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.11"
+      }
+    ]
+  },
+  "storage.tw.110": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_110",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_110?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.110"
+      }
+    ]
+  },
+  "storage.tw.111": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_111",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_111?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.111"
+      }
+    ]
+  },
+  "storage.tw.112": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_112",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_112?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.112"
+      }
+    ]
+  },
+  "storage.tw.113": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_113",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_113?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.113"
+      }
+    ]
+  },
+  "storage.tw.114": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_114",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_114?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.114"
+      }
+    ]
+  },
+  "storage.tw.115": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_115",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_115?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.115"
+      }
+    ]
+  },
+  "storage.tw.116": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_116",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_116?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.116"
+      }
+    ]
+  },
+  "storage.tw.117": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_117",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_117?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.117"
+      }
+    ]
+  },
+  "storage.tw.118": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_118",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_118?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.118"
+      }
+    ]
+  },
+  "storage.tw.119": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_119",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_119?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.119"
+      }
+    ]
+  },
+  "storage.tw.12": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_12",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_12?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.12"
+      }
+    ]
+  },
+  "storage.tw.120": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_120",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_120?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.120"
+      }
+    ]
+  },
+  "storage.tw.121": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_121",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_121?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.121"
+      }
+    ]
+  },
+  "storage.tw.122": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_122",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_122?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.122"
+      }
+    ]
+  },
+  "storage.tw.123": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_123",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_123?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.123"
+      }
+    ]
+  },
+  "storage.tw.124": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_124",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_124?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.124"
+      }
+    ]
+  },
+  "storage.tw.125": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_125",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_125?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.125"
+      }
+    ]
+  },
+  "storage.tw.126": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_126",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_126?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.126"
+      }
+    ]
+  },
+  "storage.tw.127": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_127",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_127?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.127"
+      }
+    ]
+  },
+  "storage.tw.128": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_128",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_128?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.128"
+      }
+    ]
+  },
+  "storage.tw.129": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_129",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_129?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.129"
+      }
+    ]
+  },
+  "storage.tw.13": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_13",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_13?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.13"
+      }
+    ]
+  },
+  "storage.tw.130": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_130",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_130?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.130"
+      }
+    ]
+  },
+  "storage.tw.131": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_131",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_131?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.131"
+      }
+    ]
+  },
+  "storage.tw.132": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_132",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_132?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.132"
+      }
+    ]
+  },
+  "storage.tw.133": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_133",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_133?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.133"
+      }
+    ]
+  },
+  "storage.tw.134": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_134",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_134?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.134"
+      }
+    ]
+  },
+  "storage.tw.135": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_135",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_135?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.135"
+      }
+    ]
+  },
+  "storage.tw.136": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_136",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_136?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.136"
+      }
+    ]
+  },
+  "storage.tw.137": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_137",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_137?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.137"
+      }
+    ]
+  },
+  "storage.tw.138": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_138",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_138?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.138"
+      }
+    ]
+  },
+  "storage.tw.139": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_139",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_139?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.139"
+      }
+    ]
+  },
+  "storage.tw.14": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_14",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_14?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.14"
+      }
+    ]
+  },
+  "storage.tw.140": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_140",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_140?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.140"
+      }
+    ]
+  },
+  "storage.tw.141": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_141",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_141?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.141"
+      }
+    ]
+  },
+  "storage.tw.142": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_142",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_142?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.142"
+      }
+    ]
+  },
+  "storage.tw.143": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_143",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_143?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.143"
+      }
+    ]
+  },
+  "storage.tw.144": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_144",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_144?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.144"
+      }
+    ]
+  },
+  "storage.tw.145": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_145",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_145?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.145"
+      }
+    ]
+  },
+  "storage.tw.146": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_146",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_146?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.146"
+      }
+    ]
+  },
+  "storage.tw.147": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_147",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_147?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.147"
+      }
+    ]
+  },
+  "storage.tw.148": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_148",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_148?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.148"
+      }
+    ]
+  },
+  "storage.tw.149": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_149",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_149?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.149"
+      }
+    ]
+  },
+  "storage.tw.15": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_15",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_15?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.15"
+      }
+    ]
+  },
+  "storage.tw.150": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_150",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_150?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.150"
+      }
+    ]
+  },
+  "storage.tw.151": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_151",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_151?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.151"
+      }
+    ]
+  },
+  "storage.tw.152": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_152",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_152?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.152"
+      }
+    ]
+  },
+  "storage.tw.153": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_153",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_153?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.153"
+      }
+    ]
+  },
+  "storage.tw.154": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_154",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_154?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.154"
+      }
+    ]
+  },
+  "storage.tw.155": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_155",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_155?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.155"
+      }
+    ]
+  },
+  "storage.tw.156": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_156",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_156?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.156"
+      }
+    ]
+  },
+  "storage.tw.157": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_157",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_157?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.157"
+      }
+    ]
+  },
+  "storage.tw.158": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_158",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_158?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.158"
+      }
+    ]
+  },
+  "storage.tw.159": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_159",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_159?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.159"
+      }
+    ]
+  },
+  "storage.tw.16": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_16",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_16?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.16"
+      }
+    ]
+  },
+  "storage.tw.160": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_160",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.19:27017/game_tw_160?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.160"
+      }
+    ]
+  },
+  "storage.tw.17": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_17",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_17?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.17"
+      }
+    ]
+  },
+  "storage.tw.18": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_18",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_18?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.18"
+      }
+    ]
+  },
+  "storage.tw.19": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_19",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_19?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.19"
+      }
+    ]
+  },
+  "storage.tw.2": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_2",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_2?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.2"
+      }
+    ]
+  },
+  "storage.tw.20": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_20",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_20?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.20"
+      }
+    ]
+  },
+  "storage.tw.21": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_21",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_21?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.21"
+      }
+    ]
+  },
+  "storage.tw.22": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_22",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_22?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.22"
+      }
+    ]
+  },
+  "storage.tw.23": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_23",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_23?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.23"
+      }
+    ]
+  },
+  "storage.tw.24": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_24",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_24?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.24"
+      }
+    ]
+  },
+  "storage.tw.25": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_25",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_25?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.25"
+      }
+    ]
+  },
+  "storage.tw.26": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_26",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_26?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.26"
+      }
+    ]
+  },
+  "storage.tw.27": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_27",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_27?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.27"
+      }
+    ]
+  },
+  "storage.tw.28": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_28",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_28?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.28"
+      }
+    ]
+  },
+  "storage.tw.29": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_29",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_29?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.29"
+      }
+    ]
+  },
+  "storage.tw.3": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_3",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_3?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.3"
+      }
+    ]
+  },
+  "storage.tw.30": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_30",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_30?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.30"
+      }
+    ]
+  },
+  "storage.tw.31": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_31",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_31?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.31"
+      }
+    ]
+  },
+  "storage.tw.32": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_32",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_32?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.32"
+      }
+    ]
+  },
+  "storage.tw.33": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_33",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_33?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.33"
+      }
+    ]
+  },
+  "storage.tw.34": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_34",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_34?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.34"
+      }
+    ]
+  },
+  "storage.tw.35": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_35",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_35?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.35"
+      }
+    ]
+  },
+  "storage.tw.36": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_36",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_36?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.36"
+      }
+    ]
+  },
+  "storage.tw.37": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_37",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_37?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.37"
+      }
+    ]
+  },
+  "storage.tw.38": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_38",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_38?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.38"
+      }
+    ]
+  },
+  "storage.tw.39": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_39",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_39?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.39"
+      }
+    ]
+  },
+  "storage.tw.4": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_4",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_4?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.4"
+      }
+    ]
+  },
+  "storage.tw.40": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_40",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_40?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.40"
+      }
+    ]
+  },
+  "storage.tw.41": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_41",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_41?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.41"
+      }
+    ]
+  },
+  "storage.tw.42": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_42",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_42?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.42"
+      }
+    ]
+  },
+  "storage.tw.43": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_43",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_43?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.43"
+      }
+    ]
+  },
+  "storage.tw.44": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_44",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_44?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.44"
+      }
+    ]
+  },
+  "storage.tw.45": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_45",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_45?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.45"
+      }
+    ]
+  },
+  "storage.tw.46": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_46",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_46?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.46"
+      }
+    ]
+  },
+  "storage.tw.47": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_47",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_47?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.47"
+      }
+    ]
+  },
+  "storage.tw.48": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_48",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_48?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.48"
+      }
+    ]
+  },
+  "storage.tw.49": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_49",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_49?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.49"
+      }
+    ]
+  },
+  "storage.tw.5": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_5",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_5?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.5"
+      }
+    ]
+  },
+  "storage.tw.50": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_50",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_50?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.50"
+      }
+    ]
+  },
+  "storage.tw.51": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_51",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_51?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.51"
+      }
+    ]
+  },
+  "storage.tw.52": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_52",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_52?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.52"
+      }
+    ]
+  },
+  "storage.tw.53": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_53",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_53?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.53"
+      }
+    ]
+  },
+  "storage.tw.54": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_54",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_54?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.54"
+      }
+    ]
+  },
+  "storage.tw.55": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_55",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_55?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.55"
+      }
+    ]
+  },
+  "storage.tw.56": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_56",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_56?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.56"
+      }
+    ]
+  },
+  "storage.tw.57": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_57",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_57?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.57"
+      }
+    ]
+  },
+  "storage.tw.58": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_58",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_58?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.58"
+      }
+    ]
+  },
+  "storage.tw.59": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_59",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_59?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.59"
+      }
+    ]
+  },
+  "storage.tw.6": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_6",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_6?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.6"
+      }
+    ]
+  },
+  "storage.tw.60": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_60",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_60?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.60"
+      }
+    ]
+  },
+  "storage.tw.61": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_61",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_61?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.61"
+      }
+    ]
+  },
+  "storage.tw.62": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_62",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_62?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.62"
+      }
+    ]
+  },
+  "storage.tw.63": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_63",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_63?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.63"
+      }
+    ]
+  },
+  "storage.tw.64": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_64",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_64?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.64"
+      }
+    ]
+  },
+  "storage.tw.65": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_65",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_65?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.65"
+      }
+    ]
+  },
+  "storage.tw.66": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_66",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_66?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.66"
+      }
+    ]
+  },
+  "storage.tw.67": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_67",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_67?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.67"
+      }
+    ]
+  },
+  "storage.tw.68": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_68",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_68?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.68"
+      }
+    ]
+  },
+  "storage.tw.69": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_69",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_69?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.69"
+      }
+    ]
+  },
+  "storage.tw.7": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_7",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_7?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.7"
+      }
+    ]
+  },
+  "storage.tw.70": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_70",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_70?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.70"
+      }
+    ]
+  },
+  "storage.tw.71": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_71",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_71?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.71"
+      }
+    ]
+  },
+  "storage.tw.72": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_72",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_72?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.72"
+      }
+    ]
+  },
+  "storage.tw.73": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_73",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_73?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.73"
+      }
+    ]
+  },
+  "storage.tw.74": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_74",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_74?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.74"
+      }
+    ]
+  },
+  "storage.tw.75": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_75",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_75?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.75"
+      }
+    ]
+  },
+  "storage.tw.76": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_76",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_76?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.76"
+      }
+    ]
+  },
+  "storage.tw.77": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_77",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_77?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.77"
+      }
+    ]
+  },
+  "storage.tw.78": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_78",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_78?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.78"
+      }
+    ]
+  },
+  "storage.tw.79": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_79",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_79?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.79"
+      }
+    ]
+  },
+  "storage.tw.8": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_8",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_8?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.8"
+      }
+    ]
+  },
+  "storage.tw.80": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_80",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.6:27017/game_tw_80?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.80"
+      }
+    ]
+  },
+  "storage.tw.81": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_81",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_81?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.81"
+      }
+    ]
+  },
+  "storage.tw.82": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_82",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_82?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.82"
+      }
+    ]
+  },
+  "storage.tw.83": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_83",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_83?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.83"
+      }
+    ]
+  },
+  "storage.tw.84": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_84",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_84?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.84"
+      }
+    ]
+  },
+  "storage.tw.85": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_85",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_85?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.85"
+      }
+    ]
+  },
+  "storage.tw.86": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_86",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_86?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.86"
+      }
+    ]
+  },
+  "storage.tw.87": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_87",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_87?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.87"
+      }
+    ]
+  },
+  "storage.tw.88": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_88",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_88?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.88"
+      }
+    ]
+  },
+  "storage.tw.89": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_89",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_89?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.89"
+      }
+    ]
+  },
+  "storage.tw.9": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_9",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/game_tw_9?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.9"
+      }
+    ]
+  },
+  "storage.tw.90": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_90",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_90?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.90"
+      }
+    ]
+  },
+  "storage.tw.91": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_91",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_91?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.91"
+      }
+    ]
+  },
+  "storage.tw.92": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_92",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_92?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.92"
+      }
+    ]
+  },
+  "storage.tw.93": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_93",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_93?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.93"
+      }
+    ]
+  },
+  "storage.tw.94": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_94",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_94?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.94"
+      }
+    ]
+  },
+  "storage.tw.95": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_95",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_95?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.95"
+      }
+    ]
+  },
+  "storage.tw.96": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_96",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_96?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.96"
+      }
+    ]
+  },
+  "storage.tw.97": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_97",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_97?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.97"
+      }
+    ]
+  },
+  "storage.tw.98": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_98",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_98?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.98"
+      }
+    ]
+  },
+  "storage.tw.99": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ],
+    "nsqlookupd": "http://172.19.0.15:4161/",
+    "services": [
+      {
+        "dbname": "game_tw_99",
+        "mongodb": "mongodb://mongouser:123456@172.19.0.30:27017/game_tw_99?authMechanism=SCRAM-SHA-1&authSource=admin",
+        "name": "storage.tw.99"
+      }
+    ]
+  }
+}

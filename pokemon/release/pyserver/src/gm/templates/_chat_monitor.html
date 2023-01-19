@@ -1,0 +1,142 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.t {
+			margin-top: 16px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"Chat monitoring") }}</h4></div>
+		</div>
+
+		<div class="well">
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		<div class="form-inline">
+        				<div class="from-group">
+        					<label>{{ _(u"server nickname") }}</label>
+        					<input id="serv-select" type="text" class="form-control input-s" data-toggle="modal" data-target="#serv-select-modal">
+        					<button id="chat-query" class="btn btn-primary" onclick="">{{ _(u"Inquire") }}</button>
+        				</div>
+					</div>
+	        	</div>
+	        </div>
+
+	        <div class="row t">
+	        	<div class="col-lg-12">
+	        		<table id="chat-table"></table>
+	        	</div>
+	        </div>
+		</div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function ban_player(btnSelf, servName, roleID, banType, val) {
+			$.ajax({
+				url: '/ban_player',
+				type: 'get',
+				async: true,
+				data: {roleID: roleID, servName: servName, banType: banType, val: val},
+				success: function(result) {
+					alert('Success, Please refresh the page');
+					// role_info_click('role_info_table', servName, roleID);
+				}
+			})
+		}
+
+		$(function() {
+			$('#chat-query').on('click', function() {
+				const reqData = {};
+				const servName = $('#serv-select').val();
+				if (servName) {
+					reqData.servName = servName;
+				}
+
+				$.ajax({
+					url: '/chat_monitor',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify(reqData),
+					success: function(result) {
+						$('#chat-table').bootstrapTable('destroy');
+						$('#chat-table').bootstrapTable({
+							url: "/chat_monitor",
+							method: "post",
+							contentType: "application/json",
+							striped: true,
+							pagination: true,
+							sidePagination: "server",
+							pageNumber: 1,
+							pageSize: 10,
+							pageList: [10, 20, 30, 40, 50],
+							columns: result['columns'],
+							queryParams: function(params) {
+								console.log(params)
+								reqData.limit = params.limit;
+								reqData.offset = params.offset;
+								return reqData
+							},
+							responseHandler: function(res) {
+								let row = null;
+								let ban = null;
+								let html = null;
+								let b = null;
+								let t = null;
+								let s = null;
+								for (let j = 0; j < res.data.rows.length; j ++) {
+									// Processing time
+									t = res.data.rows[j]["time"];
+									s = new Date(parseInt(t) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
+									console.log(t, s);
+									res.data.rows[j]["time"] = s;
+
+									// Handle the last column display
+									row = res.data.rows[j];
+									ban = row["ban"];
+									html = '<p>';
+									if (ban[0] === true) {
+										b = `<button type="button" class="btn btn-primary btn-xs" onclick='ban_player(this, "${row.gameName}", "${row.roleID}", "disable", "false")'>{{ _(u"Title cancellation") }}</button>    `;
+										html += b;
+									}
+									else if (ban[0] === false) {
+										b = `<button type="button" class="btn btn-primary btn-xs" onclick='ban_player(this, "${row.gameName}", "${row.roleID}", "disable", "true")'>{{ _(u"title") }}</button>    `;
+										html += b;
+									}
+
+									if (ban[1] === true) {
+										b = `<button type="button" class="btn btn-primary btn-xs" onclick='ban_player(this, "${row.gameName}", "${row.roleID}", "silent", "false")'>{{ _(u"Dismiss") }}</button>`;
+										html += b;
+
+									}
+									else if (ban[1] === false) {
+										b = `<button type="button" class="btn btn-primary btn-xs" onclick='ban_player(this, "${row.gameName}", "${row.roleID}", "silent", "true")'>{{ _(u"Prohibit") }}</button>`;
+										html += b;
+									}
+									html += '</p>';
+									res.data.rows[j]["ban"] = html;
+								}
+
+			          			let result_data_rows = res.data.rows;
+			          			console.log(result_data_rows)
+								return {
+									"total": res.data.total,
+									"rows": result_data_rows
+								}
+							},
+							locale: userLocale
+						})
+					}
+				})
+			})
+		})
+	</script>
+{% end %}

@@ -1,0 +1,67 @@
+{
+  "storagemerge.tw.1": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ], 
+    "nsqlookupd": "http://172.19.0.15:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_tw_1", 
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/gamemerge_tw_1?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.tw.1"
+      }
+    ]
+  }, 
+  "storagemerge.tw.2": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ], 
+    "nsqlookupd": "http://172.19.0.15:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_tw_2", 
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/gamemerge_tw_2?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.tw.2"
+      }
+    ]
+  }, 
+  "storagemerge.tw.3": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ], 
+    "nsqlookupd": "http://172.19.0.15:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_tw_3", 
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/gamemerge_tw_3?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.tw.3"
+      }
+    ]
+  }, 
+  "storagemerge.tw.4": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ], 
+    "nsqlookupd": "http://172.19.0.15:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_tw_4", 
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/gamemerge_tw_4?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.tw.4"
+      }
+    ]
+  }, 
+  "storagemerge.tw.5": {
+    "nsqd_tcp_addresses": [
+      "172.19.0.15:4150"
+    ], 
+    "nsqlookupd": "http://172.19.0.15:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_tw_5", 
+        "mongodb": "mongodb://mongouser:123456@172.19.0.4:27017/gamemerge_tw_5?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.tw.5"
+      }
+    ]
+  }
+}

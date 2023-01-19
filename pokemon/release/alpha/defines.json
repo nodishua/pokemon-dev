@@ -1,0 +1,73 @@
+{
+  "alpha.cn.1": {
+    "nsqd_tcp_addresses": ["172.16.2.14:4150", "172.16.2.86:4150"],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": ["crossdb.cn.1"],
+        "name": "crosshunting.cn.1"
+      }
+    ]
+  },
+  "alpha.cn.2": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": [
+          "anticheat",
+          "crossdb.cn.1"
+        ],
+        "name": "crossunionfight.cn.1"
+      }
+    ]
+  },
+  "alpha.cn.3": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": [
+          "storage.cn.3"
+        ],
+        "name": "gym.cn.3"
+      }
+    ]
+  },
+  "alpha.cn.4": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": [
+          "storage.cn.4"
+        ],
+        "name": "gym.cn.4"
+      }
+    ]
+  },
+  "alpha.cn.5": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": [
+          "storage.cn.5"
+        ],
+        "name": "gym.cn.5"
+      }
+    ]
+  }
+}

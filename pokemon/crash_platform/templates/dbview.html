@@ -1,0 +1,76 @@
+{% extends "dashboard.html" %}
+
+{% block head %}
+	<style>
+		#my-tablesview-nav {
+			padding-top: 12px;
+		}
+
+		.tab-content {
+			padding: 20px 50px 0 50px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="row m-head">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3"><h4>Data view<h4></div>
+	</div>
+
+	<div class="well">
+		<div class="row">
+			<div class="form-group col-lg-2 col-md-3 col-sm-4">
+				<label>start date</label>
+	            <div class="input-group date form-date">
+	                <input id="index-start" class="form-control input-sm" size="16" type="text" readonly>
+	                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+					<!-- <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> -->
+	            </div>
+	        </div>
+	        <div class="form-group col-lg-2 col-md-3 col-sm-4">
+	        	<label>Ending date</label>
+	            <div class="input-group date form-date">
+	                <input id="index-end" class="form-control input-sm" size="16" type="text" readonly>
+	                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+					<!-- <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> -->
+	            </div>
+	        </div>
+		</div>
+
+		<div class="row">
+			<div id="my-tablesview-nav">
+				<ul class="nav nav-tabs">
+					<li class="active"><a params=1 href="#sotable-fu" data-toggle="tab">Upload files</a></li>
+					<li><a params=0 href="#dmptable-fu" data-toggle="tab">Crash errors</a></li>
+					<li><a params=2 href="#stacktable-fu" data-toggle="tab">Crash type</a></li>
+					<li><a params=4 href="#exceptions-fu" data-toggle="tab">Exception errors</a></li>
+					<li><a params=3 href="#exception-fu" data-toggle="tab">Exception type</a></li>
+				</ul>
+			</div>
+			<div class="tab-content">
+				<div id="dmptable-fu" class="tab-pane fade">
+					<table id="dmptable"></table>
+				</div>
+				<div id="sotable-fu" class="tab-pane fade in active">
+					<table id="sotable"></table>
+				</div>
+				<div id="stacktable-fu" class="tab-pane fade">
+					<table id="stacktable"></table>
+				</div>
+				<div id="exception-fu" class="tab-pane fade">
+					<table id="exceptiontable"></table>
+				</div>
+				<div id="exceptions-fu" class="tab-pane fade">
+					<table id="exceptionstable"></table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+{% end %}
+
+{% block foot %}
+	<script src={{ static_url("js/fileupload.js") }}></script>
+	<script src={{ static_url("js/tablesview.js") }}></script>
+{% end %}

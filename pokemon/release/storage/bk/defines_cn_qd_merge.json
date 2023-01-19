@@ -1,0 +1,1500 @@
+{
+  "storagemerge.cn_qd.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_1", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_1?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.1"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.10": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_10", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_10?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.10"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.100": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_100", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.92:27017/gamemerge_cn_qd_100?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.100"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.101": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_101", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.92:27017/gamemerge_cn_qd_101?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.101"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.102": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_102", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.92:27017/gamemerge_cn_qd_102?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.102"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.103": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_103", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.92:27017/gamemerge_cn_qd_103?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.103"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.104": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_104", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.62:27017/gamemerge_cn_qd_104?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.104"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.105": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_105", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.62:27017/gamemerge_cn_qd_105?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.105"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.106": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_106", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.62:27017/gamemerge_cn_qd_106?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.106"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.107": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_107", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.62:27017/gamemerge_cn_qd_107?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.107"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.11": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_11", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_11?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.11"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.12": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_12", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_12?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.12"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.13": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_13", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_13?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.13"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.14": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_14", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_14?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.14"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.15": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_15", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_15?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.15"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.16": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_16", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_16?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.16"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.17": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_17", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_17?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.17"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.18": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_18", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_18?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.18"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.19": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_19", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_19?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.19"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.2": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_2", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_2?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.2"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.20": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_20", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.49:27017/gamemerge_cn_qd_20?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.20"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.21": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_21", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_21?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.21"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.22": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_22", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_22?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.22"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.23": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_23", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_23?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.23"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.24": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_24", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_24?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.24"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.25": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_25", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_25?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.25"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.26": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_26", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_26?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.26"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.27": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_27", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_27?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.27"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.28": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_28", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_28?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.28"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.29": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_29", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_29?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.29"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.3": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_3", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_3?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.3"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.30": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_30", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.22:27017/gamemerge_cn_qd_30?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.30"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.31": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_31", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_31?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.31"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.32": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_32", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_32?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.32"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.33": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_33", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_33?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.33"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.34": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_34", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_34?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.34"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.35": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_35", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_35?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.35"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.36": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_36", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_36?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.36"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.37": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_37", 
+        "mongodb": "mongodb://gamesystem:kdgame#17216247@172.16.2.47:27017/gamemerge_cn_qd_37?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.37"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.38": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_38", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.63:27017/gamemerge_cn_qd_38?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.38"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.39": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_39", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.63:27017/gamemerge_cn_qd_39?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.39"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.4": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_4", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_4?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.4"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.40": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_40", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.63:27017/gamemerge_cn_qd_40?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.40"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.41": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_41", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.63:27017/gamemerge_cn_qd_41?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.41"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.42": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_42", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.63:27017/gamemerge_cn_qd_42?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.42"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.43": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_43", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.63:27017/gamemerge_cn_qd_43?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.43"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.44": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_44", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.89:27017/gamemerge_cn_qd_44?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.44"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.45": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_45", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.89:27017/gamemerge_cn_qd_45?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.45"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.46": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_46", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.89:27017/gamemerge_cn_qd_46?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.46"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.47": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_47", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.89:27017/gamemerge_cn_qd_47?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.47"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.48": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_48", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.89:27017/gamemerge_cn_qd_48?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.48"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.49": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_49", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.89:27017/gamemerge_cn_qd_49?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.49"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.5": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_5", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_5?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.5"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.50": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_50", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.69:27017/gamemerge_cn_qd_50?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.50"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.51": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_51", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.69:27017/gamemerge_cn_qd_51?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.51"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.52": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_52", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.69:27017/gamemerge_cn_qd_52?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.52"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.53": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_53", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.69:27017/gamemerge_cn_qd_53?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.53"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.54": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_54", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.69:27017/gamemerge_cn_qd_54?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.54"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.55": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_55", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.69:27017/gamemerge_cn_qd_55?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.55"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.56": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_56", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.81:27017/gamemerge_cn_qd_56?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.56"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.57": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_57", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.81:27017/gamemerge_cn_qd_57?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.57"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.58": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_58", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.81:27017/gamemerge_cn_qd_58?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.58"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.59": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_59", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.81:27017/gamemerge_cn_qd_59?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.59"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.6": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_6", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_6?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.6"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.60": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_60", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.81:27017/gamemerge_cn_qd_60?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.60"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.61": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_61", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.81:27017/gamemerge_cn_qd_61?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.61"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.62": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_62", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.75:27017/gamemerge_cn_qd_62?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.62"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.63": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_63", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.75:27017/gamemerge_cn_qd_63?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.63"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.64": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_64", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.75:27017/gamemerge_cn_qd_64?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.64"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.65": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_65", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.75:27017/gamemerge_cn_qd_65?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.65"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.66": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_66", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.75:27017/gamemerge_cn_qd_66?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.66"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.67": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_67", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.75:27017/gamemerge_cn_qd_67?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.67"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.68": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_68", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_68?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.68"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.69": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_69", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_69?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.69"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.7": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_7", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_7?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.7"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.70": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_70", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_70?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.70"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.71": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_71", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_71?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.71"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.72": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_72", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_72?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.72"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.73": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_73", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_73?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.73"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.74": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_74", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.122:27017/gamemerge_cn_qd_74?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.74"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.75": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_75", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.122:27017/gamemerge_cn_qd_75?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.75"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.76": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_76", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.122:27017/gamemerge_cn_qd_76?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.76"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.77": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_77", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.122:27017/gamemerge_cn_qd_77?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.77"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.78": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_78", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_78?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.78"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.79": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_79", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_79?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.79"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.8": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_8", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_8?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.8"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.80": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_80", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_80?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.80"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.81": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_81", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_81?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.81"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.82": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_82", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_82?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.82"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.83": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_83", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_83?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.83"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.84": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_84", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_84?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.84"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.85": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_85", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_85?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.85"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.86": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_86", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_86?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.86"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.87": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_87", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.125:27017/gamemerge_cn_qd_87?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.87"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.88": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_88", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_88?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.88"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.89": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_89", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_89?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.89"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.9": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_9", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.43:27017/gamemerge_cn_qd_9?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.9"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.90": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_90", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_90?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.90"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.91": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_91", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_91?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.91"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.92": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_92", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_92?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.92"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.93": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_93", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_93?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.93"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.94": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_94", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_94?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.94"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.95": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_95", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_95?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.95"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.96": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_96", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_96?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.96"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.97": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_97", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.138:27017/gamemerge_cn_qd_97?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.97"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.98": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_98", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.92:27017/gamemerge_cn_qd_98?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.98"
+      }
+    ]
+  }, 
+  "storagemerge.cn_qd.99": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150", 
+      "172.16.2.86:4150"
+    ], 
+    "nsqlookupd": "http://172.16.2.14:4161/", 
+    "services": [
+      {
+        "dbname": "gamemerge_cn_qd_99", 
+        "mongodb": "mongodb://gamesystem:123456@172.16.2.92:27017/gamemerge_cn_qd_99?authMechanism=SCRAM-SHA-1&authSource=admin", 
+        "name": "storagemerge.cn_qd.99"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.pyc",
+				"*.pyo",
+				"*.dll",
+				"*.record",
+				"*.o",
+				"*.csv",
+				"*.log*",
+				"*.tlog*",
+				"*.zip",
+				"*.rdb",
+				"*.aof"
+			],
+			"folder_exclude_patterns":
+			[
+				"__pycache__",
+				"sysenv",
+				"pypy-env",
+				"build",
+				"*.egg-info",
+				"dist",
+				"anti-cheat",
+				"server_tool"
+			],
+			"path": "./pyserver"
+		}
+	]
+}

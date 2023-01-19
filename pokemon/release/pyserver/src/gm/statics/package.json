@@ -1,0 +1,19 @@
+{
+  "name": "webfrontend-libs",
+  "version": "1.0.0",
+  "description": "manage web js libs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mlc",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootstrap-table": "^1.14.2",
+    "chart.js": "^2.8.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "x-editable": "^1.5.1"
+  }
+}

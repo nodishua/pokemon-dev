@@ -1,0 +1,13 @@
+变量名,roomID,furnId,type,res,size,attr
+默认值,,,,,{},{}
+ID,房间ID,家具ID,类型（0、room，1、地板，2、墙壁，3、家具，4、壁画，5角色）,资源,所占空间(格子为单位),属性（1、flip 是否可翻转，2、初始位于左面 left，3、初始位于右面right 4、可交互interactivity）
+1,1,70001,1,town/floor70001.tmx,{x=6;y=6;width=18; height=18;wallHeight=5},{minScale=0.4;maxScale=0.8;k=0.5;maxNum=50}
+2,2,70002,1,town/floor70002.tmx,{x=6;y=6;width=18; height=18;wallHeight=5},{minScale=0.4;maxScale=0.8;k=0.5;maxNum=50}
+3,3,70003,1,town/floor70003.tmx,{x=6;y=6;width=18; height=18;wallHeight=5},{minScale=0.4;maxScale=0.8;k=0.5;maxNum=50}
+4,4,70004,1,town/floor70004.tmx,{x=6;y=6;width=18; height=18;wallHeight=5},{minScale=0.4;maxScale=0.8;k=0.5;maxNum=50}
+5,1,70005,1,town/floor70005.tmx,{x=6;y=6;width=18; height=18;wallHeight=5},{minScale=0.4;maxScale=0.8;k=0.5;maxNum=50}
+,,,,,,
+1001,1,71001,2,town/wall71001.tmx,{width=18; height=5},
+1002,2,71002,2,town/wall71001.tmx,{width=18; height=5},
+1003,3,71003,2,town/wall71001.tmx,{width=18; height=5},
+1004,4,71004,2,town/wall71001.tmx,{width=18; height=5},

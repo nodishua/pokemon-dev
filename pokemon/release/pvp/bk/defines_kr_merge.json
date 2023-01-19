@@ -1,0 +1,3134 @@
+{
+  "pvpmerge.kr.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.10", 
+          "pvp.kr.11", 
+          "pvp.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "pvpmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "clone.kr.10", 
+          "clone.kr.11", 
+          "clone.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "clonemerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "arena.kr.10", 
+          "arena.kr.11", 
+          "arena.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "arenamerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "union.kr.10", 
+          "union.kr.11", 
+          "union.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "unionmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.10", 
+          "union_fight.kr.11", 
+          "union_fight.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1", 
+          "gamemerge.kr.1", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "craft.kr.10", 
+          "craft.kr.11", 
+          "craft.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1", 
+          "gamemerge.kr.1", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.10", 
+          "yyhuodong.kr.11", 
+          "yyhuodong.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "yyhuodongmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.10", 
+          "card_fight.kr.11", 
+          "card_fight.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "card_fightmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "gym.kr.10", 
+          "gym.kr.11", 
+          "gym.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1", 
+          "gamemerge.kr.1"
+        ], 
+        "name": "gymmerge.kr.1"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.10", 
+          "hunting.kr.11", 
+          "hunting.kr.12"
+        ], 
+        "dependent": [
+          "storagemerge.kr.1"
+        ], 
+        "name": "huntingmerge.kr.1"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.10": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.37", 
+          "pvp.kr.38", 
+          "pvp.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "pvpmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "clone.kr.37", 
+          "clone.kr.38", 
+          "clone.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "clonemerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "arena.kr.37", 
+          "arena.kr.38", 
+          "arena.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "arenamerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "union.kr.37", 
+          "union.kr.38", 
+          "union.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "unionmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.37", 
+          "union_fight.kr.38", 
+          "union_fight.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10", 
+          "gamemerge.kr.10", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "craft.kr.37", 
+          "craft.kr.38", 
+          "craft.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10", 
+          "gamemerge.kr.10", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.37", 
+          "yyhuodong.kr.38", 
+          "yyhuodong.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "yyhuodongmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.37", 
+          "card_fight.kr.38", 
+          "card_fight.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "card_fightmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "gym.kr.37", 
+          "gym.kr.38", 
+          "gym.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10", 
+          "gamemerge.kr.10"
+        ], 
+        "name": "gymmerge.kr.10"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.37", 
+          "hunting.kr.38", 
+          "hunting.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.10"
+        ], 
+        "name": "huntingmerge.kr.10"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.11": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.40", 
+          "pvp.kr.41", 
+          "pvp.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "pvpmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "clone.kr.40", 
+          "clone.kr.41", 
+          "clone.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "clonemerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "arena.kr.40", 
+          "arena.kr.41", 
+          "arena.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "arenamerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "union.kr.40", 
+          "union.kr.41", 
+          "union.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "unionmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.40", 
+          "union_fight.kr.41", 
+          "union_fight.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11", 
+          "gamemerge.kr.11", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "craft.kr.40", 
+          "craft.kr.41", 
+          "craft.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11", 
+          "gamemerge.kr.11", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.40", 
+          "yyhuodong.kr.41", 
+          "yyhuodong.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "yyhuodongmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.40", 
+          "card_fight.kr.41", 
+          "card_fight.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "card_fightmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "gym.kr.40", 
+          "gym.kr.41", 
+          "gym.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11", 
+          "gamemerge.kr.11"
+        ], 
+        "name": "gymmerge.kr.11"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.40", 
+          "hunting.kr.41", 
+          "hunting.kr.42"
+        ], 
+        "dependent": [
+          "storagemerge.kr.11"
+        ], 
+        "name": "huntingmerge.kr.11"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.12": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.43", 
+          "pvp.kr.44", 
+          "pvp.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "pvpmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "clone.kr.43", 
+          "clone.kr.44", 
+          "clone.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "clonemerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "arena.kr.43", 
+          "arena.kr.44", 
+          "arena.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "arenamerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "union.kr.43", 
+          "union.kr.44", 
+          "union.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "unionmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.43", 
+          "union_fight.kr.44", 
+          "union_fight.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12", 
+          "gamemerge.kr.12", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "craft.kr.43", 
+          "craft.kr.44", 
+          "craft.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12", 
+          "gamemerge.kr.12", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.43", 
+          "yyhuodong.kr.44", 
+          "yyhuodong.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "yyhuodongmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.43", 
+          "card_fight.kr.44", 
+          "card_fight.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "card_fightmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "gym.kr.43", 
+          "gym.kr.44", 
+          "gym.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12", 
+          "gamemerge.kr.12"
+        ], 
+        "name": "gymmerge.kr.12"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.43", 
+          "hunting.kr.44", 
+          "hunting.kr.45"
+        ], 
+        "dependent": [
+          "storagemerge.kr.12"
+        ], 
+        "name": "huntingmerge.kr.12"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.13": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.46", 
+          "pvp.kr.47", 
+          "pvp.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "pvpmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "clone.kr.46", 
+          "clone.kr.47", 
+          "clone.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "clonemerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "arena.kr.46", 
+          "arena.kr.47", 
+          "arena.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "arenamerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "union.kr.46", 
+          "union.kr.47", 
+          "union.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "unionmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.46", 
+          "union_fight.kr.47", 
+          "union_fight.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13", 
+          "gamemerge.kr.13", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "craft.kr.46", 
+          "craft.kr.47", 
+          "craft.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13", 
+          "gamemerge.kr.13", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.46", 
+          "yyhuodong.kr.47", 
+          "yyhuodong.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "yyhuodongmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.46", 
+          "card_fight.kr.47", 
+          "card_fight.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "card_fightmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "gym.kr.46", 
+          "gym.kr.47", 
+          "gym.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13", 
+          "gamemerge.kr.13"
+        ], 
+        "name": "gymmerge.kr.13"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.46", 
+          "hunting.kr.47", 
+          "hunting.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.13"
+        ], 
+        "name": "huntingmerge.kr.13"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.14": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.2", 
+          "pvp.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "pvpmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "clone.kr.2", 
+          "clone.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "clonemerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "arena.kr.2", 
+          "arena.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "arenamerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "union.kr.2", 
+          "union.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "unionmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.2", 
+          "union_fight.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14", 
+          "gamemerge.kr.14", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "craft.kr.2", 
+          "craft.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14", 
+          "gamemerge.kr.14", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.2", 
+          "yyhuodong.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "yyhuodongmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.2", 
+          "card_fight.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "card_fightmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "gym.kr.2", 
+          "gym.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14", 
+          "gamemerge.kr.14"
+        ], 
+        "name": "gymmerge.kr.14"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.2", 
+          "hunting.kr.4"
+        ], 
+        "dependent": [
+          "storagemerge.kr.14"
+        ], 
+        "name": "huntingmerge.kr.14"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.15": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.5", 
+          "pvp.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "pvpmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "clone.kr.5", 
+          "clone.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "clonemerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "arena.kr.5", 
+          "arena.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "arenamerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "union.kr.5", 
+          "union.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "unionmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.5", 
+          "union_fight.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15", 
+          "gamemerge.kr.15", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "craft.kr.5", 
+          "craft.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15", 
+          "gamemerge.kr.15", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.5", 
+          "yyhuodong.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "yyhuodongmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.5", 
+          "card_fight.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "card_fightmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "gym.kr.5", 
+          "gym.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15", 
+          "gamemerge.kr.15"
+        ], 
+        "name": "gymmerge.kr.15"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.5", 
+          "hunting.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.15"
+        ], 
+        "name": "huntingmerge.kr.15"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.16": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.7", 
+          "pvp.kr.8", 
+          "pvp.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "pvpmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "clone.kr.7", 
+          "clone.kr.8", 
+          "clone.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "clonemerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "arena.kr.7", 
+          "arena.kr.8", 
+          "arena.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "arenamerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "union.kr.7", 
+          "union.kr.8", 
+          "union.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "unionmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.7", 
+          "union_fight.kr.8", 
+          "union_fight.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16", 
+          "gamemerge.kr.16", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "craft.kr.7", 
+          "craft.kr.8", 
+          "craft.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16", 
+          "gamemerge.kr.16", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.7", 
+          "yyhuodong.kr.8", 
+          "yyhuodong.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "yyhuodongmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.7", 
+          "card_fight.kr.8", 
+          "card_fight.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "card_fightmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "gym.kr.7", 
+          "gym.kr.8", 
+          "gym.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16", 
+          "gamemerge.kr.16"
+        ], 
+        "name": "gymmerge.kr.16"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.7", 
+          "hunting.kr.8", 
+          "hunting.kr.9"
+        ], 
+        "dependent": [
+          "storagemerge.kr.16"
+        ], 
+        "name": "huntingmerge.kr.16"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.17": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.1", 
+          "pvp.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "pvpmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "clone.kr.1", 
+          "clone.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "clonemerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "arena.kr.1", 
+          "arena.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "arenamerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "union.kr.1", 
+          "union.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "unionmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.1", 
+          "union_fight.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17", 
+          "gamemerge.kr.17", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "craft.kr.1", 
+          "craft.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17", 
+          "gamemerge.kr.17", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.1", 
+          "yyhuodong.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "yyhuodongmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.1", 
+          "card_fight.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "card_fightmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "gym.kr.1", 
+          "gym.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17", 
+          "gamemerge.kr.17"
+        ], 
+        "name": "gymmerge.kr.17"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.1", 
+          "hunting.kr.3"
+        ], 
+        "dependent": [
+          "storagemerge.kr.17"
+        ], 
+        "name": "huntingmerge.kr.17"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.18": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.49", 
+          "pvp.kr.50", 
+          "pvp.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "pvpmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "clone.kr.49", 
+          "clone.kr.50", 
+          "clone.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "clonemerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "arena.kr.49", 
+          "arena.kr.50", 
+          "arena.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "arenamerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "union.kr.49", 
+          "union.kr.50", 
+          "union.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "unionmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.49", 
+          "union_fight.kr.50", 
+          "union_fight.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18", 
+          "gamemerge.kr.18", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "craft.kr.49", 
+          "craft.kr.50", 
+          "craft.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18", 
+          "gamemerge.kr.18", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.49", 
+          "yyhuodong.kr.50", 
+          "yyhuodong.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "yyhuodongmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.49", 
+          "card_fight.kr.50", 
+          "card_fight.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "card_fightmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "gym.kr.49", 
+          "gym.kr.50", 
+          "gym.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18", 
+          "gamemerge.kr.18"
+        ], 
+        "name": "gymmerge.kr.18"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.49", 
+          "hunting.kr.50", 
+          "hunting.kr.51"
+        ], 
+        "dependent": [
+          "storagemerge.kr.18"
+        ], 
+        "name": "huntingmerge.kr.18"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.19": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.7", 
+          "pvp.kr.8", 
+          "pvp.kr.9", 
+          "pvp.kr.10", 
+          "pvp.kr.11", 
+          "pvp.kr.12", 
+          "pvp.kr.13", 
+          "pvp.kr.14", 
+          "pvp.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "pvpmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "clone.kr.7", 
+          "clone.kr.8", 
+          "clone.kr.9", 
+          "clone.kr.10", 
+          "clone.kr.11", 
+          "clone.kr.12", 
+          "clone.kr.13", 
+          "clone.kr.14", 
+          "clone.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "clonemerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "arena.kr.7", 
+          "arena.kr.8", 
+          "arena.kr.9", 
+          "arena.kr.10", 
+          "arena.kr.11", 
+          "arena.kr.12", 
+          "arena.kr.13", 
+          "arena.kr.14", 
+          "arena.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "arenamerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "union.kr.7", 
+          "union.kr.8", 
+          "union.kr.9", 
+          "union.kr.10", 
+          "union.kr.11", 
+          "union.kr.12", 
+          "union.kr.13", 
+          "union.kr.14", 
+          "union.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "unionmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.7", 
+          "union_fight.kr.8", 
+          "union_fight.kr.9", 
+          "union_fight.kr.10", 
+          "union_fight.kr.11", 
+          "union_fight.kr.12", 
+          "union_fight.kr.13", 
+          "union_fight.kr.14", 
+          "union_fight.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19", 
+          "gamemerge.kr.19", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "craft.kr.7", 
+          "craft.kr.8", 
+          "craft.kr.9", 
+          "craft.kr.10", 
+          "craft.kr.11", 
+          "craft.kr.12", 
+          "craft.kr.13", 
+          "craft.kr.14", 
+          "craft.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19", 
+          "gamemerge.kr.19", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.7", 
+          "yyhuodong.kr.8", 
+          "yyhuodong.kr.9", 
+          "yyhuodong.kr.10", 
+          "yyhuodong.kr.11", 
+          "yyhuodong.kr.12", 
+          "yyhuodong.kr.13", 
+          "yyhuodong.kr.14", 
+          "yyhuodong.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "yyhuodongmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.7", 
+          "card_fight.kr.8", 
+          "card_fight.kr.9", 
+          "card_fight.kr.10", 
+          "card_fight.kr.11", 
+          "card_fight.kr.12", 
+          "card_fight.kr.13", 
+          "card_fight.kr.14", 
+          "card_fight.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "card_fightmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "gym.kr.7", 
+          "gym.kr.8", 
+          "gym.kr.9", 
+          "gym.kr.10", 
+          "gym.kr.11", 
+          "gym.kr.12", 
+          "gym.kr.13", 
+          "gym.kr.14", 
+          "gym.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19", 
+          "gamemerge.kr.19"
+        ], 
+        "name": "gymmerge.kr.19"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.7", 
+          "hunting.kr.8", 
+          "hunting.kr.9", 
+          "hunting.kr.10", 
+          "hunting.kr.11", 
+          "hunting.kr.12", 
+          "hunting.kr.13", 
+          "hunting.kr.14", 
+          "hunting.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.19"
+        ], 
+        "name": "huntingmerge.kr.19"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.2": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.13", 
+          "pvp.kr.14", 
+          "pvp.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "pvpmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "clone.kr.13", 
+          "clone.kr.14", 
+          "clone.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "clonemerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "arena.kr.13", 
+          "arena.kr.14", 
+          "arena.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "arenamerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "union.kr.13", 
+          "union.kr.14", 
+          "union.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "unionmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.13", 
+          "union_fight.kr.14", 
+          "union_fight.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2", 
+          "gamemerge.kr.2", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "craft.kr.13", 
+          "craft.kr.14", 
+          "craft.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2", 
+          "gamemerge.kr.2", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.13", 
+          "yyhuodong.kr.14", 
+          "yyhuodong.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "yyhuodongmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.13", 
+          "card_fight.kr.14", 
+          "card_fight.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "card_fightmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "gym.kr.13", 
+          "gym.kr.14", 
+          "gym.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2", 
+          "gamemerge.kr.2"
+        ], 
+        "name": "gymmerge.kr.2"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.13", 
+          "hunting.kr.14", 
+          "hunting.kr.15"
+        ], 
+        "dependent": [
+          "storagemerge.kr.2"
+        ], 
+        "name": "huntingmerge.kr.2"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.20": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.16", 
+          "pvp.kr.17", 
+          "pvp.kr.18", 
+          "pvp.kr.19", 
+          "pvp.kr.20", 
+          "pvp.kr.21", 
+          "pvp.kr.22", 
+          "pvp.kr.23", 
+          "pvp.kr.24", 
+          "pvp.kr.25", 
+          "pvp.kr.26", 
+          "pvp.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "pvpmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "clone.kr.16", 
+          "clone.kr.17", 
+          "clone.kr.18", 
+          "clone.kr.19", 
+          "clone.kr.20", 
+          "clone.kr.21", 
+          "clone.kr.22", 
+          "clone.kr.23", 
+          "clone.kr.24", 
+          "clone.kr.25", 
+          "clone.kr.26", 
+          "clone.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "clonemerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "arena.kr.16", 
+          "arena.kr.17", 
+          "arena.kr.18", 
+          "arena.kr.19", 
+          "arena.kr.20", 
+          "arena.kr.21", 
+          "arena.kr.22", 
+          "arena.kr.23", 
+          "arena.kr.24", 
+          "arena.kr.25", 
+          "arena.kr.26", 
+          "arena.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "arenamerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "union.kr.16", 
+          "union.kr.17", 
+          "union.kr.18", 
+          "union.kr.19", 
+          "union.kr.20", 
+          "union.kr.21", 
+          "union.kr.22", 
+          "union.kr.23", 
+          "union.kr.24", 
+          "union.kr.25", 
+          "union.kr.26", 
+          "union.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "unionmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.16", 
+          "union_fight.kr.17", 
+          "union_fight.kr.18", 
+          "union_fight.kr.19", 
+          "union_fight.kr.20", 
+          "union_fight.kr.21", 
+          "union_fight.kr.22", 
+          "union_fight.kr.23", 
+          "union_fight.kr.24", 
+          "union_fight.kr.25", 
+          "union_fight.kr.26", 
+          "union_fight.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20", 
+          "gamemerge.kr.20", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "craft.kr.16", 
+          "craft.kr.17", 
+          "craft.kr.18", 
+          "craft.kr.19", 
+          "craft.kr.20", 
+          "craft.kr.21", 
+          "craft.kr.22", 
+          "craft.kr.23", 
+          "craft.kr.24", 
+          "craft.kr.25", 
+          "craft.kr.26", 
+          "craft.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20", 
+          "gamemerge.kr.20", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.16", 
+          "yyhuodong.kr.17", 
+          "yyhuodong.kr.18", 
+          "yyhuodong.kr.19", 
+          "yyhuodong.kr.20", 
+          "yyhuodong.kr.21", 
+          "yyhuodong.kr.22", 
+          "yyhuodong.kr.23", 
+          "yyhuodong.kr.24", 
+          "yyhuodong.kr.25", 
+          "yyhuodong.kr.26", 
+          "yyhuodong.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "yyhuodongmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.16", 
+          "card_fight.kr.17", 
+          "card_fight.kr.18", 
+          "card_fight.kr.19", 
+          "card_fight.kr.20", 
+          "card_fight.kr.21", 
+          "card_fight.kr.22", 
+          "card_fight.kr.23", 
+          "card_fight.kr.24", 
+          "card_fight.kr.25", 
+          "card_fight.kr.26", 
+          "card_fight.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "card_fightmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "gym.kr.16", 
+          "gym.kr.17", 
+          "gym.kr.18", 
+          "gym.kr.19", 
+          "gym.kr.20", 
+          "gym.kr.21", 
+          "gym.kr.22", 
+          "gym.kr.23", 
+          "gym.kr.24", 
+          "gym.kr.25", 
+          "gym.kr.26", 
+          "gym.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20", 
+          "gamemerge.kr.20"
+        ], 
+        "name": "gymmerge.kr.20"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.16", 
+          "hunting.kr.17", 
+          "hunting.kr.18", 
+          "hunting.kr.19", 
+          "hunting.kr.20", 
+          "hunting.kr.21", 
+          "hunting.kr.22", 
+          "hunting.kr.23", 
+          "hunting.kr.24", 
+          "hunting.kr.25", 
+          "hunting.kr.26", 
+          "hunting.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.20"
+        ], 
+        "name": "huntingmerge.kr.20"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.21": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.28", 
+          "pvp.kr.29", 
+          "pvp.kr.30", 
+          "pvp.kr.31", 
+          "pvp.kr.32", 
+          "pvp.kr.33", 
+          "pvp.kr.34", 
+          "pvp.kr.35", 
+          "pvp.kr.36", 
+          "pvp.kr.37", 
+          "pvp.kr.38", 
+          "pvp.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "pvpmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "clone.kr.28", 
+          "clone.kr.29", 
+          "clone.kr.30", 
+          "clone.kr.31", 
+          "clone.kr.32", 
+          "clone.kr.33", 
+          "clone.kr.34", 
+          "clone.kr.35", 
+          "clone.kr.36", 
+          "clone.kr.37", 
+          "clone.kr.38", 
+          "clone.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "clonemerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "arena.kr.28", 
+          "arena.kr.29", 
+          "arena.kr.30", 
+          "arena.kr.31", 
+          "arena.kr.32", 
+          "arena.kr.33", 
+          "arena.kr.34", 
+          "arena.kr.35", 
+          "arena.kr.36", 
+          "arena.kr.37", 
+          "arena.kr.38", 
+          "arena.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "arenamerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "union.kr.28", 
+          "union.kr.29", 
+          "union.kr.30", 
+          "union.kr.31", 
+          "union.kr.32", 
+          "union.kr.33", 
+          "union.kr.34", 
+          "union.kr.35", 
+          "union.kr.36", 
+          "union.kr.37", 
+          "union.kr.38", 
+          "union.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "unionmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.28", 
+          "union_fight.kr.29", 
+          "union_fight.kr.30", 
+          "union_fight.kr.31", 
+          "union_fight.kr.32", 
+          "union_fight.kr.33", 
+          "union_fight.kr.34", 
+          "union_fight.kr.35", 
+          "union_fight.kr.36", 
+          "union_fight.kr.37", 
+          "union_fight.kr.38", 
+          "union_fight.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21", 
+          "gamemerge.kr.21", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "craft.kr.28", 
+          "craft.kr.29", 
+          "craft.kr.30", 
+          "craft.kr.31", 
+          "craft.kr.32", 
+          "craft.kr.33", 
+          "craft.kr.34", 
+          "craft.kr.35", 
+          "craft.kr.36", 
+          "craft.kr.37", 
+          "craft.kr.38", 
+          "craft.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21", 
+          "gamemerge.kr.21", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.28", 
+          "yyhuodong.kr.29", 
+          "yyhuodong.kr.30", 
+          "yyhuodong.kr.31", 
+          "yyhuodong.kr.32", 
+          "yyhuodong.kr.33", 
+          "yyhuodong.kr.34", 
+          "yyhuodong.kr.35", 
+          "yyhuodong.kr.36", 
+          "yyhuodong.kr.37", 
+          "yyhuodong.kr.38", 
+          "yyhuodong.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "yyhuodongmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.28", 
+          "card_fight.kr.29", 
+          "card_fight.kr.30", 
+          "card_fight.kr.31", 
+          "card_fight.kr.32", 
+          "card_fight.kr.33", 
+          "card_fight.kr.34", 
+          "card_fight.kr.35", 
+          "card_fight.kr.36", 
+          "card_fight.kr.37", 
+          "card_fight.kr.38", 
+          "card_fight.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "card_fightmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "gym.kr.28", 
+          "gym.kr.29", 
+          "gym.kr.30", 
+          "gym.kr.31", 
+          "gym.kr.32", 
+          "gym.kr.33", 
+          "gym.kr.34", 
+          "gym.kr.35", 
+          "gym.kr.36", 
+          "gym.kr.37", 
+          "gym.kr.38", 
+          "gym.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21", 
+          "gamemerge.kr.21"
+        ], 
+        "name": "gymmerge.kr.21"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.28", 
+          "hunting.kr.29", 
+          "hunting.kr.30", 
+          "hunting.kr.31", 
+          "hunting.kr.32", 
+          "hunting.kr.33", 
+          "hunting.kr.34", 
+          "hunting.kr.35", 
+          "hunting.kr.36", 
+          "hunting.kr.37", 
+          "hunting.kr.38", 
+          "hunting.kr.39"
+        ], 
+        "dependent": [
+          "storagemerge.kr.21"
+        ], 
+        "name": "huntingmerge.kr.21"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.22": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.40", 
+          "pvp.kr.41", 
+          "pvp.kr.42", 
+          "pvp.kr.43", 
+          "pvp.kr.44", 
+          "pvp.kr.45", 
+          "pvp.kr.46", 
+          "pvp.kr.47", 
+          "pvp.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "pvpmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "clone.kr.40", 
+          "clone.kr.41", 
+          "clone.kr.42", 
+          "clone.kr.43", 
+          "clone.kr.44", 
+          "clone.kr.45", 
+          "clone.kr.46", 
+          "clone.kr.47", 
+          "clone.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "clonemerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "arena.kr.40", 
+          "arena.kr.41", 
+          "arena.kr.42", 
+          "arena.kr.43", 
+          "arena.kr.44", 
+          "arena.kr.45", 
+          "arena.kr.46", 
+          "arena.kr.47", 
+          "arena.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "arenamerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "union.kr.40", 
+          "union.kr.41", 
+          "union.kr.42", 
+          "union.kr.43", 
+          "union.kr.44", 
+          "union.kr.45", 
+          "union.kr.46", 
+          "union.kr.47", 
+          "union.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "unionmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.40", 
+          "union_fight.kr.41", 
+          "union_fight.kr.42", 
+          "union_fight.kr.43", 
+          "union_fight.kr.44", 
+          "union_fight.kr.45", 
+          "union_fight.kr.46", 
+          "union_fight.kr.47", 
+          "union_fight.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22", 
+          "gamemerge.kr.22", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "craft.kr.40", 
+          "craft.kr.41", 
+          "craft.kr.42", 
+          "craft.kr.43", 
+          "craft.kr.44", 
+          "craft.kr.45", 
+          "craft.kr.46", 
+          "craft.kr.47", 
+          "craft.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22", 
+          "gamemerge.kr.22", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.40", 
+          "yyhuodong.kr.41", 
+          "yyhuodong.kr.42", 
+          "yyhuodong.kr.43", 
+          "yyhuodong.kr.44", 
+          "yyhuodong.kr.45", 
+          "yyhuodong.kr.46", 
+          "yyhuodong.kr.47", 
+          "yyhuodong.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "yyhuodongmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.40", 
+          "card_fight.kr.41", 
+          "card_fight.kr.42", 
+          "card_fight.kr.43", 
+          "card_fight.kr.44", 
+          "card_fight.kr.45", 
+          "card_fight.kr.46", 
+          "card_fight.kr.47", 
+          "card_fight.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "card_fightmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "gym.kr.40", 
+          "gym.kr.41", 
+          "gym.kr.42", 
+          "gym.kr.43", 
+          "gym.kr.44", 
+          "gym.kr.45", 
+          "gym.kr.46", 
+          "gym.kr.47", 
+          "gym.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22", 
+          "gamemerge.kr.22"
+        ], 
+        "name": "gymmerge.kr.22"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.40", 
+          "hunting.kr.41", 
+          "hunting.kr.42", 
+          "hunting.kr.43", 
+          "hunting.kr.44", 
+          "hunting.kr.45", 
+          "hunting.kr.46", 
+          "hunting.kr.47", 
+          "hunting.kr.48"
+        ], 
+        "dependent": [
+          "storagemerge.kr.22"
+        ], 
+        "name": "huntingmerge.kr.22"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.23": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.2", 
+          "pvp.kr.4", 
+          "pvp.kr.5", 
+          "pvp.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "pvpmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "clone.kr.2", 
+          "clone.kr.4", 
+          "clone.kr.5", 
+          "clone.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "clonemerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "arena.kr.2", 
+          "arena.kr.4", 
+          "arena.kr.5", 
+          "arena.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "arenamerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "union.kr.2", 
+          "union.kr.4", 
+          "union.kr.5", 
+          "union.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "unionmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.2", 
+          "union_fight.kr.4", 
+          "union_fight.kr.5", 
+          "union_fight.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23", 
+          "gamemerge.kr.23", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "craft.kr.2", 
+          "craft.kr.4", 
+          "craft.kr.5", 
+          "craft.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23", 
+          "gamemerge.kr.23", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.2", 
+          "yyhuodong.kr.4", 
+          "yyhuodong.kr.5", 
+          "yyhuodong.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "yyhuodongmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.2", 
+          "card_fight.kr.4", 
+          "card_fight.kr.5", 
+          "card_fight.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "card_fightmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "gym.kr.2", 
+          "gym.kr.4", 
+          "gym.kr.5", 
+          "gym.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23", 
+          "gamemerge.kr.23"
+        ], 
+        "name": "gymmerge.kr.23"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.2", 
+          "hunting.kr.4", 
+          "hunting.kr.5", 
+          "hunting.kr.6"
+        ], 
+        "dependent": [
+          "storagemerge.kr.23"
+        ], 
+        "name": "huntingmerge.kr.23"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.3": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.16", 
+          "pvp.kr.17", 
+          "pvp.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "pvpmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "clone.kr.16", 
+          "clone.kr.17", 
+          "clone.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "clonemerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "arena.kr.16", 
+          "arena.kr.17", 
+          "arena.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "arenamerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "union.kr.16", 
+          "union.kr.17", 
+          "union.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "unionmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.16", 
+          "union_fight.kr.17", 
+          "union_fight.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3", 
+          "gamemerge.kr.3", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "craft.kr.16", 
+          "craft.kr.17", 
+          "craft.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3", 
+          "gamemerge.kr.3", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.16", 
+          "yyhuodong.kr.17", 
+          "yyhuodong.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "yyhuodongmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.16", 
+          "card_fight.kr.17", 
+          "card_fight.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "card_fightmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "gym.kr.16", 
+          "gym.kr.17", 
+          "gym.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3", 
+          "gamemerge.kr.3"
+        ], 
+        "name": "gymmerge.kr.3"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.16", 
+          "hunting.kr.17", 
+          "hunting.kr.18"
+        ], 
+        "dependent": [
+          "storagemerge.kr.3"
+        ], 
+        "name": "huntingmerge.kr.3"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.4": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.19", 
+          "pvp.kr.20", 
+          "pvp.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "pvpmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "clone.kr.19", 
+          "clone.kr.20", 
+          "clone.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "clonemerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "arena.kr.19", 
+          "arena.kr.20", 
+          "arena.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "arenamerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "union.kr.19", 
+          "union.kr.20", 
+          "union.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "unionmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.19", 
+          "union_fight.kr.20", 
+          "union_fight.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4", 
+          "gamemerge.kr.4", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "craft.kr.19", 
+          "craft.kr.20", 
+          "craft.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4", 
+          "gamemerge.kr.4", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.19", 
+          "yyhuodong.kr.20", 
+          "yyhuodong.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "yyhuodongmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.19", 
+          "card_fight.kr.20", 
+          "card_fight.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "card_fightmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "gym.kr.19", 
+          "gym.kr.20", 
+          "gym.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4", 
+          "gamemerge.kr.4"
+        ], 
+        "name": "gymmerge.kr.4"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.19", 
+          "hunting.kr.20", 
+          "hunting.kr.21"
+        ], 
+        "dependent": [
+          "storagemerge.kr.4"
+        ], 
+        "name": "huntingmerge.kr.4"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.5": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.22", 
+          "pvp.kr.23", 
+          "pvp.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "pvpmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "clone.kr.22", 
+          "clone.kr.23", 
+          "clone.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "clonemerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "arena.kr.22", 
+          "arena.kr.23", 
+          "arena.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "arenamerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "union.kr.22", 
+          "union.kr.23", 
+          "union.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "unionmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.22", 
+          "union_fight.kr.23", 
+          "union_fight.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5", 
+          "gamemerge.kr.5", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "craft.kr.22", 
+          "craft.kr.23", 
+          "craft.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5", 
+          "gamemerge.kr.5", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.22", 
+          "yyhuodong.kr.23", 
+          "yyhuodong.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "yyhuodongmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.22", 
+          "card_fight.kr.23", 
+          "card_fight.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "card_fightmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "gym.kr.22", 
+          "gym.kr.23", 
+          "gym.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5", 
+          "gamemerge.kr.5"
+        ], 
+        "name": "gymmerge.kr.5"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.22", 
+          "hunting.kr.23", 
+          "hunting.kr.24"
+        ], 
+        "dependent": [
+          "storagemerge.kr.5"
+        ], 
+        "name": "huntingmerge.kr.5"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.6": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.25", 
+          "pvp.kr.26", 
+          "pvp.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "pvpmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "clone.kr.25", 
+          "clone.kr.26", 
+          "clone.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "clonemerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "arena.kr.25", 
+          "arena.kr.26", 
+          "arena.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "arenamerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "union.kr.25", 
+          "union.kr.26", 
+          "union.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "unionmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.25", 
+          "union_fight.kr.26", 
+          "union_fight.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6", 
+          "gamemerge.kr.6", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "craft.kr.25", 
+          "craft.kr.26", 
+          "craft.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6", 
+          "gamemerge.kr.6", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.25", 
+          "yyhuodong.kr.26", 
+          "yyhuodong.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "yyhuodongmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.25", 
+          "card_fight.kr.26", 
+          "card_fight.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "card_fightmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "gym.kr.25", 
+          "gym.kr.26", 
+          "gym.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6", 
+          "gamemerge.kr.6"
+        ], 
+        "name": "gymmerge.kr.6"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.25", 
+          "hunting.kr.26", 
+          "hunting.kr.27"
+        ], 
+        "dependent": [
+          "storagemerge.kr.6"
+        ], 
+        "name": "huntingmerge.kr.6"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.7": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.28", 
+          "pvp.kr.29", 
+          "pvp.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "pvpmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "clone.kr.28", 
+          "clone.kr.29", 
+          "clone.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "clonemerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "arena.kr.28", 
+          "arena.kr.29", 
+          "arena.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "arenamerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "union.kr.28", 
+          "union.kr.29", 
+          "union.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "unionmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.28", 
+          "union_fight.kr.29", 
+          "union_fight.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7", 
+          "gamemerge.kr.7", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "craft.kr.28", 
+          "craft.kr.29", 
+          "craft.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7", 
+          "gamemerge.kr.7", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.28", 
+          "yyhuodong.kr.29", 
+          "yyhuodong.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "yyhuodongmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.28", 
+          "card_fight.kr.29", 
+          "card_fight.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "card_fightmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "gym.kr.28", 
+          "gym.kr.29", 
+          "gym.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7", 
+          "gamemerge.kr.7"
+        ], 
+        "name": "gymmerge.kr.7"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.28", 
+          "hunting.kr.29", 
+          "hunting.kr.30"
+        ], 
+        "dependent": [
+          "storagemerge.kr.7"
+        ], 
+        "name": "huntingmerge.kr.7"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.8": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.31", 
+          "pvp.kr.32", 
+          "pvp.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "pvpmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "clone.kr.31", 
+          "clone.kr.32", 
+          "clone.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "clonemerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "arena.kr.31", 
+          "arena.kr.32", 
+          "arena.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "arenamerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "union.kr.31", 
+          "union.kr.32", 
+          "union.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "unionmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.31", 
+          "union_fight.kr.32", 
+          "union_fight.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8", 
+          "gamemerge.kr.8", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "craft.kr.31", 
+          "craft.kr.32", 
+          "craft.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8", 
+          "gamemerge.kr.8", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.31", 
+          "yyhuodong.kr.32", 
+          "yyhuodong.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "yyhuodongmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.31", 
+          "card_fight.kr.32", 
+          "card_fight.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "card_fightmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "gym.kr.31", 
+          "gym.kr.32", 
+          "gym.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8", 
+          "gamemerge.kr.8"
+        ], 
+        "name": "gymmerge.kr.8"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.31", 
+          "hunting.kr.32", 
+          "hunting.kr.33"
+        ], 
+        "dependent": [
+          "storagemerge.kr.8"
+        ], 
+        "name": "huntingmerge.kr.8"
+      }
+    ], 
+    "shushu": true
+  }, 
+  "pvpmerge.kr.9": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.7:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.kr.34", 
+          "pvp.kr.35", 
+          "pvp.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "pvpmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "clone.kr.34", 
+          "clone.kr.35", 
+          "clone.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "clonemerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "arena.kr.34", 
+          "arena.kr.35", 
+          "arena.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "arenamerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "union.kr.34", 
+          "union.kr.35", 
+          "union.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "unionmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "union_fight.kr.34", 
+          "union_fight.kr.35", 
+          "union_fight.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9", 
+          "gamemerge.kr.9", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "craft.kr.34", 
+          "craft.kr.35", 
+          "craft.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9", 
+          "gamemerge.kr.9", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.kr.34", 
+          "yyhuodong.kr.35", 
+          "yyhuodong.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "yyhuodongmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "card_fight.kr.34", 
+          "card_fight.kr.35", 
+          "card_fight.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "card_fightmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "gym.kr.34", 
+          "gym.kr.35", 
+          "gym.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9", 
+          "gamemerge.kr.9"
+        ], 
+        "name": "gymmerge.kr.9"
+      }, 
+      {
+        "alias": [
+          "hunting.kr.34", 
+          "hunting.kr.35", 
+          "hunting.kr.36"
+        ], 
+        "dependent": [
+          "storagemerge.kr.9"
+        ], 
+        "name": "huntingmerge.kr.9"
+      }
+    ], 
+    "shushu": true
+  }
+}

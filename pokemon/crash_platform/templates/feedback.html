@@ -1,0 +1,381 @@
+{% extends "dashboard.html" %}
+
+{% block head %}
+	<style>
+		.well-caption {
+			margin-left: 25px;
+			margin-bottom: 20px;
+		}
+
+		.p {
+			margin-left: 15px;
+		}
+
+		.t {
+			margin-top: 45px;
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+
+		#mail-sender,
+		#mail-title {
+			margin-top: 12px;
+			min-width: 316px;
+		}
+
+		#mail-content,
+		#mail-annex {
+			margin-top: 12px;
+			min-width: 316px;
+			min-height: 126px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="row m-head">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3"><h4> Player feedback query<h4></div>
+	</div>
+
+	<div class="well">
+		<div class="row">
+			<div class="form-group col-lg-2 col-md-3 col-sm-4">
+				<div class="input-group date form-date">
+					<input id="s-time" type="text" class="form-control input-sm" placeholder="Start time selection">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+					<!-- <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> -->
+		        </div>
+			</div>
+			<span class="pull-left"><strong>至</strong></span>
+			<div class="form-group col-lg-2 col-md-3 col-sm-4">
+				<div class="input-group date form-date">
+					<input id="e-time" type="text" class="form-control input-sm" placeholder="End time selection">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+					<!-- <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> -->
+		        </div>
+			</div>
+			<div class="pull-left" style="width: 148px;">
+				<div class="input-group">
+		            <input id="query-server" list="query-server-list" class="form-control input-sm" placeholder="District service selection" />
+		            <datalist id="query-server-list">
+		            	{% for serv in servers %}
+		            		<option value="{{ serv }}" />
+				    	{% end %}
+					</datalist>
+		        </div>
+			</div>
+			<div class="pull-left p" style="width: 148px;">
+				<input id="role-search" type="text" class="form-control input-sm" placeholder="Character name, character ID">
+			</div>
+			<div class="pull-left p" style="width: 98px;">
+			    <select id="type-select" class="form-control input-sm">
+			    	<option value=0>question type</option>
+			    </select>
+			</div>
+			<div class="pull-left p" style="width: 71px;">
+			    <select id="status-select" class="form-control input-sm" value="asdasd">
+			    	<option value=0>state</option>
+			    	<option value=1>A known</option>
+			    	<option value=-1>unknown</option>
+			    </select>
+			</div>
+			<!-- <div class="p">
+				<form role="form">
+				  <div class="form-group">
+				   <input id="query-key" type="text" class="form-control input-sm" placeholder="Keyword filter">
+				  </div>
+				</form>
+			</div> -->
+			<div class="pull-left p" style="width: 51px;">
+				<button id="filter" class="form-control input-sm btn-success" type="button">Inquire</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="t">
+				<table id="feedback-table"></table>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="send-mail" tabindex="-1" role="dialog" aria-labelledby="ttt" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title" id="ttt">Player feedback email</h4>
+	            </div>
+	            <div class="modal-body">
+	            	<div id="constant-mc"></div>
+	            	<div>
+	            		<div class="form-inline">
+		        			<div class="form-group">
+		        				<label>Email</label>
+		        				<input id="mail-sender" type="text" class="form-control" placeholder="The default secretary of the small secretary ">
+		        			</div>
+		        		</div>
+		        		<div class="form-inline">
+		        			<div class="form-group">
+		        				<label>mail title</label>
+		        				<input id="mail-title" type="text" class="form-control" placeholder="Default system mail">
+		        			</div>
+		        		</div>
+		        		<div class="form-inline">
+		        			<div class="form-group">
+		        				<label>content of email</label>
+		        				<textarea id="mail-content" class="form-control"></textarea>
+		        			</div>
+		        		</div>
+		        		<div class="form-inline">
+		        			<div class="form-group">
+		        				<label>Mail attachment </label>
+		        				<textarea id="mail-annex" class="form-control" disabled="true"></textarea>
+		        			</div>
+		        		</div>
+	            	</div>
+	            </div>
+	            <div class="modal-footer">
+	                <button type="button" class="btn btn-default" data-dismiss="modal">Turn </button>
+	                <button id="sm-btn" type="button" class="btn btn-primary">send</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+{% end %}
+
+{% block foot %}
+	<script>
+		var mailTempMap = {
+			1: "System email "
+		}
+		var mailTypeMap = {
+			role: "Player email "
+		}
+		function checkAnnex(annex) {
+			let result = null;
+			if (annex === '') {
+				return {};
+			}
+			try {
+				let content = annex.trim().replace(/ |\n/g, '').replace(/;/g, ',').replace(/=/g, ':');
+				eval('result=' + content);
+			}
+			catch(err) {
+				console.log(err)
+				return false;
+			}
+			return result;
+		}
+		function sendRepMail(serv, role_id, issue, classify, role_name, index) {
+			$("#constant-mc").html(`<div><strong>Area clothing:&nbsp&nbsp${serv};&nbsp&nbsp&nbsp&nbsprecipient:&nbsp&nbsp${role_name};</strong></div><div><strong>Mail template:&nbsp&nbspSystem mail;&nbsp&nbsp&nbsp&nbspEmail type:&nbsp&nbspPlayer postPart;</strong></div>`)
+			if (issue.length > 16)
+				issue = issue.substr(0, 16) + "..."
+			let mc = `For your feedback${tpZhMap[classify]} “${issue}”;`
+			$("#mail-content").val(mc)
+			$("#mail-annex").val("{}")
+			$("#sm-btn").attr('onclick', `_send("${serv}", "${role_id}", "${role_name}", ${index}, "role", 1)`)
+			$('#send-mail').modal('show')
+		}
+		function _send(serv, role_id, role_name, index, mType, mTemp) {
+			let sm = $("#mail-sender").val();
+			let mt = $("#mail-title").val();
+			if (!sm)
+				sm = "young secretary";
+			if (!mt)
+				mt = "System mail";
+			let mc = $("#mail-content").val();
+			if (!mc) {
+				alert("the content can not be blank")
+				return;
+			}
+			let ma = $("#mail-annex").val()
+			ma = checkAnnex(ma)
+			if (ma === false) {
+				alert("The content of the attachment is incorrec")
+				return;
+			}
+			let mas = JSON.stringify(ma)
+			let msg = `To send the following, please confirm：\n\nArea clothing: ${serv};\nPlayer: ${role_name};\nSender: ${sm};\nmail title: ${mt};\ncontent of email: ${mc};\nMail attachment: ${mas};`
+			$("#sm-btn").attr("disabled", "true")
+			if (confirm(msg)) {
+				$.ajax({
+					url: "/rpc/_send_role_mail",
+					method: "post",
+					async: true,
+					contentType: "application/json",
+					data: JSON.stringify({
+						server: serv,
+						role_id: role_id,
+						mail_temp: 1, 
+						mail_type: 'role',
+						sender: sm,
+						title: mt,
+						content: mc,
+						attach: mas
+					}),
+					success: function(r) {
+						let rep = JSON.parse(r)
+						if (rep.result === "fail") {
+							console.log(rep.msg)
+							alert("Failed to send，" + rep.msg)
+						} else {
+							if (index !== 999999) {
+								if ($(`#mark-${index}-btn`).attr('mtag') === 'know') {
+									$(`#mark-${index}-btn`).trigger('click')
+								}
+							}
+							$('#send-mail').modal('hide')
+							alert("Sent successfully")
+						}
+					},
+					complete: function() {
+						$("#sm-btn").removeAttr("disabled")
+					}
+				})
+			}
+		}
+
+		function mark_k(self, index, _id, i) {
+			$(self).addClass('disabled')
+
+			$.ajax({
+				url: '/feedback/table',
+	    		method: 'get',
+	    		async: true,
+	    		data: {_id: _id, status: i},
+	    		success: function(r) {
+	    			rep = JSON.parse(r);
+	    			row = rep.data;
+	    			if (rep.ret) {
+	    				// alert("Label");
+	    				$('#feedback-table').bootstrapTable('updateRow', {index: index, row: row})
+
+	    			} else {
+	    				alert("Label failure");
+	    			}
+	    		}
+			})
+		}
+	    var typeMap = {
+	    	'0': 'all',
+	    	'1': 'RechargeIssue',
+	    	'2': 'BattleIssue',
+	    	'3': 'BugIssue',
+	    	'4': 'Recommand'
+	    };
+	    var tpZhMap = {
+        	RechargeIssue: "Recharge issue",
+        	BattleIssue: "Combat problem",
+        	BugIssue: "Bug feedback",
+        	Recommand: "Gaming suggestion"
+        };
+	    $(function() {
+	    	$("div.sidebar ul.nav a").each(function(){
+		        $(this).removeClass("s-active")
+		    });
+		    $("#feedback-page").addClass("s-active");
+	    	initDatetimePicker();
+	    	paddingInputDate($("#s-time"));
+	    	paddingInputDate($("#e-time"));
+
+	    	let ih = "<option value=0>question type</option>";
+	    	let c = 1;
+	    	for (let i in tpZhMap) {
+	    		ih += `<option value=${c}>${tpZhMap[i]}</option>`;
+	    		c += 1;
+	    	}
+	    	$("#type-select").html(ih);
+
+	    	$("#filter").on("click", function() {
+		    	var stime = $('#s-time').val();
+		    	var etime = $('#e-time').val();
+		    	if (!stime || !etime) {
+		    		alert('Please determine a time period.');
+		    		return;
+		    	}
+
+		    	var servName = $('#query-server').val();
+		    	var role = $('#role-search').val();
+		    	var type = typeMap[$('#type-select').val()];
+		    	var status = $('#status-select').val();   	
+		    	var columns = [
+				{field: '_id', title: 'DB serial number'},
+				{field: 'time', title: 'Feedback time', sortable: true},
+				{field: 'game_server', title: 'region server',},
+				{field: 'account_id', title: 'account id',},
+				{field: 'role_id', title: 'role id',},
+				{field: 'role_name', title: 'role name',},
+				{field: 'role_uid', title: 'role uid',},
+				{field: 'grade', title: 'grade',},
+				{field: 'vip', title: 'vip',},
+		            {field: 'classify', title: 'question type', formatter: function(value, row, index) {
+		            	if (!(value in tpZhMap))
+		            		return value
+		            	else
+		            		return tpZhMap[value]
+		            }},
+		            {field: 'issue', title: 'Problem Description', formatter: function(value, row, index) {
+		            	if (row.status === false) {
+		            		return value;
+		            	} else {
+		            		return `<s><i>${value}</i></s>`;
+		            	}
+		            }},
+		            {field: 'status', title: 'state'},
+		            {field: 'op', title: '', align: 'center', formatter: function(value, row, index) {
+		            	let h = null;
+		            	if (row.status === false) {
+		            		h = `<button id="mark-${index}-btn" mtag="know" class="btn btn-xs btn-primary" onclick="mark_k(this, ${index}, '${row._id}', 1)">标记为已知</a>`;
+		            	} else {
+		            		h = `<button id="mark-${index}-btn" mtag="unknow" class="btn btn-xs btn-success" onclick="mark_k(this, ${index}, '${row._id}', -1)">标记为未知</a>`;
+		            	}
+		            	return h;
+		            }},
+		            {field: 'send', title: '', align: 'center', formatter: function(value, row, index) {
+		            	return `<button class="btn btn-xs" onclick="sendRepMail('${row.game_server}','${row.role_id}', '${row.issue}', '${row.classify}', '${row.role_name}', ${index})">发送反馈邮件</button>`;
+		            }},
+		        ]
+		    	$.ajax({
+		    		url: '/feedback/table',
+		    		method: 'post',
+		    		async: true,
+		    		contentType: 'application/json',
+		    		data: JSON.stringify({stime: stime, etime: etime, servName: servName, role: role, type: type, status: status}),
+		    		success: function(r) {
+		    			var rep = JSON.parse(r)
+		    			$('#feedback-table').bootstrapTable('destroy')
+		    			$('#feedback-table').bootstrapTable({
+		    				cache: false,
+					        striped: true,
+					        pagination: true,
+					        sidePagination: "client",
+					        pageNumber: 1,
+					        pageSize: 10,
+					        pageList: [10, 20, 30, 40, 50],
+					        data: rep.data,
+					        columns: columns,
+					    });
+					    $('#feedback-table').bootstrapTable('hideColumn', '_id');
+					    // $('#feedback-table').bootstrapTable('hideColumn', 'account_id');
+					    // $('#feedback-table').bootstrapTable('hideColumn', 'role_id');
+					    $('#feedback-table').bootstrapTable('hideColumn', 'status');
+		    		}
+		    	})
+		    })
+
+		    let autoTag = "{{ autoTag }}";
+		    if (autoTag !== 'nil') {
+		    	let info = autoTag.split(',')
+		    	console.log(info)
+		    	let issueContent = "..."
+		    	if (typeof info[4] !== "undefined")
+		    		issueContent = info[4]
+		    	let roleName = "..."
+		    	typeof info[3] === "undefined" ? roleName = info[1] : roleName = info[3]
+		    	sendRepMail(info[0], info[1], issueContent, info[2], roleName, 999999)
+		    }
+
+	    })
+	</script>
+{% end %}

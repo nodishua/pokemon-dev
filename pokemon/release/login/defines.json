@@ -1,0 +1,96 @@
+{
+	"login.dev.1": {
+		"debug": true,
+		"addr": ":16666",
+		"http_addr": ":18080",
+		"patch_url": "http://192.168.1.211/pokemon/patch/",
+		"nsqlookupd": "http://127.0.0.1:4161/",
+		"mainnsqd": "127.0.0.1:4150",
+		"services": [
+			{
+				"name": "login.dev.1",
+				"dependent":[
+					"accountdb.dev.1"
+				]
+			}
+		]
+	},
+
+	"login.cn.1": {
+		"addr": ":16666",
+		"http_addr": ":18080",
+		"patch_url": "http://192.168.1.211/pokemon/patch/",
+		"nsqlookupd": "http://172.16.2.14:4161/",
+		"nsqd_tcp_addresses": [
+			"172.16.2.14:4150",
+			"172.16.2.86:4150"
+		],
+		"services": [
+			{
+				"name": "login.cn.1",
+				"dependent": [
+					"accountdb.cn.1",
+					"game.shenhe.1",
+					"game.cn.1"
+				]
+			}
+		]
+	},
+	"login.cn.2": {
+		"addr": ":16667",
+		"http_addr": ":18081",
+		"patch_url": "http://192.168.1.211/pokemon/patch/",
+		"nsqlookupd": "http://172.16.2.14:4161/",
+		"nsqd_tcp_addresses": [
+			"172.16.2.14:4150",
+			"172.16.2.86:4150"
+		],
+		"services": [
+			{
+				"name": "login.cn.2",
+				"dependent": [
+					"accountdb.cn.1",
+					"game.shenhe.1"
+				]
+			}
+		]
+	},
+
+	"login.tw.1": {
+		"addr": ":16666",
+		"http_addr": ":18080",
+		"patch_url": "http://kdgame.fruit5366.com/pokemon/patch/",
+		"nsqlookupd": "http://172.19.0.15:4161/",
+		"nsqd_tcp_addresses": [
+			"172.19.0.15:4150"
+		],
+		"services": [
+			{
+				"name": "login.tw.1",
+				"dependent": [
+					"accountdb.tw.1",
+					"game.shenhe.1"
+				]
+			}
+		]
+	},
+
+	"login.xy.1": {
+		"addr": ":16666",
+		"http_addr": ":18080",
+		"patch_url": "http://192.168.1.211/pokemon/patch/",
+		"nsqlookupd": "http://192.168.0.82:4161/",
+		"nsqd_tcp_addresses": [
+			"192.168.0.82:4150"
+		],
+		"services": [
+			{
+				"name": "login.xy.1",
+				"dependent": [
+					"accountdb.xy.1",
+					"game.xy.1"
+				]
+			}
+		]
+	}
+}

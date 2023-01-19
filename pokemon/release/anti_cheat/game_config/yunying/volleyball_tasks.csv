@@ -1,0 +1,32 @@
+﻿"﻿变量名",huodongID,type,targetType,targetArg,targetArg2,award,title,title_tw,title_en,title_vn,title_kr
+默认值,0,1,1,0,0,{},"""""","""404""","""404""","""404""","""404"""
+ID,活动版本ID,任务分类 1 每日 2 累计,任务目标类型,任务目标参数(数量）,任务目标参数2（对应参数ID）,任务奖励,标题,标题,标题,标题,标题
+101,1000,1,101,1,,{rmb=10;6394=5;951=3},Daily wins,每日獲勝場數,Daily wins,,매일 우승 횟수
+102,1000,1,101,3,,{rmb=10;6394=5;5000=10},Daily wins,每日獲勝場數,Daily wins,,매일 우승 횟수
+103,1000,1,102,10,,{rmb=10;6394=5;930=10},Daily score,每日獲得分數,Daily score,,매일 획득한 점수
+104,1000,1,103,3,,{rmb=10;6394=5;901=10},Number of games played daily,每日參與遊戲場數,Number of games played daily,,매일 참여 횟수
+,,,,,,,,,,,
+201,1000,2,201,5,,{6394=5;gold=200000;502=2},Player wins,玩家獲勝場數,Player wins,,우승 횟수
+202,1000,2,201,10,,{6394=5;gold=200000;521=2},Player wins,玩家獲勝場數,Player wins,,우승 횟수
+203,1000,2,201,20,,{6394=10;gold=200000;rmb=50},Player wins,玩家獲勝場數,Player wins,,우승 횟수
+204,1000,2,202,1,11852,{6394=5;gold=200000;503=1},Defeat Glalie,戰勝冰鬼護,Defeat Glalie,,얼음귀신 이기기
+205,1000,2,202,1,92,{6394=5;gold=200000;520=1},Defeat Pikachu,戰勝皮卡丘,Defeat Pikachu,,피카츄 이기기
+206,1000,2,202,1,221,{6394=5;gold=200000;519=1},Defeat Psyduck,戰勝可達鴨,Defeat Psyduck,,고라파덕 이기기
+207,1000,2,202,1,2242,{6394=5;gold=200000;527=1},Defeat Lucario,戰勝路卡利歐,Defeat Lucario,,루카리오 이기기
+208,1000,2,203,3,,{6394=5;gold=200000;901=10},Out of bounds by mistake,手誤打出界外,Out of bounds by mistake,,실수로 경계선 밖으로 나감
+209,1000,2,203,6,,{6394=5;gold=200000;902=10},Out of bounds by mistake,手誤打出界外,Out of bounds by mistake,,실수로 경계선 밖으로 나감
+210,1000,2,203,10,,{6394=10;gold=200000;rmb=50},Out of bounds by mistake,手誤打出界外,Out of bounds by mistake,,실수로 경계선 밖으로 나감
+211,1000,2,204,1,92,{6394=5;gold=200000;503=1},Win by using Pikachu,使用皮卡丘獲勝,Win by using Pikachu,,피카츄로 승리
+212,1000,2,204,1,21,{6394=5;gold=200000;520=1},Win by using Squirtle,使用傑尼龜獲勝,Win by using Squirtle,,꼬부기로 승리
+213,1000,2,204,1,893,{6394=5;gold=200000;519=1},Win by using Azumarill,使用瑪力露麗獲勝,Win by using Azumarill,,마릴리로 승리
+214,1000,2,204,1,502,{6394=5;gold=200000;527=1},Win by using Chansey,使用吉利蛋獲勝,Win by using Chansey,,럭키로 승리
+215,1000,2,205,10,,{6394=5;gold=200000;5000=30},Participated games,參與場數,Participated games,,참여 횟수
+216,1000,2,205,20,,{6394=5;gold=200000;930=30},Participated games,參與場數,Participated games,,참여 횟수
+217,1000,2,205,40,,{6394=10;gold=200000;rmb=50},Participated games,參與場數,Participated games,,참여 횟수
+218,1000,2,206,3,,{6394=5;gold=200000;850=200},Use skills to slow down enemies,使用技能減速敵人,Use skills to slow down enemies,,스킬을 사용해 상대를 감속시키기
+219,1000,2,206,6,,{6394=5;gold=200000;851=100},Use skills to slow down enemies,使用技能減速敵人,Use skills to slow down enemies,,스킬을 사용해 상대를 감속시키기
+220,1000,2,206,10,,{6394=10;gold=200000;rmb=50},Use skills to slow down enemies,使用技能減速敵人,Use skills to slow down enemies,,스킬을 사용해 상대를 감속시키기
+221,1000,2,207,3,,{6394=5;gold=200000;451=100},Use skills to defeat opponents,使用技能戰勝對手,Use skills to defeat opponents,,스킬을 사용해 상대를 이기기
+222,1000,2,207,6,,{6394=5;gold=200000;452=50},Use skills to defeat opponents,使用技能戰勝對手,Use skills to defeat opponents,,스킬을 사용해 상대를 이기기
+223,1000,2,207,10,,{6394=10;gold=200000;rmb=50},Use skills to defeat opponents,使用技能戰勝對手,Use skills to defeat opponents,,스킬을 사용해 상대를 이기기
+224,1000,2,208,23,,{6394=15;gold=200000;rmb=100},Complete all cumulative tasks,完成所有累計任務,Complete all cumulative tasks,,모든 누적 미션 완료

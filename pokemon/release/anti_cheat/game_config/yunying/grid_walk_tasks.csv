@@ -1,0 +1,21 @@
+﻿"﻿变量名",huodongID,taskType,taskParam,taskSpecialParam,desc,desc_tw,desc_en,desc_vn,desc_kr,award,goTo
+默认值,1001,0,9999,{},"""""","""""","""""","""""","""""",{},""""""
+ID,活动版本ID,任务类型,任务参数,任务特殊参数,描述,描述,描述,描述_越南,描述_韩,奖励,跳转目标
+1,,17,1,,login today,今日登陸,,,,{8112=3},
+2,,55,5,,Guild donation 5 times,公會捐獻5次,,,,{8112=1},union
+3,,41,5,,Accumulated 5 battles in the arena,競技場累計戰鬥5次,,,,{8112=1},arena
+4,,86,1,{1=4},Complete a dispatch of S rank or higher,完成S級以上的派遣1次,,,,{8112=1},dispatchTask
+5,,30,15,,Challenge the number of elite levels 15 times,挑戰精英關卡次數15次,,,,{8112=1},20000
+6,,26,2,,Buy stamina 2 times,購買體力2次,,,,{8112=1},gainStamina
+7,,21,200,,Cumulative consumption of 200 diamonds,累計消費200鉆,,,,{8112=2},
+,,,,,,,,,,,
+10,,,1,,Accumulatively trigger to get treasure chest 1 time,累計觸發獲得寶箱1次,,,,{gold=300000;6393=15;5000=50;27001=5},
+11,,,2,,A total of 2 triggers to obtain treasure chests,累計觸發獲得寶箱2次,,,,{gold=300000;6393=15;930=50;27001=5},
+12,,,4,,A total of 4 triggers to obtain treasure chests,累計觸發獲得寶箱4次,,,,{gold=300000;6393=15;16=15;27001=5},
+13,,,7,,A total of 7 treasure chests were triggered,累計觸發獲得寶箱7次,,,,{gold=300000;6393=15;850=100;27001=5},
+14,,,10,,A total of 10 treasure chests have been triggered,累計觸發獲得寶箱10次,,,,{gold=300000;6393=15;902=25;27001=5},
+15,,,13,,A total of 13 treasure chests were triggered,累計觸發獲得寶箱13次,,,,{gold=300000;6393=15;5000=50;27001=5},
+16,,,16,,A total of 16 treasure chests were triggered,累計觸發獲得寶箱16次,,,,{gold=300000;6393=15;930=50;27001=5},
+17,,,19,,A total of 19 treasure chests were triggered,累計觸發獲得寶箱18次,,,,{gold=300000;6393=15;16=15;27001=5},
+18,,,22,,A total of 22 treasure chests have been triggered,累計觸發獲得寶箱21次,,,,{gold=300000;6393=15;850=50;27001=5},
+19,,,25,,A total of 25 treasure chests were triggered,累計觸發獲得寶箱25次,,,,{gold=300000;6393=15;902=25;27001=5},

@@ -1,0 +1,7 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,desc,desc_tw,desc_en,desc_vn,desc_kr,unitId,needLv,cost,spcialEffect,spcialEffectDesc,actRate,actMode,scale
+默认值,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",0,0,{},"""""","""""",0,0,1
+ID,名字,名字,名字,名字,名字,描述,描述,描述,描述,描述,对应unitid,需要钓鱼等级,解锁消耗,特殊效果,特殊效果描述,特殊交互触发概率,特殊交互模式,spine缩放(默认1为不缩放)
+1,Psyduck,可達鴨,Psyduck,404404,고라파덕,Dorky little cutie,呆頭呆腦惹人愛,Dorky little cutie,,허당이고 사랑스럽다.,221,3,{gold=500000},,,,,1.4
+2,Pikachu,皮卡丘,Pikachu,404404,피카츄,Do not discharge electricity into water,請不要向水裏放電,Do not discharge electricity into water,,물속에 방전하지 마세요.,92,5,{rmb=300},,,,,1.4
+3,Bulbasaur,妙蛙種子,Bulbasaur,Diệu con ếch hạt giống,이상해씨,Maybe could help spread some seeds as bait?,或許能幫忙撒點種子當魚餌？,Maybe could help spread some seeds as bait?,,혹시 씨앗을 미끼로 뿌려줄 수 있을 까요?,1,7,{rmb=300},,,,,1.4
+4,Squirtle,傑尼龜,Squirtle,404404,꼬부기,Would it be faster to let it catch fish?,叫他下去幫忙抓魚更快吧？,Would it be faster to let it catch fish?,,그에게 내려가서 물고기를 잡으라고 했으면 더 빠르지요?,21,9,{rmb=300},,,,,1.4

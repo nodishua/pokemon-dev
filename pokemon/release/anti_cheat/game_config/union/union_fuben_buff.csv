@@ -1,0 +1,6 @@
+变量名,_beizhu,buff,max
+默认值,"""""",0,10
+ID,备注,buff加成,加成上限
+1,Number of customs clearance guilds,2,30
+2,The gap between the fastest customs clearance days,2,30
+3,Uncleared buff bonus,4,60

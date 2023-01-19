@@ -1,0 +1,102 @@
+.nav-tabs > li > a {
+	padding: 8px 35px;
+}
+
+.tab-content {
+	padding: 20px 40px 0 40px;
+	font-size: 120%;
+}
+
+#chart-btn {
+	padding-top: 12px;
+	padding-bottom: 40px;
+}
+
+.search-group {
+	margin-left: 15px;
+}
+
+.search-group > div {
+	display: inline-block;
+}
+
+.order {
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.order > div {
+	float: right;
+	margin-left: 40px;
+}
+
+.order > div > div {
+	display: inline-block;
+}
+
+.order span {
+	color: gray;
+}
+
+.order div:hover {
+	cursor: pointer;
+}
+
+.triangle-up {
+	width:0;
+	height:0;
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+	border-bottom:4px solid gray;
+	margin-bottom: 2px;
+}
+
+.triangle-down {
+	width:0;
+	height:0;
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+	border-top:4px solid gray;
+}
+
+.up-show {
+	border-bottom:4px solid #333;
+}
+
+.down-show {
+	border-top:4px solid #333;
+}
+
+#show-version-ss {
+	cursor: default;
+}
+
+#show-time-period-ss {
+	cursor: pointer;
+}
+
+#version-ss {
+	position: absolute;
+	display: none;
+	z-index: 999;
+	width: 168px;
+}
+
+#time-period-ss {
+	position: absolute;
+	display: none;
+	z-index: 999;
+	width: 125px;
+}
+
+.margin-top-xs {
+	margin-top: 8px;
+}
+
+.margin-top-sm {
+	margin-top: 16px;
+}
+
+.fixed-width {
+	width: 75px;
+}

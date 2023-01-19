@@ -1,0 +1,2094 @@
+{
+  "online_fight_forward.cn.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.1"
+      }
+    ]
+  },
+  "online_fight_forward.cn.10": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.10"
+      }
+    ]
+  },
+  "online_fight_forward.cn.11": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.11"
+      }
+    ]
+  },
+  "online_fight_forward.cn.12": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.12"
+      }
+    ]
+  },
+  "online_fight_forward.cn.13": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.13"
+      }
+    ]
+  },
+  "online_fight_forward.cn.14": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.14"
+      }
+    ]
+  },
+  "online_fight_forward.cn.15": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.15"
+      }
+    ]
+  },
+  "online_fight_forward.cn.16": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.16"
+      }
+    ]
+  },
+  "online_fight_forward.cn.17": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.17"
+      }
+    ]
+  },
+  "online_fight_forward.cn.18": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.18"
+      }
+    ]
+  },
+  "online_fight_forward.cn.19": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.19"
+      }
+    ]
+  },
+  "online_fight_forward.cn.2": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.2"
+      }
+    ]
+  },
+  "online_fight_forward.cn.20": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.20"
+      }
+    ]
+  },
+  "online_fight_forward.cn.21": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.21"
+      }
+    ]
+  },
+  "online_fight_forward.cn.22": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.22"
+      }
+    ]
+  },
+  "online_fight_forward.cn.23": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.23"
+      }
+    ]
+  },
+  "online_fight_forward.cn.24": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.24"
+      }
+    ]
+  },
+  "online_fight_forward.cn.25": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.25"
+      }
+    ]
+  },
+  "online_fight_forward.cn.26": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.26"
+      }
+    ]
+  },
+  "online_fight_forward.cn.27": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.27"
+      }
+    ]
+  },
+  "online_fight_forward.cn.28": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.28"
+      }
+    ]
+  },
+  "online_fight_forward.cn.29": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.29"
+      }
+    ]
+  },
+  "online_fight_forward.cn.3": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.3"
+      }
+    ]
+  },
+  "online_fight_forward.cn.30": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.30"
+      }
+    ]
+  },
+  "online_fight_forward.cn.31": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.31"
+      }
+    ]
+  },
+  "online_fight_forward.cn.32": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.32"
+      }
+    ]
+  },
+  "online_fight_forward.cn.4": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.4"
+      }
+    ]
+  },
+  "online_fight_forward.cn.5": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.5"
+      }
+    ]
+  },
+  "online_fight_forward.cn.6": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.6"
+      }
+    ]
+  },
+  "online_fight_forward.cn.7": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.7"
+      }
+    ]
+  },
+  "online_fight_forward.cn.8": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.8"
+      }
+    ]
+  },
+  "online_fight_forward.cn.9": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn.9"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.1"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.10": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.10"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.100": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.100"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.101": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.101"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.102": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.102"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.103": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.103"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.104": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.104"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.105": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.105"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.106": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.106"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.107": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.107"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.108": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.108"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.109": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.109"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.11": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.11"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.110": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.110"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.111": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.111"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.112": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.112"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.12": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.12"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.13": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.13"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.14": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.14"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.15": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.15"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.16": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.16"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.17": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.17"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.18": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.18"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.19": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.19"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.2": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.2"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.20": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.20"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.21": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.21"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.22": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.22"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.23": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.23"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.24": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.24"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.25": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.25"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.26": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.26"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.27": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.27"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.28": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.28"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.29": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.29"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.3": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.3"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.30": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.30"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.31": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.31"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.32": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.32"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.33": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.33"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.34": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.34"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.35": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.35"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.36": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.36"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.37": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.37"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.38": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.38"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.39": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.39"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.4": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.4"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.40": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.40"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.41": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.41"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.42": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.42"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.43": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.43"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.44": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.44"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.45": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.45"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.46": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.46"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.47": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.47"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.48": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.48"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.49": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.49"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.5": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.5"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.50": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.50"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.51": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.51"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.52": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.52"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.53": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.53"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.54": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.54"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.55": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.55"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.56": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.56"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.57": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.57"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.58": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.58"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.59": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.59"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.6": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.6"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.60": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.60"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.61": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.61"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.62": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.62"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.63": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.63"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.64": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.64"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.65": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.65"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.66": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.66"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.67": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.67"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.68": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.68"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.69": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.69"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.7": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.7"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.70": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.70"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.71": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.71"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.72": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.72"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.73": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.73"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.74": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.74"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.75": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.75"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.76": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.76"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.77": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.77"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.78": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.78"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.79": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.79"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.8": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.8"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.80": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.80"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.81": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.81"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.82": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.82"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.83": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.83"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.84": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.84"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.85": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.85"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.86": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.86"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.87": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.87"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.88": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.88"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.89": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.89"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.9": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.9"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.90": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.90"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.91": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.91"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.92": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.92"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.93": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.93"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.94": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.94"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.95": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.95"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.96": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.96"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.97": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.97"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.98": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.98"
+      }
+    ]
+  },
+  "online_fight_forward.cn_qd.99": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "query_ip_url": "http://212.64.58.151:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.cn_qd.99"
+      }
+    ]
+  },
+  "online_fight_forward.dev.1": {
+    "debug": true,
+    "nsqd_tcp_addresses": [
+      "192.168.1.125:4150",
+      "192.168.1.125:4140"
+    ],
+    "nsqlookupd": "http://192.168.1.125:4161/",
+    "query_ip_url": "http://192.168.1.96:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.dev.1"
+      }
+    ]
+  },
+  "online_fight_forward.dev.2": {
+    "debug": true,
+    "nsqd_tcp_addresses": [
+      "192.168.1.125:4150",
+      "192.168.1.125:4140"
+    ],
+    "nsqlookupd": "http://192.168.1.125:4161/",
+    "query_ip_url": "http://192.168.1.96:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.dev.2"
+      }
+    ]
+  },
+  "online_fight_forward.kr.1": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.1"
+      }
+    ]
+  },
+  "online_fight_forward.kr.10": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.10"
+      }
+    ]
+  },
+  "online_fight_forward.kr.11": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.11"
+      }
+    ]
+  },
+  "online_fight_forward.kr.12": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.12"
+      }
+    ]
+  },
+  "online_fight_forward.kr.13": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.13"
+      }
+    ]
+  },
+  "online_fight_forward.kr.14": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.14"
+      }
+    ]
+  },
+  "online_fight_forward.kr.15": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.15"
+      }
+    ]
+  },
+  "online_fight_forward.kr.16": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.16"
+      }
+    ]
+  },
+  "online_fight_forward.kr.2": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.2"
+      }
+    ]
+  },
+  "online_fight_forward.kr.3": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.3"
+      }
+    ]
+  },
+  "online_fight_forward.kr.4": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.4"
+      }
+    ]
+  },
+  "online_fight_forward.kr.5": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.5"
+      }
+    ]
+  },
+  "online_fight_forward.kr.6": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.6"
+      }
+    ]
+  },
+  "online_fight_forward.kr.7": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.7"
+      }
+    ]
+  },
+  "online_fight_forward.kr.8": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.8"
+      }
+    ]
+  },
+  "online_fight_forward.kr.9": {
+    "nsqd_tcp_addresses": [
+      "192.168.1.7:4150"
+    ],
+    "nsqlookupd": "http://192.168.1.7:4161/",
+    "query_ip_url": "http://119.28.235.28:18080/ip",
+    "services": [
+      {
+        "name": "online_fight_forward.kr.9"
+      }
+    ]
+  }
+}

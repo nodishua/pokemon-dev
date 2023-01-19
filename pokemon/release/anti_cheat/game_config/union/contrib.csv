@@ -1,0 +1,6 @@
+变量名,title,cost,vipNeed,contrib,award
+默认值,"""""",{},0,1,{gold=100}
+ID,捐赠名language表关键字,消耗物品,VIP限制,贡献度,奖励物品
+1,contribute1,{gold=30000},0,50,{coin3=50}
+2,contribute2,{rmb=30},0,100,{coin3=100}
+3,contribute3,{rmb=100},5,250,{coin3=250}

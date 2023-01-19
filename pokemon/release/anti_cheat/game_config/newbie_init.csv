@@ -1,0 +1,4 @@
+变量名,cards,defaultCards,items,gold,rmb,figures
+默认值,<>,<>,{},0,0,<>
+ID,选择卡牌,初始卡牌,道具,金币,钻石,形象选其一
+1,<{id=1;character=5;nvalue={hp=16;speed=16;damage=16;defence=16;specialDamage=16;specialDefence=16}};{id=11;character=5;nvalue={hp=16;speed=16;damage=16;defence=16;specialDamage=16;specialDefence=16}};{id=21;character=5;nvalue={hp=16;speed=16;damage=16;defence=16;specialDamage=16;specialDefence=16}}>,<>,{5000=5;11=10;30101=1},50000,10000,<1;2>

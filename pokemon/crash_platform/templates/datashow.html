@@ -1,0 +1,53 @@
+{% extends "dashboard.html" %}
+
+{% block main %}
+	<div class="row m-head">
+		<div class="col-lg-12">
+			{% if hide_style == '-1' %}
+				<h4>collapse {{ hide_time }} -- {{ end_time }}<h4>
+			{% else %}
+				<h4>abnormal {{ hide_time }} -- {{ end_time }}<h4>
+			{% end %}
+		</div>
+	</div>
+
+	<div class="well">
+		<div class="row search-group">
+			<div>
+				<strong><span>Filter condition:</span></strong>
+			</div>
+			<div>
+				<form role="form">
+				  <div class="form-group">
+				    <select params=2 class="form-control input-sm">
+						<option option_value=0>All status</option>
+						<option option_value=-1>unprocessed status</option>
+						<option option_value=1>Processed Status</option>
+				    </select>
+				  </div>
+				</form>
+			</div>
+			<div>
+				<form role="form">
+				  <div class="form-group">
+				  	<input id="show-version-ss" type="text" placeholder="Select the error report version number" class="form-control input-sm" readonly="readonly">
+				    <select id="version-ss" class="form-control" params=4 size=6>
+				        <option>All versions</option>
+				        {% for version in versionL%}
+					    	<option>{{ version }}</option>
+					    {% end %}
+				    </select>
+				  </div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<table id="dashboard-table"></table>
+		</div>
+	</div>
+	<div style="display: None;">
+		<span id="my-hide-time">{{ hide_time }}</span>
+		<span id="my-end-time">{{ end_time }}</span>
+		<span id="my-hide-style">{{ hide_style }}</span>
+	</div>
+{% end %}

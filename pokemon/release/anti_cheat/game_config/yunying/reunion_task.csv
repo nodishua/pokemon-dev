@@ -1,0 +1,308 @@
+﻿﻿"﻿变量名",huodongID,themeType,taskLinks,isSync,isCooperative,theme,theme_tw,theme_en,theme_vn,theme_kr,desc,desc_tw,desc_en,desc_vn,desc_kr,taskType,taskParam,taskSpecialParam,award,point,goto
+默认值,0,2,,FALSE,FALSE,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",0,9999,{},{},0,""""""
+ID,活动版本ID,主题分类(1每日签到;2相逢有时),任务链,是否同步展示给老玩家,是否合作完成,任务主题,任务主题,任务主题,任务主题,任务主题,任务描述,任务描述,任务描述,任务描述,任务描述,任务类型,任务参数,任务特殊参数,任务奖励,任务积分,跳转目标
+101,101016,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄天數達到1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{rmb=20},10,
+102,101016,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄天數達到3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{rmb=20},20,
+103,101016,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄天數達到5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{rmb=20},30,
+104,101016,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄天數達到7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{rmb=20},50,
+105,101016,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 20 times,通關副本達到20次,Challenge Common Dungeon 20 times,,던전 20회 클리어 달성,33,20,,{rmb=20},10,10000
+106,101016,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 50 times,通關副本達到50次,Challenge Common Dungeon 50 times,,던전 50회 클리어 달성,33,50,,{rmb=20},20,10000
+107,101016,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 100 times,通關副本達到100次,Challenge Common Dungeon 100 times,,던전 100회 클리어 달성,33,100,,{rmb=20},30,10000
+108,101016,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,通關副本達到180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,33,180,,{rmb=20},50,10000
+109,101016,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 260 times,通關副本達到260次,Challenge Common Dungeon 260 times,,던전 260회 클리어 달성,33,260,,{rmb=20},80,10000
+110,101016,2,1,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 5 times,競技場內戰鬥5次,Fight in the Arena 5 times,,아레나 전투 5회 진행,41,5,,{rmb=20},10,arena
+111,101016,2,2,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 10 times,競技場內戰鬥10次,Fight in the Arena 10 times,,아레나 전투 10회 진행,41,10,,{rmb=20},20,arena
+112,101016,2,3,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 16 times,競技場內戰鬥16次,Fight in the Arena 16 times,,아레나 전투 16회 진행,41,16,,{rmb=20},30,arena
+113,101016,2,4,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 25 times,競技場內戰鬥25次,Fight in the Arena 25 times,,아레나 전투 25회 진행,41,25,,{rmb=20},50,arena
+114,101016,2,5,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 32 times,競技場內戰鬥32次,Fight in the Arena 32 times,,아레나 전투 32회 진행,41,32,,{rmb=20},80,arena
+115,101016,2,1,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Complete Dispatch 6 times,完成派遣累計6次,Complete Dispatch 6 times,,파견 완료 누적 6회,85,6,,{rmb=20},10,dispatchTask
+116,101016,2,2,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Complete Dispatch 12 times,完成派遣累計12次,Complete Dispatch 12 times,,파견 완료 누적 12회,85,12,,{rmb=20},20,dispatchTask
+117,101016,2,3,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Complete Dispatch 20 times,完成派遣累計20次,Complete Dispatch 20 times,,파견 완료 누적 20회,85,20,,{rmb=20},30,dispatchTask
+118,101016,2,4,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Complete Dispatch 32 times,完成派遣累計32次,Complete Dispatch 32 times,,파견 완료 누적 32회,85,32,,{rmb=20},50,dispatchTask
+119,101016,2,5,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Complete Dispatch 40 times,完成派遣累計40次,Complete Dispatch 40 times,,파견 완료 누적 40회,85,40,,{rmb=20},80,dispatchTask
+120,101016,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=20},30,cloneBattle
+121,101016,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=20},40,cloneBattle
+122,101016,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=20},50,cloneBattle
+123,101016,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 11 times,組隊進行元素挑戰11次,Join Elemental Challenge in a team 11 times,,파티로 엘리멘탈 챌린지 11회 진행,110,11,,{rmb=20},60,cloneBattle
+124,101016,2,1,TRUE,TRUE,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=20},10,friend
+,,,,,,,,,,,,,,,,,,,,,
+130,101016,1,,,,Cumulative login 1 day,,,,,,,,,,17,1,,{rmb=300;gold=500000},,
+131,101016,1,,,,Total login 2 days,,,,,,,,,,17,2,,{500=1;19=5},,
+132,101016,1,,,,Log in for 3 days,,,,,,,,,,17,3,,{503=5},,
+133,101016,1,,,,Total login 4 days,,,,,,,,,,17,4,,{502=8;522=5},,
+134,101016,1,,,,Accumulated login 5 days,,,,,,,,,,17,5,,{519=10},,
+135,101016,1,,,,Total login 6 days,,,,,,,,,,17,6,,{851=100;529=1000},,
+136,101016,1,,,,Accumulated login for 7 days,,,,,,,,,,17,7,,{925=1},,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+201,101017,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄天數達到1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{rmb=20},10,
+202,101017,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄天數達到3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{rmb=20},20,
+203,101017,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄天數達到5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{rmb=20},30,
+204,101017,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄天數達到7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{rmb=20},50,
+205,101017,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 20 times,通關副本達到20次,Challenge Common Dungeon 20 times,,던전 20회 클리어 달성,33,20,,{rmb=20},10,10000
+206,101017,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 50 times,通關副本達到50次,Challenge Common Dungeon 50 times,,던전 50회 클리어 달성,33,50,,{rmb=20},20,10000
+207,101017,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 100 times,通關副本達到100次,Challenge Common Dungeon 100 times,,던전 100회 클리어 달성,33,100,,{rmb=20},30,10000
+208,101017,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,通關副本達到180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,33,180,,{rmb=20},50,10000
+209,101017,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 260 times,通關副本達到260次,Challenge Common Dungeon 260 times,,던전 260회 클리어 달성,33,260,,{rmb=20},80,10000
+210,101017,2,1,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 5 times,競技場內戰鬥5次,Fight in the Arena 5 times,,아레나 전투 5회 진행,41,5,,{rmb=20},10,arena
+211,101017,2,2,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 10 times,競技場內戰鬥10次,Fight in the Arena 10 times,,아레나 전투 10회 진행,41,10,,{rmb=20},20,arena
+212,101017,2,3,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 16 times,競技場內戰鬥16次,Fight in the Arena 16 times,,아레나 전투 16회 진행,41,16,,{rmb=20},30,arena
+213,101017,2,4,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 25 times,競技場內戰鬥25次,Fight in the Arena 25 times,,아레나 전투 25회 진행,41,25,,{rmb=20},50,arena
+214,101017,2,5,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 32 times,競技場內戰鬥32次,Fight in the Arena 32 times,,아레나 전투 32회 진행,41,32,,{rmb=20},80,arena
+215,101017,2,1,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 6 times,完成派遣累計6次,Join Quest Dispatch 6 times,,파견 완료 누적 6회,85,6,,{rmb=20},10,dispatchTask
+216,101017,2,2,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 12 times,完成派遣累計12次,Join Quest Dispatch 12 times,,파견 완료 누적 12회,85,12,,{rmb=20},20,dispatchTask
+217,101017,2,3,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 20 times,完成派遣累計20次,Join Quest Dispatch 20 times,,파견 완료 누적 20회,85,20,,{rmb=20},30,dispatchTask
+218,101017,2,4,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 32 times,完成派遣累計32次,Join Quest Dispatch 32 times,,파견 완료 누적 32회,85,32,,{rmb=20},50,dispatchTask
+219,101017,2,5,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 40 times,完成派遣累計40次,Join Quest Dispatch 40 times,,파견 완료 누적 40회,85,40,,{rmb=20},80,dispatchTask
+220,101017,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=20},30,cloneBattle
+221,101017,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=20},40,cloneBattle
+222,101017,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=20},50,cloneBattle
+223,101017,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 11 times,組隊進行元素挑戰11次,Join Elemental Challenge in a team 11 times,,파티로 엘리멘탈 챌린지 11회 진행,110,11,,{rmb=20},60,cloneBattle
+224,101017,2,1,TRUE,TRUE,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=20},10,friend
+,,,,,,,,,,,,,,,,,,,,,
+230,101017,1,,,,Cumulative login 1 day,,,,,,,,,,17,1,,{rmb=300;gold=500000},,
+231,101017,1,,,,Total login 2 days,,,,,,,,,,17,2,,{500=1;19=5},,
+232,101017,1,,,,Log in for 3 days,,,,,,,,,,17,3,,{503=5},,
+233,101017,1,,,,Total login 4 days,,,,,,,,,,17,4,,{502=8;522=5},,
+234,101017,1,,,,Accumulated login 5 days,,,,,,,,,,17,5,,{519=10},,
+235,101017,1,,,,Total login 6 days,,,,,,,,,,17,6,,{851=100;529=1000},,
+236,101017,1,,,,Accumulated login for 7 days,,,,,,,,,,17,7,,{925=1},,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+301,101018,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄天數達到1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{rmb=20},10,
+302,101018,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄天數達到3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{rmb=20},20,
+303,101018,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄天數達到5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{rmb=20},30,
+304,101018,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄天數達到7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{rmb=20},50,
+305,101018,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 20 times,通關副本達到20次,Challenge Common Dungeon 20 times,,던전 20회 클리어 달성,33,20,,{rmb=20},10,10000
+306,101018,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 50 times,通關副本達到50次,Challenge Common Dungeon 50 times,,던전 50회 클리어 달성,33,50,,{rmb=20},20,10000
+307,101018,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 100 times,通關副本達到100次,Challenge Common Dungeon 100 times,,던전 100회 클리어 달성,33,100,,{rmb=20},30,10000
+308,101018,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,通關副本達到180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,33,180,,{rmb=20},50,10000
+309,101018,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 260 times,通關副本達到260次,Challenge Common Dungeon 260 times,,던전 260회 클리어 달성,33,260,,{rmb=20},80,10000
+310,101018,2,1,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 5 times,競技場內戰鬥5次,Fight in the Arena 5 times,,아레나 전투 5회 진행,41,5,,{rmb=20},10,arena
+311,101018,2,2,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 10 times,競技場內戰鬥10次,Fight in the Arena 10 times,,아레나 전투 10회 진행,41,10,,{rmb=20},20,arena
+312,101018,2,3,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 16 times,競技場內戰鬥16次,Fight in the Arena 16 times,,아레나 전투 16회 진행,41,16,,{rmb=20},30,arena
+313,101018,2,4,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 25 times,競技場內戰鬥25次,Fight in the Arena 25 times,,아레나 전투 25회 진행,41,25,,{rmb=20},50,arena
+314,101018,2,5,,,King of PvP,PK之王,King of PvP,,PK의 제왕,Fight in the Arena 32 times,競技場內戰鬥32次,Fight in the Arena 32 times,,아레나 전투 32회 진행,41,32,,{rmb=20},80,arena
+315,101018,2,1,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 6 times,完成派遣累計6次,Join Quest Dispatch 6 times,,파견 완료 누적 6회,85,6,,{rmb=20},10,dispatchTask
+316,101018,2,2,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 12 times,完成派遣累計12次,Join Quest Dispatch 12 times,,파견 완료 누적 12회,85,12,,{rmb=20},20,dispatchTask
+317,101018,2,3,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 20 times,完成派遣累計20次,Join Quest Dispatch 20 times,,파견 완료 누적 20회,85,20,,{rmb=20},30,dispatchTask
+318,101018,2,4,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 32 times,完成派遣累計32次,Join Quest Dispatch 32 times,,파견 완료 누적 32회,85,32,,{rmb=20},50,dispatchTask
+319,101018,2,5,TRUE,,Super Errand-man,金牌跑腿,Super Errand-man,,에이스 심부름꾼,Join Quest Dispatch 40 times,完成派遣累計40次,Join Quest Dispatch 40 times,,파견 완료 누적 40회,85,40,,{rmb=20},80,dispatchTask
+320,101018,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=20},30,cloneBattle
+321,101018,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=20},40,cloneBattle
+322,101018,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=20},50,cloneBattle
+323,101018,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 11 times,組隊進行元素挑戰11次,Join Elemental Challenge in a team 11 times,,파티로 엘리멘탈 챌린지 11회 진행,110,11,,{rmb=20},60,cloneBattle
+324,101018,2,1,TRUE,TRUE,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=20},10,friend
+,,,,,,,,,,,,,,,,,,,,,
+330,101018,1,,,,,,,,,,,,,,17,1,,{rmb=300;gold=500000},,
+331,101018,1,,,,,,,,,,,,,,17,2,,{500=1;19=5},,
+332,101018,1,,,,,,,,,,,,,,17,3,,{503=5},,
+333,101018,1,,,,,,,,,,,,,,17,4,,{502=8;522=5},,
+334,101018,1,,,,,,,,,,,,,,17,5,,{519=10},,
+335,101018,1,,,,,,,,,,,,,,17,6,,{851=100;529=1000},,
+336,101018,1,,,,,,,,,,,,,,17,7,,{925=1},,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+1001,1001,1,,,,,,,,,,,,,,17,1,,{rmb=100;role_exp=500;stamina=200;gold=500000},,
+1002,1001,1,,,,,,,,,,,,,,17,2,,{rmb=100;role_exp=300;stamina=120;gold=300000},,
+1003,1001,1,,,,,,,,,,,,,,17,3,,{rmb=100;role_exp=300;stamina=120;gold=300000},,
+1004,1001,1,,,,,,,,,,,,,,17,4,,{rmb=100;role_exp=500;stamina=200;gold=500000},,
+1005,1001,1,,,,,,,,,,,,,,17,5,,{rmb=100;role_exp=300;stamina=120;gold=300000},,
+1006,1001,1,,,,,,,,,,,,,,17,6,,{rmb=100;role_exp=300;stamina=120;gold=300000},,
+1007,1001,1,,,,,,,,,,,,,,17,7,,{rmb=200;role_exp=800;stamina=300;gold=1000000},,
+,,,,,,,,,,,,,,,,,,,,,
+2001,1002,1,,,,,,,,,,,,,,17,1,,{rmb=180;role_exp=900;stamina=360;gold=900000},,
+2002,1002,1,,,,,,,,,,,,,,17,2,,{rmb=180;role_exp=540;stamina=216;gold=540000},,
+2003,1002,1,,,,,,,,,,,,,,17,3,,{rmb=180;role_exp=540;stamina=216;gold=540000},,
+2004,1002,1,,,,,,,,,,,,,,17,4,,{rmb=180;role_exp=900;stamina=360;gold=900000},,
+2005,1002,1,,,,,,,,,,,,,,17,5,,{rmb=180;role_exp=540;stamina=216;gold=540000},,
+2006,1002,1,,,,,,,,,,,,,,17,6,,{rmb=180;role_exp=540;stamina=216;gold=540000},,
+2007,1002,1,,,,,,,,,,,,,,17,7,,{rmb=360;role_exp=1440;stamina=540;gold=1800000},,
+,,,,,,,,,,,,,,,,,,,,,
+3001,1003,1,,,,,,,,,,,,,,17,1,,{rmb=320;role_exp=1600;stamina=640;gold=1600000},,
+3002,1003,1,,,,,,,,,,,,,,17,2,,{rmb=320;role_exp=960;stamina=384;gold=960000},,
+3003,1003,1,,,,,,,,,,,,,,17,3,,{rmb=320;role_exp=960;stamina=384;gold=960000},,
+3004,1003,1,,,,,,,,,,,,,,17,4,,{rmb=320;role_exp=1600;stamina=640;gold=1600000},,
+3005,1003,1,,,,,,,,,,,,,,17,5,,{rmb=320;role_exp=960;stamina=384;gold=960000},,
+3006,1003,1,,,,,,,,,,,,,,17,6,,{rmb=320;role_exp=960;stamina=384;gold=960000},,
+3007,1003,1,,,,,,,,,,,,,,17,7,,{rmb=640;role_exp=2560;stamina=960;gold=3200000},,
+,,,,,,,,,,,,,,,,,,,,,
+4001,1004,1,,,,,,,,,,,,,,17,1,,{rmb=450;role_exp=2250;stamina=900;gold=2250000},,
+4002,1004,1,,,,,,,,,,,,,,17,2,,{rmb=450;role_exp=1350;stamina=540;gold=1350000},,
+4003,1004,1,,,,,,,,,,,,,,17,3,,{rmb=450;role_exp=1350;stamina=540;gold=1350000},,
+4004,1004,1,,,,,,,,,,,,,,17,4,,{rmb=450;role_exp=2250;stamina=900;gold=2250000},,
+4005,1004,1,,,,,,,,,,,,,,17,5,,{rmb=450;role_exp=1350;stamina=540;gold=1350000},,
+4006,1004,1,,,,,,,,,,,,,,17,6,,{rmb=450;role_exp=1350;stamina=540;gold=1350000},,
+4007,1004,1,,,,,,,,,,,,,,17,7,,{rmb=900;role_exp=3600;stamina=1350;gold=4500000},,
+,,,,,,,,,,,,,,,,,,,,,
+1011,1001,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{502=4;519=2;452=100;15=20},10,
+1012,1001,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 2 days,累計登錄2天,Login for 2 days,,누적 로그인일 수 2일 달성,17,2,,{coin1=200;coin3=200;coin2=500;15=10},10,
+1013,1001,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{coin1=200;coin3=200;coin2=500;15=10},10,
+1014,1001,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 4 days,累計登錄4天,Login for 4 days,,누적 로그인일 수 4일 달성,17,4,,{coin1=200;coin3=200;coin2=500;15=20},10,
+1015,1001,2,5,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{coin1=200;coin3=200;coin2=500;15=10},10,
+1016,1001,2,6,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 6 days,累計登錄6天,Login for 6 days,,누적 로그인일 수 6일 달성,17,6,,{coin1=200;coin3=200;coin2=500;15=10},10,
+1017,1001,2,7,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{502=8;519=4;452=200;15=20},10,
+1021,1001,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 90 times,普通副本挑戰90次,Challenge Common Dungeon 90 times,,던전 90회 클리어 달성,29,90,,{930=20;5000=20;gold=100000},10,10000
+1022,1001,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,普通副本挑戰180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,29,180,,{930=20;5000=20;gold=100000},10,10000
+1023,1001,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 270 times,普通副本挑戰270次,Challenge Common Dungeon 270 times,,던전 270회 클리어 달성,29,270,,{930=24;5000=24;gold=120000},10,10000
+1024,1001,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 360 times,普通副本挑戰360次,Challenge Common Dungeon 360 times,,던전 360회 클리어 달성,29,360,,{930=30;5000=30;gold=150000},10,10000
+1025,1001,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 450 times,普通副本挑戰450次,Challenge Common Dungeon 450 times,,던전 450회 클리어 달성,29,450,,{930=30;5000=30;gold=150000},10,10000
+1026,1001,2,6,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 540 times,普通副本挑戰540次,Challenge Common Dungeon 540 times,,던전 540회 클리어 달성,29,540,,{930=40;5000=40;gold=200000},10,10000
+1027,1001,2,7,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 720 times,普通副本挑戰720次,Challenge Common Dungeon 720 times,,던전 720회 클리어 달성,29,720,,{930=40;5000=40;gold=200000},10,10000
+1031,1001,2,1,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 6 times,任務派遣6次,Join Quest Dispatch 6 times,,파견 퀘스트  6회 진행,85,6,,{2103=3;gold=60000},10,dispatchTask
+1032,1001,2,2,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 12 times,任務派遣12次,Join Quest Dispatch 12 times,,파견 퀘스트  12회 진행,85,12,,{2103=3;gold=60000},10,dispatchTask
+1033,1001,2,3,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 18 times,任務派遣18次,Join Quest Dispatch 18 times,,파견 퀘스트  18회 진행,85,18,,{2103=3;gold=60000},10,dispatchTask
+1034,1001,2,4,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 24 times,任務派遣24次,Join Quest Dispatch 24 times,,파견 퀘스트  24회 진행,85,24,,{2103=6;gold=120000},10,dispatchTask
+1035,1001,2,5,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 30 times,任務派遣30次,Join Quest Dispatch 30 times,,파견 퀘스트  30회 진행,85,30,,{2103=6;gold=120000},10,dispatchTask
+1036,1001,2,6,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 36 times,任務派遣36次,Join Quest Dispatch 36 times,,파견 퀘스트  36회 진행,85,36,,{2103=9;gold=180000},10,dispatchTask
+1037,1001,2,7,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 42 times,任務派遣42次,Join Quest Dispatch 42 times,,파견 퀘스트  42회 진행,85,42,,{2103=9;gold=180000},10,dispatchTask
+1041,1001,2,1,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 9,000 points in Aether Paradise",以太樂園積分達到9000,"Reach 9,000 points in Aether Paradise",,에테르파라다이스 포인트 9000 달성,63,9000,,{coin2=300;4000=30},10,randomTower
+1042,1001,2,2,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 18,000 points in Aether Paradise",以太樂園積分達到18000,"Reach 18,000 points in Aether Paradise",,에테르파라다이스 포인트 18000 달성,63,18000,,{coin2=300;4000=30},10,randomTower
+1043,1001,2,3,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 30,000 points in Aether Paradise",以太樂園積分達到30000,"Reach 30,000 points in Aether Paradise",,에테르파라다이스 포인트 30000 달성,63,30000,,{coin2=300;4000=30},10,randomTower
+1044,1001,2,4,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 39,000 points in Aether Paradise",以太樂園積分達到39000,"Reach 39,000 points in Aether Paradise",,에테르파라다이스 포인트 39000 달성,63,39000,,{coin2=300;4000=30},10,randomTower
+1045,1001,2,5,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 48,000 points in Aether Paradise",以太樂園積分達到48000,"Reach 48,000 points in Aether Paradise",,에테르파라다이스 포인트 48000 달성,63,48000,,{coin2=600;4000=60},10,randomTower
+1046,1001,2,6,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 57,000 points in Aether Paradise",以太樂園積分達到57000,"Reach 57,000 points in Aether Paradise",,에테르파라다이스 포인트 57000 달성,63,57000,,{coin2=600;4000=60},10,randomTower
+1047,1001,2,7,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 66,000 points in Aether Paradise",以太樂園積分達到66000,"Reach 66,000 points in Aether Paradise",,에테르파라다이스 포인트 66000 달성,63,66000,,{coin2=600;4000=60},10,randomTower
+1048,1001,2,8,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 75,000 points in Aether Paradise",以太樂園積分達到75000,"Reach 75,000 points in Aether Paradise",,에테르파라다이스 포인트 75000 달성,63,75000,,{coin2=900;4000=90},10,randomTower
+1051,1001,2,1,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 3 times,公會副本戰鬥3次,Join Guild Dungeon Battle 3 times,,길드 던전 3회 전투,59,3,,{coin3=500;14=30;gold=150000},10,fuben
+1052,1001,2,2,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 6 times,公會副本戰鬥6次,Join Guild Dungeon Battle 6 times,,길드 던전 6회 전투,59,6,,{coin3=500;14=30;gold=150000},10,fuben
+1053,1001,2,3,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 9 times,公會副本戰鬥9次,Join Guild Dungeon Battle 9 times,,길드 던전 9회 전투,59,9,,{coin3=500;14=30;gold=150000},10,fuben
+1054,1001,2,4,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 12 times,公會副本戰鬥12次,Join Guild Dungeon Battle 12 times,,길드 던전 12회 전투,59,12,,{coin3=500;14=30;gold=150000},10,fuben
+1055,1001,2,1,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 10 times,公會捐獻10次,Donate to Guild 10 times,,길드 기부 10회,55,10,,{coin3=500;14=30;gold=150000},10,contribute
+1056,1001,2,2,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 20 times,公會捐獻20次,Donate to Guild 20 times,,길드 기부 20회,55,20,,{coin3=500;14=30;gold=150000},10,contribute
+1057,1001,2,1,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 5 times,公會內搶紅包5次,Grab Red Pocket in Guild 5 times,,길드 보너스 5회 얻기,58,5,,{coin3=500;14=30;gold=150000},10,redpacket
+1058,1001,2,2,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 10 times,公會內搶紅包10次,Grab Red Pocket in Guild 10 times,,길드 보너스 10회 얻기,58,10,,{coin3=500;14=30;gold=150000},10,redpacket
+1061,1001,2,1,TRUE,TRUE,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=50;gold=500000},10,friend
+1062,1001,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 1 times,組隊進行元素挑戰1次,Join Elemental Challenge in a team 1 times,,파티로 엘리멘탈 챌린지 1회 진행,110,1,,{rmb=10;502=1;gold=100000},10,cloneBattle
+1063,1001,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=10;502=1;gold=100000},10,cloneBattle
+1064,1001,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=10;502=1;gold=100000},10,cloneBattle
+1065,1001,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=10;502=1;gold=100000},10,cloneBattle
+,,,,,,,,,,,,,,,,,,,,,
+2011,1002,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{502=7;519=4;452=180;15=36},10,
+2012,1002,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 2 days,累計登錄2天,Login for 2 days,,누적 로그인일 수 2일 달성,17,2,,{coin1=360;coin3=360;coin2=900;15=18},10,
+2013,1002,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{coin1=360;coin3=360;coin2=900;15=18},10,
+2014,1002,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 4 days,累計登錄4天,Login for 4 days,,누적 로그인일 수 4일 달성,17,4,,{coin1=360;coin3=360;coin2=900;15=36},10,
+2015,1002,2,5,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{coin1=360;coin3=360;coin2=900;15=18},10,
+2016,1002,2,6,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 6 days,累計登錄6天,Login for 6 days,,누적 로그인일 수 6일 달성,17,6,,{coin1=360;coin3=360;coin2=900;15=18},10,
+2017,1002,2,7,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{502=14;519=7;452=360;15=36},10,
+2021,1002,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 90 times,普通副本挑戰90次,Challenge Common Dungeon 90 times,,던전 90회 클리어 달성,29,90,,{930=36;5000=36;gold=180000},10,10000
+2022,1002,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,普通副本挑戰180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,29,180,,{930=36;5000=36;gold=180000},10,10000
+2023,1002,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 270 times,普通副本挑戰270次,Challenge Common Dungeon 270 times,,던전 270회 클리어 달성,29,270,,{930=43;5000=43;gold=216000},10,10000
+2024,1002,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 360 times,普通副本挑戰360次,Challenge Common Dungeon 360 times,,던전 360회 클리어 달성,29,360,,{930=54;5000=54;gold=270000},10,10000
+2025,1002,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 450 times,普通副本挑戰450次,Challenge Common Dungeon 450 times,,던전 450회 클리어 달성,29,450,,{930=54;5000=54;gold=270000},10,10000
+2026,1002,2,6,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 540 times,普通副本挑戰540次,Challenge Common Dungeon 540 times,,던전 540회 클리어 달성,29,540,,{930=72;5000=72;gold=360000},10,10000
+2027,1002,2,7,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 720 times,普通副本挑戰720次,Challenge Common Dungeon 720 times,,던전 720회 클리어 달성,29,720,,{930=72;5000=72;gold=360000},10,10000
+2031,1002,2,1,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 6 times,任務派遣6次,Join Quest Dispatch 6 times,,파견 퀘스트  6회 진행,85,6,,{2103=5;gold=108000},10,dispatchTask
+2032,1002,2,2,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 12 times,任務派遣12次,Join Quest Dispatch 12 times,,파견 퀘스트  12회 진행,85,12,,{2103=5;gold=108000},10,dispatchTask
+2033,1002,2,3,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 18 times,任務派遣18次,Join Quest Dispatch 18 times,,파견 퀘스트  18회 진행,85,18,,{2103=5;gold=108000},10,dispatchTask
+2034,1002,2,4,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 24 times,任務派遣24次,Join Quest Dispatch 24 times,,파견 퀘스트  24회 진행,85,24,,{2103=11;gold=216000},10,dispatchTask
+2035,1002,2,5,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 30 times,任務派遣30次,Join Quest Dispatch 30 times,,파견 퀘스트  30회 진행,85,30,,{2103=11;gold=216000},10,dispatchTask
+2036,1002,2,6,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 36 times,任務派遣36次,Join Quest Dispatch 36 times,,파견 퀘스트  36회 진행,85,36,,{2103=16;gold=324000},10,dispatchTask
+2037,1002,2,7,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 42 times,任務派遣42次,Join Quest Dispatch 42 times,,파견 퀘스트  42회 진행,85,42,,{2103=16;gold=324000},10,dispatchTask
+2041,1002,2,1,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 9,000 points in Aether Paradise",以太樂園積分達到9000,"Reach 9,000 points in Aether Paradise",,에테르파라다이스 포인트 9000 달성,63,9000,,{coin2=540;4000=54},10,randomTower
+2042,1002,2,2,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 18,000 points in Aether Paradise",以太樂園積分達到18000,"Reach 18,000 points in Aether Paradise",,에테르파라다이스 포인트 18000 달성,63,18000,,{coin2=540;4000=54},10,randomTower
+2043,1002,2,3,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 30,000 points in Aether Paradise",以太樂園積分達到30000,"Reach 30,000 points in Aether Paradise",,에테르파라다이스 포인트 30000 달성,63,30000,,{coin2=540;4000=54},10,randomTower
+2044,1002,2,4,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 39,000 points in Aether Paradise",以太樂園積分達到39000,"Reach 39,000 points in Aether Paradise",,에테르파라다이스 포인트 39000 달성,63,39000,,{coin2=540;4000=54},10,randomTower
+2045,1002,2,5,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 48,000 points in Aether Paradise",以太樂園積分達到48000,"Reach 48,000 points in Aether Paradise",,에테르파라다이스 포인트 48000 달성,63,48000,,{coin2=1080;4000=108},10,randomTower
+2046,1002,2,6,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 57,000 points in Aether Paradise",以太樂園積分達到57000,"Reach 57,000 points in Aether Paradise",,에테르파라다이스 포인트 57000 달성,63,57000,,{coin2=1080;4000=108},10,randomTower
+2047,1002,2,7,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 66,000 points in Aether Paradise",以太樂園積分達到66000,"Reach 66,000 points in Aether Paradise",,에테르파라다이스 포인트 66000 달성,63,66000,,{coin2=1080;4000=108},10,randomTower
+2048,1002,2,8,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 75,000 points in Aether Paradise",以太樂園積分達到75000,"Reach 75,000 points in Aether Paradise",,에테르파라다이스 포인트 75000 달성,63,75000,,{coin2=1620;4000=162},10,randomTower
+2051,1002,2,1,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 3 times,公會副本戰鬥3次,Join Guild Dungeon Battle 3 times,,길드 던전 3회 전투,59,3,,{coin3=900;14=54;gold=270000},10,fuben
+2052,1002,2,2,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 6 times,公會副本戰鬥6次,Join Guild Dungeon Battle 6 times,,길드 던전 6회 전투,59,6,,{coin3=900;14=54;gold=270000},10,fuben
+2053,1002,2,3,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 9 times,公會副本戰鬥9次,Join Guild Dungeon Battle 9 times,,길드 던전 9회 전투,59,9,,{coin3=900;14=54;gold=270000},10,fuben
+2054,1002,2,4,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 12 times,公會副本戰鬥12次,Join Guild Dungeon Battle 12 times,,길드 던전 12회 전투,59,12,,{coin3=900;14=54;gold=270000},10,fuben
+2055,1002,2,1,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 10 times,公會捐獻10次,Donate to Guild 10 times,,길드 기부 10회,55,10,,{coin3=900;14=54;gold=270000},10,contribute
+2056,1002,2,2,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 20 times,公會捐獻20次,Donate to Guild 20 times,,길드 기부 20회,55,20,,{coin3=900;14=54;gold=270000},10,contribute
+2057,1002,2,1,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 5 times,公會內搶紅包5次,Grab Red Pocket in Guild 5 times,,길드 보너스 5회 얻기,58,5,,{coin3=900;14=54;gold=270000},10,redpacket
+2058,1002,2,2,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 10 times,公會內搶紅包10次,Grab Red Pocket in Guild 10 times,,길드 보너스 10회 얻기,58,10,,{coin3=900;14=54;gold=270000},10,redpacket
+2061,1002,2,1,TRUE,TRUE,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=50;gold=500000},10,friend
+2062,1002,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 1 times,組隊進行元素挑戰1次,Join Elemental Challenge in a team 1 times,,파티로 엘리멘탈 챌린지 1회 진행,110,1,,{rmb=10;502=1;gold=100000},10,cloneBattle
+2063,1002,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=10;502=1;gold=100000},10,cloneBattle
+2064,1002,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=10;502=1;gold=100000},10,cloneBattle
+2065,1002,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=10;502=1;gold=100000},10,cloneBattle
+,,,,,,,,,,,,,,,,,,,,,
+3011,1003,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{502=13;519=6;452=320;15=64},10,
+3012,1003,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 2 days,累計登錄2天,Login for 2 days,,누적 로그인일 수 2일 달성,17,2,,{coin1=640;coin3=640;coin2=1600;15=32},10,
+3013,1003,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{coin1=640;coin3=640;coin2=1600;15=32},10,
+3014,1003,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 4 days,累計登錄4天,Login for 4 days,,누적 로그인일 수 4일 달성,17,4,,{coin1=640;coin3=640;coin2=1600;15=64},10,
+3015,1003,2,5,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{coin1=640;coin3=640;coin2=1600;15=32},10,
+3016,1003,2,6,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 6 days,累計登錄6天,Login for 6 days,,누적 로그인일 수 6일 달성,17,6,,{coin1=640;coin3=640;coin2=1600;15=32},10,
+3017,1003,2,7,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{502=26;519=13;452=640;15=64},10,
+3021,1003,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 90 times,普通副本挑戰90次,Challenge Common Dungeon 90 times,,던전 90회 클리어 달성,29,90,,{930=64;5000=64;gold=320000},10,10000
+3022,1003,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,普通副本挑戰180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,29,180,,{930=64;5000=64;gold=320000},10,10000
+3023,1003,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 270 times,普通副本挑戰270次,Challenge Common Dungeon 270 times,,던전 270회 클리어 달성,29,270,,{930=77;5000=77;gold=384000},10,10000
+3024,1003,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 360 times,普通副本挑戰360次,Challenge Common Dungeon 360 times,,던전 360회 클리어 달성,29,360,,{930=96;5000=96;gold=480000},10,10000
+3025,1003,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 450 times,普通副本挑戰450次,Challenge Common Dungeon 450 times,,던전 450회 클리어 달성,29,450,,{930=96;5000=96;gold=480000},10,10000
+3026,1003,2,6,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 540 times,普通副本挑戰540次,Challenge Common Dungeon 540 times,,던전 540회 클리어 달성,29,540,,{930=128;5000=128;gold=640000},10,10000
+3027,1003,2,7,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 720 times,普通副本挑戰720次,Challenge Common Dungeon 720 times,,던전 720회 클리어 달성,29,720,,{930=128;5000=128;gold=640000},10,10000
+3031,1003,2,1,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 6 times,任務派遣6次,Join Quest Dispatch 6 times,,파견 퀘스트  6회 진행,85,6,,{2103=10;gold=192000},10,dispatchTask
+3032,1003,2,2,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 12 times,任務派遣12次,Join Quest Dispatch 12 times,,파견 퀘스트  12회 진행,85,12,,{2103=10;gold=192000},10,dispatchTask
+3033,1003,2,3,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 18 times,任務派遣18次,Join Quest Dispatch 18 times,,파견 퀘스트  18회 진행,85,18,,{2103=10;gold=192000},10,dispatchTask
+3034,1003,2,4,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 24 times,任務派遣24次,Join Quest Dispatch 24 times,,파견 퀘스트  24회 진행,85,24,,{2103=19;gold=384000},10,dispatchTask
+3035,1003,2,5,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 30 times,任務派遣30次,Join Quest Dispatch 30 times,,파견 퀘스트  30회 진행,85,30,,{2103=19;gold=384000},10,dispatchTask
+3036,1003,2,6,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 36 times,任務派遣36次,Join Quest Dispatch 36 times,,파견 퀘스트  36회 진행,85,36,,{2103=29;gold=576000},10,dispatchTask
+3037,1003,2,7,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 42 times,任務派遣42次,Join Quest Dispatch 42 times,,파견 퀘스트  42회 진행,85,42,,{2103=29;gold=576000},10,dispatchTask
+3041,1003,2,1,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 9,000 points in Aether Paradise",以太樂園積分達到9000,"Reach 9,000 points in Aether Paradise",,에테르파라다이스 포인트 9000 달성,63,9000,,{coin2=960;4000=96},10,randomTower
+3042,1003,2,2,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 18,000 points in Aether Paradise",以太樂園積分達到18000,"Reach 18,000 points in Aether Paradise",,에테르파라다이스 포인트 18000 달성,63,18000,,{coin2=960;4000=96},10,randomTower
+3043,1003,2,3,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 30,000 points in Aether Paradise",以太樂園積分達到30000,"Reach 30,000 points in Aether Paradise",,에테르파라다이스 포인트 30000 달성,63,30000,,{coin2=960;4000=96},10,randomTower
+3044,1003,2,4,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 39,000 points in Aether Paradise",以太樂園積分達到39000,"Reach 39,000 points in Aether Paradise",,에테르파라다이스 포인트 39000 달성,63,39000,,{coin2=960;4000=96},10,randomTower
+3045,1003,2,5,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 48,000 points in Aether Paradise",以太樂園積分達到48000,"Reach 48,000 points in Aether Paradise",,에테르파라다이스 포인트 48000 달성,63,48000,,{coin2=1920;4000=192},10,randomTower
+3046,1003,2,6,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 57,000 points in Aether Paradise",以太樂園積分達到57000,"Reach 57,000 points in Aether Paradise",,에테르파라다이스 포인트 57000 달성,63,57000,,{coin2=1920;4000=192},10,randomTower
+3047,1003,2,7,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 66,000 points in Aether Paradise",以太樂園積分達到66000,"Reach 66,000 points in Aether Paradise",,에테르파라다이스 포인트 66000 달성,63,66000,,{coin2=1920;4000=192},10,randomTower
+3048,1003,2,8,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 75,000 points in Aether Paradise",以太樂園積分達到75000,"Reach 75,000 points in Aether Paradise",,에테르파라다이스 포인트 75000 달성,63,75000,,{coin2=2880;4000=288},10,randomTower
+3051,1003,2,1,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 3 times,公會副本戰鬥3次,Join Guild Dungeon Battle 3 times,,길드 던전 3회 전투,59,3,,{coin3=1600;14=96;gold=480000},10,fuben
+3052,1003,2,2,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 6 times,公會副本戰鬥6次,Join Guild Dungeon Battle 6 times,,길드 던전 6회 전투,59,6,,{coin3=1600;14=96;gold=480000},10,fuben
+3053,1003,2,3,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 9 times,公會副本戰鬥9次,Join Guild Dungeon Battle 9 times,,길드 던전 9회 전투,59,9,,{coin3=1600;14=96;gold=480000},10,fuben
+3054,1003,2,4,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 12 times,公會副本戰鬥12次,Join Guild Dungeon Battle 12 times,,길드 던전 12회 전투,59,12,,{coin3=1600;14=96;gold=480000},10,fuben
+3055,1003,2,1,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 10 times,公會捐獻10次,Donate to Guild 10 times,,길드 기부 10회,55,10,,{coin3=1600;14=96;gold=480000},10,contribute
+3056,1003,2,2,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 20 times,公會捐獻20次,Donate to Guild 20 times,,길드 기부 20회,55,20,,{coin3=1600;14=96;gold=480000},10,contribute
+3057,1003,2,1,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 5 times,公會內搶紅包5次,Grab Red Pocket in Guild 5 times,,길드 보너스 5회 얻기,58,5,,{coin3=1600;14=96;gold=480000},10,redpacket
+3058,1003,2,2,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 10 times,公會內搶紅包10次,Grab Red Pocket in Guild 10 times,,길드 보너스 10회 얻기,58,10,,{coin3=1600;14=96;gold=480000},10,redpacket
+3061,1003,2,1,TRUE,TRUE,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=50;gold=500000},10,friend
+3062,1003,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 1 times,組隊進行元素挑戰1次,Join Elemental Challenge in a team 1 times,,파티로 엘리멘탈 챌린지 1회 진행,110,1,,{rmb=10;502=1;gold=100000},10,cloneBattle
+3063,1003,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=10;502=1;gold=100000},10,cloneBattle
+3064,1003,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=10;502=1;gold=100000},10,cloneBattle
+3065,1003,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=10;502=1;gold=100000},10,cloneBattle
+,,,,,,,,,,,,,,,,,,,,,
+4011,1004,2,1,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 1 day,累計登錄1天,Login for 1 day,,누적 로그인일 수 1일 달성,17,1,,{502=18;519=9;452=450;15=90},10,
+4012,1004,2,2,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 2 days,累計登錄2天,Login for 2 days,,누적 로그인일 수 2일 달성,17,2,,{coin1=900;coin3=900;coin2=2250;15=45},10,
+4013,1004,2,3,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 3 days,累計登錄3天,Login for 3 days,,누적 로그인일 수 3일 달성,17,3,,{coin1=900;coin3=900;coin2=2250;15=45},10,
+4014,1004,2,4,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 4 days,累計登錄4天,Login for 4 days,,누적 로그인일 수 4일 달성,17,4,,{coin1=900;coin3=900;coin2=2250;15=90},10,
+4015,1004,2,5,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 5 days,累計登錄5天,Login for 5 days,,누적 로그인일 수 5일 달성,17,5,,{coin1=900;coin3=900;coin2=2250;15=45},10,
+4016,1004,2,6,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 6 days,累計登錄6天,Login for 6 days,,누적 로그인일 수 6일 달성,17,6,,{coin1=900;coin3=900;coin2=2250;15=45},10,
+4017,1004,2,7,,,Perfect Attendance,一天不落,Perfect Attendance,,프로 참석러,Login for 7 days,累計登錄7天,Login for 7 days,,누적 로그인일 수 7일 달성,17,7,,{502=36;519=18;452=900;15=90},10,
+4021,1004,2,1,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 90 times,普通副本挑戰90次,Challenge Common Dungeon 90 times,,던전 90회 클리어 달성,29,90,,{930=90;5000=90;gold=450000},10,10000
+4022,1004,2,2,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 180 times,普通副本挑戰180次,Challenge Common Dungeon 180 times,,던전 180회 클리어 달성,29,180,,{930=90;5000=90;gold=450000},10,10000
+4023,1004,2,3,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 270 times,普通副本挑戰270次,Challenge Common Dungeon 270 times,,던전 270회 클리어 달성,29,270,,{930=108;5000=108;gold=540000},10,10000
+4024,1004,2,4,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 360 times,普通副本挑戰360次,Challenge Common Dungeon 360 times,,던전 360회 클리어 달성,29,360,,{930=135;5000=135;gold=675000},10,10000
+4025,1004,2,5,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 450 times,普通副本挑戰450次,Challenge Common Dungeon 450 times,,던전 450회 클리어 달성,29,450,,{930=135;5000=135;gold=675000},10,10000
+4026,1004,2,6,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 540 times,普通副本挑戰540次,Challenge Common Dungeon 540 times,,던전 540회 클리어 달성,29,540,,{930=180;5000=180;gold=900000},10,10000
+4027,1004,2,7,,,Stage Sweeper,通關能手,Stage Sweeper,,클리어 장인,Challenge Common Dungeon 720 times,普通副本挑戰720次,Challenge Common Dungeon 720 times,,던전 720회 클리어 달성,29,720,,{930=180;5000=180;gold=900000},10,10000
+4031,1004,2,1,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 6 times,任務派遣6次,Join Quest Dispatch 6 times,,파견 퀘스트  6회 진행,85,6,,{2103=14;gold=270000},10,dispatchTask
+4032,1004,2,2,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 12 times,任務派遣12次,Join Quest Dispatch 12 times,,파견 퀘스트  12회 진행,85,12,,{2103=14;gold=270000},10,dispatchTask
+4033,1004,2,3,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 18 times,任務派遣18次,Join Quest Dispatch 18 times,,파견 퀘스트  18회 진행,85,18,,{2103=14;gold=270000},10,dispatchTask
+4034,1004,2,4,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 24 times,任務派遣24次,Join Quest Dispatch 24 times,,파견 퀘스트  24회 진행,85,24,,{2103=27;gold=540000},10,dispatchTask
+4035,1004,2,5,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 30 times,任務派遣30次,Join Quest Dispatch 30 times,,파견 퀘스트  30회 진행,85,30,,{2103=27;gold=540000},10,dispatchTask
+4036,1004,2,6,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 36 times,任務派遣36次,Join Quest Dispatch 36 times,,파견 퀘스트  36회 진행,85,36,,{2103=41;gold=810000},10,dispatchTask
+4037,1004,2,7,,,Quest Expert,任務達人,Quest Expert,,퀘스트의 달인,Join Quest Dispatch 42 times,任務派遣42次,Join Quest Dispatch 42 times,,파견 퀘스트  42회 진행,85,42,,{2103=41;gold=810000},10,dispatchTask
+4041,1004,2,1,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 9,000 points in Aether Paradise",以太樂園積分達到9000,"Reach 9,000 points in Aether Paradise",,에테르파라다이스 포인트 9000 달성,63,9000,,{coin2=1350;4000=135},10,randomTower
+4042,1004,2,2,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 18,000 points in Aether Paradise",以太樂園積分達到18000,"Reach 18,000 points in Aether Paradise",,에테르파라다이스 포인트 18000 달성,63,18000,,{coin2=1350;4000=135},10,randomTower
+4043,1004,2,3,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 30,000 points in Aether Paradise",以太樂園積分達到30000,"Reach 30,000 points in Aether Paradise",,에테르파라다이스 포인트 30000 달성,63,30000,,{coin2=1350;4000=135},10,randomTower
+4044,1004,2,4,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 39,000 points in Aether Paradise",以太樂園積分達到39000,"Reach 39,000 points in Aether Paradise",,에테르파라다이스 포인트 39000 달성,63,39000,,{coin2=1350;4000=135},10,randomTower
+4045,1004,2,5,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 48,000 points in Aether Paradise",以太樂園積分達到48000,"Reach 48,000 points in Aether Paradise",,에테르파라다이스 포인트 48000 달성,63,48000,,{coin2=2700;4000=270},10,randomTower
+4046,1004,2,6,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 57,000 points in Aether Paradise",以太樂園積分達到57000,"Reach 57,000 points in Aether Paradise",,에테르파라다이스 포인트 57000 달성,63,57000,,{coin2=2700;4000=270},10,randomTower
+4047,1004,2,7,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 66,000 points in Aether Paradise",以太樂園積分達到66000,"Reach 66,000 points in Aether Paradise",,에테르파라다이스 포인트 66000 달성,63,66000,,{coin2=2700;4000=270},10,randomTower
+4048,1004,2,8,,,Aether King,以太王者,Aether King,,에테르 왕자,"Reach 75,000 points in Aether Paradise",以太樂園積分達到75000,"Reach 75,000 points in Aether Paradise",,에테르파라다이스 포인트 75000 달성,63,75000,,{coin2=4050;4000=405},10,randomTower
+4051,1004,2,1,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 3 times,公會副本戰鬥3次,Join Guild Dungeon Battle 3 times,,길드 던전 3회 전투,59,3,,{coin3=2250;14=135;gold=675000},10,fuben
+4052,1004,2,2,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 6 times,公會副本戰鬥6次,Join Guild Dungeon Battle 6 times,,길드 던전 6회 전투,59,6,,{coin3=2250;14=135;gold=675000},10,fuben
+4053,1004,2,3,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 9 times,公會副本戰鬥9次,Join Guild Dungeon Battle 9 times,,길드 던전 9회 전투,59,9,,{coin3=2250;14=135;gold=675000},10,fuben
+4054,1004,2,4,,,Guild Battle,公會戰鬥,Guild Battle,,길드 전투,Join Guild Dungeon Battle 12 times,公會副本戰鬥12次,Join Guild Dungeon Battle 12 times,,길드 던전 12회 전투,59,12,,{coin3=2250;14=135;gold=675000},10,fuben
+4055,1004,2,1,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 10 times,公會捐獻10次,Donate to Guild 10 times,,길드 기부 10회,55,10,,{coin3=2250;14=135;gold=675000},10,contribute
+4056,1004,2,2,,,Guild Battle,公會助力,Guild Battle,,길드 조력,Donate to Guild 20 times,公會捐獻20次,Donate to Guild 20 times,,길드 기부 20회,55,20,,{coin3=2250;14=135;gold=675000},10,contribute
+4057,1004,2,1,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 5 times,公會內搶紅包5次,Grab Red Pocket in Guild 5 times,,길드 보너스 5회 얻기,58,5,,{coin3=2250;14=135;gold=675000},10,redpacket
+4058,1004,2,2,,,Grab Red Pocket,搶紅包,Grab Red Pocket,,보너스 얻기,Grab Red Pocket in Guild 10 times,公會內搶紅包10次,Grab Red Pocket in Guild 10 times,,길드 보너스 10회 얻기,58,10,,{coin3=2250;14=135;gold=675000},10,redpacket
+4061,1004,2,1,,,Being friends,交個朋友吧,Being friends,,친구하자,Friended,互為好友,Friended,,서로 친구 추가,111,1,,{rmb=50;gold=500000},10,friend
+4062,1004,2,1,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 1 times,組隊進行元素挑戰1次,Join Elemental Challenge in a team 1 times,,파티로 엘리멘탈 챌린지 1회 진행,110,1,,{rmb=10;502=1;gold=100000},10,cloneBattle
+4063,1004,2,2,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 3 times,組隊進行元素挑戰3次,Join Elemental Challenge in a team 3 times,,파티로 엘리멘탈 챌린지 3회 진행,110,3,,{rmb=10;502=1;gold=100000},10,cloneBattle
+4064,1004,2,3,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 6 times,組隊進行元素挑戰6次,Join Elemental Challenge in a team 6 times,,파티로 엘리멘탈 챌린지 6회 진행,110,6,,{rmb=10;502=1;gold=100000},10,cloneBattle
+4065,1004,2,4,TRUE,TRUE,Side-by-side Companion,並肩的夥伴,Side-by-side Companion,,함께하는 동료,Join Elemental Challenge in a team 9 times,組隊進行元素挑戰9次,Join Elemental Challenge in a team 9 times,,파티로 엘리멘탈 챌린지 9회 진행,110,9,,{rmb=10;502=1;gold=100000},10,cloneBattle

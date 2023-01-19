@@ -1,0 +1,542 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.pull-left.pagination-detail {
+			display:none;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"GM tool")}}</h4></div>
+		</div>
+
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<form class="form-inline" role="form">
+						<div class="form-group">
+						  	<label>{{ _(u'server') }}</label>
+						    <input id="serv-select" class="form-control input-sm" data-toggle="modal" data-target="#serv-select-modal" placeholder="Defeted allserver">
+						</div>
+					</form>
+        		</div>
+        	</div>
+
+        	<div class="row margin-top-m">
+				<div class="col-lg-12">
+	        		<ul class="nav nav-tabs">
+					    <li class="active"><a href="#refreshcsv" data-toggle="tab">{{ _(u"Refresh table") }}</a></li>
+						<li><a href="#execpy" data-toggle="tab">{{ _(u"Execute script") }}</a></li>
+						<li><a href="#genrobots" data-toggle="tab">{{ _(u"Generate robot") }}</a></li>
+						<li><a href="#cardattrs" data-toggle="tab">{{ _(u"Calculate card attributes") }}</a></li>
+						<li><a href="#dataexport" data-toggle="tab">{{ _(u"export data") }}</a></li>
+						<li><a href="#dataimport" data-toggle="tab">{{ _(u"Import Data") }}</a></li>
+					</ul>
+	        	</div>
+			</div>
+
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		<div id="tabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="refreshcsv">
+							<div class="margin-top-s">
+								<p><i>Please select the district service, click the confirm button to make it<span class='note-red'>Family refresh</span>。</i></p>
+								<input id="refreshcsv-click" type="button" class="btn btn-default btn-success input-sm" value="Refresh table"><br>
+								<pre id='show-ret' class="hidden margin-top-s"></pre>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="execpy">
+							<div class="margin-top-s">
+								<p><i>Please upload the script file, and select the district service, click the confirm button for<span class='note-red'>scriptExecution</span>。</i></p>
+								<input id='src-file' type='file'>
+								<input id="execpy-click" type="button" class="btn btn-default btn-success input-sm margin-top-s" value="Execute script"><br>
+								<pre id='execpy-ret' class="hidden margin-top-s"></pre>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="genrobots">
+							<div class="margin-top-s">
+								<p><i>Please select the district service, click the confirm button to make it<span class='note-red'>Robotic</span>。</i></p>
+								<input id="genrobots-click" type="button" class="btn btn-default btn-success input-sm margin-top-s" value="Generate robot"><br>
+								<pre id='genrobots-ret' class="hidden margin-top-s"></pre>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="cardattrs">
+							<div class="margin-top-s">
+								<p><i>Please select the area and enter the character to do it<span class='note-red'>Card attribute calculation</span>。</i></p>
+								<div class="form-inline">
+			        				<div class="from-group">
+			        					<div class="form-group">
+										  	<label>{{ _(u"Character UID") }}</label>
+									        <input id="role-uid" type="text" class="form-control input-sm">
+										</div>
+										<div class="form-group margin-left-m">
+										  	<label></label>
+									        <input id="card-role-search" type="button" class="form-control btn btn-primary btn-circle input-sm" value='{{ _(u"Inquire") }}'>
+										</div>
+			        				</div>
+								</div>
+
+								<div class="row margin-top-s">
+		        					<div class="col-lg-4 col-md-4">
+		        						<div>--Card list--</div><br>
+									  	<table id="cards-display" class="table table-condensed"></table>
+									</div>
+									<div class="col-lg-2 col-md-3 right-border left-border">
+										<div>--Card information--</div><br>
+										<div id="card-info" class="note-red"></div>
+										<br>
+										<div>
+											<input id="card-attrs-cal" type="button" class="btn btn-success input-sm" value='{{ _(u"calculate") }}'>
+										</div>
+										<br>
+										<div id="card-keys"></div>
+									</div>
+									<div class="col-lg-6 col-md-5">
+										<div>--Card attribute--</div><br>
+										<div id="card-cal-result"></div>
+										<div>
+											<div>
+												<table id="base-table"></table>
+											</div>
+											<div>
+												<table id="character-table"></table>
+											</div>
+											<div>
+												<table id="nvalue-table"></table>
+											</div>
+											<div>
+												<table id="const-table"></table>
+											</div>
+											<div>
+												<table id="percent-table"></table>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="dataexport">
+							<div class="margin-top-s">
+								<p><i>After the export is completed, click the link to download.</i></p>
+								<input id="dataexport-click" type="button" class="btn btn-default btn-success input-sm" value="export data">
+								<div id="dataexport-show" class='margin-left-m' style='display: inline-block;'></div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="dataimport">
+							<div class="margin-top-s">
+								<p><i>Upload the mongo.json compressed file for import operation.</i></p>
+								<input id='dataimport-file' type='file'>
+								<input id="dataimport-click" type="button" class="btn btn-default btn-success input-sm margin-top-s" value="Import Data">
+								<div id="dataimport-show" class='margin-left-m' style='display: inline-block;'></div>
+							</div>
+						</div>
+					</div>
+	        	</div>
+	        </div>
+
+        </div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		var CardsRoleInfo = {};
+		const cardsConfig = {
+			"keys": [
+			["unit", "base"],
+			["star", "number of stars"],
+			["advance", "order"],
+			["nvalue", "individual value"],
+			["character", "character"],
+			["fetters", "fetters"],
+			["effort", "effort value"],
+			["feel", "favorability"],
+			["feel_effect", "Feel effect"],
+			["equips", "trinkets"],
+			["passive_skill", "passive skill"],
+			["talent", "talent"],
+			["trainer", "Trainer Level"],
+			["trainer_attr_skill", "Trainer Level Attribute Skill"],
+			["pokedex", "Picture Book"],
+			["pokedex_advance", "Pokedex Advance"],
+			["figure", "image"],
+			["title", "Title"],
+			["union_skill", "guild training"],
+			["heldItems", "carry items"],
+			["heldItems_effect", "carried items effect"],
+			["explorer_component", "Explorer Component"],
+			["explorer_effect", "Explorer effect"],
+			["star_effect", "Potential effect"],
+			["ability", "features"]
+			],
+
+			"attrs": [
+			["hp", "HP"],
+			["mp1", "MP1"],
+			["mp2", "MP2"],
+			["hpRecover", "HP Recover"],
+			["mp1Recover", "MP1 Recover"],
+			["mp2Recover", "MP2 Recover"],
+			["damage", "Physical Attack"],
+			["specialDamage", "Special Attack"],
+			["defence", "Physical Defense"],
+			["specialDefence", "Special Defense"],
+			["defenceIgnore", "Physical Defense Ignore"],
+			["specialDefenceIgnore", "Special Defense Ignore"],
+			["speed", "speed"],
+			["strike", "crit"],
+			["strikeDamage", "Crit Damage"],
+			["strikeResistance", "Crit Resistance"],
+			["block", "block level"],
+			["breakBlock", "Break block level"],
+			["blockPower", "Block Power"],
+			["dodge", "dodge"],
+			["hit", "hit"],
+			["damageAdd", "Damage Addition"],
+			["damageSub", "Damage Reduction"],
+			["ultimateAdd", "Ultimate Addition"],
+			["ultimateSub", "ultimate resistance"],
+			["suckBlood", "suck blood"],
+			["rebound", "bounce"],
+			["cure", "cure effect"],
+			["natureRestraint", "attribute restraint"],
+			["damageDeepen", "Damage Deepen"],
+			["damageReduce", "Damage Reduction"]
+			],
+
+			"attrs_extend": [
+			["physicalDamageAdd", "Physical attack damage bonus"],
+			["physicalDamageSub", "Physical Attack Damage Reduction"],
+			["specialDamageAdd", "Special attack damage bonus"],
+			["specialDamageSub", "Special Attack Damage Reduction"],
+
+			["normalDamageAdd", "Normal Damage Addition"],
+			["fireDamageAdd", "Fire Damage Addition"],
+			["waterDamageAdd", "Water Damage Addition"],
+			["grassDamageAdd", "Grass Damage Addition"],
+			["electricityDamageAdd", "Electricity Damage Addition"],
+			["iceDamageAdd", "Ice Damage Addition"],
+			["combatDamageAdd", "Combat Damage Addition"],
+			["poisonDamageAdd", "Poison Damage Addition"],
+			["groundDamageAdd", "Ground Damage Addition"],
+			["flyDamageAdd", "Flying Damage Addition"],
+			["superDamageAdd", "Super Damage Addition"],
+			["wormDamageAdd", "Insect damage bonus"],
+			["rockDamageAdd", "Rock Damage Addition"],
+			["ghostDamageAdd", "Ghost Damage Addition"],
+			["dragonDamageAdd", "Dragon Damage Addition"],
+			["evilDamageAdd", "Evil Damage Addition"],
+			["steelDamageAdd", "Steel Damage Addition"],
+			["fairyDamageAdd", "Fairy Damage Addition"],
+
+			["normalDamageSub", "Normal damage reduction"],
+			["fireDamageSub", "Fire damage reduction"],
+			["waterDamageSub", "Water damage reduction"],
+			["grassDamageSub", "Grass damage reduction"],
+			["electricityDamageSub", "Electricity Damage Reduction"],
+			["iceDamageSub", "Ice damage reduction"],
+			["combatDamageSub", "Combat damage reduction"],
+			["poisonDamageSub", "Poison damage reduction"],
+			["groundDamageSub", "Ground damage reduction"],
+			["flyDamageSub", "Flying damage reduction"],
+			["superDamageSub", "Super Damage Reduction"],
+			["wormDamageSub", "worm damage reduction"],
+			["rockDamageSub", "Rock damage reduction"],
+			["ghostDamageSub", "Ghost damage reduction"],
+			["dragonDamageSub", "Dragon damage reduction"],
+			["evilDamageSub", "Evil damage reduction"],
+			["steelDamageSub", "Steel damage reduction"],
+			["fairyDamageSub", "Fairy damage reduction"],
+
+			["normalCure", "Normal Healing Effect Bonus"],
+			["fireCure", "Fire Healing Effect Bonus"],
+			["waterCure", "Water system healing effect bonus"],
+			["grassCure", "Grass healing effect bonus"],
+			["electricityCure", "Electricity Healing Effect Bonus"],
+			["iceCure", "Ice Healing Effect Bonus"],
+			["combatCure", "Combat healing bonus"],
+			["poisonCure", "Poison Healing Effect Bonus"],
+			["groundCure", "Ground healing effect bonus"],
+			["flyCure", "Flying Healing Effect Bonus"],
+			["superCure", "Super energy system healing effect bonus"],
+			["wormCure", "Insect healing effect bonus"],
+			["rockCure", "Rock type healing effect bonus"],
+			["ghostCure", "Ghost type healing effect bonus"],
+			["dragonCure", "Dragon Healing Effect Bonus"],
+			["evilCure", "Evil Healing Effect Bonus"],
+			["steelCure", "Steel healing effect bonus"],
+			["fairyCure", "Fairy type healing effect bonus"]
+			]
+		}
+
+		$(function() {
+			$("#refreshcsv-click").on('click', function() {
+				let reqData = getReqData();
+
+				$.ajax({
+					url: '/refreshcsv',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify(reqData),
+					success: function(result) {
+						$("#show-ret").removeClass('hidden');
+						$("#show-ret").text(result.ret);
+						alert("success");
+					}
+				})
+			})
+
+			$("#execpy-click").on('click', function() {
+				let file = $("#src-file").prop('files')[0];
+				console.log(file);
+
+				if ((!file) || (file.size == 0)) {
+					alert("The file is empty, please select the file ");
+					return;
+				}
+
+				let form = new FormData();
+	            form.append("src", file);
+	            let reqData = getReqData();
+	            if (reqData.servName)
+	            	form.append("servName", reqData.servName);
+
+				$.ajax({
+					url: '/execpy',
+					type: 'post',
+					async: true,
+					contentType: false,
+                	processData: false,
+					data: form,
+					success: function(rep) {
+						$("#execpy-ret").removeClass('hidden');
+						$("#execpy-ret").text(rep.result);
+						alert("success");
+					}
+				})
+			})
+
+			$("#genrobots-click").on('click', function() {
+				let reqData = getReqData();
+				if (!reqData.servName) {
+					alert('You have to choose a server');
+					return;
+				}
+
+				$.ajax({
+					url: '/genrobots',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify(reqData),
+					success: function(rep) {
+						$("#genrobots-ret").removeClass('hidden');
+						$("#genrobots-ret").text(rep.result);
+						alert("success");
+					}
+				})
+			})
+
+			// 卡牌属性计算
+			let html = "<div>--In cancel--</div>";
+			for (let i=0; i<cardsConfig.keys.length; i++) {
+				html += '<div><input name="card-info-checkbox" type="checkbox" value="'+ cardsConfig.keys[i][0] + '">' + cardsConfig.keys[i][1] + "</div>";
+			}
+			$("#card-keys").html(html);
+
+			$("#card-role-search").on('click', function() {
+				let reqData = getReqData()
+				if (!(reqData.servName)) {
+					alert("Please choose a district service");
+					return;
+				}
+				let role_uid = $("#role-uid").val();
+				if (!(role_uid)) {
+					alert("Please enter a character uid");
+					return;
+				}
+				reqData.role_uid = parseInt(role_uid);
+
+				$.ajax({
+					url: "/calattrs",
+					type: 'get',
+					data: reqData,
+					async: true,
+					success: function(rep) {
+						CardsRoleInfo = rep.role || {};
+						CardsRoleInfo.servName = reqData.servName;
+						$("#cards-display").bootstrapTable('destroy');
+						$("#cards-display").bootstrapTable({
+							striped: true,
+							pagination: true,
+							sidePagination: "client",
+							pageNumber: 1,
+							pageSize: 20,
+							pageList: [20, 30, 40],
+					        columns: rep["columns"],
+					        data: rep["data"],
+					        onClickRow: function(row, ele) {
+					        	console.log(row);
+					        	let html = "";
+					        	html += "<p>Current role: " + CardsRoleInfo.servName + ", " + CardsRoleInfo.id +
+					        		", " + CardsRoleInfo.name + "</p><br>";
+					        	html += "<p>name: " + row.name + "</p>";
+					        	html += "<p>CSV ID: " + row.card_id + "</p>";
+					        	html += "<p>DB ID: <span id='cur_card_id'>" + row.id + "</span></p>";
+					        	html += "<p>grade: " + row.level + "</p>";
+					        	html += "<p>Star number: " + row.star + "</p>";
+					        	html += "<p>Order: " + row.advance + "</p>";
+					        	html += "<p>character: " + row.character + "</p>";
+					        	$("#card-info").html(html);
+					        },
+					        locale: userLocale
+						})
+						$("#cards-display").bootstrapTable('hideColumn', 'id');
+
+					}
+				})
+			})
+
+			$("#card-attrs-cal").on('click', function() {
+				CardsRoleInfo.cur_card_id = $("#cur_card_id").text();
+				console.log(CardsRoleInfo)
+				if (!CardsRoleInfo.servName || !CardsRoleInfo.id || !CardsRoleInfo.cur_card_id) {
+					alert("Please re -check");
+					return;
+				}
+				let disables = [];
+				$("input[name='card-info-checkbox']").each(function() {
+					if (this.checked)
+						disables.push($(this).attr('value'));
+				})
+				CardsRoleInfo.disables = disables
+
+				$.ajax({
+					url: "/calattrs",
+					type: 'post',
+					contentType: 'application/json',
+					data: JSON.stringify(CardsRoleInfo),
+					async: true,
+					success: function(rep) {
+						let html = "<pre>" + prettyJSON(JSON.stringify(rep.ret)) + "</rep>";
+						$("#card-cal-result").html(html);
+
+						// tables
+						console.log(rep.tables)
+						console.log(rep.columns)
+						let tables = {
+							'base': '#base-table',
+							'percent': '#percent-table',
+							'character': '#character-table',
+							'const': '#const-table',
+							'nvalue': '#nvalue-table'
+						}
+						for (let t in tables) {
+							// $(tables[t]).prepend(`<div>${t}</div>`)
+							$(tables[t]).bootstrapTable('destroy')
+							$(tables[t]).bootstrapTable({
+								striped: true,
+								// buttonsAlign: 'left',
+								showColumns: true,
+								pagination: true,
+								sidePagination: "client",
+								pageNumber: 1,
+								pageSize: 10,
+								pageList: [10, 20, 30, 40],
+						        columns: rep.columns[t],
+						        data: rep.tables[t],
+						        locale: userLocale
+							})
+
+							// for (let l=0; l<rep.columns[t].length; l++) {
+							// 	if (l > 6) {
+							// 		$(tables[t]).bootstrapTable('hideColumn', rep.columns[t][l]);
+							// 	}
+							// }
+						}
+
+					}
+				})
+
+			})
+
+			$('#dataexport-click').on('click', function() {
+				$(this).attr('disabled', true);
+				$('#dataexport-show').html('<strong style="color: red;">In the export, please later ...</strong>');
+                $.ajax({
+                    url: '/data_export',
+                    type: 'get',
+                    async: true,
+                    success: function(rep) {
+                        if (!rep.ret) {
+                            alert('Export failure');
+                        } else {
+                            alert('Export to complete');
+                            let h = `<a href='statics/${rep.data}' download='' title="download"  mce_href="#">${rep.data}</a>`;
+                            $('#dataexport-show').html(h);
+                        }
+                    },
+                    complete: function() {
+                    	$('#dataexport-click').attr('disabled', false);
+                    }
+                })
+            })
+
+            $('#dataimport-click').on('click', function() {
+            	$(this).attr('disabled', true);
+				$('#dataimport-show').html('<strong style="color: red;">In the import, please later ...</strong>');
+
+				let importFile = document.getElementById('dataimport-file').files[0];
+				if (!importFile) {
+					alert('Please select the data file, and then import it');
+					return;
+				}
+				let form = new FormData();
+				form.append('importFile', importFile)
+
+				$.ajax({
+                    url: '/data_export',
+                    type: 'post',
+                    async: true,
+                    contentType: false,
+                    processData: false,
+                    data: form,
+                    success: function(rep) {
+                        console.log(rep)
+                        if (rep.ret === false) {
+                        	alert(rep.msg)
+                        } else {
+                        	alert('导入成功')
+                        }
+                    },
+                    complete: function() {
+                    	$('#dataimport-click').attr('disabled', false);
+						$('#dataimport-show').html('');
+                    }
+                })
+            })
+		})
+
+		function getReqData() {
+			let reqData = {};
+			let servName = $("#serv-select").val();
+			if (servName)
+				reqData.servName = servName;
+
+			return reqData;
+		}
+
+
+	</script>
+{% end %}

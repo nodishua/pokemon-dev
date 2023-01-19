@@ -1,0 +1,242 @@
+{
+  "online_fight_forward.en.1": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.1"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.2": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.2"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.3": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.3"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.4": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.4"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.5": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.5"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.6": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.6"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.7": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.7"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.8": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.8"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.9": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.9"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.10": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.10"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.11": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.11"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.12": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.12"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.13": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.13"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.14": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.14"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.15": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.15"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.16": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.16"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.17": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.17"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.18": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.18"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.19": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.19"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }, 
+  "online_fight_forward.en.20": {
+    "services": [
+      {
+        "name": "online_fight_forward.en.20"
+      }
+    ], 
+    "nsqd_tcp_addresses": [
+      "192.168.1.46:4150"
+    ], 
+    "nsqlookupd": "http://192.168.1.46:4161/", 
+    "query_ip_url": "http://94.74.92.71:18080/ip"
+  }
+}

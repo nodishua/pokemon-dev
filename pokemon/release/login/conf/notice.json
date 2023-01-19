@@ -1,0 +1,40 @@
+{
+  "activity": [
+    {
+      "content": [
+        {
+          "channel": "tc_qd", 
+          "content": "The Pokémon League competition is open again, and the trainers embark on the journey again.\nThe light of the Poké Ball shines in your hands, and the adventure in the magical world begins again!\nDreams will come true one day, why not Now?\nPokémon masters, it’s up to you! Pikachu!\n\nOfficial player exchange group: 671845682\nOfficial customer service account: 800841234 (search official account)\nOfficial WeChat account: Pocket Awakening Mobile Game\nOfficial Post Bar: Pocket Awakening\n\nBlu-ray quality Pokemon mobile game Pocket Awakening is coming~~\n⊙ Super exquisite Japanese manga style, movie-level special effects display! \n⊙ 18 attributes for you to match, 800+ elves are waiting for you to capture! \n⊙ Log in to get 10 consecutive draws, Geng Gui free on the 3rd and Dream on the 7th! \n⊙ Rare beasts are on the stage, and you are invited to the peak duel! \n\n\n",
+           "title": "Announcement"
+        }, 
+        {
+          "content": "The Pokémon League competition is open again, and the trainers embark on the journey again.\nThe light of the Poké Ball shines in your hands, and the adventure in the magical world begins again!\nDreams will come true one day, why not Now?\nPokémon masters, it’s up to you! Pikachu!\n\nOfficial player exchange group: 671845682\nOfficial customer service account: 800841234 (search official account)\nOfficial WeChat account: Pocket Awakening Mobile Game\nOfficial Post Bar: Pocket Awakening\n\nBlu-ray quality Pokemon mobile game Pocket Awakening is coming~~\n⊙ Super exquisite Japanese manga style, movie-level special effects display! \n⊙ 18 attributes for you to match, 800+ elves are waiting for you to capture! \n⊙ Log in to get 10 consecutive draws, Geng Gui free on the 3rd and Dream on the 7th! \n⊙ Rare beasts are on the stage, and you are invited to the peak duel! \n\n\n",
+           "title": "Announcement"
+        }
+      ], 
+      "id": 100, 
+      "titlebar": "announcement"
+    }
+  ], 
+  "banner": [
+    "login/img_banner_01@.jpg", 
+    "login/img_banner_02@.png", 
+    "login/img_banner_03@.png"
+  ], 
+  "caution": [
+    {
+      "content": "In order to ensure the stable operation and normal display of the game, please do not use third-party acceleration tools~\n\nI recently received feedback from players that someone imitated the administrator QQ to privately chat with other players and the account was stolen. Here Remind all players: \n1. Managers (including recruited player administrators) will not participate in account transactions, guarantees, etc. between players, nor will they sell vouchers, recharges, game gift packages, etc. through QQ private chat, everyone Be vigilant and beware of being deceived;\n2. The official management will not ask players for account passwords at will, and recruited player management is forbidden to ask for player account passwords;\n3. The official does not recommend players to buy, sell or share accounts and screenshots of recharge orders to avoid account numbers Disputes will bring you unnecessary losses;\n4. For behaviors such as borrowing accounts, borrowing money, and swiping on behalf of others, you must be cautious and cautious, and say the important thing three times.\n5. All kinds of swiping in the world chat in the game Screen advertisements are all liars. Repeated private chats with your account are also liars. If you encounter them, just block them directly. We will continue to block and block these malicious advertisements in the game;\nDue to offline account transactions and Behaviors such as borrowing money by account are not controllable in the game, and behaviors such as private transactions on the Internet are difficult to be protected by law, and it is difficult to pursue relevant responsibilities. Therefore, I would like to remind everyone to pay attention to account security. I hope everyone can enjoy the game , do not cause personal property damage;\n\n\n",
+       "title": "Anti-fraud warning"
+    }
+  ], 
+  "update": [
+    {
+      "content": "2020.7.24", 
+      "title": "Updated"
+    }, 
+    {
+      "content": "[Update Content]\n1. The super evolution function is enabled, and the official Pioneer experience is available in Zones 1-5;\n2. The new S+ elf Reggie Kass, the S elf Monarch Snake joined the weekend limited-time beast event;\n3 .The upper limit of favorability has been increased to level 500;\n4. Added a water lotus image and added it to the fishing store for sale;\n\n【Optimized content】\n1. Optimized guild battles and only looked at their own interface performance;\n2. Optimized automatic fishing Interface performance;\n3. Add functions such as jumping involved in fishing shops;\n4. Correct the seven-day settlement date display of the cross-server arena;\n\n[Battle repair content]\n1. Repair Zoroark's small skill stealing The special attack of the illusion target is invalid;\n2. Fix the problem that the difficulty of the nightmare level 11 to 20 is abnormal in some cases;\n3. In some cases, the frozen unit is not frozen after being damaged by the percentage of the blood volume that can be touched. Solved the problem;\n4.Fixed the problem that Ice Snow Dragon and Chubby entered the field with less blood;\n5.Fixed the problem that the target range of Tundra Bear's ultimate skill was not displayed in a row.\n",
+       "title": "Details"
+    }
+  ]
+}

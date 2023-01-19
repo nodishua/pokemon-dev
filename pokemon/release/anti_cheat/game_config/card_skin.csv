@@ -1,0 +1,18 @@
+﻿变量名,name,_name,name_tw,name_en,name_vn,name_kr,_name,desc,desc_tw,desc_en,desc_kr,unitIDs,activeType,skinFrameRes,markID,attrAddType,attrType1,attrNum1,attrType2,attrNum2,attrType3,attrNum3,attrType4,attrNum4,rank,costMap,extraItem,isOpen,languages
+默认值,"""""",,"""""","""""","""""","""""","""""","""""","""""","""""","""""",{},2,common/icon/panel_card_7.png,0,1,0,"""""",0,"""""",0,"""""",0,"""""",1,{},{},FALSE,<cn;tw;en;vn;th;kr>
+ID,名字,备注,名字,名字,名字,名字,精灵,描述,描述,描述,描述,皮肤对应的unitID{cardID=unitID},激活类型(1-进化激活;2-道具激活),皮肤框资源路径,精灵markID,附加属性类型(1-相同markID的精灵;2-所有精灵),属性类型1,属性数值1,属性类型2,属性数值2,属性类型3,属性数值3,属性类型4,属性数值4,排序(数字越大 排序靠后),解锁消耗,购买附赠品,是否开放,语言区域
+101,christmas ghost,几何雪花,聖誕魔影,,,,geometric snowflake,可通过参与2020年圣诞活动获得,可通過參與2020年聖誕活動獲得,,,{3021=3022},2,city/drawcard/draw/panel_card_h.png,3021,,9,3%,10,3%,,,,,,,,TRUE,<cn>
+102,ice princess,蒂安希,冰雪公主,,,,Tianxi,可通过参与2020年圣诞活动获得,可通過參與2020年聖誕活動獲得,,,{3631=3632},2,city/drawcard/draw/panel_card_c.png,3631,,16,300,9,5%,10,5%,,,,,,TRUE,<cn>
+103,The power of the seal,解放胡帕,封印之力,,,,Punish Hoopa,,,,,{3642=3643},2,city/drawcard/draw/panel_card_c.png,3641,,,,,,,,,,,{rmb=998},,TRUE,<cn>
+104,Phantom Thief,达克莱伊,偷心怪盜,Heart Stealer,,마음 스틸러,Darkley,可通过参与2021年新年活动获得,可通過參與2021年萬聖節活動獲得,Obtain by participate in 2021 Halloween Event,2021년 할로윈 이벤트를 통해 획득 가능,{2431=2432},2,city/drawcard/draw/panel_card_c.png,2431,,8,5%,22,300,,,,,,,,TRUE,<cn;tw;en;kr>
+105,street fighter,巨钳螳螂,街頭拳手,,,,Giant Pincer Mantis,可通过参与2021年新年活动获得,可通過參與2021年新年活動獲得,,,{572=573;574=575},2,city/drawcard/draw/panel_card_h.png,571,,7,2%,14,100,,,,,,,,TRUE,<cn>
+106,fish dragon night dance,沙奈朵,魚龍夜舞,,,,Xanadu,可通过参与2021年元宵活动获得,可通過參與2021年中秋活動獲得,,,{1393=1395;1396=1397},2,city/drawcard/draw/panel_card_h.png,1391,,8,2%,24,100,,,,,,,,TRUE,<cn;tw>
+107,guarding perseverance,美录梅塔,守衛恒心,,,,Melmetta,,,,,{4172=4173},2,city/drawcard/draw/panel_card_c.png,4171,,,,,,,,,,,{rmb=998},,TRUE,<cn>
+108,Monsters of the Western Regions,惩戒胡帕,西域魔靈,,,,Punish Hoopa,可通过参与2021年618活动获得,可通過參與2021年618活動獲得,,,{3642=3644},2,city/drawcard/draw/panel_card_c.png,3641,,1,5%,24,300,,,,,,,,TRUE,<cn>
+109,street skateboard,路卡利欧,街頭滑板,,,,lucario,可通过参与2021年国庆活动获得,,,,{2242=2243},2,city/drawcard/draw/panel_card_h.png,2241,,7,2%,8,2%,24,100,,,,,,TRUE,<cn>
+110,Time Rogue,时拉比,時間俠盜,,,,rabbi,,,,,{1281=1282},2,city/drawcard/draw/panel_card_c.png,1281,,1,5%,16,300,,,,,,,,TRUE,<cn>
+111,Silver Sky Armor,超级裂空座,銀霄戰甲,,,,Super Rift Seat,,,,,{1982=1984},2,city/drawcard/draw/panel_card_r.png,1981,,7,5%,8,5%,14,500,,,,,,TRUE,<cn>
+112,ghost captain,耿鬼,幽靈船長,,,,Gengar,可通过参与2021年万圣节活动获得,可通過參與2021年萬聖節活動獲得,,,{393=395;394=396},2,city/drawcard/draw/panel_card_r.png,391,,8,2%,24,100,,,,,,,,TRUE,<cn>
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,test beast,,,,,,test beast,测试神兽,,,,{3601=9999},2,city/drawcard/draw/panel_card_h.png,3601,,,,,,,,,,,,,FALSE,<cn>
+,Super Rift Seat,,,,,,Super Rift Seat,超级裂空座,,,,,2,city/drawcard/draw/panel_card_h.png,1981,,,,,,,,,,,{rmb=99999},,FALSE,<>

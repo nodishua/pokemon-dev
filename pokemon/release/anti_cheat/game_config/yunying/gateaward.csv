@@ -1,0 +1,7 @@
+﻿"﻿变量名",huodongID,gateID,desc,desc_tw,desc_en,desc_kr,award
+默认值,0,1,"""""","""""","""""","""""",{}
+ID,活动版本ID,通关关卡ID,描述,描述,描述,描述_韩,奖励
+1,9001,10009,"Clear Elite level Chapter 1 ",通關第一章精英關卡,"Clear Elite level Chapter 1 ",제 1 장 하드 스테이지 클리어,{gold=100000;rmb=100}
+2,9001,10212,Clear Elite level Chapter 3,通關第三章精英關卡,Clear Elite level Chapter 3,제 3 장 하드 스테이지 클리어,{gold=100000;rmb=100}
+3,9001,10412,Clear Elite level Chapter 5,通關第五章精英關卡,Clear Elite level Chapter 5,제 5 장 하드 스테이지 클리어,{gold=100000;rmb=100}
+4,9001,10612,Clear Chapter 7 of Elite Level,通關第七章精英關卡,Clear Chapter 7 of Elite Level,제 7 장 하드 스테이지 클리어,{gold=100000;rmb=100}

@@ -1,0 +1,529 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		form label {
+			min-width: 102px;
+		}
+
+		.form-control {
+			min-width: 333px;
+		}
+
+		.well {
+			min-width: 586px;
+		}
+
+		.mw {
+			min-width: 500px;
+		}
+
+		.fo {
+			color: 'yellow';
+		}
+
+		textarea {
+			min-height: 132px;
+		}
+
+		label {
+			min-width: 109px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"send email") }}</h4></div>
+		</div>
+		<div class="well">
+			<div class="row">
+	        	<div class="col-lg-6">
+	        		<div class="form-inline">
+		        		<div class="form-group">
+		        			<label>{{ _(u"server nickname") }}</label>
+							<input id="serv-select" type="text" class="form-control" placeholder="Please enter the server name" list="servs-list-1" maxlength="20"/>
+							<datalist id="servs-list-1" style="display:none;">
+    							<option value="allservers">allservers</option>
+    							{% for serv in servs %}
+	        						<option value="{{ serv }}">{{ serv }}</option>
+	        					{% end %}
+    						</datalist>
+    						<button id="check-mail" class="btn btn-primary">{{ _(u"Check and send") }}</button>
+						</div>
+					</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div class="form-group">
+	        				<label>{{ _(u"Mail template ") }}</label>
+	        				<select id="mail-temp-select" class="form-control">
+	        				</select>
+	        			</div>
+	        		</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div class="form-group">
+	        				<label>{{ _(u"Email type") }}</label>
+	        				<select id="mail-type-select" class="form-control">
+	        				</select>
+	        			</div>
+	        		</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div id="mail-address-div" class="form-group">
+	        				<label>{{ _(u"mail receiver") }}</label>
+	        				<input id="mail-address" type="text" class="form-control">
+	        				<button id="check-mail-address" class="btn btn-primary hidden">{{ _(u"query role") }}</button>
+	        				<select id="begin-vip" class="hidden"></select><span id="middle-vip" class="hidden">{{ _(u"to" )}}</span>
+	        				<select id="end-vip" class="hidden"></select>
+	        			</div>
+	        		</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div class="form-group">
+	        				<label>{{ _(u"Email sender") }}</label>
+	        				<input id="mail-sender" type="text" class="form-control">
+	        			</div>
+	        		</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div class="form-group">
+	        				<label>{{ _(u"mail title") }}</label>
+	        				<input id="mail-title" type="text" class="form-control">
+	        			</div>
+	        		</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div class="form-group">
+	        				<label>{{ _(u"content of email") }}</label>
+	        				<textarea id="mail-content" class="form-control"></textarea>
+	        			</div>
+	        		</div>
+	        		<div class="form-inline margin-top-s">
+	        			<div class="form-group">
+	        				<label>{{ _(u"Mail attachment") }}</label>
+	        				<textarea id="mail-annex" class="form-control"></textarea>
+	        			</div>
+	        		</div>
+	        	</div>
+	        	<div class="col-lg-6">
+	        		<div>
+	        			<strong><div>
+	        				<div id="r-info"></div><br/><br/>
+	        				<div id="c-info"></div>
+	        			</div></strong>
+	        		</div>
+	        		<div>
+	        			<div class="form-inline margin-top-s">
+		        			<div class="form-group">
+		        				<button id="channel-send" class="form-control btn hidden disabled">{{ _(u"Cancel") }}</button>
+		        				<button id="send-mail" class="form-control btn btn-success hidden disabled">{{ _(u"send") }}</button>
+		        			</div>
+		        		</div>
+
+	        		</div>
+
+	        	</div>
+	        </div>
+		</div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		// Look at the role
+		function onCheckRole() {
+			let $mailAddressee = $("#mail-address");
+			let ret = false;
+
+			if ($mailAddressee.val() === "") {
+				alert('{{ _(u"please enterID") }}')
+			} else {
+				let url = "/role_detail?servName=" + $("#serv-select").val() + "&roleSearch=" + $("#mail-address").val();
+
+				$.ajax({
+					url: url,
+					type: "get",
+					async: false,
+					success: function(rep) {
+						$("#r-info").html('id = ' + rep["data"][0]["id"] + '<br/>name = ' +
+							rep["data"][0].name + '<br/>level = ' + rep["data"][0].level +
+							'<br/>vip = ' + rep["data"][0].vip_level);
+						ret = true;
+					},
+				})
+			}
+			return ret;
+		}
+
+		// 查看工会
+		function onCheckUnion() {
+			let $mailAddressee = $("#mail-address");
+			let ret = false
+			if ($mailAddressee.val() === "") {
+				alert('{{ _(u"please enterID") }}')
+			}
+			else {
+				let url = "/union_detail?servName=" + $("#servName").val() + "&unionID=" + $("#mail-address").val();
+
+				$.ajax({
+					url: url,
+					type: "get",
+					async: false,
+					success: function(rep) {
+						$("#r-info").html('id = ' + rep["data"][0]["id"] + '<br/>name = ' +
+							rep["data"][0].name + '<br/>level = ' + rep["data"][0].level +
+							'<br/>memebers = ' + rep["data"][0].members);
+						ret = true;
+					},
+				})
+			}
+			return ret
+		}
+
+		$(function() {
+			const $mailSender = $("#mail-sender");
+			const $mailRecv = $("#mail-address");
+			const $mailContent = $("#mail-content");
+			const $mailTitle = $("#mail-title");
+			const $mailAnnex = $("#mail-annex");
+			const $server = $('#serv-select');
+
+			const $mailTemp = $("#mail-temp-select");
+			const $mailType = $("#mail-type-select");
+
+			var mailTemps;
+			var paramData;
+
+			function trigger_change() {
+				$mailTemp.change();
+				$mailType.change();
+			}
+
+			function trigger_send(op) {
+				if (typeof op != "undefined") {
+					$("#send-mail").addClass('hidden');
+					$("#send-mail").addClass('disabled')
+
+					return;
+				}
+				$("#send-mail").removeClass('hidden');
+				$("#send-mail").removeClass('disabled');
+			}
+
+			// Attachment content detection
+			function checkAnnex(annex) {
+
+				let result = null;
+
+				if (annex === '') {
+					return {};
+				}
+
+				try {
+					let content = annex.trim().replace(/ |\n/g, '').replace(/;/g,
+					',').replace(/=/g, ':');
+
+					eval('result=' + content);
+				}
+				catch(err) {
+					console.log(err)
+					alert('attachs content write incorrect');
+					return false;
+				}
+
+				return result;
+			}
+
+			$("#begin-vip").on("change", function() {
+				var $beginVip = $("#begin-vip");
+				var $endVip = $("#end-vip");
+				if (parseInt($endVip.val()) < parseInt($beginVip.val())) {
+						$endVip.val($beginVip.val())
+				}
+			})
+
+			$("#end-vip").on("change", function() {
+				var $beginVip = $("#begin-vip");
+				var $endVip = $("#end-vip");
+				if (parseInt($endVip.val()) < parseInt($beginVip.val())) {
+						$beginVip.val($endVip.val())
+				}
+			})
+
+			$("#serv-select").on("change", function() {
+				let serv = $(this).val();
+
+				function empty() {
+					$mailSender.val("");
+					$mailRecv.val("");
+					$mailContent.val("");
+					$mailTitle.val("");
+					$mailAnnex.val("");
+
+					$mailTemp.html("");
+					$mailType.html("");
+
+					// $("#info").text("");
+				};
+
+				if (serv === "") {
+					var msg = `{{ _(u"You have to choose oneserver") }}`;
+					alert(msg);
+					empty();
+
+				} else if (serv === "allservers") {
+					empty();
+
+					$mailType.html(`<option value='allserver'>{{ _(u"real!Full service player email") }},allserver</option><option value='allglobal'>{{ _(u"real!Global player email") }},allglobal</option><option value='allvip'>{{ _(u"Full service designated VIP mail ") }},allvip</option>`);
+
+					$mailRecv.val('allserver');
+					$mailAnnex.val(JSON.stringify({}));
+
+					trigger_change()
+
+				} else {
+					empty();
+
+					$mailType.html("<option value='role'>{{ _(u'Player mailer mail') }},roleID1;roleID2;...</option><option value='server'>{{ _(u'Single Server Player Mail') }},server</option><option value='global'>{{ _(u'Single service global email') }},global</option><option value='union'>{{ _(u'Union mail') }},unionID1;unionID2;...</option><option value='account'>{{ _(u'New player email') }},accountName1;accountName2;...</option><option value='vip'>{{ _(u'Development-Specify VIP mail') }},VIP1;VIP2;...</option>")
+
+					$.ajax({
+						url: "/sendmail/mail_template",
+						type: "get",
+						async: false,
+						dataType: "json",
+						data: {servName: serv},
+						success: function(data) {
+							mailTemps = data
+
+							for (let f in mailTemps) {
+								$mailSender.val(mailTemps[f].sender);
+								$mailContent.val(mailTemps[f].content);
+								$mailTitle.val(mailTemps[f].subject);
+								$mailAnnex.val(JSON.stringify(mailTemps[f].attachs));
+							}
+
+							let s = "";
+							for (let i in mailTemps) {
+								s += `<option value=${i}>${mailTemps[i].subject}</option>`;
+							}
+							$mailTemp.html(s);
+						},
+						error: function() {
+							alert("fail");
+						},
+					})
+
+					trigger_change()
+				}
+			})
+
+			$("#check-mail").on("click", function() {
+				let flag = true;
+
+				if ($server.val() === '') {
+					alert('server must be fill in')
+					return false;
+				}
+
+				// 处理附件内容
+				let annex = checkAnnex($mailAnnex.val());
+				if (annex === false) {
+					return false;
+				}
+
+				if ($mailType.val() === "vip") {
+					var url = '/vip_msg?&servName=' + $("#serv-select").val() + "&beginVip=" + $("#begin-vip").val() + "&endVip=" + $("#end-vip").val();
+					$.get(url, function (rep) {
+						alert(rep.msg);
+						if (!rep.ret) {
+							flag = false
+						}
+					});
+					if (!flag) {
+						return false;
+					}
+				};
+
+				if ($mailType.val() === "role") {
+					if (!onCheckRole()) {
+						return false;
+					}
+				}
+
+				if ($mailType.val() === "union") {
+					if (!onCheckUnion()) {
+						return false;
+					}
+				}
+
+				paramData = {
+					'servName': $server.val(),
+					'receive': $mailRecv.val(),
+					'mailTemp': $mailTemp.val(),
+					'mailType': $mailType.val(),
+					'sender': $mailSender.val(),
+					'subject': $mailTitle.val(),
+					'content': $mailContent.val(),
+					'attachs': JSON.stringify(annex),
+					'beginVip': $("#begin-vip").val(),
+					'endVip': $("#end-vip").val()
+				};
+
+				let html = '<span class="fo">NOTE:{{ _(u"You are going to send the following mail content, please check and confirm:") }}</span>';
+				html += '<br/>{{ _(u"server name") }}: ' + $server.val();
+				html += '<br/>{{ _(u"mail type") }}: ' + $mailType.val();
+				html += '<br/>{{ _(u"Mail recipient") }}: ' + $mailRecv.val();
+				html += '<br/>{{ _(u"mail sender") }}: ' + $mailSender.val();
+				html += '<br/>{{ _(u"mail title") }}: ' + $mailTitle.val();
+				html += '<br/>{{ _(u"mail content") }}: ' + $mailContent.val();
+				html += '<br/>{{ _(u"email attachment") }}: ' + JSON.stringify(annex)
+
+				$("#c-info").html(html);
+				trigger_send()
+
+				return false;
+			})
+
+			$("#send-mail").on("click", function() {
+				$(this).addClass('disabled')
+				$.ajax({
+					url: '/sendmail',
+					type: 'post',
+					async: true,
+					data: JSON.stringify(paramData),
+					contentType: 'application/json',
+					success: function(result) {
+						console.log(result)
+
+						if (result.result === false) {
+							alert('{{ _(u"Failed to send") }}');
+						}
+						else if (result.result === true) {
+							alert('{{ _(u"Sent successfully") }}');
+						}
+						else if (result.retF !== undefined){
+								let retF = result.retF;
+								let lenF = result.retF.length;
+								let lenS = result.retS.length;
+								let text =  lenS + ' {{ _(u"Successful email sending") }} ' + lenF + ' {{ _(u"Failure to send a part of the email") }}';
+								if (lenF === 0) {
+									console.log(0)
+								}
+								else {
+									text += '<br> {{ _(u"Failing ID is：") }}';
+									for (let f=0; f < lenF; f++) {
+											text += retF[f] + ";";
+									}
+								}
+								alert(text);
+						}
+						else {
+							let textArray = result.result;
+							let i, labalFlag = true;
+							let text = '[';
+							for (let i = 0; i < textArray.length; i++ ) {
+								if (textArray[i][2] !== true) {
+									labalFlag = false
+								}
+								text += textArray[i].join(': ');
+								text += '],['
+							}
+							text = text.substring(0,text.length-2)
+							alert(text);
+
+							if (labalFlag) {
+								console.log(labalFlag)
+							}
+						}
+
+						trigger_send('close');
+					},
+					error: function() {}
+				})
+			})
+
+			$mailTemp.on("change", function() {
+				if (typeof mailTemps === 'undefined') {
+					return;
+				}
+				let choosen = $mailTemp.val();
+				$mailSender.val(mailTemps[choosen].sender);
+				$mailContent.val(mailTemps[choosen].content);
+				$mailTitle.val(mailTemps[choosen].subject);
+				$mailAnnex.val(JSON.stringify(mailTemps[choosen].attachs));
+			})
+
+			$mailType.on("change", function() {
+				let choosen = $mailType.val();
+
+				function _change(fn, name) {
+					let $mailA = $("#check-mail-address")
+
+					$mailA.removeAttr("onclick");
+
+					if (typeof fn === 'undefined') {
+						$mailA.addClass("hidden");
+					} else {
+						$mailA.attr("onclick", fn);
+						$mailA.html(name);
+						$mailA.removeClass("hidden");
+					}
+
+				}
+
+				function _change_select(op) {
+					let $beginV = $("#begin-vip")
+					let $endV = $("#end-vip")
+					let $middleV = $("#middle-vip")
+
+					if (typeof op === "undefined") {
+						$beginV.html("");
+						$endV.html("");
+						$beginV.addClass("hidden");
+						$endV.addClass("hidden");
+						$middleV.addClass("hidden");
+
+					} else {
+						$beginV.html("<option value=0>VIP0</option> <option value=1>VIP1</option> <option value=2>VIP2</option> <option value=3>VIP3</option> <option value=4>VIP4</option> <option value=5>VIP5</option> <option value=6>VIP6</option> <option value=7>VIP7</option> <option value=8>VIP8</option> <option value=9>VIP9</option> <option value=10>VIP10</option> <option value=11>VIP11</option> <option value=12>VIP12</option> <option value=13>VIP13</option> <option value=14>VIP14</option> <option value=15>VIP15</option> <option value=16>VIP16</option> <option value=17>VIP17</option> <option value=18>VIP18</option>");
+						$endV.html("<option value=0>VIP0</option> <option value=1>VIP1</option> <option value=2>VIP2</option> <option value=3>VIP3</option> <option value=4>VIP4</option> <option value=5>VIP5</option> <option value=6>VIP6</option> <option value=7>VIP7</option> <option value=8>VIP8</option> <option value=9>VIP9</option> <option value=10>VIP10</option> <option value=11>VIP11</option> <option value=12>VIP12</option> <option value=13>VIP13</option> <option value=14>VIP14</option> <option value=15>VIP15</option> <option value=16>VIP16</option> <option value=17>VIP17</option> <option value=18>VIP18</option>");
+						$beginV.removeClass("hidden");
+						$endV.removeClass("hidden");
+						$middleV.removeClass("hidden");
+					}
+
+				}
+
+				if (choosen === "role") {
+					$mailRecv.val("");
+					let name = "{{ _(u'Query role') }}";
+					_change('onCheckRole();return false;', name)
+					_change_select()
+				}
+				else if (choosen === "server" || choosen === "global") {
+					$mailRecv.val(choosen);
+					_change()
+					_change_select()
+				}
+				else if (choosen === "union") {
+					$mailRecv.val("");
+					let name = "{{ _(u'Query union') }}"
+					_change('onCheckUnion();return false;', name)
+					_change_select()
+				}
+				else if (choosen === "account") {
+					$mailRecv.val("");
+					_change()
+					_change_select()
+				}
+				else if (choosen === "vip" || choosen === "allvip") {
+					_change()
+					$mailRecv.val(choosen)
+					_change_select(1)
+				}
+				else if (choosen === "allserver" || choosen === "allglobal") {
+					_change()
+					_change_select()
+					$mailRecv.val(choosen);
+				}
+			});
+
+		})
+
+	</script>
+{% end %}

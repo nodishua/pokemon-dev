@@ -1,0 +1,206 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<script src={{ static_url("js/FileSaver.min.js") }}></script>
+	<style>
+		.f {
+			min-width: 101px;
+		}
+
+		.t {
+			margin-top: 8px;
+		}
+
+		.fx {
+			min-width: 406px;
+		}
+
+		.fb {
+			min-height: 208px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"Gift package generation") }}</h4></div>
+		</div>
+
+		<div class="well">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="form-inline t">
+        				<div class="from-group">
+        					<label class='f'>{{ _(u"server nickname") }}</label>
+        					<input id="serv-select" type="text" class="form-control input-s fx" data-toggle="modal" data-target="#serv-select-modal" placeholder="{{ _(u'可多选，默认为空则为全服') }}">
+        					<button id="giftGenerateBtn" class="btn btn-primary" onclick="">{{ _(u"Generate gift package") }}</button>
+        				</div>
+					</div>
+
+					<div class="form-inline t">
+        				<div class="from-group">
+        					<label class='f'>{{ _(u"Gift") }}</label>
+        					<select id ='giftTemplates' class='form-control fx'>
+        					</select>
+        				</div>
+					</div>
+
+					<div class="form-inline t">
+        				<div class="from-group">
+        					<label class='f'>{{ _(u"Gift package configuration") }}</label>
+        					<textarea id='giftConfiguration' class="form-control fx fb" readonly="readonly"></textarea>
+        				</div>
+					</div>
+
+					<div class="form-inline t">
+        				<div class="from-group">
+        					<label class='f'>{{ _(u"Quantity") }}</label>
+        					<input id="giftCounts" type="text" class="form-control input-s fx">
+        				</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div>
+	        			<strong><div>
+	        				<div id="g-info"></div><br>
+	        				<div id="r-info"></div>
+	        			</div></strong>
+	        		</div>
+	        		<div>
+	        			<div class="form-inline">
+		        			<div class="form-group">
+		        				<button id='generate' class="form-control btn btn-success hidden disabled">{{ _(u"Confirm the generation") }}</button>
+		        			</div>
+		        		</div>
+
+	        		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		var giftTemplatesList = null;
+
+		function show_gift_temp() {
+			$.ajax({
+				url: '/gift_packs?page=1',
+				type: 'get',
+				success: function(rep) {
+					giftTemplatesList = rep.data;
+
+					let optionList = '<option value=""></option>';
+		            for (let template in giftTemplatesList) {
+		                optionList += '<option value="';
+		                optionList += template;
+		                optionList += '">';
+		                optionList += template;
+		                optionList += '==';
+		                optionList += giftTemplatesList[template].name;
+		                optionList += '</option> ';
+		            }
+
+		            $("#giftTemplates").html(optionList);
+				}
+			})
+		}
+		show_gift_temp()
+
+		// 覆盖servName选择方法
+		function servBtnClick(self) {
+			let al = $('#serv-select').val()
+			if (al === '') {
+				$("#serv-select").val($(self).attr("id"));
+			} else {
+				$("#serv-select").val(al + "; " + $(self).attr("id"));
+			}
+			$("#serv-select-modal").modal('hide');
+		};
+
+		$(function() {
+			let $giftTemplates = $("#giftTemplates");
+			let $giftConfiguration = $("#giftConfiguration");
+			let $giftCounts = $("#giftCounts");
+
+	        $giftTemplates.on("change", function(e) {
+		        let choosen = $giftTemplates.val();
+		        $giftConfiguration.val(JSON.stringify(giftTemplatesList[choosen]));
+	        })
+
+	        // check
+	        let giftTemplate = null;
+	        let giftCount = null;
+	        let giftServs = null;
+			$("#giftGenerateBtn").click(function () {
+				giftTemplate = $giftTemplates.val();
+				giftCount = $giftCounts.val();
+
+				if (giftTemplate === '' || giftCount === '') {
+					alert('param is empty');
+					return;
+				} else {
+					giftTemplate = parseInt(giftTemplate);
+					giftCount = parseInt(giftCount);
+					if (isNaN(giftTemplate) || isNaN(giftCount)) {
+						alert('param error');
+						giftTemplate = null;
+						giftCount = null;
+						return;
+					}
+				};
+
+				// servName
+	            giftServs = $('#serv-select').val();
+	            if (giftServs === '') {
+	            	giftServs = [];
+	            } else {
+	            	giftServs = giftServs.split(';');
+	            };
+
+				$('#g-info').html(
+					"<span>GIFT INFO:<span><br>" +
+					"<span>giftTemplate: " + giftTemplate + "</span><br> " +
+					"<span>giftCounts: " + giftCount + "</span><br>" +
+					"<span>giftServers: [" + giftServs.join(", ") + "]</span><br><br>");
+				$('#r-info').html("");
+
+				$('#generate').removeClass('hidden');
+				$('#generate').removeClass('disabled');
+			})
+
+			$('#generate').on('click', function() {
+				if (giftTemplate === null || giftCount === null || giftServs === null) {
+					alert('params empty');
+					return;
+				};
+
+				$(this).addClass('disabled');
+
+				$.ajax({
+					url: '/gift_packs',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify({giftTemplates: giftTemplate, giftCounts: giftCount, giftServers: giftServs}),
+					success: function(rep) {
+						// $('#r-info').html("<pre>" + rep + "</pre>");
+						let blob = new Blob([rep], {type: "text/plain;charset=utf-8"});
+						let now = new Date();
+						let y = now.getFullYear()
+						let m = (now.getMonth()+1).toString()
+						if (m.length === 1)
+						    m = "0" + m
+						let d = now.getDate()
+						let filename = giftTemplatesList[giftTemplate].name+"-"+y+m+d+".txt"
+            			saveAs(blob, filename);
+            			$('#generate').addClass('hidden');
+					}
+				})
+			})
+		})
+	</script>
+{% end %}

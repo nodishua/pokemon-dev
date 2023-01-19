@@ -1,0 +1,4 @@
+变量名,servOpenDays,winStreakGradeLimit,winStreakCount,winStreakScoreAward,openWholeMatchBeginGrade,formulaValidBeginGrade,initWeight,deductWeight,matchTime,robotNumInGrade,topBattleHistoryPeriods,topBattleRank,topBattleRound,topBattleLastHP
+默认值,,,,0,,,,,,,<>,0,0,0
+ID,开启相对服务器天数,连胜段位限制,连胜场次,连胜额外积分奖励,全服匹配开启段位,积分计算公式起始段位,初始被随机权重,每次被打扣除权重,每日免费匹配次数,每个段位的机器人个数,精彩战报刷新阶段,精彩战斗读取最低排名,精彩战斗回合数,精彩战斗剩余血量百分比
+1,65,5,5,10,7,13,30,2,6,20,<10;11;12;13;17;18;19;20>,10,4,0.5

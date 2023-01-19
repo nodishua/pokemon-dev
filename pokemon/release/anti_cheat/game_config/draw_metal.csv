@@ -1,0 +1,20 @@
+变量名,drawType,_comment,drawTriggerTimes,drawTriggerType,weightStart,weightEnd,effectLimit,startCount,lotteryType1,lotteryWeight1,lotteryType2,lotteryWeight2,lotteryType3,lotteryWeight3,lotteryType4,lotteryWeight4,lotteryType5,lotteryWeight5,lotteryType6,lotteryWeight6,lotteryType7,lotteryWeight7,lotteryType8,lotteryWeight8,lotteryType9,lotteryWeight9,lotteryType10,lotteryWeight10
+默认值,,,0,1,0,0,0,0,{},0,{},0,{},0,{},0,{},0,{},0,{},0,{},0,{},0,{},0
+ID,抽取类型,类型注释,抽取次数条件,抽取触发类型(0从X次开始;1权值累加;2每X次;3第X次),权值上限,权值下限,生效次数上限,开始次数,产出类型1,产出类型1权重,产出类型2,产出类型2权重,产出类型3,产出类型3权重,产出类型4,产出类型4权重,产出类型5,产出类型5权重,产出类型6,产出类型6权重,产出类型7,产出类型7权重,产出类型8,产出类型8权重,产出类型9,产出类型9权重,产出类型10,产出类型10权重
+1,gold1,Gold coin single draw-purple with fixed probability,6,1,0.015,0.025,,6,{4004=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+2,gold1,"Gold coin single draw - about 5 times, there will be purple",2,1,0.2,0.3,1,2,{4004=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+3,gold1,Gold coin single draw - regular output,1,0,,,,,{4001=1},45,{4002=1},35,{4003=1},10,{4010=1},15,,0,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,gold10,Gold coins 10 consecutive draws - follow-up fixed purple,2,1,0.15,0.25,,2,{4001=4;4002=3;4004=1;4010=2},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+12,gold10,Gold coin 10 consecutive draws - the first draw will be purple,1,3,,,,,{4001=4;4002=3;4004=1;4010=2},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+13,gold10,Gold coin 10 consecutive draws - regular output,1,0,,,,,{4001=4;4002=3;4003=1;4010=2},50,{4001=5;4002=3;4003=1;4010=1},50,,0,,0,,0,,0,,0,,0,,0,,0
+14,gold50,Gold coin 50 consecutive draws - regular output,1,0,,,,,{4001=20;4002=15;4003=4;4004=1;4010=10},100,,,,0,,0,,0,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,rmb1,Conventional single draw - the average value of orange is about 40 times,20,1,0.02,0.03,,20,{4005=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+22,rmb1,Conventional single draw - about 20 times to get orange,10,1,0.06,0.14,1,10,{4005=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+23,rmb1,Regular Single Draw - Purple for the first time,1,3,,,,,{4004=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+24,rmb1,Regular Single Draw - Regular Output,2,0,,,,,{4001=1},35,{4002=1},25,{4003=1},20,{4004=1},8,{4010=1},12,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,rmb10,Regular ten consecutive - the follow-up weight is orange,3,1,0.26,0.36,,3,{4001=3;4002=2;4003=2;4005=1;4011=2},45,{4001=3;4002=3;4003=2;4005=1;4011=1},45,{4001=3;4002=2;4003=2;4004=1;4005=1;4011=1},10,,0,,0,,0,,0,,0,,0,,0
+32,rmb10,Regular ten consecutive - the first orange,1,3,,,,,{4001=3;4002=2;4003=2;4005=1;4011=2},50,{4001=3;4002=3;4003=2;4005=1;4011=1},50,,0,,0,,0,,0,,0,,0,,0,,0
+33,rmb10,Regular ten companies - regular output,2,0,,,,,{4001=3;4002=3;4003=2;4004=1;4011=1},25,{4001=3;4002=3;4003=1;4004=2;4011=1},25,{4001=4;4002=3;4003=2;4004=1},25,{4001=3;4002=2;4003=2;4004=1;4011=2},25,,0,,0,,0,,0,,0,,0

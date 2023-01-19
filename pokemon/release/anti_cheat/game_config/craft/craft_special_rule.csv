@@ -1,0 +1,7 @@
+变量名,markID,buffType,isOpen
+默认值,,,FALSE
+ID,角色ID,决定胜负的buff_effect,开关
+1,1261,lockHp,TRUE
+2,1271,reborn,TRUE
+3,4171,reborn,TRUE
+4,1281,lockHp,TRUE

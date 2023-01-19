@@ -1,0 +1,50 @@
+﻿变量名,key,text,text_tw,text_en,text_kr,tab,resource
+默认值,"""""","""""","""""","""""","""""",<1>,""""""
+ID,关键字,绿字标记,绿字标记,绿字标记,绿字标记_韩,页签显示;内容读 emojiTab,表情资源
+1,sad,Upset,難過,Upset,슬퍼함,<1>,config/chatemoji/icon_bq_1@.png
+2,cool,Trying to Impress,耍帥,Trying to Impress,멋쟁이,<1>,config/chatemoji/icon_bq_2@.png
+3,lovely,Gentle,乖巧,Gentle,얌전함,<1>,config/chatemoji/icon_bq_3@.png
+4,no,I reject!,我拒絕！,I reject!,거절한다!,<1>,config/chatemoji/icon_bq_4@.png
+5,gdnt,Goodnight,晚安,Goodnight,잘 자,<1>,config/chatemoji/icon_bq_5@.png
+6,exme,I'm sorry,不好意思,I'm sorry,미안,<1>,config/chatemoji/icon_bq_6@.png
+7,ei,Hey!!,誒！！,Hey!!,야!!,<1>,config/chatemoji/icon_bq_7@.png
+8,face1,face1,鬼臉,face1,겁나는얼굴,<1>,config/chatemoji/icon_bq_8@.png
+9,face2,face2,鬼臉,face2,겁나는얼굴,<1>,config/chatemoji/icon_bq_9@.png
+10,face3,face3,鬼臉,face3,겁나는얼굴,<1>,config/chatemoji/icon_bq_10@.png
+11,face4,face4,鬼臉,face4,겁나는얼굴,<1>,config/chatemoji/icon_bq_11@.png
+12,back,back,回頭,back,돌아 보기,<1>,config/chatemoji/icon_bq_12@.png
+13,weapon,weapon,全副武裝,weapon,완전 무장,<1>,config/chatemoji/icon_bq_13@.png
+14,drink,drink,吸,drink,마시기,<1>,config/chatemoji/icon_bq_14@.png
+15,lovely,lovely,可愛,lovely,귀여움,<1>,config/chatemoji/icon_bq_15@.png
+16,swim,swim,游泳,swim,수영,<1>,config/chatemoji/icon_bq_16@.png
+17,fool,fool,發呆,fool,멍 때리기,<1>,config/chatemoji/icon_bq_17@.png
+18,look,look,我看看,look,보기,<1>,config/chatemoji/icon_bq_18@.png
+19,come,come,來呀,come,컴온,<1>,config/chatemoji/icon_bq_19@.png
+20,what,what,啥？,what,뭐?,<1>,config/chatemoji/icon_bq_20@.png
+21,yahoo,yahoo,吖吼,yahoo,야호,<1>,config/chatemoji/icon_bq_21@.png
+22,sat,sat,坐,sat,앉기,<1>,config/chatemoji/icon_bq_22@.png
+23,go,go,走,go,걷기,<1>,config/chatemoji/icon_bq_23@.png
+24,handsom,handsom,帥氣登場,handsom,멋있는 등장,<1>,config/chatemoji/icon_bq_24@.png
+25,happy,happy,開心,happy,기쁨,<1>,config/chatemoji/icon_bq_25@.png
+26,morning,morning,早,morning,아침,<1>,config/chatemoji/icon_bq_26@.png
+27,sit,sit,坐好,sit,착석하기,<1>,config/chatemoji/icon_bq_27@.png
+28,hello,hello,你好啊,hello,안녕,<1>,config/chatemoji/icon_bq_28@.png
+29,eihei,eihei,誒嘿,eihei,에헤이,<1>,config/chatemoji/icon_bq_29@.png
+30,heart,heart,比心,heart,손하트,<1>,config/chatemoji/icon_bq_30@.png
+31,kun,kun,困,kun,졸림,<1>,config/chatemoji/icon_bq_mmx1.png
+32,high,high,狂喜,high,하이 텐션,<1>,config/chatemoji/icon_bq_mmx2.png
+33,quiet,quiet,安詳,quiet,조용,<1>,config/chatemoji/icon_bq_mmx3.png
+34,amazing,amazing,驚,amazing,놀람,<1>,config/chatemoji/icon_bq_mmx4.png
+35,pride,pride,自豪,pride,우쭐,<1>,config/chatemoji/icon_bq_mmx5.png
+36,away,away,哼,away,흥,<1>,config/chatemoji/icon_bq_mmx6.png
+37,increas1,increas1,發呆波加曼版,increas1,멍 때리기 팽도리 버전,<2>,config/chatemoji/icon_sd_bjm.png
+38,increas2,increas2,發呆耿鬼版,increas2,멍 때리기 팬텀 버전,<2>,config/chatemoji/icon_sd_gs.png
+39,increas3,increas3,發呆傑尼龜版,increas3,멍 때리기 꼬부기 버전,<2>,config/chatemoji/icon_sd_jng.png
+40,increas4,increas4,發呆喵喵版,increas4,멍 때리기 냐옹 버전,<2>,config/chatemoji/icon_sd_mm.png
+41,increas5,increas5,發呆木木梟版,increas5,멍 때리기 나몰빼미 버전,<2>,config/chatemoji/icon_sd_mmx.png
+42,increas6,increas6,發呆妙蛙種子版,increas6,멍 때리기 이상해씨 버전,<2>,config/chatemoji/icon_sd_mwzz.png
+43,increas7,increas7,發呆皮卡丘版,increas7,멍 때리기 피카츄 버전,<2>,config/chatemoji/icon_sd_pkq.png
+44,increas8,increas8,發呆小火龍版,increas8,멍 때리기 파이리 버전,<2>,config/chatemoji/icon_sd_xhl.png
+45,increas9,increas9,發呆伊布版,increas9,멍 때리기 이브이 버전,<2>,config/chatemoji/icon_sd_yb.png
+46,increas10,increas10,發呆月精靈版,increas10,멍 때리기 포켓몬 버전,<2>,config/chatemoji/icon_sd_yjl.png
+47,increas11,increas11,發呆沼躍魚版,increas11,멍 때리기 늪짱이 버전,<2>,config/chatemoji/icon_sd_zyy.png

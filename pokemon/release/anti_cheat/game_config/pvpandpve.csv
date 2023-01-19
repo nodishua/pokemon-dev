@@ -1,0 +1,21 @@
+﻿﻿变量名,title,title_tw,title_en,title_vn,title_kr,desc,desc_en,unlockFeature,type,sortIndex,flag,nameRes,lockbg1,unionFeature,serverDayInfo,goto
+默认值,"""""","""""","""""","""""","""""","""""","""""","""""","""""",0,0,"""""","""""",,,""""""
+序号,功能名,功能名,功能名,功能名_越南,功能名_韩,功能描述,功能描述,功能key（由对应unlock控制功能开放状态）,系统类型，属于pvp or pve,排序优先级（小的在前）,该配置是否有效（0有效;1无效）,标题资源路径,显示背景,公会等级需求（union_level 表openFeature字段）,开服天数需求,跳转字段
+1,Rewards dungeon,獎勵副本,Rewards dungeon,Ban thưởng phó bản,보상 던전,,,activityGate,pve,1,,,city/adventure/activityselect/img_rcfb@.png,,,activityGate
+2,Adventure Road,冒險之路,Adventure Road,Mạo hiểm con đường,모험의 길,,,endlessTower,pve,2,,,city/adventure/activityselect/img_wxtz@.png,,,endlessTower
+3,Dispatch quest,派遣任務,Dispatch quest,Điều động nhiệm vụ,파견 퀘스트,,,dispatchTask,pve,3,,,city/adventure/activityselect/img_pq@.png,,,dispatchTask
+4,Aether Paradise,乙太樂園,Aether Paradise,Aether nhạc viên,에테르파라다이스,,,randomTower,pve,5,,,city/adventure/activityselect/img_ytly@.png,,,randomTower
+5,Element Challenge,元素挑戰,Element Challenge,Nguyên tố khiêu chiến,엘리멘탈 챌린지,,,cloneBattle,pve,4,,,city/adventure/activityselect/img_ystz@.png,,,cloneBattle
+6,Fishing,釣魚,Fishing,,낚시,,,fishing,pve,6,,,city/adventure/activityselect/img_dy@.png,,,fishing
+7,Gym Challenge,道館挑戰,Gym Challenge,,,,,gym,pve,7,,,city/adventure/activityselect/img_dgtz.png,,,gymChallenge
+8,Hunting ground,狩獵地帶,,,,,,hunting,pve,8,,,city/adventure/activityselect/img_sldd@.png,,,hunting
+9,Pokémon Challenge,寶可夢挑戰,,,,,,normalBraveChallenge,pve,9,,,city/adventure/activityselect/img_bkmtz@.png,,,normalBraveChallenge
+,,,,,,,,,,,,,,,,
+101,Arena,競技場,Arena,Sân thi đấu,아레나,Rivals meet on face to face and the winner emerges,Rivals meet on face to face and the winner emerges,arena,pvp,1,,,city/pvp/img_jjc.png,,,arena
+102,union War,公會戰,union War,,길드전,Compete to be the best union,Compete to be the best union,unionFight,pvp,3,,,city/pvp/img_ghz.png,unionFight,{sevCsv = csv.union_fight.base[1].servOpenDays;funcType = less},unionFight
+103,Indigo Plateau Conference,石英大會,Indigo Plateau Conference,Thạch anh đại hội,석영 대회,Indigo Plateau Conference,Indigo Plateau Conference,craft,pvp,2,,,city/pvp/img_sydh.png,,{sevCsv = csv.craft.base[1].servOpenDays;funcType = less},craft
+104,Global Indigo Plateau Conference,跨服石英,Global Indigo Plateau Conference,,글로벌 석영,,404,crossCraft,pvp,4,,,city/pvp/img_kfsydh.png,,{sevCsv = csv.cross.craft.base[1].servOpenDays;funcType = less},crossCraft
+105,World Arena,跨服競技場,World Arena,,글로벌 아레나,,404,crossArena,pvp,5,,,city/pvp/img_kfjjc.png,,{sevCsv = csv.cross.arena.base[1].servOpenDays;funcType = less},crossArena
+106,PVP Arena,對戰競技場,PVP Arena,,대전 아레나,,404,onlineFight,pvp,6,,,city/pvp/img_dzjjc.png,,{sevCsv = csv.cross.online_fight.base[1].servOpenDays;funcType = less},onlineFight
+107,Cross server business street,跨服商業街,404404,404404,404404,,404404,crossMine,pvp,7,,,city/pvp/img_kfzyz.png,,{sevCsv = csv.cross.mine.base[1].servOpenDays;funcType = less},crossMine
+,Selection test,占坑測試,Selection test,Test Giữ Chỗ,점령 테스트,Shows 10 uses 109,Shows 10 uses 109,,pvp,5,,,city/pvp/img_jjc.png,,,

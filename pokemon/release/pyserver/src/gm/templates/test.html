@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div>{{ error }}</div>
+        <div>
+            <div>
+                <button onclick="sendMsg()">ceshi</button>
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            function sendMsg() {
+                if ("WebSocket" in window) {
+                    console.log("ws---------");
+                    const localPort = window.location.port
+                    const localhost = window.location.hostname
+                    console.log(localhost, localPort)
+                    let url = "ws://192.168.1.98:1105/ws";
+                    var ws = new WebSocket(url);
+                    console.log(ws);
+                    ws.onopen = function() {
+                        console.log("onopen");
+                        ws.send(123123);
+                    };
+                    ws.onmessage = function (evt) {
+                        console.log("onmessage");
+                        console.log(evt);
+                        //alert(evt.data);
+                    };
+                    ws.onerror = function (err) {
+                        console.log("asd", err);
+                    };
+                    ws.onclose = function (e) {
+                        console.log(e)
+                        console.log("close")
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,1131 @@
+{
+  "agent.cn.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.1",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.10": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.10",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.11": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.11",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.12": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.12",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.13": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.13",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.14": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.14",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.15": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.15",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.16": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.16",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.17": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.17",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.18": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.18",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.19": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.19",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.2": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.2",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.20": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.20",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.3": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.3",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.4": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.4",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.5": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.5",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.6": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.6",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.7": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.7",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.8": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.8",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn.9": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn.9",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.1",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.10": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.10",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.11": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.11",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.12": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.12",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.13": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.13",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.14": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.14",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.15": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.15",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.16": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.16",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.17": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.17",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.18": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.18",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.19": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.19",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.2": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.2",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.20": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.20",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.21": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.21",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.22": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.22",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.23": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.23",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.24": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.24",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.25": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.25",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.26": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.26",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.27": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.27",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.28": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.28",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.29": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.29",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.3": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.3",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.30": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.30",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.31": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.31",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.32": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.32",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.33": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.33",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.34": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.34",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.35": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.35",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.36": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.36",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.37": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.37",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.38": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.38",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.39": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.39",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.4": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.4",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.40": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.40",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.41": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.41",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.42": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.42",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.43": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.43",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.44": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.44",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.45": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.45",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.46": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.46",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.47": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.47",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.48": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.48",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.49": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.49",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.5": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.5",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.50": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.50",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.51": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.51",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.52": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.52",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.53": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.53",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.54": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.54",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.55": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.55",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.56": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.56",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.57": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.57",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.58": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.58",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.59": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.59",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.6": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.6",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.60": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.60",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.61": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.61",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.62": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.62",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.63": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.63",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.64": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.64",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.65": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.65",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.66": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.66",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.7": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.7",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.8": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.8",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.cn_qd.9": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "name": "anticheat.cn_qd.9",
+        "trackback_report_url": "http://172.16.2.13:1104/battle_report"
+      }
+    ]
+  },
+  "agent.dev.1": {
+    "debug": true,
+    "nsqlookupd":"http://127.0.0.1:4161/",
+    "mainnsqd":"127.0.0.1:4150",
+    "services": [
+      {
+        "error_not_force_result": true,
+        "name": "anticheat.dev.1"
+      }
+    ]
+  }
+}

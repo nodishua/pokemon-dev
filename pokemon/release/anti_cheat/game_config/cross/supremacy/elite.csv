@@ -1,0 +1,4 @@
+变量名,day,invalidMarkIDs,invalidMegaCardIDs
+默认值,0,<>,<>
+ID,本期战斗天数（相对天数）,禁用markID（不包含Mega）,禁用Meag卡的card_id
+101,1,<721;731;741>,

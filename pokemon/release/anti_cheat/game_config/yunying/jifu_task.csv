@@ -1,0 +1,19 @@
+﻿"﻿变量名",huodongID,boardID,taskType,taskParam,taskSpecialParam,desc,desc_tw,desc_en,desc_vn,desc_kr,award,goTo
+默认值,0,0,0,9999,{},"""""","""""","""""","""""","""""",{},""""""
+ID,活动版本ID,号码牌ID,任务类型,任务参数,任务特殊参数,描述,描述,描述,描述_越南,描述_韩,奖励,跳转目标
+101,10011,1,29,600,,Challenge Common Stage 600 times,挑戰普通關卡600次,Challenge Common Stage 600 times,404404,일반 스테이지 500회 도전,{gold=100000;stamina=30},10000
+102,10011,2,35,50,,Ascend Pokémon 50 times,精靈突破50次,Ascend Pokémon 50 times,404404,포켓몬 돌파 30회,{gold=100000;503=3},strengthen-advance
+103,10011,3,112,3,{3=7},Clear 7F of Aether Paradise 3 times,乙太樂園累計通過7層3次,Clear 7F of Aether Paradise 3 times,404404,에테르파라다이스 7층 3회 클리어,{gold=100000;519=2},randomTower
+104,10011,4,17,5,,Login for 5 days,累計登錄5天,Login for 5 days,404404,누적 5일 로그인,{gold=100000;520=1},
+105,10011,5,20,20000000,,"Spent 20,000,000 Coins in total",累計消耗20000000金幣,"Spent 20,000,000 Coins in total",404404,20000000 코인 누적 소모,{gold=100000;901=10},
+106,10011,6,50,30,,Drawing with Diamonds 30 times,鑽石抽卡次數達30次,Drawing with Diamonds 30 times,404404,다이아 뽑기 30회 달성,{gold=100000;850=50},drawCard-diamond
+107,10011,7,30,150,,Challenge Elite Stage 150 times,挑戰精英關卡次數150次,Challenge Elite Stage 150 times,404404,정예 스테이지 150회 도전,{gold=100000;851=50},20000
+108,10011,8,86,25,{25=4},Complete Rank S or higher Dispatch 25 times,完成S級以上的派遣25次,Complete Rank S or higher Dispatch 25 times,404404,S급 이상 파견 20회 완료,{gold=100000;5000=10},dispatchTask
+109,10011,9,36,200,,Upgrade Pokémon 200 times,累計升級精靈200次,Upgrade Pokémon 200 times,404404,포켓몬 레벨업 200회 누적,{gold=100000;930=10},strengthen-1
+110,10011,10,21,3000,,"Spent 3,000 Diamonds in total",累計消費3000鑽,"Spent 3,000 Diamonds in total",404404,3000 다이아 누적 소모,{gold=100000;529=500},
+111,10011,11,26,20,,Purchase Stamina 20 times,購買體力20次,Purchase Stamina 20 times,404404,체력 20회 구매,{gold=100000;902=5},gainStamina
+112,10011,12,18,60,,Join Fortune 60 times,聚寶累計60次,Join Fortune 60 times,404404,보물단지 누적 50회,{gold=100000;coin1=1000},gainGold
+113,10011,13,41,50,,Fight in the Arena 50 times,競技場累計戰鬥50次,Fight in the Arena 50 times,404404,아레나 누적 50회 전투,{gold=100000;coin2=1000},arena
+114,10011,14,34,200,,Upgrade Skill 200 times,技能升級200次,Upgrade Skill 200 times,404404,기술 100회 레벨업,{gold=100000;coin3=1000},strengthen-5
+115,10011,15,55,40,,Donate to Guild 40 times,公會捐獻40次,Donate to Guild 40 times,404404,길드 기부 30회,{gold=100000;talent_point=2},union
+116,10011,16,37,20,,Star up Pokémon 20 times,精靈升星20次,Star up Pokémon 20 times,404404,포켓몬 20회 승급,{gold=100000;19=3},strengthen-4

@@ -1,0 +1,168 @@
+﻿"﻿变量名",huodongID,daySum,desc,desc_tw,desc_en,desc_vn,desc_kr,award
+默认值,0,0,"""""","""""","""""","""""","""""",{}
+ID,活动版本ID,累计天数,描述,描述,描述,描述_越南,描述_韩,奖励
+1,1001,1,1 day login bonus,1天登錄獎勵,Day 1 Login Rewards,1 Trời đăng nhập ban thưởng,1일 로그인 보상,{rmb=60;20001=2;card={id=11}}
+2,1001,2,2 days login bonus,2天登錄獎勵,Day 2 Login Rewards,Thưởng Đăng Nhập 2 Ngày,2일 로그인 보상,{rmb=100;12=20;card={id=9002}}
+3,1001,3,3 days login bonus,3天登錄獎勵,Day 3 Login Rewards,Thưởng Đăng Nhập 3 Ngày,3일 로그인 보상,{rmb=200;12=20;gold=10000}
+4,1001,4,4 days login bonus,4天登錄獎勵,Day 4 Login Rewards,Thưởng Đăng Nhập 4 Ngày,4일 로그인 보상,{rmb=300;12=20;gold=20000}
+5,1001,5,5 days login bonus,5天登錄獎勵,Day 5 Login Rewards,Thưởng Đăng Nhập 5 Ngày,5일 로그인 보상,{rmb=400;12=20;gold=30000}
+6,1001,6,6 days login bonus,6天登錄獎勵,Day 6 Login Rewards,Thưởng Đăng Nhập 6 Ngày,6일 로그인 보상,{rmb=500;12=20;gold=40000}
+7,1001,7,7 days login bonus,7天登錄獎勵,Day 7 Login Rewards,Thưởng Đăng Nhập 7 Ngày,7일 로그인 보상,{rmb=600;12=20;gold=50000}
+,,,,,,,,
+11,1002,1,1 day login bonus,1天登錄獎勵,Day 1 Login Rewards,1 Trời đăng nhập ban thưởng,1일 로그인 보상,{rmb=100;6318=5;gold=100000}
+12,1002,2,2 days login bonus,2天登錄獎勵,Day 2 Login Rewards,Thưởng Đăng Nhập 2 Ngày,2일 로그인 보상,{rmb=100;6318=5;gold=100000}
+13,1002,3,3 days login bonus,3天登錄獎勵,Day 3 Login Rewards,Thưởng Đăng Nhập 3 Ngày,3일 로그인 보상,{rmb=100;6318=5;gold=100000}
+14,1002,4,4 days login bonus,4天登錄獎勵,Day 4 Login Rewards,Thưởng Đăng Nhập 4 Ngày,4일 로그인 보상,{rmb=100;6318=5;gold=100000}
+15,1002,5,5 days login bonus,5天登錄獎勵,Day 5 Login Rewards,Thưởng Đăng Nhập 5 Ngày,5일 로그인 보상,{rmb=100;6318=5;gold=100000}
+16,1002,6,6 days login bonus,6天登錄獎勵,Day 6 Login Rewards,Thưởng Đăng Nhập 6 Ngày,6일 로그인 보상,{rmb=100;6318=5;gold=100000}
+17,1002,7,7 days login bonus,7天登錄獎勵,Day 7 Login Rewards,Thưởng Đăng Nhập 7 Ngày,7일 로그인 보상,{rmb=100;6318=5;gold=100000}
+18,1002,8,8 days login bonus,8天登錄獎勵,Day 8 Login Rewards,Thưởng Đăng Nhập 8 Ngày,8일 로그인 보상,{rmb=100;6318=5;gold=100000}
+19,1002,9,9 days login bonus,9天登錄獎勵,Day 9 Login Rewards,Thưởng Đăng Nhập 9 Ngày,9일 로그인 보상,{rmb=100;6318=5;gold=100000}
+,,,,,,,,
+1001,10001,1,Novice Benefits Day 1,新手福利第1天,404,Phúc Lợi Tân Thủ Ngày 1,신규 혜택 1일 차,{rmb=100;519=10;930=5;gold=10000}
+1002,10001,2,Novice Benefits Day 2,新手福利第2天,404,Phúc Lợi Tân Thủ Ngày 2,신규 혜택 2일 차,{card={id=271};rmb=100;31201=1;gold=10000}
+1003,10001,3,Novice Benefits Day 3,新手福利第3天,404,Phúc Lợi Tân Thủ Ngày 3,신규 혜택 3일 차,{card={id=391};rmb=100;13=20;gold=12000}
+1004,10001,4,Novice Benefits Day 4,新手福利第4天,404,Phúc Lợi Tân Thủ Ngày 4,신규 혜택 4일 차,{rmb=120;100=3;503=2;gold=12000}
+1005,10001,5,Novice Benefits Day 5,新手福利第5天,404,Phúc Lợi Tân Thủ Ngày 5,신규 혜택 5일 차,{rmb=120;501=1;451=30;gold=15000}
+1006,10001,6,Novice Benefits Day 6,新手福利第6天,404,Phúc Lợi Tân Thủ Ngày 6,신규 혜택 6일 차,{rmb=120;talent_point=3;502=2;gold=20000}
+1007,10001,7,Novice Benefits Day 7,新手福利第7天,404,Phúc Lợi Tân Thủ Ngày 7,신규 혜택 7일 차,{card={id=771};rmb=150;13=20;gold=30000}
+,,,,,,,,
+1101,11001,1,Continuous login day 1,連續登錄第1天,404,Đăng Nhập Liên Tục Ngày 1,연속 로그인 1일 차,{rmb=100;}
+1102,11001,2,2 consecutive days of login,連續登錄第2天,404,Đăng Nhập Liên Tục Ngày 2,연속 로그인 2일 차,{card={id=271};rmb=100;}
+1103,11001,3,3 consecutive days of login,連續登錄第3天,404,Đăng Nhập Liên Tục Ngày 3,연속 로그인 3일 차,{card={id=391};rmb=100;13=20}
+1104,11001,4,4 consecutive days of login,連續登錄第4天,404,Đăng Nhập Liên Tục Ngày 4,연속 로그인 4일 차,{rmb=120;100=3;503=2;gold=12000}
+1105,11001,5,5th consecutive day of login,連續登錄第5天,404,Đăng Nhập Liên Tục Ngày 5,연속 로그인 5일 차,{rmb=120;501=1;451=30;gold=15000}
+1106,11001,6,6 consecutive days of login,連續登錄第6天,404,Đăng Nhập Liên Tục Ngày 6,연속 로그인 6일 차,{rmb=120;talent_point=3;502=2;gold=20000}
+1107,11001,7,7 consecutive days of login,連續登錄第7天,404,Đăng Nhập Liên Tục Ngày 7,연속 로그인 7일 차,{card={id=771};rmb=150;13=20;gold=30000}
+,,,,,,,,
+1201,12001,1,Corresponding day number 1st day,對應天數第1天,404,Số Ngày Tương Ứng Ngày 1,대응 일수 1일 차,{rmb=100;}
+1202,12001,2,The corresponding day is the 2nd day,對應天數第2天,404,Số Ngày Tương Ứng Ngày 2,대응 일수 2일 차,{card={id=271};rmb=100;}
+1203,12001,3,The corresponding number of days is the 3rd day,對應天數第3天,404,Số Ngày Tương Ứng Ngày 3,대응 일수 3일 차,{card={id=391};rmb=100;13=20}
+1204,12001,4,The corresponding number of days is the 4th day,對應天數第4天,404,Số Ngày Tương Ứng Ngày 4,대응 일수 4일 차,{rmb=120;100=3;503=2;gold=12000}
+1205,12001,5,The corresponding number of days is the 5th day,對應天數第5天,404,Số Ngày Tương Ứng Ngày 5,대응 일수 5일 차,{rmb=120;501=1;451=30;gold=15000}
+1206,12001,6,The corresponding number of days is the 6th day,對應天數第6天,404,Số Ngày Tương Ứng Ngày 6,대응 일수 6일 차,{rmb=120;talent_point=3;502=2;gold=20000}
+1207,12001,7,The corresponding number of days is the 7th day,對應天數第7天,404,Số Ngày Tương Ứng Ngày 7,대응 일수 7일 차,{card={id=771};rmb=150;13=20;gold=30000}
+1208,12001,8,The corresponding number of days is the 8th day,對應天數第8天,404,Số Ngày Tương Ứng Ngày 8,대응 일수 8일 차,{rmb=100;519=10;930=5;gold=10000}
+1209,12001,9,The corresponding number of days is the 9th day,對應天數第9天,404,Số Ngày Tương Ứng Ngày 9,대응 일수 9일 차,{card={id=271};rmb=100;31201=1;gold=10000}
+1210,12001,10,The corresponding number of days is the 10th day,對應天數第10天,404,Số Ngày Tương Ứng Ngày 10,대응 일수 10일 차,{card={id=391};rmb=100;13=20;gold=12000}
+,,,,,,,,
+1301,13001,1,Corresponding day number 1st day,對應天數第1天,404,Số Ngày Tương Ứng Ngày 1,대응 일수 1일 차,{528=10}
+1302,13001,2,The corresponding day is the 2nd day,對應天數第2天,404,Số Ngày Tương Ứng Ngày 2,대응 일수 2일 차,{528=10}
+1303,13001,3,The corresponding number of days is the 3rd day,對應天數第3天,404,Số Ngày Tương Ứng Ngày 3,대응 일수 3일 차,{528=10}
+1304,13001,4,The corresponding number of days is the 4th day,對應天數第4天,404,Số Ngày Tương Ứng Ngày 4,대응 일수 4일 차,{528=10}
+1305,13001,5,The corresponding number of days is the 5th day,對應天數第5天,404,Số Ngày Tương Ứng Ngày 5,대응 일수 5일 차,{528=10}
+1306,13001,6,The corresponding number of days is the 6th day,對應天數第6天,404,Số Ngày Tương Ứng Ngày 6,대응 일수 6일 차,{528=10}
+1307,13001,7,The corresponding number of days is the 7th day,對應天數第7天,404,Số Ngày Tương Ứng Ngày 7,대응 일수 7일 차,{528=10}
+1308,13001,8,The corresponding number of days is the 8th day,對應天數第8天,404,Số Ngày Tương Ứng Ngày 8,대응 일수 8일 차,{528=10}
+1309,13001,9,The corresponding number of days is the 9th day,對應天數第9天,404,Số Ngày Tương Ứng Ngày 9,대응 일수 9일 차,{528=10}
+1310,13001,10,The corresponding number of days is the 10th day,對應天數第10天,404,Số Ngày Tương Ứng Ngày 10,대응 일수 10일 차,{528=10}
+1311,13001,11,The 11th day corresponding to the number of days,對應天數第11天,404,Số Ngày Tương Ứng Ngày 11,대응 일수 11일 차,{528=10}
+1312,13001,12,The corresponding number of days is the 12th day,對應天數第12天,404,Số Ngày Tương Ứng Ngày 12,대응 일수 12일 차,{528=10}
+1313,13001,13,Corresponding days on the 13th day,對應天數第13天,404,Số Ngày Tương Ứng Ngày 13,대응 일수 13일 차,{528=10}
+1314,13001,14,Corresponding days on the 14th day,對應天數第14天,404,Số Ngày Tương Ứng Ngày 14,대응 일수 14일 차,{528=10}
+1315,13001,15,Corresponding days on the 15th day,對應天數第15天,404,Số Ngày Tương Ứng Ngày 15,대응 일수 15일 차,{528=10}
+1316,13001,16,Corresponding days on the 16th day,對應天數第16天,404,Số Ngày Tương Ứng Ngày 16,대응 일수 16일 차,{528=10}
+,,,,,,,,
+1321,13002,1,Corresponding day number 1st day,對應天數第1天,404,Số Ngày Tương Ứng Ngày 1,대응 일수 1일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1322,13002,2,The corresponding day is the 2nd day,對應天數第2天,404,Số Ngày Tương Ứng Ngày 2,대응 일수 2일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1323,13002,3,The corresponding number of days is the 3rd day,對應天數第3天,404,Số Ngày Tương Ứng Ngày 3,대응 일수 3일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1324,13002,4,The corresponding number of days is the 4th day,對應天數第4天,404,Số Ngày Tương Ứng Ngày 4,대응 일수 4일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1325,13002,5,The corresponding number of days is the 5th day,對應天數第5天,404,Số Ngày Tương Ứng Ngày 5,대응 일수 5일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1326,13002,6,The corresponding number of days is the 6th day,對應天數第6天,404,Số Ngày Tương Ứng Ngày 6,대응 일수 6일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1327,13002,7,The corresponding number of days is the 7th day,對應天數第7天,404,Số Ngày Tương Ứng Ngày 7,대응 일수 7일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1328,13002,8,The corresponding number of days is the 8th day,對應天數第8天,404,Số Ngày Tương Ứng Ngày 8,대응 일수 8일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1329,13002,9,The corresponding number of days is the 9th day,對應天數第9天,404,Số Ngày Tương Ứng Ngày 9,대응 일수 9일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1330,13002,10,The corresponding number of days is the 10th day,對應天數第10天,404,Số Ngày Tương Ứng Ngày 10,대응 일수 10일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1331,13002,11,The 11th day corresponding to the number of days,對應天數第11天,404,Số Ngày Tương Ứng Ngày 11,대응 일수 11일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1332,13002,12,The corresponding number of days is the 12th day,對應天數第12天,404,Số Ngày Tương Ứng Ngày 12,대응 일수 12일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1333,13002,13,Corresponding days on the 13th day,對應天數第13天,404,Số Ngày Tương Ứng Ngày 13,대응 일수 13일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1334,13002,14,Corresponding days on the 14th day,對應天數第14天,404,Số Ngày Tương Ứng Ngày 14,대응 일수 14일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1335,13002,15,Corresponding days on the 15th day,對應天數第15天,404,Số Ngày Tương Ứng Ngày 15,대응 일수 15일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+1336,13002,16,Corresponding days on the 16th day,對應天數第16天,404,Số Ngày Tương Ứng Ngày 16,대응 일수 16일 차,{6376=5;6372=3;6373=3;6374=3;6375=1}
+,,,,,,,,
+1341,13003,1,Corresponding day number 1st day,對應天數第1天,404,Số Ngày Tương Ứng Ngày 1,대응 일수 1일 차,{6372=3;6373=3;6374=3;6375=1}
+1342,13003,2,The corresponding day is the 2nd day,對應天數第2天,404,Số Ngày Tương Ứng Ngày 2,대응 일수 2일 차,{6372=3;6373=3;6374=3;6375=1}
+1343,13003,3,The corresponding number of days is the 3rd day,對應天數第3天,404,Số Ngày Tương Ứng Ngày 3,대응 일수 3일 차,{6372=3;6373=3;6374=3;6375=1}
+1344,13003,4,The corresponding number of days is the 4th day,對應天數第4天,404,Số Ngày Tương Ứng Ngày 4,대응 일수 4일 차,{6372=3;6373=3;6374=3;6375=1}
+1345,13003,5,The corresponding number of days is the 5th day,對應天數第5天,404,Số Ngày Tương Ứng Ngày 5,대응 일수 5일 차,{6372=3;6373=3;6374=3;6375=1}
+1346,13003,6,The corresponding number of days is the 6th day,對應天數第6天,404,Số Ngày Tương Ứng Ngày 6,대응 일수 6일 차,{6372=3;6373=3;6374=3;6375=1}
+1347,13003,7,The corresponding number of days is the 7th day,對應天數第7天,404,Số Ngày Tương Ứng Ngày 7,대응 일수 7일 차,{6372=3;6373=3;6374=3;6375=1}
+1348,13003,8,The corresponding number of days is the 8th day,對應天數第8天,404,Số Ngày Tương Ứng Ngày 8,대응 일수 8일 차,{6372=3;6373=3;6374=3;6375=1}
+1349,13003,9,The corresponding number of days is the 9th day,對應天數第9天,404,Số Ngày Tương Ứng Ngày 9,대응 일수 9일 차,{6372=3;6373=3;6374=3;6375=1}
+1350,13003,10,The corresponding number of days is the 10th day,對應天數第10天,404,Số Ngày Tương Ứng Ngày 10,대응 일수 10일 차,{6372=3;6373=3;6374=3;6375=1}
+1351,13003,11,The 11th day corresponding to the number of days,對應天數第11天,404,Số Ngày Tương Ứng Ngày 11,대응 일수 11일 차,{6372=3;6373=3;6374=3;6375=1}
+1352,13003,12,The corresponding number of days is the 12th day,對應天數第12天,404,Số Ngày Tương Ứng Ngày 12,대응 일수 12일 차,{6372=3;6373=3;6374=3;6375=1}
+1353,13003,13,Corresponding days on the 13th day,對應天數第13天,404,Số Ngày Tương Ứng Ngày 13,대응 일수 13일 차,{6372=3;6373=3;6374=3;6375=1}
+1354,13003,14,Corresponding days on the 14th day,對應天數第14天,404,Số Ngày Tương Ứng Ngày 14,대응 일수 14일 차,{6372=3;6373=3;6374=3;6375=1}
+1355,13003,15,Corresponding days on the 15th day,對應天數第15天,404,Số Ngày Tương Ứng Ngày 15,대응 일수 15일 차,{6372=3;6373=3;6374=3;6375=1}
+1356,13003,16,Corresponding days on the 16th day,對應天數第16天,404,Số Ngày Tương Ứng Ngày 16,대응 일수 16일 차,{6372=3;6373=3;6374=3;6375=1}
+,,,,,,,,
+10181,10012,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=188;520=2;gold=100000;2301=1}
+10182,10012,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=188;503=3;gold=100000;13=10}
+10183,10012,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=188;519=2;gold=100000;2009=1}
+10184,10012,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=188;502=3;gold=100000;13=15}
+10185,10012,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=188;19=5;gold=100000;13=20}
+10186,10012,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{rmb=188;6050=1;gold=100000;13=20}
+10187,10012,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;501=2;gold=100000;2401=1}
+10188,10012,8,Total login 8 days,累計登錄8天,404,Tích luỹ đăng nhập 8 ngày,누적 8일 로그인,{card={id=9002};rmb=188;gold=100000;13=25}
+10189,10012,9,Total login 9 days,累計登錄9天,404,Tích luỹ đăng nhập 9 ngày,누적 9일 로그인,{rmb=188;502=10;gold=100000;13=30}
+,,,,,,,,
+10191,10013,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=100;520=2;gold=100000;2313=1}
+10192,10013,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=100;503=3;gold=100000;13=10}
+10193,10013,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=100;519=2;gold=100000;13=15}
+10194,10013,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=188;502=3;gold=100000;13=15}
+10195,10013,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=100;19=5;gold=100000;13=20}
+10196,10013,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{rmb=100;501=2;gold=100000;13=20}
+10197,10013,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;521=3;gold=100000;13=20}
+,,,,,,,,
+10201,2152,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{6381=3;6385=1;6386=1}
+10202,2152,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{6381=3;6387=1;6388=1}
+10203,2152,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{6381=3;6389=1;6390=1}
+10204,2152,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{6381=3;6385=1;6386=1}
+10205,2152,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{6381=3;6387=1;6388=1}
+10206,2152,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{6381=3;6389=1;6390=1}
+10207,2152,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{6381=3;6385=1;6386=1}
+,,,,,,,,
+10211,10014,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=100;520=2;gold=100000;2320=1}
+10212,10014,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=100;503=3;gold=100000;13=10}
+10213,10014,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=188;519=2;gold=100000;2021=1}
+10214,10014,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=100;502=3;gold=100000;13=15}
+10215,10014,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=100;19=5;gold=100000;13=20}
+10216,10014,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{card={id=9002};rmb=100;502=6;gold=100000}
+10217,10014,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;501=2;gold=100000;2410=1}
+,,,,,,,,
+10221,10015,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=100;520=2;gold=100000;2320=1}
+10222,10015,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=100;503=3;gold=100000;13=10}
+10223,10015,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=100;519=2;gold=100000;13=15}
+10224,10015,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=188;502=3;gold=100000;2021=1}
+10225,10015,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=100;19=5;gold=100000;13=20}
+10226,10015,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{rmb=100;501=2;gold=100000;13=20}
+10227,10015,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;502=6;gold=100000;2410=1}
+,,,,,,,,
+10230,10016,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=188;520=2;gold=100000;2321=1}
+10231,10016,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=188;503=3;gold=100000;13=10}
+10232,10016,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=188;519=2;gold=100000;2023=1}
+10233,10016,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=188;502=3;gold=100000;13=15}
+10234,10016,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=188;19=5;gold=100000;13=20}
+10235,10016,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{rmb=188;6050=1;gold=100000;13=20}
+10236,10016,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;501=2;gold=100000;2412=1}
+10237,10016,8,Total login 8 days,累計登錄8天,404,Tích luỹ đăng nhập 8 ngày,누적 8일 로그인,{card={id=9002};rmb=188;gold=100000;13=25}
+10238,10016,9,Total login 9 days,累計登錄9天,404,Tích luỹ đăng nhập 9 ngày,누적 9일 로그인,{rmb=188;502=10;gold=100000;13=30}
+,,,,,,,,
+10240,10017,1,Anniversary login gift once,周年慶登錄大禮領一次,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{gold=3880000;rmb=388;502=10;519=10}
+,,,,,,,,
+10250,10018,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=100;520=2;gold=100000;2325=1}
+10251,10018,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=100;503=3;gold=100000;13=10}
+10252,10018,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=100;519=2;gold=100000;13=15}
+10253,10018,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=188;502=3;gold=100000;13=15}
+10254,10018,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=100;19=5;gold=100000;13=20}
+10255,10018,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{rmb=100;501=2;gold=100000;13=20}
+10256,10018,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;502=6;gold=100000;13=20}
+,,,,,,,,
+10260,10019,1,Cumulative login 1 day,累計登錄1天,404,Tích luỹ đăng nhập 1 ngày,누적 1일 로그인,{rmb=100;520=2;gold=100000;2328=1}
+10261,10019,2,Total login 2 days,累計登錄2天,404,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,{rmb=100;503=3;gold=100000;13=10}
+10262,10019,3,Log in for 3 days,累計登錄3天,404,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,{rmb=100;519=2;gold=100000;13=15}
+10263,10019,4,Total login 4 days,累計登錄4天,404,Tích luỹ đăng nhập 4 ngày,누적 4일 로그인,{rmb=188;502=3;gold=100000;13=15}
+10264,10019,5,Accumulated login 5 days,累計登錄5天,404,Tích luỹ đăng nhập 5 ngày,누적 5일 로그인,{rmb=100;19=5;gold=100000;13=20}
+10265,10019,6,Total login 6 days,累計登錄6天,404,Tích luỹ đăng nhập 6 ngày,누적 6일 로그인,{rmb=100;501=2;gold=100000;13=20}
+10266,10019,7,Accumulated login for 7 days,累計登錄7天,404,Tích luỹ đăng nhập 7 ngày,누적 7일 로그인,{rmb=188;521=3;gold=100000;13=20}

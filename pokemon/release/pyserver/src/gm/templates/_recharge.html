@@ -1,0 +1,362 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<script src={{ static_url("node_modules/chart.js/dist/Chart.min.js") }}></script>
+	<link rel="stylesheet" href={{ static_url("node_modules/chart.js/dist/Chart.min.css") }} />
+	<style>
+		.t {
+			margin-top: 18px;
+		}
+
+		.l {
+			margin-left: 18px;
+		}
+
+		.r {
+			margin-right: 8px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="modal fade" id="act-role-detail" tabindex="-1" role="dialog">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                <h4 class="modal-title">{{ _(u"Player details") }}</h4>
+		            </div>
+		            <div class="modal-body">
+		            	<table id='act-role-table'></table>
+		            </div>
+		            <div class="modal-footer">
+		            	<button id="act-role-btn1" class='btn btn-warning'></button>
+		            	<button id="act-role-btn2" class='btn btn-warning'></button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="modal fade" id="act-union-detail" tabindex="-1" role="dialog">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                <h4 class="modal-title">{{ _(u"Detailed information of the union ") }}</h4>
+		            </div>
+		            <div class="modal-body">
+		            	<table id='act-union-table'></table>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="row">
+			<div class="title"><h4>{{ _(u"Recharge query") }}</h4></div>
+		</div>
+
+		<div class="well">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="form-inline">
+        				<div class="from-group">
+        					<div class="form-group">
+							  	<label>{{ _(u"server") }}</label>
+						        <input id="serv-select" class="form-control input-sm" data-toggle="modal" data-target="#serv-select-modal">
+							</div>
+							<div id='channel-div' class="form-group">
+							  	<label>{{ _(u"channel") }}</label>
+						        <input id="channel-select" class="form-control input-sm" data-toggle="modal" data-target="#channel-select-modal">
+							</div>
+						    <div id='sdate-div' class="form-group margin-left-m hidden">
+							  	<label>{{ _(u"Starting time") }}</label>
+						        <input id="start-date" type="date" class="form-control input-sm">
+						  	</div>
+						  	<div id='edate-div' class="form-group margin-left-m hidden">
+							  	<label>{{ _(u"End Time") }}</label>
+						        <input id="end-date" type="date" class="form-control input-sm">
+							</div>
+							<div class="form-group margin-left-m">
+							  	<label></label>
+						        <input id="search" type="button" class="form-control btn btn-success btn-circle input-sm" onclick='rechargeRankClick()' value='{{ _(u"Inquire") }}'>
+							</div>
+        				</div>
+					</div>
+				</div>
+			</div>
+
+			<div id='part-nav' class="row hidden">
+    			<div class="col-lg-12 t">
+    				<div class="form-inline">
+    					<div class="form-group">
+						  	<label>{{ _(u"Account ID") }}</label>
+					        <input id="account-id" type="text" class="form-control input-sm">
+					  	</div>
+					  	<div class="form-group margin-left-m">
+						  	<label>{{ _(u"Character ID") }}</label>
+					        <input id="role-id" type="text" class="form-control input-sm">
+					  	</div>
+					  	<div class="form-group margin-left-m">
+						  	<label>{{ _(u"Channel account") }}</label>
+					        <input id="channel-id" type="text" class="form-control input-sm">
+					  	</div>
+					  	<div class="form-group margin-left-m">
+						  	<label>{{ _(u"Channel order number") }}</label>
+					        <input id="channel-order-id" type="text" class="form-control input-sm">
+					  	</div>
+    				</div>
+    			</div>
+    		</div>
+
+			<div class="row t">
+				<div class="col-lg-12">
+	        		<ul class="nav nav-tabs">
+					    <li class="active"><a href="#recharge-rank" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Recharge ranking") }}</a></li>
+						<li><a href="#recharge-info" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Details of recharge ") }}</a></li>
+						<li><a href="#recharge" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Recharge chart") }}</a></li>
+					</ul>
+	        	</div>
+			</div>
+
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		<div id="tabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="recharge-rank">
+							<div>
+								<table id="recharge-rank-table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="recharge-info">
+							<div>
+								<table id="recharge-info-table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="recharge">
+							<div id='fu-chart' class='t'>
+								<canvas id="result-chart"></canvas>
+							</div>
+						</div>
+
+					</div>
+
+	        	</div>
+	        </div>
+		</div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function changeFixedForTab(self) {
+			let clickFun = null;
+			let href = $(self).attr("href");
+			let $part_nav = $('#part-nav');
+			let $sdate = $('#sdate-div');
+			let $edate = $('#edate-div');
+			let $channel = $('#channel-div');
+
+
+			if (href === "#recharge") {
+				clickFun = 'rechargeChartClick()'
+				$part_nav.addClass('hidden')
+				$sdate.removeClass('hidden')
+				$edate.removeClass('hidden')
+				$channel.addClass('hidden')
+			}
+			else if (href === "#recharge-rank") {
+				clickFun = 'rechargeRankClick()'
+				$part_nav.addClass('hidden')
+				$sdate.addClass('hidden')
+				$edate.addClass('hidden')
+				$channel.removeClass('hidden')
+			}
+			else if (href === "#recharge-info") {
+				clickFun = 'rechargeInfoClick()'
+				$part_nav.removeClass('hidden')
+				$sdate.removeClass('hidden')
+				$edate.removeClass('hidden')
+				$channel.addClass('hidden')
+			}
+
+			$("#search").attr("onclick", clickFun)
+		}
+
+		function getReqData() {
+			let reqData = {};
+
+			// date
+			if (!($('#sdate-div').hasClass('hidden') || $('#edate-div').hasClass('hidden'))) {
+				let d = getStartAndEndDate()
+				if (d === null || d[0] === null || d[1] === null) {
+					alert('date is error');
+					return null;
+				}
+				reqData.startDate = d[0];
+				reqData.endDate = d[1];
+			}
+
+			// serv
+			let servName = $("#serv-select").val();
+			if (servName)
+				reqData.servName = servName;
+
+			// channel
+			if (!($('#channel-div').hasClass('hidden'))) {
+				let channelName = $("#channel-select").val();
+				if (channelName)
+					reqData.channel = channelName;
+			}
+
+			// part
+			if (!($('#part-nav').hasClass('hidden'))) {
+				let roleID = $('#role-id').val();
+				if (roleID)
+					reqData.roleID = roleID;
+
+				let accountID = $('#account-id').val();
+				if (accountID)
+					reqData.accountID = accountID;
+
+				let sdkAccount = $('#channel-id').val();
+				if (sdkAccount)
+					reqData.sdkAccount = sdkAccount;
+
+				let channelOrderID = $('#channel-order-id').val();
+				if (channelOrderID)
+					reqData.channelOrderID = channelOrderID;
+			}
+
+			console.log(reqData)
+			return reqData;
+		}
+
+		function rechargeInfoClick() {
+			console.log('info');
+			let reqData = getReqData();
+			if (reqData === null)
+				return;
+
+			$.ajax({
+				url: '/recharge',
+				type: 'post',
+				contentType: 'application/json',
+				async: true,
+				data: JSON.stringify(reqData),
+				success: function(result) {
+					$('#recharge-info-table').bootstrapTable('destroy')
+					$('#recharge-info-table').bootstrapTable({
+				        striped: true,
+						pagination: true,
+						sidePagination: "client",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40],
+				        columns: result["columns"],
+				        data: result["data"],
+				        locale: userLocale
+				    });
+				}
+			})
+		}
+
+		function rechargeRankClick() {
+			console.log('rank')
+			let reqData = getReqData();
+			if (reqData === null)
+				return;
+
+			$.ajax({
+				url: '/recharge_rank',
+				type: 'post',
+				contentType: 'application/json',
+				async: true,
+				data: JSON.stringify(reqData),
+				success: function(result) {
+					$('#recharge-rank-table').bootstrapTable('destroy')
+					$('#recharge-rank-table').bootstrapTable({
+						url: "/recharge_rank",
+						method: 'post',
+						cache: false,
+						striped: true,
+						pagination: true,
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40],
+						queryParams: function(params) {
+							reqData.limit = params.limit;
+							reqData.offset = params.offset;
+							return reqData;
+						},
+						sidePagination: "server",
+						columns: result["columns"],
+						responseHandler: function(res) {
+							return {
+								"total": res.data.total,
+								"rows": res.data.rows,
+								"limit": res.limit,
+								"offset": res.offset,
+							}
+						},
+						locale: userLocale
+				    });
+				}
+			})
+		}
+
+		function rechargeChartClick() {
+			console.log('chart')
+			let reqData = getReqData();
+			if (reqData === null)
+				return;
+
+			$.ajax({
+				url: '/recharge_chart',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(result) {
+					resetCanvas("result-chart", "fu-chart");
+					// line chart
+					let ctx = document.getElementById("result-chart");
+					let chartData = {
+						labels: result.labels,
+						datasets: [
+							{
+								label: 'Total recharge',
+								data: result.datas,
+
+								fill: false,
+				                backgroundColor: 'transparent',
+				                borderColor: 'red',
+				                borderWidth: 1.5,
+				                pointBackgroundColor: 'red',
+				                pointRadius: 2, // Point radius size
+				                lineTension: 0, //Bending of lines
+				                steppedLine: false, //When True, the folding line will lose tension
+							},
+							// {
+							// 	label: '2',
+							// 	data: [9, 7, 5, 6, 7, 4, 3, 7, 5, 6, 7, 4, 3, 7,],
+							// 	//backgroundColor: "green",
+							// },
+						]
+					};
+					let c1 = new Chart(ctx, {
+						type: 'line',
+						data: chartData,
+						options: ChartOptions,
+					});
+				}
+			})
+		}
+
+		$(function() {
+			paddingInputDate($("#start-date"));
+			paddingInputDate($("#end-date"));
+		})
+	</script>
+{% end %}

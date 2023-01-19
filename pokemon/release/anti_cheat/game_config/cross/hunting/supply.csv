@@ -1,0 +1,9 @@
+﻿"﻿变量名",group,type,name,name_tw,name_en,name_vn,name_kr,quality,icon,effect,desc,desc_tw,desc_en,desc_vn,desc_kr
+默认值,1,,"""""","""""","""""","""""","""""",1,"""""",0,"""""","""""","""""","""""",""""""
+ID,救援组,救援类型(1-治疗单体;2-治疗全部;3-复活单体),治疗单体名称,治疗单体名称,治疗单体名称,治疗单体名称,治疗单体名称,品质-底与标题1.绿.2.黄.3.蓝4.橙.5.粉.6.紫.7.红,治疗单体ICON,治疗单体效果参数,治疗单体描述,治疗单体描述,治疗单体描述,治疗单体描述,治疗单体描述
+1,1,1,Healing single unit,治療單體,Healing single unit,404,404,3,city/adventure/random_tower/icon/icon_zl.png,100,Restore 100% HP of the specified unit,恢復指定單位100%血量,404,404,404
+2,1,2,All ally healing,治療全體,All ally healing,404,404,5,city/adventure/random_tower/icon/icon_hx.png,30,Recover 30% HP of all units on your side,恢復己方全部單位30%血量,404,404,404
+3,1,3,Resurrection single unit,復活單體,Resurrection single unit,404,404,2,city/adventure/random_tower/icon/icon_fh.png,,Revive a dead character,復活一個已死亡的角色,404,404,404
+4,2,1,Healing single unit,治療單體,Healing single unit,404,404,3,city/adventure/random_tower/icon/icon_zl.png,100,Restore 100% HP of the specified unit,恢復指定單位100%血量,404,404,404
+5,2,2,All ally healing,治療全體,All ally healing,404,404,5,city/adventure/random_tower/icon/icon_hx.png,30,Recover 30% HP of all units on your side,恢復己方全部單位30%血量,404,404,404
+6,2,3,Resurrection single unit,復活單體,Resurrection single unit,404,404,2,city/adventure/random_tower/icon/icon_fh.png,,Revive a dead character,復活一個已死亡的角色,404,404,404

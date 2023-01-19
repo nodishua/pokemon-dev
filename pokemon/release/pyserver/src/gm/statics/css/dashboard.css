@@ -1,0 +1,193 @@
+body {
+    background-color: #f3f3f4;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #2f4050;
+    overflow: auto;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 200px;
+    right: 0px;
+    height: 55px;
+    background: #f3f3f4;
+    color: #676a6c;
+    padding-right: 20px;
+    line-height: 55px;
+    border-bottom: 2px solid #e7eaec;
+    z-index: 999;
+}
+
+.topbar div {
+    font-weight: bold;
+    float: right;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.topbar a {
+    color: #999c9e;
+}
+
+.sidebar-header {
+    height: 110px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.sidebar-header a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.sidebar-body a {
+    color: #a7b1c2;
+}
+
+.sidebar-menu {
+    font-size: 15px;
+}
+
+.z {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.zz {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.sidebar-menu span.glyphicon {
+    float: right;
+    margin-top: 3px;
+}
+
+.sidebar .nav a:hover {
+    background-color: #293846;
+}
+
+.sidebar .nav a:focus {
+    background-color: transparent;
+}
+
+.sidebar-content .nav a:hover {
+    color: #fff
+}
+
+.s-active {
+    color: #fff!important;
+}
+
+.ss-active {
+    border-left: 4px solid #19aa8d;
+    background: #293846;
+}
+
+#create-account-info {
+    margin-left: 25px;
+}
+
+#create-account-info > div {
+    margin-top: 7px;
+}
+
+#create-account-info label {
+    min-width: 88px;
+}
+
+.check-ok {
+    color: green;
+}
+
+.check-err {
+    color: red;
+    font-weight: bold;
+}
+
+#copyright {
+    margin-left: 45%;
+    display: none;
+}
+
+/*各模板之间共用*/
+.main {
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.title {
+    margin-left: 46px;
+    /*color: #999c9e;*/
+}
+
+.well {
+    background-color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.well-title > div {
+    float: right;
+    color: #999c9e;
+}
+
+.btn-circle {
+    /*圆形按钮*/
+    /*
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    */
+    border-radius: 30px;
+}
+
+.margin-left-s {
+    margin-left: 8px;
+}
+
+.margin-left-m {
+    margin-left: 16px;
+}
+
+.margin-top-s {
+    margin-top: 10px;
+}
+
+.margin-top-m {
+    margin-top: 22px;
+}
+
+.modal-btn-select {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.modal-loading {
+    /*margin-top: 193px;*/
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+/*去除bootstrap btn 的点击边框*/
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    box-shadow:none;
+}

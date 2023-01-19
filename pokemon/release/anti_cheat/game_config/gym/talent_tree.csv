@@ -1,0 +1,6 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,desc,desc_tw,desc_en,desc_vn,desc_kr,preTreeID,prePointNum
+默认值,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",<>,0
+ID,名称,名称,名称,名称,名称,描述,描述,描述,描述,描述,前置天赋页id,前置天赋点数
+1,Attack,攻擊向,Attack,404,공격형,Attack,Attack,Attack,Attack,Attack,,
+2,Defence,防禦向,Defence,404,방어형,Defence,Defence,Defence,Defence,Defence,,
+3,Assist,輔助向,Assist,404,서포트형,Assist,Assist,Assist,Assist,Assist,,

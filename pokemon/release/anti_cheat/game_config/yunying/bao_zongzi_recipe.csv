@@ -1,0 +1,22 @@
+变量名,huodongID,mainItem,minorItem,compoundItem,desc,desc_tw,desc_en,desc_vn,desc_kr
+默认值,0,{},{},{},"""""","""""","""""","""""",""""""
+ID,活动版本ID,主料道具,配料道具,合成道具,功能描述,功能描述,功能描述,功能描述,功能描述
+1,1001,{6352=1},{6355=1},{6358=1},(Dragon boat dumpling with sweet-scented osmanthus fragrance),（帶有桂花香氣的龍舟粽）,404,404,404
+2,1001,{6352=1},{6356=1},{6358=1},(Dragon boat rice dumpling with dense egg yolk),（有著綿密蛋黃的龍舟粽）,404,404,404
+3,1001,{6352=1},{6357=1},{6358=1},(Dragon boat dumplings with chestnut sweetness),（附帶板栗甜香的龍舟粽）,404,404,404
+4,1001,{6353=1},{6355=1},{6359=1},(The combination of fresh meat and sweet-scented osmanthus),（鮮肉與桂花組合的口味）,404,404,404
+5,1001,{6353=1},{6356=1},{6360=1},,,,,
+6,1001,{6353=1},{6357=1},{6361=1},,,,,
+7,1001,{6354=1},{6356=1},{6359=1},(combined taste of candied dates and egg yolk),（蜜棗與蛋黃組合的口味）,404,404,404
+8,1001,{6354=1},{6357=1},{6362=1},,,,,
+9,1001,{6354=1},{6355=1},{6363=1},,,,,
+,,,,,,,,,
+10,1002,{6352=1},{6355=1},{6358=1},(Dragon boat dumpling with sweet-scented osmanthus fragrance),（帶有桂花香氣的龍舟粽）,404,404,404
+11,1002,{6352=1},{6356=1},{6358=1},(Dragon boat rice dumpling with dense egg yolk),（有著綿密蛋黃的龍舟粽）,404,404,404
+12,1002,{6352=1},{6357=1},{6358=1},(Dragon boat dumplings with chestnut sweetness),（附帶板栗甜香的龍舟粽）,404,404,404
+13,1002,{6353=1},{6355=1},{6359=1},(The combination of fresh meat and sweet-scented osmanthus),（鮮肉與桂花組合的口味）,404,404,404
+14,1002,{6353=1},{6356=1},{6360=1},,,,,
+15,1002,{6353=1},{6357=1},{6361=1},,,,,
+16,1002,{6354=1},{6356=1},{6359=1},(combined taste of candied dates and egg yolk),（蜜棗與蛋黃組合的口味）,404,404,404
+17,1002,{6354=1},{6357=1},{6362=1},(Dragon boat dumpling with sweet-scented osmanthus fragrance),,,,
+18,1002,{6354=1},{6355=1},{6363=1},(Dragon boat rice dumpling with dense egg yolk),,,,

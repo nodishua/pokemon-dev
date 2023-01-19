@@ -1,0 +1,18 @@
+﻿"﻿变量名",huodongID,taskType,taskParam,taskSpecialParam,desc,desc_tw,desc_en,desc_vn,desc_kr,addTimes
+默认值,0,0,9999,{},"""""","""""","""""","""""","""""",0
+ID,活动版本ID,任务类型,任务参数,任务特殊参数,任务描述,任务描述,任务描述,任务描述,任务描述,奖励抽卡次数
+1,1001,17,1,,Log in to the game today,當日登錄遊戲,,,당일 게임 로그인,1
+2,1001,18,5,,5 treasures of the day,當日聚寶5次,,,당일 보물단지 5회,1
+3,1001,41,5,,Perform 5 arena challenges for the day,當日進行5次競技場挑戰,,,당일 아레나 도전 5회,1
+,,,,,,,,,,
+11,1001,28,100,,Consume 100 stamina for the day,當日消耗體力達100點,,,당일 체력 100 소모,1
+12,1001,28,300,,Consume 300 stamina for the day,當日消耗體力達300點,,,당일 체력 300 소모,1
+13,1001,28,600,,Consume 600 stamina for the day,當日消耗體力達600點,,,당일 체력 600 소모,1
+14,1001,28,900,,Consume 900 stamina for the day,當日消耗體力達900點,,,당일 체력 900 소모,1
+15,1001,28,1200,,Consume 1200 stamina on the day,當日消耗體力達1200點,,,당일 체력 1200 소모,1
+,,,,,,,,,,
+21,1001,22,60,,Recharge 60 diamonds on the day,當日儲值60鑽,,,당일 60 다이아 충전,1
+22,1001,22,300,,Recharge 300 diamonds on the day,當日儲值300鑽,,,당일 300 다이아 충전,1
+,,,,,,,,,,
+31,1001,21,200,,Consume 200 gems per day,當日消耗200鑽,,,당일 200 다이아 소모,1
+32,1001,21,500,,Consume 500 diamonds on the day,當日消耗500鑽,,,당일 500 다이아 소모,1

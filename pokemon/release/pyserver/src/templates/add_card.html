@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>Add cards to characters</title>
+  </head>
+  <body>
+    <div id="body">
+      <div id="header">
+        <h1>Add cards to characters</h1>
+      </div>
+
+      Please log in to the game first, and then perform the query operation</br></br>
+
+
+<div id="cardlist">
+<form action="/gm/add_card_to_role" method="get">
+  Choose a role:</br>
+<select name="role_db_id">
+{% block body %}
+  {% for entry in entries %}
+    <option value="{{ entry[0] }}">{{ entry[1] }}</option>
+  {% end %}
+{% end %}
+</select></br></br>
+Enter the card ID (cards.csv):</br>
+<input type="text" name="card_id" value="0">
+<input type="submit" value="Add to">
+</form>
+</div>
+
+{{ gmRetInfo }}</br></br>
+<pre>
+{{ roleInfo }}
+</pre>
+
+    </div>
+  </body>
+</html>

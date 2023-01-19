@@ -1,0 +1,11 @@
+变量名,drawType,_comment,drawTriggerType,drawTriggerTimes,weightStart,weightEnd,effectLimit,startCount,probInit,probStep,probLimit,probMiniTimes,probEffectInterval,libs
+默认值,"""""","""""",2,0,0,0,0,0,0,0.01,0.2,30,50,{}
+ID,抽取类型,类型注释,抽取触发类型(0从X次开始;1权值累加;2概率触发;3每X次;4第X次),抽取次数条件,权值上限,权值下限,生效次数上限,开始次数,概率初值,概率递增,概率上限,概率保底次数,概率生效间隔,随机库
+,,,,,,,,,,,,,,
+1,default,The first 150 each time,0,1,,,150,,,,,,,{1=70;2=30}
+2,default,151~301 times,0,151,,,150,,,,,,,{1=65;2=35}
+3,default,Every time after 300 times,0,301,,,,,,,,,,{1=60;2=40}
+4,default,12th time - first s,4,12,,,,,,,,,,{3=1}
+,default,Every 10 times b/a (5 obsolete - subsequent new IDs cannot be used 5),1,,0.08,0.12,,,,,,,,{1=30;2=70}
+,default,Must be a every 20 times (6 discarded - subsequent new IDs cannot be used 6),2,,,,,,0.1,0.03,0.4,15,20,{2=1}
+7,default,Must s every 50 times,2,,,,,22,0,0.02,0.6,40,50,{3=1}

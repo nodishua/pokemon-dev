@@ -1,0 +1,1316 @@
+变量名,gateID,extraVersion,_beizhu,itemID,itemCount,weightMin,weightMax,firstWeight,weightMin_tw,weightMax_tw,firstWeight_tw
+默认值,,,,5000,1,0,0,-1,0,0,-1
+ID,关卡ID,额外配置的版本（yyhuodong用）,掉落物品名称,掉落道具,掉落道具数量,权值上限,权值下限,首次权值,权值上限,权值下限,首次权值
+,,,,,,,,,,,
+8000,10101,1,(Drop item 1 will additionally drop a blue shopping coupon) (On the Journey 1-1) (Normal level),6301,1,0.35,0.55,0,0.35,0.55,0
+8001,10102,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( On the Journey 1-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8002,10103,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Start the Journey 1-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8003,10104,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( On the Journey 1-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8004,10105,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Start the Journey 1-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8005,10201,1,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8006,10202,1,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8007,10203,1,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8008,10204,1,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8009,10205,1,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8010,10206,1,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8011,10301,1,( Drop item 1 will additionally drop blue shopping coupons ) ( Overcoming Thorns 3-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8012,10302,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8013,10303,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8014,10304,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8015,10305,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Break through thorns 3-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8016,10306,1,( Drop item 1 will additionally drop blue shopping coupons ) ( Overcoming Thorns 3-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8017,10307,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8018,10308,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8019,10401,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8020,10402,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8021,10403,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8022,10404,1,( Drop item 1 additionally drops blue shopping coupon ) ( Indomitable 4-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8023,10405,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8024,10406,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8025,10407,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8026,10408,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8027,10501,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8028,10502,1,( Drop item 1 additionally drops blue shopping coupon ) ( Turn 5-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8029,10503,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8030,10504,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8031,10505,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8032,10506,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8033,10507,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8034,10508,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8035,10509,1,( Drop item 1 additionally drops blue shopping coupon ) ( Turn 5-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8036,10510,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8037,10601,1,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8038,10602,1,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8039,10603,1,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8040,10604,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Longtan Tiger Cave 6-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8041,10605,1,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8042,10606,1,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8043,10607,1,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8044,10608,1,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8045,10609,1,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8046,10610,1,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8047,10701,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thousands of troops 7-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8048,10702,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8049,10703,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8050,10704,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8051,10705,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thousands of troops 7-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8052,10706,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8053,10707,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8054,10708,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8055,10709,1,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8056,10710,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thousands of troops 7-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8057,10801,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8058,10802,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8059,10803,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8060,10804,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8061,10805,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8062,10806,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8063,10807,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8064,10808,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8065,10809,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8066,10810,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8067,10901,1,( Drop item 1 additional drop blue shopping coupon ) ( victory is in sight 9-1) ( normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8068,10902,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8069,10903,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory is in sight 9-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8070,10904,1,( Drop item 1 additional drop blue shopping coupon ) ( victory is in sight 9-4) ( normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8071,10905,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8072,10906,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8073,10907,1,( Drop item 1 additional drop blue shopping coupon ) ( victory is in sight 9-7) ( normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8074,10908,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8075,10909,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8076,10910,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8077,11001,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8078,11002,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8079,11003,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8080,11004,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8081,11005,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8082,11006,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8083,11007,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8084,11008,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8085,11009,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8086,11010,1,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8087,11101,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8088,11102,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8089,11103,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8090,11104,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8091,11105,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8092,11106,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8093,11107,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( declaration of decisive battle 11-7) ( normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8094,11108,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8095,11109,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( declaration of decisive battle 11-9) ( normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8096,11110,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( declaration of decisive battle 11-10) ( normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8097,11201,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8098,11202,1,( Drop item 1 additionally drops blue shopping coupon ) ( Bai Mi Yi Shu 12-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8099,11203,1,( Drop item 1 additionally drops blue shopping coupon ) ( Bai Mi Yi Shu 12-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8100,11204,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8101,11205,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8102,11206,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8103,11207,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8104,11208,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8105,11209,1,( Drop item 1 additionally drops blue shopping coupon ) ( Bai Mi Yi Shu 12-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8106,11210,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8107,11301,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8108,11302,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8109,11303,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8110,11304,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8111,11305,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8112,11306,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8113,11307,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8114,11308,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8115,11309,1,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8116,11310,1,( Drop item 1 additionally drops blue shopping coupon ) ( Regroup 13-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8117,11401,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8118,11402,1,( Drop item 1 additionally drops blue shopping coupon ) ( Bones 14-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8119,11403,1,( Drop item 1 additionally drops blue shopping coupon ) ( Bones 14-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8120,11404,1,( Drop item 1 additionally drops blue shopping coupon ) ( Bones 14-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8121,11405,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8122,11406,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8123,11407,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8124,11408,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8125,11409,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8126,11410,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8127,11501,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-1 Yuanjia Road Narrow) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8128,11502,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Yuanjialuzhai 15-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8129,11503,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-3 Yuanjia Road Narrow) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8130,11504,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Yuanjialuzhai 15-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8131,11505,1,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-5 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.35,0.55,0,0.35,0.55,0
+8132,11506,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Yuanjialuzhai 15-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8133,11507,1,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-7 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.35,0.55,0,0.35,0.55,0
+8134,11508,1,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-8 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.35,0.55,0,0.35,0.55,0
+8135,11509,1,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-9 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.35,0.55,0,0.35,0.55,0
+8136,11510,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Encounter Road Narrow 15-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8137,11601,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8138,11602,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8139,11603,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8140,11604,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8141,11605,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8142,11606,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8143,11607,1,( Drop item 1 additionally drops blue shopping coupon ) ( Miracle Cliff 16-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8144,11608,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8145,11609,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8146,11610,1,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8147,11701,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8148,11702,1,( Drop item 1 additionally drops blue shopping coupon ) ( Dragon Graveyard 17-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8149,11703,1,( Drop item 1 additionally drops blue shopping coupon ) ( Dragon Graveyard 17-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8150,11704,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8151,11705,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8152,11706,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8153,11707,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8154,11708,1,( Drop item 1 additionally drops blue shopping coupon ) ( Dragon Graveyard 17-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8155,11709,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8156,11710,1,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8157,11801,1,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8158,11802,1,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8159,11803,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Immortal Peak 18-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8160,11804,1,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-4 ) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8161,11805,1,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-5 ) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8162,11806,1,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-6 ) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8163,11807,1,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-7 ) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8164,11808,1,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8165,11809,1,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-9 ) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8166,11810,1,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-10 ) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8167,11901,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8168,11902,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8169,11903,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8170,11904,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8171,11905,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8172,11906,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8173,11907,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8174,11908,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8175,11909,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8176,11910,1,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8177,12001,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8178,12002,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8179,12003,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8180,12004,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8181,12005,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8182,12006,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8183,12007,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8184,12008,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8185,12009,1,( Drop item 1 will additionally drop a blue shopping coupon) ( Concentrate Flying 20-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8186,12010,1,( Drop item 1 will additionally drop blue shopping coupons ) ( Concentrate Flying 20-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8187,12101,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8188,12102,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8189,12103,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8190,12104,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8191,12105,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8192,12106,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8193,12107,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8194,12108,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8195,12109,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8196,12110,1,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8197,12201,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8198,12202,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8199,12203,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8200,12204,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8201,12205,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8202,12206,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8203,12207,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8204,12208,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8205,12209,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8206,12210,1,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8207,12301,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaker 23-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8208,12302,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaker 23-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8209,12303,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8210,12304,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8211,12305,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8212,12306,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaker 23-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8213,12307,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8214,12308,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8215,12309,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8216,12310,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8217,12401,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8218,12402,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8219,12403,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8220,12404,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8221,12405,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8222,12406,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8223,12407,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8224,12408,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8225,12409,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8226,12410,1,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8227,12501,1,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-1) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8228,12502,1,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-2) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8229,12503,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-3) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8230,12504,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-4) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8231,12505,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-5) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8232,12506,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-6) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8233,12507,1,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-7) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8234,12508,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-8) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8235,12509,1,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-9) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+8236,12510,1,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-10) ( Normal level ),6301,1,0.35,0.55,0,0.35,0.55,0
+,,,,,,,,,,,
+8500,20101,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite embarks on the journey 1-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8501,20102,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite embarks on the journey 1-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8502,20103,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite on the journey 1-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8503,20201,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Crisis Overture 2-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8504,20202,1,( The mobile game elite level will drop extra blue shopping coupons ) ( Elite Crisis Overture 2-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8505,20203,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Crisis Overture 2-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8506,20301,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite overcoming obstacles 3-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8507,20302,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Overcoming Thorns 3-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8508,20303,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite overcoming obstacles 3-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8509,20304,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite overcoming obstacles 3-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8510,20401,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Go Forward 4-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8511,20402,1,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Go Forward 4-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8512,20403,1,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Go Forward 4-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8513,20404,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Go Forward 4-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8514,20501,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite turns 5-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8515,20502,1,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite turns 5-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8516,20503,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite turns 5-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8517,20504,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite turns 5-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8518,20505,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite turns 5-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8519,20601,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8520,20602,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8521,20603,1,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Longtan Tiger Den 6-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8522,20604,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8523,20605,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8524,20701,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Thousands of Troops 7-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8525,20702,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Thousands of Horses 7-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8526,20703,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Thousands of Horses 7-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8527,20704,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Thousands of Horses 7-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8528,20705,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Thousands of Horses 7-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8529,20801,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8530,20802,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8531,20803,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8532,20804,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8533,20805,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8534,20901,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite victory is in sight 9-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8535,20902,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite victory is in sight 9-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8536,20903,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite victory is in sight 9-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8537,20904,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite victory is in sight 9-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8538,20905,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite victory is in sight 9-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8539,21001,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8540,21002,1,( Blue Shopping Coupons will be dropped additionally at the mobile game Elite level ) ( Elite Past Glory 10-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8541,21003,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8542,21004,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8543,21005,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8544,21101,1,( Blue Shopping Coupons will be dropped extra in the mobile game elite level ) ( Elite Decisive Battle Declaration 11-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8545,21102,1,( The mobile game elite level will drop blue shopping coupons ) ( Elite Decisive Battle Declaration 11-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8546,21103,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite decisive battle declaration 11-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8547,21104,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Decisive Battle Declaration 11-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8548,21105,1,( Blue Shopping Coupons will be dropped extra in the mobile game elite level ) ( Elite Decisive Battle Declaration 11-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8549,21201,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Baimi Yishu 12-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8550,21202,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Baimi Yishu 12-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8551,21203,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Baimi Yishu 12-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8552,21204,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Baimi Yishu 12-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8553,21205,1,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Baimi Yishu 12-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8554,21301,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8555,21302,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8556,21303,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8557,21304,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8558,21305,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8559,21401,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Boneyard 14-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8560,21402,1,( Blue Shopping Coupons will be dropped extra at the mobile game elite level ) ( Elite Boneyard 14-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8561,21403,1,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Boneyard 14-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8562,21404,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Boneyard 14-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8563,21405,1,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Boneyard 14-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8564,21501,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8565,21502,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8566,21503,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8567,21504,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8568,21505,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8569,21601,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8570,21602,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8571,21603,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8572,21604,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8573,21605,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8574,21701,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8575,21702,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8576,21703,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8577,21704,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8578,21705,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8579,21801,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8580,21802,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8581,21803,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8582,21804,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8583,21805,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8584,21901,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8585,21902,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8586,21903,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8587,21904,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8588,21905,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8589,22001,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8590,22002,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8591,22003,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8592,22004,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8593,22005,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8594,22101,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8595,22102,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8596,22103,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8597,22104,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8598,22105,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8599,22201,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8600,22202,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8601,22203,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8602,22204,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8603,22205,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8604,22301,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8605,22302,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8606,22303,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8607,22304,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8608,22305,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8609,22401,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8610,22402,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8611,22403,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8612,22404,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8613,22405,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8614,22501,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-1) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8615,22502,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-2) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8616,22503,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-3) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8617,22504,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-4) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+8618,22505,1,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-5) ( Elite level ),6301,1,0.7,0.9,0,0.7,0.9,0
+,,,,,,,,,,,
+9000,10101,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( On the Journey 1-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9001,10102,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( On the Journey 1-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9002,10103,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Start the Journey 1-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9003,10104,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( On the Journey 1-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9004,10105,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Start the Journey 1-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9005,10201,11,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9006,10202,11,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9007,10203,11,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9008,10204,11,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9009,10205,11,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9010,10206,11,( Drop item 1 additionally drops blue shopping coupon ) ( Crisis Overture 2-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9011,10301,11,( Drop item 1 will additionally drop blue shopping coupons ) ( Overcoming Thorns 3-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9012,10302,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9013,10303,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9014,10304,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9015,10305,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Break through thorns 3-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9016,10306,11,( Drop item 1 will additionally drop blue shopping coupons ) ( Overcoming Thorns 3-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9017,10307,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9018,10308,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thunderstorm 3-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9019,10401,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9020,10402,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9021,10403,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9022,10404,11,( Drop item 1 additionally drops blue shopping coupon ) ( Indomitable 4-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9023,10405,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9024,10406,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9025,10407,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9026,10408,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Indomitable 4-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9027,10501,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9028,10502,11,( Drop item 1 additionally drops blue shopping coupon ) ( Turn 5-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9029,10503,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9030,10504,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9031,10505,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9032,10506,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9033,10507,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9034,10508,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9035,10509,11,( Drop item 1 additionally drops blue shopping coupon ) ( Turn 5-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9036,10510,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Turn 5-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9037,10601,11,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9038,10602,11,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9039,10603,11,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9040,10604,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Longtan Tiger Cave 6-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9041,10605,11,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9042,10606,11,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9043,10607,11,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9044,10608,11,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9045,10609,11,( Drop item 1 additional drop blue shopping coupon ) ( Longtan Tiger Cave 6-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9046,10610,11,( Drop item 1 additionally drops blue shopping coupon ) ( Longtan Tiger Cave 6-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9047,10701,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thousands of troops 7-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9048,10702,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9049,10703,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9050,10704,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9051,10705,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thousands of troops 7-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9052,10706,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9053,10707,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9054,10708,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9055,10709,11,( Drop item 1 additionally drops blue shopping coupon ) ( Thousands of troops 7-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9056,10710,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Thousands of troops 7-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9057,10801,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9058,10802,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9059,10803,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9060,10804,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9061,10805,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9062,10806,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9063,10807,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9064,10808,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9065,10809,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9066,10810,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Life from Desperation 8-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9067,10901,11,( Drop item 1 additional drop blue shopping coupon ) ( victory is in sight 9-1) ( normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9068,10902,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9069,10903,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory is in sight 9-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9070,10904,11,( Drop item 1 additional drop blue shopping coupon ) ( victory is in sight 9-4) ( normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9071,10905,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9072,10906,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9073,10907,11,( Drop item 1 additional drop blue shopping coupon ) ( victory is in sight 9-7) ( normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9074,10908,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9075,10909,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9076,10910,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Victory is in sight 9-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9077,11001,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9078,11002,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9079,11003,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9080,11004,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9081,11005,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9082,11006,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9083,11007,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9084,11008,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9085,11009,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9086,11010,11,( Drop item 1 additionally drops blue shopping coupon ) ( Glory of the past 10-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9087,11101,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9088,11102,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9089,11103,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9090,11104,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9091,11105,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9092,11106,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9093,11107,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( declaration of decisive battle 11-7) ( normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9094,11108,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Declaration of Decisive Battle 11-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9095,11109,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( declaration of decisive battle 11-9) ( normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9096,11110,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( declaration of decisive battle 11-10) ( normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9097,11201,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9098,11202,11,( Drop item 1 additionally drops blue shopping coupon ) ( Bai Mi Yi Shu 12-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9099,11203,11,( Drop item 1 additionally drops blue shopping coupon ) ( Bai Mi Yi Shu 12-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9100,11204,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9101,11205,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9102,11206,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9103,11207,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9104,11208,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9105,11209,11,( Drop item 1 additionally drops blue shopping coupon ) ( Bai Mi Yi Shu 12-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9106,11210,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bai Mi Yi Shu 12-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9107,11301,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9108,11302,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9109,11303,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9110,11304,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9111,11305,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9112,11306,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9113,11307,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9114,11308,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9115,11309,11,( Drop item 1 additional drop blue shopping coupon ) ( Regroup 13-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9116,11310,11,( Drop item 1 additionally drops blue shopping coupon ) ( Regroup 13-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9117,11401,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9118,11402,11,( Drop item 1 additionally drops blue shopping coupon ) ( Bones 14-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9119,11403,11,( Drop item 1 additionally drops blue shopping coupon ) ( Bones 14-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9120,11404,11,( Drop item 1 additionally drops blue shopping coupon ) ( Bones 14-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9121,11405,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9122,11406,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9123,11407,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9124,11408,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9125,11409,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9126,11410,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Bones 14-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9127,11501,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-1 Yuanjia Road Narrow) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9128,11502,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Yuanjialuzhai 15-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9129,11503,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-3 Yuanjia Road Narrow) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9130,11504,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Yuanjialuzhai 15-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9131,11505,11,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-5 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.175,0.275,0,0.175,0.275,0
+9132,11506,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Yuanjialuzhai 15-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9133,11507,11,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-7 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.175,0.275,0,0.175,0.275,0
+9134,11508,11,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-8 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.175,0.275,0,0.175,0.275,0
+9135,11509,11,"( Drop item 1 will additionally drop a blue shopping coupon ) ( 15-9 , Yuanjia Road Narrow) ( Normal level )",6301,1,0.175,0.275,0,0.175,0.275,0
+9136,11510,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Encounter Road Narrow 15-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9137,11601,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9138,11602,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9139,11603,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9140,11604,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9141,11605,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9142,11606,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9143,11607,11,( Drop item 1 additionally drops blue shopping coupon ) ( Miracle Cliff 16-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9144,11608,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9145,11609,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9146,11610,11,( Drop item 1 additional drop blue shopping coupon ) ( Miracle Cliff 16-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9147,11701,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9148,11702,11,( Drop item 1 additionally drops blue shopping coupon ) ( Dragon Graveyard 17-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9149,11703,11,( Drop item 1 additionally drops blue shopping coupon ) ( Dragon Graveyard 17-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9150,11704,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9151,11705,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9152,11706,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9153,11707,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9154,11708,11,( Drop item 1 additionally drops blue shopping coupon ) ( Dragon Graveyard 17-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9155,11709,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9156,11710,11,( Drop item 1 additional drop blue shopping coupon ) ( Dragon Graveyard 17-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9157,11801,11,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9158,11802,11,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9159,11803,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Immortal Peak 18-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9160,11804,11,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-4 ) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9161,11805,11,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-5 ) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9162,11806,11,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-6 ) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9163,11807,11,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-7 ) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9164,11808,11,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9165,11809,11,( Drop item 1 additional drop blue shopping coupon ) ( Immortal Peak 18-9 ) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9166,11810,11,( Drop item 1 additionally drops blue shopping coupon ) ( Immortal Peak 18-10 ) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9167,11901,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9168,11902,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9169,11903,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9170,11904,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9171,11905,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9172,11906,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9173,11907,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9174,11908,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9175,11909,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9176,11910,11,( Drop item 1 additional drop blue shopping coupon ) ( Victory obsession 19-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9177,12001,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9178,12002,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9179,12003,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9180,12004,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9181,12005,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9182,12006,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9183,12007,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9184,12008,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Concentrate Flying 20-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9185,12009,11,( Drop item 1 will additionally drop a blue shopping coupon) ( Concentrate Flying 20-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9186,12010,11,( Drop item 1 will additionally drop blue shopping coupons ) ( Concentrate Flying 20-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9187,12101,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9188,12102,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9189,12103,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9190,12104,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9191,12105,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9192,12106,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9193,12107,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9194,12108,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9195,12109,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9196,12110,11,( Drop item 1 additional drop blue shopping coupon ) ( Frozen Legend 21-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9197,12201,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9198,12202,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9199,12203,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9200,12204,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9201,12205,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9202,12206,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9203,12207,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9204,12208,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9205,12209,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9206,12210,11,( Drop item 1 additional drop blue shopping coupon ) ( Black Spiral 22-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9207,12301,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaker 23-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9208,12302,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaker 23-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9209,12303,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9210,12304,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9211,12305,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9212,12306,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaker 23-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9213,12307,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9214,12308,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9215,12309,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9216,12310,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Stone Breaking 23-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9217,12401,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9218,12402,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9219,12403,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9220,12404,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9221,12405,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9222,12406,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9223,12407,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9224,12408,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9225,12409,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9226,12410,11,( Drop item 1 additional drop blue shopping coupon ) ( Royal Knight 24-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9227,12501,11,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-1) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9228,12502,11,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-2) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9229,12503,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-3) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9230,12504,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-4) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9231,12505,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-5) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9232,12506,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-6) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9233,12507,11,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-7) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9234,12508,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-8) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9235,12509,11,( Drop item 1 additionally drops blue shopping coupon ) ( Decisive Battle Ancient Tree 25-9) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+9236,12510,11,( Drop item 1 will additionally drop a blue shopping coupon ) ( Decisive Battle Ancient Tree 25-10) ( Normal level ),6301,1,0.175,0.275,0,0.175,0.275,0
+,,,,,,,,,,,
+9500,20101,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite embarks on the journey 1-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9501,20102,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite embarks on the journey 1-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9502,20103,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite on the journey 1-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9503,20201,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Crisis Overture 2-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9504,20202,11,( The mobile game elite level will drop extra blue shopping coupons ) ( Elite Crisis Overture 2-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9505,20203,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Crisis Overture 2-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9506,20301,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite overcoming obstacles 3-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9507,20302,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Overcoming Thorns 3-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9508,20303,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite overcoming obstacles 3-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9509,20304,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite overcoming obstacles 3-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9510,20401,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Go Forward 4-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9511,20402,11,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Go Forward 4-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9512,20403,11,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Go Forward 4-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9513,20404,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Go Forward 4-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9514,20501,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite turns 5-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9515,20502,11,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite turns 5-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9516,20503,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite turns 5-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9517,20504,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite turns 5-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9518,20505,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite turns 5-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9519,20601,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9520,20602,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9521,20603,11,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Longtan Tiger Den 6-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9522,20604,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9523,20605,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Longtan Tiger Den 6-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9524,20701,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Thousands of Troops 7-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9525,20702,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Thousands of Horses 7-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9526,20703,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Thousands of Horses 7-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9527,20704,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Thousands of Horses 7-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9528,20705,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Thousands of Horses 7-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9529,20801,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9530,20802,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9531,20803,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9532,20804,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9533,20805,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Survival 8-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9534,20901,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite victory is in sight 9-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9535,20902,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite victory is in sight 9-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9536,20903,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite victory is in sight 9-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9537,20904,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite victory is in sight 9-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9538,20905,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite victory is in sight 9-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9539,21001,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9540,21002,11,( Blue Shopping Coupons will be dropped additionally at the mobile game Elite level ) ( Elite Past Glory 10-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9541,21003,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9542,21004,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9543,21005,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Past Glory 10-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9544,21101,11,( Blue Shopping Coupons will be dropped extra in the mobile game elite level ) ( Elite Decisive Battle Declaration 11-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9545,21102,11,( The mobile game elite level will drop blue shopping coupons ) ( Elite Decisive Battle Declaration 11-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9546,21103,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite decisive battle declaration 11-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9547,21104,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Decisive Battle Declaration 11-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9548,21105,11,( Blue Shopping Coupons will be dropped extra in the mobile game elite level ) ( Elite Decisive Battle Declaration 11-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9549,21201,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Baimi Yishu 12-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9550,21202,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Baimi Yishu 12-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9551,21203,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Baimi Yishu 12-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9552,21204,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Baimi Yishu 12-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9553,21205,11,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Baimi Yishu 12-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9554,21301,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9555,21302,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9556,21303,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9557,21304,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9558,21305,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite regroup 13-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9559,21401,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Boneyard 14-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9560,21402,11,( Blue Shopping Coupons will be dropped extra at the mobile game elite level ) ( Elite Boneyard 14-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9561,21403,11,( The mobile game elite level will additionally drop blue shopping coupons ) ( Elite Boneyard 14-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9562,21404,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Boneyard 14-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9563,21405,11,( The mobile game elite level will drop additional blue shopping coupons ) ( Elite Boneyard 14-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9564,21501,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9565,21502,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9566,21503,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9567,21504,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9568,21505,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 15-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9569,21601,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9570,21602,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9571,21603,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9572,21604,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9573,21605,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 16-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9574,21701,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9575,21702,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9576,21703,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9577,21704,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9578,21705,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 17-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9579,21801,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9580,21802,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9581,21803,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9582,21804,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9583,21805,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 18-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9584,21901,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9585,21902,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9586,21903,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9587,21904,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9588,21905,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 19-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9589,22001,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9590,22002,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9591,22003,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9592,22004,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9593,22005,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 20-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9594,22101,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9595,22102,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9596,22103,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9597,22104,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9598,22105,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 21-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9599,22201,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9600,22202,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9601,22203,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9602,22204,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9603,22205,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 22-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9604,22301,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9605,22302,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9606,22303,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9607,22304,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9608,22305,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 23-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9609,22401,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9610,22402,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9611,22403,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9612,22404,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9613,22405,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 24-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9614,22501,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-1) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9615,22502,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-2) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9616,22503,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-3) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9617,22504,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-4) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+9618,22505,11,( The mobile game elite level will drop an extra blue shopping coupon ) ( Elite Enemy Road Narrow 25-5) ( Elite level ),6301,1,0.35,0.45,0,0.35,0.45,0
+,,,,,,,,,,,
+,101,,( Drop item 1 additional drop gem box ) ( Start on the journey 1-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,102,,( Drop item 1 additional drop gem box ) ( On the journey 1-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,103,,( Drop item 1 additional drop gem box ) ( Start on the journey 1-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,201,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,202,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,203,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,204,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,205,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,206,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,207,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,208,,( Drop item 1 additional drop gem box ) ( Crisis Overture 2-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,301,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,302,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,303,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,304,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,305,,( Drop item 1 additionally drop gem box ) ( Break through thorns 3-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,306,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,307,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,308,,( Drop item 1 additionally drop gem box ) ( Thunderstorm 3-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,401,,( Drop item 1 additional drop gem box ) ( Indomitable 4-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,402,,( Drop item 1 additional drop gem box ) ( Indomitable 4-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,403,,( Drop item 1 additional drop gem box ) ( Indomitable 4-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,404,,( Drop item 1 additional drop gem box ) ( Indomitable 4-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,405,,( Drop item 1 additional drop gem box ) ( Indomitable 4-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,406,,( Drop item 1 additional drop gem box ) ( Indomitable 4-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,407,,( Drop item 1 additional drop gem box ) ( Indomitable 4-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,408,,( Drop item 1 additional drop gem box ) ( Indomitable 4-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,501,,( Drop item 1 additional drop gem box ) ( Turn 5-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,502,,( Drop item 1 additional drop gem box ) ( Turn 5-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,503,,( Drop item 1 additional drop gem box ) ( Turn 5-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,504,,( Drop item 1 additional drop gem box ) ( Turn 5-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,505,,( Drop item 1 additional drop gem box ) ( Turn 5-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,506,,( Drop item 1 additional drop gem box ) ( Turn 5-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,507,,( Drop item 1 additional drop gem box ) ( Turn 5-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,508,,( Drop item 1 additional drop gem box ) ( Turn 5-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,509,,( Drop item 1 additional drop gem box ) ( Turn 5-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,510,,( Drop item 1 additional drop gem box ) ( Turn 5-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,601,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,602,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,603,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,604,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,605,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,606,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,607,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,608,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,609,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,610,,( Drop item 1 additional drop gem box ) ( Longtan Tiger Cave 6-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,701,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,702,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,703,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,704,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,705,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,706,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,707,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,708,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,709,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,710,,( Drop item 1 additional drop gem box ) ( Thousands of troops 7-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,801,,( Drop item 1 additionally drop gem box ) ( Life from Desperation 8-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,802,,( Drop item 1 additionally drop gem box ) ( Life from Desperation 8-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,803,,( Drop item 1 additionally drop gem box ) ( Life from Desperation 8-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,804,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,805,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,806,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,807,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,808,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,809,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,810,,( Drop item 1 additional drop gem box ) ( Life from Desperation 8-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,901,,( Drop item 1 extra drop gem box ) ( Victory is in sight 9-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,902,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,903,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,904,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,905,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,906,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,907,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,908,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,909,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,910,,( Drop item 1 additional drop gem box ) ( Victory is in sight 9-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1001,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1002,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1003,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1004,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1005,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1006,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1007,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1008,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1009,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1010,,( Drop item 1 additional drop gem box ) ( Glory of the past 10-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1101,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-1) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1102,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-2) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1103,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-3) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1104,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-4) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1105,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-5) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1106,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-6) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1107,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-7) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1108,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-8) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1109,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-9) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1110,,( Drop item 1 additional drop gem box ) ( declaration of decisive battle 11-10) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1201,,( Drop item 1 additional drop gem box ) ( Hundred secrets and one sparse 12-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1202,,( Drop item 1 additional drop gem box ) ( Hundred secrets and one sparse 12-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1203,,( Drop item 1 additional drop gem box ) ( Hundred secrets and a sparse 12-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1204,,( Drop item 1 additional drop gem box ) ( Hundred secrets and one sparse 12-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1205,,( Drop item 1 additional drop gem box ) ( Hundred secrets and a sparse 12-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1206,,( Drop item 1 additional drop gem box ) ( Hundred secrets and a sparse 12-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1207,,( Drop item 1 additional drop gem box ) ( Hundred secrets and a sparse 12-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1208,,( Drop item 1 additional drop gem box ) ( Hundred secrets and a sparse 12-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1209,,( Drop item 1 additional drop gem box ) ( Hundred Mistakes 12-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1210,,( Drop item 1 additional drop gem box ) ( Hundred secrets and a sparse 12-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1301,,( Drop item 1 extra drop gem box ) ( Regroup 13-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1302,,( Drop item 1 additional drop gem box ) ( Regroup 13-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1303,,( Drop item 1 additional drop gem box ) ( Regroup 13-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1304,,( Drop item 1 additional drop gem box ) ( Regroup 13-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1305,,( Drop item 1 additional drop gem box ) ( Regroup 13-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1306,,( Drop item 1 additional drop gem box ) ( Regroup 13-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1307,,( Drop item 1 additional drop gem box ) ( Regroup 13-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1308,,( Drop item 1 additional drop gem box ) ( Regroup 13-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1309,,( Drop item 1 additional drop gem box ) ( Regroup 13-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1310,,( Drop item 1 additional drop gem box ) ( Regroup 13-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1401,,( Drop item 1 additional drop gem box ) ( Bones 14-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1402,,( Drop item 1 additional drop gem box ) ( Bones 14-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1403,,( Drop item 1 additional drop gem box ) ( Bones 14-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1404,,( Drop item 1 additional drop gem box ) ( Bones 14-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1405,,( Drop item 1 additional drop gem box ) ( Bones 14-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1406,,( Drop item 1 additional drop gem box ) ( Bones 14-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1407,,( Drop item 1 additional drop gem box ) ( Bones 14-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1408,,( Drop item 1 additional drop gem box ) ( Bones 14-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1409,,( Drop item 1 additional drop gem box ) ( Bones 14-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1410,,( Drop item 1 additional drop gem box ) ( Bones 14-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1501,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1502,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1503,,( Drop item 1 additional drop gem box ) ( Encounter road narrow 15-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1504,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1505,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1506,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1507,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1508,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1509,,( Drop item 1 additional drop gem box ) ( Encounter Road Narrow 15-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1510,,( Drop item 1 additional drop gem box ) ( Encounter road narrow 15-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1601,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1602,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1603,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1604,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1605,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1606,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1607,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1608,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1609,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1610,,( Drop item 1 additional drop gem box ) ( Miracle Cliff 16-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1701,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1702,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1703,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1704,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1705,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1706,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1707,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1708,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1709,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1710,,( Drop item 1 additional drop gem box ) ( Dragon Graveyard 17-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1801,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1802,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1803,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1804,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-4 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1805,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-5 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1806,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-6 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1807,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-7 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1808,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1809,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-9 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1810,,( Drop item 1 additional drop gem box ) ( Immortal Peak 18-10 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1901,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1902,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1903,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1904,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1905,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1906,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1907,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1908,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1909,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,1910,,( Drop item 1 additional drop gem box ) ( Victory obsession 19-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2001,,( Drop item 1 additionally drop gem box ) ( Flying energy 20-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2002,,( Drop item 1 additional drop gem box ) ( Flying 20-2 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2003,,( Drop item 1 additional drop gem box ) ( Flying 20-3 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2004,,( Drop item 1 additional drop gem box ) ( Flying 20-4 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2005,,( Drop item 1 additionally drop gem box ) ( Flying energy 20-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2006,,( Drop item 1 additional drop gem box ) ( Flying 20-6 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2007,,( Drop item 1 additional drop gem box ) ( Flying 20-7 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2008,,( Drop item 1 additional drop gem box ) ( Flying 20-8 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2009,,( Drop item 1 additional drop gem box ) ( Flying 20-9 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2010,,( Drop item 1 additional drop gem box ) ( Flying 20-10 ) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2101,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2102,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2103,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2104,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2105,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2106,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2107,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2108,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2109,,( Drop item 1 additional drop gem box ) ( Frozen Legend 21-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2110,,( Drop item 1 extra drop gem box ) ( Frozen Legend 21-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2201,,( Drop item 1 additional drop gem box ) ( Black Spiral 22-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2202,,( Drop item 1 additional drop gem box ) ( Black Spiral 22-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2203,,( drop item 1 extra drop gem box ) ( black spiral 22-3) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2204,,( Drop item 1 additional drop gem box ) ( Black Spiral 22-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2205,,( drop item 1 extra drop gem box ) ( black spiral 22-5) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2206,,( Drop item 1 additional drop gem box ) ( Black Spiral 22-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2207,,( drop item 1 extra drop gem box ) ( black spiral 22-7) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2208,,( Drop item 1 additional drop gem box ) ( Black Spiral 22-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2209,,( Drop item 1 additional drop gem box ) ( Black Spiral 22-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2210,,( drop item 1 extra drop gem box ) ( black spiral 22-10) ( normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2301,,( Drop item 1 additional drop gem box ) ( Stone Breaker 23-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2302,,( Drop item 1 additional drop gem box ) ( Stone Breaker 23-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2303,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2304,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2305,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2306,,( Drop item 1 additional drop gem box ) ( Stone Breaker 23-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2307,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2308,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2309,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2310,,( Drop item 1 additional drop gem box ) ( Stone Breaking 23-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2401,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2402,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2403,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2404,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2405,,( Drop item 1 extra drop gem box ) ( Royal Knight 24-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2406,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2407,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2408,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2409,,( Drop item 1 additional drop gem box ) ( Royal Knight 24-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2410,,( Drop item 1 extra drop gem box ) ( Royal Knight 24-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2501,,( Drop item 1 additional drop gem box ) ( Decisive battle ancient tree 25-1) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2502,,( Drop item 1 additional drop gem box ) ( Decisive battle ancient tree 25-2) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2503,,( Drop item 1 additional drop gem box ) ( Decisive battle ancient tree 25-3) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2504,,( Drop item 1 additional drop gem box ) ( Decisive Battle Ancient Tree 25-4) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2505,,( Drop item 1 additional drop gem box ) ( Decisive Battle Ancient Tree 25-5) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2506,,( Drop item 1 additional drop gem box ) ( Decisive Battle Ancient Tree 25-6) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2507,,( Drop item 1 additional drop gem box ) ( Decisive Battle Ancient Tree 25-7) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2508,,( Drop item 1 additional drop gem box ) ( Decisive Battle Ancient Tree 25-8) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2509,,( Drop item 1 additional drop gem box ) ( Decisive Battle Ancient Tree 25-9) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,2510,,( Drop item 1 additional drop gem box ) ( Decisive battle ancient tree 25-10) ( Normal level ),611,1,0.334,0.334,0,0.334,0.334,0
+,,,,,,,,,,,
+,101,,( Drop item 1 additionally drops Valentine's Day rose ) ( On the journey 1-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,102,,( Drop item 1 additionally drops Valentine's Day rose ) ( On the journey 1-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,103,,( Drop item 1 additionally drops Valentine's Day rose ) ( On the journey 1-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,201,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,202,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,203,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,204,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,205,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,206,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,207,,( Drop item 1 additionally drops Valentine's Day rose ) ( Crisis Overture 2-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,208,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Crisis Overture 2-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,301,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns and thorns 3-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,302,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns and thorns 3-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,303,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns and thorns 3-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,304,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns and thorns 3-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,305,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns and thorns 3-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,306,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns 3-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,307,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns 3-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,308,,( Drop item 1 additionally drops Valentine's Day rose ) ( Break through thorns 3-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,401,,( Drop item 1 additional drop Valentine's Day rose ) ( Indomitable 4-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,402,,( Drop item 1 additionally drops Valentine's Day rose ) ( Indomitable 4-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,403,,( Drop item 1 additional drop Valentine's Day Rose ) ( Indomitable 4-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,404,,( Drop item 1 additional drop Valentine's Day Rose ) ( Indomitable 4-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,405,,( Drop item 1 additional drop Valentine's Day Rose ) ( Indomitable 4-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,406,,( Drop item 1 additional drop Valentine's Day Rose ) ( Indomitable 4-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,407,,( Drop item 1 additional drop Valentine's Day Rose ) ( Indomitable 4-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,408,,( Drop item 1 additional drop Valentine's Day Rose ) ( Indomitable 4-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,501,,( Drop item 1 additional drop Valentine's Day Rose ) ( Turn 5-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,502,,( Drop item 1 additionally drops Valentine's Day rose ) ( Turn 5-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,503,,( Drop item 1 additional drop Valentine's Day Rose ) ( Turn 5-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,504,,( Drop item 1 additionally drops Valentine's Day rose ) ( Turn 5-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,505,,( Drop item 1 additionally drops Valentine's Day rose ) ( Turn 5-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,506,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Turn 5-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,507,,( Drop item 1 additionally drops Valentine's Day rose ) ( Turn 5-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,508,,( Drop item 1 additionally drops Valentine's Day rose ) ( Turn 5-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,509,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Turn 5-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,510,,( Drop item 1 additional drop Valentine's Day Rose ) ( Turn 5-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,601,,( Drop item 1 additional drop Valentine's Day rose ) ( Longtan Tiger Cave 6-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,602,,( Drop item 1 additional drop Valentine's Day Rose ) ( Longtan Tiger Cave 6-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,603,,( Drop item 1 additionally drops Valentine's Day rose ) ( Longtan Tiger Cave 6-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,604,,( Drop item 1 additional drop Valentine's Day Rose ) ( Longtan Tiger Cave 6-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,605,,( Drop item 1 additionally drops Valentine's Day rose ) ( Longtan Tiger Cave 6-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,606,,( Drop item 1 additionally drops Valentine's Day rose ) ( Longtan Tiger Cave 6-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,607,,( Drop item 1 additional drop Valentine's Day Rose ) ( Longtan Tiger Cave 6-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,608,,( Drop item 1 additional drop Valentine's Day rose ) ( Longtan Tiger Cave 6-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,609,,( Drop item 1 additionally drops Valentine's Day rose ) ( Longtan Tiger Cave 6-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,610,,( Drop item 1 additionally drops Valentine's Day rose ) ( Longtan Tiger Cave 6-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,701,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,702,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,703,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,704,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-4 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,705,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,706,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,707,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-7 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,708,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,709,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,710,,( Drop item 1 additionally drops Valentine's Day rose ) ( Thousands of troops 7-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,801,,( Drop item 1 extra drop Valentine's Day rose ) ( Advancement 8-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,802,,( Drop item 1 additionally drops Valentine's Day rose ) ( Advancement 8-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,803,,( Drop item 1 additionally drops Valentine's Day rose ) ( Advancement 8-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,804,,( Drop item 1 additionally drops Valentine's Day rose ) ( Advancement 8-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,805,,( Drop item 1 additionally drops Valentine's Day rose ) ( Advancement 8-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,806,,( Drop item 1 additionally drops Valentine's Day rose ) ( Advancement 8-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,807,,( Drop item 1 additionally drops Valentine's Day rose ) ( Advancement 8-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,808,,( Drop item 1 additionally drops Valentine's Day rose ) ( Life from Desperation 8-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,809,,( Drop item 1 additionally drops Valentine's Day rose ) ( Life from Desperation 8-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,810,,( Drop item 1 additionally drops Valentine's Day rose ) ( Life from Desperation 8-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,901,,( Drop item 1 extra drop Valentine's Day rose ) ( Victory is in sight 9-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,902,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,903,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,904,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,905,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,906,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,907,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,908,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,909,,( Drop item 1 additionally drops Valentine's Day rose ) ( Victory is in sight 9-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,910,,( Drop item 1 extra drop Valentine's Day rose ) ( Victory is in sight 9-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1001,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1002,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Past Glory 10-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1003,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1004,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1005,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1006,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1007,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1008,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Past Glory 10-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1009,,( Drop item 1 additional drop Valentine's Day Rose ) ( Past Glory 10-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1010,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Past Glory 10-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1101,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Declaration of Decisive Battle 11-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1102,,( Drop item 1 additionally drops Valentine's Day rose ) ( declaration of decisive battle 11-2) ( normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1103,,( Drop item 1 additionally drops Valentine's Day rose ) ( declaration of decisive battle 11-3) ( normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1104,,( Drop item 1 additionally drops Valentine's Day rose ) ( declaration of decisive battle 11-4) ( normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1105,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Declaration of Decisive Battle 11-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1106,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Declaration of Battle 11-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1107,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Declaration of Battle 11-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1108,,( Drop item 1 additionally drops Valentine's Day rose ) ( declaration of decisive battle 11-8) ( normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1109,,( Drop item 1 additionally drops Valentine's Day rose ) ( declaration of decisive battle 11-9) ( normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1110,,( Drop item 1 additionally drops Valentine's Day rose ) ( declaration of decisive battle 11-10) ( normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1201,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-1 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1202,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-2 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1203,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-3 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1204,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-4 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1205,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-5 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1206,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-6 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1207,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-7 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1208,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-8 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1209,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-9 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1210,,( Drop item 1 additionally drops Valentine's Day rose ) ( Bai Mi Yi Shu 12-10 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1301,,( Drop item 1 additional drop Valentine's Day Rose ) ( Regroup 13-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1302,,( Drop item 1 additional drop Valentine's Day Rose ) ( Regroup 13-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1303,,( Drop item 1 additional drop Valentine's Day Rose ) ( Regroup 13-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1304,,( Drop item 1 additional drop Valentine's Day Rose ) ( Regroup 13-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1305,,( Drop item 1 additionally drops Valentine's Day rose ) ( Regroup 13-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1306,,( Drop item 1 additional drop Valentine's Day Rose ) ( Regroup 13-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1307,,( Drop item 1 additional drop Valentine's Day Rose ) ( Regroup 13-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1308,,( Drop item 1 additionally drops Valentine's Day rose ) ( Regroup 13-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1309,,( Drop item 1 additionally drops Valentine's Day rose ) ( Regroup 13-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1310,,( Drop item 1 additionally drops Valentine's Day rose ) ( Regroup 13-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1401,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Bones 14-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1402,,( Drop item 1 additional drop Valentine 's Day rose ) ( Bones 14-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1403,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Bones 14-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1404,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Bones 14-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1405,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Bones 14-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1406,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Bones 14-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1407,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Bones 14-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1408,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Bones 14-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1409,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Bones 14-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1410,,( Drop item 1 additional drop Valentine 's Day rose ) ( Bones 14-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1501,,( Drop item 1 additional drop Valentine's Day Rose ) ( Encounter Road Narrow 15-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1502,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Encounter Road Narrow 15-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1503,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Encounter Road Narrow 15-3 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1504,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Encounter Road Narrow 15-4 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1505,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Encounter Road Narrow 15-5 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1506,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Encounter Road Narrow 15-6 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1507,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Encounter Road Narrow 15-7 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1508,,( Drop item 1 additional drop Valentine's Day Rose ) ( Encounter Road Narrow 15-8 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1509,,( Drop item 1 additional drop Valentine's Day Rose ) ( Encounter Road Narrow 15-9 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1510,,( Drop item 1 additional drop Valentine's Day Rose ) ( Encounter Road Narrow 15-10 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1601,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1602,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Miracle Cliff 16-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1603,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1604,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1605,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1606,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1607,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1608,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1609,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Miracle Cliff 16-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1610,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Miracle Cliff 16-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1701,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Dragon Graveyard 17-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1702,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Dragon Graveyard 17-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1703,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Dragon Graveyard 17-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1704,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Dragon Graveyard 17-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1705,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Dragon Graveyard 17-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1706,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Dragon Graveyard 17-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1707,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Dragon Graveyard 17-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1708,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Dragon Graveyard 17-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1709,,( Drop item 1 additionally drops Valentine 's Day rose ) ( Dragon Graveyard 17-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1710,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Dragon Graveyard 17-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1801,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Immortal Peak 18-1 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1802,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Immortal Peak 18-2 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1803,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Immortal Peak 18-3 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1804,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Immortal Peak 18-4 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1805,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Immortal Peak 18-5 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1806,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Immortal Peak 18-6 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1807,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Immortal Peak 18-7 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1808,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Immortal Peak 18-8 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1809,,( Drop item 1 additionally drops Valentine 's Day Rose ) ( Immortal Peak 18-9 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1810,,( Drop item 1 additional drop Valentine 's Day Rose ) ( Immortal Peak 18-10 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1901,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1902,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1903,,( Drop item 1 additional drop Valentine's Day rose ) ( Victory obsession 19-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1904,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1905,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1906,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1907,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1908,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1909,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Victory obsession 19-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,1910,,( Drop item 1 additional drop Valentine's Day Rose ) ( Victory obsession 19-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2001,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy Concentration 20-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2002,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy Concentration 20-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2003,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Flying Energy Concentration 20-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2004,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy 20-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2005,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy 20-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2006,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Flying Energy Concentration 20-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2007,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy Concentration 20-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2008,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Flying Energy Concentration 20-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2009,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy 20-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2010,,( Drop item 1 additionally drops Valentine's Day rose ) ( Flying Energy 20-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2101,,( Drop item 1 additional drop Valentine's Day Rose ) ( Frozen Legend 21-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2102,,( Drop item 1 additional drop Valentine's Day Rose ) ( Frozen Legend 21-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2103,,( Drop item 1 additional drop Valentine's Day Rose ) ( Frozen Legend 21-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2104,,( Drop item 1 additional drop Valentine's Day Rose ) ( Frozen Legend 21-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2105,,( Drop item 1 extra drop Valentine's Day Rose ) ( Frozen Legend 21-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2106,,( Drop item 1 extra drop Valentine's Day Rose ) ( Frozen Legend 21-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2107,,( Drop item 1 extra drop Valentine's Day Rose ) ( Frozen Legend 21-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2108,,( Drop item 1 extra drop Valentine's Day Rose ) ( Frozen Legend 21-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2109,,( Drop item 1 additional drop Valentine's Day Rose ) ( Frozen Legend 21-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2110,,( Drop item 1 extra drop Valentine's Day rose ) ( Frozen Legend 21-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2201,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2202,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2203,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Black Spiral 22-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2204,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2205,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Black Spiral 22-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2206,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2207,,( Drop item 1 additionally drops Valentine's Day rose ) ( Black Spiral 22-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2208,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2209,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2210,,( Drop item 1 additional drop Valentine's Day Rose ) ( Black Spiral 22-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2301,,( Drop item 1 additional drop Valentine's Day Rose ) ( Stone Breaking 23-1 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2302,,( Drop item 1 additionally drops Valentine's Day rose ) ( Stone Breaking 23-2 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2303,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-3 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2304,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-4 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2305,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-5 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2306,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-6 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2307,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-7 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2308,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-8 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2309,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-9 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2310,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Stone Breaking 23-10 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2401,,( Drop item 1 additional drop Valentine's Day Rose ) ( Royal Knight 24-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2402,,( Drop item 1 additional drop Valentine's Day Rose ) ( Royal Knight 24-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2403,,( Drop item 1 additional drop Valentine's Day Rose ) ( Royal Knight 24-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2404,,( Drop item 1 additional drop Valentine's Day Rose ) ( Royal Knight 24-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2405,,( Drop item 1 extra drop Valentine's Day Rose ) ( Royal Knight 24-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2406,,( Drop item 1 extra drop Valentine's Day Rose ) ( Royal Knight 24-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2407,,( Drop item 1 extra drop Valentine's Day Rose ) ( Royal Knight 24-7) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2408,,( Drop item 1 extra drop Valentine's Day Rose ) ( Royal Knight 24-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2409,,( Drop item 1 extra drop Valentine's Day Rose ) ( Royal Knight 24-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2410,,( Drop item 1 extra drop Valentine's Day Rose ) ( Royal Knight 24-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2501,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-1) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2502,,( Drop item 1 additionally drops Valentine's Day Rose ) ( Decisive Battle Ancient Tree 25-2) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2503,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-3) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2504,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-4) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2505,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-5) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2506,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-6) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2507,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-7 ) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2508,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-8) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2509,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-9) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,2510,,( Drop item 1 additionally drops Valentine's Day rose ) ( Battle against ancient trees 25-10) ( Normal level ),637,1,0.15,0.35,0,0.15,0.35,0
+,,,,,,,,,,,
+,10101,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Embark on the Journey 1-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10102,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Embark on the Journey 1-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10103,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Embark on the Journey 1-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10201,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Crisis Prelude 2-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10202,,( Valentine's Day roses will be dropped additionally in the mobile game elite level ) ( Elite Crisis Prelude 2-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10203,,( Valentine's Day roses will be dropped additionally in the mobile game elite level ) ( Elite Crisis Prelude 2-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10204,,( Valentine's Day roses will be dropped additionally in the mobile game elite level ) ( Elite Crisis Prelude 2-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10301,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Overcoming Thorns 3-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10302,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Overcoming Thorns 3-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10303,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Overcoming Thorns 3-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10304,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Overcoming Thorns 3-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10401,,( Valentine's Day roses will be dropped in the elite level of the mobile game ) ( Elite Go Forward 4-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10402,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Go Forward 4-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10403,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Go Forward 4-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10404,,( Valentine's Day roses will be dropped in the elite level of the mobile game ) ( Elite Go Forward 4-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10501,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite turns 5-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10502,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite turns 5-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10503,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite turns 5-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10504,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite turns 5-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10505,,( Valentine's Day roses will be dropped in the mobile game elite level ) ( Elite turns 5-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10601,,( The mobile game elite level additionally drops Valentine's Day roses ) ( Elite Longtan Tiger Den 6-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10602,,( The mobile game elite level additionally drops Valentine's Day roses ) ( Elite Longtan Tiger Den 6-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10603,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Longtan Tiger Den 6-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10604,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Longtan Tiger Den 6-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10605,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Longtan Tiger Den 6-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10701,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Thousands of Horses 7-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10702,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Thousands of Horses 7-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10703,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Thousands of Troops 7-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10704,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Thousands of Horses 7-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10705,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Thousands of Troops 7-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10801,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Survival 8-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10802,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Survival 8-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10803,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Survival 8-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10804,,( Valentine's Day roses will be dropped extra at the elite level of the mobile game ) ( Elite Survival 8-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10805,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Survival 8-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10901,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite victory is in sight 9-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10902,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite victory is in sight 9-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10903,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite victory is in sight 9-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10904,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite victory is in sight 9-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,10905,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite victory is in sight 9-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11001,,( Mobile game elite level additional drop Valentine's Day rose ) ( elite past glory 10-1) ( elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11002,,( Mobile game elite level additional drop Valentine's Day rose ) ( elite past glory 10-2) ( elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11003,,( Mobile game elite level additional drop Valentine's Day rose ) ( elite past glory 10-3) ( elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11004,,( Mobile game elite level additional drop Valentine's Day rose ) ( elite past glory 10-4) ( elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11005,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Past Glory 10-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11101,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Decisive Battle Declaration 11-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11102,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Decisive Battle Declaration 11-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11103,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Decisive Battle Declaration 11-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11104,,( Valentine's Day roses will be dropped extra at the elite stage of the mobile game ) ( Elite Decisive Battle Declaration 11-4) ( Elite stage ),637,1,0.3,0.7,0,0.3,0.7,0
+,11105,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Decisive Battle Declaration 11-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11201,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Bai Mi Yi Shu 12-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11202,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Bai Mi Yi Shu 12-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11203,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Bai Mi Yi Shu 12-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11204,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Bai Mi Yi Shu 12-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11205,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Bai Mi Yi Shu 12-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11301,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite regroup 13-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11302,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite regroup 13-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11303,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite regroup 13-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11304,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite regroup 13-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11305,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite regroup 13-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11401,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Boneyard 14-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11402,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Boneyard 14-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11403,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Boneyard 14-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11404,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Boneyard 14-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11405,,( Valentine's Day roses will be dropped extra from the mobile game elite level ) ( Elite Boneyard 14-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11501,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 15-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11502,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 15-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11503,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 15-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11504,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 15-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11505,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 15-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11601,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 16-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11602,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 16-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11603,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 16-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11604,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 16-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11605,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 16-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11701,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 17-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11702,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 17-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11703,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 17-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11704,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 17-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11705,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 17-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11801,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 18-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11802,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 18-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11803,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 18-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11804,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 18-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11805,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 18-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11901,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 19-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11902,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 19-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11903,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 19-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11904,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 19-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,11905,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 19-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12001,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 20-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12002,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 20-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12003,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 20-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12004,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 20-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12005,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 20-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12101,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 21-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12102,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 21-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12103,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 21-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12104,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 21-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12105,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 21-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12201,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 22-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12202,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 22-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12203,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 22-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12204,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 22-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12205,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 22-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12301,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 23-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12302,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 23-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12303,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 23-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12304,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 23-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12305,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 23-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12401,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 24-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12402,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 24-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12403,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 24-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12404,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 24-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12405,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 24-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12501,,( The mobile game elite level will drop extra Valentine's Day roses ) ( Elite Enemy Road Narrow 25-1) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12502,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 25-2) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12503,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 25-3) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12504,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 25-4) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0
+,12505,,( Valentine's Day roses will be dropped extra at the mobile game elite level ) ( Elite Enemy Road Narrow 25-5) ( Elite level ),637,1,0.3,0.7,0,0.3,0.7,0

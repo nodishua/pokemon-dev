@@ -1,0 +1,10 @@
+﻿"﻿变量名",desc,desc_tw,desc_en,desc_vn,desc_kr,skills,rarityLimit
+默认值,"""""","""""","""""","""""","""""",{},{}
+ID,描述,描述,描述,描述,描述,被动技能,稀有度限制
+1,Full anger at the start,開局滿怒氣,Full anger at the start,44004,시작 때 분노치 가득,{78001=1},
+2,Infinitely basic skills,無限小技能,Infinitely basic skills,44004,무한 스킬,{78002=1},
+3,Quick anger regeneration,快速回怒,Quick anger regeneration,44004,분노 쾌속 회복,{78003=1},
+4,Type restraint increase,自然屬性克制加深,Type restraint increase,44004,자연속성 억제 심화,{78004=1},
+5,Only lusing A card and below,只能限制使用A卡及以下,Only lusing A card and below,44004,A카드 및 이하만 사용 가능,,{4=0;3=0}
+6,Only using S card and below,只能限制使用S卡及以下,Only using S card and below,44004,S카드 및 이하만 사용 가능,,{4=0}
+7,Only 2 S cards can be used,只能使用2張S卡,Only 2 S cards can be used,44004,S카드 2장만 사용 가능,,{3=2}

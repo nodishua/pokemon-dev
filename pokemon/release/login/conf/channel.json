@@ -1,0 +1,19 @@
+{
+  "channels": {
+    "luo": ["game.dev", "game.cn", "game.cn_qd", "game.trial", "game.kr", "game.en", "game.tw", "game.xy"],
+    "none": ["game.dev", "game.cn", "game.cn_qd", "game.trial", "game.kr", "game.en", "game.tw", "game.xy"],
+    "tc": ["game.cn"],
+    "tc_qd": ["game.cn_qd"],
+    "lp_vn": ["game.vn"],
+    "lp_kr": ["game.kr"],
+    "lp_en": ["game.en"],
+    "ks_i": ["game.tw"],
+    "ks_a": ["game.tw"],
+    "xy51": ["game.xy"],
+    "trial": ["game.trial"]
+  },
+  "servers": {
+    "game.shenhe.1": ["luo", "none", "tc", "tc_qd", "lp", "lp_vn", "lp_kr", "lp_en", "ks_i", "ks_a", "xy51"]
+  },
+  "guarder": "1b5a8aa9e7660d317d1eada5c37d2429"
+}

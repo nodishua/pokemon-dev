@@ -1,0 +1,351 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<!-- moment -->
+	<!-- <script src={{ static_url("node_modules/moment/min/moment.min.js") }}></script> -->
+	<!-- x-editable -->
+	<link rel="stylesheet" href={{ static_url("node_modules/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css") }} />
+	<script src={{ static_url("node_modules/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js") }}></script>
+	<!-- bootstrap-table extensions -->
+	<script src={{ static_url("node_modules/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.min.js") }}></script>
+
+	<style>
+		.t {
+			margin-top: 18px;
+		}
+
+		.l {
+			margin-left: 18px;
+		}
+
+		.r {
+			margin-right: 8px;
+		}
+
+		#placardTextarea {
+			margin-top: 8px;
+			min-width: 853px;
+			min-height: 464px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>Operation activity configuration</h4></div>
+		</div>
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+					<div class="form-inline">
+        				<div class="from-group">
+        					<label>{{ _(u"server nickname") }}</label>
+        					<input id="serv-select" type="text" class="form-control input-s" data-toggle="modal" data-target="#serv-select-modal">
+        					<button id="query" class="btn btn-primary">{{ _(u"Inquire")}}</button>
+        					<button id="reset-yy-btn" class="btn btn-primary pull-right">{{ _(u"Reset")}}</button>
+        				</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row t">
+				<div class="col-lg-12">
+					<ul class="nav nav-tabs">
+					    <li class="active"><a href="#yyhuodong" data-toggle="tab">{{ _(u"yyhuodong.csv") }}</a></li>
+						<li><a href="#broadcast" data-toggle="tab">{{ _(u"公告") }}</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		<div id="tabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="yyhuodong">
+							<div class='t pull-right'>
+								<button id="inactive-yy-btn" class="btn btn-primary btn-sm">{{ _(u"View valid activity")}}</button>
+								<button id="save-yy-btn" class="btn btn-primary btn-sm">{{ _(u"Save yyhuodong.csv configuration")}}</button>
+								<button id="save-yy-all-btn" class="btn btn-primary btn-sm">{{ _(u"Save yyhuodong.csv for full service configuration")}}</button>
+							</div>
+							<div>
+								<table id="yyhuodong-table"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="broadcast">
+							<div class='t pull-right'>
+								<button id="save-placard-btn" class="btn btn-primary btn-sm">{{ _(u"Get the announcement configuration")}}</button>
+								<button id="save-placard-all-btn" class="btn btn-primary btn-sm">{{ _(u"Save the current announcement configuration current announcement configuration")}}</button>
+							</div>
+							<div class="">
+								<div id="placardTextarea" style="max-width: 990px;"><strong><i>Please get the current announcement first, and then modify it.</i></strong></div>
+								<!-- <textarea id="placardTextarea"><strong><i>Please get the current announcement first, and then modify it.</i></strong></textarea> -->
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+	        	</div>
+	        </div>
+
+        </div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		var GlobalServName = null;
+		var GlobalPlacard = null;
+		var langField = null;
+
+		var fullData = null;
+		var partData = null;
+
+  		var GlobalYYconfig = {};
+		function modifyDiff(config) {
+			let ret = {};
+			let id = null;
+
+			for (let i=0; i<config.length; i++) {
+				id = config[i].id
+
+				if (!(id in GlobalYYconfig)) {
+					continue;
+				}
+
+				for (let k in config[i]) {
+					if (config[i][k] === GlobalYYconfig[id][k]) {
+						continue;
+					}
+					if (!(id in ret)) {
+						ret[id] = {}
+					}
+					ret[id][k] = config[i][k]
+				}
+			}
+
+			return ret;
+		}
+
+		// yy配表和公告
+		function yyhuodong_click(name) {
+			let servName = null;
+
+			if (typeof name === 'undefined') {
+				servName = $('#serv-select').val();
+			} else {
+				servName = name;
+			}
+			if (!servName) {
+				alert("Please Select Server");
+				return;
+			}
+			GlobalServName = servName;
+
+			$.ajax({
+				url: '/operate_activity',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify({servName: servName}),
+				success: function(result) {
+					// 记录原始数据
+					for (let i=0; i<result.data.length; i++) {
+						GlobalYYconfig[result.data[i].id] = JSON.parse(JSON.stringify(result.data[i]));
+					}
+
+      				const language = result.language;
+
+      				$('#yyhuodong-table').bootstrapTable('destroy');
+			        $('#yyhuodong-table').bootstrapTable({
+			        	searchAlign: 'left',
+			        	buttonsAlign: 'left',
+				        pagination: true,
+				        pageSize: 6,
+				        columns: result["columns"],
+				        data: result["data"],
+				        search: true,
+				        strictSearch: true,
+				        maintainSelected: true,
+				        searchOnEnterKey: true,
+				        showColumns: true,
+				        locale: userLocale // Language control, look at it later
+			        });
+
+				    // Get the announcement board information
+					function languageField(s, lang) {
+					    if (lang !== "cn") {
+					      return s + "_" + lang
+					    }
+					    return s
+					};
+				    langField = languageField("content", language);
+
+				    for (let i in result.placard) {
+				    	$("#placardTextarea").val(result.placard[i][langField]);
+				    	GlobalPlacard = result.placard[i][langField];
+				    	break;
+				    }
+
+				    $("#inactive-yy-btn").text('{{ _(u"View valid activity") }}');
+				    fullData = null;
+				},
+			})
+		};
+		$('#query').attr('onclick', 'yyhuodong_click()')
+
+		$(function() {
+			// 重置配置
+			$("#reset-yy-btn").on('click', function() {
+				if (GlobalServName === null) {
+					alert('Please query first');
+					return;
+				}
+
+				$.ajax({
+					url: '/operation_config/reset',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify({servName: GlobalServName}),
+					success: function(rep) {
+						alert('success');
+						console.log(rep.result);
+						yyhuodong_click(GlobalServName);
+					}
+				})
+			})
+
+			function csv2Date(d, t) {
+				let y = parseInt(d.substring(0,4));
+				let m = parseInt(d.substring(4,6));
+				let D = parseInt(d.substring(6));
+
+				let H = null;
+				let M = null;
+				if (t.length === 4) {
+					H = parseInt(t.substring(0,2));
+					M = parseInt(t.substring(2));
+				} else {
+					H = parseInt(t.substring(0,1));
+					M = parseInt(t.substring(2));
+				}
+
+				return new Date(y, m-1, D, H, M);
+			}
+			//View valid activity
+		    $('#inactive-yy-btn').click(function(e) {
+		    	let $resultTable = $('#yyhuodong-table');
+		    	let $inActiveBtn = $(this);
+
+		    	if (fullData === null) {
+		    		fullData = $resultTable.bootstrapTable("getData");
+
+		    		let resultL = [];
+		    		let now = new Date();
+
+		    		for (let i=0; i<fullData.length; i++) {
+		    			if (csv2Date(fullData[i].endDate, fullData[i].endTime) >= now && fullData[i].languages.match(userLocale) !== null)
+		    				resultL.push(fullData[i].id);
+		    		}
+
+		    		$resultTable.bootstrapTable("filterBy", {
+		            	active: '1',
+		            	id: resultL
+		          	});
+		          	$inActiveBtn.text('{{ _(u"View all activities ") }}');
+		    	} else {
+		    		$resultTable.bootstrapTable("filterBy", {});
+			        $resultTable.bootstrapTable("load", fullData);
+			        $inActiveBtn.text('{{ _(u"View valid activity") }}');
+			        fullData = null;
+		    	}
+		    });
+
+			// yySingle -saving
+			$("#save-yy-btn").on('click', function() {
+				let current = $('#yyhuodong-table').bootstrapTable("getData");
+				let diff = modifyDiff(current);
+				console.log(diff)
+				if ($.isEmptyObject(diff)) {
+					alert('yyhuodong.csv not be modified');
+					return;
+				}
+
+				$.ajax({
+					url: '/operation_config/yyhuodong',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify({servName: GlobalServName, diffDB: diff}),
+					success: function(rep) {
+						console.log(rep.result);
+						alert('yyhuodong.csv save success');
+					}
+				})
+			})
+			// yyFull service
+			$('#save-yy-all-btn').on('click', function() {
+				let current = $('#yyhuodong-table').bootstrapTable("getData");
+				let diff = modifyDiff(current);
+				console.log(diff);
+				if ($.isEmptyObject(diff)) {
+					alert('yyhuodong.csv not be modified');
+					return;
+				}
+
+				$.ajax({
+					url: '/operation_config/yyhuodong',
+					type: 'post',
+					async: true,
+					contentType: 'application/json',
+					data: JSON.stringify({diffDB: diff}),
+					success: function(rep) {
+						console.log(rep.result);
+						alert('yyhuodong.csv save success');
+					}
+				})
+			})
+
+			// Obtain an announcement
+			$("#save-placard-btn").on('click', function() {
+				$.ajax({
+					url: '/placard_config',
+					type: 'get',
+					async: true,
+					contentType: 'application/json',
+					success: function(rep) {
+						console.log(rep);
+						let html = "<pre contenteditable='true'>" + prettyJSON(JSON.stringify(rep)) + "</rep>";
+						$('#placardTextarea').html(html);
+					}
+				})
+			})
+			// Announce
+			$('#save-placard-all-btn').on('click', function() {
+				let current = $('#placardTextarea').children("pre").text();
+
+				if (current) {
+					$.ajax({
+						url: '/placard_config',
+						type: 'post',
+						async: true,
+						data: {config: current},
+						success: function(rep) {
+							console.log(rep)
+							if (rep.result) {
+								alert('Successfully saved！');
+								$('#placardTextarea').html("<strong><i>Please get the current announcement first, and then modify it。</i>");
+							} else {
+								alert(`fail：${rep.msg}`);
+							}
+						}
+					})
+				} else {
+					console.log(current);
+					alert('Please check first');
+				}
+			})
+		})
+	</script>
+{% end %}

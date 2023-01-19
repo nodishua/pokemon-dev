@@ -1,0 +1,43 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.t {
+			margin-top: 8px;
+		}
+
+		.la {
+			min-width: 113px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u"Operation activity configuration ") }}</h4></div>
+		</div>
+
+		<div class="well">
+			<div class="row">
+	        	<div class="col-lg-12">
+	        		{% for serv, date in servDates %}
+	        			<div role="form" class="form-inline t">
+						  <div class="form-group">
+						  	<label class='la'>{{ serv }} Start time</label>
+						    <input id="{{ serv }}" class="form-control input-md" placeholder="{{ date }}">
+						  </div>
+						</div>
+	        		{% end %}
+	        	</div>
+	        </div>
+		</div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+
+	</script>
+{% end %}

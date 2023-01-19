@@ -1,0 +1,339 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<script src={{ static_url("node_modules/chart.js/dist/Chart.min.js") }}></script>
+	<link rel="stylesheet" href={{ static_url("node_modules/chart.js/dist/Chart.min.css") }} />
+	<style>
+		.asdtable {
+			table-layout:fixed;
+		}
+
+		/*table td {
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
+		}*/
+
+		.table tbody tr td {
+		    overflow: hidden;
+		    text-overflow:ellipsis;
+		    white-space: nowrap;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u'Data monitoring') }}</h4></div>
+		</div>
+
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<form class="form-inline" role="form">
+        				<div class="form-group">
+						  	<label>{{ _(u'server')}} </label>
+						    <input id="serv-select" class="form-control input-sm" data-toggle="modal" data-target="#serv-select-modal">
+						</div>
+						<div class="form-group margin-left-m hidden">
+						  	<label>{{ _(u'Character ID')}} </label>
+						    <input id="role-id" type="text" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label>{{ _(u'Starting time')}} </label>
+						    <input id="start-date" type="date" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label>{{ _(u'End Time')}} </label>
+						    <input id="end-date" type="date" class="form-control input-sm">
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label>{{ _(u'Types of')}} </label>
+						    <select id="type-select" class="form-control input-sm">
+						    	<option value='cost'>{{ _(u'Consumption ')}}</option>
+						    	<option value='gain'>{{ _(u'get')}}</option>
+						    </select>
+						</div>
+						<div class="form-group margin-left-m">
+						  	<label></label>
+						    <input id='search' type="button" class="form-control btn btn-success btn-circle input-sm" value='{{ _(u"Inquire")}}' onclick='statisticClick()'>
+						</div>
+						<div class="form-group pull-right">
+						  	<label></label>
+						    <input id='switch-table-detail' detail-switch="1" type="button" class="form-control btn btn-primary btn-circle input-sm" value='{{ _(u"detailed")}}' onclick='switchTableDetail()'>
+						</div>
+					</form>
+        		</div>
+        	</div>
+
+        	<div class="row margin-top-m">
+	        	<div class="col-lg-8">
+	        		<div><a href="#huodong-collapsible" data-toggle="collapse">{{ _(u'Events List')}}</a></div>
+	        		<div id="huodong-collapsible" class="collapse">
+	        			{% if not huodongkeys%}
+	        				<label class="checkbox-inline">{{ _(u'none') }}</label>
+	        			{% end %}
+						{% for key in huodongkeys %}
+		        			<label class="checkbox-inline">
+						        <input name="huodong" type="checkbox" value={{ key }}> {{ key }}
+						    </label>
+		        		{% end %}
+					</div>
+				</div>
+			</div>
+
+        	<div class="row margin-top-m">
+        		<div class="col-lg-12">
+	        		<ul class="nav nav-tabs">
+					    <li class="active"><a href="#tp1" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Consumer data statistics") }}</a></li>
+					    <li><a href="#tp3" data-toggle="tab" onclick="changeFixedForTab(this)">{{ _(u"Level distribution") }}</a></li>
+					</ul>
+	        	</div>
+        	</div>
+
+        	<div class="row">
+	        	<div class="col-lg-12">
+	        		<div id="tabContent" class="tab-content">
+	        			<div class="tab-pane fade in active" id="tp1">
+							<div>
+								<!-- <table id="result-table1" class="text-nowrap"></table> -->
+								<table id="result-table1" class="asdtable"></table>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="tp3">
+			        		<div>
+			        			<canvas id="tp3-canvas"></canvas>
+			        		</div>
+						</div>
+
+						<div class="tab-pane fade" id="tp4">
+			        		<div>
+			        			<canvas id="tp4-canvas"></canvas>
+			        		</div>
+						</div>
+
+						<div class="tab-pane fade" id="tp2">
+			        		<div>
+			        			<table id="result-table2"></table>
+			        		</div>
+						</div>
+
+					</div>
+
+	        	</div>
+	        </div>
+
+        	<div class="row margin-top-m">
+        		<div class="col-lg-12">
+        			<table id="result-table"></table>
+        		</div>
+        	</div>
+        </div>
+
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		function changeFixedForTab(self) {
+			let href = $(self).attr("href");
+			if (href === '#tp1') {
+				$("#type-select").parent().removeClass('hidden');
+				$("#huodong-collapsible").parent().removeClass('hidden');
+				$("#switch-table-detail").parent().removeClass('hidden');
+
+				$("option[value=all]").remove();
+				$("#role-id").parent().addClass('hidden');
+				$("#search").attr('onclick', "statisticClick()");
+			}
+			else if (href === '#tp2') {
+				$("#type-select").prepend("<option value='all'>all</option>");
+				$("#role-id").parent().removeClass('hidden');
+				$("#search").attr('onclick', "searchClick()");
+			}
+			else if (href === '#tp3' || href === '#tp4') {
+				$("#type-select").parent().addClass('hidden');
+				$("#huodong-collapsible").parent().addClass('hidden');
+				$("#switch-table-detail").parent().addClass('hidden');
+
+				let click = href.substr(1, href.length);
+				$("#search").attr('onclick', click+'Click()');
+			}
+			else {
+				alert('changeFixedForTab error');
+			}
+		}
+
+		function getReqData() {
+			let reqData = {};
+
+			// serv
+			let servName = $("#serv-select").val();
+			if (servName)
+				reqData.servName = servName;
+
+			let roleID = $("#role-id").val();
+			if (roleID)
+				reqData.roleID = roleID;
+
+			let d = getStartAndEndDate();
+			if (d === null || d[0] === null || d[1] === null) {
+				alert('date is error');
+				return false;
+			}
+			reqData.startDate = d[0];
+			reqData.endDate = d[1];
+
+			let type = $("#type-select").val();
+			if (type)
+				reqData.type = type;
+
+			return reqData;
+		}
+
+		function statisticClick() {
+			let reqData = getReqData();
+			if (reqData === false)
+				return;
+
+			let huodongs = [];
+			$("input[type=checkbox][name=huodong]").each(function() {
+				if (this.checked)
+					huodongs.push($(this).val());
+			});
+			reqData.huodongs = huodongs;
+
+			$.ajax({
+				url: '/logitem_archive',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(rep) {
+
+					$('#result-table1').bootstrapTable('destroy');
+					$('#result-table1').bootstrapTable({
+				        pagination: true,
+						striped: true,
+						sidePagination: "client",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+				        columns: rep.columns,
+				        data: rep.data,
+				        locale: userLocale
+				    });
+				}
+			})
+		}
+
+		var LevelChart = null;
+		function tp3Click() {
+			let reqData = getReqData();
+			if (reqData === false)
+				return;
+
+			$.ajax({
+				url: '/levelchart',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(rep) {
+					if (LevelChart)
+						LevelChart.destroy();
+					let ctx = document.getElementById("tp3-canvas").getContext('2d');
+					let barChartData = {
+						animation: {
+							duration: 10000
+						},
+						labels: rep.xAxes,
+						datasets: [{
+							label: 'Role Level',
+							backgroundColor: 'rgb(255,165,0,0.5)',
+							borderColor: 'red',
+							borderWidth: 1,
+							data: rep.data
+						}]
+					}
+					let options = {
+						responsive: true,
+						legend: {
+							position: 'top'
+						},
+						title: {
+							display: true,
+							text: 'Current Role Level Chart'
+						}
+					}
+					LevelChart = new Chart(ctx, {
+						type: 'bar',
+						data: barChartData,
+						options: options,
+					});
+				}
+			})
+		}
+
+		function tp4Click() {
+			alert('asdasdsa')
+		}
+
+		function searchClick() {
+			let reqData = getReqData();
+			if (reqData === false)
+				return;
+
+			let huodongs = [];
+			$("input[type=checkbox][name=huodong]").each(function() {
+				if (this.checked)
+					huodongs.push($(this).val());
+			});
+			reqData.huodongs = huodongs;
+
+			$.ajax({
+				url: '/logitem',
+				type: 'post',
+				async: true,
+				contentType: 'application/json',
+				data: JSON.stringify(reqData),
+				success: function(rep) {
+
+					$('#result-table2').bootstrapTable('destroy');
+					$('#result-table2').bootstrapTable({
+				        pagination: true,
+						striped: true,
+						sidePagination: "client",
+						pageNumber: 1,
+						pageSize: 10,
+						pageList: [10, 20, 30, 40, 50],
+				        columns: rep.columns,
+				        data: rep.data,
+				        locale: userLocale
+				    });
+				}
+			})
+
+		}
+
+		function switchTableDetail() {
+			let on = $("#switch-table-detail").attr('detail-switch');
+			if (on === "1") {
+				$("#result-table1").removeClass("asdtable");
+				$("#switch-table-detail").attr('detail-switch', "2");
+				$("#switch-table-detail").attr('value', "concise");
+			} else {
+				$("#result-table1").addClass("asdtable");
+				$("#switch-table-detail").attr('detail-switch', "1");
+				$("#switch-table-detail").attr('value', "detailed");
+			}
+		}
+
+		$(function() {
+			paddingInputDate($("#start-date"));
+			paddingInputDate($("#end-date"));
+		})
+	</script>
+{% end %}

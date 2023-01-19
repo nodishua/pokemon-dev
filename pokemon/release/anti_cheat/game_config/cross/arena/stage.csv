@@ -1,0 +1,49 @@
+﻿"﻿变量名",stageID,stageName,stageName_tw,stageName_en,stageName_vn,stageName_kr,stageRes,range,award,periodAward,finishAward,version,icon,stageLevel,stagePinyin
+默认值,1,"""""","""""","""""","""""","""""","""""",<>,{},{},{},0,"""""","""""",""""""
+ID,段位ID,位名称,位名称,位名称,位名称,位名称,位资源,玩家排名区间（左闭右开）,段位奖励,七日奖励,最终奖励（结算）,赛季奖励版本,图标,段位层,拼音
+1,1,Bronze III,青銅III,Bronze III,44404,브론즈III,,<7081;100001>,{gold=100000;2103=2;850=200},{gold=300000;529=1080;502=2},{rmb=200;529=4000;502=5},,common/icon/rank_stage/icon_qt_3.png,III,qingtong
+2,2,Bronze II,青銅II,Bronze II,44404,브론즈II,,<5081;7081>,{gold=100000;2103=2;850=200},{gold=320000;529=1140;502=2},{rmb=210;529=4200;502=5},,common/icon/rank_stage/icon_qt_2.png,II,qingtong
+3,3,Bronze I,青銅I,Bronze I,44404,브론즈I,,<4081;5081>,{gold=110000;2103=2;850=200},{gold=340000;529=1200;502=2},{rmb=220;529=4400;502=5},,common/icon/rank_stage/icon_qt_1.png,I,qingtong
+4,4,Silver III,白銀III,Silver III,44404,실버III,,<3481;4081>,{gold=110000;2103=2;501=1},{gold=360000;529=1260;502=2},{rmb=230;529=4600;502=6},,common/icon/rank_stage/icon_by_3.png,III,baiyin
+5,5,Silver II,白銀II,Silver II,44404,실버II,,<2881;3481>,{gold=120000;2103=2;850=400},{gold=380000;529=1320;502=2},{rmb=240;529=4800;502=6},,common/icon/rank_stage/icon_by_2.png,II,baiyin
+6,6,Silver I,白銀I,Silver I,44404,실버I,,<2281;2881>,{gold=120000;2103=2;850=400},{gold=400000;529=1380;502=2},{rmb=250;529=5000;502=6},,common/icon/rank_stage/icon_by_1.png,I,baiyin
+7,7,Gold III,黃金III,Gold III,44404,골드III,,<1881;2281>,{gold=130000;2103=3;502=2},{gold=420000;529=1440;502=3},{rmb=260;529=5200;502=7},,common/icon/rank_stage/icon_hj_3.png,III,huangjin
+8,8,Gold II,黃金II,Gold II,44404,골드II,,<1481;1881>,{gold=130000;2103=3;519=2},{gold=440000;529=1500;502=3},{rmb=280;529=5600;502=7},,common/icon/rank_stage/icon_hj_2.png,II,huangjin
+9,9,Gold I,黃金I,Gold I,44404,골드I,,<1081;1481>,{gold=140000;2103=3;519=2},{gold=460000;529=1620;502=3},{rmb=300;529=6000;502=8},,common/icon/rank_stage/icon_hj_1.png,I,huangjin
+10,10,Platinum IV,鉑金IV,Platinum IV,44404,플래티넘IV,,<841;1081>,{gold=140000;2103=3;973=1},{gold=480000;529=1740;502=4},{rmb=320;529=6400;502=8},,common/icon/rank_stage/icon_bj_4.png,IV,baijin
+11,11,Platinum III,鉑金III,Platinum III,44404,플래티넘III,,<601;841>,{gold=150000;2103=3;519=2},{gold=500000;529=1860;502=4},{rmb=340;529=6800;502=9},,common/icon/rank_stage/icon_bj_3.png,III,baijin
+12,12,Platinum II,鉑金II,Platinum II,44404,플래티넘II,,<361;601>,{gold=150000;2103=3;519=2},{gold=520000;529=1980;502=4},{rmb=360;529=7200;502=9},,common/icon/rank_stage/icon_bj_2.png,II,baijin
+13,13,Platinum I,鉑金I,Platinum I,44404,플래티넘I,,<281;361>,{gold=165000;2103=3;973=1},{gold=540000;529=2100;502=4},{rmb=390;529=7800;502=10},,common/icon/rank_stage/icon_bj_1.png,I,baijin
+14,14,Diamond IV,鑽石IV,Diamond IV,44404,다이아IV,,<201;281>,{gold=165000;2103=4;902=15},{gold=560000;529=2250;502=5},{rmb=420;529=8400;502=11},,common/icon/rank_stage/icon_zs_4.png,IV,zuanshi
+15,15,Diamond III,鑽石III,Diamond III,44404,다이아III,,<121;201>,{gold=180000;2103=4;902=15},{gold=580000;529=2400;502=5},{rmb=450;529=9000;502=12},,common/icon/rank_stage/icon_zs_3.png,III,zuanshi
+16,16,Diamond II,鑽石II,Diamond II,44404,다이아II,,<91;121>,{gold=180000;2103=4;502=3},{gold=600000;529=2550;502=6},{rmb=480;529=9600;502=14},,common/icon/rank_stage/icon_zs_2.png,II,zuanshi
+17,17,Diamond I,鑽石I,Diamond I,44404,다이아I,,<61;91>,{gold=195000;2103=4;902=20},{gold=620000;529=2700;502=6},{rmb=520;529=10400;502=16},,common/icon/rank_stage/icon_zs_1.png,I,zuanshi
+18,18,Master,無畏大師,Master,44404,마스터,,<31;61>,{gold=195000;2103=5;902=20},{gold=640000;529=2850;502=7},{rmb=560;529=11200;502=18},,common/icon/rank_stage/icon_ds.png,K,dashi
+19,19,King,巔峰王者,King,44404,챌린저,,<21;31>,{gold=210000;2103=6;521=5},{gold=700000;529=3000;502=8},{rmb=600;529=12000;521=10},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+20,19,King,巔峰王者,King,44404,챌린저,,<11;21>,{gold=210000;2103=6;521=5},{gold=800000;529=3300;502=9},{rmb=650;529=13000;521=11},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+21,19,King,巔峰王者,King,44404,챌린저,,<6;11>,{gold=210000;2103=6;521=5},{gold=900000;529=3600;502=10},{rmb=700;529=14000;521=12},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+22,19,King,巔峰王者,King,44404,챌린저,,<5;6>,{gold=210000;2103=6;521=5},{gold=1000000;529=3900;502=11},{rmb=750;529=15000;521=13},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+23,19,King,巔峰王者,King,44404,챌린저,,<4;5>,{gold=210000;2103=6;521=5},{gold=1100000;529=4200;502=12},{rmb=800;529=16000;521=14},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+24,19,King,巔峰王者,King,44404,챌린저,,<3;4>,{gold=210000;2103=6;521=5},{gold=1200000;529=4500;502=13},{rmb=900;529=18000;521=15},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+25,19,King,巔峰王者,King,44404,챌린저,,<2;3>,{gold=210000;2103=6;521=5},{gold=1300000;529=5100;502=14},{rmb=1000;529=20000;521=17},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+26,19,King,巔峰王者,King,44404,챌린저,,<1;2>,{gold=210000;2103=6;521=5},{gold=1500000;529=6000;502=16},{rmb=1200;529=24000;521=20},,common/icon/rank_stage/icon_wz.png,K,wangzhe
+,,,,,,,,,,,,,,,
+101,1,Bronze III,青銅III,Bronze III,44404,브론즈III,,<7081;100001>,{gold=100000;2103=2;850=200},{gold=300000;529=360;502=2},{rmb=200;529=2000;502=5},1,common/icon/rank_stage/icon_qt_3.png,III,qingtong
+102,2,Bronze II,青銅II,Bronze II,44404,브론즈II,,<5081;7081>,{gold=100000;2103=2;850=200},{gold=320000;529=380;502=2},{rmb=210;529=2100;502=5},1,common/icon/rank_stage/icon_qt_2.png,II,qingtong
+103,3,Bronze I,青銅I,Bronze I,44404,브론즈I,,<4081;5081>,{gold=110000;2103=2;850=200},{gold=340000;529=400;502=2},{rmb=220;529=2200;502=5},1,common/icon/rank_stage/icon_qt_1.png,I,qingtong
+104,4,Silver III,白銀III,Silver III,44404,실버III,,<3481;4081>,{gold=110000;2103=2;501=1},{gold=360000;529=420;502=2},{rmb=230;529=2300;502=6},1,common/icon/rank_stage/icon_by_3.png,III,baiyin
+105,5,Silver II,白銀II,Silver II,44404,실버II,,<2881;3481>,{gold=120000;2103=2;850=400},{gold=380000;529=440;502=2},{rmb=240;529=2400;502=6},1,common/icon/rank_stage/icon_by_2.png,II,baiyin
+106,6,Silver I,白銀I,Silver I,44404,실버I,,<2281;2881>,{gold=120000;2103=2;850=400},{gold=400000;529=460;502=2},{rmb=250;529=2500;502=6},1,common/icon/rank_stage/icon_by_1.png,I,baiyin
+107,7,Gold III,黃金III,Gold III,44404,골드III,,<1881;2281>,{gold=130000;2103=3;502=2},{gold=420000;529=480;502=3},{rmb=260;529=2600;502=7},1,common/icon/rank_stage/icon_hj_3.png,III,huangjin
+108,8,Gold II,黃金II,Gold II,44404,골드II,,<1481;1881>,{gold=130000;2103=3;519=2},{gold=440000;529=500;502=3},{rmb=280;529=2800;502=7},1,common/icon/rank_stage/icon_hj_2.png,II,huangjin
+109,9,Gold I,黃金I,Gold I,44404,골드I,,<1081;1481>,{gold=140000;2103=3;519=2},{gold=460000;529=540;502=3},{rmb=300;529=3000;502=7},1,common/icon/rank_stage/icon_hj_1.png,I,huangjin
+110,10,Platinum IV,鉑金IV,Platinum IV,44404,플래티넘IV,,<841;1081>,{gold=140000;2103=3;973=1},{gold=480000;529=580;502=4},{rmb=320;529=3200;502=8},1,common/icon/rank_stage/icon_bj_4.png,IV,baijin
+111,11,Platinum III,鉑金III,Platinum III,44404,플래티넘III,,<601;841>,{gold=150000;2103=3;519=2},{gold=500000;529=620;502=4},{rmb=340;529=3400;502=8},1,common/icon/rank_stage/icon_bj_3.png,III,baijin
+112,12,Platinum II,鉑金II,Platinum II,44404,플래티넘II,,<361;601>,{gold=150000;2103=3;519=2},{gold=520000;529=660;502=4},{rmb=360;529=3600;502=9},1,common/icon/rank_stage/icon_bj_2.png,II,baijin
+113,13,Platinum I,鉑金I,Platinum I,44404,플래티넘I,,<281;361>,{gold=165000;2103=3;973=1},{gold=540000;529=700;502=4},{rmb=390;529=3900;502=9},1,common/icon/rank_stage/icon_bj_1.png,I,baijin
+114,14,Diamond IV,鑽石IV,Diamond IV,44404,다이아IV,,<201;281>,{gold=165000;2103=4;902=15},{gold=560000;529=750;502=5},{rmb=420;529=4200;502=10},1,common/icon/rank_stage/icon_zs_4.png,IV,zuanshi
+115,15,Diamond III,鑽石III,Diamond III,44404,다이아III,,<121;201>,{gold=180000;2103=4;902=15},{gold=580000;529=800;502=5},{rmb=450;529=4500;502=10},1,common/icon/rank_stage/icon_zs_3.png,III,zuanshi
+116,16,Diamond II,鑽石II,Diamond II,44404,다이아II,,<91;121>,{gold=180000;2103=4;502=3},{gold=600000;529=850;502=6},{rmb=480;529=4800;502=11},1,common/icon/rank_stage/icon_zs_2.png,II,zuanshi
+117,17,Diamond I,鑽石I,Diamond I,44404,다이아I,,<61;91>,{gold=195000;2103=4;902=20},{gold=620000;529=900;502=6},{rmb=520;529=5200;502=11},1,common/icon/rank_stage/icon_zs_1.png,I,zuanshi
+118,18,Master,無畏大師,Master,44404,마스터,,<31;61>,{gold=195000;2103=5;902=20},{gold=640000;529=950;502=7},{rmb=560;529=5600;502=13},1,common/icon/rank_stage/icon_ds.png,K,dashi
+119,19,King,巔峰王者,King,44404,챌린저,,<1;31>,{gold=210000;2103=6;521=5},{gold=660000;529=1000;502=8},{rmb=600;529=6000;502=15},1,common/icon/rank_stage/icon_wz.png,K,wangzhe

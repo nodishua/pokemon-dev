@@ -1,0 +1,5 @@
+变量名,_beizhu,lianjinRate,staminaExtraMax,skillPointExtraMax,pwNoCD,lianjinFreeTimes,staminaBuyFreeTimes,lianJinUpstart,huodongGoldTimes,huodongGoldDropRate,huodongExpTimes,huodongExpDropRate,huodongFragTimes,huodongFragDropRate,huodongGiftTimes,huodongGiftDropRate,fragShopRefreshLimit,mysteryShopDiscount,fixShopDiscount
+默认值,,,,,,,,,,,,,,,,,,,
+ID,备注,聚宝获得增加,体力上限增加,技能点上限增加,排位赛取消冷却时间,免费购买金币次数,免费购买体力次数,聚宝暴击概率,金币副本次数,金币副本产量增加,经验副本次数,经验副本产量增加,碎片副本次数,碎片副本产量增加,礼物副本次数,礼物副本产量增加,碎片商店刷新上限增加,神秘商店折扣,普通商店折扣
+1,Fairy Monthly Card Permissions,0.1,20,30,,,,,,0.1,,,,,,,,,0.1
+2,Master Monthly Card Permissions,,,,,1,,{1=-10;2=4;3=2},,,,0.1,,,,0.1,5,0.1,

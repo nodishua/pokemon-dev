@@ -1,0 +1,10 @@
+﻿iptables-save > /etc/iptables.up.rules
+iptables-restore < /etc/iptables.up.rules
+
+iptables -t nat -A PREROUTING -p tcp -m tcp -d 123.207.108.22 --dport 28080 -j DNAT --to-destination 101.200.178.44:28080
+iptables -t nat -A PREROUTING -p tcp -m tcp -d 123.207.108.22 --dport 26666 -j DNAT --to-destination 101.200.178.44:26666
+iptables -t nat -A PREROUTING -p tcp -m tcp -d 123.207.108.22 --dport 26667 -j DNAT --to-destination 101.200.178.44:26666
+
+iptables -t nat -A POSTROUTING -p tcp -m tcp -d 123.207.108.22 --dport 28080 -j SNAT --to-source 101.200.178.44
+iptables -t nat -A POSTROUTING -p tcp -m tcp -d 123.207.108.22 --dport 26666 -j SNAT --to-source 101.200.178.44
+iptables -t nat -A POSTROUTING -p tcp -m tcp -d 123.207.108.22 --dport 26667 -j SNAT --to-source 101.200.178.44

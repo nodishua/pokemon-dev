@@ -1,0 +1,274 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,icon,suitID,quality,pos,mainAttr,startNum,startLib,acquiredLimit,acquiredLib,maxLevel,strengthSeq,acquiredLevels,strengthLevels,recastLib,recastCostSeq,exp,effect
+默认值,"""""","""""","""""","""""","""""","""config/chip/icon_gj_1_1.png""",0,0,0,0,0,0,0,0,50,0,"<> ","<> ",0,0,0,{drawcard=false;gain=false}
+ID,符文名字,符文名字,符文名字,符文名字,符文名字,符文icon,符文套装id,符文品质,对应栏位,主属性属性序列类型：对应main_attr表中的seq,初始副属性条目数,初始副属性随机库id,后天副属性条目数上限,后天副属性随机库id,强化等级上限,强化消耗序列：对应strength_cost表第一行,后天副属性获得的对应等级,所有副属性强化的指定等级,所有副属性洗练随机库类型,洗炼消耗序列：对应recast_cost表第一行,作为材料提供强化经验值,分别表示在抽卡恭喜获得
+,,,,,,,,,,,,,,,,,,,,,,
+60121,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_1.png,1,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60122,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_1.png,1,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60123,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_1.png,1,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60124,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_1.png,1,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60125,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_1.png,1,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60126,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_1.png,1,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60131,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_2.png,1,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60132,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_2.png,1,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60133,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_2.png,1,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60134,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_2.png,1,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60135,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_2.png,1,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60136,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_2.png,1,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60141,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_3.png,1,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60142,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_3.png,1,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60143,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_3.png,1,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60144,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_3.png,1,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60145,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_3.png,1,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60146,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_3.png,1,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60151,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_4.png,1,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60152,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_4.png,1,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60153,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_4.png,1,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60154,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_4.png,1,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60155,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_4.png,1,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60156,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_4.png,1,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60161,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_5.png,1,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60162,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_5.png,1,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60163,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_5.png,1,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60164,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_5.png,1,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60165,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_5.png,1,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60166,Fire Dance,火舞,Fire Dance,404,400404,config/chip/icon_gj_1_5.png,1,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60221,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_1.png,2,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60222,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_1.png,2,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60223,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_1.png,2,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60224,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_1.png,2,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60225,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_1.png,2,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60226,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_1.png,2,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60231,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_2.png,2,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60232,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_2.png,2,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60233,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_2.png,2,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60234,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_2.png,2,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60235,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_2.png,2,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60236,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_2.png,2,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60241,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_3.png,2,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60242,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_3.png,2,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60243,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_3.png,2,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60244,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_3.png,2,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60245,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_3.png,2,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60246,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_3.png,2,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60251,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_4.png,2,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60252,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_4.png,2,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60253,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_4.png,2,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60254,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_4.png,2,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60255,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_4.png,2,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60256,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_4.png,2,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60261,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_5.png,2,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60262,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_5.png,2,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60263,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_5.png,2,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60264,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_5.png,2,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60265,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_5.png,2,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60266,Frog Thorn,蛙刺,Frog Thorn,404,400404,config/chip/icon_gj_2_5.png,2,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60321,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_1.png,3,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60322,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_1.png,3,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60323,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_1.png,3,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60324,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_1.png,3,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60325,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_1.png,3,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60326,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_1.png,3,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60331,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_2.png,3,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60332,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_2.png,3,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60333,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_2.png,3,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60334,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_2.png,3,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60335,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_2.png,3,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60336,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_2.png,3,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60341,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_3.png,3,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60342,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_3.png,3,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60343,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_3.png,3,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60344,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_3.png,3,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60345,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_3.png,3,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60346,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_3.png,3,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60351,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_4.png,3,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60352,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_4.png,3,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60353,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_4.png,3,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60354,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_4.png,3,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60355,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_4.png,3,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60356,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_4.png,3,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60361,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_5.png,3,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60362,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_5.png,3,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60363,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_5.png,3,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60364,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_5.png,3,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60365,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_5.png,3,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60366,Lone Wolf,狼行者,Lone Wolf,404,400404,config/chip/icon_gj_3_5.png,3,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60421,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_1.png,4,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60422,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_1.png,4,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60423,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_1.png,4,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60424,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_1.png,4,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60425,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_1.png,4,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60426,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_1.png,4,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60431,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_2.png,4,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60432,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_2.png,4,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60433,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_2.png,4,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60434,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_2.png,4,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60435,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_2.png,4,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60436,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_2.png,4,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60441,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_3.png,4,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60442,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_3.png,4,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60443,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_3.png,4,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60444,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_3.png,4,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60445,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_3.png,4,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60446,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_3.png,4,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60451,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_4.png,4,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60452,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_4.png,4,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60453,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_4.png,4,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60454,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_4.png,4,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60455,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_4.png,4,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60456,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_4.png,4,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60461,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_5.png,4,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60462,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_5.png,4,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60463,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_5.png,4,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60464,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_5.png,4,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60465,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_5.png,4,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60466,Tortoise Shell,龜甲,Tortoise Shell,404,400404,config/chip/icon_fy_1_5.png,4,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60521,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_1.png,5,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60522,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_1.png,5,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60523,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_1.png,5,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60524,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_1.png,5,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60525,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_1.png,5,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60526,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_1.png,5,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60531,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_2.png,5,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60532,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_2.png,5,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60533,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_2.png,5,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60534,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_2.png,5,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60535,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_2.png,5,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60536,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_2.png,5,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60541,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_3.png,5,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60542,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_3.png,5,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60543,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_3.png,5,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60544,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_3.png,5,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60545,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_3.png,5,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60546,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_3.png,5,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60551,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_4.png,5,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60552,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_4.png,5,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60553,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_4.png,5,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60554,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_4.png,5,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60555,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_4.png,5,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60556,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_4.png,5,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60561,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_5.png,5,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60562,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_5.png,5,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60563,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_5.png,5,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60564,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_5.png,5,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60565,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_5.png,5,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60566,Fist shield,拳盾,Fist shield,404,400404,config/chip/icon_fy_2_5.png,5,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60621,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_1.png,6,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60622,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_1.png,6,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60623,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_1.png,6,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60624,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_1.png,6,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60625,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_1.png,6,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60626,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_1.png,6,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60631,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_2.png,6,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60632,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_2.png,6,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60633,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_2.png,6,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60634,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_2.png,6,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60635,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_2.png,6,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60636,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_2.png,6,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60641,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_3.png,6,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60642,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_3.png,6,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60643,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_3.png,6,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60644,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_3.png,6,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60645,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_3.png,6,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60646,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_3.png,6,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60651,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_4.png,6,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60652,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_4.png,6,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60653,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_4.png,6,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60654,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_4.png,6,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60655,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_4.png,6,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60656,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_4.png,6,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60661,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_5.png,6,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60662,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_5.png,6,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60663,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_5.png,6,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60664,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_5.png,6,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60665,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_5.png,6,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60666,Snake Soul,蛇靈,Snake Soul,404,400404,config/chip/icon_fy_3_5.png,6,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60721,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_1.png,7,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60722,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_1.png,7,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60723,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_1.png,7,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60724,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_1.png,7,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60725,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_1.png,7,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60726,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_1.png,7,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60731,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_2.png,7,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60732,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_2.png,7,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60733,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_2.png,7,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60734,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_2.png,7,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60735,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_2.png,7,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60736,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_2.png,7,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60741,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_3.png,7,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60742,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_3.png,7,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60743,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_3.png,7,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60744,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_3.png,7,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60745,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_3.png,7,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60746,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_3.png,7,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60751,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_4.png,7,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60752,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_4.png,7,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60753,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_4.png,7,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60754,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_4.png,7,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60755,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_4.png,7,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60756,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_4.png,7,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60761,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_5.png,7,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60762,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_5.png,7,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60763,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_5.png,7,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60764,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_5.png,7,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60765,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_5.png,7,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60766,Psychic,超能,Psychic,404,400404,config/chip/icon_kz_1_5.png,7,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60821,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_1.png,8,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60822,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_1.png,8,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60823,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_1.png,8,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60824,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_1.png,8,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60825,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_1.png,8,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60826,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_1.png,8,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60831,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_2.png,8,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60832,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_2.png,8,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60833,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_2.png,8,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60834,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_2.png,8,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60835,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_2.png,8,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60836,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_2.png,8,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60841,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_3.png,8,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60842,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_3.png,8,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60843,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_3.png,8,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60844,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_3.png,8,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60845,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_3.png,8,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60846,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_3.png,8,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60851,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_4.png,8,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60852,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_4.png,8,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60853,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_4.png,8,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60854,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_4.png,8,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60855,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_4.png,8,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60856,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_4.png,8,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60861,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_5.png,8,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60862,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_5.png,8,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60863,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_5.png,8,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60864,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_5.png,8,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60865,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_5.png,8,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60866,Fear,恐懼,Fear,404,400404,config/chip/icon_kz_2_5.png,8,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60921,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_1.png,9,2,1,1,1,20001,1,20001,100,2,<10>,<5;15;20;30;40>,20001,1,75,
+60922,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_1.png,9,2,2,2,1,20002,1,20002,100,2,<10>,<5;15;20;30;40>,20002,1,75,
+60923,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_1.png,9,2,3,3,1,20003,1,20003,100,2,<10>,<5;15;20;30;40>,20003,1,75,
+60924,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_1.png,9,2,4,4,1,20004,1,20004,100,2,<10>,<5;15;20;30;40>,20004,1,75,
+60925,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_1.png,9,2,5,5,1,20005,1,20005,100,2,<10>,<5;15;20;30;40>,20005,1,75,
+60926,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_1.png,9,2,6,6,1,20006,1,20006,100,2,<10>,<5;15;20;30;40>,20006,1,75,
+60931,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_2.png,9,3,1,7,1,30001,1,30001,100,3,<10>,<5;15;20;30;40>,30001,2,150,
+60932,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_2.png,9,3,2,8,1,30002,1,30002,100,3,<10>,<5;15;20;30;40>,30002,2,150,
+60933,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_2.png,9,3,3,9,1,30003,1,30003,100,3,<10>,<5;15;20;30;40>,30003,2,150,
+60934,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_2.png,9,3,4,10,1,30004,1,30004,100,3,<10>,<5;15;20;30;40>,30004,2,150,
+60935,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_2.png,9,3,5,11,1,30005,1,30005,100,3,<10>,<5;15;20;30;40>,30005,2,150,
+60936,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_2.png,9,3,6,12,1,30006,1,30006,100,3,<10>,<5;15;20;30;40>,30006,2,150,
+60941,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_3.png,9,4,1,13,2,40001,1,40001,100,4,<10>,<5;15;20;30;40;50>,40001,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60942,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_3.png,9,4,2,14,2,40002,1,40002,100,4,<10>,<5;15;20;30;40;50>,40002,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60943,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_3.png,9,4,3,15,2,40003,1,40003,100,4,<10>,<5;15;20;30;40;50>,40003,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60944,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_3.png,9,4,4,16,2,40004,1,40004,100,4,<10>,<5;15;20;30;40;50>,40004,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60945,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_3.png,9,4,5,17,2,40005,1,40005,100,4,<10>,<5;15;20;30;40;50>,40005,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60946,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_3.png,9,4,6,18,2,40006,1,40006,100,4,<10>,<5;15;20;30;40;50>,40006,3,300,{drawcard=zi_effect_loop;gain=zi_effect_loop}
+60951,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_4.png,9,5,1,19,2,50001,1,50001,100,5,<10>,<5;15;20;30;40;50>,50001,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60952,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_4.png,9,5,2,20,2,50002,1,50002,100,5,<10>,<5;15;20;30;40;50>,50002,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60953,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_4.png,9,5,3,21,2,50003,1,50003,100,5,<10>,<5;15;20;30;40;50>,50003,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60954,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_4.png,9,5,4,22,2,50004,1,50004,100,5,<10>,<5;15;20;30;40;50>,50004,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60955,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_4.png,9,5,5,23,2,50005,1,50005,100,5,<10>,<5;15;20;30;40;50>,50005,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60956,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_4.png,9,5,6,24,2,50006,1,50006,100,5,<10>,<5;15;20;30;40;50>,50006,4,1500,{drawcard=huang_effect_loop;gain=huang_effect_loop}
+60961,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_5.png,9,6,1,25,2,60001,2,60001,100,6,<10;30>,<5;15;20;30;40;50;60>,60001,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60962,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_5.png,9,6,2,26,2,60002,2,60002,100,6,<10;30>,<5;15;20;30;40;50;60>,60002,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60963,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_5.png,9,6,3,27,2,60003,2,60003,100,6,<10;30>,<5;15;20;30;40;50;60>,60003,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60964,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_5.png,9,6,4,28,2,60004,2,60004,100,6,<10;30>,<5;15;20;30;40;50;60>,60004,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60965,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_5.png,9,6,5,29,2,60005,2,60005,100,6,<10;30>,<5;15;20;30;40;50;60>,60005,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}
+60966,Sacrifice,獻祭,Sacrifice,404,400404,config/chip/icon_kz_3_5.png,9,6,6,30,2,60006,2,60006,100,6,<10;30>,<5;15;20;30;40;50;60>,60006,5,7500,{drawcard=hong_effect_loop;gain=hong_effect_loop}

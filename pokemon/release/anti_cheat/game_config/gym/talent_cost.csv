@@ -1,0 +1,9 @@
+﻿﻿变量名,cost1,cost2,cost3,cost4,cost5
+默认值,{},{},{},{},{}
+等级,消耗点数1,消耗点数2,消耗点数3,消耗点数4,消耗点数5
+0,{gym_talent_point=15},{gym_talent_point=20},{gym_talent_point=25},{gym_talent_point=30},{gym_talent_point=40}
+1,{gym_talent_point=5},{gym_talent_point=10},{gym_talent_point=15},{gym_talent_point=20},{gym_talent_point=30}
+2,{gym_talent_point=5},{gym_talent_point=10},{gym_talent_point=15},{gym_talent_point=20},{gym_talent_point=30}
+3,{gym_talent_point=5},{gym_talent_point=10},{gym_talent_point=15},{gym_talent_point=20},{gym_talent_point=30}
+4,{gym_talent_point=5},{gym_talent_point=10},{gym_talent_point=15},{gym_talent_point=20},{gym_talent_point=30}
+5,{gym_talent_point=5},{gym_talent_point=10},{gym_talent_point=15},{gym_talent_point=20},{gym_talent_point=30}

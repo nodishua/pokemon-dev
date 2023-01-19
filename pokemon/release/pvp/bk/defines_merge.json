@@ -1,0 +1,117 @@
+{
+  "pvpmerge.dev.1": {
+    "debug": true, 
+    "nsqd_tcp_addresses": [
+      "192.168.1.125:4150", 
+      "192.168.1.125:4140"
+    ], 
+    "nsqlookupd": "http://192.168.1.125:4161/", 
+    "services": [
+      {
+        "alias": [
+          "pvp.dev.2", 
+          "pvp.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "pvpmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "clone.dev.2", 
+          "clone.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "clonemerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "arena.dev.2", 
+          "arena.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "arenamerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "union.dev.2", 
+          "union.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "unionmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "union_fight.dev.2", 
+          "union_fight.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1", 
+          "gamemerge.dev.1", 
+          "anticheat"
+        ], 
+        "name": "union_fightmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "craft.dev.2", 
+          "craft.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1", 
+          "gamemerge.dev.1", 
+          "anticheat"
+        ], 
+        "name": "craftmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "yyhuodong.dev.2", 
+          "yyhuodong.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "yyhuodongmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "card_fight.dev.2", 
+          "card_fight.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "card_fightmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "gym.dev.2", 
+          "gym.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1", 
+          "gamemerge.dev.1"
+        ], 
+        "name": "gymmerge.dev.1"
+      }, 
+      {
+        "alias": [
+          "hunting.dev.2", 
+          "hunting.dev.6"
+        ], 
+        "dependent": [
+          "storagemerge.dev.1"
+        ], 
+        "name": "huntingmerge.dev.1"
+      }
+    ]
+  }
+}

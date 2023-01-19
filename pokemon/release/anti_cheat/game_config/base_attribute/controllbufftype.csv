@@ -1,0 +1,12 @@
+变量名,controllBuffType,_beizhu,_buffGroup,unlock
+默认值,,,,TRUE
+ID,buff类型,备注,buff组,是否开启
+1,stun,dizziness,21,
+2,sleepy,to sleep,22,
+3,confusion,confusion,23,
+4,silence,silence,24,
+5,sneer,provocative,25,
+6,freeze,frozen,26,
+7,leave,leave,,FALSE
+8,changeImage,Transform image,,FALSE
+9,kongju,fear,29,

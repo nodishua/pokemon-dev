@@ -1,0 +1,10 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,rechargeID,huodongID,originalPrice,logo,res,desc,desc_en,desc_kr,icon
+默认值,,,,,,,,0,,,"""""","""""","""""",""""""
+ID,名称,名称,名称,名称_越南,名称_韩,充值ID,活动版本,原价,商品角标（0:折扣 1:热 2:限 3:新）,经验值资源,富文本显示,富文本显示,富文本显示,图标资源路径
+,,,,,,,,,,,,,,
+1,Deluxe Edition Pass,豪華版通行證,404,404,404,106,1010,198,,,,,,
+2,Deluxe Edition Pass,豪華版通行證,404,404,404,109,2001,788,,,,,,
+3,Deluxe Edition Pass,豪華版通行證,404,404,404,109,3001,788,,,,,,
+4,Deluxe Edition Pass,豪華版通行證,404,404,404,109,4001,788,,,,,,
+5,Deluxe Edition Pass,豪華版通行證,404,404,404,109,1001,788,,,,,,
+6,Deluxe Edition Pass,豪華版通行證,404,404,404,108,4010,588,,,,,,

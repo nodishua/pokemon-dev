@@ -1,0 +1,28 @@
+{
+  "crosslobby.cn.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": [],
+        "name": "crosslobby.cn.1"
+      }
+    ]
+  },
+  "crosslobby.cn_qd.1": {
+    "nsqd_tcp_addresses": [
+      "172.16.2.14:4150",
+      "172.16.2.86:4150"
+    ],
+    "nsqlookupd": "http://172.16.2.14:4161/",
+    "services": [
+      {
+        "dependent": [],
+        "name": "crosslobby.cn_qd.1"
+      }
+    ]
+  }
+}

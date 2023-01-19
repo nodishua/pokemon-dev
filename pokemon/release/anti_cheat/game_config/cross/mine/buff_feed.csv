@@ -1,0 +1,7 @@
+变量名,_beizhu,costCoin13,feedExp,roleFeedAward,serverFeedAward,dayFeedTimesLimit,feedVip
+默认值,,,,,,,0
+序号,备注,消耗的资源数,喂养经验,个人喂养奖励,全服喂养奖励,每日喂养次数上限,喂养的vip需求
+1,,400,50,{gold=7500},{gold=5000},5,
+2,,1000,100,{gold=15000},{gold=10000},5,
+3,,2500,200,{gold=30000},{gold=20000},5,
+4,,6000,400,{gold=60000},{gold=40000},5,5

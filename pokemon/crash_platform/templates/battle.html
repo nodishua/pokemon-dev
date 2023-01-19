@@ -1,0 +1,120 @@
+{% extends "dashboard.html" %}
+
+{% block head %}
+	<style>
+		.p {
+			margin-left: 15px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="row m-head">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3"><h4>War report query <h4></div>
+	</div>
+
+	<div class="well">
+		<div class="row">
+			<div class="form-group col-lg-2 col-md-3 col-sm-4">
+				<div class="input-group date form-date">
+					<input id="s-time" type="text" class="form-control input-sm" placeholder="Start time selection">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+		        </div>
+			</div>
+			<span class="pull-left"><strong>至</strong></span>
+			<div class="form-group col-lg-2 col-md-3 col-sm-4">
+				<div class="input-group date form-date">
+					<input id="e-time" type="text" class="form-control input-sm" placeholder="End time selection">
+					<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+		        </div>
+			</div>
+			<div class="pull-left p" style="width: 51px;">
+				<button id="query" class="form-control input-sm btn-success" type="button">Inquire</button>
+			</div>			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="well">
+				<table id="battle-table"></table>
+			</div>
+		</div>
+	</div>
+
+{% end %}
+
+{% block foot %}
+	<script>
+		var Columns = [
+		{field: "id", title: "serial number"},
+		{field: "serv_key", title: "Region server"},
+		{field: "play_id", title: "PlayId"},
+		{field: "type", title: "Type"},
+		{field: "ident", title: "error description"},
+		{field: "report_time", title: "Report time"},
+			{field: "op", title: "", formatter: function(value, row, index) {
+				return `<a href="/battle_log?type=download&play_id=${row.play_id}" download="${row.type}_${row.play_id}.play">download</a>`
+			}},
+		]
+
+		$(function() {
+			$("div.sidebar ul.nav a").each(function(){
+		        $(this).removeClass("s-active")
+		    });
+		    $("#battle-show").addClass("s-active");
+	    	initDatetimePicker();
+	    	paddingInputDate($("#s-time"));
+	    	paddingInputDate($("#e-time"));
+
+	    	$("#query").on("click", function() {
+	    		var stime = $('#s-time').val();
+		    	var etime = $('#e-time').val();
+		    	if (!stime || !etime) {
+		    		alert('Please determine a time period.');
+		    		return;
+		    	}
+
+		    	$('#battle-table').bootstrapTable("destroy")
+		    	$('#battle-table').bootstrapTable({
+			        url: '/battle_log',
+			        method: 'post',
+			        dataType: "json",
+			        striped: false,
+			        pagination: true,
+			        sidePagination: "server",
+			        pageNumber: 1,
+			        pageSize: 10,
+			        pageList: [20, 30, 40, 50],
+			        sortName: "report_time",
+			        sortOrder: -1,
+			        classes: "table table-hover table-no-bordered",
+			        columns: Columns,
+			        detailView: true,
+        			detailFormatter: function(index, row) {
+        				return `<pre>${row.traceback}</pre>`
+        			},
+			        queryParams: function(params) {
+			            params.stime = stime
+			            params.etime = etime
+			            return params
+			        },
+			        responseHandler: function(res) {
+			            return {
+			                "total": res.total,
+			                "rows": res.rows,
+			                "limit": res.limit,
+			                "offset": res.offset,
+			            }
+			        },
+			        onClickRow:function (row, ele) {
+	                    console.log(row, ele)
+	                },
+			        
+			    });
+
+	    	})
+		    
+		})
+	</script>
+{% end %}

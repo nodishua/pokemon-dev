@@ -1,0 +1,20 @@
+﻿"﻿变量名",name,name_tw,name_en,name_vn,name_kr,needExp,rateUp,weight1,weight2,weight3
+默认值,"""""","""""","""""","""""","""""",0,1,0,0,0
+等级,捕捉等级名称,捕捉等级名称,捕捉等级名称,捕捉等级名称,捕捉等级名称_韩,升级经验,获得成功率加成（乘法）,普通球权值1,高级球权值,大师球权值
+,,,,,,,,,,
+1,Amateur Catcher,見習捕捉者,Amateur Catcher,Người bắt nghiệp dư,수습 포획자,200,1,0,0.06,0.2
+2,Rookie Catcher,入門捕捉者,Rookie Catcher,Rookie Catcher,루키 포획자,500,1.03,0,0.06,0.2
+3,Beginner Catcher,初級捕捉者,Beginner Catcher,Người mới bắt đầu,초급 포획자,800,1.06,0,0.06,0.2
+4,Rising Catcher,新銳捕捉者,Rising Catcher,Rising Catcher,신예 포획자,1200,1.09,0,0.06,0.2
+5,Intermediate Catcher,中級捕捉者,Intermediate Catcher,Người bắt trung gian,중급 포획자,1800,1.12,0,0.06,0.2
+6,Skillful Catcher,熟練捕捉者,Skillful Catcher,Người bắt khéo léo,숙련 포획자,2500,1.15,0,0.06,0.2
+7,Advanced Catcher,高級捕捉者,Advanced Catcher,Advanced Catcher,고급 포획자,4000,1.18,0,0.06,0.2
+8,All-round Catcher,全能捕捉者,All-round Catcher,Catcher toàn diện,만능 포획자,6000,1.21,0,0.06,0.2
+9,Super Catcher,特級捕捉者,Super Catcher,Super Catcher,특급 포획자,8000,1.24,0,0.06,0.2
+10,Expert Catcher,捕捉達人,Expert Catcher,Chuyên gia bắt,포획의 달인,10000,1.27,0,0.06,0.2
+11,Expert Catcher,捕捉專家,Expert Catcher,Chuyên gia bắt,포획 전문가,12000,1.3,0,0.06,0.2
+12,Grandmaster Catcher,捕捉宗師,Grandmaster Catcher,Grandmaster Catcher,포획 그랜드마스터,14000,1.33,0,0.06,0.2
+13,Master Catcher,捕捉大師,Master Catcher,Master Catcher,포획 마스터,16000,1.36,0,0.06,0.2
+14,Legendary Catcher Ⅰ,傳奇捕捉者Ⅰ,Legendary Catcher Ⅰ,Catcher huyền thoại Ⅰ,전설의 포획자 Ⅰ,18000,1.39,0,0.06,0.2
+15,Legendary Catcher Ⅱ,傳奇捕捉者Ⅱ,Legendary Catcher Ⅱ,Catcher huyền thoại Ⅱ,전설의 포획자 Ⅱ,20000,1.42,0,0.06,0.2
+16,Legendary Catcher Ⅲ,傳奇捕捉者Ⅲ,Legendary Catcher Ⅲ,Catcher huyền thoại Ⅲ,전설의 포획자 Ⅲ,99999999,1.45,0,0.06,0.2

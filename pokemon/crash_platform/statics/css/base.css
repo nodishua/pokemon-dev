@@ -1,0 +1,72 @@
+.navbar-nav > li > a,
+.navbar-header > a {
+    height: 65px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #ffffff!important;
+}
+
+.navbar-fixed-top {
+    background-color: #318cf5;
+    border-style: none;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    width: 160px;
+    height: 100%;
+    background-color: #2b2f33;
+}
+
+.sidebar > ul > li > a {
+    display: inline-block;
+    color: #6f7a83;
+    height: 60px;
+    width: 160px;
+    line-height: 40px;
+}
+
+.sidebar > ul > li > a:hover {
+    color: #f2ecec;
+    background-color: #1f2226;
+}
+
+.sidebar > ul > li > a:focus {
+    background-color: transparent;
+}
+
+.s-active {
+	color: #f2ecec!important;
+    background-color: #1f2226!important;
+}
+
+
+.container-fluid-bc {
+    background-color: #ebebeb;
+    margin-top: 65px;
+    margin-left: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.m-head {
+    margin-top: 25px;
+}
+
+.well {
+    background-color: #ffffff;
+}
+
+#app-logo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#app-logo > div {
+    padding-top: 5px;
+    color: #f2ecec;
+}

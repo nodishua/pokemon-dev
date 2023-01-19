@@ -1,0 +1,8 @@
+﻿"﻿变量名",type,desc,desc_tw,desc_en,desc_vn,desc_kr,score,scoreUp,award,limitTime,choiceNum
+默认值,,"""""","""""","""""","""""","""""",0,<>,{},15,4
+ID,问题类型(1-文本问答难度Ⅰ;2-文本问答难度Ⅱ;3-文本问答难度Ⅲ;4-看图问答;5-小游戏),描述,描述,描述,描述,描述,积分分值,答题时间积分衰减,奖励,限制时间,选项个数
+1,1,Text Q&A Difficulty 1,文本問答難度1,Text Q&A Difficulty 1,404,404,10,<<0;2;1>;<2;5;0.9>;<5;10;0.7>;<10;15;0.5>>,{libs=<21001>;gold=10000},,
+2,2,Text Q&A Difficulty 2,文本問答難度2,Text Q&A Difficulty 2,404,404,20,<<0;2;1>;<2;5;0.9>;<5;10;0.7>;<10;15;0.5>>,{libs=<21001>;gold=10000},,
+3,3,Text Q&A Difficulty 3,文本問答難度3,Text Q&A Difficulty 3,404,404,30,<<0;2;1>;<2;5;0.9>;<5;10;0.7>;<10;15;0.5>>,{libs=<21001>;gold=10000},,
+4,4,Look at the picture answer this question,看圖問答,Look at the picture answer this question,404,404,30,<<0;2;1>;<2;5;0.9>;<5;10;0.7>;<10;15;0.5>>,{libs=<21001>;gold=10000},,
+5,5,Fun game,小遊戲,Fun game,404,404,50,<<0;2;1>;<2;5;0.9>;<5;10;0.7>;<10;15;0.5>>,{libs=<21001>;gold=10000},,

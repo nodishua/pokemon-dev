@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href={{ static_url("css/login.css") }}>
+{% end %}
+
+{% block title %}
+    <title>Platform-login page</title>
+{% end %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <form class="form-horizontal" id="form" onsubmit="return checkForm()" method="post">
+                    {% module xsrf_form_html() %}
+                    <span class="heading" style="color: #00b4ef; ">TJ collapse platform</span>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="用户名或电子邮件" name="account">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="form-group help">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="密　码" name="password">
+                        <i class="fa fa-lock"></i>
+                        <a href="#" class="fa fa-question-circle"></a>
+                    </div>
+                    <div>
+                        <strong><span id="error" style="color: red;">{{ error }}</span></strong>
+                    </div>
+                    <div class="form-group">
+                        <div class="main-checkbox">
+                            <input type="checkbox" value="None" id="checkbox1" name="check"/>
+                            <label for="checkbox1"></label>
+                        </div>
+                        <span class="text" style="color: grey;">Remember the account password</span>
+                        <button type="submit" class="btn btn-default">Log in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% end %}
+
+{% block foot %}
+    <script>
+        if (!window.localStorage) {
+            alert("Do not support LocalStorage, remember the account password function failure!")
+        } else {
+            var storage = window.localStorage;
+            var a = storage.getItem("account");
+            var p = storage.getItem("password");
+            if (a && p) {
+                $("#inputEmail3").val(a);
+                $("#inputPassword3").val(p);
+                $("#checkbox1").attr("checked", true);
+            } else {
+                console.log("no exit account")
+            }
+
+            $("button").on("click", function() {
+                var checked = $("#checkbox1").is(":checked")
+                if (checked) {
+                    storage.setItem("account", $("#inputEmail3").val());
+                    storage.setItem("password", $("#inputPassword3").val());
+                } else {
+                    storage.removeItem("account");
+                    storage.removeItem("password");
+                }
+            })
+        }
+
+        function checkForm() {
+            if($("#inputEmail3").val() == "") {
+                $("#error").text("Username can not be empty");
+                return false;
+            }
+            else if($("#inputPassword3") == "") {
+                $("#error").text("password can not be blank");
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+{% end %}

@@ -1,0 +1,57 @@
+变量名,_beizhu1,easyEffectFunc,overlayType,overlayLimit
+默认值,,buff1,0,999999
+ID,功能说明,直接触发效果，不需要用节点控制的，buff添加上时就会直接触发。格式：funcName。比如填加某项属性，可以直接写属性的名字，在process中填写对应的值。,叠加覆盖规则，0:叠加 1:唯一 2:同buffid刷新,叠加上限
+,,,,
+,,,,
+,,,,
+,,,,
+1,to sleep,sleepy,,
+2,The percentage of free control probability is increased,immuneControlAdd,,
+3,Control probability percentage increase,controlPerAdd,,
+4,Increased chance of avoiding control,immuneControlVal,,
+5,Increased control probability,controlPerVal,,
+6,dizziness,stun,,
+7,silence,silence,,
+8,resurrection,reborn,,
+9,avoid death,keepHpUnChanged,,
+10,lock blood,lockHp,,
+11,invisibility,stealth,,
+12,deprecate,stealthIgnore,,
+13,leave,leave,,
+14,fight together,syncAttack,,
+15,invitation to battle,inviteAttack,,
+16,Transform attribute buff,transformAttrBuff,,
+17,Ignore special buffs,ignoreSpecBuff,,
+18,delayed damage,delayDamage,,
+19,frozen,freeze,,
+20,change image,changeImage,,
+21,Co-op and other weight corrections,extraSkillWeightValueFix,,
+22,Get an extra turn immediately,atOnceBattleRound,,
+23,fight back,counterAttack,,
+24,Will be in,damgeMustHit,,
+25,weather,weather,1,1
+26,shield,shield,,
+27,new departure,depart,,
+28,direct victory,directWin,,
+29,confusion,confusion,,
+30,Disable extra attacks,banExtraAttack,,
+31,ridicule,sneer,2,1
+32,Modify game open data,opGameData,,1
+33,Immune to damage,immuneDamage,,
+34,Immune to damage,immuneAllDamage,,
+35,Immune to damage,immuneSpecialDamage,,
+36,Immune to damage,immunePhysicalDamage,,
+37,Change the temporary attribute value of the damage process,alterDmgRecordVal,,
+38,Modify all attributes proportionally,changeScaleAttrs,1,1
+39,lethal protection,lethalProtect,,
+40,Forbidden,lockResumeHp,,
+41,heal conversion damage,healTodamage,,
+42,Change buff lifetime,changeBuffLifeRound,,
+43,overflow rage save,mp1OverFlow,,1
+44,Transform into an enemy unit,changeToRandEnemyObj,,1
+45,Interrupt charge,breakCharging,,
+46,Replace sprite nature properties,changeObjNature,,
+47,Replace sprite skill attributes,changeSkillNature,,
+48,sharing of damage,damageAllocate,,
+49,Protect,protection,,
+50,prophet,prophet,,1

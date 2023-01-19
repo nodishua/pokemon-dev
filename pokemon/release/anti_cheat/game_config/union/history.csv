@@ -1,0 +1,11 @@
+﻿"﻿变量名",fmt,fmt_tw,fmt_en,fmt_kr
+默认值,"""""","""""","""""",""""""
+ID,描述字符串,描述字符串,描述字符串,描述字符串_韩
+1,#C0x5C9970#%s#C0x5B545B# Joined Guild,#C0x5C9970#%s#C0x5B545B#加入公會,#C0x5C9970#%s#C0x5B545B# Joined Guild,#C0x5C9970#%s#C0x5B545B# 님이 길드에 가입했습니다.
+2,#C0x5C9970#%s#C0x5B545B# Quit ot of Guild,#C0x5C9970#%s#C0x5B545B#退出公會,#C0x5C9970#%s#C0x5B545B# Quit ot of Guild,#C0x5C9970#%s#C0x5B545B# 님이 길드를 탈퇴했습니다.
+3,#C0x5C9970#%s#C0x5B545B# was Kicked out of Guild by #C0x5C9970#%s#C0x5B545B#,#C0x5C9970#%s#C0x5B545B#被#C0x5C9970#%s#C0x5B545B#踢出公會,#C0x5C9970#%s#C0x5B545B# was Kicked out of Guild by #C0x5C9970#%s#C0x5B545B#,#C0x5C9970#%s#C0x5B545B# 님이 #C0x5C9970#%s#C0x5B545B# 님에 의해 길드에서 추방되었습니다.
+4,#C0x5C9970#%s#C0x5B545B# is promoted to Vice Leader,#C0x5C9970#%s#C0x5B545B#晉級為副會長,#C0x5C9970#%s#C0x5B545B# is promoted to Vice Leader,#C0x5C9970#%s#C0x5B545B# 님이 부회장이 되었습니다.
+5,#C0x5C9970#%s#C0x5B545B# is demoted to Member,#C0x5C9970#%s#C0x5B545B#降級為會員,#C0x5C9970#%s#C0x5B545B# is demoted to Member,#C0x5C9970#%s#C0x5B545B# 님이 회원으로 강등되었습니다.
+6,#C0x5C9970#%s#C0x5B545B# transfer Leader to#C0x5C9970#%s,#C0x5C9970#%s#C0x5B545B#轉讓會長給#C0x5C9970#%s,#C0x5C9970#%s#C0x5B545B# transfer Leader to#C0x5C9970#%s,#C0x5C9970#%s#C0x5B545B# 님이 회장 직위를 #C0x5C9970#%s 님에게 양도했습니다.
+7,#C0x5C9970#%s#C0x5B545B# is selected as new leader,#C0x5C9970#%s#C0x5B545B#被選拔為新任會長,#C0x5C9970#%s#C0x5B545B# is selected as new leader,#C0x5C9970#%s#C0x5B545B# 님이 신임 회장이 되었습니다.
+8,#C0x5C9970#%s#C0x5B545B# approved #C0x5C9970#%s#C0x5B545B# to join the Guild,#C0x5C9970#%s#C0x5B545B#批准#C0x5C9970#%s#C0x5B545B#加入公會,#C0x5C9970#%s#C0x5B545B# approved #C0x5C9970#%s#C0x5B545B# to join the Guild,#C0x5C9970#%s#C0x5B545B# 님이 #C0x5C9970#%s#C0x5B545B# 님의 길드 가입을 승인했습니다.

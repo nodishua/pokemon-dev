@@ -1,0 +1,14 @@
+变量名,beginDate,beginTime,endDate,endTime,clientParam,clientParam_kr,clientParam_en,clientParam_vn,clientParam_tw
+默认值,20160101,500,20990101,500,{},{},{},{},{}
+ID,开始日期,开始时间,截止日期,截止时间,客户端需要参数,客户端需要参数,客户端需要参数,客户端需要参数,客户端需要参数
+,,,,,,,,,
+1,20220116,,20220214,,{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel}
+2,20220426,,20220809,,{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel}
+3,20220810,,20221027,,{loginSpine=login/denglu_qiuji.skel},{loginSpine=login/denglu_qiuji.skel},{loginSpine=login/denglu_qiuji.skel},{loginSpine=login/denglu_qiuji.skel},{loginSpine=login/denglu_qiuji.skel}
+4,20221028,,20221217,,{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel}
+5,20221216,,20230101,,{loginSpine=login/changjing.skel},{loginSpine=login/changjing.skel},{loginSpine=login/changjing.skel},{loginSpine=login/changjing.skel},{loginSpine=login/changjing.skel}
+6,20230102,,20230301,,{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel},{loginSpine=login/chunjiedenglu.skel}
+7,20230326,,20230405,,{loginSpine=login/znqdl.skel},{loginSpine=login/login.skel},{loginSpine=login/login.skel},{loginSpine=login/login.skel},{loginSpine=login/login.skel}
+8,20230501,,20230701,,{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel}
+9,20230701,,20230901,,{loginSpine=login/xjyd.skel},{loginSpine=login/xjyd.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel},{loginSpine=login/51denglutu.skel}
+10,20231025,,20231112,,{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel},{loginSpine=login/wsj_denglu.skel}

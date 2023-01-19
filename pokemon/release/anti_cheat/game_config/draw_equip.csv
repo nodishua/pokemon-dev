@@ -1,0 +1,89 @@
+变量名,drawType,_comment,drawTriggerType,drawTriggerTimes,weightStart,weightEnd,effectLimit,startCount,probInit,probStep,probLimit,probMiniTimes,probEffectInterval,lotteryType1,lotteryWeight1,lotteryType2,lotteryWeight2,lotteryType3,lotteryWeight3,lotteryType4,lotteryWeight4,lotteryType5,lotteryWeight5,lotteryType6,lotteryWeight6,lotteryType7,lotteryWeight7,lotteryType8,lotteryWeight8,lotteryType9,lotteryWeight9,lotteryType10,lotteryWeight10
+默认值,,,2,0,0,0,0,0,0,0.01,0.2,30,50,{},0,{},0,{},0,{},0,{},0,{},0,{},0,{},0,{},0,{},0
+ID,抽取类型,类型注释,抽取触发类型(0从X次开始;1权值累加;2概率触发;3每X次;4第X次),抽取次数条件,权值上限,权值下限,生效次数上限,开始次数,概率初值,概率递增,概率上限,概率保底次数,概率生效间隔,产出类型1,产出类型1权重,产出类型2,产出类型2权重,产出类型3,产出类型3权重,产出类型4,产出类型4权重,产出类型5,产出类型5权重,产出类型6,产出类型6权重,产出类型7,产出类型7权重,产出类型8,产出类型8权重,产出类型9,产出类型9权重,产出类型10,产出类型10权重
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,rmb1,The first single draw - the first draw of jewelry star props,3,1,,,,,,,,,,{150=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,rmb1,The first single draw - 40~50 times must get accessories awakening props,2,40,,,1,40,0.1,0.01,0.5,10,99999,{151=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+11,rmb1,The first single draw - 50~60 times will give purple carrying props,2,30,,,1,50,0.1,0.03,0.5,10,99999,{162=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+12,rmb1,Every ten consecutive draws - there must be accessories and star upgrade props,3,10,,,,,,,,,,{150=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+13,rmb1,The first single draw - the first draw of jewelry star props,4,1,,,1,,,,,,,{150=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+14,rmb1,Regular single draw - base output,0,2,,,,,,,,,,{152=1},45,{153=1},15,{154=1},15,{160=1},15,{161=1},5,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,rmb1,regular single draw,0,2,0,0,0,0,,,,,,{5001=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+,rmb10,10 consecutive for the first time,0,1,0,0,1,0,,,,,,{5004=1;5001=9},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+,rmb10,Regular 10 companies,0,2,0,0,0,0,,,,,,{5002=1;5001=9},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+,rmb1,orange for the first time,4,30,0,0,0,0,,,,,,{5005=1},100,,0,,0,,0,,0,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+51,rmb10,Ten in a row - purple carrying props - follow-up with normal probability - 15 times,1,10,0.04,0.09,,19,,,,,,{150=1;162=1;152=4;153=1;154=2;160=1},100,{150=1;162=1;152=4;153=2;154=1;160=1},100,{150=1;162=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+52,rmb10,Ten in a row - purple carrying props - out about 18 times after the fourth,1,10,0.08,0.15,1,11,,,,,,{150=1;162=1;152=4;153=1;154=2;160=1},100,{150=1;162=1;152=4;153=2;154=1;160=1},100,{150=1;162=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+53,rmb10,Ten consecutive - out of purple carrying props - out about 9 times after the fourth time,1,10,0.2,0.3,1,5,,,,,,{150=1;162=1;152=4;153=1;154=2;160=1},100,{150=1;162=1;152=4;153=2;154=1;160=1},100,{150=1;162=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+54,rmb10,Ten companies - purple carrying props - the fourth must be out,1,10,1,1,1,4,,,,,,{150=1;162=1;152=4;153=1;154=2;160=1},100,{150=1;162=1;152=4;153=2;154=1;160=1},100,{150=1;162=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+61,rmb10,Ten in a row - Accessory Awakening Materials - Subsequent Normal Probability - 11 Times,1,10,0.06,0.12,,14,,,,,,{150=1;151=1;152=4;153=1;154=2;160=1},100,{150=1;151=1;152=4;153=2;154=1;160=1},100,{150=1;151=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+62,rmb10,Ten companies - Awakening materials for accessories - about 14 times after the fourth time,1,10,0.1,0.2,1,7,,,,,,{150=1;151=1;152=4;153=1;154=2;160=1},100,{150=1;151=1;152=4;153=2;154=1;160=1},100,{150=1;151=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+63,rmb10,Ten companies - Awakening materials for accessories - about 5 times after the third time,1,10,0.2,0.3,1,3,,,,,,{150=1;151=1;152=4;153=1;154=2;160=1},100,{150=1;151=1;152=4;153=2;154=1;160=1},100,{150=1;151=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+64,rmb10,Ten companies - out of accessories awakening materials - the second must be out,1,10,1,1,1,2,,,,,,{150=1;151=1;152=4;153=1;154=2;160=1},100,{150=1;151=1;152=4;153=2;154=1;160=1},100,{150=1;151=1;152=5;153=1;154=1;160=1},100,,0,,0,,0,,0,,0,,0,,0
+65,rmb10,regular ten,0,1,,,,,,,,,,{150=1;152=4;153=2;154=2;160=1},100,{150=1;152=4;153=1;154=2;160=1;161=1},100,{150=1;152=4;153=1;154=3;160=1},100,{150=1;152=5;153=1;154=2;160=1},100,{150=1;152=5;153=2;154=1;160=1},100,{150=1;152=5;153=1;154=1;160=1;161=1},100,{150=1;152=5;153=1;154=2;161=1},100,{150=1;152=4;153=1;154=3;160=1},0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,recharge_wheel_180011,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{20001=1},100,{20002=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+102,recharge_wheel_1197,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+103,recharge_wheel_1277,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+104,recharge_wheel_1357,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+105,recharge_wheel_1487,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+106,recharge_wheel_1540,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+107,recharge_wheel_1617,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+108,recharge_wheel_1670,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+109,recharge_wheel_1737,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+110,recharge_wheel_1790,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+111,recharge_wheel_1837,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+112,recharge_wheel_1870,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+113,recharge_wheel_1917,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+114,recharge_wheel_1960,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+115,recharge_wheel_2007,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+116,recharge_wheel_2070,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+117,recharge_wheel_2107,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+118,recharge_wheel_2130,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+119,recharge_wheel_2217,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+120,recharge_wheel_2240,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+121,recharge_wheel_2287,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+122,recharge_wheel_2330,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+123,recharge_wheel_2367,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+124,recharge_wheel_2410,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+125,recharge_wheel_2467,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+126,recharge_wheel_2500,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+127,recharge_wheel_2567,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+128,recharge_wheel_2600,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+129,recharge_wheel_2667,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+130,recharge_wheel_2690,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+131,recharge_wheel_2737,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+132,recharge_wheel_2790,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+133,recharge_wheel_2847,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+134,recharge_wheel_2870,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+135,recharge_wheel_2937,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+136,recharge_wheel_2960,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+137,recharge_wheel_3017,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+138,recharge_wheel_3060,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+139,recharge_wheel_3107,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+140,recharge_wheel_3140,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+141,recharge_wheel_3187,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+142,recharge_wheel_3260,Recharge Wheel - Gold Coins,0,1,0,0,0,0,,,,,,{10023=1},100,{10023=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+143,recharge_wheel_3317,Recharge Big Turntable-Diamond,0,1,0,0,0,0,,,,,,{10022=1},100,{10022=1},1,,0,,0,,0,,0,,0,,0,,0,,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+201,liveness_wheel1_180013,Active Treasure Hunting,0,1,0,0,0,0,,,,,,{20011=1},100,{20012=1},10,,0,,0,,0,,0,,0,,0,,0,,0
+202,liveness_wheel5_180013,Active Treasure Hunting,0,1,,,,,,,,,,{20011=5},100,{20011=4;20012=1},1,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+301,liveness_wheel1_1131,Active Treasure Hunting,0,1,0,0,0,0,,,,,,{10021=1},100,{10021=1},100,,0,,0,,0,,0,,0,,0,,0,,0
+302,liveness_wheel5_1131,Active Treasure Hunting,0,1,,,,,,,,,,{10021=5},100,{10021=5},100,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+311,liveness_wheel1_1462,May Day Active Treasure Hunting,0,1,0,0,0,0,,,,,,{10021=1},100,{10021=1},100,,0,,0,,0,,0,,0,,0,,0,,0
+312,liveness_wheel5_1462,May Day Active Treasure Hunting,0,1,,,,,,,,,,{10021=5},100,{10021=5},100,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+321,liveness_wheel1_2052,National Day Active Treasure Hunting,0,1,0,0,0,0,,,,,,{10021=1},100,{10021=1},100,,0,,0,,0,,0,,0,,0,,0,,0
+322,liveness_wheel5_2052,National Day Active Treasure Hunting,0,1,,,,,,,,,,{10021=5},100,{10021=5},100,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+331,liveness_wheel1_2520,Active Treasure Hunting in the Spring Festival,0,1,0,0,0,0,,,,,,{10021=1},100,{10021=1},100,,0,,0,,0,,0,,0,,0,,0,,0
+332,liveness_wheel5_2520,Active Treasure Hunting in the Spring Festival,0,1,,,,,,,,,,{10021=5},100,{10021=5},100,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+341,liveness_wheel1_3270,National Day Active Treasure Hunting,0,1,0,0,0,0,,,,,,{10021=1},100,{10021=1},100,,0,,0,,0,,0,,0,,0,,0,,0
+342,liveness_wheel5_3270,National Day Active Treasure Hunting,0,1,,,,,,,,,,{10021=5},100,{10021=5},100,,,,,,,,,,,,,,,,

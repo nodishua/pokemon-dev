@@ -1,0 +1,18 @@
+变量名,type,param1,param2,param3,_beizhu
+默认值,0,”“,”“,0,""""""
+ID,效果类型,参数1,参数2,参数3,备注
+1,1,5,,,Efficiency+x/hour
+2,1,5%,,,Efficiency+x%/hour
+3,2,5,,4,Increments every hour and stays the same after 4 hours
+4,3,50,,,inventory increase
+5,4,,,,Unlimited stock
+6,5,2,,,Stamina consumption reduction applies to all
+7,6,2,3,4,< use param1 within 4 hours; > use param2 after 4 hours
+8,7,10%,,,Reduce the energy consumption of elves by X%
+9,8,10%,,,Reduce base manufacturing order time by X%
+10,9,5%,,,The number of common drops this time is increased by 5%
+11,10,5%,10%,2,"When the exploration degree reaches stage 2, the number of ordinary drops will increase by 10%, otherwise it will be calculated by increasing by 5%"
+12,11,10%,,,"Exploration time is shortened by 10%. If there are multiple time-shortening effects in the team, only the highest effect will be used"
+13,12,5,,,This action point reduces consumption by 5 points
+14,13,5,10,1,"Action value reduction consumes 5 points, and when exploring in 1 area {exploration map setting 1}, it will reduce 10 points"
+15,14,10%,,,Reduces energy consumption of exploring spirits by 10%

@@ -1,0 +1,33 @@
+变量名,_beizhu1,resPath,tintBlack
+默认值,,,FALSE
+ID,功能说明,资源路径,是否开启tintBlack
+,,,
+,,,
+1,Reshiram - Disappears before the Firewall,buff/laixilamu_buff/laixilamu_buff.skel,TRUE
+2,Regichkas,koudai_leijiqikasi/hero_leijiqikasi.skel,TRUE
+3,Palkia,koudai_paluqiya/hero_paluqiya.skel,TRUE
+4,Rashiram,koudai_laixilamu/hero_laixilamu.skel,TRUE
+5,Geometric Snowflake Skin,koudai_jihexuehua_shengdanpifu/hero_jihexuehua_shengdanpifu.skel,TRUE
+6,Tianxi skin,koudai_dianxi_shengdanpifu/hero_dianxi_shengdanpifu.skel,TRUE
+7,Giratina,koudai_qiladina/hero_qiladina.skel,TRUE
+8,Phoenix King,koudai_fengwang/hero_fengwang.skel,TRUE
+9,Mew-two,koudai_chaomeng/hero_chaomeng.skel,TRUE
+10,Gulardo,koudai_guladuo/hero_guladuo.skel,TRUE
+11,frozen bird,koudai_jidongniao/hero_jidongniao.skel,TRUE
+12,lightning bird,koudai_shandianniao/hero_shandianniao.skel,TRUE
+13,flame bird,koudai_huoyanniao/hero_huoyanniao.skel,TRUE
+14,Thunder God,koudai_leigong/hero_leigong.skel,TRUE
+15,Yandi,koudai_yandi/hero_yandi.skel,TRUE
+16,Suicune,koudai_shuijun/hero_shuijun.skel,TRUE
+17,burning bug,koudai_ranshaochong/hero_ranshaochong.skel,TRUE
+18,Vulcan Moth,koudai_huoshene/hero_huoshene.skel,TRUE
+19,Dumbie,koudai_dubeibi/hero_dubeibi.skel,TRUE
+20,Tetragnathus,koudai_siezhenlong/hero_siezhenlong.skel,TRUE
+21,Fossil pterosaur,koudai_huashiyilong/hero_huashiyilong.skel,TRUE
+22,Kyurem Ice Shield Special Effects,buff/qiuleimu_buff/qlm_effect.skel,TRUE
+23,Zhipi,koudai_xiaozhibanpikaqiu/hero_xiaozhibanpikaqiu.skel,TRUE
+24,Coppaluong,koudai_goupaluweng/hero_goupaluweng.skel,TRUE
+25,Super crack empty seat scene,koudai_liekongzuo_mega/hero_liekongzuo_mega.skel,TRUE
+26,Shaking spots,koudai_huanghuangban/hero_huanghuangban.skel,TRUE
+27,lucario skin,koudai_lukaliou_pifu/hero_lukaliou_pifu.skel,TRUE
+28,flame monkey,koudai_lieyanhou/hero_lieyanhou.skel,TRUE

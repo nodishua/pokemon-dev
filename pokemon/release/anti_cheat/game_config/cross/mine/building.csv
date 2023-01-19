@@ -1,0 +1,14 @@
+变量名,rank,res
+默认值,<>,<>
+ID,排名区间,建筑资源
+1,<1;2>,"<""city/pvp/cross_mine/build/img_gaoji_1.png"">"
+2,<2;3>,"<""city/pvp/cross_mine/build/img_gaoji_2.png"">"
+3,<3;4>,"<""city/pvp/cross_mine/build/img_gaoji_3.png"">"
+4,<4;5>,"<""city/pvp/cross_mine/build/img_gaoji_4.png"">"
+5,<5;6>,"<""city/pvp/cross_mine/build/img_gaoji_5.png"">"
+6,<6;7>,"<""city/pvp/cross_mine/build/img_gaoji_6.png"">"
+7,<7;8>,"<""city/pvp/cross_mine/build/img_gaoji_7.png"">"
+8,<8;9>,"<""city/pvp/cross_mine/build/img_gaoji_8.png"">"
+9,<9;10>,"<""city/pvp/cross_mine/build/img_gaoji_9.png"">"
+10,<10;11>,"<""city/pvp/cross_mine/build/img_gaoji_10.png"">"
+11,<11;99999>,"<""city/pvp/cross_mine/build/img_pt_1.png"";""city/pvp/cross_mine/build/img_pt_2.png"";""city/pvp/cross_mine/build/img_pt_3.png"";""city/pvp/cross_mine/build/img_pt_4.png"";""city/pvp/cross_mine/build/img_pt_5.png"";""city/pvp/cross_mine/build/img_pt_6.png"";""city/pvp/cross_mine/build/img_pt_7.png"";""city/pvp/cross_mine/build/img_pt_8.png"";""city/pvp/cross_mine/build/img_pt_9.png"";""city/pvp/cross_mine/build/img_pt_10.png"";""city/pvp/cross_mine/build/img_pt_11.png"";""city/pvp/cross_mine/build/img_pt_12.png"";""city/pvp/cross_mine/build/img_pt_13.png"";""city/pvp/cross_mine/build/img_pt_14.png"">"

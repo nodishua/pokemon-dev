@@ -1,0 +1,1318 @@
+﻿"﻿变量名",huodongID,costMap,items,exchangeTimes,limit,desc,desc_tw,desc_en
+默认值,0,{},{},0,{},"""""","""""",""""""
+ID,活动版本ID,消耗道具,兑换道具,兑换限制次数0无限,兑换限制(1-vip;2-等级;3-图鉴;4-头像;5-皮肤),描述,描述,描述
+1,10001,{gold=100;rmb=11},{gold=1},10,,Test Event,測試活動,Test Event
+2,10001,{gold=100;rmb=13},{gold=1},5,,Test Event,測試活動,Test Event
+3,10001,{gold=100;rmb=13},{gold=1},4,,Test Event,測試活動,Test Event
+4,10001,{gold=100;rmb=15},{gold=1},4,,Test Event,測試活動,Test Event
+5,10001,{gold=100;rmb=16},{gold=1},4,,Test Event,測試活動,Test Event
+6,10001,{gold=100;rmb=18},{gold=1},4,,Test Event,測試活動,Test Event
+7,10001,{gold=109},{gold=1},4,,Test Event,測試活動,Test Event
+8,10001,{gold=111},{gold=1},4,,Test Event,測試活動,Test Event
+,,,,,,,,
+11,10002,{gold=100;rmb=11},{gold=1},10,,Test Event,測試活動,Test Event
+12,10002,{gold=100;rmb=13},{gold=1},5,,Test Event,測試活動,Test Event
+13,10002,{gold=100;rmb=13},{gold=1},4,,Test Event,測試活動,Test Event
+14,10002,{gold=100;rmb=15},{gold=1},4,,Test Event,測試活動,Test Event
+15,10002,{gold=100;rmb=16},{gold=1},4,,Test Event,測試活動,Test Event
+16,10002,{gold=100;rmb=18},{gold=1},4,,Test Event,測試活動,Test Event
+17,10002,{gold=109},{gold=1},4,,Test Event,測試活動,Test Event
+18,10002,{gold=111},{gold=1},4,,Test Event,測試活動,Test Event
+,,,,,,,,
+101,1001,{6321=1},{2300=1},1,{4=900},Christmas Exclusive Avatar,耶誕節專屬頭像,404
+102,1001,{6321=10},{2008=1},1,,Christmas exclusive title box,耶誕節專屬稱號框,404
+103,1001,{6321=10},{2400=1},1,,christmas title,耶誕節稱號,404
+104,1001,{6321=10},{talent_point=2},3,,talent point*2,天賦點*2,404
+105,1001,{6321=1},{515=1},5,,Stamina Potion (Medium)*1,體力藥水(中)*1,404
+106,1001,{6321=1},{502=1},8,,Universal Ascension Fragment*1,萬能升星碎片*1,404
+107,1001,{6321=1},{501=1},3,,Awakening Alloy*1,覺醒合金*1,404
+108,1001,{6321=1},{rmb=388},1,,Diamond*388,鑽石*388,404
+109,1001,{6321=1},{519=10},1,,Card Draw Coupon*10,抽卡券*10,404
+110,1001,{6321=1},{503=10},1,,Ornament key*5,飾品鑰匙*5,404
+111,1001,{6321=1},{520=5},1,,Explorer Draw Card*5,探險器抽卡*5,404
+112,1001,{6321=1},{gold=100000},30,,Gold coin*10w,金幣*10w,404
+113,1001,{6321=1},{930=8},30,,Crystal box*5,晶石盒子*5,404
+114,1001,{6321=10},{2102=2},30,,Blue Carry Enhancement*2,藍攜帶強化*2,404
+115,1001,{6321=10},{5000=8},30,,Energy Potion*5,能量藥劑*5,404
+116,1001,{6321=100},{902=1},30,,Purple favorability gift*1,紫色好感度禮物*1,404
+117,1001,{6321=1},{850=20},30,,Blue Potential Stone*30,藍色潛能石*30,404
+118,1001,{6321=1000},{8000=1},1,{5=101},Cryogonal·Christmas Shadow,幾何雪花·聖誕魔影,Cryogonal·Christmas Shadow
+119,1001,{6321=1000},{8008=1},1,{5=105},Street Fighter Scizor,街頭拳手·巨鉗螳螂,Street Fighter Scizor
+120,1001,{6321=500},{card={id=11}},1,{3=11},Charmander,小火龍,Charmander
+,,,,,,,,
+,10012,{gold=50000},{611=10},5,,Gold* 50K Exchange Spar Box* 10,金幣*5W   兌換   晶石盒子*10,Gold* 50K Exchange Spar Box* 10
+,10012,{gold=30000},{5000=10},10,,Energy Potion,金幣*3W   兌換   能量藥劑*10,Energy Potion
+,10012,{gold=100000},{504=10},3,,Gold* 100K Exchange Soul Fight Essence,金幣*10W   兌換   鬥魂精華*10,Gold* 100K Exchange Soul Fight Essence
+,10012,{rmb=600},{411=150},3,,Diamond* 600 Exchange Source of Divine Weapon* 150,鑽石*600   兌換   神器能量之魂*150,Diamond* 600 Exchange Source of Divine Weapon* 150
+,10012,{rmb=600},{603=20},3,,Diamond* 600 Exchange Giftpack (Mix)*20,鑽石*600   兌換   紫色禮物盒子*20,Diamond* 600 Exchange Giftpack (Mix)*20
+,10012,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10012,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10012,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10012,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10012,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10012,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10012,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10012,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10012,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10012,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10012,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,10012,{rmb=280},{560=1},1,,Diamond* 280 Exchange  Reborn Stone (Adv)* 3,鑽石*280   兌換   進階重生石*1,Diamond* 280 Exchange  Reborn Stone (Adv)* 3
+,10012,{rmb=280},{561=1},1,,Diamond* 280 Exchange  Skill  Reborn Stone* 1,鑽石*280   兌換   技能重生石*1,Diamond* 280 Exchange  Skill  Reborn Stone* 1
+,10012,{rmb=280},{562=1},1,,Diamond* 280 Exchange  Soul Fight  Reborn Stone* 1,鑽石*280   兌換   鬥魂重生石*1,Diamond* 280 Exchange  Soul Fight  Reborn Stone* 1
+,10012,{rmb=280},{563=1},1,,Diamond* 280 Exchange  Equip.  Reborn Stone* 1,鑽石*280   兌換   裝備重生石*1,Diamond* 280 Exchange  Equip.  Reborn Stone* 1
+,,,,,,,,
+,10013,{gold=50000},{611=10},5,,Gold* 50K Exchange Spar Box* 10,金幣*5W   兌換   晶石盒子*10,Gold* 50K Exchange Spar Box* 10
+,10013,{gold=30000},{5000=10},10,,Energy Potion,金幣*3W   兌換   能量藥劑*10,Energy Potion
+,10013,{gold=100000},{504=10},3,,Gold* 100K Exchange Soul Fight Essence,金幣*10W   兌換   鬥魂精華*10,Gold* 100K Exchange Soul Fight Essence
+,10013,{rmb=600},{411=150},3,,Diamond* 600 Exchange Source of Divine Weapon* 150,鑽石*600   兌換   神器能量之魂*150,Diamond* 600 Exchange Source of Divine Weapon* 150
+,10013,{rmb=600},{603=20},3,,Diamond* 600 Exchange Giftpack (Mix)*20,鑽石*600   兌換   紫色禮物盒子*20,Diamond* 600 Exchange Giftpack (Mix)*20
+,10013,{rmb=280},{560=1},1,,Diamond* 280 Exchange  Reborn Stone (Adv)* 3,鑽石*280   兌換   進階重生石*1,Diamond* 280 Exchange  Reborn Stone (Adv)* 3
+,10013,{rmb=280},{561=1},1,,Diamond* 280 Exchange  Skill  Reborn Stone* 1,鑽石*280   兌換   技能重生石*1,Diamond* 280 Exchange  Skill  Reborn Stone* 1
+,10013,{rmb=280},{562=1},1,,Diamond* 280 Exchange  Soul Fight  Reborn Stone* 1,鑽石*280   兌換   鬥魂重生石*1,Diamond* 280 Exchange  Soul Fight  Reborn Stone* 1
+,10013,{rmb=280},{563=1},1,,Diamond* 280 Exchange  Equip.  Reborn Stone* 1,鑽石*280   兌換   裝備重生石*1,Diamond* 280 Exchange  Equip.  Reborn Stone* 1
+,,,,,,,,
+,10014,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10014,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10014,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10014,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10014,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10014,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10014,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10014,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10014,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10014,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10014,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10015,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10015,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10015,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10015,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10015,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10015,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10015,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10015,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10015,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10015,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10015,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10050,{rmb=8},{gold=100000},3,,Diamond* 8 Exchange Gold* 100K,鑽石*8   兌換   金幣*100000,Diamond* 8 Exchange Gold* 100K
+,10050,{rmb=18},{520=1},2,,Diamond* 18 Exchange DigiChest Key*1,鑽石*18   兌換   數碼寶箱鑰匙*1,Diamond* 18 Exchange DigiChest Key*1
+,10050,{rmb=38},{502=1},2,,Diamond*3 8 Exchange General Shard*1,鑽石*38   兌換   萬能碎片*1,Diamond*3 8 Exchange General Shard*1
+,10050,{rmb=88},{501=1},1,,Diamond* 88 Exchange Awaken Digizoid*1,鑽石*88   兌換   覺醒合金*1,Diamond* 88 Exchange Awaken Digizoid*1
+,10050,{rmb=188},{603=20},1,,Diamond* 188 Exchange Giftpack (Purple)*20,鑽石*188   兌換   紫色禮物盒子*20,Diamond* 188 Exchange Giftpack (Purple)*20
+,10050,{gold=8800},{611=10},2,,Gold* 8800 Exchange Spar Chest* 10,金幣*8800   兌換   晶石盒子*10,Gold* 8800 Exchange Spar Chest* 10
+,10050,{gold=18800},{5000=30},2,,Gold* 18800 Exchange Energy Potion*30,金幣*18800   兌換   能量藥劑*30,Gold* 18800 Exchange Energy Potion*30
+,10050,{gold=28800},{504=10},2,,Gold* 28800 Exchange Soul Fight Essence*10,金幣*28800   兌換   鬥魂精華*10,Gold* 28800 Exchange Soul Fight Essence*10
+,10050,{gold=38800},{411=30},2,,Gold* 38800 Exchange Source of Divine Weapon*30,金幣*38800   兌換   神器能量之魂*30,Gold* 38800 Exchange Source of Divine Weapon*30
+,10050,{gold=58800},{604=10},2,,Gold* 58800 Exchange Giftpack (Mix)*10,金幣*58800   兌換   經典禮物盒子*10,Gold* 58800 Exchange Giftpack (Mix)*10
+,,,,,,,,
+,10051,{rmb=8},{gold=100000},9,,Diamond* 8 Exchange Gold* 100K,鑽石*8   兌換   金幣*100000,Diamond* 8 Exchange Gold* 100K
+,10051,{rmb=18},{520=1},6,,Diamond* 18 Exchange DigiChest Key*1,鑽石*18   兌換   數碼寶箱鑰匙*1,Diamond* 18 Exchange DigiChest Key*1
+,10051,{rmb=38},{502=1},6,,Diamond*3 8 Exchange General Shard*1,鑽石*38   兌換   萬能碎片*1,Diamond*3 8 Exchange General Shard*1
+,10051,{rmb=88},{501=1},3,,Diamond* 88 Exchange Awaken Digizoid*1,鑽石*88   兌換   覺醒合金*1,Diamond* 88 Exchange Awaken Digizoid*1
+,10051,{rmb=188},{603=20},3,,Diamond* 188 Exchange Giftpack (Purple)*20,鑽石*188   兌換   紫色禮物盒子*20,Diamond* 188 Exchange Giftpack (Purple)*20
+,10051,{gold=8800},{611=10},6,,Gold* 8800 Exchange Spar Chest* 10,金幣*8800   兌換   晶石盒子*10,Gold* 8800 Exchange Spar Chest* 10
+,10051,{gold=18800},{5000=30},6,,Gold* 18800 Exchange Energy Potion*30,金幣*18800   兌換   能量藥劑*30,Gold* 18800 Exchange Energy Potion*30
+,10051,{gold=28800},{504=10},6,,Gold* 28800 Exchange Soul Fight Essence*10,金幣*28800   兌換   鬥魂精華*10,Gold* 28800 Exchange Soul Fight Essence*10
+,10051,{gold=38800},{411=30},6,,Gold* 38800 Exchange Source of Divine Weapon*30,金幣*38800   兌換   神器能量之魂*30,Gold* 38800 Exchange Source of Divine Weapon*30
+,10051,{gold=58800},{604=10},6,,Gold* 58800 Exchange Giftpack (Mix)*10,金幣*58800   兌換   經典禮物盒子*10,Gold* 58800 Exchange Giftpack (Mix)*10
+,,,,,,,,
+,10052,{gold=80000},{807=1},1,,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1,金幣*8W   兌換   古代甲蟲獸皮膚（3天）*1,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1
+,10052,{rmb=280},{808=1},1,,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1,鑽石*280   兌換   古代甲蟲獸皮膚（7天）*1,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1
+,10052,{rmb=2280},{809=1},1,,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1,鑽石*2280   兌換   古代甲蟲獸皮膚（永久）*1,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1
+,10052,{gold=100000},{801=1},1,,Gold* 100K Exchange SkullGreymon Skin (3 Days),金幣*10W   兌換   喪屍暴龍獸皮膚（3天）*1,Gold* 100K Exchange SkullGreymon Skin (3 Days)
+,10052,{rmb=380},{802=1},1,,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1,鑽石*380   兌換   喪屍暴龍獸皮膚（7天）*1,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1
+,10052,{rmb=2880},{803=1},1,,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1,鑽石*2880   兌換   喪屍暴龍獸皮膚（永久）*1,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1
+,10052,{rmb=280},{560=1},1,,Diamond* 280 Exchange  Reborn Stone (Adv)* 3,鑽石*280   兌換   進階重生石*1,Diamond* 280 Exchange  Reborn Stone (Adv)* 3
+,10052,{rmb=280},{561=1},1,,Diamond* 280 Exchange  Skill  Reborn Stone* 1,鑽石*280   兌換   技能重生石*1,Diamond* 280 Exchange  Skill  Reborn Stone* 1
+,10052,{rmb=280},{562=1},1,,Diamond* 280 Exchange  Soul Fight  Reborn Stone* 1,鑽石*280   兌換   鬥魂重生石*1,Diamond* 280 Exchange  Soul Fight  Reborn Stone* 1
+,10052,{rmb=280},{563=1},1,,Diamond* 280 Exchange  Equip.  Reborn Stone* 1,鑽石*280   兌換   裝備重生石*1,Diamond* 280 Exchange  Equip.  Reborn Stone* 1
+,10052,{rmb=18},{gold=200000},5,,Diamond* 8 Exchange Gold* 100K,鑽石*18   兌換   金幣*200000,Diamond* 8 Exchange Gold* 100K
+,10052,{rmb=28},{520=1},3,,Diamond* 18 Exchange DigiChest Key*1,鑽石*28   兌換   數碼寶箱鑰匙*1,Diamond* 18 Exchange DigiChest Key*1
+,10052,{rmb=58},{502=1},3,,Diamond*3 8 Exchange General Shard*1,鑽石*58   兌換   萬能碎片*1,Diamond*3 8 Exchange General Shard*1
+,10052,{rmb=108},{501=1},2,,Diamond* 88 Exchange Awaken Digizoid*1,鑽石*108   兌換   覺醒合金*1,Diamond* 88 Exchange Awaken Digizoid*1
+,10052,{rmb=208},{603=20},2,,Diamond* 188 Exchange Giftpack (Purple)*20,鑽石*208   兌換   紫色禮物盒子*20,Diamond* 188 Exchange Giftpack (Purple)*20
+,10052,{gold=8800},{611=10},5,,Gold* 8800 Exchange Spar Chest* 10,金幣*8800   兌換   晶石盒子*10,Gold* 8800 Exchange Spar Chest* 10
+,10052,{gold=18800},{5000=30},5,,Gold* 18800 Exchange Energy Potion*30,金幣*18800   兌換   能量藥劑*30,Gold* 18800 Exchange Energy Potion*30
+,10052,{gold=28800},{504=10},5,,Gold* 28800 Exchange Soul Fight Essence*10,金幣*28800   兌換   鬥魂精華*10,Gold* 28800 Exchange Soul Fight Essence*10
+,10052,{gold=38800},{411=30},5,,Gold* 38800 Exchange Source of Divine Weapon*30,金幣*38800   兌換   神器能量之魂*30,Gold* 38800 Exchange Source of Divine Weapon*30
+,10052,{gold=58800},{604=10},5,,Gold* 58800 Exchange Giftpack (Mix)*10,金幣*58800   兌換   經典禮物盒子*10,Gold* 58800 Exchange Giftpack (Mix)*10
+,,,,,,,,
+,10053,{gold=200000},{810=1},1,,Gold* 200K Exchange MetalGarurumon X Skin (3 Days)* 1,金幣*20W   兌換   鋼鐵加魯魯X皮膚（3天）*1,Gold* 200K Exchange MetalGarurumon X Skin (3 Days)* 1
+,10053,{rmb=480},{811=1},1,,Diamond* 480 Exchange MetalGarurumon XSkin (7 Days)* 1,鑽石*480   兌換   鋼鐵加魯魯X皮膚（7天）*1,Diamond* 480 Exchange MetalGarurumon XSkin (7 Days)* 1
+,10053,{rmb=4880},{812=1},1,,Diamond* 4880 Exchange MetalGarurumon X (permanent)* 1,鑽石*4880   兌換   鋼鐵加魯魯X皮膚（永久）*1,Diamond* 4880 Exchange MetalGarurumon X (permanent)* 1
+,10053,{gold=50000},{611=10},5,,Gold* 50K Exchange Spar Box* 10,金幣*5W   兌換   晶石盒子*10,Gold* 50K Exchange Spar Box* 10
+,10053,{gold=30000},{5000=10},10,,Energy Potion,金幣*3W   兌換   能量藥劑*10,Energy Potion
+,10053,{gold=100000},{504=10},3,,Gold* 100K Exchange Soul Fight Essence,金幣*10W   兌換   鬥魂精華*10,Gold* 100K Exchange Soul Fight Essence
+,10053,{rmb=600},{411=150},3,,Diamond* 600 Exchange Source of Divine Weapon* 150,鑽石*600   兌換   神器能量之魂*150,Diamond* 600 Exchange Source of Divine Weapon* 150
+,10053,{rmb=600},{603=20},3,,Diamond* 600 Exchange Giftpack (Mix)*20,鑽石*600   兌換   紫色禮物盒子*20,Diamond* 600 Exchange Giftpack (Mix)*20
+,10053,{coin2=1500},{560=1},1,,Trial Coin*1500 Diamond* 280 Exchange Reborn Stone (Adv)* 1,試煉幣*1500   兌換   進階重生石*1,Trial Coin*1500 Diamond* 280 Exchange Reborn Stone (Adv)* 1
+,10053,{coin2=1500},{561=1},1,,Trial Coin*1500 Exchange Skill Reborn Stone* 1,試煉幣*1500   兌換   技能重生石*1,Trial Coin*1500 Exchange Skill Reborn Stone* 1
+,10053,{coin2=1500},{562=1},1,,Trial Coin*1500 Exchange Soul Fight  Reborn Stone* 1,試煉幣*1500   兌換   鬥魂重生石*1,Trial Coin*1500 Exchange Soul Fight  Reborn Stone* 1
+,10053,{coin2=1500},{563=1},1,,Trial Coin*1500 Exchange Equip.  Reborn Stone* 1,試煉幣*1500   兌換   裝備重生石*1,Trial Coin*1500 Exchange Equip.  Reborn Stone* 1
+,,,,,,,,
+,10054,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10054,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10054,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10054,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10054,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10054,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10054,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10054,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10054,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10054,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10054,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10055,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10055,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10055,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10055,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10055,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10055,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10055,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10055,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10055,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10055,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10055,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10056,{150=1},{531=100},1,,Brawler Ring's Soul* 1 Exchange Ring Essence* 100,格鬥家指環之魂*1   兌換   指環能量精華*100,Brawler Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{151=1},{531=100},1,,Dark Lord Ring's Soul* 1 Exchange Ring Essence* 100,暗領主指環之魂*1   兌換   指環能量精華*100,Dark Lord Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{152=1},{531=100},1,,Analyst Ring's Soul* 1 Exchange Ring Essence* 100,分析師指環之魂*1   兌換   指環能量精華*100,Analyst Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{153=1},{531=100},1,,Magician Ring's Soul* 1 Exchange Ring Essence* 100,魔術師指環之魂*1   兌換   指環能量精華*100,Magician Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{154=1},{531=100},1,,Blasting Expert Ring's Soul* 1 Exchange Ring Essence* 100,爆破師指環之魂*1   兌換   指環能量精華*100,Blasting Expert Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{155=1},{531=100},1,,Archangel Ring's Soul* 1 Exchange Ring Essence* 100,大天使指環之魂*1   兌換   指環能量精華*100,Archangel Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{156=1},{531=100},1,,Tank Ring's Soul* 1 Exchange Ring Essence* 100,坦克車指環之魂*1   兌換   指環能量精華*100,Tank Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{158=1},{531=100},1,,Ultra-Capable Ring's Soul* 1 Exchange Ring Essence* 100,異能者指環之魂*1   兌換   指環能量精華*100,Ultra-Capable Ring's Soul* 1 Exchange Ring Essence* 100
+,10056,{rmb=588},{531=50},2,,Diamond* 588 Exchange Ring Essence* 50,鑽石*588   兌換   指環能量精華*50,Diamond* 588 Exchange Ring Essence* 50
+,10056,{rmb=388;531=150},{150=1},1,,"Diamond*388 , Ring Essence* 150  Exchange Brawler Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   格鬥家指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange Brawler Ring's Soul* 1"
+,10056,{rmb=388;531=150},{151=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Dark Lord Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   暗領主指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Dark Lord Ring's Soul* 1"
+,10056,{rmb=388;531=150},{152=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Analyst Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   分析師指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Analyst Ring's Soul* 1"
+,10056,{rmb=388;531=150},{153=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Magician Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   魔術師指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Magician Ring's Soul* 1"
+,10056,{rmb=388;531=150},{154=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Blasting Expert Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   爆破師指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Blasting Expert Ring's Soul* 1"
+,10056,{rmb=388;531=150},{155=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Archangel Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   大天使指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Archangel Ring's Soul* 1"
+,10056,{rmb=388;531=150},{156=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Tank Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   坦克車指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Tank Ring's Soul* 1"
+,10056,{rmb=388;531=150},{158=1},1,,"Diamond*388 , Ring Essence* 150  Exchange  Ultra-Capable Ring's Soul* 1",鑽石*388 指環能量精華*150   兌換   異能者指環之魂*1,"Diamond*388 , Ring Essence* 150  Exchange  Ultra-Capable Ring's Soul* 1"
+,,,,,,,,
+,10059,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10059,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10059,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10059,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10059,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10059,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10059,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10059,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10059,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10059,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10059,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10060,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10060,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10060,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10060,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10060,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10060,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10060,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10060,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10060,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10060,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10060,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10061,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10061,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10061,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10061,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10061,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10061,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10061,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10061,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10061,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10061,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10061,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10062,{130=1},{530=100},1,,Holy Flame* 1 Exchange Digivice Essence* 100,烈焰神聖*1   兌換   神聖計畫精華*100,Holy Flame* 1 Exchange Digivice Essence* 100
+,10062,{131=1},{530=100},1,,Dark Flame Holy * 1 Exchange Digivice Essence* 100,暗焰神聖*1   兌換   神聖計畫精華*100,Dark Flame Holy * 1 Exchange Digivice Essence* 100
+,10062,{132=1},{530=100},1,,Holy Swift Wind * 1 Exchange Digivice Essence* 100,疾風神聖*1   兌換   神聖計畫精華*100,Holy Swift Wind * 1 Exchange Digivice Essence* 100
+,10062,{133=1},{530=100},1,,Holy Light * 1 Exchange Digivice Essence* 100,光芒神聖*1   兌換   神聖計畫精華*100,Holy Light * 1 Exchange Digivice Essence* 100
+,10062,{134=1},{530=100},1,,Holy Steel Armor * 1 Exchange Digivice Essence* 100,鋼甲神聖*1   兌換   神聖計畫精華*100,Holy Steel Armor * 1 Exchange Digivice Essence* 100
+,10062,{135=1},{530=100},1,,Holy Invisible Armor * 1 Exchange Digivice Essence* 100,遁甲神聖*1   兌換   神聖計畫精華*100,Holy Invisible Armor * 1 Exchange Digivice Essence* 100
+,10062,{rmb=588},{530=50},2,,Diamond*588  Exchange Digivice Essence* 50,鑽石*588   兌換   神聖計畫精華*50,Diamond*588  Exchange Digivice Essence* 50
+,10062,{rmb=388;530=150},{130=1},1,,"Diamond*388 , Digivice Essence* 150  Exchange Holy Flame* 1 ",鑽石*388 神聖計畫精華*150   兌換   烈焰神聖*1,"Diamond*388 , Digivice Essence* 150  Exchange Holy Flame* 1 "
+,10062,{rmb=388;530=150},{131=1},1,,"Diamond*388 , Digivice Essence* 150  Exchange Holy Dark Flame* 1 ",鑽石*388 神聖計畫精華*150   兌換   暗焰神聖*1,"Diamond*388 , Digivice Essence* 150  Exchange Holy Dark Flame* 1 "
+,10062,{rmb=388;530=150},{132=1},1,,"Diamond*388 , Digivice Essence* 150  Exchange Holy Swift Wind* 1 ",鑽石*388 神聖計畫精華*150   兌換   疾風神聖*1,"Diamond*388 , Digivice Essence* 150  Exchange Holy Swift Wind* 1 "
+,10062,{rmb=388;530=150},{133=1},1,,"Diamond*388 , Digivice Essence* 150  Exchange Holy Light* 1 ",鑽石*388 神聖計畫精華*150   兌換   光芒神聖*1,"Diamond*388 , Digivice Essence* 150  Exchange Holy Light* 1 "
+,10062,{rmb=388;530=150},{134=1},1,,"Diamond*388 , Digivice Essence* 150  Exchange Holy Steel Armor* 1 ",鑽石*388 神聖計畫精華*150   兌換   鋼甲神聖*1,"Diamond*388 , Digivice Essence* 150  Exchange Holy Steel Armor* 1 "
+,10062,{rmb=388;530=150},{135=1},1,,"Diamond*388 , Digivice Essence* 150  Exchange Holy Invisible Armor * 1 ",鑽石*388 神聖計畫精華*150   兌換   遁甲神聖*1,"Diamond*388 , Digivice Essence* 150  Exchange Holy Invisible Armor * 1 "
+,,,,,,,,
+,10063,{rmb=180},{21001=3},2,,Diamond* 180 Exchange Agumon Shard* 3,鑽石*180   兌換   亞古獸碎片*3,Diamond* 180 Exchange Agumon Shard* 3
+,10063,{rmb=180},{21002=3},2,,Diamond* 180 Exchange  Garurumon* 3,鑽石*180   兌換   加魯魯獸碎片*3,Diamond* 180 Exchange  Garurumon* 3
+,10063,{rmb=180},{21004=3},2,,Diamond* 180 Exchange  Birdramon* 3,鑽石*180   兌換   巴朵拉獸碎片*3,Diamond* 180 Exchange  Birdramon* 3
+,10063,{rmb=180},{21011=3},2,,Diamond* 180 Exchange  Ankylomon* 3,鑽石*180   兌換   戰甲獸碎片*3,Diamond* 180 Exchange  Ankylomon* 3
+,10063,{rmb=180},{21015=3},2,,Diamond* 180 Exchange  Kyubimon* 3,鑽石*180   兌換   九尾狐獸碎片*3,Diamond* 180 Exchange  Kyubimon* 3
+,10063,{rmb=180},{21022=3},2,,Diamond* 180 Exchange  Wizardmon* 3,鑽石*180   兌換   巫師獸碎片*3,Diamond* 180 Exchange  Wizardmon* 3
+,10063,{rmb=180},{21033=3},2,,Diamond* 180 Exchange  Loweemon* 3,鑽石*180   兌換   黑獅獸碎片*3,Diamond* 180 Exchange  Loweemon* 3
+,10063,{rmb=180},{21028=3},2,,Diamond* 180 Exchange  Reppamon* 3,鑽石*180   兌換   裂波獸碎片*3,Diamond* 180 Exchange  Reppamon* 3
+,10063,{rmb=240},{21031=3},1,,Diamond* 180 Exchange  Beetlemon* 3,鑽石*240   兌換   電光獸碎片*3,Diamond* 180 Exchange  Beetlemon* 3
+,10063,{rmb=240},{21026=3},1,,Diamond* 180 Exchange  Gaogamon Shard* 3,鑽石*240   兌換   伽奧伽獸碎片*3,Diamond* 180 Exchange  Gaogamon Shard* 3
+,10063,{rmb=240},{21023=3},1,,Diamond* 180 Exchange  Agnimon Shard* 3,鑽石*240   兌換   火神獸碎片*3,Diamond* 180 Exchange  Agnimon Shard* 3
+,,,,,,,,
+,10101,{gold=100000},{801=1},1,,Gold* 100K Exchange SkullGreymon Skin (3 Days),金幣*10W   兌換   喪屍暴龍獸皮膚（3天）*1,Gold* 100K Exchange SkullGreymon Skin (3 Days)
+,10101,{rmb=380},{802=1},1,,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1,鑽石*380   兌換   喪屍暴龍獸皮膚（7天）*1,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1
+,10101,{rmb=2880},{803=1},1,,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1,鑽石*2880   兌換   喪屍暴龍獸皮膚（永久）*1,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1
+,10101,{gold=80000},{807=1},1,,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1,金幣*8W   兌換   古代甲蟲獸皮膚（3天）*1,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1
+,10101,{rmb=280},{808=1},1,,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1,鑽石*280   兌換   古代甲蟲獸皮膚（7天）*1,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1
+,10101,{rmb=2280},{809=1},1,,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1,鑽石*2280   兌換   古代甲蟲獸皮膚（永久）*1,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1
+,10101,{gold=60000},{816=1},1,,Gold* 60K Exchange Rosemon Burst Mode Skin (3 Days)* 1,金幣*6W  兌換   爆裂薔薇獸皮膚（3天）*1,Gold* 60K Exchange Rosemon Burst Mode Skin (3 Days)* 1
+,10101,{rmb=180},{817=1},1,,Diamond* 180 Exchange Rosemon Burst Mode Skin (7 Days)* 1,鑽石*180  兌換  爆裂薔薇獸皮膚（7天）*1,Diamond* 180 Exchange Rosemon Burst Mode Skin (7 Days)* 1
+,10101,{rmb=1680},{818=1},1,,Diamond* 1680 Exchange Rosemon Burst Mode Skin (Permanent)* 1,鑽石*1680  兌換  爆裂薔薇獸皮膚（永久）*1,Diamond* 1680 Exchange Rosemon Burst Mode Skin (Permanent)* 1
+,,,,,,,,
+,10103,{gold=100000},{801=1},1,,Gold* 100K Exchange SkullGreymon Skin (3 Days),金幣*10W   兌換   喪屍暴龍獸皮膚（3天）*1,Gold* 100K Exchange SkullGreymon Skin (3 Days)
+,10103,{rmb=380},{802=1},1,,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1,鑽石*380   兌換   喪屍暴龍獸皮膚（7天）*1,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1
+,10103,{rmb=2880},{803=1},1,,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1,鑽石*2880   兌換   喪屍暴龍獸皮膚（永久）*1,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1
+,10103,{gold=80000},{807=1},1,,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1,金幣*8W   兌換   古代甲蟲獸皮膚（3天）*1,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1
+,10103,{rmb=280},{808=1},1,,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1,鑽石*280   兌換   古代甲蟲獸皮膚（7天）*1,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1
+,10103,{rmb=2280},{809=1},1,,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1,鑽石*2280   兌換   古代甲蟲獸皮膚（永久）*1,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1
+,10103,{gold=60000},{816=1},1,,Gold* 60K Exchange Rosemon Burst Mode Skin (3 Days)* 1,金幣*6W  兌換   爆裂薔薇獸皮膚（3天）*1,Gold* 60K Exchange Rosemon Burst Mode Skin (3 Days)* 1
+,10103,{rmb=180},{817=1},1,,Diamond* 180 Exchange Rosemon Burst Mode Skin (7 Days)* 1,鑽石*180  兌換  爆裂薔薇獸皮膚（7天）*1,Diamond* 180 Exchange Rosemon Burst Mode Skin (7 Days)* 1
+,10103,{rmb=1680},{818=1},1,,Diamond* 1680 Exchange Rosemon Burst Mode Skin (Permanent)* 1,鑽石*1680  兌換  爆裂薔薇獸皮膚（永久）*1,Diamond* 1680 Exchange Rosemon Burst Mode Skin (Permanent)* 1
+,10103,{gold=120000},{822=1},1,,Gold* 120K Exchange Angewomon Priest Mode Skin (3 Days)*1,金幣*12W  兌換   神官天女皮膚（3天）*1,Gold* 120K Exchange Angewomon Priest Mode Skin (3 Days)*1
+,10103,{rmb=380},{823=1},1,,Diamond* 380 Exchange  Angewomon Priest Mode Skin (7 Days)*1,鑽石*380  兌換  神官天女皮膚（7天）*1,Diamond* 380 Exchange  Angewomon Priest Mode Skin (7 Days)*1
+,10103,{rmb=3280},{824=1},1,,Diamond* 3280 Exchange  Angewomon Priest Mode Skin (permanent)*1,鑽石*3280  兌換  神官天女皮膚（永久）*1,Diamond* 3280 Exchange  Angewomon Priest Mode Skin (permanent)*1
+,10103,{523=1},{803=1},1,,Skin Coupon* 1 Exchange SkullGreymon Skin (Permanent)* 1,皮膚兌換券*1  兌換  喪屍暴龍獸皮膚（永久）*1,Skin Coupon* 1 Exchange SkullGreymon Skin (Permanent)* 1
+,10103,{523=1},{809=1},1,,Skin Coupon* 1 Exchange AncientBeatmon Skin (Permanent)* 1,皮膚兌換券*1  兌換  古代甲蟲獸皮膚（永久）*1,Skin Coupon* 1 Exchange AncientBeatmon Skin (Permanent)* 1
+,10103,{523=1},{818=1},1,,Skin Coupon* 1 Exchange Rosemon Burst Mode Skin (Permanent)* 1,皮膚兌換券*1  兌換  爆裂薔薇獸皮膚（永久）*1,Skin Coupon* 1 Exchange Rosemon Burst Mode Skin (Permanent)* 1
+,10103,{523=1},{824=1},1,,Skin Coupon* 1 Exchange Angewomon Priest Mode Skin (Permanent)* 1,皮膚兌換券*1  兌換  神官天女皮膚（永久）*1,Skin Coupon* 1 Exchange Angewomon Priest Mode Skin (Permanent)* 1
+,10103,{523=1},{806=1},1,,Skin Coupon* 1 Exchange Priest Mode Skin (Permanent)* 1,皮膚兌換券*1  兌換  神官形態皮膚（永久）*1,Skin Coupon* 1 Exchange Priest Mode Skin (Permanent)* 1
+,10103,{523=1},{815=1},1,,Skin Coupon* 1 Exchange Gallantmon Crimson Mode (Permanent)* 1,皮膚兌換券*1  兌換  真紅蓮形態皮膚（永久）*1,Skin Coupon* 1 Exchange Gallantmon Crimson Mode (Permanent)* 1
+,,,,,,,,
+,10104,{524=1},{207=1},1,,Weapon Coupon* 1 Exchange Excalibur* 1,武器兌換券*1  兌換   神聖之劍*1,Weapon Coupon* 1 Exchange Excalibur* 1
+,10104,{524=1},{238=1},1,,Weapon Coupon* 1 Exchange Lightning Spear*1,武器兌換券*1  兌換   神聖閃電長矛*1,Weapon Coupon* 1 Exchange Lightning Spear*1
+,10104,{524=1},{246=1},1,,Weapon Coupon* 1 Exchange Trial Blade*1,武器兌換券*1  兌換   審判之劍*1,Weapon Coupon* 1 Exchange Trial Blade*1
+,10104,{524=1},{219=1},1,,Weapon Coupon* 1 Exchange Bloody Claws*1,武器兌換券*1  兌換   吸血魔爪*1,Weapon Coupon* 1 Exchange Bloody Claws*1
+,,,,,,,,
+,10105,{524=1},{207=1},1,,Weapon Coupon* 1 Exchange Excalibur* 1,武器兌換券*1  兌換   神聖之劍*1,Weapon Coupon* 1 Exchange Excalibur* 1
+,10105,{524=1},{238=1},1,,Weapon Coupon* 1 Exchange Lightning Spear*1,武器兌換券*1  兌換   神聖閃電長矛*1,Weapon Coupon* 1 Exchange Lightning Spear*1
+,10105,{524=1},{246=1},1,,Weapon Coupon* 1 Exchange Trial Blade*1,武器兌換券*1  兌換   審判之劍*1,Weapon Coupon* 1 Exchange Trial Blade*1
+,10105,{524=1},{219=1},1,,Weapon Coupon* 1 Exchange Bloody Claws*1,武器兌換券*1  兌換   吸血魔爪*1,Weapon Coupon* 1 Exchange Bloody Claws*1
+,,,,,,,,
+,10103,{339=5},{336=5},15,,Champion Seal* 5 Exchange Hope Cross* 5,王者之印*5  兌換  希望十字架*5,Champion Seal* 5 Exchange Hope Cross* 5
+,10103,{336=5},{339=5},15,,Hope Cross* 5 Exchange Champion Seal* 5,希望十字架*5  兌換  王者之印*5,Hope Cross* 5 Exchange Champion Seal* 5
+,10103,{133=1},{130=1},1,,Light Digivice* 1 Exchange Flame Digivice* 1,光芒神聖計畫*1  兌換  烈焰神聖計畫*1,Light Digivice* 1 Exchange Flame Digivice* 1
+,10103,{155=1},{152=1},1,,Archangel Ring* 1 Exchange Analyst Ring* 1,大天使指環*1  兌換  分析師指環*1,Archangel Ring* 1 Exchange Analyst Ring* 1
+,10103,{130=1},{133=1},1,,Flame Digivice* 1 Exchange Light Digivice* 1,烈焰神聖計畫*1  兌換 光芒神聖計畫*1,Flame Digivice* 1 Exchange Light Digivice* 1
+,10103,{152=1},{155=1},1,,Analyst Ring* 1 Exchange Archangel Ring* 1,分析師指環*1  兌換  大天使指環*1,Analyst Ring* 1 Exchange Archangel Ring* 1
+,,,,,,,,
+,10110,{523=1},{827=1},1,,Skin Exchange Coupon*1  Exchange for  Neo Vamdemon Skin(Perm.)*1,皮膚兌換券*1  兌換  月光吸血魔獸皮膚（永久）*1,Skin Exchange Coupon*1  Exchange for  Neo Vamdemon Skin(Perm.)*1
+,10110,{523=1},{830=1},1,,Skin Exchange Coupon*1  Exchange for  Beelzebumon Skin(Perm.)*1,皮膚兌換券*1  兌換  別西蔔獸皮膚（永久）*1,Skin Exchange Coupon*1  Exchange for  Beelzebumon Skin(Perm.)*1
+,10110,{523=1},{rmb=2280},2,,Skin Exchange Coupon*1  Exchange for  Diamond*2280,皮膚兌換券*1  兌換  鑽石*2280,Skin Exchange Coupon*1  Exchange for  Diamond*2280
+,,,,,,,,
+,10112,{gold=150000},{831=1},1,,Gold* 150K Exchange Kaiser Greymon Skin (3 Days)*1,金幣*15W  兌換   凱撒暴龍獸皮膚（3天）*1,Gold* 150K Exchange Kaiser Greymon Skin (3 Days)*1
+,10112,{rmb=480},{832=1},1,,Diamond* 480 Exchange Kaiser Greymon Skin (7 Days)*1,鑽石*480  兌換  凱撒暴龍獸皮膚（7天）*1,Diamond* 480 Exchange Kaiser Greymon Skin (7 Days)*1
+,10112,{rmb=3880},{833=1},1,,Diamond* 3880 Exchange Kaiser Greymon Skin (permanent)*1,鑽石*3880  兌換  凱撒暴龍獸皮膚（永久）*1,Diamond* 3880 Exchange Kaiser Greymon Skin (permanent)*1
+,10112,{gold=100000},{801=1},1,,Gold* 100K Exchange SkullGreymon Skin (3 Days),金幣*10W   兌換   喪屍暴龍獸皮膚（3天）*1,Gold* 100K Exchange SkullGreymon Skin (3 Days)
+,10112,{rmb=380},{802=1},1,,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1,鑽石*380   兌換   喪屍暴龍獸皮膚（7天）*1,Diamond* 280 Exchange SkullGreymon Skin (7 Days)* 1
+,10112,{rmb=2880},{803=1},1,,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1,鑽石*2880   兌換   喪屍暴龍獸皮膚（永久）*1,Diamond* 2880 Exchange SkullGreymon Skin (Foever)* 1
+,10112,{gold=80000},{807=1},1,,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1,金幣*8W   兌換   古代甲蟲獸皮膚（3天）*1,Gold* 80K Exchange AncientBeatmon Skin (3 Days)* 1
+,10112,{rmb=280},{808=1},1,,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1,鑽石*280   兌換   古代甲蟲獸皮膚（7天）*1,Diamond* 280 Exchange AncientBeatmon Skin (7 Days)* 1
+,10112,{rmb=2280},{809=1},1,,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1,鑽石*2280   兌換   古代甲蟲獸皮膚（永久）*1,Diamond* 2280 Exchange AncientBeatmon Skin (permanent)* 1
+,10112,{gold=60000},{816=1},1,,Gold* 60K Exchange Rosemon Burst Mode Skin (3 Days)* 1,金幣*6W  兌換   爆裂薔薇獸皮膚（3天）*1,Gold* 60K Exchange Rosemon Burst Mode Skin (3 Days)* 1
+,10112,{rmb=180},{817=1},1,,Diamond* 180 Exchange Rosemon Burst Mode Skin (7 Days)* 1,鑽石*180  兌換  爆裂薔薇獸皮膚（7天）*1,Diamond* 180 Exchange Rosemon Burst Mode Skin (7 Days)* 1
+,10112,{rmb=1680},{818=1},1,,Diamond* 1680 Exchange Rosemon Burst Mode Skin (Permanent)* 1,鑽石*1680  兌換  爆裂薔薇獸皮膚（永久）*1,Diamond* 1680 Exchange Rosemon Burst Mode Skin (Permanent)* 1
+,10112,{gold=120000},{822=1},1,,Gold* 120K Exchange Angewomon Priest Mode Skin (3 Days)*1,金幣*12W  兌換   神官天女皮膚（3天）*1,Gold* 120K Exchange Angewomon Priest Mode Skin (3 Days)*1
+,10112,{rmb=380},{823=1},1,,Diamond* 380 Exchange  Angewomon Priest Mode Skin (7 Days)*1,鑽石*380  兌換  神官天女皮膚（7天）*1,Diamond* 380 Exchange  Angewomon Priest Mode Skin (7 Days)*1
+,10112,{rmb=3280},{824=1},1,,Diamond* 3280 Exchange  Angewomon Priest Mode Skin (permanent)*1,鑽石*3280  兌換  神官天女皮膚（永久）*1,Diamond* 3280 Exchange  Angewomon Priest Mode Skin (permanent)*1
+,10112,{gold=200000},{810=1},1,,Gold* 200K Exchange MetalGarurumon X Skin (3 Days)* 1,金幣*20W   兌換   鋼鐵加魯魯X皮膚（3天）*1,Gold* 200K Exchange MetalGarurumon X Skin (3 Days)* 1
+,10112,{rmb=480},{811=1},1,,Diamond* 480 Exchange MetalGarurumon XSkin (7 Days)* 1,鑽石*480   兌換   鋼鐵加魯魯X皮膚（7天）*1,Diamond* 480 Exchange MetalGarurumon XSkin (7 Days)* 1
+,10112,{rmb=4880},{812=1},1,,Diamond* 4880 Exchange MetalGarurumon X (permanent)* 1,鑽石*4880   兌換   鋼鐵加魯魯X皮膚（永久）*1,Diamond* 4880 Exchange MetalGarurumon X (permanent)* 1
+,,,,,,,,
+1001,10101,{rmb=100},{20391=3},2,,Gastly,鬼斯,Gastly
+1002,10101,{rmb=100},{20491=3},2,,Rhyhorn,獨角犀牛,Rhyhorn
+1003,10101,{rmb=100},{20571=3},2,,Scyther,飛天螳螂,Scyther
+1004,10101,{rmb=100},{20631=3},2,,Gyarados,暴鯉龍,Gyarados
+1005,10101,{rmb=100},{20721=3},2,,Articuno,急凍鳥,Articuno
+1006,10101,{rmb=100},{20771=3},2,,Mew,夢幻,Mew
+1007,10101,{rmb=100},{21081=3},2,,Sneasel,狃拉,Sneasel
+1008,10101,{rmb=100},{21221=3},2,,Raikou,雷公,Raikou
+1009,10101,{rmb=100},{21251=3},2,,Larvitar,幼基拉斯,Larvitar
+1010,10101,{rmb=100},{21421=3},2,,Slakoth,懶人獺,Slakoth
+1011,10101,{rmb=100},{21841=3},2,,Absol,阿勃梭魯,Absol
+1012,10101,{rmb=100},{23021=3},2,,Cryogonal,幾何雪花,Cryogonal
+1013,10101,{rmb=100},{23301=3},2,,Froakie,呱呱泡蛙,Froakie
+1014,10101,{rmb=100},{23351=3},2,,Flabébé,花蓓蓓,Flabébé
+1015,10101,{rmb=100},{21891=3},2,,Baby Dragon Fragment,,
+1016,10101,{rmb=100},{22241=3},2,,Pieces of Riolu,,
+1017,10101,{rmb=100},{21931=3},2,,Shard of Registeel,,
+1018,10101,{rmb=100},{21911=3},2,,Shard of Reggie Locke,,
+,,,,,,,,
+1021,10102,{rmb=100},{20261=3},2,,Abra Frag,凱西碎片,Abra Frag
+1022,10102,{rmb=100},{20401=3},2,,Rock Serpent Fragment,大岩蛇碎片,404
+1023,10102,{rmb=100},{21231=3},2,,Entei Frag,炎帝碎片,Entei Frag
+1024,10102,{rmb=100},{20241=3},2,,Growlithe Frag,卡蒂狗碎片,Growlithe Frag
+1025,10102,{rmb=100},{20741=3},2,,Moltres Frag,火焰鳥碎片,Moltres Frag
+1026,10102,{rmb=100},{20601=3},2,,Magby Frag,鴨嘴寶寶碎片,Magby Frag
+1027,10102,{rmb=100},{20491=3},2,,Rhyhorn Frag,獨角犀牛碎片,Rhyhorn Frag
+1028,10102,{rmb=100},{21501=3},2,,Aron Frag,可哥朵拉碎片,Aron Frag
+1029,10102,{rmb=100},{23411=3},2,,Honedge Frag,獨劍鞘碎片,Honedge Frag
+1030,10102,{rmb=100},{20331=3},2,,Magnemite Frag,小磁怪碎片,Magnemite Frag
+1031,10102,{rmb=100},{20591=3},2,,Elekid Frag,電擊怪碎片,Elekid Frag
+1032,10102,{rmb=100},{20881=3},2,,Mareep Frag,咩利羊碎片,Mareep Frag
+1033,10102,{rmb=100},{20731=3},2,,Zapdos Frag,閃電鳥碎片,Zapdos Frag
+1034,10102,{rmb=100},{21221=3},2,,Raikou Frag,雷公碎片,Raikou Frag
+1035,10102,{rmb=100},{20711=3},2,,Snorlax Fragments,,
+1036,10102,{rmb=100},{21311=3},2,,Water Leap Fish Fragments,,
+1037,10102,{rmb=100},{23661=3},2,,Wooden Owl Fragment,,
+1038,10102,{rmb=100},{22231=3},2,,Roundland Shark Fragment,,
+,,,,,,,,
+1501,10501,{200=1},{6060=100},1,,200 Emerald Amulet,200	翡翠護符,404
+1502,10501,{201=1},{6060=100},1,,201 Amulet of Delicacy,201	精緻護符,404
+1503,10501,{202=1},{6060=100},1,,202 Communication Talisman,202	通訊護符,404
+1504,10501,{203=1},{6060=100},1,,203 Wine Talisman,203	酒紅護符,404
+1505,10501,{204=1},{6060=100},1,,204 Hexagram Amulet,204	六芒星護符,404
+1506,10501,{205=1},{6060=100},1,,205 Shining Talisman,205	閃耀護符,404
+1509,10501,{rmb=388},{6060=50},2,,Diamond*388 can be exchanged for Amulet Energy Essence*50,鑽石*388   兌換   護符能量精華*50,404
+1510,10501,{rmb=188;6060=150},{200=1},1,,200 Emerald Amulet,200	翡翠護符,404
+1511,10501,{rmb=188;6060=150},{201=1},1,,201 Amulet of Delicacy,201	精緻護符,404
+1512,10501,{rmb=188;6060=150},{202=1},1,,202 Communication Talisman,202	通訊護符,404
+1513,10501,{rmb=188;6060=150},{203=1},1,,203 Wine Talisman,203	酒紅護符,404
+1514,10501,{rmb=188;6060=150},{204=1},1,,204 Hexagram Amulet,204	六芒星護符,404
+1515,10501,{rmb=188;6060=150},{205=1},1,,205 Shining Talisman,205	閃耀護符,404
+,,,,,,,,
+1521,10502,{210=1},{6061=100},1,,210 Emerald Earrings,210	翡翠耳環,404
+1522,10502,{211=1},{6061=100},1,,211 Real Earrings,211	真質耳環,404
+1523,10502,{212=1},{6061=100},1,,212 Star and Moon Earrings,212	星月耳環,404
+1524,10502,{213=1},{6061=100},1,,213 Rouge Earrings,213	胭脂耳環,404
+1525,10502,{214=1},{6061=100},1,,214 Ocean Earrings,214	海洋耳環,404
+1526,10502,{215=1},{6061=100},1,,215 Precious Earrings,215	名貴耳環,404
+1527,10502,{rmb=388},{6061=50},2,,Diamond*388 can be exchanged for Earring Energy Essence*50,鑽石*388   兌換   耳環能量精華*50,404
+1528,10502,{rmb=188;6061=150},{210=1},1,,210 Emerald Earrings,210	翡翠耳環,404
+1529,10502,{rmb=188;6061=150},{211=1},1,,211 Real Earrings,211	真質耳環,404
+1530,10502,{rmb=188;6061=150},{212=1},1,,212 Star and Moon Earrings,212	星月耳環,404
+1531,10502,{rmb=188;6061=150},{213=1},1,,213 Rouge Earrings,213	胭脂耳環,404
+1532,10502,{rmb=188;6061=150},{214=1},1,,214 Ocean Earrings,214	海洋耳環,404
+1533,10502,{rmb=188;6061=150},{215=1},1,,215 Precious Earrings,215	名貴耳環,404
+,,,,,,,,
+1540,10503,{220=1},{6062=100},1,,220 Clover Ring,220	四葉草戒指,404
+1541,10503,{221=1},{6062=100},1,,221 Exquisite Shackles,221	精緻梏戒,404
+1542,10503,{222=1},{6062=100},1,,222 Star Moon Light Ring,222	星月光戒,404
+1543,10503,{223=1},{6062=100},1,,223 Rouge Ring,223	胭脂戒指,404
+1544,10503,{224=1},{6062=100},1,,224 Ocean Diamond Ring,224	海洋鑽戒,404
+1545,10503,{225=1},{6062=100},1,,225 Brilliant Secret Ring,225	璀璨秘戒,404
+1546,10503,{rmb=388},{6062=50},2,,Diamond*388 exchange ring energy essence*50,鑽石*388   兌換   戒指能量精華*50,404
+1547,10503,{rmb=188;6062=150},{220=1},1,,220 Clover Ring,220	四葉草戒指,404
+1548,10503,{rmb=188;6062=150},{221=1},1,,221 Exquisite Shackles,221	精緻梏戒,404
+1549,10503,{rmb=188;6062=150},{222=1},1,,222 Star Moon Light Ring,222	星月光戒,404
+1550,10503,{rmb=188;6062=150},{223=1},1,,223 Rouge Ring,223	胭脂戒指,404
+1551,10503,{rmb=188;6062=150},{224=1},1,,224 Ocean Diamond Ring,224	海洋鑽戒,404
+1552,10503,{rmb=188;6062=150},{225=1},1,,225 Brilliant Secret Ring,225	璀璨秘戒,404
+,,,,,,,,
+1560,10504,{230=1},{6063=100},1,,230 four-leaf clover necklace,230	四葉草項鍊,404
+1561,10504,{231=1},{6063=100},1,,231 Delicate Necklace,231	精緻項鍊,404
+1562,10504,{232=1},{6063=100},1,,232 Mystic Bone Necklace,232	神秘骨質項鍊,404
+1563,10504,{233=1},{6063=100},1,,233 Red Sun Silk Necklace,233	紅日絲項鍊,404
+1564,10504,{234=1},{6063=100},1,,234 Ocean Heart Necklace,234	海洋心項鍊,404
+1565,10504,{235=1},{6063=100},1,,235 Bright Star Necklace,235	璀璨星項鍊,404
+1566,10504,{rmb=388},{6063=50},2,,Diamond*388 can be exchanged for Necklace Energy Essence*50,鑽石*388   兌換   項鍊能量精華*50,404
+1567,10504,{rmb=188;6063=150},{230=1},1,,230 four-leaf clover necklace,230	四葉草項鍊,404
+1568,10504,{rmb=188;6063=150},{231=1},1,,231 Delicate Necklace,231	精緻項鍊,404
+1569,10504,{rmb=188;6063=150},{232=1},1,,232 Mystic Bone Necklace,232	神秘骨質項鍊,404
+1570,10504,{rmb=188;6063=150},{233=1},1,,233 Red Sun Silk Necklace,233	紅日絲項鍊,404
+1571,10504,{rmb=188;6063=150},{234=1},1,,234 Ocean Heart Necklace,234	海洋心項鍊,404
+1572,10504,{rmb=188;6063=150},{235=1},1,,235 Bright Star Necklace,235	璀璨星項鍊,404
+,,,,,,,,
+2001,10201,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2002,10201,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2003,10201,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2004,10201,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2005,10201,{6302=6},{21231=5},50,,Purple Shopping Coupon*6 to exchange Yandi Fragment*5,紫色購物券*6   兌換   炎帝碎片*5,404
+2006,10201,{6302=6},{21251=5},50,,Purple Shopping Coupon*6 can be exchanged for Bandieras Fragment*5,紫色購物券*6   兌換   班基拉斯碎片*5,404
+2007,10201,{6301=3;6302=3},{21171=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Deruby Fragment*3,藍色購物券*3 紫色購物券*3   兌換   戴魯比碎片*3,404
+2008,10201,{6301=3;6302=3},{21501=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange Cocoa Dora Fragments*3,藍色購物券*3 紫色購物券*3   兌換   可哥朵拉碎片*3,404
+2009,10201,{6301=5},{20801=3},50,,Blue Shopping Coupon*5 can be exchanged for Small Saw Alligator Fragment*3,藍色購物券*5   兌換   小鋸鱷碎片*3,404
+2010,10201,{6301=5},{22301=3},50,,Blue Shopping Coupon*5 can be exchanged for Snow Hat Monster Fragment*3,藍色購物券*5   兌換   雪笠怪碎片*3,404
+2011,10201,{6301=5},{22631=3},50,,Blue Shopping Coupon*5 exchanged for Carrying Artisan Fragments*3,藍色購物券*5   兌換   搬運小匠碎片*3,404
+2012,10201,{6301=5},{23431=3},50,,Blue Shopping Coupon*5 exchanged for puff puff fragments*3,藍色購物券*5   兌換   綿綿泡芙碎片*3,404
+2013,10201,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2014,10201,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2015,10201,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2016,10201,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2017,10201,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2018,10201,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2019,10201,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2020,10201,{6301=30;6302=75},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2021,10201,{6301=15;6302=45},{6050=1},2,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2030,10202,{6312=3;6313=3},{2300=1},1,,Tangyuan*3 Lantern*3 can be exchanged for Christmas Exclusive Avatar,湯圓*3 燈籠*3   兌換  耶誕節專屬頭像,404
+2031,10202,{6312=10;6313=10},{2008=1},1,,Tangyuan*10 Lantern*10 can be exchanged for Christmas Exclusive Title Box,湯圓*10 燈籠*10   兌換  耶誕節專屬稱號框,404
+2032,10202,{6312=20;6313=20},{2400=1},1,,Tangyuan*20 Lantern*20 exchange for Christmas title,湯圓*20 燈籠*20   兌換  耶誕節稱號,404
+2033,10202,{6312=2;6313=2},{talent_point=2},3,,Tangyuan*2 Lantern*2 Exchange Talent Point*2,湯圓*2 燈籠*2   兌換  天賦點*2,404
+2034,10202,{6312=2;6313=2},{515=1},5,,Tangyuan*2 Lantern*2 can be exchanged for Stamina Potion (Medium)*1,湯圓*2 燈籠*2   兌換  體力藥水(中)*1,404
+2035,10202,{6312=2;6313=2},{502=1},8,,Tangyuan*2 Lantern*2 can be exchanged for Universal Star Fragment*1,湯圓*2 燈籠*2   兌換  萬能升星碎片*1,404
+2036,10202,{6312=3;6313=3},{501=1},3,,Tangyuan*3 Lantern*3 Exchange Awakening Alloy*1,湯圓*3 燈籠*3   兌換  覺醒合金*1,404
+2037,10202,{6312=5;6313=5},{rmb=388},1,,Tangyuan*5 Lantern*5 Exchange Diamond*388,湯圓*5 燈籠*5   兌換  鑽石*388,404
+2038,10202,{6312=30;6313=30},{519=10},1,,Tangyuan*30 Lantern*30 exchanged for card draw coupon*10,湯圓*30 燈籠*30   兌換  抽卡券*10,404
+2039,10202,{6312=10;6313=10},{503=10},1,,Tangyuan*10 Lantern*10 Exchange Ornament Key*5,湯圓*10 燈籠*10   兌換  飾品鑰匙*5,404
+2040,10202,{6312=10;6313=10},{520=5},1,,Tangyuan*10 Lantern*10 Exchange Explorer Draw Card*5,湯圓*10 燈籠*10   兌換  探險器抽卡*5,404
+2041,10202,{6312=1},{gold=100000},30,,Tangyuan*1 exchanged for gold coins*10w,湯圓*1   兌換  金幣*10w,404
+2042,10202,{6312=1},{930=8},30,,Tangyuan*1 can be exchanged for spar box*5,湯圓*1   兌換  晶石盒子*5,404
+2043,10202,{6312=1},{2102=2},30,,Glutinous rice balls*1 exchange for blue carrying enhancement*2,湯圓*1   兌換  藍攜帶強化*2,404
+2044,10202,{6313=1},{5000=8},30,,Lantern*1 can be exchanged for Energy Potion*5,燈籠*1   兌換  能量藥劑*5,404
+2045,10202,{6313=1},{902=1},30,,Lantern*1 can be exchanged for Purple Favorability Gift*1,燈籠*1   兌換  紫色好感度禮物*1,404
+2046,10202,{6313=1},{850=20},30,,Lantern*1 can be exchanged for Blue Potential Stone*30,燈籠*1   兌換  藍色潛能石*30,404
+,,,,,,,,
+2050,10203,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2051,10203,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2052,10203,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2053,10203,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2054,10203,{6302=6},{20491=5},50,,Purple shopping coupon*6 can be exchanged for one-horned rhino fragments*5,紫色購物券*6   兌換   獨角犀牛碎片*5,404
+2055,10203,{6302=6},{21071=5},50,,Purple Shopping Coupon*6 can be exchanged for Heracross Fragment*5,紫色購物券*6   兌換   赫拉克羅斯碎片*5,404
+2056,10203,{6301=3;6302=3},{20571=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange Flying Mantis Fragment*3,藍色購物券*3 紫色購物券*3   兌換   飛天螳螂碎片*3,404
+2057,10203,{6301=3;6302=3},{20261=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange Casey Fragment*3,藍色購物券*3 紫色購物券*3   兌換   凱西碎片*3,404
+2058,10203,{6301=5},{23011=3},50,,Blue Shopping Coupon*5 exchanged for Sneezy Bear Fragment*3,藍色購物券*5   兌換   噴嚏熊碎片*3,404
+2059,10203,{6301=5},{23501=3},50,,Blue Shopping Coupon*5 can be exchanged for Ice Dragon Fragment*3,藍色購物券*5   兌換   冰雪龍碎片*3,404
+2060,10203,{6301=5},{20461=3},50,,Blue Shopping Coupon*5 to exchange for Dreadnought Fragment*3,藍色購物券*5   兌換   無畏小子碎片*3,404
+2061,10203,{6301=5},{23291=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,藍色購物券*5   兌換   火狐狸碎片*3,404
+2062,10203,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2063,10203,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2064,10203,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2065,10203,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2066,10203,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2067,10203,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2068,10203,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2069,10203,{6301=30;6302=75},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2070,10203,{6301=15;6302=45},{6050=1},2,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2080,10204,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2081,10204,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2082,10204,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2083,10204,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2084,10204,{6302=6},{21421=5},50,,Purple Shopping Coupon*6 can be exchanged for Lazy Otter Fragment*5,紫色購物券*6   兌換   懶人獺碎片*5,404
+2085,10204,{6302=6},{20741=5},50,,Purple Shopping Coupon*6 can be exchanged for Flame Bird Fragment*5,紫色購物券*6   兌換   火焰鳥碎片*5,404
+2086,10204,{6301=3;6302=3},{20601=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Duckbill Baby Fragments*3,藍色購物券*3 紫色購物券*3   兌換   鴨嘴寶寶碎片*3,404
+2087,10204,{6301=3;6302=3},{21841=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange Absol Shard*3,藍色購物券*3 紫色購物券*3   兌換   阿勃梭魯碎片*3,404
+2088,10204,{6301=5},{23281=3},50,,Blue Shopping Coupon*5 exchanged for Harry Chestnut Fragments*3,藍色購物券*5   兌換   哈力栗碎片*3,404
+2089,10204,{6301=5},{22011=3},50,,Blue shopping coupon*5 can be exchanged for grass seedling turtle fragments*3,藍色購物券*5   兌換   草苗龜碎片*3,404
+2090,10204,{6301=5},{22871=3},50,,Blue Shopping Coupon*5 exchanged for Mini Ice Shards*3,藍色購物券*5   兌換   迷你冰碎片*3,404
+2091,10204,{6301=5},{20481=3},50,,Blue shopping coupon*5 exchanged for gas bomb fragments*3,藍色購物券*5   兌換   瓦斯彈碎片*3,404
+2092,10204,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2093,10204,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2094,10204,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2095,10204,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2096,10204,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2097,10204,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2098,10204,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2099,10204,{6301=30;6302=75},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2100,10204,{6301=15;6302=45},{6050=1},2,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2111,10205,{6322=30},{922=1},1,,S-class elf ball*1,S級精靈球*1,404
+2112,10205,{6322=15},{921=1},5,,Grade A elf ball*1,A級精靈球*1,404
+2113,10205,{6322=2},{602=1},10,,Silver necklace *1,銀項鍊*1,404
+2114,10205,{6322=3},{2103=2},10,,Purple reinforcement *1,紫強化*1,404
+2115,10205,{6322=3},{519=1},5,,Card Draw Coupon*1,抽卡券*1,404
+2116,10205,{6322=1},{503=1},5,,Accessory draw coupon*1,飾品抽卡券*1,404
+2117,10205,{6322=2},{520=1},5,,Explorer draw coupon*1,探險器抽卡券*1,404
+2118,10205,{6322=3},{502=1},2,,Universal Fragment*1,萬能碎片*1,404
+2119,10205,{6322=5},{501=1},3,,Jewelry star props*1,飾品升星道具*1,404
+2120,10205,{6322=1},{850=20},20,,Blue Potential Stone*20,藍色潛能石*20,404
+2121,10205,{6322=1},{gold=50000},30,,Gold coin*5W,金幣*5W,404
+2122,10205,{6322=1},{5000=5},30,,Crystal box*5,晶石盒子*5,404
+2123,10205,{6322=1},{930=5},30,,Energy Potion*5,能量藥劑*5,404
+,,,,,,,,
+2150,10206,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2151,10206,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2152,10206,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2153,10206,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2154,10206,{6302=6},{20721=5},50,,Purple Shopping Coupon*6 to exchange for Frozen Bird Fragments*5,紫色購物券*6   兌換   急凍鳥碎片*5,404
+2155,10206,{6302=6},{23021=5},50,,Purple Shopping Coupon*6 to exchange for Geometric Snowflake Fragments*5,紫色購物券*6   兌換   幾何雪花碎片*5,404
+2156,10206,{6301=3;6302=3},{20391=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Ghost Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,404
+2157,10206,{6301=3;6302=3},{21811=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Night Watch Fragment*3,藍色購物券*3 紫色購物券*3   兌換   夜巡靈碎片*3,404
+2158,10206,{6301=5},{21851=3},50,,Blue Shopping Coupon*5 exchanged for Snow Boy Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,404
+2159,10206,{6301=5},{22591=3},50,,Blue shopping coupon*5 can be exchanged for stone ball fragments*3,藍色購物券*5   兌換   石丸子碎片*3,404
+2160,10206,{6301=5},{20471=3},50,,Blue Shopping Coupon*5 exchanged for Big Tongue Shard*3,藍色購物券*5   兌換   大舌舔碎片*3,404
+2161,10206,{6301=5},{20051=3},50,,Blue Shopping Coupon*5 can be exchanged for Dabi Bird Fragment*3,藍色購物券*5   兌換   大比鳥碎片*3,404
+2162,10206,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2163,10206,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2164,10206,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2165,10206,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2166,10206,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2167,10206,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2168,10206,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2169,10206,{6301=30;6302=75},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2170,10206,{6301=15;6302=45},{6050=1},2,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2180,10207,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2181,10207,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2182,10207,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2183,10207,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2184,10207,{6302=6},{23001=5},50,,Purple Shopping Coupon*6 can be exchanged for Double Ax War Dragon Fragment*5,紫色購物券*6   兌換   雙斧戰龍碎片*5,404
+2185,10207,{6302=6},{20571=5},50,,Purple Shopping Coupon*6 can be exchanged for Giant Pincer Mantis Fragment*5,紫色購物券*6   兌換   巨鉗螳螂碎片*5,404
+2186,10207,{6301=3;6302=3},{20401=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Big Steel Snake Fragment*3,藍色購物券*3 紫色購物券*3   兌換   大鋼蛇碎片*3,404
+2187,10207,{6301=3;6302=3},{21811=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Night Watch Fragment*3,藍色購物券*3 紫色購物券*3   兌換   夜巡靈碎片*3,404
+2188,10207,{6301=5},{20781=3},50,,Blue shopping coupon*5 exchanged for chrysanthemum fragments*3,藍色購物券*5   兌換   菊葉草碎片*3,404
+2189,10207,{6301=5},{23431=3},50,,Blue Shopping Coupon*5 exchanged for Fat Sweetie Fragment*3,藍色購物券*5   兌換   胖甜妮碎片*3,404
+2190,10207,{6301=5},{20271=3},50,,Blue shopping coupon*5 exchanged for strange power fragment*3,藍色購物券*5   兌換   怪力碎片*3,404
+2191,10207,{6301=5},{20461=3},50,,Blue Shopping Coupon*5 to exchange for Dreadnought Fragment*3,藍色購物券*5   兌換   無畏小子碎片*3,404
+2192,10207,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2193,10207,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2194,10207,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2195,10207,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2196,10207,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2197,10207,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2198,10207,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2199,10207,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2200,10207,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2201,10207,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2211,10208,{6341=20},{6344=1},1,,Outing gift box*1,踏青禮盒*1,404
+2212,10208,{6341=20},{2001=1},1,,Avatar frame*1,頭像框*1,404
+2213,10208,{6341=2},{6343=1},100,,Willow grass box*1,柳葉草盒*1,404
+,,,,,,,,
+2221,10209,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2222,10209,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2223,10209,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2224,10209,{6071=240},{30407=1},1,,Orange carry*1,橙攜帶*1,404
+2225,10209,{6071=240},{30402=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2231,10210,{6346=20},{2012=1},1,,May Day Avatar Frame*1,五一頭像框*1,404
+2232,10210,{6346=20},{2403=1},1,,May Day Title*1,五一稱號*1,404
+2233,10210,{6346=5},{521=1},3,,Divine Beast Universal Fragment*1,神獸萬能碎片*1,404
+2234,10210,{6346=3},{602=1},10,,Silver necklace *1,銀項鍊*1,404
+2235,10210,{6346=3},{2103=2},10,,Purple reinforcement *1,紫強化*1,404
+2236,10210,{6346=3},{851=8},20,,Purple Potential Stone*8,紫色潛能石*8,404
+2237,10210,{6346=2},{850=20},20,,Blue Potential Stone*20,藍色潛能石*20,404
+2238,10210,{6346=2},{5000=5},30,,Crystal box*5,晶石盒子*5,404
+2239,10210,{6346=2},{930=5},30,,Energy Potion*5,能量藥劑*5,404
+2240,10210,{6346=2},{gold=50000},30,,Gold coin*5W,金幣*5W,404
+,,,,,,,,
+2250,10211,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2251,10211,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2252,10211,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2253,10211,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2254,10211,{6302=6},{20731=5},50,,Purple Shopping Coupon*6 can be exchanged for Lightning Bird Fragment*5,紫色購物券*6   兌換   閃電鳥碎片*5,404
+2255,10211,{6302=6},{23411=5},50,,Purple shopping coupon*6 can be exchanged for single scabbard fragment*5,紫色購物券*6   兌換   獨劍鞘碎片*5,404
+2256,10211,{6301=3;6302=3},{20391=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Ghost Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,404
+2257,10211,{6301=3;6302=3},{23591=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange Sonic Dragon Fragment*3,藍色購物券*3 紫色購物券*3   兌換   音波龍碎片*3,404
+2258,10211,{6301=5},{22611=3},50,,Blue Shopping Coupon*5 exchanged for screw hamster fragments*3,藍色購物券*5   兌換   螺釘地鼠碎片*3,404
+2259,10211,{6301=5},{22841=3},50,,Blue Shopping Coupon*5 to exchange for Goethe Baby Fragment*3,藍色購物券*5   兌換   歌德寶寶碎片*3,404
+2260,10211,{6301=5},{22961=3},50,,Blue shopping coupon*5 exchanged for gear fragments*3,藍色購物券*5   兌換   齒輪兒碎片*3,404
+2261,10211,{6301=5},{21851=3},50,,Blue Shopping Coupon*5 exchanged for Snow Boy Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,404
+2262,10211,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2263,10211,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2264,10211,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2265,10211,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2266,10211,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2267,10211,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2268,10211,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2269,10211,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2270,10211,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2271,10211,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2281,10212,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2282,10212,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2283,10212,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2284,10212,{6071=240},{30403=1},1,,Orange carry*1,橙攜帶*1,404
+2285,10212,{6071=240},{30408=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2290,10213,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2291,10213,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2292,10213,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2293,10213,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2294,10213,{6302=6},{20491=5},50,,Purple shopping coupon*6 can be exchanged for one-horned rhino*5,紫色購物券*6   兌換   閃電鳥碎片*5,404
+2295,10213,{6302=6},{21221=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,紫色購物券*6   兌換   獨劍鞘碎片*5,404
+2296,10213,{6301=3;6302=3},{22991=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,404
+2297,10213,{6301=3;6302=3},{23141=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,藍色購物券*3 紫色購物券*3   兌換   音波龍碎片*3,404
+2298,10213,{6301=5},{20011=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,藍色購物券*5   兌換   螺釘地鼠碎片*3,404
+2299,10213,{6301=5},{23291=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,藍色購物券*5   兌換   歌德寶寶碎片*3,404
+2300,10213,{6301=5},{21441=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,藍色購物券*5   兌換   齒輪兒碎片*3,404
+2301,10213,{6301=5},{20551=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,404
+2302,10213,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2303,10213,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2304,10213,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2305,10213,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2306,10213,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2307,10213,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2308,10213,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2309,10213,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2310,10213,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2311,10213,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2331,10215,{6349=10},{2014=1},1,,June 1 head portrait frame*1,六一頭像框*1,
+2332,10215,{6349=20},{6351=1},1,,Children's day gift box*1,六一禮盒*1,
+2333,10215,{6349=20},{2404=1},1,,June 1 Title*1,六一稱號*1,
+2334,10215,{6349=8},{2314=1},1,,June 1 avatar*1,六一頭像*1,
+2335,10215,{6349=3},{2304=1},1,,June 1 funny avatar*1,六一搞怪頭像*1,
+2336,10215,{6349=3},{2307=1},1,,June 1 funny avatar*1,六一搞怪頭像*1,
+2337,10215,{6349=3},{2309=1},1,,June 1 funny avatar*1,六一搞怪頭像*1,
+2338,10215,{6349=2},{850=20},20,,Blue Potential Stone*20,藍色潛能石*20,
+2339,10215,{6349=2},{5000=5},20,,Crystal box*5,晶石盒子*5,
+2340,10215,{6349=2},{930=5},20,,Energy Potion*5,能量藥劑*5,
+2341,10215,{6349=2},{gold=50000},20,,Gold coin*5W,金幣*5W,
+,,,,,,,,
+2351,10216,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2352,10216,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2353,10216,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2354,10216,{6071=240},{30404=1},1,,Orange carry*1,橙攜帶*1,404
+2355,10216,{6071=240},{30406=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2360,10217,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2361,10217,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2362,10217,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2363,10217,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2364,10217,{6302=6},{21931=5},50,,Purple Shopping Coupon*6 can be exchanged for Regis Chill*5,紫色購物券*6   兌換   閃電鳥碎片*5,雷吉斯奇鲁 s-T1 21931
+2365,10217,{6302=6},{20331=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,紫色購物券*6   兌換   獨劍鞘碎片*5,小磁怪 s-T2 20331
+2366,10217,{6301=3;6302=3},{21291=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,木守宫 s-T3 21291
+2367,10217,{6301=3;6302=3},{20591=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,藍色購物券*3 紫色購物券*3   兌換   音波龍碎片*3,电击怪 s-T3 20591
+2368,10217,{6301=5},{22071=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,藍色購物券*5   兌換   螺釘地鼠碎片*3,小猫怪 A 22071
+2369,10217,{6301=5},{22271=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,藍色購物券*5   兌換   歌德寶寶碎片*3,不良蛙 A 22271
+2370,10217,{6301=5},{22681=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,藍色購物券*5   兌換   齒輪兒碎片*3,百足蜈蚣 A 22681
+2371,10217,{6301=5},{20691=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,化石盔 A 20691
+2372,10217,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2373,10217,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2374,10217,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2375,10217,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2376,10217,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2377,10217,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2378,10217,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2379,10217,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2380,10217,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2381,10217,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2391,10218,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2392,10218,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2393,10218,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2394,10218,{6071=240},{6231=1},1,,Orange carry*1,橙攜帶*1,404
+2395,10218,{6071=240},{6232=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2400,10219,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2401,10219,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2402,10219,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2403,10219,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2404,10219,{6302=6},{21911=5},50,,Purple Shopping Coupon*6 can be exchanged for Regis Chill*5,紫色購物券*6   兌換   閃電鳥碎片*5,雷吉洛克S-T121911
+2405,10219,{6302=6},{20711=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,紫色購物券*6   兌換   獨劍鞘碎片*5,小卡比兽S-T220711
+2406,10219,{6301=3;6302=3},{23541=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,黏黏宝S-T223541
+2407,10219,{6301=3;6302=3},{20881=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,藍色購物券*3 紫色購物券*3   兌換   音波龍碎片*3,咩利羊S-T420881
+2408,10219,{6301=5},{23341=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,藍色購物券*5   兌換   螺釘地鼠碎片*3,小狮狮A23341
+2409,10219,{6301=5},{20151=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,藍色購物券*5   兌換   歌德寶寶碎片*3,宝宝丁A20151
+2410,10219,{6301=5},{21861=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,藍色購物券*5   兌換   齒輪兒碎片*3,海豹球A21861
+2411,10219,{6301=5},{22891=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,电飞鼠A22891
+2412,10219,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2413,10219,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2414,10219,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2415,10219,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2416,10219,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2417,10219,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2418,10219,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2419,10219,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2420,10219,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2421,10219,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2430,10220,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2431,10220,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2432,10220,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2433,10220,{6071=240},{6233=1},1,,Orange carry*1,橙攜帶*1,404
+2434,10220,{6071=240},{6234=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2440,10221,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2441,10221,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2442,10221,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2443,10221,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2444,10221,{6302=6},{23661=5},50,,Purple Shopping Coupon*6 can be exchanged for Regis Chill*5,紫色購物券*6   兌換   閃電鳥碎片*5,木木枭
+2445,10221,{6302=6},{20631=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,紫色購物券*6   兌換   獨劍鞘碎片*5,暴鲤龙
+2446,10221,{6301=3;6302=3},{20241=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,卡蒂狗
+2447,10221,{6301=3;6302=3},{21171=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,藍色購物券*3 紫色購物券*3   兌換   音波龍碎片*3,戴鲁比
+2448,10221,{6301=5},{20091=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,藍色購物券*5   兌換   螺釘地鼠碎片*3,皮丘
+2449,10221,{6301=5},{20001=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,藍色購物券*5   兌換   歌德寶寶碎片*3,妙蛙种子
+2450,10221,{6301=5},{20011=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,藍色購物券*5   兌換   齒輪兒碎片*3,小火龙
+2451,10221,{6301=5},{20021=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,杰尼龟
+2452,10221,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2453,10221,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2454,10221,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2455,10221,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2456,10221,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2457,10221,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2458,10221,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2459,10221,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2460,10221,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2461,10221,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2470,10222,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2471,10222,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2472,10222,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2473,10222,{6071=240},{6235=1},1,,Orange carry*1,橙攜帶*1,404
+2474,10222,{6071=240},{6236=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2480,10223,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,藍色購物券*2   兌換   普通萬能碎片*1,404
+2481,10223,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,紫色購物券*4   兌換   普通萬能碎片*2,404
+2482,10223,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,藍色購物券*2   兌換   天賦點*1,404
+2483,10223,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,紫色購物券*4   兌換   天賦點*2,404
+2484,10223,{6302=6},{23591=5},50,,Purple Shopping Coupon*6 can be exchanged for Regis Chill*5,紫色購物券*6   兌換   閃電鳥碎片*5,嗡蝠 S-T1 23591
+2485,10223,{6302=6},{21921=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,紫色購物券*6   兌換   獨劍鞘碎片*5,雷吉艾斯 S-T1 21921
+2486,10223,{6301=3;6302=3},{21081=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,藍色購物券*3 紫色購物券*3   兌換   鬼斯碎片*3,狃拉 S-T1 21081
+2487,10223,{6301=3;6302=3},{21291=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,藍色購物券*3 紫色購物券*3   兌換   音波龍碎片*3,木守宫 S-T2 21291
+2488,10223,{6301=5},{21801=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,藍色購物券*5   兌換   螺釘地鼠碎片*3,怨影娃娃 A 21801
+2489,10223,{6301=5},{20221=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,藍色購物券*5   兌換   歌德寶寶碎片*3,可达鸭 A 20221
+2490,10223,{6301=5},{20341=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,藍色購物券*5   兌換   齒輪兒碎片*3,大葱鸭 A 20341
+2491,10223,{6301=5},{20791=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,藍色購物券*5   兌換   雪童子碎片*3,火球鼠 A 20791
+2492,10223,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2493,10223,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2494,10223,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2495,10223,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2496,10223,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2497,10223,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2498,10223,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2499,10223,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2500,10223,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2501,10223,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2511,10224,{6368=2;6369=2},{2018=1},1,,national day avatar frame,國慶頭像框,
+2512,10224,{6368=2;6369=2;6370=2;6371=2},{2407=1},1,,National Day title,國慶稱號,
+2513,10224,{6368=1;6370=1},{2317=1},1,,national day avatar,國慶頭像,
+2514,10224,{6370=2;6371=2},{2017=1},1,,mid autumn avatar frame,中秋頭像框,
+2515,10224,{6368=2;6369=2;6370=2;6371=2},{2406=1},1,,mid-autumn title,中秋稱號,
+2516,10224,{6369=1;6371=1},{2316=1},1,,mid autumn avatar,中秋頭像,
+2517,10224,{6368=6;6369=6;6370=6;6371=6},{2204=1},1,,Bull's beautiful token,布林美麗的信物,
+2518,10224,{6368=8;6369=8;6370=8;6371=8},{925=1},1,,S Elf chooses treasure chest,S精靈選擇寶箱,
+2519,10224,{6368=10;6369=10;6370=10;6371=10},{6059=1},1,,Accessory Awakening Selection Box,飾品覺醒選擇箱子,
+2520,10224,{6368=6;6369=6;6370=6;6371=6},{2152=1},1,,purple magic stone,紫色萬能石,
+2521,10224,{6368=3;6369=3;6370=3;6371=3},{rmb=888},1,,diamond,鑽石,
+2522,10224,{6368=4;6369=4},{973=1},2,,Random Orange Runestone Chest,隨機橙色符石寶箱,
+2523,10224,{6370=3;6371=3},{501=1},3,,Jewelry star props,飾品升星道具,
+2524,10224,{6368=2;6370=2},{962=1},3,,Purple Explorer Chest,紫色探險器寶箱,
+2525,10224,{6369=2;6371=2},{talent_point=2},3,,talent point,天賦點,
+2526,10224,{6368=1},{gold=100000},40,,gold,金幣,
+2527,10224,{6369=1},{930=6},40,,breakout material box,突破材料箱子,
+2528,10224,{6370=1},{5000=6},40,,Fortified Potion,強化藥劑,
+2529,10224,{6371=1},{2103=1},40,,Carry a purple boost,攜帶紫強化,
+,,,,,,,,
+2531,10225,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2532,10225,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2533,10225,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2534,10225,{6071=240},{6237=1},1,,Orange carry*1,橙攜帶*1,404
+2535,10225,{6071=240},{6238=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2540,10226,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2541,10226,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2542,10226,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2543,10226,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2544,10226,{6302=6},{21241=5},50,,Purple Shopping Coupon*6 can be exchanged for Regis Chill*5,水君 S-T1 21241,
+2545,10226,{6302=6},{22991=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,烛光灵 S-T1 22991,
+2546,10226,{6302=6},{22401=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,克雷色利亚 S-T1 22401,
+2547,10226,{6301=3;6302=3},{20711=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,小卡比兽 S-T2 20711,
+2548,10226,{6301=3;6302=3},{23351=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,花蓓蓓 S-T2 23351,
+2549,10226,{6301=3;6302=3},{22031=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,波加曼 S-T4 22031,
+2550,10226,{6301=5},{23501=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,冰雪龙 A 23501,
+2551,10226,{6301=5},{22841=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,哥德宝宝 A 22841,
+2552,10226,{6301=5},{21851=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,雪童子 A 21851,
+2553,10226,{6301=5},{23511=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,摔角鹰人 A 23511,
+2554,10226,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2555,10226,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2556,10226,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2557,10226,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2558,10226,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2559,10226,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2560,10226,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2561,10226,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2562,10226,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2563,10226,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2570,10227,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2571,10227,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2572,10227,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2573,10227,{6071=240},{6239=1},1,,Orange carry*1,橙攜帶*1,404
+2574,10227,{6071=240},{6240=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2580,10228,{6381=6},{2318=1},1,,Halloween head*1,萬聖頭像*1,
+2581,10228,{6381=12},{2019=1},1,,Halloween portrait frame*1,萬聖頭像框*1,
+2582,10228,{6381=15},{2408=1},1,,Halloween title*1,萬聖稱號*1,
+2584,10228,{6381=5},{6383=1},1,,Halloween gold coin package*1,萬聖節金幣禮包*1,
+2585,10228,{6381=5},{6384=1},1,,Halloween Diamond Gift Box*1,萬聖節鑽石禮盒*1,
+2586,10228,{6381=2},{521=1},3,,Divine Beast Universal Fragment*1,神獸萬能碎片*1,
+2587,10228,{6381=3},{501=1},1,,Jewelry star props,飾品升星道具,
+2588,10228,{6381=1},{602=1},10,,Silver necklace *1,銀項鍊*1,
+2589,10228,{6381=1},{2103=1},10,,Purple reinforcement *1,紫強化*1,
+2590,10228,{6381=1},{851=10},10,,Purple Potential Stone*10,紫色潛能石*10,
+2591,10228,{6381=1},{850=20},10,,Blue Potential Stone*20,藍色潛能石*20,
+2592,10228,{6381=1},{5000=5},10,,Crystal box*5,晶石盒子*5,
+2593,10228,{6381=1},{930=5},10,,Energy Potion*5,能量藥劑*5,
+2594,10228,{6381=1},{gold=50000},10,,Gold coin*5W,金幣*5W,
+,,,,,,,,
+2600,10229,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2601,10229,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2602,10229,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2603,10229,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2604,10229,{6302=6},{20161=5},50,,Purple Shopping Coupon*6 can be exchanged for Regis Chill*5,超音蝠 S-T2 20161,
+2605,10229,{6302=6},{21931=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,雷吉斯奇鲁 S-T1 21931,
+2606,10229,{6302=6},{22471=5},50,,Purple Shopping Coupon*6 to exchange for Thunder Fragment*5,君主蛇 S-T2 22471,
+2607,10229,{6301=3;6302=3},{20401=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 Exchange for Candle Spirit Fragment*3,大岩蛇 S-T5 20401,
+2608,10229,{6301=3;6302=3},{21841=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,阿勃梭鲁 S-T3 21841,
+2609,10229,{6301=3;6302=3},{23001=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3 exchanged for Single-headed Dragon Fragment*3,牙牙 S-T2 23001,
+2610,10229,{6301=5},{22921=3},50,,Blue Shopping Coupon*5 to exchange for Charmander Fragments*3,轻飘飘·雌 A 22921,
+2611,10229,{6301=5},{22922=3},50,,Blue Shopping Coupon*5 to exchange for Firefox Fragment*3,轻飘飘·雄 A 22922,
+2612,10229,{6301=5},{20281=3},50,,Blue Shopping Coupon*5 exchanged for Guniu Fragments*3,喇叭芽 A 20281,
+2613,10229,{6301=5},{21611=3},50,,Blue Shopping Coupon*5 can be exchanged for Starfish Fragment*3,呆火驼 A 21611,
+2614,10229,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2615,10229,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2616,10229,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2617,10229,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2618,10229,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2619,10229,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2620,10229,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2621,10229,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2622,10229,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2623,10229,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2630,10230,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2631,10230,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2632,10230,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2633,10230,{6071=240},{6241=1},1,,Orange carry*1,橙攜帶*1,404
+2634,10230,{6071=240},{6242=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2640,10231,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2641,10231,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2642,10231,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2643,10231,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2644,10231,{6302=6},{22821=5},50,,Purple shopping coupon*6,索罗亚 S-T2 22821,
+2645,10231,{6302=6},{20731=5},50,,Purple shopping coupon*6,闪电鸟 S-T2 20731,
+2646,10231,{6302=6},{23151=5},50,,Purple shopping coupon*6,燃烧虫 S-T2 23151,
+2647,10231,{6301=3;6302=3},{20261=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,凯西 S-T4 20261,
+2648,10231,{6301=3;6302=3},{23411=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,独剑鞘 S-T2 23411,
+2649,10231,{6301=3;6302=3},{21311=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,水跃鱼 S-T4 21311,
+2650,10231,{6301=5},{20131=3},50,,Blue shopping coupon*5,皮宝宝 A 20131,
+2651,10231,{6301=5},{20301=3},50,,Blue shopping coupon*5,小拳石 A 20301,
+2652,10231,{6301=5},{22481=3},50,,Blue shopping coupon*5,暖暖猪 A 22481,
+2653,10231,{6301=5},{23471=3},50,,Blue shopping coupon*5,铁臂枪虾 A 23471,
+2654,10231,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,藍色購物券*2   兌換   神奇膠囊*1,404
+2655,10231,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,紫色購物券*2   兌換   神奇膠囊*2,404
+2656,10231,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,藍色購物券*8 紫色購物券*8   兌換   金鑰匙*10,404
+2657,10231,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,藍色購物券*6   兌換   紫色攜帶強化*3,404
+2658,10231,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,藍色購物券*6   兌換   能量藥劑*30,404
+2659,10231,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,藍色購物券*2   兌換   金幣*100000,404
+2660,10231,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,藍色購物券*2 紫色購物券*5   兌換   質樸配飾*1,404
+2661,10231,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,藍色購物券*30 紫色購物券*75   兌換   紫色攜帶道具禮箱*1,404
+2662,10231,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒選擇箱子*1,404
+2663,10231,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,藍色購物券*15 紫色購物券*45   兌換   飾品覺醒隨機箱子*1,404
+,,,,,,,,
+2670,10232,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2671,10232,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2672,10232,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2673,10232,{6071=240},{6243=1},1,,Orange carry*1,橙攜帶*1,404
+2674,10232,{6071=240},{6244=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2680,10233,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2681,10233,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2682,10233,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2683,10233,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2684,10233,{6302=6},{20741=5},50,,Purple shopping coupon*6,火焰鸟 S-T2 20741,
+2685,10233,{6302=6},{21911=5},50,,Purple shopping coupon*6,雷吉洛克 S-T2 21911,
+2686,10233,{6302=6},{20641=5},50,,Purple shopping coupon*6,拉普拉斯 S-T2 20641,
+2687,10233,{6301=3;6302=3},{21391=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,拉鲁拉丝 S-T1 21391,
+2688,10233,{6301=3;6302=3},{20241=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,卡蒂狗 S-T4 20241,
+2689,10233,{6301=3;6302=3},{21421=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,懒人獭 S-T2 21421,
+2690,10233,{6301=5},{20271=3},50,,Blue shopping coupon*5,腕力 A 20271,
+2691,10233,{6301=5},{20371=3},50,,Blue shopping coupon*5,臭泥 A-T5 20371,
+2692,10233,{6301=5},{22071=3},50,,Blue shopping coupon*5,小猫怪 A-T1 22071,
+2693,10233,{6301=5},{23281=3},50,,Blue shopping coupon*5,哈力栗 A-T0 23281,
+2694,10233,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2695,10233,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2696,10233,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2697,10233,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2698,10233,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2699,10233,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2700,10233,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2701,10233,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2702,10233,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2703,10233,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2710,10234,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2711,10234,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2712,10234,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2713,10234,{6071=240},{6245=1},1,,Orange carry*1,橙攜帶*1,404
+2714,10234,{6071=240},{6246=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2720,10235,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2721,10235,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2722,10235,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2723,10235,{6071=240},{6247=1},1,,Orange carry*1,橙攜帶*1,404
+2724,10235,{6071=240},{6248=1},1,,Orange carry*1,橙攜帶*1,404
+,10235,{6071=240},{6108=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2730,10236,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2731,10236,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2732,10236,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2733,10236,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2734,10236,{6302=6},{21221=5},50,,Purple shopping coupon*6,雷公 S-T1 21221,
+2735,10236,{6302=6},{23771=5},50,,Purple shopping coupon*6,超坏星 23771,
+2736,10236,{6302=6},{20631=5},50,,Purple shopping coupon*6,暴鲤龙 20621,
+2737,10236,{6301=3;6302=3},{20881=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,咩利羊 S-T3 20881,
+2738,10236,{6301=3;6302=3},{22031=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,圆企鹅 22031,
+2739,10236,{6301=3;6302=3},{21071=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,赫拉克罗斯 S-T3 21071,
+2740,10236,{6301=5},{22891=3},50,,Blue shopping coupon*5,电飞鼠 A-T1 22891,
+2741,10236,{6301=5},{23431=3},50,,Blue shopping coupon*5,绵绵泡芙 A 23431,
+2742,10236,{6301=5},{20091=3},50,,Blue shopping coupon*5,皮丘 A 20091,
+2743,10236,{6301=5},{20551=3},50,,Blue shopping coupon*5,海星星 A-T3 20551,
+2744,10236,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2745,10236,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2746,10236,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2747,10236,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2748,10236,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2749,10236,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2750,10236,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2751,10236,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2752,10236,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2753,10236,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2760,10237,{6336=20;6337=20;rmb=1888},{8010=1},1,,skin,皮膚,
+2761,10237,{6336=3;6337=3},{2321=1},1,,Big Milk Tank 2021,大奶罐·2021,
+2762,10237,{6336=5;6337=5},{2022=1},1,,Lantern Festival Avatar Frame,元宵頭像框,
+2763,10237,{6336=10;6337=10},{2411=1},1,,full circle,圓圓滿滿,
+2764,10237,{6336=6;6337=6},{922=1},1,,S-class elf ball*1,S級精靈球*1,
+2765,10237,{6336=1;6337=1},{6338=2},5,,Lantern Festival*2,元宵*2,
+2766,10237,{6336=2;6337=2},{talent_point=2},3,,talent point*2,天賦點*2,
+2767,10237,{6336=1;6337=1},{502=1},5,,Universal Fragment*1,萬能碎片*1,
+2768,10237,{6336=3;6337=3},{501=1},3,,Jewelry star props*1,飾品升星道具*1,
+2769,10237,{6336=2;6337=2},{519=1},5,,Card Draw Coupon*1,抽卡券*1,
+2770,10237,{6336=1;6337=1},{503=2},5,,Accessory draw coupon*2,飾品抽卡券*2,
+2771,10237,{6336=1;6337=1},{520=1},5,,Explorer draw coupon*1,探險器抽卡券*1,
+2772,10237,{6336=1},{gold=50000},30,,Gold coin*5W,金幣*5W,
+2773,10237,{6336=1},{5000=5},30,,Crystal box*5,晶石盒子*5,
+2774,10237,{6336=1},{2102=1},30,,Blue enhancement*1,藍強化*1,
+2775,10237,{6337=1},{930=5},30,,Energy Potion*5,能量藥劑*5,
+2776,10237,{6337=1},{902=1},30,,Advanced Favorability Gift Box*1,高級好感度禮盒*1,
+2777,10237,{6337=1},{850=20},30,,Blue Potential Stone*20,藍色潛能石*20,
+,,,,,,,,
+2780,10238,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2781,10238,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2782,10238,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2783,10238,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2784,10238,{6302=6},{20721=5},50,,Purple shopping coupon*6,急冻鸟 S-T1 20721,
+2785,10238,{6302=6},{23841=5},50,,Purple shopping coupon*6,甜竹竹 23841,
+2786,10238,{6302=6},{21921=5},50,,Purple shopping coupon*6,雷吉艾斯 S-T1 21921,
+2787,10238,{6301=3;6302=3},{20601=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,鸭嘴宝宝 S-T3 20601,
+2788,10238,{6301=3;6302=3},{23141=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,单首龙 S-T3 23141,
+2789,10238,{6301=3;6302=3},{21391=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,拉鲁拉丝 S-T1 21391,
+2790,10238,{6301=5},{22681=3},50,,Blue shopping coupon*5,百足蜈蚣 A 22681,
+2791,10238,{6301=5},{22871=3},50,,Blue shopping coupon*5,迷你冰 A 22871,
+2792,10238,{6301=5},{23011=3},50,,Blue shopping coupon*5,喷嚏熊 A 23011,
+2793,10238,{6301=5},{22301=3},50,,Blue shopping coupon*5,雪笠怪 A 22301,
+2794,10238,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2795,10238,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2796,10238,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2797,10238,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2798,10238,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2799,10238,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2800,10238,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2801,10238,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2802,10238,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2803,10238,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2810,10239,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2811,10239,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2812,10239,{6071=120},{2153=1},3,,Orange carry universal *1,橙攜帶萬能*1,404
+2813,10239,{6071=240},{6249=1},1,,Orange carry*1,橙攜帶*1,404
+2814,10239,{6071=240},{6250=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2820,10240,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2821,10240,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2822,10240,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2823,10240,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2824,10240,{6302=6},{21891=5},50,,Purple shopping coupon*6,宝贝龙 S-T2 21891,
+2825,10240,{6302=6},{21031=5},50,,Purple shopping coupon*6,天蝎王 S-T2 21032,
+2826,10240,{6302=6},{21231=5},50,,Purple shopping coupon*6,炎帝 S-T1 21231,
+2827,10240,{6301=3;6302=3},{21311=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,水跃鱼 S-T3 21311,
+2828,10240,{6301=3;6302=3},{21811=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,夜巡灵 S-T2 21811,
+2829,10240,{6301=3;6302=3},{21081=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,狃拉 S-T2 21081,
+2830,10240,{6301=5},{22011=3},50,,Blue shopping coupon*5,草苗龟 A 22011,
+2831,10240,{6301=5},{23471=3},50,,Blue shopping coupon*5,铁臂枪虾 A 23471,
+2832,10240,{6301=5},{20341=3},50,,Blue shopping coupon*5,大葱鸭 A 20341,
+2833,10240,{6301=5},{21861=3},50,,Blue shopping coupon*5,海豹球 A-T1 21861,
+2834,10240,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2835,10240,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2836,10240,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2837,10240,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2838,10240,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2839,10240,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2840,10240,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2841,10240,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2842,10240,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2843,10240,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2850,10241,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2851,10241,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2852,10241,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+2853,10241,{6071=240},{6900=1},1,,Orange carry*1,橙攜帶*1,404
+2854,10241,{6071=240},{6901=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2860,10242,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2861,10242,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2862,10242,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2863,10242,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2864,10242,{6302=6},{21241=5},50,,Purple shopping coupon*6,水君 S-T2 21241,
+2865,10242,{6302=6},{24131=5},50,,Purple shopping coupon*6,四颚针龙 S-T2 24132,
+2866,10242,{6302=6},{21901=5},50,,Purple shopping coupon*6,铁哑铃 S-T1 21901,
+2867,10242,{6301=3;6302=3},{22721=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,黑眼鳄 S-T3 22721,
+2868,10242,{6301=3;6302=3},{23351=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,花蓓蓓 S-T2 23351,
+2869,10242,{6301=3;6302=3},{21501=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,可可多拉 S-T3 21501,
+2870,10242,{6301=5},{22271=3},50,,Blue shopping coupon*5,不良蛙 A 22271,
+2871,10242,{6301=5},{22611=3},50,,Blue shopping coupon*5,螺钉地鼠 A-T1 22611,
+2872,10242,{6301=5},{22631=3},50,,Blue shopping coupon*5,搬运小匠 A-T2 22631,
+2873,10242,{6301=5},{23341=3},50,,Blue shopping coupon*5,小狮狮 A 23341,
+2874,10242,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2875,10242,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2876,10242,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2877,10242,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2878,10242,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2879,10242,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2880,10242,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2881,10242,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2882,10242,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2883,10242,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2890,10243,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2891,10243,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2892,10243,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+2893,10243,{6071=240},{6902=1},1,,Orange carry*1,橙攜帶*1,404
+2894,10243,{6071=240},{6903=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2900,10244,{6349=10},{2028=1},1,,June 1 head portrait frame*1,六一頭像框*1,
+2901,10244,{6349=20},{6351=1},1,,Children's day gift box*1,六一禮盒*1,
+2902,10244,{6349=20},{2417=1},1,,June 1 Title*1,六一稱號*1,
+2903,10244,{6349=8},{2326=1},1,,June 1 avatar*1,六一頭像*1,
+2904,10244,{6349=3},{2305=1},1,,June 1 funny avatar*1,六一搞怪頭像*1,
+2905,10244,{6349=3},{2310=1},1,,June 1 funny avatar*1,六一搞怪頭像*1,
+2906,10244,{6349=3},{2312=1},1,,June 1 funny avatar*1,六一搞怪頭像*1,
+2907,10244,{6349=2},{850=20},20,,Blue Potential Stone*20,藍色潛能石*20,
+2908,10244,{6349=2},{5000=5},20,,Crystal box*5,晶石盒子*5,
+2909,10244,{6349=2},{930=5},20,,Energy Potion*5,能量藥劑*5,
+2910,10244,{6349=2},{gold=50000},20,,Gold coin*5W,金幣*5W,
+,,,,,,,,
+2920,10245,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2921,10245,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2922,10245,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2923,10245,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2924,10245,{6302=6},{20861=5},50,,Purple shopping coupon*6,波克比 S-T1 20861,
+2925,10245,{6302=6},{23661=5},50,,Purple shopping coupon*6,木木枭 S-T1 23661,
+2926,10245,{6302=6},{21931=5},50,,Purple shopping coupon*6,雷吉斯奇鲁 S-T2 21931,
+2927,10245,{6301=3;6302=3},{23021=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,几何雪花 S-T1 23021,
+2928,10245,{6301=3;6302=3},{20591=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,电击怪 S-T3 20591,
+2929,10245,{6301=3;6302=3},{21251=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,幼基拉斯 S-T1 21251,
+2930,10245,{6301=5},{20221=3},50,,Blue shopping coupon*5,可达鸭 A 20221,
+2931,10245,{6301=5},{20481=3},50,,Blue shopping coupon*5,瓦斯弹 A 20481,
+2932,10245,{6301=5},{22591=3},50,,Blue shopping coupon*5,石丸子 A 22591,
+2933,10245,{6301=5},{22961=3},50,,Blue shopping coupon*5,齿轮儿 A-T2 22961,
+2934,10245,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2935,10245,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2936,10245,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2937,10245,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2938,10245,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2939,10245,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2940,10245,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2941,10245,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2942,10245,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2943,10245,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2950,10246,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2951,10246,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2952,10246,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+2953,10246,{6071=240},{6904=1},1,,Orange carry*1,橙攜帶*1,404
+2954,10246,{6071=240},{6905=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+2960,10247,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+2961,10247,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+2962,10247,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+2963,10247,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+2964,10247,{6302=6},{23251=5},50,,Purple shopping coupon*6,凯路迪欧 S-T1 23251,
+2965,10247,{6302=6},{20331=5},50,,Purple shopping coupon*6,小磁怪 S-T1 20331,
+2966,10247,{6302=6},{20571=5},50,,Purple shopping coupon*6,飞天螳螂 S-T1 20571,
+2967,10247,{6301=3;6302=3},{22031=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,波加曼 S-T3 22031,
+2968,10247,{6301=3;6302=3},{20491=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,独角犀牛 S-T4 20491,
+2969,10247,{6301=3;6302=3},{20701=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,化石翼龙 20701,
+2970,10247,{6301=5},{21801=3},50,,Blue shopping coupon*5,怨影娃娃 A 21801,
+2971,10247,{6301=5},{20051=3},50,,Blue shopping coupon*5,波波 A 20051,
+2972,10247,{6301=5},{21441=3},50,,Blue shopping coupon*5,咕妞妞 A-T2 21441,
+2973,10247,{6301=5},{20781=3},50,,Blue shopping coupon*5,菊草叶 A-T4 20781,
+2974,10247,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+2975,10247,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+2976,10247,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+2977,10247,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+2978,10247,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+2979,10247,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+2980,10247,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+2981,10247,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+2982,10247,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+2983,10247,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+2990,10248,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+2991,10248,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+2992,10248,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+2993,10248,{6071=240},{6906=1},1,,Orange carry*1,橙攜帶*1,404
+2994,10248,{6071=240},{6907=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+3000,10249,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+3001,10249,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+3002,10249,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+3003,10249,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+3004,10249,{6302=6},{23161=5},50,,Purple shopping coupon*6,勾帕路翁 S-T1 23161,
+3005,10249,{6302=6},{22821=5},50,,Purple shopping coupon*6,索罗亚 S-T2 22821,
+3006,10249,{6302=6},{20641=5},50,,Purple shopping coupon*6,拉普拉斯 S-T2 20641,
+3007,10249,{6301=3;6302=3},{23001=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,牙牙 S 23001,
+3008,10249,{6301=3;6302=3},{23411=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,独剑鞘 S 23411,
+3009,10249,{6301=3;6302=3},{23541=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,黏黏宝 S 23541,
+3010,10249,{6301=5},{23511=3},50,,Blue shopping coupon*5,摔角鹰人 A 23511,
+3011,10249,{6301=5},{22481=3},50,,Blue shopping coupon*5,暖暖猪 A 22481,
+3012,10249,{6301=5},{20791=3},50,,Blue shopping coupon*5,火球鼠 A 20791,
+3013,10249,{6301=5},{20801=3},50,,Blue shopping coupon*5,小锯鳄 A-T4 20801,
+3014,10249,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+3015,10249,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+3016,10249,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+3017,10249,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+3018,10249,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+3019,10249,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+3020,10249,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+3021,10249,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+3022,10249,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+3023,10249,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+3030,10250,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+3031,10250,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+3032,10250,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+3033,10250,{6071=240},{6908=1},1,,Orange carry*1,橙攜帶*1,404
+3034,10250,{6071=240},{6909=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+3040,10251,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+3041,10251,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+3042,10251,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+3043,10251,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+3044,10251,{6302=6},{23171=5},50,,Purple shopping coupon*6,代拉基翁 S-T1 23171,
+3045,10251,{6302=6},{21391=5},50,,Purple shopping coupon*6,拉鲁拉丝 S-T1 21391,
+3046,10251,{6302=6},{23661=5},50,,Purple shopping coupon*6,木木枭 S 23661,
+3047,10251,{6301=3;6302=3},{21291=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,木守宫 S-T3 21291,
+3048,10251,{6301=3;6302=3},{21071=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,赫拉克罗斯 S-T3 21071,
+3049,10251,{6301=3;6302=3},{23841=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,甜竹竹 S 23841,
+3050,10251,{6301=5},{20691=3},50,,Blue shopping coupon*5,化石盔 A-T2 20691,
+3051,10251,{6301=5},{23501=3},50,,Blue shopping coupon*5,冰雪龙 A 23501,
+3052,10251,{6301=5},{20301=3},50,,Blue shopping coupon*5,小拳石 A-T2 20301,
+3053,10251,{6301=5},{20461=3},50,,Blue shopping coupon*5,无畏小子 A 20461,
+3054,10251,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+3055,10251,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+3056,10251,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+3057,10251,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+3058,10251,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+3059,10251,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+3060,10251,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+3061,10251,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+3062,10251,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+3063,10251,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+3070,10252,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+3071,10252,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+3072,10252,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+3073,10252,{6071=240},{6910=1},1,,Orange carry*1,橙攜帶*1,404
+3074,10252,{6071=240},{6911=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+3080,10253,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+3081,10253,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+3082,10253,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+3083,10253,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+3084,10253,{6302=6},{23181=5},50,,Purple shopping coupon*6,毕力吉翁 S-T1 23181,
+3085,10253,{6302=6},{23151=5},50,,Purple shopping coupon*6,燃烧虫 S 23151,
+3086,10253,{6302=6},{22401=5},50,,Purple shopping coupon*6,克雷色利亚 S-T1 22401,
+3087,10253,{6301=3;6302=3},{21501=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,可可多拉 S-T3 21501,
+3088,10253,{6301=3;6302=3},{21421=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,懒人獭 S-T2 21421,
+3089,10253,{6301=3;6302=3},{20401=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,大岩蛇 S-T4 20401,
+3090,10253,{6301=5},{20281=3},50,,Blue shopping coupon*5,喇叭芽 A 20281,
+3091,10253,{6301=5},{20371=3},50,,Blue shopping coupon*5,臭泥 A-T5 20371,
+3092,10253,{6301=5},{20471=3},50,,Blue shopping coupon*5,大舌头 A-T3 20471,
+3093,10253,{6301=5},{21611=3},50,,Blue shopping coupon*5,呆火驼 A 21611,
+3094,10253,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+3095,10253,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+3096,10253,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+3097,10253,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+3098,10253,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+3099,10253,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+3100,10253,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+3101,10253,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+3102,10253,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+3103,10253,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+3110,10254,{6368=1;6369=1},{2032=1},1,,national day avatar frame,,
+3111,10254,{6368=1;6369=1;6370=1;6371=1},{2422=1},1,,National Day title,,
+3112,10254,{6370=1;6371=1},{2331=1},1,,national day avatar,,
+3113,10254,{6368=8;6369=8;6370=8;6371=8},{8014=1},1,,Street Skateboard Lucario,,
+3114,10254,{6368=3;6369=3;6370=3;6371=3},{2247=1},1,,Lillie's token,,
+3115,10254,{6368=3;6369=3;6370=3;6371=3},{925=1},1,,S Elf chooses treasure chest,,
+3116,10254,{6368=5;6369=5;6370=5;6371=5},{6059=1},1,,Accessory Awakening Selection Box,,
+3117,10254,{6368=3;6369=3;6370=3;6371=3},{6050=1},1,,Awakening random box,,
+3118,10254,{6368=1;6369=1;6370=1;6371=1},{rmb=888},1,,diamond,,
+3119,10254,{6368=1;6369=1},{973=1},2,,Random Orange Runestone Chest,,
+3120,10254,{6370=1;6371=1},{501=1},3,,Jewelry star props,,
+3121,10254,{6368=1;6370=1},{962=1},3,,Purple Explorer Chest,,
+3122,10254,{6369=1;6371=1},{talent_point=2},3,,talent point,,
+3123,10254,{6368=1;6371=1},{7304=1},2,,Random Orange Chip Chest,,
+3124,10254,{6368=1},{gold=200000},40,,gold,,
+3125,10254,{6369=1},{930=15},40,,breakout material box,,
+3126,10254,{6370=1},{5000=15},40,,Fortified Potion,,
+3127,10254,{6371=1},{2103=2},40,,Carry a purple boost,,
+,,,,,,,,
+3130,10255,{6071=20},{2152=1},4,,Purple carry universal *1,紫攜帶萬能*1,404
+3131,10255,{6071=60},{945=1},2,,Purple carry optional*1,紫攜帶任選*1,404
+3132,10255,{6071=120},{2153=1},4,,Orange carry universal *1,橙攜帶萬能*1,404
+3133,10255,{6071=240},{6912=1},1,,Orange carry*1,橙攜帶*1,404
+3134,10255,{6071=240},{6913=1},1,,Orange carry*1,橙攜帶*1,404
+3135,10255,{6071=240},{6105=1},1,,Orange carry*1,橙攜帶*1,404
+,,,,,,,,
+3140,10256,{6301=2},{502=1},2,,Blue Shopping Coupon*2 to exchange for Ordinary Universal Fragment*1,,404
+3141,10256,{6302=4},{502=2},3,,Purple Shopping Coupon*4 to exchange for Ordinary Universal Fragment*2,,404
+3142,10256,{6301=2},{talent_point=1},2,,Blue Shopping Coupon*2 Exchange Talent Point*1,,404
+3143,10256,{6302=4},{talent_point=2},3,,Purple Shopping Coupon*4 Exchange Talent Point*2,,404
+3144,10256,{6302=6},{20381=5},50,,Purple shopping coupon*6,大舌贝 S-T1 20381,
+3145,10256,{6302=6},{23771=5},50,,Purple shopping coupon*6,好坏星 S 23771,
+3146,10256,{6302=6},{22471=5},50,,Purple shopping coupon*6,藤藤蛇 S-T2 22471,
+3147,10256,{6301=3;6302=3},{20591=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,电击怪 S-T3 20591,
+3148,10256,{6301=3;6302=3},{21911=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,雷吉洛克 S-T2 21911,
+3149,10256,{6301=3;6302=3},{20881=3},50,,Blue Shopping Coupon*3 Purple Shopping Coupon*3,咩利羊 S-T3 20881,
+3150,10256,{6301=5},{20021=3},50,,Blue shopping coupon*5,杰尼龟 A 20021,
+3151,10256,{6301=5},{20131=3},50,,Blue shopping coupon*5,皮宝宝 A 20131,
+3152,10256,{6301=5},{20151=3},50,,Blue shopping coupon*5,宝宝丁 A 20151,
+3153,10256,{6301=5},{20551=3},50,,Blue shopping coupon*5,海星星 A-T3 20551,
+3154,10256,{6301=2},{19=1},5,,Blue Shopping Coupon*2 to exchange for Magic Capsule*1,,404
+3155,10256,{6302=2},{19=2},5,,Purple Shopping Coupon*2 to exchange for Magic Capsule*2,,404
+3156,10256,{6301=8;6302=8},{503=10},1,,Blue Shopping Coupon*8 Purple Shopping Coupon*8 Exchange Golden Key*10,,404
+3157,10256,{6301=6},{2103=3},5,,Blue Shopping Coupon*6 Exchange Purple Carrying Enhancement*3,,404
+3158,10256,{6301=6},{5000=30},5,,Blue Shopping Coupon*6 can be exchanged for Energy Potion*30,,404
+3159,10256,{6301=2},{gold=100000},10,,Blue shopping coupon*2 exchanged for gold coins*100000,,404
+3160,10256,{6301=2;6302=5},{501=1},3,,Blue Shopping Coupon*2 Purple Shopping Coupon*5 exchange for rustic accessories*1,,404
+3161,10256,{6301=20;6302=60},{942=1},2,,Blue Shopping Coupon*30 Purple Shopping Coupon*75 exchanged for Purple Carrying Items Gift Box*1,,404
+3162,10256,{6301=15;6302=45},{6059=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Selection Box*1,,404
+3163,10256,{6301=10;6302=40},{6050=1},1,,Blue Shopping Coupon*15 Purple Shopping Coupon*45 Exchange Accessory Awakening Random Box*1,,404
+,,,,,,,,
+3170,10257,{6321=1},{59002=3},50,,Intermediate Z Awakening Fragment,,
+3171,10257,{6321=4},{59003=4},20,,Advanced Z Awakening Fragment,,
+3172,10257,{6321=3},{501=1},5,,Jewelry star props,,
+3173,10257,{6321=5},{521=2},5,,Divine Beast Almighty Fragment,,
+3174,10257,{6321=400},{6120=1},1,,The oldest four orange carrying item chests,,
+3175,10257,{6321=1},{121=1},10,,Refining the core,,
+3176,10257,{6321=5},{23631=4},20,{3=3631},Fragments of Tianci,,
+3177,10257,{6321=5},{21261=4},20,{3=1261},Lugia Shard,,
+3178,10257,{6321=5},{21961=4},20,{3=1961},Kyoka Fragment,,
+3179,10257,{6321=5},{22431=4},20,{3=2431},Shard of Darkrai,,
+3180,10257,{6321=5},{22381=4},20,{3=2381},Fragments of Regichkas,,
+3181,10257,{6321=5},{22351=4},20,{3=2351},Fragment of Dialga,,
+3182,10257,{6321=5},{22361=4},20,{3=2361},Shards of Palkia,,
+3183,10257,{6321=5},{22391=4},20,{3=2391},Shard of Giratina,,
+3184,10257,{6321=1},{gold=300000},20,,gold,,
+3185,10257,{6321=1},{870=10},20,,Antique Breakthrough Material Gift Bag,,
+,,,,,,,,
+3190,10258,{6381=6},{2332=1},1,,Halloween head*1,萬聖頭像*1,
+3191,10258,{6381=12},{2034=1},1,,Halloween portrait frame*1,萬聖頭像框*1,
+3192,10258,{6381=15},{2423=1},1,,Halloween title*1,萬聖稱號*1,
+3193,10258,{6381=20},{2248=1},1,,Halloween image*1,,
+3194,10258,{6381=8;rmb=1680},{8020=1},1,,Halloween skin*1,,
+3195,10258,{6381=5},{6383=1},1,,Halloween gold coin package*1,萬聖節金幣禮包*1,
+3196,10258,{6381=5},{6384=1},1,,Halloween Diamond Gift Box*1,萬聖節鑽石禮盒*1,
+3197,10258,{6381=2},{521=1},3,,Divine Beast Universal Fragment*1,神獸萬能碎片*1,
+3198,10258,{6381=3},{501=1},1,,Jewelry star props,飾品升星道具,
+3199,10258,{6381=1},{602=1},10,,Silver necklace *1,銀項鍊*1,
+3200,10258,{6381=1},{2103=1},10,,Purple reinforcement *1,紫強化*1,
+3201,10258,{6381=1},{851=10},10,,Purple Potential Stone*10,紫色潛能石*10,
+3202,10258,{6381=1},{850=20},10,,Blue Potential Stone*20,藍色潛能石*20,
+3203,10258,{6381=1},{5000=5},10,,Crystal box*5,晶石盒子*5,
+3204,10258,{6381=1},{930=5},10,,Energy Potion*5,能量藥劑*5,
+3205,10258,{6381=1},{gold=50000},10,,Gold coin*5W,金幣*5W,

@@ -1,0 +1,32 @@
+﻿"﻿变量名",huodongID,amount,desc,desc_tw,desc_en,desc_kr,award
+默认值,0,0,"""""","""""","""""","""""",{}
+ID,活动版本ID,额度,描述,描述,描述,描述_韩,奖励
+1,5001,280,Spend 280 diamonds in total,累計消耗280鑽石,Spend 280 diamonds in total,280다이아 누적 소모,{gold=10000;52=100;21006=100;card = 30041}
+2,5001,1280,Spend 1280 diamonds in total,累計消耗1280鑽石,Spend 1280 diamonds in total,1280다이아 누적 소모,{gold=10000;52=100;21006=100;card = 30041}
+3,5001,3280,Spend 3280 diamonds in total,累計消耗3280鑽石,Spend 3280 diamonds in total,3280다이아 누적 소모,{gold=10000;52=100;21006=100;card = 30041}
+4,5001,6800,Spend 6800 diamonds in total,累計消耗6800鑽石,Spend 6800 diamonds in total,6800다이아 누적 소모,{gold=10000;52=100;21006=100;card = 30041}
+5,5001,13800,Spend 13800 diamonds in total,累計消耗13800鑽石,Spend 13800 diamonds in total,13800다이아 누적 소모,{gold=10000;52=100;21006=100;card = 30041}
+,,,,,,,
+,5002,280,Spend 280 diamonds in total,累計消耗280鑽石,Spend 280 diamonds in total,280다이아 누적 소모,{28=1;26=3}
+,5002,1280,Spend 1280 diamonds in total,累計消耗1280鑽石,Spend 1280 diamonds in total,1280다이아 누적 소모,{27=1;26=5}
+,5002,3280,Spend 3280 diamonds in total,累計消耗3280鑽石,Spend 3280 diamonds in total,3280다이아 누적 소모,{30=1;25=5}
+,5002,6800,Spend 6800 diamonds in total,累計消耗6800鑽石,Spend 6800 diamonds in total,6800다이아 누적 소모,{29=1;25=10}
+,5002,13800,Spend 13800 diamonds in total,累計消耗13800鑽石,Spend 13800 diamonds in total,13800다이아 누적 소모,{24=1;25=15}
+,,,,,,,
+,5003,280,Spend 280 diamonds in total,累計消耗280鑽石,Spend 280 diamonds in total,280다이아 누적 소모,{28=1;26=3}
+,5003,1280,Spend 1280 diamonds in total,累計消耗1280鑽石,Spend 1280 diamonds in total,1280다이아 누적 소모,{27=1;26=5}
+,5003,3280,Spend 3280 diamonds in total,累計消耗3280鑽石,Spend 3280 diamonds in total,3280다이아 누적 소모,{30=1;25=5}
+,5003,6800,Spend 6800 diamonds in total,累計消耗6800鑽石,Spend 6800 diamonds in total,6800다이아 누적 소모,{29=1;25=10}
+,5003,13800,Spend 13800 diamonds in total,累計消耗13800鑽石,Spend 13800 diamonds in total,13800다이아 누적 소모,{24=1;25=15}
+,,,,,,,
+,5004,280,Spend 280 diamonds in total,累計消耗280鑽石,Spend 280 diamonds in total,280다이아 누적 소모,{28=1;26=3}
+,5004,1280,Spend 1280 diamonds in total,累計消耗1280鑽石,Spend 1280 diamonds in total,1280다이아 누적 소모,{27=1;26=5}
+,5004,3280,Spend 3280 diamonds in total,累計消耗3280鑽石,Spend 3280 diamonds in total,3280다이아 누적 소모,{30=1;25=5}
+,5004,6800,Spend 6800 diamonds in total,累計消耗6800鑽石,Spend 6800 diamonds in total,6800다이아 누적 소모,{29=1;25=10}
+,5004,13800,Spend 13800 diamonds in total,累計消耗13800鑽石,Spend 13800 diamonds in total,13800다이아 누적 소모,{24=1;25=15}
+,,,,,,,
+,5005,280,Spend 280 diamonds in total,累計消耗280鑽石,Spend 280 diamonds in total,280다이아 누적 소모,{28=1;26=3}
+,5005,1280,Spend 1280 diamonds in total,累計消耗1280鑽石,Spend 1280 diamonds in total,1280다이아 누적 소모,{27=1;26=5}
+,5005,3280,Spend 3280 diamonds in total,累計消耗3280鑽石,Spend 3280 diamonds in total,3280다이아 누적 소모,{30=1;25=5}
+,5005,6800,Spend 6800 diamonds in total,累計消耗6800鑽石,Spend 6800 diamonds in total,6800다이아 누적 소모,{29=1;25=10}
+,5005,13800,Spend 13800 diamonds in total,累計消耗13800鑽石,Spend 13800 diamonds in total,13800다이아 누적 소모,{24=1;25=15}

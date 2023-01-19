@@ -1,0 +1,26 @@
+﻿"﻿变量名",huodongID,needRmb,needRmb_en,needRmb_tw,needRmb_kr,desc,desc_tw,desc_en,desc_vn,desc_kr,award,award_en,award_tw,award_kr,icon
+默认值,0,1,1,1,1,"""""","""""","""""","""""","""""",{},{},{},{},""""""
+ID,活动版本ID,要求充值,要求充值,要求充值,要求充值,描述,描述,描述,描述_越南,描述_韩,奖励,奖励,奖励,奖励,奖励图标
+1,3001,6480,6580,6580,6580,Single recharge 6580 diamond,單筆儲值6580鑽石,Single recharge 6580 diamond,404404,6580다이아 단일 충전,{rmb=6480},{rmb=6580},{rmb=6580},{rmb=6580},activity/once_recharge_award/icon_czfz1.png
+2,3001,3280,3380,3380,3380,Single recharge 3380 diamond,單筆儲值3380鑽石,Single recharge 3380 diamond,404404,3380다이아 단일 충전,{rmb=3280},{rmb=3380},{rmb=3380},{rmb=3380},activity/once_recharge_award/icon_czfz2.png
+3,3001,1980,1980,1980,1980,Single recharge 1980 diamond,單筆儲值1980鑽石,Single recharge 1980 diamond,404404,1980다이아 단일 충전,{rmb=1980},{rmb=1980},{rmb=1980},{rmb=1980},activity/once_recharge_award/icon_czfz3.png
+4,3001,980,980,980,980,Single recharge 980 diamond,單筆儲值980鑽石,Single recharge 980 diamond,404404,980다이아 단일 충전,{rmb=980},{rmb=980},{rmb=980},{rmb=980},activity/once_recharge_award/icon_czfz4.png
+5,3001,600,580,580,580,Single recharge 580 diamond,單筆儲值580鑽石,Single recharge 580 diamond,404404,580다이아 단일 충전,{rmb=600},{rmb=580},{rmb=580},{rmb=580},activity/once_recharge_award/icon_czfz5.png
+6,3001,300,340,340,340,Single recharge 340 diamond,單筆儲值340鑽石,Single recharge 340 diamond,404404,340다이아 단일 충전,{rmb=300},{rmb=340},{rmb=340},{rmb=340},activity/once_recharge_award/icon_czfz6.png
+7,3001,60,66,66,66,Single recharge 66 diamond,單筆儲值66鑽石,Single recharge 66 diamond,Đơn bút nạp tiền 60 Kim cương,66다이아 단일 충전,{rmb=60},{rmb=66},{rmb=66},{rmb=66},activity/once_recharge_award/icon_czfz7.png
+,,,,,,,,,,,,,,,
+11,3003,6480,6580,6580,6580,Single recharge 6580 diamond,單筆儲值6580鑽石,Single recharge 6580 diamond,404404,6580다이아 단일 충전,{rmb=6480},{rmb=6580},{rmb=6580},{rmb=6580},activity/once_recharge_award/icon_czfz1.png
+12,3003,3280,3380,3380,3380,Single recharge 3380 diamond,單筆儲值3380鑽石,Single recharge 3380 diamond,404404,3380다이아 단일 충전,{rmb=3280},{rmb=3380},{rmb=3380},{rmb=3380},activity/once_recharge_award/icon_czfz2.png
+13,3003,1980,1980,1980,1980,Single recharge 1980 diamond,單筆儲值1980鑽石,Single recharge 1980 diamond,404404,1980다이아 단일 충전,{rmb=1980},{rmb=1980},{rmb=1980},{rmb=1980},activity/once_recharge_award/icon_czfz3.png
+14,3003,980,980,980,980,Single recharge 980 diamond,單筆儲值980鑽石,Single recharge 980 diamond,404404,980다이아 단일 충전,{rmb=980},{rmb=980},{rmb=980},{rmb=980},activity/once_recharge_award/icon_czfz4.png
+15,3003,600,580,580,580,Single recharge 580 diamond,單筆儲值580鑽石,Single recharge 580 diamond,404404,580다이아 단일 충전,{rmb=600},{rmb=580},{rmb=580},{rmb=580},activity/once_recharge_award/icon_czfz5.png
+16,3003,300,340,340,340,Single recharge 340 diamond,單筆儲值340鑽石,Single recharge 340 diamond,404404,340다이아 단일 충전,{rmb=300},{rmb=340},{rmb=340},{rmb=340},activity/once_recharge_award/icon_czfz6.png
+17,3003,60,66,66,66,Single recharge 66 diamond,單筆儲值66鑽石,Single recharge 66 diamond,Đơn bút nạp tiền 60 Kim cương,66다이아 단일 충전,{rmb=60},{rmb=66},{rmb=66},{rmb=66},activity/once_recharge_award/icon_czfz7.png
+,,,,,,,,,,,,,,,
+21,3004,6480,6580,6580,6580,Single recharge 6580 diamond,單筆儲值6580鑽石,Single recharge 6580 diamond,404404,6580다이아 단일 충전,{rmb=3880},{rmb=3880},{rmb=3880},{rmb=3880},activity/once_recharge_award/icon_czfz1.png
+22,3004,3280,3380,3380,3380,Single recharge 3380 diamond,單筆儲值3380鑽石,Single recharge 3380 diamond,404404,3380다이아 단일 충전,{rmb=2080},{rmb=2080},{rmb=2080},{rmb=2080},activity/once_recharge_award/icon_czfz2.png
+23,3004,1980,1980,1980,1980,Single recharge 1980 diamond,單筆儲值1980鑽石,Single recharge 1980 diamond,404404,1980다이아 단일 충전,{rmb=1280},{rmb=1280},{rmb=1280},{rmb=1280},activity/once_recharge_award/icon_czfz3.png
+24,3004,980,980,980,980,Single recharge 980 diamond,單筆儲值980鑽石,Single recharge 980 diamond,404404,980다이아 단일 충전,{rmb=680},{rmb=680},{rmb=680},{rmb=680},activity/once_recharge_award/icon_czfz4.png
+25,3004,600,580,580,580,Single recharge 580 diamond,單筆儲值580鑽石,Single recharge 580 diamond,404404,580다이아 단일 충전,{rmb=460},{rmb=460},{rmb=460},{rmb=460},activity/once_recharge_award/icon_czfz5.png
+26,3004,300,340,340,340,Single recharge 340 diamond,單筆儲值340鑽石,Single recharge 340 diamond,404404,340다이아 단일 충전,{rmb=280},{rmb=280},{rmb=280},{rmb=280},activity/once_recharge_award/icon_czfz6.png
+27,3004,60,66,66,66,Single recharge 66 diamond,單筆儲值66鑽石,Single recharge 66 diamond,Đơn bút nạp tiền 60 Kim cương,66다이아 단일 충전,{rmb=60},{rmb=66},{rmb=66},{rmb=66},activity/once_recharge_award/icon_czfz7.png

@@ -1,0 +1,95 @@
+{
+  "cn": {
+    "game_key_prefix": ["game.shenhe", "game.cn", "game.cn_qd", "game.cn_ly1", "game.trial", "game.xy"],
+
+    "rmb_return": false,
+    "newest": 1,
+    "maintain": false,
+    "maintain_servers": [],
+    "maintain_billboard": "服务器维护时间0:30-2:00",
+
+    "white_list_enable": false,
+    "white_list_billboard": "即将上线，请耐心等待",
+    "white_list_all": [
+      "192.168.1.90"
+    ],
+    "white_list": {
+      "com_lzl_jxjjb": [
+        "124.64.19.67",
+        "222.249.170.84",
+        "203.187.160.174",
+        "183.156.112.37"
+      ]
+    },
+
+    "register_disable": ["game.cn.1", "game.cn.2", "game.cn.3", "game.cn.4", "game.cn.5", "game.cn_qd.1"]
+  },
+  "kr": {
+    "game_key_prefix": ["game.kr", "game.dev"],
+
+    "rmb_return": false,
+    "newest": 1,
+    "maintain": false,
+    "maintain_servers": [],
+    "maintain_billboard": "서버 점검 시간:16:00-17:00",
+
+    "white_list_enable": false,
+    "white_list_billboard": "서버 점검 시간:16:00-17:00",
+    "white_list_all": [
+      "60.176.148.74",
+
+      "150.109.244.71",
+      "164.52.50.6",
+      "150.109.244.71",
+      "14.29.55.102"
+    ],
+    "white_list": {
+      "lp_android_1210": [
+        "60.176.148.74",
+
+        "150.109.244.71",
+        "164.52.50.6",
+        "150.109.244.71",
+        "14.29.55.102"
+      ]
+    },
+
+    "register_disable": ["game.kr.1"]
+  },
+  "en": {
+    "game_key_prefix": ["game.en"],
+
+    "rmb_return": false,
+    "newest": 1,
+    "maintain": false,
+    "maintain_servers": [],
+    "maintain_billboard": "Dear trainer, Our server is in maitain now, please be patient. Maintain time: 16:00 - 17:00  UTC+8",
+
+    "white_list_enable": false,
+    "white_list_billboard": "Dear trainer, Our server is in maitain now, please be patient. Maintain time: 16:00 - 17:00  UTC+8",
+    "white_list_all": [
+      "14.29.55.102"
+    ],
+    "register_disable": [],
+    "check_isp": true,
+    "check_isp_url": "http://appsmobile.damoregame.com/odc/chekIsp.do",
+    "shenhe_login": "198.11.180.99:16666"
+  },
+  "tw": {
+    "game_key_prefix": ["game.tw"],
+
+    "rmb_return": false,
+    "newest": 1,
+    "maintain": false,
+    "maintain_servers": [],
+    "maintain_billboard": "伺服器將於2021/6/16 10:00（utc+8） 正式開服，更多活動請關注FB【神寶幻想：石英對決】",
+
+    "white_list_enable": false,
+    "white_list_billboard": "伺服器將於2021/6/16 10:00（utc+8） 正式開服，更多活動請關注FB【神寶幻想：石英對決】",
+    "white_list_all": [
+      "183.54.192.89",
+      "115.220.156.246"
+    ],
+    "register_disable": []
+  }
+}

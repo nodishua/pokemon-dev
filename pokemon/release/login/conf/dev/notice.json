@@ -1,0 +1,40 @@
+{
+  "activity": [
+    {
+      "content": [
+        {
+          "channel": "tc_qd", 
+          "content": "The Pokémon Alliance Contest started again, and the trainers set foot on the journey again.\nThe light of the elf ball shines in the hand，The adventure of the magical world sail again!\nDreams will come true one day, why not now?\nPokémon Masters, it's up to you! Pikachu!\n\nChannel player exchange group: 687229733\nOfficial customer service public number：800841234（Search official account）\nOfficial WeChat public account: Pocket Awakening Mobile Games\nOfficial Post Bar: Pocket Awakening\n\nBlu-ray quality Pokemon mobile game Pocket Awakening is coming~~\n⊙ Super exquisite Japanese manga style, movie-level special effects display!\n⊙ 18You can match all kinds of attributes,800+The elf is waiting for you to catch!\n⊙ Log in to get 10 consecutive draws, Geng Gui free on the 3rd and Dream on the 7th! \n⊙ Rare beasts are on the stage, and you are invited to the peak duel! \n\n\n", 
+          "title": "announcement"
+        }, 
+        {
+          "content": "The Pokémon Alliance Contest started again, and the trainers set foot on the journey again.\nThe light of the elf ball shines in the hand，The adventure of the magical world sail again! \nDreams will come true one day, why not now? \nPokemon masters, it's up to you! Pikachu! \n\nOfficial player exchange group: 671845682\nOfficial customer service account: 800841234 (search official account)\nOfficial WeChat account: Pocket Awakening Mobile Game\nOfficial Post Bar: Pocket Awakening\n\nBlu-ray The first-class picture quality Pokemon mobile game Pocket Awakening is coming~~\n⊙ Super exquisite Japanese manga style, movie-level special effects display! \n⊙ 18 attributes for you to match, 800+ elves are waiting for you to capture! \n⊙ Log in to get 10 consecutive draws, Geng Gui free on the 3rd and Dream on the 7th! \n⊙ Rare beasts are on the stage, and you are invited to the peak duel! \n\n\n", 
+          "title": "announcement"
+        }
+      ], 
+      "id": 100, 
+      "titlebar": "announcement"
+    }
+  ], 
+  "banner": [
+    "login/img_banner_01@.png", 
+    "login/img_banner_02@.png", 
+    "login/img_banner_03@.png"
+  ], 
+  "caution": [
+    {
+      "content": "In order to ensure that the game is running stably and shows normal, please do not use a third -party acceleration tool ~\n\nRecently received player feedback，Someone imitated the administrator QQ to privately chat with other players, resulting in the account being stolen. I would like to remind all players: \n1. Managers (including recruited player administrators) will not participate in account transactions, guarantees, etc. between players, nor will they Vouchers, recharges, game gift packages, etc. will be sold through QQ private chat, everyone should be vigilant and beware of being deceived;\n2. Official managemenDon't cause private property loss ask players for account passwords at will, and recruited player management is prohibited from asking for player account passwords;\n3 .The official does not recommend that players buy, sell or share accounts and screenshots of recharge orders, so as to avoid account disputes and cause unnecessary losses to you;\n4. Be cautious and careful when borrowing accounts, borrowing money, and swiping on behalf of others. Say important words three times. \n5. All kinds of swiping advertisements in the world chat in the game, such as adding QQ groups, WeChat, adding presidents to receive gift bags, etc. are all liars, just block them if you encounter them. We will also continue to hide and ban characters in the game who display advertisements, QQ groups, add WeChat, and other inducing information in the game. In addition, please create a guild and develop harmoniously，If an abnormal level involved in the guild and the announcement of the announcement of the announcement may be changed;\n\nDue to offline account transactions and borrowing money and other behaviors，It can be controlled in the game，Moreover, online private trading and other behaviors are difficult to protect the law and are difficult to hold relevant responsibilities. Therefore, remind everyone to pay attention to account security. I hope everyone can enjoy the game. Do not cause private property losses；\n\n\n", 
+      "title": "Anti -fraud warning"
+    }
+  ], 
+  "update": [
+    {
+      "content": "2020.10.30", 
+      "title": "Updated"
+    }, 
+    {
+      "content": "【Renewal content】\n1.Super Evaphtic House MEGA Geng Gui opens, skill description adjustment；\n2.Halloween theme activities are coming：\n  ① The main city fun activity (enter the night to open）；\n  ② Halloween boss challenge gameplay (starting at level 24);\n3. Add new orange carrying props, which can be obtained in the weekend limited-time exchange event;\n4. Add some fishing-related achievements;\n5. Fair match in the battle arena in the next cycle Turn on the quick anger mode (in this mode, the lightning bird and Suicune will be removed from the card library of both sides);\n6. Newly added Cracking Seat, Regi Chikas, Regi Rock, Regis Chiru, and Reg Ace The sound effect of the skill;\n\n【Optimized content】\n1. Team halo logic optimization, now there is no need to manually switch the dual attributes of elves, the system will automatically recognize it;\n2. Add a part of the level library under the difficulty of gymnasiums;\n3 .Reduce the unlocking consumption of gymnasium talent skills;\n\n【Battle repair content】\n1. Correct the blurred portrait problem in the Giratina illustration book;\n2. The problem of too few rows;\n3. Fix the problem that the skill effect of the elves occasionally does not take effect in the copy of the gym;\n4. Fix the problem that the challenge bonus of the gymnasium does not take effect;\n5. After the round is judged and the team is changed, some effects of the spirits of the losing team may not be deleted;\n6. After Sorolla transforms into Kyoka, the problem that Kyoka's big move ejection damage cannot attack Soroya ;\n7. Giratina-related optimizations\n ①Giratina's full-round special win-loss judgment processing correction: Giratina is in Quartz or cross-server Quartz and other heads-up games, when both sides are still alive after the full round of the battle , if Giratina is in the original form, it will switch to another form (only simple form switching, no refresh of the number of battle rounds, no triggering of any effects on both parties), and then judge according to the full round settlement rules of quartz; \n ②Fix the problem that the level of freezing special effects before and after Giratina's transformation is displayed abnormally (fix the problem that it will go behind the ghost dragon before freezing);\n ③Fix the scene skills in the 11-star effect of Giratina to reduce the speed of regenerating anger. Effective problem；\n  ④Riding Latin 11 star effect reinforcement：The 11 -star effect is attached with 40%attack back to anger；", 
+      "title": "details"
+    }
+  ]
+}

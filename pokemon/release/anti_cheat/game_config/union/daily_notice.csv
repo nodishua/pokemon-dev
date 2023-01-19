@@ -1,0 +1,11 @@
+﻿"﻿变量名",_beizhu,targetType,tarhetArg,desc,desc_tw,desc_en,desc_vn,desc_kr,goto
+默认值,,,,"""""","""""","""""","""""","""""",
+提醒项目ID,名称备注,目标类型参数,目标值参数,文本描述,文本描述,文本描述,文本描述_越南,文本描述_韩,功能建筑
+1,Donate daily,contribute,,Upgrade the building of your union,為公會添磚加瓦,Upgrade the building of your union,404404,길드를 위해 기여하세요.,contribute
+2,Daily Tasks,uniontask,,You have uncompleted daily quests,有每日任務未完成,You have uncompleted daily quests,404404,완료하지 않은 일일 퀘스트가 있습니다.,contribute
+3,Daily gift pack,dailygift,,You can claim daily pack,可領取每日禮包,You can claim daily pack,404404,일일 선물을 수령할 수 있습니다.,dailygift
+4,Training Center Speed Up,speedup,6,Speed up for your comrade,為戰友加速,Speed up for your comrade,Vì chiến hữu gia tốc,동료를 위해 가속해 주세요.,training
+5,Can receive red envelopes,dailypacket,,There's Red Packet to be claimed,有紅包可領取,There's Red Packet to be claimed,404404,수령 가능한 보너스가 있습니다.,redpacket
+6,Guild copy,fuben,3,Challenge union Dungeon,挑戰公會副本,Challenge union Dungeon,404404,길드 던전 도전,fuben
+7,Guild Wars,fightsign,,Registration for union War is open,公會戰可報名,Registration for union War is open,404404,길드전 참가 신청 가능,unionfight
+8,Wish Center,fragdonate,,You can make a wish,可以進行許願,You can make a wish,Có thể cầu nguyện,소원 진행 가능,fragdonate

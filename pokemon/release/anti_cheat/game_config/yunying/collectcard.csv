@@ -1,0 +1,11 @@
+﻿"﻿变量名",huodongID,taskType,taskParam,taskSpecialParam,desc,desc_tw,desc_en,desc_vn,desc_kr,award,goto
+默认值,0,35,21,{},"""""","""""","""""","""""","""""",{},""""""
+ID,活动版本ID,任务类型;35拥有某卡牌,任务参数,任务特殊参数,描述,描述,描述,描述_越南,描述_韩,奖励,跳转
+1,18001,,32,,(From 1st Recharge),（首儲獲得）,(From 1st Recharge),( Thủ mạo xưng thu hoạch được ),(첫 충전 획득),{gold=60000},firstRecharge
+2,18001,,222,,(From V12 Giftpack),（通過V12禮包獲得）,(From V12 Giftpack),( Thông qua V12 Gói quà thu hoạch được ),(VIP12 패키지를 통해 획득),{gold=120000},"recharge(2,12)"
+3,18001,,21,,(2nd Day Login),（登錄第二日獲得）,(2nd Day Login),( Đăng nhập ngày thứ hai thu hoạch được ),(로그인 2일 차 획득),{gold=20000},dengluraw
+4,18001,,51,,(3rd Day Login),（登錄第三日獲得）,(3rd Day Login),( Đăng nhập ngày thứ ba thu hoạch được ),(로그인 3일 차 획득),{gold=60000},dengluraw
+5,18001,,322,,(From Daily Drawing),（可通過抽卡獲得）,(From Daily Drawing),( Có thể thông qua rút thẻ thu hoạch được ),(뽑기를 통해 획득),{gold=80000},chouka
+6,18001,,272,,(From Daily Drawing),（可通過抽卡獲得）,(From Daily Drawing),( Có thể thông qua rút thẻ thu hoạch được ),(뽑기를 통해 획득),{gold=100000},chouka
+7,18001,,162,,(Daily Discount Event),（可通過每日折扣活動獲得）,(Daily Discount Event),( Có thể thông qua mỗi ngày chiết khấu hoạt động thu hoạch được ),(매일 할인 이벤트를 통해 획득),{gold=100000},chouka
+8,18001,,352,,(From  Drawing),（可通過抽卡獲得）,(From  Drawing),( Có thể thông qua rút thẻ thu hoạch được ),(뽑기를 통해 획득),{gold=60000},chouka

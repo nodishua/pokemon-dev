@@ -1,0 +1,25 @@
+变量名,_beizhu,itemMap,costMap,exchangeLimit,regainHour,beginDate,endDate,vipStart,levelRange,limitType,limitTimes,showUnable,sortValue,languages
+默认值,,{},{},-1,0,0,20990101,0,<1;150>,0,0,FALSE,0,<cn>
+商店ID,备注,商品ID表(ID=数量),消耗积分,兑换次数(-1表示无限次兑换),次数恢复间隔,开始贩售时间,结束贩售时间,起始VIP等级,等级限制,限购周期类型(1-日限购；2-周限购；3-月限购；4-永久限购),限购数量,未解锁时是否可见,显示排序小的在前,语言区域
+201,iron dumbbell,{21901=5},{coin13=1000},3,10,,,,<150;150>,,,,,<cn;en;tw;kr>
+211,Teeth,{23001=5},{coin13=1000},3,10,,,,<150;150>,,,,,<cn;en;tw;kr>
+221,round land shark,{22231=5},{coin13=1000},3,10,,,,<150;150>,,,,,<cn;en;tw;kr>
+231,Single headed dragon,{23141=5},{coin13=800},3,10,,,,<150;150>,,,,,<cn;en;tw;kr>
+241,Single scabbard,{23411=5},{coin13=800},3,10,,,,<150;150>,,,,,<cn;en;tw;kr>
+,,,,,,,,,,,,,,
+1001,Lugia Fragment*1,{21261=1},{coin13=120000},2,30,,,,,,,,1,<cn;en;tw;kr>
+1011,Vulcan Moth Fragment*3,{23151=3},{coin13=75000},2,24,,,,,,,,2,<cn;en;tw;kr>
+1021,Universal Fragment,{502=1},{coin13=75000},2,16,,,,,,,,3,<cn;en;tw;kr>
+1031,Latias Shard*3,{21941=3},{coin13=60000},2,18,,,,,,,,4,<cn;en;tw;kr>
+1041,Orange Explorer Optional Treasure Chest Shards Shards,{28504=1},{coin13=50000},2,24,,,,,,,,5,<cn;en;tw;kr>
+1051,Latios Fragment*3,{21951=3},{coin13=60000},2,18,,,,,,,,6,<cn;en;tw;kr>
+1061,talent point,{talent_point=1},{coin13=75000},2,24,,,,,,,,7,<cn;en;tw;kr>
+1071,Purple carries optional treasure chest fragment fragments,{28505=1},{coin13=180000},2,60,,,,,,,,8,<cn;en;tw;kr>
+1081,Runestone Essence Energy*500,{529=500},{coin13=90000},2,24,,,,,,,,11,<cn;en;tw;kr>
+1091,1W gold coin props*60,{514=60},{coin13=20000},2,48,,,,,,,,13,<cn;en;tw;kr>
+1101,1W gold coin props*15,{514=15},{coin13=5000},10,12,,,,,,,,14,<cn;en;tw;kr>
+1111,1W experience potion*10,{15=10},{coin13=15000},2,24,,,,,,,,15,<cn;en;tw;kr>
+1121,1W experience potion*2,{15=2},{coin13=3000},12,4,,,,,,,,16,<cn;en;tw;kr>
+1131,engraved spar,{111=100},{coin13=20000},3,8,,,,,,,,10,<cn;kr>
+1141,engraved spar,{112=20},{coin13=30000},3,8,,,,,,,,12,<cn;kr>
+1151,Energy core*20,{5000=20},{coin13=20000},2,12,,,,,,,,17,<cn;en;tw;kr>

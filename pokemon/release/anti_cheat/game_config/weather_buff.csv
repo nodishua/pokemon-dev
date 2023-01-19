@@ -1,0 +1,4 @@
+变量名,processId,weatherId,buffProb,buffValueGroup,buffLifeRound
+默认值,,,<>,<>,<>
+ID,技能过程段id,天气id,修正后的buff成功率（计算时此字段数值 替换 原skillprocess表中buff成功率）,buff效果参数1 加成系数（计算时 原过程表中效果参数1*（1+此字段系数/10000））,buff持续回合加成（计算时 原过程表中持续回回合数+此字段数值）
+1,673,2,,,

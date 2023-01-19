@@ -1,0 +1,7 @@
+﻿"﻿变量名",cardNum,reply,defaultIDs,furnitureLimitNum,notice1,notice1_tw,notice1_en,notice1_kr,notice2,notice2_tw,notice2_en,notice2_kr
+默认值,0,0,{floor=70001;wall=71001},999,"""""","""""","""""","""""","""""","""""","""""",""""""
+ID,小憩中卡牌最多放置,小憩恢复速度,小屋默认墙地面,家具数量上限,小憩升级恢复提醒,小憩升级恢复提醒,小憩升级恢复提醒,小憩升级恢复提醒,小憩升级恢复提醒,小憩升级恢复提醒,小憩升级恢复提醒,小憩升级恢复提醒
+1,5,10,,,,,,,,,,
+2,5,10,,,5 elves can be placed in the elf nap,,,,Spirits regenerate at a rate of 3 points/h,,,
+3,8,10,,,8 elves can be placed in the elf nap,,,,Spirits regenerate at a rate of 5 points/h,,,
+4,8,10,,,8 elves can be placed in the elf nap,,,,Spirits regenerate at a rate of 5 points/h,,,

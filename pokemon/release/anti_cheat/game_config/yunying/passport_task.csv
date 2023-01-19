@@ -1,0 +1,1039 @@
+﻿"﻿变量名",_beizhu,huodongID,periodType,weekParam,taskAttribute,taskType,taskParam,taskSpecialParam,title,title_tw,title_en,title_vn,title_kr,desc,desc_tw,desc_en,desc_vn,desc_kr,exp,goToPanel
+默认值,,0,1,1,3,0,9999,{},"""""","""""","""""","""""","""""",完成任务可获得经验值,完成任務可獲得經驗值,Completing task to get EXP.,404404,퀘스트 완료 시 경험치 획득 가능,0,
+ID,备注,活动版本ID,周期类型（1=每日;2=每周）,周参数（第几周）,任务属性(3=普通;4=大师专属),任务类型;普通关卡战斗次数0;困难关卡战斗次数1;活动副本战斗次数2;竞技场战斗次数3;钻石十连抽4;钻石单抽5;装备十连抽6;装备单抽7;开金宝箱8;购买体力9;充值钻石10;装备强化11;装备铸炼12;装备升星13;点金14;VIP等级15;考古16;,任务参数,任务特殊参数,标题,标题,标题,标题_越南,标题_韩,描述,描述,描述,描述_越南,描述_韩,奖励,前往类型枚举:5位数关卡ID-关卡10000为主线不限关10100为主线第一章20000为困难不限关  gainWay获得途径   shop商店activity活动接口roleLogo头像接口figure个人形象接口gainGold点金接口recharge充值接口gainStamina购买体力friend好友接口cardBag背包接口strengthen还有培养接口handbook图鉴接口任意英文-数字表示其页签
+,,,,,,,,,,,,,,,,,,,,
+1,Pass Day Mission,1001,1,,,18,1,,Get Treasure Pot once,進行1次聚寶,Get Treasure Pot once,404404,보물단지 1회 진행,,,,,,10,gainGold
+2,Pass Day Mission,1001,1,,,20,100000,,Spend 100000 coins,消耗100000金幣,Spend 100000 coins,404404,100000코인 소모,,,,,,10,
+3,Pass Day Mission,1001,1,,,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,20,
+4,Pass Day Mission,1001,1,,,26,1,,Purchase 1 energy,購買1次體力,Purchase 1 energy,Mua 1 sức chịu đựng,체력 1회 구매,,,,,,20,gainStamina
+5,Pass Day Mission,1001,1,,,29,10,,Clear Normal levels 10 times,挑戰普通關卡10次,Clear Normal levels 10 times,Thử thách cấp độ thông thường 10 lần,일반 스테이지 10회 도전,,,,,,10,10000
+6,Pass Day Mission,1001,1,,,30,3,,Challenge Elite levels 3 times,挑戰困難關卡3次,Challenge Elite levels 3 times,404404,하드 스테이지 도전 3회,,,,,,20,20000
+7,Pass Day Mission,1001,1,,,36,3,,Upgrade Pokémons 3 times,精靈升級3次,Upgrade Pokémons 3 times,404404,포켓몬 3회 레벨업,,,,,,20,strengthen-1
+8,Pass Day Mission,1001,1,,,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,20,
+,,,,,,,,,,,,,,,,,,,,
+9,Pass first week missions,1001,2,1,4,18,10,,Get Treasure Pot 10 times,進行10次聚寶,Get Treasure Pot 10 times,404404,보물단지 10회 진행,,,,,,20,gainGold
+10,Pass first week missions,1001,2,1,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,20,
+11,Pass first week missions,1001,2,1,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,30,
+12,Pass first week missions,1001,2,1,,26,10,,Purchase 10 energy,購買10次體力,Purchase 10 energy,404404,체력 10회 구매,,,,,,30,gainStamina
+13,Pass first week missions,1001,2,1,,29,80,,Clear Normal levels 80 times,挑戰普通關卡80次,Clear Normal levels 80 times,404404,일반 스테이지 80회 도전,,,,,,30,10000
+14,Pass first week missions,1001,2,1,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,30,20000
+15,Pass first week missions,1001,2,1,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,30,strengthen-1
+16,Pass first week missions,1001,2,1,,41,20,,Engage in arena battle for 20 times,競技場戰鬥20次,Engage in arena battle for 20 times,404404,아레나 전투 20회 진행,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+17,Pass Week 2 Missions,1001,2,2,4,18,10,,Get Treasure Pot 10 times,進行10次聚寶,Get Treasure Pot 10 times,404404,보물단지 10회 진행,,,,,,20,gainGold
+18,Pass Week 2 Missions,1001,2,2,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,20,
+19,Pass Week 2 Missions,1001,2,2,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,30,
+20,Pass Week 2 Missions,1001,2,2,,26,10,,Purchase 10 energy,購買10次體力,Purchase 10 energy,404404,체력 10회 구매,,,,,,30,gainStamina
+21,Pass Week 2 Missions,1001,2,2,,29,80,,Clear Normal levels 80 times,挑戰普通關卡80次,Clear Normal levels 80 times,404404,일반 스테이지 80회 도전,,,,,,30,10000
+22,Pass Week 2 Missions,1001,2,2,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,30,20000
+23,Pass Week 2 Missions,1001,2,2,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,30,strengthen-1
+24,Pass Week 2 Missions,1001,2,2,,41,20,,Engage in arena battle for 20 times,競技場戰鬥20次,Engage in arena battle for 20 times,404404,아레나 전투 20회 진행,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+25,Pass Week 3 Missions,1001,2,3,4,18,10,,Get Treasure Pot 10 times,進行10次聚寶,Get Treasure Pot 10 times,404404,보물단지 10회 진행,,,,,,20,gainGold
+26,Pass Week 3 Missions,1001,2,3,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,20,
+27,Pass Week 3 Missions,1001,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,30,
+28,Pass Week 3 Missions,1001,2,3,,26,10,,Purchase 10 energy,購買10次體力,Purchase 10 energy,404404,체력 10회 구매,,,,,,30,gainStamina
+29,Pass Week 3 Missions,1001,2,3,,29,80,,Clear Normal levels 80 times,挑戰普通關卡80次,Clear Normal levels 80 times,404404,일반 스테이지 80회 도전,,,,,,30,10000
+30,Pass Week 3 Missions,1001,2,3,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,30,20000
+31,Pass Week 3 Missions,1001,2,3,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,30,strengthen-1
+32,Pass Week 3 Missions,1001,2,3,,41,20,,Engage in arena battle for 20 times,競技場戰鬥20次,Engage in arena battle for 20 times,404404,아레나 전투 20회 진행,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+33,Pass Week 4 Missions,1001,2,4,4,18,10,,Get Treasure Pot 10 times,進行10次聚寶,Get Treasure Pot 10 times,404404,보물단지 10회 진행,,,,,,20,gainGold
+34,Pass Week 4 Missions,1001,2,4,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,20,
+35,Pass Week 4 Missions,1001,2,4,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,30,
+36,Pass Week 4 Missions,1001,2,4,,26,10,,Purchase 10 energy,購買10次體力,Purchase 10 energy,404404,체력 10회 구매,,,,,,30,gainStamina
+37,Pass Week 4 Missions,1001,2,4,,29,80,,Clear Normal levels 80 times,挑戰普通關卡80次,Clear Normal levels 80 times,404404,일반 스테이지 80회 도전,,,,,,30,10000
+38,Pass Week 4 Missions,1001,2,4,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,30,20000
+39,Pass Week 4 Missions,1001,2,4,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,30,strengthen-1
+40,Pass Week 4 Missions,1001,2,4,,41,20,,Engage in arena battle for 20 times,競技場戰鬥20次,Engage in arena battle for 20 times,404404,아레나 전투 20회 진행,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+1001,Pass Day Mission,1002,1,,4,15,1,,Daily login,每日登陸,Daily login,404404,일일 로그인,,,,,,15,
+1002,Pass Day Mission,1002,1,,4,29,30,,Fight in Normal level 30 times,挑戰普通關卡30次,Fight in Normal level 30 times,404404,일반 스테이지 30회 도전,,,,,,15,10000
+1003,Pass Day Mission,1002,1,,4,39,1,,Breakthrough trinket 1 time,飾品突破1次,Breakthrough trinket 1 time,404404,액세서리 1회 돌파,,,,,,15,
+1004,Pass Day Mission,1002,1,,3,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,15,
+1005,Pass Day Mission,1002,1,,3,66,2,,Enter Element Challenge 2 times,元素挑戰戰鬥2次,Enter Element Challenge 2 times,404404,엘리멘탈 챌린지 2회 전투,,,,,,15,
+1006,Pass Day Mission,1002,1,,3,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,15,
+1007,Pass Day Mission,1002,1,,3,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,15,
+,,,,,,,,,,,,,,,,,,,,
+1101,Pass first week missions,1002,2,1,4,17,2,,Login 2 days in total,累計登錄2天,Login 2 days in total,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,,,,,,50,
+1102,Pass first week missions,1002,2,1,4,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,50,strengthen-1
+1103,Pass first week missions,1002,2,1,4,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,50,
+1104,Pass first week missions,1002,2,1,,43,25,,Arena Points:25pts,競技場積分25分,Arena Points:25pts,404404,아레나 포인트 25점,,,,,,50,
+1105,Pass first week missions,1002,2,1,3,63,25000,,Accumulate a total of 25000 Aether Points,乙太積分累計25000分,Accumulate a total of 25000 Aether Points,404404,에테르 포인트 누적 25000점,,,,,,50,
+1106,Pass first week missions,1002,2,1,3,55,10,,Donate 10 times,公會捐獻10次,Donate 10 times,404404,길드 기부 10회,,,,,,50,
+1107,Pass first week missions,1002,2,1,3,50,10,,Draw 10 times in Diamond Draw,在鑽石抽卡中抽卡10次,Draw 10 times in Diamond Draw,404404,다이아 뽑기 10회 진행,,,,,,50,
+1108,Pass first week missions,1002,2,1,4,29,150,,Fight in Normal level 150 times,挑戰普通關卡150次,Fight in Normal level 150 times,404404,일반 스테이지 150회 도전,,,,,,50,10000
+1109,Pass first week missions,1002,2,1,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,50,20000
+1110,Pass first week missions,1002,2,1,3,85,15,,Complete Dispatch Quest 15 times,派遣任務完成15次,Complete Dispatch Quest 15 times,404404,파견 퀘스트 15회 완료,,,,,,50,
+1111,Pass first week missions,1002,2,1,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,50,
+1112,Pass first week missions,1002,2,1,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,50,
+1113,Pass first week missions,1002,2,1,3,86,3,{3=4},Complete S and above Dispatch Quest 3 times,完成S以上派遣3次,Complete S and above Dispatch Quest 3 times,404404,S급 이상 파견 3회 완료,,,,,,50,
+,,,,,,,,,,,,,,,,,,,,
+1201,Pass first week missions,1002,2,2,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1202,Pass first week missions,1002,2,2,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1203,Pass first week missions,1002,2,2,3,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,50,
+1204,Pass first week missions,1002,2,2,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1205,Pass first week missions,1002,2,2,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1206,Pass first week missions,1002,2,2,4,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1207,Pass first week missions,1002,2,2,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,50,
+1208,Pass first week missions,1002,2,2,4,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,50,10000
+1209,Pass first week missions,1002,2,2,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,50,20000
+1210,Pass first week missions,1002,2,2,4,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1211,Pass first week missions,1002,2,2,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,50,
+1212,Pass first week missions,1002,2,2,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,50,
+1213,Pass first week missions,1002,2,2,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,50,
+,,,,,,,,,,,,,,,,,,,,
+1301,Pass first week missions,1002,2,3,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1302,Pass first week missions,1002,2,3,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1303,Pass first week missions,1002,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1304,Pass first week missions,1002,2,3,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1305,Pass first week missions,1002,2,3,4,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1306,Pass first week missions,1002,2,3,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1307,Pass first week missions,1002,2,3,4,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1308,Pass first week missions,1002,2,3,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1309,Pass first week missions,1002,2,3,4,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1310,Pass first week missions,1002,2,3,4,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1311,Pass first week missions,1002,2,3,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1312,Pass first week missions,1002,2,3,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1313,Pass first week missions,1002,2,3,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+1401,Pass first week missions,1002,2,4,3,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1402,Pass first week missions,1002,2,4,3,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1403,Pass first week missions,1002,2,4,4,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1404,Pass first week missions,1002,2,4,4,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1405,Pass first week missions,1002,2,4,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1406,Pass first week missions,1002,2,4,4,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1407,Pass first week missions,1002,2,4,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1408,Pass first week missions,1002,2,4,4,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1409,Pass first week missions,1002,2,4,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1410,Pass first week missions,1002,2,4,3,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1411,Pass first week missions,1002,2,4,3,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1412,Pass first week missions,1002,2,4,3,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1413,Pass first week missions,1002,2,4,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+1501,Pass first week missions,1002,2,5,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1502,Pass first week missions,1002,2,5,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1503,Pass first week missions,1002,2,5,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1504,Pass first week missions,1002,2,5,3,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1505,Pass first week missions,1002,2,5,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1506,Pass first week missions,1002,2,5,3,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1507,Pass first week missions,1002,2,5,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1508,Pass first week missions,1002,2,5,3,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1509,Pass first week missions,1002,2,5,3,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1510,Pass first week missions,1002,2,5,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1511,Pass first week missions,1002,2,5,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1512,Pass first week missions,1002,2,5,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1513,Pass first week missions,1002,2,5,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+1601,Pass first week missions,1002,2,6,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1602,Pass first week missions,1002,2,6,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1603,Pass first week missions,1002,2,6,3,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1604,Pass first week missions,1002,2,6,3,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1605,Pass first week missions,1002,2,6,3,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1606,Pass first week missions,1002,2,6,4,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1607,Pass first week missions,1002,2,6,4,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1608,Pass first week missions,1002,2,6,4,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1609,Pass first week missions,1002,2,6,3,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1610,Pass first week missions,1002,2,6,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1611,Pass first week missions,1002,2,6,3,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1612,Pass first week missions,1002,2,6,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1613,Pass first week missions,1002,2,6,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+1701,Pass first week missions,1002,2,7,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1702,Pass first week missions,1002,2,7,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1703,Pass first week missions,1002,2,7,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1704,Pass first week missions,1002,2,7,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1705,Pass first week missions,1002,2,7,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1706,Pass first week missions,1002,2,7,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1707,Pass first week missions,1002,2,7,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1708,Pass first week missions,1002,2,7,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1709,Pass first week missions,1002,2,7,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1710,Pass first week missions,1002,2,7,4,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1711,Pass first week missions,1002,2,7,4,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1712,Pass first week missions,1002,2,7,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1713,Pass first week missions,1002,2,7,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+1801,Pass first week missions,1002,2,8,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1802,Pass first week missions,1002,2,8,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1803,Pass first week missions,1002,2,8,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1804,Pass first week missions,1002,2,8,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1805,Pass first week missions,1002,2,8,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1806,Pass first week missions,1002,2,8,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1807,Pass first week missions,1002,2,8,4,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1808,Pass first week missions,1002,2,8,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1809,Pass first week missions,1002,2,8,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1810,Pass first week missions,1002,2,8,4,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1811,Pass first week missions,1002,2,8,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1812,Pass first week missions,1002,2,8,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1813,Pass first week missions,1002,2,8,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+1901,Pass first week missions,1002,2,9,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+1902,Pass first week missions,1002,2,9,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+1903,Pass first week missions,1002,2,9,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+1904,Pass first week missions,1002,2,9,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+1905,Pass first week missions,1002,2,9,4,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+1906,Pass first week missions,1002,2,9,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+1907,Pass first week missions,1002,2,9,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+1908,Pass first week missions,1002,2,9,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+1909,Pass first week missions,1002,2,9,4,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+1910,Pass first week missions,1002,2,9,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+1911,Pass first week missions,1002,2,9,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+1912,Pass first week missions,1002,2,9,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+1913,Pass first week missions,1002,2,9,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+2001,Pass first week missions,1002,2,10,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+2002,Pass first week missions,1002,2,10,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+2003,Pass first week missions,1002,2,10,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+2004,Pass first week missions,1002,2,10,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+2005,Pass first week missions,1002,2,10,4,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+2006,Pass first week missions,1002,2,10,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+2007,Pass first week missions,1002,2,10,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+2008,Pass first week missions,1002,2,10,4,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+2009,Pass first week missions,1002,2,10,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+2010,Pass first week missions,1002,2,10,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+2011,Pass first week missions,1002,2,10,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+2012,Pass first week missions,1002,2,10,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+2013,Pass first week missions,1002,2,10,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+2101,Pass first week missions,1002,2,11,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+2102,Pass first week missions,1002,2,11,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+2103,Pass first week missions,1002,2,11,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+2104,Pass first week missions,1002,2,11,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+2105,Pass first week missions,1002,2,11,4,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+2106,Pass first week missions,1002,2,11,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+2107,Pass first week missions,1002,2,11,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+2108,Pass first week missions,1002,2,11,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+2109,Pass first week missions,1002,2,11,4,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+2110,Pass first week missions,1002,2,11,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+2111,Pass first week missions,1002,2,11,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+2112,Pass first week missions,1002,2,11,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+2113,Pass first week missions,1002,2,11,4,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+2201,Pass first week missions,1002,2,12,4,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,50,
+2202,Pass first week missions,1002,2,12,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,50,strengthen-1
+2203,Pass first week missions,1002,2,12,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+2204,Pass first week missions,1002,2,12,4,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,50,
+2205,Pass first week missions,1002,2,12,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,50,
+2206,Pass first week missions,1002,2,12,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,50,
+2207,Pass first week missions,1002,2,12,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+2208,Pass first week missions,1002,2,12,4,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+2209,Pass first week missions,1002,2,12,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+2210,Pass first week missions,1002,2,12,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,50,
+2211,Pass first week missions,1002,2,12,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+2212,Pass first week missions,1002,2,12,4,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+2213,Pass first week missions,1002,2,12,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+3001,Pass Day Mission,1003,1,,,15,1,,Daily login,每日登陸,Daily login,404404,일일 로그인,,,,,,30,
+3002,Pass Day Mission,1003,1,,,29,30,,Fight in Normal level 30 times,挑戰普通關卡30次,Fight in Normal level 30 times,404404,일반 스테이지 30회 도전,,,,,,30,10000
+3003,Pass Day Mission,1003,1,,,39,1,,Breakthrough trinket 1 time,飾品進階1次,Breakthrough trinket 1 time,404404,액세서리 1회 돌파,,,,,,30,
+3004,Pass Day Mission,1003,1,,,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,30,
+3005,Pass Day Mission,1003,1,,,66,2,,Enter Element Challenge 2 times,元素挑戰戰鬥2次,Enter Element Challenge 2 times,404404,엘리멘탈 챌린지 2회 전투,,,,,,30,
+3006,Pass Day Mission,1003,1,,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,30,
+3007,Pass Day Mission,1003,1,,,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,30,
+3008,Pass Day Mission,1003,1,,4,15,1,,Marster daily login.,大師每日登陸,Marster daily login.,404404,마스터 일일 로그인,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+3101,Pass first week missions,1003,2,1,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3102,Pass first week missions,1003,2,1,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3103,Pass first week missions,1003,2,1,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+3104,Pass first week missions,1003,2,1,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3105,Pass first week missions,1003,2,1,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3106,Pass first week missions,1003,2,1,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3107,Pass first week missions,1003,2,1,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,100,
+3108,Pass first week missions,1003,2,1,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,100,10000
+3109,Pass first week missions,1003,2,1,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,100,20000
+3110,Pass first week missions,1003,2,1,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3111,Pass first week missions,1003,2,1,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+3112,Pass first week missions,1003,2,1,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+3113,Pass first week missions,1003,2,1,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+3201,Pass first week missions,1003,2,2,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3202,Pass first week missions,1003,2,2,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3203,Pass first week missions,1003,2,2,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3204,Pass first week missions,1003,2,2,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3205,Pass first week missions,1003,2,2,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3206,Pass first week missions,1003,2,2,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3207,Pass first week missions,1003,2,2,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3208,Pass first week missions,1003,2,2,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3209,Pass first week missions,1003,2,2,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3210,Pass first week missions,1003,2,2,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3211,Pass first week missions,1003,2,2,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3212,Pass first week missions,1003,2,2,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3213,Pass first week missions,1003,2,2,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3301,Pass first week missions,1003,2,3,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3302,Pass first week missions,1003,2,3,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3303,Pass first week missions,1003,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3304,Pass first week missions,1003,2,3,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3305,Pass first week missions,1003,2,3,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3306,Pass first week missions,1003,2,3,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3307,Pass first week missions,1003,2,3,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3308,Pass first week missions,1003,2,3,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3309,Pass first week missions,1003,2,3,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3310,Pass first week missions,1003,2,3,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3311,Pass first week missions,1003,2,3,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3312,Pass first week missions,1003,2,3,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3313,Pass first week missions,1003,2,3,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3401,Pass first week missions,1003,2,4,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3402,Pass first week missions,1003,2,4,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3403,Pass first week missions,1003,2,4,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3404,Pass first week missions,1003,2,4,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3405,Pass first week missions,1003,2,4,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3406,Pass first week missions,1003,2,4,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3407,Pass first week missions,1003,2,4,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3408,Pass first week missions,1003,2,4,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3409,Pass first week missions,1003,2,4,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3410,Pass first week missions,1003,2,4,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3411,Pass first week missions,1003,2,4,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3412,Pass first week missions,1003,2,4,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3413,Pass first week missions,1003,2,4,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3501,Pass first week missions,1003,2,5,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3502,Pass first week missions,1003,2,5,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3503,Pass first week missions,1003,2,5,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3504,Pass first week missions,1003,2,5,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3505,Pass first week missions,1003,2,5,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3506,Pass first week missions,1003,2,5,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3507,Pass first week missions,1003,2,5,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3508,Pass first week missions,1003,2,5,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3509,Pass first week missions,1003,2,5,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3510,Pass first week missions,1003,2,5,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3511,Pass first week missions,1003,2,5,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3512,Pass first week missions,1003,2,5,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3513,Pass first week missions,1003,2,5,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3601,Pass first week missions,1003,2,6,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3602,Pass first week missions,1003,2,6,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3603,Pass first week missions,1003,2,6,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3604,Pass first week missions,1003,2,6,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3605,Pass first week missions,1003,2,6,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3606,Pass first week missions,1003,2,6,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3607,Pass first week missions,1003,2,6,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3608,Pass first week missions,1003,2,6,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3609,Pass first week missions,1003,2,6,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3610,Pass first week missions,1003,2,6,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3611,Pass first week missions,1003,2,6,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3612,Pass first week missions,1003,2,6,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3613,Pass first week missions,1003,2,6,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3701,Pass first week missions,1003,2,7,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3702,Pass first week missions,1003,2,7,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3703,Pass first week missions,1003,2,7,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3704,Pass first week missions,1003,2,7,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3705,Pass first week missions,1003,2,7,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3706,Pass first week missions,1003,2,7,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3707,Pass first week missions,1003,2,7,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3708,Pass first week missions,1003,2,7,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3709,Pass first week missions,1003,2,7,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3710,Pass first week missions,1003,2,7,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3711,Pass first week missions,1003,2,7,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3712,Pass first week missions,1003,2,7,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3713,Pass first week missions,1003,2,7,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3801,Pass first week missions,1003,2,8,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3802,Pass first week missions,1003,2,8,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3803,Pass first week missions,1003,2,8,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3804,Pass first week missions,1003,2,8,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3805,Pass first week missions,1003,2,8,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3806,Pass first week missions,1003,2,8,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3807,Pass first week missions,1003,2,8,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3808,Pass first week missions,1003,2,8,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3809,Pass first week missions,1003,2,8,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3810,Pass first week missions,1003,2,8,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3811,Pass first week missions,1003,2,8,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3812,Pass first week missions,1003,2,8,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3813,Pass first week missions,1003,2,8,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+3901,Pass first week missions,1003,2,9,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+3902,Pass first week missions,1003,2,9,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+3903,Pass first week missions,1003,2,9,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+3904,Pass first week missions,1003,2,9,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+3905,Pass first week missions,1003,2,9,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+3906,Pass first week missions,1003,2,9,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+3907,Pass first week missions,1003,2,9,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+3908,Pass first week missions,1003,2,9,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+3909,Pass first week missions,1003,2,9,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+3910,Pass first week missions,1003,2,9,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+3911,Pass first week missions,1003,2,9,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+3912,Pass first week missions,1003,2,9,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+3913,Pass first week missions,1003,2,9,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+4001,Pass first week missions,1003,2,10,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+4002,Pass first week missions,1003,2,10,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+4003,Pass first week missions,1003,2,10,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+4004,Pass first week missions,1003,2,10,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+4005,Pass first week missions,1003,2,10,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+4006,Pass first week missions,1003,2,10,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+4007,Pass first week missions,1003,2,10,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+4008,Pass first week missions,1003,2,10,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+4009,Pass first week missions,1003,2,10,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+4010,Pass first week missions,1003,2,10,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+4011,Pass first week missions,1003,2,10,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+4012,Pass first week missions,1003,2,10,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+4013,Pass first week missions,1003,2,10,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+4101,Pass first week missions,1003,2,11,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+4102,Pass first week missions,1003,2,11,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+4103,Pass first week missions,1003,2,11,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+4104,Pass first week missions,1003,2,11,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+4105,Pass first week missions,1003,2,11,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+4106,Pass first week missions,1003,2,11,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+4107,Pass first week missions,1003,2,11,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+4108,Pass first week missions,1003,2,11,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+4109,Pass first week missions,1003,2,11,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+4110,Pass first week missions,1003,2,11,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+4111,Pass first week missions,1003,2,11,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+4112,Pass first week missions,1003,2,11,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+4113,Pass first week missions,1003,2,11,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5001,Pass Day Mission,1004,1,,,15,1,,Daily login,每日登陸,Daily login,404404,일일 로그인,,,,,,30,
+5002,Pass Day Mission,1004,1,,,29,30,,Fight in Normal level 30 times,挑戰普通關卡30次,Fight in Normal level 30 times,404404,일반 스테이지 30회 도전,,,,,,30,10000
+5003,Pass Day Mission,1004,1,,,39,1,,Breakthrough trinket 1 time,飾品進階1次,Breakthrough trinket 1 time,404404,액세서리 1회 돌파,,,,,,30,
+5004,Pass Day Mission,1004,1,,,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,30,
+5005,Pass Day Mission,1004,1,,,66,2,,Enter Element Challenge 2 times,元素挑戰戰鬥2次,Enter Element Challenge 2 times,404404,엘리멘탈 챌린지 2회 전투,,,,,,30,
+5006,Pass Day Mission,1004,1,,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,30,
+5007,Pass Day Mission,1004,1,,,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,30,
+5008,Pass Day Mission,1004,1,,4,15,1,,Marster daily login.,大師每日登陸,Marster daily login.,404404,마스터 일일 로그인,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+5101,Pass first week missions,1004,2,1,,17,2,,Login 2 days in total,累計登錄2天,Login 2 days in total,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,,,,,,100,
+5102,Pass first week missions,1004,2,1,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,100,strengthen-1
+5103,Pass first week missions,1004,2,1,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+5104,Pass first week missions,1004,2,1,,43,25,,Arena Points:25pts,競技場積分25分,Arena Points:25pts,404404,아레나 포인트 25점,,,,,,100,
+5105,Pass first week missions,1004,2,1,,63,25000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 25000점,,,,,,100,
+5106,Pass first week missions,1004,2,1,,55,10,,Donate 10 times,公會捐獻10次,Donate 10 times,404404,길드 기부 10회,,,,,,100,
+5107,Pass first week missions,1004,2,1,,50,10,,Draw 10 times in Diamond Draw,在鑽石抽卡中抽卡10次,Draw 10 times in Diamond Draw,404404,다이아 뽑기 10회 진행,,,,,,100,
+5108,Pass first week missions,1004,2,1,,29,150,,Fight in Normal level 150 times,挑戰普通關卡150次,Fight in Normal level 150 times,404404,일반 스테이지 150회 도전,,,,,,100,10000
+5109,Pass first week missions,1004,2,1,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,100,20000
+5110,Pass first week missions,1004,2,1,,85,15,,Complete Dispatch Quest 15 times,派遣任務完成15次,Complete Dispatch Quest 15 times,404404,파견 퀘스트 15회 완료,,,,,,100,
+5111,Pass first week missions,1004,2,1,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+5112,Pass first week missions,1004,2,1,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+5113,Pass first week missions,1004,2,1,,86,3,{3=4},Complete S and above Dispatch Quest 3 times,完成S以上派遣3次,Complete S and above Dispatch Quest 3 times,404404,S급 이상 파견 3회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+5201,Pass first week missions,1004,2,2,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5202,Pass first week missions,1004,2,2,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5203,Pass first week missions,1004,2,2,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5204,Pass first week missions,1004,2,2,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5205,Pass first week missions,1004,2,2,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5206,Pass first week missions,1004,2,2,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5207,Pass first week missions,1004,2,2,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5208,Pass first week missions,1004,2,2,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5209,Pass first week missions,1004,2,2,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5210,Pass first week missions,1004,2,2,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5211,Pass first week missions,1004,2,2,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5212,Pass first week missions,1004,2,2,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5213,Pass first week missions,1004,2,2,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5301,Pass first week missions,1004,2,3,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5302,Pass first week missions,1004,2,3,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5303,Pass first week missions,1004,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5304,Pass first week missions,1004,2,3,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5305,Pass first week missions,1004,2,3,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5306,Pass first week missions,1004,2,3,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5307,Pass first week missions,1004,2,3,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5308,Pass first week missions,1004,2,3,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5309,Pass first week missions,1004,2,3,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5310,Pass first week missions,1004,2,3,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5311,Pass first week missions,1004,2,3,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5312,Pass first week missions,1004,2,3,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5313,Pass first week missions,1004,2,3,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5401,Pass first week missions,1004,2,4,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5402,Pass first week missions,1004,2,4,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5403,Pass first week missions,1004,2,4,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5404,Pass first week missions,1004,2,4,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5405,Pass first week missions,1004,2,4,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5406,Pass first week missions,1004,2,4,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5407,Pass first week missions,1004,2,4,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5408,Pass first week missions,1004,2,4,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5409,Pass first week missions,1004,2,4,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5410,Pass first week missions,1004,2,4,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5411,Pass first week missions,1004,2,4,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5412,Pass first week missions,1004,2,4,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5413,Pass first week missions,1004,2,4,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5501,Pass first week missions,1004,2,5,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5502,Pass first week missions,1004,2,5,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5503,Pass first week missions,1004,2,5,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5504,Pass first week missions,1004,2,5,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5505,Pass first week missions,1004,2,5,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5506,Pass first week missions,1004,2,5,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5507,Pass first week missions,1004,2,5,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5508,Pass first week missions,1004,2,5,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5509,Pass first week missions,1004,2,5,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5510,Pass first week missions,1004,2,5,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5511,Pass first week missions,1004,2,5,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5512,Pass first week missions,1004,2,5,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5513,Pass first week missions,1004,2,5,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5601,Pass first week missions,1004,2,6,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5602,Pass first week missions,1004,2,6,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5603,Pass first week missions,1004,2,6,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5604,Pass first week missions,1004,2,6,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5605,Pass first week missions,1004,2,6,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5606,Pass first week missions,1004,2,6,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5607,Pass first week missions,1004,2,6,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5608,Pass first week missions,1004,2,6,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5609,Pass first week missions,1004,2,6,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5610,Pass first week missions,1004,2,6,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5611,Pass first week missions,1004,2,6,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5612,Pass first week missions,1004,2,6,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5613,Pass first week missions,1004,2,6,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5701,Pass first week missions,1004,2,7,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5702,Pass first week missions,1004,2,7,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5703,Pass first week missions,1004,2,7,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5704,Pass first week missions,1004,2,7,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5705,Pass first week missions,1004,2,7,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5706,Pass first week missions,1004,2,7,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5707,Pass first week missions,1004,2,7,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5708,Pass first week missions,1004,2,7,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5709,Pass first week missions,1004,2,7,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5710,Pass first week missions,1004,2,7,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5711,Pass first week missions,1004,2,7,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5712,Pass first week missions,1004,2,7,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5713,Pass first week missions,1004,2,7,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5801,Pass first week missions,1004,2,8,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5802,Pass first week missions,1004,2,8,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5803,Pass first week missions,1004,2,8,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5804,Pass first week missions,1004,2,8,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5805,Pass first week missions,1004,2,8,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5806,Pass first week missions,1004,2,8,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5807,Pass first week missions,1004,2,8,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5808,Pass first week missions,1004,2,8,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5809,Pass first week missions,1004,2,8,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5810,Pass first week missions,1004,2,8,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5811,Pass first week missions,1004,2,8,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5812,Pass first week missions,1004,2,8,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5813,Pass first week missions,1004,2,8,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+5901,Pass first week missions,1004,2,9,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+5902,Pass first week missions,1004,2,9,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+5903,Pass first week missions,1004,2,9,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+5904,Pass first week missions,1004,2,9,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+5905,Pass first week missions,1004,2,9,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+5906,Pass first week missions,1004,2,9,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+5907,Pass first week missions,1004,2,9,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+5908,Pass first week missions,1004,2,9,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+5909,Pass first week missions,1004,2,9,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+5910,Pass first week missions,1004,2,9,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+5911,Pass first week missions,1004,2,9,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+5912,Pass first week missions,1004,2,9,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+5913,Pass first week missions,1004,2,9,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6001,Pass first week missions,1004,2,10,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6002,Pass first week missions,1004,2,10,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6003,Pass first week missions,1004,2,10,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6004,Pass first week missions,1004,2,10,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6005,Pass first week missions,1004,2,10,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6006,Pass first week missions,1004,2,10,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6007,Pass first week missions,1004,2,10,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6008,Pass first week missions,1004,2,10,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6009,Pass first week missions,1004,2,10,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6010,Pass first week missions,1004,2,10,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6011,Pass first week missions,1004,2,10,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6012,Pass first week missions,1004,2,10,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6013,Pass first week missions,1004,2,10,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6101,Pass first week missions,1004,2,11,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6102,Pass first week missions,1004,2,11,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6103,Pass first week missions,1004,2,11,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6104,Pass first week missions,1004,2,11,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6105,Pass first week missions,1004,2,11,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6106,Pass first week missions,1004,2,11,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6107,Pass first week missions,1004,2,11,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6108,Pass first week missions,1004,2,11,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6109,Pass first week missions,1004,2,11,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6110,Pass first week missions,1004,2,11,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6111,Pass first week missions,1004,2,11,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6112,Pass first week missions,1004,2,11,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6113,Pass first week missions,1004,2,11,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6501,Pass Day Mission,1005,1,,,15,1,,Daily login,每日登陸,Daily login,404404,일일 로그인,,,,,,30,
+6502,Pass Day Mission,1005,1,,,29,30,,Fight in Normal level 30 times,挑戰普通關卡30次,Fight in Normal level 30 times,404404,일반 스테이지 30회 도전,,,,,,30,10000
+6503,Pass Day Mission,1005,1,,,39,1,,Breakthrough trinket 1 time,飾品進階1次,Breakthrough trinket 1 time,404404,액세서리 1회 돌파,,,,,,30,
+6504,Pass Day Mission,1005,1,,,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,30,
+6505,Pass Day Mission,1005,1,,,66,2,,Enter Element Challenge 2 times,元素挑戰戰鬥2次,Enter Element Challenge 2 times,404404,엘리멘탈 챌린지 2회 전투,,,,,,30,
+6506,Pass Day Mission,1005,1,,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,30,
+6507,Pass Day Mission,1005,1,,,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,30,
+6508,Pass Day Mission,1005,1,,4,15,1,,Marster daily login.,大師每日登陸,Marster daily login.,404404,마스터 일일 로그인,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+6521,Pass first week missions,1005,2,1,,17,2,,Login 2 days in total,累計登錄2天,Login 2 days in total,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,,,,,,100,
+6522,Pass first week missions,1005,2,1,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,100,strengthen-1
+6523,Pass first week missions,1005,2,1,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+6524,Pass first week missions,1005,2,1,,43,25,,Arena Points:25pts,競技場積分25分,Arena Points:25pts,404404,아레나 포인트 25점,,,,,,100,
+6525,Pass first week missions,1005,2,1,,63,25000,,Accumulate a total of 25000 Aether Points,乙太積分累計25000分,Accumulate a total of 25000 Aether Points,404404,에테르 포인트 누적 25000점,,,,,,100,
+6526,Pass first week missions,1005,2,1,,55,10,,Donate 10 times,公會捐獻10次,Donate 10 times,404404,길드 기부 10회,,,,,,100,
+6527,Pass first week missions,1005,2,1,,50,10,,Draw 10 times in Diamond Draw,在鑽石抽卡中抽卡10次,Draw 10 times in Diamond Draw,404404,다이아 뽑기 10회 진행,,,,,,100,
+6528,Pass first week missions,1005,2,1,,29,150,,Fight in Normal level 150 times,挑戰普通關卡150次,Fight in Normal level 150 times,404404,일반 스테이지 150회 도전,,,,,,100,10000
+6529,Pass first week missions,1005,2,1,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,100,20000
+6530,Pass first week missions,1005,2,1,,85,15,,Complete Dispatch Quest 15 times,派遣任務完成15次,Complete Dispatch Quest 15 times,404404,파견 퀘스트 15회 완료,,,,,,100,
+6531,Pass first week missions,1005,2,1,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+6532,Pass first week missions,1005,2,1,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+6533,Pass first week missions,1005,2,1,,86,3,{3=4},Complete S and above Dispatch Quest 3 times,完成S以上派遣3次,Complete S and above Dispatch Quest 3 times,404404,S급 이상 파견 3회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+6541,Pass first week missions,1005,2,2,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6542,Pass first week missions,1005,2,2,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6543,Pass first week missions,1005,2,2,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6544,Pass first week missions,1005,2,2,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6545,Pass first week missions,1005,2,2,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6546,Pass first week missions,1005,2,2,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6547,Pass first week missions,1005,2,2,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6548,Pass first week missions,1005,2,2,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6549,Pass first week missions,1005,2,2,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6550,Pass first week missions,1005,2,2,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6551,Pass first week missions,1005,2,2,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6552,Pass first week missions,1005,2,2,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6553,Pass first week missions,1005,2,2,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6561,Pass first week missions,1005,2,3,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6562,Pass first week missions,1005,2,3,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6563,Pass first week missions,1005,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6564,Pass first week missions,1005,2,3,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6565,Pass first week missions,1005,2,3,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6566,Pass first week missions,1005,2,3,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6567,Pass first week missions,1005,2,3,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6568,Pass first week missions,1005,2,3,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6569,Pass first week missions,1005,2,3,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6570,Pass first week missions,1005,2,3,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6571,Pass first week missions,1005,2,3,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6572,Pass first week missions,1005,2,3,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6573,Pass first week missions,1005,2,3,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6581,Pass first week missions,1005,2,4,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6582,Pass first week missions,1005,2,4,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6583,Pass first week missions,1005,2,4,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6584,Pass first week missions,1005,2,4,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6585,Pass first week missions,1005,2,4,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6586,Pass first week missions,1005,2,4,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6587,Pass first week missions,1005,2,4,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6588,Pass first week missions,1005,2,4,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6589,Pass first week missions,1005,2,4,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6590,Pass first week missions,1005,2,4,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6591,Pass first week missions,1005,2,4,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6592,Pass first week missions,1005,2,4,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6593,Pass first week missions,1005,2,4,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6601,Pass first week missions,1005,2,5,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6602,Pass first week missions,1005,2,5,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6603,Pass first week missions,1005,2,5,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6604,Pass first week missions,1005,2,5,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6605,Pass first week missions,1005,2,5,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6606,Pass first week missions,1005,2,5,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6607,Pass first week missions,1005,2,5,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6608,Pass first week missions,1005,2,5,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6609,Pass first week missions,1005,2,5,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6610,Pass first week missions,1005,2,5,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6611,Pass first week missions,1005,2,5,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6612,Pass first week missions,1005,2,5,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6613,Pass first week missions,1005,2,5,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6621,Pass first week missions,1005,2,6,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6622,Pass first week missions,1005,2,6,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6623,Pass first week missions,1005,2,6,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6624,Pass first week missions,1005,2,6,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6625,Pass first week missions,1005,2,6,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6626,Pass first week missions,1005,2,6,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6627,Pass first week missions,1005,2,6,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6628,Pass first week missions,1005,2,6,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6629,Pass first week missions,1005,2,6,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6630,Pass first week missions,1005,2,6,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6631,Pass first week missions,1005,2,6,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6632,Pass first week missions,1005,2,6,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6633,Pass first week missions,1005,2,6,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6641,Pass first week missions,1005,2,7,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6642,Pass first week missions,1005,2,7,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6643,Pass first week missions,1005,2,7,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6644,Pass first week missions,1005,2,7,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6645,Pass first week missions,1005,2,7,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6646,Pass first week missions,1005,2,7,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6647,Pass first week missions,1005,2,7,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6648,Pass first week missions,1005,2,7,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6649,Pass first week missions,1005,2,7,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6650,Pass first week missions,1005,2,7,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6651,Pass first week missions,1005,2,7,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6652,Pass first week missions,1005,2,7,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6653,Pass first week missions,1005,2,7,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6661,Pass first week missions,1005,2,8,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6662,Pass first week missions,1005,2,8,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6663,Pass first week missions,1005,2,8,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6664,Pass first week missions,1005,2,8,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6665,Pass first week missions,1005,2,8,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6666,Pass first week missions,1005,2,8,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6667,Pass first week missions,1005,2,8,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6668,Pass first week missions,1005,2,8,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6669,Pass first week missions,1005,2,8,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6670,Pass first week missions,1005,2,8,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6671,Pass first week missions,1005,2,8,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6672,Pass first week missions,1005,2,8,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6673,Pass first week missions,1005,2,8,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6681,Pass first week missions,1005,2,9,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6682,Pass first week missions,1005,2,9,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6683,Pass first week missions,1005,2,9,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6684,Pass first week missions,1005,2,9,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6685,Pass first week missions,1005,2,9,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6686,Pass first week missions,1005,2,9,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6687,Pass first week missions,1005,2,9,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6688,Pass first week missions,1005,2,9,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6689,Pass first week missions,1005,2,9,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6690,Pass first week missions,1005,2,9,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6691,Pass first week missions,1005,2,9,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6692,Pass first week missions,1005,2,9,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6693,Pass first week missions,1005,2,9,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6701,Pass first week missions,1005,2,10,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6702,Pass first week missions,1005,2,10,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6703,Pass first week missions,1005,2,10,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6704,Pass first week missions,1005,2,10,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6705,Pass first week missions,1005,2,10,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6706,Pass first week missions,1005,2,10,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6707,Pass first week missions,1005,2,10,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6708,Pass first week missions,1005,2,10,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6709,Pass first week missions,1005,2,10,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6710,Pass first week missions,1005,2,10,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6711,Pass first week missions,1005,2,10,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6712,Pass first week missions,1005,2,10,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6713,Pass first week missions,1005,2,10,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+6721,Pass first week missions,1005,2,11,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+6722,Pass first week missions,1005,2,11,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+6723,Pass first week missions,1005,2,11,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+6724,Pass first week missions,1005,2,11,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+6725,Pass first week missions,1005,2,11,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+6726,Pass first week missions,1005,2,11,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+6727,Pass first week missions,1005,2,11,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+6728,Pass first week missions,1005,2,11,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+6729,Pass first week missions,1005,2,11,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+6730,Pass first week missions,1005,2,11,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+6731,Pass first week missions,1005,2,11,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+6732,Pass first week missions,1005,2,11,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+6733,Pass first week missions,1005,2,11,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7001,Pass Day Mission,1006,1,,,15,1,,Daily login,每日登陸,Daily login,404404,일일 로그인,,,,,,30,
+7002,Pass Day Mission,1006,1,,,29,30,,Fight in Normal level 30 times,挑戰普通關卡30次,Fight in Normal level 30 times,404404,일반 스테이지 30회 도전,,,,,,30,10000
+7003,Pass Day Mission,1006,1,,,39,1,,Breakthrough trinket 1 time,飾品進階1次,Breakthrough trinket 1 time,404404,액세서리 1회 돌파,,,,,,30,
+7004,Pass Day Mission,1006,1,,,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,30,
+7005,Pass Day Mission,1006,1,,,66,2,,Enter Element Challenge 2 times,元素挑戰戰鬥2次,Enter Element Challenge 2 times,404404,엘리멘탈 챌린지 2회 전투,,,,,,30,
+7006,Pass Day Mission,1006,1,,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,30,
+7007,Pass Day Mission,1006,1,,,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,30,
+7008,Pass Day Mission,1006,1,,4,15,1,,Marster daily login.,大師每日登陸,Marster daily login.,404404,마스터 일일 로그인,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+7021,Pass first week missions,1006,2,1,,17,2,,Login 2 days in total,累計登錄2天,Login 2 days in total,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,,,,,,100,
+7022,Pass first week missions,1006,2,1,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,100,strengthen-1
+7023,Pass first week missions,1006,2,1,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+7024,Pass first week missions,1006,2,1,,43,25,,Arena Points:25pts,競技場積分25分,Arena Points:25pts,404404,아레나 포인트 25점,,,,,,100,
+7025,Pass first week missions,1006,2,1,,63,25000,,Accumulate a total of 25000 Aether Points,乙太積分累計25000分,Accumulate a total of 25000 Aether Points,404404,에테르 포인트 누적 25000점,,,,,,100,
+7026,Pass first week missions,1006,2,1,,55,10,,Donate 10 times,公會捐獻10次,Donate 10 times,404404,길드 기부 10회,,,,,,100,
+7027,Pass first week missions,1006,2,1,,50,10,,Draw 10 times in Diamond Draw,在鑽石抽卡中抽卡10次,Draw 10 times in Diamond Draw,404404,다이아 뽑기 10회 진행,,,,,,100,
+7028,Pass first week missions,1006,2,1,,29,150,,Fight in Normal level 150 times,挑戰普通關卡150次,Fight in Normal level 150 times,404404,일반 스테이지 150회 도전,,,,,,100,10000
+7029,Pass first week missions,1006,2,1,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,100,20000
+7030,Pass first week missions,1006,2,1,,85,15,,Complete Dispatch Quest 15 times,派遣任務完成15次,Complete Dispatch Quest 15 times,404404,파견 퀘스트 15회 완료,,,,,,100,
+7031,Pass first week missions,1006,2,1,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+7032,Pass first week missions,1006,2,1,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+7033,Pass first week missions,1006,2,1,,86,3,{3=4},Complete S and above Dispatch Quest 3 times,完成S以上派遣3次,Complete S and above Dispatch Quest 3 times,404404,S급 이상 파견 3회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+7041,Pass first week missions,1006,2,2,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7042,Pass first week missions,1006,2,2,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7043,Pass first week missions,1006,2,2,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7044,Pass first week missions,1006,2,2,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7045,Pass first week missions,1006,2,2,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7046,Pass first week missions,1006,2,2,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7047,Pass first week missions,1006,2,2,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7048,Pass first week missions,1006,2,2,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7049,Pass first week missions,1006,2,2,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7050,Pass first week missions,1006,2,2,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7051,Pass first week missions,1006,2,2,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7052,Pass first week missions,1006,2,2,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7053,Pass first week missions,1006,2,2,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7061,Pass first week missions,1006,2,3,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7062,Pass first week missions,1006,2,3,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7063,Pass first week missions,1006,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7064,Pass first week missions,1006,2,3,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7065,Pass first week missions,1006,2,3,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7066,Pass first week missions,1006,2,3,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7067,Pass first week missions,1006,2,3,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7068,Pass first week missions,1006,2,3,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7069,Pass first week missions,1006,2,3,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7070,Pass first week missions,1006,2,3,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7071,Pass first week missions,1006,2,3,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7072,Pass first week missions,1006,2,3,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7073,Pass first week missions,1006,2,3,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7081,Pass first week missions,1006,2,4,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7082,Pass first week missions,1006,2,4,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7083,Pass first week missions,1006,2,4,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7084,Pass first week missions,1006,2,4,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7085,Pass first week missions,1006,2,4,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7086,Pass first week missions,1006,2,4,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7087,Pass first week missions,1006,2,4,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7088,Pass first week missions,1006,2,4,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7089,Pass first week missions,1006,2,4,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7090,Pass first week missions,1006,2,4,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7091,Pass first week missions,1006,2,4,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7092,Pass first week missions,1006,2,4,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7093,Pass first week missions,1006,2,4,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7101,Pass first week missions,1006,2,5,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7102,Pass first week missions,1006,2,5,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7103,Pass first week missions,1006,2,5,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7104,Pass first week missions,1006,2,5,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7105,Pass first week missions,1006,2,5,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7106,Pass first week missions,1006,2,5,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7107,Pass first week missions,1006,2,5,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7108,Pass first week missions,1006,2,5,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7109,Pass first week missions,1006,2,5,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7110,Pass first week missions,1006,2,5,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7111,Pass first week missions,1006,2,5,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7112,Pass first week missions,1006,2,5,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7113,Pass first week missions,1006,2,5,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7121,Pass first week missions,1006,2,6,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7122,Pass first week missions,1006,2,6,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7123,Pass first week missions,1006,2,6,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7124,Pass first week missions,1006,2,6,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7125,Pass first week missions,1006,2,6,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7126,Pass first week missions,1006,2,6,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7127,Pass first week missions,1006,2,6,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7128,Pass first week missions,1006,2,6,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7129,Pass first week missions,1006,2,6,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7130,Pass first week missions,1006,2,6,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7131,Pass first week missions,1006,2,6,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7132,Pass first week missions,1006,2,6,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7133,Pass first week missions,1006,2,6,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7141,Pass first week missions,1006,2,7,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7142,Pass first week missions,1006,2,7,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7143,Pass first week missions,1006,2,7,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7144,Pass first week missions,1006,2,7,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7145,Pass first week missions,1006,2,7,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7146,Pass first week missions,1006,2,7,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7147,Pass first week missions,1006,2,7,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7148,Pass first week missions,1006,2,7,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7149,Pass first week missions,1006,2,7,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7150,Pass first week missions,1006,2,7,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7151,Pass first week missions,1006,2,7,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7152,Pass first week missions,1006,2,7,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7153,Pass first week missions,1006,2,7,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7161,Pass first week missions,1006,2,8,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7162,Pass first week missions,1006,2,8,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7163,Pass first week missions,1006,2,8,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7164,Pass first week missions,1006,2,8,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7165,Pass first week missions,1006,2,8,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7166,Pass first week missions,1006,2,8,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7167,Pass first week missions,1006,2,8,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7168,Pass first week missions,1006,2,8,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7169,Pass first week missions,1006,2,8,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7170,Pass first week missions,1006,2,8,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7171,Pass first week missions,1006,2,8,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7172,Pass first week missions,1006,2,8,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7173,Pass first week missions,1006,2,8,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7181,Pass first week missions,1006,2,9,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7182,Pass first week missions,1006,2,9,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7183,Pass first week missions,1006,2,9,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7184,Pass first week missions,1006,2,9,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7185,Pass first week missions,1006,2,9,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7186,Pass first week missions,1006,2,9,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7187,Pass first week missions,1006,2,9,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7188,Pass first week missions,1006,2,9,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7189,Pass first week missions,1006,2,9,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7190,Pass first week missions,1006,2,9,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7191,Pass first week missions,1006,2,9,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7192,Pass first week missions,1006,2,9,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7193,Pass first week missions,1006,2,9,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7201,Pass first week missions,1006,2,10,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7202,Pass first week missions,1006,2,10,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7203,Pass first week missions,1006,2,10,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7204,Pass first week missions,1006,2,10,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7205,Pass first week missions,1006,2,10,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7206,Pass first week missions,1006,2,10,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7207,Pass first week missions,1006,2,10,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7208,Pass first week missions,1006,2,10,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7209,Pass first week missions,1006,2,10,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7210,Pass first week missions,1006,2,10,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7211,Pass first week missions,1006,2,10,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7212,Pass first week missions,1006,2,10,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7213,Pass first week missions,1006,2,10,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7221,Pass first week missions,1006,2,11,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7222,Pass first week missions,1006,2,11,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7223,Pass first week missions,1006,2,11,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7224,Pass first week missions,1006,2,11,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7225,Pass first week missions,1006,2,11,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7226,Pass first week missions,1006,2,11,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7227,Pass first week missions,1006,2,11,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7228,Pass first week missions,1006,2,11,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7229,Pass first week missions,1006,2,11,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7230,Pass first week missions,1006,2,11,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7231,Pass first week missions,1006,2,11,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7232,Pass first week missions,1006,2,11,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7233,Pass first week missions,1006,2,11,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7501,Pass Day Mission,1007,1,,,15,1,,Daily login,每日登陸,Daily login,404404,일일 로그인,,,,,,30,
+7502,Pass Day Mission,1007,1,,,29,30,,Fight in Normal level 30 times,挑戰普通關卡30次,Fight in Normal level 30 times,404404,일반 스테이지 30회 도전,,,,,,30,10000
+7503,Pass Day Mission,1007,1,,,39,1,,Breakthrough trinket 1 time,飾品進階1次,Breakthrough trinket 1 time,404404,액세서리 1회 돌파,,,,,,30,
+7504,Pass Day Mission,1007,1,,,41,5,,Engage in arena battle for 5 times,競技場戰鬥5次,Engage in arena battle for 5 times,404404,아레나 전투 5회 진행,,,,,,30,
+7505,Pass Day Mission,1007,1,,,66,2,,Enter Element Challenge 2 times,元素挑戰戰鬥2次,Enter Element Challenge 2 times,404404,엘리멘탈 챌린지 2회 전투,,,,,,30,
+7506,Pass Day Mission,1007,1,,,20,1000000,,Spend 1000000 coins,消耗1000000金幣,Spend 1000000 coins,404404,1000000코인 소모,,,,,,30,
+7507,Pass Day Mission,1007,1,,,21,300,,Spend 300 diamonds,消耗300鑽石,Spend 300 diamonds,404404,300다이아 소모,,,,,,30,
+7508,Pass Day Mission,1007,1,,4,15,1,,Marster daily login.,大師每日登陸,Marster daily login.,404404,마스터 일일 로그인,,,,,,30,
+,,,,,,,,,,,,,,,,,,,,
+7521,Pass first week missions,1007,2,1,,17,2,,Login 2 days in total,累計登錄2天,Login 2 days in total,Tích luỹ đăng nhập 2 ngày,누적 2일 로그인,,,,,,100,
+7522,Pass first week missions,1007,2,1,,36,30,,Upgrade Pokémons 30 times,精靈升級30次,Upgrade Pokémons 30 times,404404,포켓몬 30회 레벨업,,,,,,100,strengthen-1
+7523,Pass first week missions,1007,2,1,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,100,
+7524,Pass first week missions,1007,2,1,,43,25,,Arena Points:25pts,競技場積分25分,Arena Points:25pts,404404,아레나 포인트 25점,,,,,,100,
+7525,Pass first week missions,1007,2,1,,63,25000,,Accumulate a total of 25000 Aether Points,乙太積分累計25000分,Accumulate a total of 25000 Aether Points,404404,에테르 포인트 누적 25000점,,,,,,100,
+7526,Pass first week missions,1007,2,1,,55,10,,Donate 10 times,公會捐獻10次,Donate 10 times,404404,길드 기부 10회,,,,,,100,
+7527,Pass first week missions,1007,2,1,,50,10,,Draw 10 times in Diamond Draw,在鑽石抽卡中抽卡10次,Draw 10 times in Diamond Draw,404404,다이아 뽑기 10회 진행,,,,,,100,
+7528,Pass first week missions,1007,2,1,,29,150,,Fight in Normal level 150 times,挑戰普通關卡150次,Fight in Normal level 150 times,404404,일반 스테이지 150회 도전,,,,,,100,10000
+7529,Pass first week missions,1007,2,1,,30,30,,Challenge Elite levels 30 times,挑戰困難關卡30次,Challenge Elite levels 30 times,404404,하드 스테이지 도전 30회,,,,,,100,20000
+7530,Pass first week missions,1007,2,1,,85,15,,Complete Dispatch Quest 15 times,派遣任務完成15次,Complete Dispatch Quest 15 times,404404,파견 퀘스트 15회 완료,,,,,,100,
+7531,Pass first week missions,1007,2,1,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,100,
+7532,Pass first week missions,1007,2,1,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,100,
+7533,Pass first week missions,1007,2,1,,86,3,{3=4},Complete S and above Dispatch Quest 3 times,完成S以上派遣3次,Complete S and above Dispatch Quest 3 times,404404,S급 이상 파견 3회 완료,,,,,,100,
+,,,,,,,,,,,,,,,,,,,,
+7541,Pass first week missions,1007,2,2,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7542,Pass first week missions,1007,2,2,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7543,Pass first week missions,1007,2,2,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7544,Pass first week missions,1007,2,2,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7545,Pass first week missions,1007,2,2,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7546,Pass first week missions,1007,2,2,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7547,Pass first week missions,1007,2,2,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7548,Pass first week missions,1007,2,2,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7549,Pass first week missions,1007,2,2,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7550,Pass first week missions,1007,2,2,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7551,Pass first week missions,1007,2,2,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7552,Pass first week missions,1007,2,2,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7553,Pass first week missions,1007,2,2,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7561,Pass first week missions,1007,2,3,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7562,Pass first week missions,1007,2,3,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7563,Pass first week missions,1007,2,3,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7564,Pass first week missions,1007,2,3,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7565,Pass first week missions,1007,2,3,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7566,Pass first week missions,1007,2,3,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7567,Pass first week missions,1007,2,3,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7568,Pass first week missions,1007,2,3,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7569,Pass first week missions,1007,2,3,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7570,Pass first week missions,1007,2,3,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7571,Pass first week missions,1007,2,3,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7572,Pass first week missions,1007,2,3,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7573,Pass first week missions,1007,2,3,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7581,Pass first week missions,1007,2,4,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7582,Pass first week missions,1007,2,4,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7583,Pass first week missions,1007,2,4,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7584,Pass first week missions,1007,2,4,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7585,Pass first week missions,1007,2,4,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7586,Pass first week missions,1007,2,4,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7587,Pass first week missions,1007,2,4,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7588,Pass first week missions,1007,2,4,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7589,Pass first week missions,1007,2,4,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7590,Pass first week missions,1007,2,4,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7591,Pass first week missions,1007,2,4,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7592,Pass first week missions,1007,2,4,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7593,Pass first week missions,1007,2,4,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7601,Pass first week missions,1007,2,5,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7602,Pass first week missions,1007,2,5,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7603,Pass first week missions,1007,2,5,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7604,Pass first week missions,1007,2,5,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7605,Pass first week missions,1007,2,5,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7606,Pass first week missions,1007,2,5,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7607,Pass first week missions,1007,2,5,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7608,Pass first week missions,1007,2,5,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7609,Pass first week missions,1007,2,5,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7610,Pass first week missions,1007,2,5,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7611,Pass first week missions,1007,2,5,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7612,Pass first week missions,1007,2,5,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7613,Pass first week missions,1007,2,5,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7621,Pass first week missions,1007,2,6,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7622,Pass first week missions,1007,2,6,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7623,Pass first week missions,1007,2,6,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7624,Pass first week missions,1007,2,6,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7625,Pass first week missions,1007,2,6,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7626,Pass first week missions,1007,2,6,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7627,Pass first week missions,1007,2,6,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7628,Pass first week missions,1007,2,6,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7629,Pass first week missions,1007,2,6,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7630,Pass first week missions,1007,2,6,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7631,Pass first week missions,1007,2,6,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7632,Pass first week missions,1007,2,6,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7633,Pass first week missions,1007,2,6,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7641,Pass first week missions,1007,2,7,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7642,Pass first week missions,1007,2,7,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7643,Pass first week missions,1007,2,7,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7644,Pass first week missions,1007,2,7,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7645,Pass first week missions,1007,2,7,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7646,Pass first week missions,1007,2,7,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7647,Pass first week missions,1007,2,7,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7648,Pass first week missions,1007,2,7,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7649,Pass first week missions,1007,2,7,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7650,Pass first week missions,1007,2,7,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7651,Pass first week missions,1007,2,7,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7652,Pass first week missions,1007,2,7,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7653,Pass first week missions,1007,2,7,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7661,Pass first week missions,1007,2,8,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7662,Pass first week missions,1007,2,8,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7663,Pass first week missions,1007,2,8,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7664,Pass first week missions,1007,2,8,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7665,Pass first week missions,1007,2,8,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7666,Pass first week missions,1007,2,8,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7667,Pass first week missions,1007,2,8,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7668,Pass first week missions,1007,2,8,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7669,Pass first week missions,1007,2,8,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7670,Pass first week missions,1007,2,8,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7671,Pass first week missions,1007,2,8,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7672,Pass first week missions,1007,2,8,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7673,Pass first week missions,1007,2,8,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7681,Pass first week missions,1007,2,9,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7682,Pass first week missions,1007,2,9,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7683,Pass first week missions,1007,2,9,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7684,Pass first week missions,1007,2,9,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7685,Pass first week missions,1007,2,9,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7686,Pass first week missions,1007,2,9,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7687,Pass first week missions,1007,2,9,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7688,Pass first week missions,1007,2,9,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7689,Pass first week missions,1007,2,9,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7690,Pass first week missions,1007,2,9,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7691,Pass first week missions,1007,2,9,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7692,Pass first week missions,1007,2,9,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7693,Pass first week missions,1007,2,9,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7701,Pass first week missions,1007,2,10,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7702,Pass first week missions,1007,2,10,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7703,Pass first week missions,1007,2,10,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7704,Pass first week missions,1007,2,10,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7705,Pass first week missions,1007,2,10,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7706,Pass first week missions,1007,2,10,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7707,Pass first week missions,1007,2,10,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7708,Pass first week missions,1007,2,10,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7709,Pass first week missions,1007,2,10,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7710,Pass first week missions,1007,2,10,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7711,Pass first week missions,1007,2,10,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7712,Pass first week missions,1007,2,10,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7713,Pass first week missions,1007,2,10,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,
+,,,,,,,,,,,,,,,,,,,,
+7721,Pass first week missions,1007,2,11,,17,3,,Login 3 days in total,累計登錄3天,Login 3 days in total,Tích luỹ đăng nhập 3 ngày,누적 3일 로그인,,,,,,100,
+7722,Pass first week missions,1007,2,11,,36,50,,Upgrade Pokémon 50 times.,精靈升級50次,Upgrade Pokémon 50 times.,404404,포켓몬 50회 레벨업,,,,,,100,strengthen-1
+7723,Pass first week missions,1007,2,11,,21,1000,,Spend 1000 diamonds,消耗1000鑽石,Spend 1000 diamonds,404404,1000다이아 소모,,,,,,200,
+7724,Pass first week missions,1007,2,11,,43,50,,Arena Points:50pts,競技場積分50分,Arena Points:50pts,404404,아레나 포인트 50점,,,,,,100,
+7725,Pass first week missions,1007,2,11,,63,50000,,Accumulate a total of 50000 Aether Points,乙太積分累計50000分,Accumulate a total of 50000 Aether Points,404404,에테르 포인트 누적 50000점,,,,,,100,
+7726,Pass first week missions,1007,2,11,,55,20,,Donate 20 times,公會捐獻20次,Donate 20 times,404404,길드 기부 20회,,,,,,100,
+7727,Pass first week missions,1007,2,11,,50,20,,Draw 20 times in Diamond Draw,在鑽石抽卡中抽卡20次,Draw 20 times in Diamond Draw,404404,다이아 뽑기 20회 진행,,,,,,200,
+7728,Pass first week missions,1007,2,11,,29,300,,Fight in Normal level 300 times,挑戰普通關卡300次,Fight in Normal level 300 times,404404,일반 스테이지 300회 도전,,,,,,200,10000
+7729,Pass first week missions,1007,2,11,,30,60,,Challenge Elite level 60 times,挑戰困難關卡60次,Challenge Elite level 60 times,404404,하드 스테이지 도전 60회,,,,,,200,20000
+7730,Pass first week missions,1007,2,11,,85,30,,Complete Dispatch Quest 30 times,派遣任務完成30次,Complete Dispatch Quest 30 times,404404,파견 퀘스트 30회 완료,,,,,,100,
+7731,Pass first week missions,1007,2,11,,21,3000,,Spend 3000 diamonds,消耗3000鑽石,Spend 3000 diamonds,404404,3000다이아 소모,,,,,,200,
+7732,Pass first week missions,1007,2,11,,67,7,,Clear Aether Paradise level 7,乙太樂園通過7層,Clear Aether Paradise level 7,404404,에테르파라다이스 7층 클리어,,,,,,200,
+7733,Pass first week missions,1007,2,11,,86,6,{6=4},Complete S and above Dispatch Quest 6 times,完成S以上派遣6次,Complete S and above Dispatch Quest 6 times,404404,S급 이상 파견 6회 완료,,,,,,200,

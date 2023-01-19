@@ -1,0 +1,23 @@
+﻿"﻿变量名",frontType,showType,name,name_tw,name_en,name_vn,name_kr,_beizhu
+默认值,0,0,"""""","""""","""""","""""","""""",""""""
+ID(按照id顺序从上往下显示),前置分类（布置模式下功能分类）,显示分类（图鉴商店里展示分类）,品类名称,品类名称,品类名称,品类名称,品类名称,备注
+1,,,ground,地面,,,,"ID70000, only two categories, no more, each category 500ID"
+2,,,the wall,牆面,,,,"Starting from ID71000, each category occupies 500 IDs, and the excess is reserved for adding new categories later"
+3,,,furniture,家私,,,,"Starting from ID75000, each category occupies 500 IDs, and the excess is reserved for adding new categories"
+,,,,,,,,
+,,,,,,,,
+101,21,1,floor,地板,,,,"21: All-area floor (only used to configure frontType, in order to distinguish it from other furniture levels when using furniture in layout mode, for example, if it belongs to the floor, the furniture will always be at the lowest level of the ground, and if it belongs to the carpet, it will be covered on the floor)"
+102,23,1,carpet,地毯,,,,23: Carpet (only for configuring frontType)
+,,,,,,,,
+201,22,2,wallpaper,牆紙,,,,22: All-area walls (only for configuring frontType)
+202,25,2,Functional facilities,功能設施,,,,25: Put furniture on the wall (only for configuring frontType)
+203,25,2,doors and windows,門窗,,,,
+204,25,2,Art,藝術,,,,
+,,,,,,,,
+301,24,3,table,桌子,,,,24: Furniture placed on the ground (only for configuring frontType)
+302,24,3,Chair,椅子,,,,
+303,24,3,at home,居家,,,,
+304,24,3,Storage,收納,,,,
+305,24,3,Kitchen and bathroom,廚衛,,,,
+306,24,3,display,擺設,,,,
+307,24,3,other,其他,,,,

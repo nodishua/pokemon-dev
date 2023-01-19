@@ -1,0 +1,109 @@
+﻿"﻿变量名",type,exclusiveCards,skillID,skillID_tw,skillID_en,skillID_kr,viceSkillID,attrType1,attrNum1,attrType2,attrNum2,viceAttrRate,desc,desc_tw,desc_en,desc_vn,desc_kr
+默认值,1,<>,0,0,0,0,0,,,,,0.5,"""""","""""","""""","""""",""""""
+效果ID,效果类型（1-属性;2-技能）,专属卡牌<markID;>,技能ID,繁体技能ID,英文技能ID,韩文技能ID,副携带技能ID,属性类型1,属性数值1,属性类型2,属性数值2,副携带属性比例,效果描述,效果描述,效果描述,效果描述_越南,效果描述_韩
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+1,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,HP increases by %s while holding it,攜帶後，生命提升%s,HP increases by %s while holding it,"Sau khi mang, HP tăng %s",휴대 시 HP %s 증가
+3,1,,,,,,,7,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,P.ATK increases by %s while holding it,攜帶後，物攻提升%s,P.ATK increases by %s while holding it,"Sau khi mang, Vật Công tăng %s",휴대 시 공격 %s 증가
+5,1,,,,,,,10,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,SP.DEF increases by %s while holding it,攜帶後，特防提升%s,SP.DEF increases by %s while holding it,"Sau khi mang, Đặc Phòng tăng %s",휴대 시 특수방어 %s 증가
+7,1,,,,,,,8,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,SP.ATK increases by %s while holding it,攜帶後，特攻提升%s,SP.ATK increases by %s while holding it,"Sau khi mang, Đặc Công tăng %s",휴대 시 특수공격 %s 증가
+9,1,,,,,,,9,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,P.DEF increases by %s while holding it,攜帶後，物防提升%s,P.DEF increases by %s while holding it,"Sau khi mang, Vật Phòng tăng %s",휴대 시 방어 %s 증가
+11,1,,,,,,,13,<3%;3.5%;4%;4.5%;5%;6%;7%;8%>,,,,Speed increases by %s while holding it,攜帶後，速度提升%s,Speed increases by %s while holding it,"Sau khi mang, Tốc Độ tăng %s",휴대 시 스피드 %s 증가
+15,1,,,,,,,1,<8%;9%;10%;11%;12%;13%;14%;15%>,9,<4%;4.5%;5%;5.5%;6%;6.5%;7%;7.5%>,,HP increases by %s and P.DEF increases by %s while holding it,攜帶後，生命提升%s，物防提升%s,HP increases by %s and P.DEF increases by %s while holding it,"Sau khi mang, HP tăng %s, Vật Phòng tăng %s","휴대 시 HP %s 증가, 방어 %s 증가"
+17,1,,,,,,,1,<8%;9%;10%;11%;12%;13%;14%;15%>,10,<4%;4.5%;5%;5.5%;6%;6.5%;7%;7.5%>,,HP increases %s and SP.DEF increases %s while holding it,攜帶後，生命提升%s，特防提升%s,HP increases %s and SP.DEF increases %s while holding it,"Sau khi mang, HP tăng %s, Đặc Phòng tăng %s","휴대 시 HP %s 증가, 특수방어 %s 증가"
+19,1,,,,,,,9,<8%;9%;10%;11%;12%;13%;14%;15%>,10,<4%;4.5%;5%;5.5%;6%;6.5%;7%;7.5%>,,"P.DEF increases by %s, SP.DEF increases by %s while holding it",攜帶後，物防提升%s，特防提升%s,"P.DEF increases by %s, SP.DEF increases by %s while holding it","Sau khi mang, Vật Phòng tăng %s, Đặc Phòng tăng %s","휴대 시 방어 %s 증가, 특수방어 %s 증가"
+21,1,,,,,,,7,<8%;9%;10%;11%;12%;13%;14%;15%>,14,<300;400;450;450;500;550;600;650>,,"P.ATK increases by %s, critical hit increases %s while holding it",攜帶後，物攻提升%s，暴擊提升%s,"P.ATK increases by %s, critical hit increases %s while holding it","Sau khi mang, Vật Công tăng %s, Bạo Kích tăng %s","휴대 시 공격 %s 증가, 치명타 %s 증가"
+23,1,,,,,,,8,<8%;9%;10%;11%;12%;13%;14%;15%>,14,<300;400;450;450;500;550;600;650>,,"SP.ATK increases by %s, critical hit increases %s while holding it",攜帶後，特攻提升%s，暴擊提升%s,"SP.ATK increases by %s, critical hit increases %s while holding it","Sau khi mang, Đặc Công tăng %s, Bạo Kích tăng %s","휴대 시 특수공격 %s 증가, 치명타 %s 증가"
+25,1,,,,,,,1,<8%;9%;10%;11%;12%;13%;14%;15%>,7,<4%;4.5%;5%;5.5%;6%;6.5%;7%;7.5%>,,HP increases by %s and P.ATK increases by %s while holding it,攜帶後，生命提升%s，物攻提升%s,HP increases by %s and P.ATK increases by %s while holding it,"Sau khi mang, HP tăng %s, Vật Công tăng %s","휴대 시 HP %s 증가, 공격 %s 증가"
+27,1,,,,,,,1,<8%;9%;10%;11%;12%;13%;14%;15%>,8,<4%;4.5%;5%;5.5%;6%;6.5%;7%;7.5%>,,HP increases by %s and SP.ATK increases by %s while holding it,攜帶後，生命提升%s，特攻提升%s,HP increases by %s and SP.ATK increases by %s while holding it,"Sau khi mang, HP tăng %s, Đặc Công tăng %s","휴대 시 HP %s 증가, 특수공격 %s 증가"
+29,1,,,,,,,13,<5%;5.5%;6%;6.5%;7%;8%;9%;10%>,,,,Speed increases by %s while holding it,攜帶後，速度提升%s,Speed increases by %s while holding it,"Sau khi mang, Tốc Độ tăng %s",휴대 시 스피드 %s 증가
+31,1,,,,,,,14,<500;550;600;650;700;750;800;850>,,,,Critical hit increases by %s while holding it,攜帶後，暴擊提升%s,Critical hit increases by %s while holding it,"Sau khi mang, Bạo Kích tăng %s",휴대 시 치명타 %s 증가
+33,1,,,,,,,1,<12%;13.5%;15%;16.5%;18%;19.5%;21%;22.5%>,,,,HP increases by %s while holding it,攜帶後，生命提升%s,HP increases by %s while holding it,"Sau khi mang, HP tăng %s",휴대 시 HP %s 증가
+34,2,,50004,50004,50004,50004,,,,,,,%s,%s,%s,%s,%s
+35,1,,,,,,,13,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,A box packed with a tremendous amount of magma energy.\n Speed increases by %s while holding it,積蓄著龐大熔岩能量的箱子。\n攜帶後，速度提升%s,A box packed with a tremendous amount of magma energy.\n Speed increases by %s while holding it,"Rương chứa sức mạnh Dung Nham.\nSau khi mang, Tốc Độ tăng %s",강력한 용암 에너지가 축적된 상자. \n휴대 시 스피드 %s 증가
+36,2,,50001,50001,50001,50001,,,,,,,%s,%s,%s,%s,%s
+37,1,,,,,,,13,<5%;6%;7%;8%;9%;10%;11%;12%>,,,,A box packed with a tremendous amount of electric energy.\n Speed increases by %s while holding it,積蓄著龐大電氣能量的箱子。\n攜帶後，速度提升%s,A box packed with a tremendous amount of electric energy.\n Speed increases by %s while holding it,"Rương chứa sức mạnh Điện.\nSau khi mang, Tốc Độ tăng %s",강력한 전기 에너지가 축적된 상자. \n휴대 시 스피드 %s 증가
+38,2,,50003,50003,50003,50003,,,,,,,%s,%s,%s,%s,%s
+39,1,,,,,,,13,<12%;13%;14%;15%;16%;17%;18%;19%>,,,,Speed increases by %s while holding it,攜帶後，速度提升%s,Speed increases by %s while holding it,"Sau khi mang, Tốc Độ tăng %s",휴대 시 스피드 %s 증가
+40,2,,51003,51003,51003,51003,,,,,,,%s,%s,%s,%s,%s
+41,1,,,,,,,9,<8%;9%;10%;11%;12%;13%;14%;15%>,10,<8%;9%;10%;11%;12%;13%;14%;15%>,,"P.DEF increases by %s, SP.DEF increases by %s while holding it",攜帶後，物防提升%s，特防提升%s,"P.DEF increases by %s, SP.DEF increases by %s while holding it","Sau khi mang, Vật Phòng tăng %s, Đặc Phòng tăng %s","휴대 시 방어 %s 증가, 특수방어 %s 증가"
+42,2,,51005,51005,51005,51005,,,,,,,%s,%s,%s,%s,%s
+43,1,,,,,,,1,<12%;13.5%;15%;16.5%;18%;19.5%;21%;22.5%>,,,,HP increases by %s while holding it,攜帶後，生命提升%s,HP increases by %s while holding it,"Sau khi mang, HP tăng %s",휴대 시 HP %s 증가
+44,2,,51001,51001,51001,51001,,,,,,,%s,%s,%s,%s,%s
+45,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,13,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,HP increases %s and Speed increases by %s while holding it,攜帶後，生命提升%s，速度提升%s,HP increases %s and Speed increases by %s while holding it,"Sau khi mang, HP tăng %s, Tốc Độ tăng %s","휴대 시 HP %s 증가, 스피드 %s 증가"
+46,2,,53001,53001,53001,53001,,,,,,,%s,%s,%s,%s,%s
+47,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,13,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,HP increases %s and Speed increases by %s while holding it,攜帶後，生命提升%s，速度提升%s,HP increases %s and Speed increases by %s while holding it,"Sau khi mang, HP tăng %s, Tốc Độ tăng %s","휴대 시 HP %s 증가, 스피드 %s 증가"
+48,2,,53002,53002,53002,53002,,,,,,,%s,%s,%s,%s,%s
+49,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,13,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,HP increases %s and Speed increases by %s while holding it,攜帶後，生命提升%s，速度提升%s,HP increases %s and Speed increases by %s while holding it,"Sau khi mang, HP tăng %s, Tốc Độ tăng %s","휴대 시 HP %s 증가, 스피드 %s 증가"
+50,2,,53003,53003,53003,53003,,,,,,,%s,%s,%s,%s,%s
+51,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,13,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,HP increases %s and Speed increases by %s while holding it,攜帶後，生命提升%s，速度提升%s,HP increases %s and Speed increases by %s while holding it,"Sau khi mang, HP tăng %s, Tốc Độ tăng %s","휴대 시 HP %s 증가, 스피드 %s 증가"
+52,2,,53004,53004,53004,53004,,,,,,,%s,%s,%s,%s,%s
+53,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,13,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,HP increases %s and Speed increases by %s while holding it,攜帶後，生命提升%s，速度提升%s,HP increases %s and Speed increases by %s while holding it,"Sau khi mang, HP tăng %s, Tốc Độ tăng %s","휴대 시 HP %s 증가, 스피드 %s 증가"
+54,2,,53005,53005,53005,53005,,,,,,,%s,%s,%s,%s,%s
+55,1,,,,,,,1,<5%;6%;7%;8%;9%;10%;11%;12%>,13,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,HP increases %s and Speed increases by %s while holding it,攜帶後，生命提升%s，速度提升%s,HP increases %s and Speed increases by %s while holding it,"Sau khi mang, HP tăng %s, Tốc Độ tăng %s","휴대 시 HP %s 증가, 스피드 %s 증가"
+56,2,,53006,53006,53006,53006,,,,,,,%s,%s,%s,%s,%s
+57,1,,,,,,,34,<1200;1350;1500;1650;1800;1950;2100;2250>,12,<800;900;1000;1100;1200;1300;1400;1500>,,SP.Damage bonus increases by %s and SP.DEF ignorance increases by %s while holding it.,攜帶後，特攻傷害加成提升%s，特防忽視提升%s,SP.Damage bonus increases by %s and SP.DEF ignorance increases by %s while holding it.,"Sau khi mang, Tăng Thương Đặc Công tăng %s, bỏ qua Đặc Phòng tăng %s","휴대 시 특수공격 피해 보너스 %s 증가, 특수방어 무시 %s 증가"
+58,2,,52004,52004,52004,52004,,,,,,,%s,%s,%s,%s,%s
+59,1,,,,,,,32,<1200;1350;1500;1650;1800;1950;2100;2250>,11,<800;900;1000;1100;1200;1300;1400;1500>,,P.Damage bonus increases by %s and P.DEF ignorance increases by %s while holding it.,攜帶後，物攻傷害加成提升%s，物防忽視提升%s,P.Damage bonus increases by %s and P.DEF ignorance increases by %s while holding it.,"Sau khi mang, Tăng Thương Vật Công tăng %s, bỏ qua Vật Phòng tăng %s","휴대 시 공격 피해 보너스 %s 증가, 방어 무시 %s 증가"
+61,1,<91>,,,,,,40,<800;900;1000;1100;1200;1300;1400;1500>,,,,"When holding the [%s] series, electric-type damage gains a bonus of %s",【%s】系列攜帶後，電系傷害加成額外提升%s,"When holding the [%s] series, electric-type damage gains a bonus of %s",404404,[%s] 시리즈 휴대 시 전기 타입 기술의 피해 보너스가 추가로 %s 증가
+63,1,<451>,,,,,,7,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,,,"When holding the [%s] series, P.ATK gains a bonus of %s",【%s】系列攜帶後，物攻額外提升%s,"When holding the [%s] series, P.ATK gains a bonus of %s","Sau khi mang Hệ[%s], Vật Công tăng thêm %s",[%s] 시리즈 휴대 시 공격이 추가로 %s 증가
+65,1,,,,,,,37,<1200;1350;1500;1650;1800;1950;2100;2250>,,,,Fire-type damage gains a bonus of %s while holding it,攜帶後，火系傷害加成額外提升%s,Fire-type damage gains a bonus of %s while holding it,404404,휴대 시 불꽃 타입 스킬 피해 보너스가 추가로 %s 증가
+66,2,,51006,51006,51006,51006,,,,,,,%s,%s,%s,%s,%s
+69,1,,,,,,,40,<800;900;1000;1100;1200;1300;1400;1500>,,,,Electric-type damage gains a bonus of %s while holding it,攜帶後，電系傷害加成額外提升%s,Electric-type damage gains a bonus of %s while holding it,404404,휴대 시 전기 타입 기술의 피해 보너스가 추가로 %s 증가
+70,1,,,,,,,7,<5%;5.5%;6%;6.5%;7%;7.5%;8%;8.5%>,,,,P.ATK increases by %s while holding it,攜帶後，物攻提升%s,P.ATK increases by %s while holding it,"Sau khi mang, Vật Công tăng %s",휴대 시 공격 %s 증가
+71,1,,,,,,,14,<500;550;600;650;700;750;800;850>,15,<800;900;1000;1100;1200;1300;1400;1500>,,Critical hit rate increases by %s and Critical hit damage increases by %s while holding it,攜帶後，暴擊提升%s，暴擊傷害提升%s,Critical hit rate increases by %s and Critical hit damage increases by %s while holding it,"Sau khi mang, Bạo Kích tăng %s, Bạo Thương tăng %s","휴대 시 치명타 %s 증가, 치명타 피해 %s 증가"
+72,1,,,,,,,17,<1200;1350;1500;1650;1800;1950;2100;2250>,19,<800;900;1000;1100;1200;1300;1400;1500>,,Block increases %s and Block Intensity increases %s while holding it,攜帶後，抵禦提升%s，抵禦強度提升%s,Block increases %s and Block Intensity increases %s while holding it,"Sau khi mang, Phòng Ngự tăng %s, cường độ Phòng Ngự tăng %s","휴대 시 저항 %s 증가, 저항 강도 %s 증가"
+73,1,,,,,,,1,<8%;9%;10%;11%;12%;13%;14%;15%>,28,<1200;1350;1500;1650;1800;1950;2100;2250>,,HP increases by %s and HP recovery increases by %s while holding it,攜帶後，生命提升%s，治療率提升%s,HP increases by %s and HP recovery increases by %s while holding it,404404,"휴대 시 HP %s 증가, 치료율 %s 증가"
+74,1,,,,,,,14,<800;900;1000;1100;1200;1300;1400;1500>,12,<1500;1650;1800;1950;2100;2300;2450;2600>,,Critical hit rate increases by %s and SP.DEF immunity increases by %s while holding it,攜帶後，暴擊提升%s，特防忽視提升%s,Critical hit rate increases by %s and SP.DEF immunity increases by %s while holding it,"Sau khi mang, Bạo Kích tăng %s, bỏ qua Đặc Phòng tăng %s","휴대 시 치명타 %s 증가, 특수방어 무시 %s 증가"
+75,2,,52005,55005,55005,55005,,,,,,,%s,%s,%s,%s,%s
+76,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,16,<800;950;1100;1250;1400;1550;1700;1850>,,HP increases %s and critical hit resistance increases %s while holding it,攜帶後，生命提升%s，暴擊抗性提升%s,HP increases %s and critical hit resistance increases %s while holding it,"Sau khi mang, HP tăng %s, Kháng Bạo tăng %s","휴대 시 HP %s 증가, 치명타 내성 %s 증가"
+77,2,,52008,55008,55008,55008,,,,,,,%s,%s,%s,%s,%s
+78,1,,,,,,,7,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,26,<800;850;900;950;1000;1050;1100;1200>,,P.ATK increases by %s and  life steal increases by %s while holding it,攜帶後，物攻提升%s，吸血提升%s,P.ATK increases by %s and  life steal increases by %s while holding it,404404,"휴대 시 공격 %s 증가, 흡혈 %s 증가"
+79,2,,52017,55017,55017,55017,,,,,,,%s,%s,%s,%s,%s
+80,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,23,<800;950;1100;1250;1400;1550;1700;1850>,,HP increases by %s and DMG Reduction increases by %s while holding it,攜帶後，生命提升%s，傷害減免提升%s,HP increases by %s and DMG Reduction increases by %s while holding it,404404,"휴대 시 HP %s 증가, 피해 감소 %s 증가"
+81,2,,52018,52018,52018,52018,,,,,,,%s,%s,%s,%s,%s
+82,1,,,,,,,8,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,13,<8%;9%;10%;11%;12%;13%;14%;15%>,,SP.ATK increases by %s and Speed increases by %s while holding it,攜帶後，特攻提升%s，速度提升%s,SP.ATK increases by %s and Speed increases by %s while holding it,404404,"휴대 시 특수공격 %s 증가, 스피드 %s 증가"
+85,2,,52010,55010,55010,55010,,,,,,,%s,%s,%s,%s,%s
+86,1,,,,,,,23,<1200;1350;1500;1650;1800;1950;2100;2250>,10,<8%;9.5%;11%;12.5%;14%;15.5%;17%;18.5%>,,DMG Reduction increases by %s and SP.DEF increases by %s while holding it,攜帶後，傷害減免提升%s，特防提升%s,DMG Reduction increases by %s and SP.DEF increases by %s while holding it,404404,"휴대 시 피해 감소 %s 증가, 특수방어 %s 증가"
+87,2,,52006,52006,52006,52006,,,,,,,%s,%s,%s,%s,%s
+88,1,,,,,,,7,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,8,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,,P.ATK increases by %s and SP.ATK increases by %s while holding it,攜帶後，物攻提升%s，特攻提升%s,P.ATK increases by %s and SP.ATK increases by %s while holding it,"Sau khi mang, Vật Công tăng %s, Đặc Công tăng %s","휴대 시 공격 %s 증가, 특수공격 %s 증가"
+89,2,,52019,55019,55019,55019,,,,,,,%s,%s,%s,%s,%s
+90,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,22,<800;950;1100;1250;1400;1550;1700;1850>,,"After carrying, HP raise by %s, DMG bonus raise by %s",攜帶後，生命提升%s，傷害加成提升%s,"After carrying, HP raise by %s, DMG bonus raise by %s","After carrying, HP raise by %s, DMG bonus raise by %s","휴대 시 HP %s 증가, 피해 보너스 %s 증가"
+91,2,,52016,55016,55016,55016,,,,,,,%s,%s,%s,%s,%s
+92,1,,,,,,,9,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,23,<800;950;1100;1250;1400;1550;1700;1850>,,"P.DEF increases by %s, damage reduction increases by %s while holding it",攜帶後，物防提升%s，傷害減免提升%s,"P.DEF increases by %s, damage reduction increases by %s while holding it","P.DEF increases by %s, damage reduction increases by %s while holding it","휴대 시 방어 %s 증가, 피해 감소 %s 증가"
+95,2,,52009,52009,52009,52009,,,,,,,%s,%s,%s,%s,%s
+96,1,,,,,,,25,<1500;1650;1800;1950;2100;2250;2400;2550>,5,<500;600;700;800;900;1000;1100;1200>,,"After carrying, Ult Skill DMG reduction raise by%s, rage recovery speed raise by %s",攜帶後，必殺減免提升%s，怒氣回復速度提升%s,"After carrying, Ult Skill DMG reduction raise by%s, rage recovery speed raise by %s","After carrying, Ult Skill DMG reduction raise by%s, rage recovery speed raise by %s","휴대 후 필살 감면이 %s 증가, 분노치 회복 속도가 %s 증가."
+97,1,,,,,,,92,<400;500;600;700;800;900;1000;1100>,93,<400;500;600;700;800;900;1000;1100>,,"After carrying, PVP DMG bonus raise by %s, PVP DMG reduction raise by %s",攜帶後，PVP傷害加成提升%s，PVP傷害減免提升%s,"After carrying, PVP DMG bonus raise by %s, PVP DMG reduction raise by %s","After carrying, PVP DMG bonus raise by %s, PVP DMG reduction raise by %s","지닌 후 PVP의 피해 버프가 %s 상승, PVP의 피해 감소가 %s 상승"
+98,2,,51008,51008,51008,51008,,,,,,,%s,%s,%s,%s,%s
+99,1,,,,,,,14,<800;900;1000;1100;1200;1300;1400;1500>,15,<1200;1300;1400;1500;1600;1700;1800;1900>,,"After carrying, Crit rate raise by %s, Crit damage raise by %s",攜帶後，暴擊率提升%s，暴擊傷害提升%s,"After carrying, Crit rate raise by %s, Crit damage raise by %s","After carrying, Crit rate raise by %s, Crit damage raise by %s","휴대 시 치명타율 %s 증가, 치명타 피해 %s 증가."
+100,2,,52020,55020,55020,55020,,,,,,,%s,%s,%s,%s,%s
+101,1,,,,,,,17,<1500;1600;1700;1800;1900;2000;2100;2200>,10,<12%;13.5%;15%;16.5%;18%;19.5%;21%;22.5%>,,"After carrying, Block rate raise by %s, Sp. DEF raise by %s",攜帶後，抵禦率提升%s，特防提升%s,"After carrying, Block rate raise by %s, Sp. DEF raise by %s","After carrying, Block rate raise by %s, Sp. DEF raise by %s","휴대 시 저항률 %s 증가, 특수 방어 %s 증가."
+102,2,,52021,55021,55021,55021,,,,,,,%s,%s,%s,%s,%s
+103,1,,,,,,,28,<1500;1600;1700;1800;1900;2000;2100;2200>,25,<1200;1350;1500;1650;1800;1950;2100;2250>,,"After carrying, heal rate raise by %s, Ult Skill DMG reduction raise by %s",攜帶後，治療率提升%s，必殺減免提升%s,"After carrying, heal rate raise by %s, Ult Skill DMG reduction raise by %s","After carrying, heal rate raise by %s, Ult Skill DMG reduction raise by %s","휴대 시 치료율 %s 증가, 필살 감소 %s 증가."
+104,2,,52022,55022,55022,55022,,,,,,,%s,%s,%s,%s,%s
+105,1,,,,,,,24,<1500;1650;1800;1950;2100;2250;2400;2550>,26,<800;850;900;950;1000;1050;1100;1200>,,"After carrying, Ult Skill DMG bonus raise by %s, Life Steal rate raise by %s",攜帶後，必殺傷害加成提升%s，吸血提升%s,"After carrying, Ult Skill DMG bonus raise by %s, Life Steal rate raise by %s","After carrying, Ult Skill DMG bonus raise by %s, Life Steal rate raise by %s","휴대 시 필살 피해 버프 %s 증가, 흡혈 %s 증가."
+106,2,,52024,52024,52024,52024,,,,,,,%s,%s,%s,%s,%s
+107,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,27,<800;900;1000;1100;1200;1300;1400;1500>,,"After carrying, HP raise by %s, Reflect rate raise by %s",攜帶後，生命提升%s，反彈提升%s,"After carrying, HP raise by %s, Reflect rate raise by %s","After carrying, HP raise by %s, Reflect rate raise by %s","휴대 시 HP %s 증가, 반사 %s 증가."
+108,2,,52025,55025,55025,55025,,,,,,,%s,%s,%s,%s,%s
+109,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,24,<1200;1300;1400;1500;1600;1700;1800;1900>,,"After carrying, HP raise by %s, Ult Skill DMG bonus raise by %s",攜帶後，生命提升%s，必殺傷害加成提升%s,"After carrying, HP raise by %s, Ult Skill DMG bonus raise by %s","After carrying, HP raise by %s, Ult Skill DMG bonus raise by %s","휴대 시 HP %s 증가, 필살 피해 버프 %s 증가."
+110,2,,52026,55026,55026,55026,,,,,,,%s,%s,%s,%s,%s
+111,1,,,,,,,1,<25%;26.5%;28%;29.5%;31%;32.5%;34%;35.5%>,,,,"Magical mirror that reflects truth light.\nAfter carrying, HP raise by %s",能照出真實光線的神奇鏡子。\n攜帶後，生命提升%s,"Magical mirror that reflects truth light.\nAfter carrying, HP raise by %s","Magical mirror that reflects truth light.\nAfter carrying, HP raise by %s",실제 빛을 비춰주는 신기한 거울. 휴대 시 HP %s 증가.
+112,2,,52027,55027,55027,55027,,,,,,,%s,%s,%s,%s,%s
+113,1,,,,,,,8,<8%;9%;10%;11%;12%;13%;14%;15%>,,,,"After carrying, SP. ATK raise by %s",攜帶後，特攻提升%s,"After carrying, SP. ATK raise by %s","After carrying, SP. ATK raise by %s",휴대 시 특수공격 %s 증가
+114,2,,51009,51009,51009,51009,,,,,,,%s,%s,%s,%s,%s
+115,1,,,,,,,22,<1500;1650;1800;1950;2100;2250;2400;2550>,90,<800;850;900;950;1000;1050;1100;1200>,,"After carrying, DMG bonus raise by %s, control rate raise by %s",攜帶後，傷害加成提升%s，控制率提升%s,"After carrying, DMG bonus raise by %s, control rate raise by %s","After carrying, DMG bonus raise by %s, control rate raise by %s","휴대 시 피해 버프 %s 증가, 제어율 %s 증가."
+116,2,,52028,52028,52028,52028,,,,,,,%s,%s,%s,%s,%s
+117,1,,,,,,,23,<800;950;1100;1250;1400;1550;1700;1850>,16,<800;950;1100;1250;1400;1550;1700;1850>,,"After carrying, DMG reduction raise by %s, Crit resist raise by %s",攜帶後，傷害減免提升%s，暴擊抗性提升%s,"After carrying, DMG reduction raise by %s, Crit resist raise by %s","After carrying, DMG reduction raise by %s, Crit resist raise by %s","휴대 시 피해 감소 %s 증가, 치명타 내성 %s 증가."
+118,2,,52029,52029,52029,52029,,,,,,,%s,%s,%s,%s,%s
+119,1,,,,,,,17,<1500;1600;1700;1800;1900;2000;2100;2200>,25,<800;950;1100;1250;1400;1550;1700;1850>,,"After carrying, Block rate raise by %s, Ult Skill DMG reduction raise by %s",攜帶後，抵禦率提升%s，必殺減免提升%s,"After carrying, Block rate raise by %s, Ult Skill DMG reduction raise by %s",404404,
+120,2,,52030,52030,52030,52030,,,,,,,%s,%s,%s,%s,%s
+121,1,,,,,,,8,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,26,<800;850;900;950;1000;1050;1100;1200>,,"After carrying, Sp.ATK raise by %s, life steal raise by %s",攜帶後，特攻提升%s，吸血提升%s,"After carrying, Sp.ATK raise by %s, life steal raise by %s",,
+122,2,,52031,52031,52031,52031,,,,,,,%s,%s,%s,%s,%s
+123,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,91,<800;850;900;950;1000;1050;1100;1200>,,,攜帶後，生命提升%s，免控率提升%s,,,
+124,2,,52032,52032,52032,52032,,,,,,,%s,%s,%s,%s,%s
+125,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,91,<800;850;900;950;1000;1050;1100;1200>,,,攜帶後，生命提升%s，免控率提升%s,,,
+126,2,,52033,52033,52033,52033,,,,,,,%s,%s,%s,%s,%s
+127,1,,,,,,,24,<1500;1650;1800;1950;2100;2250;2400;2550>,5,<500;600;700;800;900;1000;1100;1200>,,"After carrying, Ult Skill DMG bonus raise by %s, rage recovery speed raise by %s",攜帶後，必殺傷害加成提升%s，怒氣回復速度提升%s,"After carrying, Ult Skill DMG bonus raise by %s, rage recovery speed raise by %s","After carrying, Ult Skill DMG bonus raise by %s, rage recovery speed raise by %s","휴대 시 필살 피해 버프 %s 증가, 분노치 회복 속도가 %s 증가."
+128,2,,52034,52034,52034,52034,,,,,,,%s,%s,%s,%s,%s
+129,1,,,,,,,1,<15%;16.5%;18%;19.5%;21%;22.5%;24%;25.5%>,25,<1200;1300;1400;1500;1600;1700;1800;1900>,,"After carrying it, life increases by %s, critical damage reduction increases by %s",攜帶後，生命提升%s，必殺傷害減免提升%s,404404,404404,404404
+130,2,,52035,52035,52035,52035,,,,,,,%s,%s,%s,%s,%s

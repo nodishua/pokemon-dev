@@ -1,0 +1,5 @@
+变量名,_beizhu,servOpenDays,topRank
+默认值,,999999,20
+ID,备注,相对开服开启时间,等级排名数量（保持一致）
+1,Common level experience bonus,45,20
+2,Elite level experience bonus,45,20

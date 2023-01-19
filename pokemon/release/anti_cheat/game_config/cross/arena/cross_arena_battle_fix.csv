@@ -1,0 +1,10 @@
+变量名,_beizhu,attrType,attrFix
+默认值,,,
+ID,备注,属性类型,属性修正值
+1,healing bonus,cure,1
+2,Physical attack,damage,1.2
+3,Special forces,specialDamage,1.2
+4,physical defense,defence,1.2
+5,special defense,specialDefence,1.2
+6,Rage speed,mp1Recover,1
+7,HP,hpMax,1.1

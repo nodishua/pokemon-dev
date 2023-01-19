@@ -1,0 +1,10 @@
+run:
+  echo: true
+  warn: true
+
+user: root
+connect_kwargs:
+  password: root123
+
+forward_agent: true
+ssh_config_path: ssh_config

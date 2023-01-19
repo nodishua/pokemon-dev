@@ -1,0 +1,9 @@
+﻿"﻿变量名",huodongID,desc,desc_tw,desc_en,desc_vn,desc_kr,type,taskType,taskParam,taskSpecialParam,goTo,award
+默认值,0,"""""","""""","""""","""""","""""",0,0,0,{},"""""",{}
+ID,活动ID,描述,描述,描述,描述_越南,描述_韩,任务类型(1-完成指定委托;2-消耗行动点数（条件填数量）;3-完成x次分支委托;4-达成x次加分要求；5日常任务),日常任务类型,任务参数,任务特殊参数,跳转目标,任务奖励
+1,101056,login today,今日登陸,,,,5,17,1,,,{gold=50000;8118=3}
+2,101056,Upgrade any elf 10 times,升級任意精靈10次,,,,5,36,10,,strengthen,{gold=50000;8118=3;20701=1}
+3,101056,Accumulated 5 battles in the arena,競技場累計戰鬥5次,,,,5,41,5,,arena,{gold=50000;8118=3;20701=1}
+4,101056,Challenge the number of elite levels 10 times,挑戰精英關卡次數10次,,,,5,30,10,,20000,{gold=50000;8118=3;20701=1}
+5,101056,Treasure 5 times,聚寶5次,,,,5,18,5,,gainGold,{gold=50000;8118=3;20701=1}
+6,101056,Cumulative consumption of 200 diamonds,累計消費200鉆,,,,5,21,200,,,{gold=50000;8118=3;20701=1}

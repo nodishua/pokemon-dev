@@ -1,0 +1,13 @@
+﻿"﻿变量名",name,rarity,expAdd,addAttrs
+默认值,”“,0,0,{}
+ID,名字,稀有度,首次获取的经验,属性加成
+101,Warm little home,,5,{7=500;10=1%}
+102,Minimalist European style,,10,{9=1%;8=500}
+103,Go! pikachu,1,5,{7=500;10=1%}
+104,garlic frog,,10,{9=1%;8=500}
+105,American mix and match style,,5,{7=500;10=1%}
+106,Elf House,,5,{9=1%;8=500}
+107,country style,1,15,{7=500;10=1%}
+108,video game,,20,{9=1%;8=500}
+109,stay at home,,5,{7=500;10=1%}
+,luxury court,,10,{9=1%;8=500}

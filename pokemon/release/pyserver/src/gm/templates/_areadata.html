@@ -1,0 +1,71 @@
+{% extends "dashboard.html" %}
+
+{% block css %}
+	<style>
+		.pull-left.pagination-detail {
+			display:none;
+		}
+
+		label {
+			min-width: 100px;
+		}
+
+		#log-content {
+			background-color: black;
+			color: green;
+			min-height: 330px;
+		}
+	</style>
+{% end %}
+
+{% block main %}
+	<div class="container-fluid main">
+		<div class="row">
+			<div class="title"><h4>{{ _(u'District service data')}}</h4></div>
+		</div>
+        <div class="well">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<table id="serv-table"></table>
+        		</div>
+        	</div>
+        </div>
+	</div>
+{% end %}
+
+{% block js %}
+	<script>
+		$(function() {
+			const Columns = [
+			{field: 'servName', title: '{{ _(u"server name") }}'},
+			{field: 'status', title: '{{ _(u"status") }}'},
+			{field: 'opendate', title: '{{ _(u"Open Date") }}'},
+			{field: 'opendays', title: '{{ _(u"opendays") }}'},
+			// {field: 'language', title: '{{ _(u"language") }}'},
+			{field: 'added', title: '{{ _(u"Cumulatively added") }}'},
+			{field: 'online', title: '{{ _(u"Online Number") }}'},
+			]
+
+			const $servTable = $('#serv-table');
+
+			$servTable.bootstrapTable({
+				url: '/area_data',
+				method: 'post',
+				cache: false,
+				pagination: true,
+				striped: true,
+				sidePagination: "client",
+				pageNumber: 1,
+				pageSize: 10,
+				pageList: [10, 20, 30, 40, 50],
+		        columns: Columns,
+		        search: true,
+		        strictSearch: true,
+		        searchOnEnterKey: true,
+		        showColumns: true,
+			})
+			$servTable.bootstrapTable('hideColumn', 'added')
+			$servTable.bootstrapTable('hideColumn', 'online')
+		})
+	</script>
+{% end %}

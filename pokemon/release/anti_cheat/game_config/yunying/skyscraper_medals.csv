@@ -1,0 +1,13 @@
+﻿变量名,huodongID,medalLevel,resource,resourceNum,medalsName,points,award,color,rankRes
+默认值,1001,1,"""""","""""","""""",0,{},<76;81;106>,""""""
+ID,活动版本号,勋章等级,勋章资源,勋章上的罗马数字资源,填language表里的key,需要分值,奖励内容,字体颜色,排行榜资源
+1,1,1,activity/sky_scraper/icon_xz_tie.png,activity/sky_scraper/txt_1_tie.png,skyscraperMedalsName1,60,{2322=1;stamina=100},<76;81;106>,activity/sky_scraper/icon_tie.png
+2,1,2,activity/sky_scraper/icon_xz_tie.png,activity/sky_scraper/txt_2_tie.png,skyscraperMedalsName1,80,{gold=288000;503=5},<76;81;106>,activity/sky_scraper/icon_tie.png
+3,1,3,activity/sky_scraper/icon_xz_tong.png,activity/sky_scraper/txt_1_tong.png,skyscraperMedalsName2,100,{2023=1;519=3},<129;80;61>,activity/sky_scraper/icon_tong.png
+4,1,4,activity/sky_scraper/icon_xz_tong.png,activity/sky_scraper/txt_2_tong.png,skyscraperMedalsName2,120,{rmb=188;520=5},<129;80;61>,activity/sky_scraper/icon_tong.png
+5,1,5,activity/sky_scraper/icon_xz_yin.png,activity/sky_scraper/txt_1_yin.png,skyscraperMedalsName3,140,{502=6;901=30},<82;108;136>,activity/sky_scraper/icon_yin.png
+6,1,6,activity/sky_scraper/icon_xz_yin.png,activity/sky_scraper/txt_2_yin.png,skyscraperMedalsName3,160,{gold=588000;902=20},<82;108;136>,activity/sky_scraper/icon_yin.png
+7,1,7,activity/sky_scraper/icon_xz_yin.png,activity/sky_scraper/txt_3_yin.png,skyscraperMedalsName3,180,{2412=1;850=500},<82;108;136>,activity/sky_scraper/icon_yin.png
+8,1,8,activity/sky_scraper/icon_xz_jin.png,activity/sky_scraper/txt_1_jin.png,skyscraperMedalsName4,200,{gold=880000;4000=200},<131;78;0>,activity/sky_scraper/icon_jin.png
+9,1,9,activity/sky_scraper/icon_xz_jin.png,activity/sky_scraper/txt_2_jin.png,skyscraperMedalsName4,220,{521=1;151=1000},<131;78;0>,activity/sky_scraper/icon_jin.png
+10,1,10,activity/sky_scraper/icon_xz_jin.png,activity/sky_scraper/txt_3_jin.png,skyscraperMedalsName4,240,{rmb=388;529=5000},<131;78;0>,activity/sky_scraper/icon_jin.png

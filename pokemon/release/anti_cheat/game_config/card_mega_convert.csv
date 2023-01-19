@@ -1,0 +1,23 @@
+变量名,_name,type,costItemFrag,needFrags1,needFrags2,costItemCard,needCards1,needCards2,needSpecialCards,cardConvertNum
+默认值,"""",1,{},<>,<>,{},<>,<>,<>,1
+ID,Conversion material name,类型 1=钥石 2=进化石,碎片转化消耗固定材料,转化一个需要的碎片<碎片品质;碎片属性系;costNum>,转化一个需要的碎片<碎片品质;碎片属性系;costNum>,卡牌转化消耗固定材料,卡牌可转数量<稀有度;属性系> -1为任意,卡牌可转数量<稀有度;属性系> -1为任意,指定特殊卡牌<cardID>,卡牌转换数量
+3029,Purple Evolution Keystone,1,{gold=20000},<4;-1;3>,,{gold=200000},<2;-1>,,<9001>,10
+3030,Orange Evolution Keystone,1,{gold=50000},<5;-1;5>,,{gold=500000},<3;-1>,,<9002>,10
+3031,red evolution keystone,1,{gold=50000},<6;-1;8>,,{gold=500000},<4;-1>,,<9003>,10
+3101,Miaowahua evolution stone,2,{gold=50000},<5;4;5>,<5;8;5>,{gold=500000},<3;4>,<3;8>,<9002>,10
+3102,Charizard evolution stone X,2,{gold=50000},<5;2;5>,<5;15;5>,{gold=500000},<3;2>,<3;15>,<9002>,10
+3103,Charizard Evolution Stone Y,2,{gold=50000},<5;2;5>,<5;10;5>,{gold=500000},<3;2>,<3;10>,<9002>,10
+3104,water arrow turtle evolution stone,2,{gold=50000},<5;3;5>,,{gold=500000},<3;3>,,<9002>,10
+3105,The Evolutionary Fossil of the Big Needle Bee,2,{gold=25000},<4;12;3>,<4;8;3>,{gold=250000},<2;12>,<2;8>,<9001>,10
+3106,blizzard king evolution stone,2,{gold=50000},<5;4;5>,<5;6;5>,{gold=500000},<3;4>,<3;6>,<9002>,10
+3107,Gengar Evolution Stone,2,{gold=50000},<5;14;5>,<5;8;5>,{gold=500000},<3;14>,<3;8>,<9002>,10
+3108,Hudi evolution stone,2,{gold=50000},<5;11;5>,,{gold=500000},<3;11>,,<9002>,10
+3109,electric dragon evolution stone,2,{gold=50000},<5;5;5>,<5;15;5>,{gold=500000},<3;5>,<3;15>,<9002>,10
+3110,Rayquaza evolution stone,2,{gold=80000},<6;15;8>,<6;10;8>,{gold=800000},<4;15>,<4;10>,<9003>,10
+3111,Metagross evolution stone,2,{gold=50000},<5;17;5>,<5;11;5>,{gold=500000},<3;17>,<3;11>,<9002>,10
+3112,Marsh monster evolution stone,2,{gold=50000},<5;3;5>,<5;9;5>,{gold=500000},<3;3>,<3;9>,<9002>,10
+3113,Giant Pincer Mantis Evolution Stone,2,{gold=50000},<5;12;5>,<5;17;5>,{gold=500000},<3;12>,<3;17>,<9002>,10
+3114,Xanadu evolution stone,2,{gold=50000},<5;11;5>,<5;18;5>,{gold=500000},<3;11>,<3;18>,<9002>,10
+,Elledo evolution stone,2,{gold=50000},<5;11;5>,<5;7;5>,{gold=500000},<3;11>,<3;7>,<9002>,10
+3116,Boss Cordora evolution stone,2,{gold=50000},<5;17;5>,<5;13;5>,{gold=500000},<3;17>,<3;13>,<9002>,10
+3117,Gulardo evolution stone,2,{gold=80000},<6;9;8>,<6;2;8>,{gold=800000},<4;9>,<4;2>,<9003>,10

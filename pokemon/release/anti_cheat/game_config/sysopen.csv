@@ -1,0 +1,17 @@
+﻿"﻿变量名",_beizhu,name,name_tw,name_kr,name_en,feature,goto,unionlevel,openseq,roundKey,roundState,icon,bg,txt,txt_tw,txt_en,txt_kr,sighid,startTime,startTimes,endTime,priority,serverday,reminder
+默认值,"""""",,,,,"""""","""""",,<1;2;3;4;5;6;7>,,,"""""","""""","""""","""""","""""","""""","""""",0,<>,2400,0,1,0
+序号,系统名字,功能名,功能名,功能名,功能名,功能key,跳转,公会等级,开放周期序列,服务器round字段,根据服务器round状态判是否开启,系统图标,背景资源,文本说明,文本说明,文本说明,文本说明_韩,类型标识,开始时间,开始时间点，刷新判定,结束时间,显示优先级(大的优先显示),开服天数,提醒类型(0 :长显，1:一次提醒，2:多次提醒)
+1,element challenge,element challenge,元素挑戰,,,cloneBattle,cloneBattle,,,,,,,In progress,正在進行,In progress,진행 중,1,1200,,2400,1002,1,1
+2,Guild red envelope,Guild red envelope,公會紅包,,,unionRedpacket,redpacket,2,,,,,,Begin distribution,開始發放,Begin distribution,발송 시작,2,1,,2399,2000,1,1
+3,Quartz Assembly,Quartz Assembly,石英大會,,,craft,craft,,,,,,,Registration begins,開始報名,Registration begins,신청 시작,3,1000,,1950,1001,9,1
+4,Quartz Assembly,Quartz Assembly,石英大會,,,craft,craft,,,,,,,Hot,火熱進行,Hot,HOT 진행 중,4,2000,,2050,2,9,
+5,Guild Wars,Guild Wars,公會戰,,,unionFight,unionFight,4,<2;3;4;5;6>,,,,,Registration begins,開始報名,Registration begins,신청 시작,5,930,,2050,1004,14,1
+6,Guild Wars,Guild Wars,公會戰,,,unionFight,unionFight,4,<2;3;4;5;6>,,,,,Hot,火熱進行,Hot,HOT 진행 중,6,2050,,2130,3,14,
+7,Cross Server Quartz,Cross Server Quartz,跨服石英,,,crossCraft,crossCraft,,<1;5>,,,,,Registration begins,開始報名,Registration begins,신청 시작,7,1000,,1850,5,30,1
+8,Cross Server Quartz,Cross Server Quartz,跨服石英,,,crossCraft,crossCraft,,<1;5>,,,,,Hot,火熱進行,Hot,HOT 진행 중,8,1900,,1946,6,30,
+9,battle arena,battle arena,對戰競技場,,,onlineFight,onlineFight,,,cross_online_fight_round,start,,,Hot,火熱進行,Hot,HOT 진행 중,9,,<1200>,,2001,40,1
+10,Cross server business street,Cross server commercial street,跨服商業街,,,crossMine,crossMine,,,cross_mine_round,start,,,Hot,火熱進行,Hot,HOT 진행 중,10,,<1000>,,2002,36,1
+11,Cross-server Commercial Street Boss,Cross-server Commercial Street Boss,跨服商業街Boss,글로벌 상가 보스,404404,crossMine,crossMineBoss,,,cross_mine_boss_time,0,,,In progress,前往擊殺,In progress,진행 중,11,,<1230;1830>,,2003,36,2
+12,fishing contest,fishing contest,釣魚大賽,낚시대회,,fishing,fishing,,<7>,cross_fishing_round,start,,,Hot,火熱進行,Hot,HOT 진행 중,12,500,,2300,2006,40,1
+13,Guild Q&A,Guild Q&A,公會問答,길드 문답,,unionQA,unionQA,5,<6;7>,unionqa_round,start,,,Hot,火熱進行,Hot,HOT 진행 중,13,500,,2400,2004,30,1
+14,Cross server arena,Cross server arena,跨服競技場,글로벌 아레나,,crossArena,crossArena,,<1>,cross_arena_round,start,,,Hot,火熱進行,Hot,HOT 진행 중,14,1200,,2200,2005,50,1

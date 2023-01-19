@@ -1,0 +1,18 @@
+变量名,_beizhu,rankMax,award
+默认值,,,{}
+ID,备注,名次内,排行奖励
+1,fishing contest,1,{rmb=200;535=4000;gold=2000000}
+2,fishing contest,2,{rmb=180;535=3600;gold=1800000}
+3,fishing contest,3,{rmb=160;535=3200;gold=1600000}
+4,fishing contest,4,{rmb=140;535=2800;gold=1400000}
+5,fishing contest,8,{rmb=120;535=2400;gold=1200000}
+6,fishing contest,16,{rmb=110;535=2200;gold=1100000}
+7,fishing contest,32,{rmb=100;535=2000;gold=1000000}
+8,fishing contest,64,{rmb=90;535=1800;gold=900000}
+9,fishing contest,100,{rmb=80;535=1600;gold=800000}
+10,fishing contest,200,{rmb=70;535=1400;gold=700000}
+11,fishing contest,300,{rmb=60;535=1200;gold=600000}
+12,fishing contest,500,{rmb=55;535=1100;gold=550000}
+13,fishing contest,1000,{rmb=50;535=1000;gold=500000}
+14,fishing contest,2000,{rmb=45;535=900;gold=450000}
+15,fishing contest,99999,{rmb=40;535=800;gold=400000}

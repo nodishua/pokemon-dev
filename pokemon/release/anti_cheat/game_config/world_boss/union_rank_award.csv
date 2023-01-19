@@ -1,0 +1,98 @@
+﻿"﻿变量名",huodongID,_beizhu,rank,award,desc,desc_tw,desc_en,desc_kr
+默认值,,,,{},无奖励吗,无奖励吗,无奖励吗,无奖励吗
+ID,活动版本号,备注,名次内,排行奖励,奖励描述,奖励描述,奖励描述,奖励描述_韩
+1,1001,talent point,1,{talent_point=2;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+2,1001,talent point,2,{talent_point=2;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+3,1001,talent point,3,{talent_point=2;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+4,1001,talent point,6,{talent_point=1;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+5,1001,talent point,10,{talent_point=1;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+6,1001,talent point,30,{talent_point=1;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+7,1001,talent point,999,{talent_point=1;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+101,1002,carry,1,{2103=8;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+102,1002,carry,2,{2103=7;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+103,1002,carry,3,{2103=6;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+104,1002,carry,6,{2103=5;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+105,1002,carry,10,{2103=5;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+106,1002,carry,30,{2103=4;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+107,1002,carry,999,{2103=4;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+201,1003,the potential,1,{850=160;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+202,1003,the potential,2,{850=140;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+203,1003,the potential,3,{850=120;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+204,1003,the potential,6,{850=100;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+205,1003,the potential,10,{850=100;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+206,1003,the potential,30,{850=80;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+207,1003,the potential,999,{850=80;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+301,1004,Effort coin,1,{452=40;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+302,1004,Effort coin,2,{452=35;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+303,1004,Effort coin,3,{452=30;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+304,1004,Effort currency,6,{452=25;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+305,1004,Effort currency,10,{452=25;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+306,1004,Effort currency,30,{452=20;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+307,1004,Effort currency,999,{452=20;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+401,1005,talent point,1,{talent_point=2;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+402,1005,talent point,2,{talent_point=2;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+403,1005,talent point,3,{talent_point=2;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+404,1005,talent point,6,{talent_point=1;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+405,1005,talent point,10,{talent_point=1;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+406,1005,talent point,30,{talent_point=1;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+407,1005,talent point,999,{talent_point=1;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+501,1006,carry,1,{2103=8;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+502,1006,carry,2,{2103=7;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+503,1006,carry,3,{2103=6;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+504,1006,carry,6,{2103=5;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+505,1006,carry,10,{2103=5;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+506,1006,carry,30,{2103=4;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+507,1006,carry,999,{2103=4;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+601,1007,the potential,1,{850=160;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+602,1007,the potential,2,{850=140;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+603,1007,the potential,3,{850=120;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+604,1007,the potential,6,{850=100;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+605,1007,the potential,10,{850=100;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+606,1007,the potential,30,{850=80;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+607,1007,the potential,999,{850=80;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+701,1008,Effort currency,1,{452=40;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+702,1008,Effort currency,2,{452=35;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+703,1008,Effort currency,3,{452=30;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+704,1008,Effort currency,6,{452=25;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+705,1008,Effort currency,10,{452=25;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+706,1008,Effort currency,30,{452=20;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+707,1008,Effort currency,999,{452=20;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+801,1009,talent point,1,{talent_point=2;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+802,1009,talent point,2,{talent_point=2;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+803,1009,talent point,3,{talent_point=2;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+804,1009,talent point,6,{talent_point=1;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+805,1009,talent point,10,{talent_point=1;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+806,1009,talent point,30,{talent_point=1;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+807,1009,talent point,999,{talent_point=1;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+901,1010,carry,1,{2103=8;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+902,1010,carry,2,{2103=7;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+903,1010,carry,3,{2103=6;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+904,1010,carry,6,{2103=5;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+905,1010,carry,10,{2103=5;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+906,1010,carry,30,{2103=4;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+907,1010,carry,999,{2103=4;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+1001,1011,the potential,1,{850=160;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1002,1011,the potential,2,{850=140;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1003,1011,the potential,3,{850=120;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1004,1011,the potential,6,{850=100;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1005,1011,the potential,10,{850=100;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1006,1011,the potential,30,{850=80;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1007,1011,the potential,999,{850=80;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+,,,,,,,,
+1101,1012,Effort currency,1,{452=40;gold=250000;14=30},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1102,1012,Effort currency,2,{452=35;gold=200000;14=25},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1103,1012,Effort currency,3,{452=30;gold=160000;14=20},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1104,1012,Effort currency,6,{452=25;gold=140000;14=15},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1105,1012,Effort currency,10,{452=25;gold=120000;14=12},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1106,1012,Effort coin,30,{452=20;gold=100000;14=10},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상
+1107,1012,Effort currency,999,{452=20;gold=90000;14=8},World Boss Rewards,世界BOSS獎勵,World Boss Rewards,월드보스 보상

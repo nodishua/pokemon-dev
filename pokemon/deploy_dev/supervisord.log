@@ -1,0 +1,890 @@
+2021-11-11 21:24:35,802 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:24:35,802 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:24:35,826 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:24:35,827 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:24:35,827 INFO daemonizing the supervisord process
+2021-11-11 21:24:35,827 INFO set current directory: '/mnt/pokemon/deploy_dev/'
+2021-11-11 21:24:35,827 INFO supervisord started with pid 839
+2021-11-11 21:24:54,490 INFO spawned: 'game_mongodb' with pid 842
+2021-11-11 21:24:59,500 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-11 21:28:34,204 INFO waiting for game_mongodb to die
+2021-11-11 21:28:37,230 INFO waiting for game_mongodb to die
+2021-11-11 21:28:40,262 INFO waiting for game_mongodb to die
+2021-11-11 21:28:40,386 INFO stopped: game_mongodb (exit status 0)
+2021-11-11 21:28:40,404 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:28:40,404 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:28:40,407 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:28:40,407 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:28:40,407 INFO supervisord started with pid 839
+2021-11-11 21:28:41,959 INFO spawned: 'nsqd' with pid 954
+2021-11-11 21:28:41,960 INFO spawned: 'nsqadmin' with pid 955
+2021-11-11 21:28:41,961 INFO spawned: 'nsqlookupd' with pid 956
+2021-11-11 21:28:41,962 INFO spawned: 'game_mongodb' with pid 957
+2021-11-11 21:28:41,963 INFO spawned: 'account_db_server' with pid 966
+2021-11-11 21:28:41,964 INFO spawned: 'storage_server' with pid 969
+2021-11-11 21:28:41,965 INFO spawned: 'disable_word_check_server' with pid 974
+2021-11-11 21:28:41,966 INFO spawned: 'pvp_server' with pid 975
+2021-11-11 21:28:41,979 INFO spawned: 'payment_server' with pid 977
+2021-11-11 21:28:41,980 INFO spawned: 'game_server' with pid 997
+2021-11-11 21:28:41,982 INFO spawned: 'crash_platform_server' with pid 998
+2021-11-11 21:28:41,983 INFO spawned: 'gm_server' with pid 999
+2021-11-11 21:28:41,984 INFO spawned: 'login_server' with pid 1000
+2021-11-11 21:28:42,962 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,962 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,962 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,965 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,965 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,967 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,967 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,967 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,991 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,991 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,991 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:42,991 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:28:43,000 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:28:46,125 INFO exited: gm_server (exit status 1; not expected)
+2021-11-11 21:28:46,323 INFO exited: game_server (exit status 1; not expected)
+2021-11-11 21:28:47,368 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-11 21:34:06,865 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, game_mongodb, payment_server, login_server, disable_word_check_server to die
+2021-11-11 21:34:06,866 INFO stopped: login_server (exit status 0)
+2021-11-11 21:34:07,630 INFO stopped: payment_server (exit status 0)
+2021-11-11 21:34:07,653 INFO stopped: pvp_server (exit status 0)
+2021-11-11 21:34:07,666 INFO stopped: disable_word_check_server (terminated by SIGTERM)
+2021-11-11 21:34:07,741 INFO stopped: storage_server (exit status 2)
+2021-11-11 21:34:07,757 INFO stopped: account_db_server (exit status 2)
+2021-11-11 21:34:07,890 INFO stopped: game_mongodb (exit status 0)
+2021-11-11 21:34:07,891 INFO stopped: nsqlookupd (exit status 0)
+2021-11-11 21:34:07,893 INFO stopped: nsqadmin (exit status 0)
+2021-11-11 21:34:08,025 INFO stopped: nsqd (exit status 0)
+2021-11-11 21:34:08,031 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:34:08,031 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:34:08,032 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:34:08,032 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:34:08,032 INFO supervisord started with pid 839
+2021-11-11 21:34:19,008 INFO spawned: 'nsqd' with pid 1080
+2021-11-11 21:34:19,009 INFO spawned: 'nsqadmin' with pid 1081
+2021-11-11 21:34:19,010 INFO spawned: 'nsqlookupd' with pid 1082
+2021-11-11 21:34:19,011 INFO spawned: 'game_mongodb' with pid 1086
+2021-11-11 21:34:19,012 INFO spawned: 'account_db_server' with pid 1091
+2021-11-11 21:34:19,013 INFO spawned: 'storage_server' with pid 1100
+2021-11-11 21:34:19,017 INFO spawned: 'disable_word_check_server' with pid 1104
+2021-11-11 21:34:19,018 INFO spawned: 'pvp_server' with pid 1113
+2021-11-11 21:34:19,019 INFO spawned: 'payment_server' with pid 1122
+2021-11-11 21:34:19,021 INFO spawned: 'game_server' with pid 1123
+2021-11-11 21:34:19,022 INFO spawned: 'crash_platform_server' with pid 1124
+2021-11-11 21:34:19,023 INFO spawned: 'gm_server' with pid 1126
+2021-11-11 21:34:19,024 INFO spawned: 'login_server' with pid 1129
+2021-11-11 21:34:19,338 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:34:20,207 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,207 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,207 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,208 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:34:20,630 INFO spawned: 'crash_platform_server' with pid 1153
+2021-11-11 21:34:20,884 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:34:22,629 INFO exited: game_server (exit status 1; not expected)
+2021-11-11 21:34:22,741 INFO exited: gm_server (exit status 1; not expected)
+2021-11-11 21:34:22,968 INFO spawned: 'crash_platform_server' with pid 1188
+2021-11-11 21:34:23,093 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:34:24,314 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-11 21:34:26,725 INFO spawned: 'crash_platform_server' with pid 1191
+2021-11-11 21:34:26,872 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:34:27,723 INFO gave up: crash_platform_server entered FATAL state, too many start retries too quickly
+2021-11-11 21:35:36,946 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, game_mongodb, payment_server, login_server, disable_word_check_server to die
+2021-11-11 21:35:36,948 INFO stopped: login_server (exit status 0)
+2021-11-11 21:35:38,992 INFO stopped: payment_server (exit status 0)
+2021-11-11 21:35:39,078 INFO stopped: pvp_server (exit status 0)
+2021-11-11 21:35:39,089 INFO stopped: disable_word_check_server (terminated by SIGTERM)
+2021-11-11 21:35:39,108 INFO stopped: storage_server (exit status 2)
+2021-11-11 21:35:39,177 INFO stopped: account_db_server (exit status 2)
+2021-11-11 21:35:39,251 INFO stopped: game_mongodb (exit status 0)
+2021-11-11 21:35:39,253 INFO stopped: nsqlookupd (exit status 0)
+2021-11-11 21:35:39,254 INFO stopped: nsqadmin (exit status 0)
+2021-11-11 21:35:39,456 INFO stopped: nsqd (exit status 0)
+2021-11-11 21:35:39,462 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:35:39,462 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:35:39,463 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:35:39,463 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:35:39,463 INFO supervisord started with pid 839
+2021-11-11 21:41:19,729 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:41:19,730 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:41:19,730 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:41:19,731 INFO supervisord started with pid 839
+2021-11-11 21:41:28,213 INFO spawned: 'nsqd' with pid 1525
+2021-11-11 21:41:28,215 INFO spawned: 'nsqadmin' with pid 1526
+2021-11-11 21:41:28,216 INFO spawned: 'nsqlookupd' with pid 1527
+2021-11-11 21:41:28,217 INFO spawned: 'game_mongodb' with pid 1532
+2021-11-11 21:41:28,218 INFO spawned: 'account_db_server' with pid 1536
+2021-11-11 21:41:28,219 INFO spawned: 'storage_server' with pid 1537
+2021-11-11 21:41:28,220 INFO spawned: 'disable_word_check_server' with pid 1542
+2021-11-11 21:41:28,221 INFO spawned: 'pvp_server' with pid 1543
+2021-11-11 21:41:28,222 INFO spawned: 'payment_server' with pid 1546
+2021-11-11 21:41:28,223 INFO spawned: 'game_server' with pid 1549
+2021-11-11 21:41:28,226 INFO spawned: 'crash_platform_server' with pid 1550
+2021-11-11 21:41:28,227 INFO spawned: 'gm_server' with pid 1568
+2021-11-11 21:41:28,228 INFO spawned: 'login_server' with pid 1569
+2021-11-11 21:41:28,669 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:41:29,392 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,392 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:41:29,909 INFO spawned: 'crash_platform_server' with pid 1601
+2021-11-11 21:41:30,206 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:41:32,131 INFO exited: gm_server (exit status 1; not expected)
+2021-11-11 21:41:32,139 INFO exited: game_server (exit status 1; not expected)
+2021-11-11 21:41:32,227 INFO spawned: 'crash_platform_server' with pid 1636
+2021-11-11 21:41:32,465 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:41:33,328 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-11 21:41:35,733 INFO spawned: 'crash_platform_server' with pid 1639
+2021-11-11 21:41:35,821 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:41:36,732 INFO gave up: crash_platform_server entered FATAL state, too many start retries too quickly
+2021-11-11 21:44:28,451 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, game_mongodb, payment_server, login_server, disable_word_check_server to die
+2021-11-11 21:44:28,454 INFO stopped: login_server (exit status 0)
+2021-11-11 21:44:30,475 INFO stopped: payment_server (exit status 0)
+2021-11-11 21:44:30,501 INFO stopped: pvp_server (exit status 0)
+2021-11-11 21:44:30,511 INFO stopped: disable_word_check_server (terminated by SIGTERM)
+2021-11-11 21:44:30,542 INFO stopped: storage_server (exit status 2)
+2021-11-11 21:44:30,565 INFO stopped: account_db_server (exit status 2)
+2021-11-11 21:44:30,675 INFO stopped: game_mongodb (exit status 0)
+2021-11-11 21:44:30,677 INFO stopped: nsqlookupd (exit status 0)
+2021-11-11 21:44:30,710 INFO stopped: nsqadmin (exit status 0)
+2021-11-11 21:44:30,884 INFO stopped: nsqd (exit status 0)
+2021-11-11 21:44:30,891 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:44:30,891 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:44:30,892 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:44:30,892 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:44:30,892 INFO supervisord started with pid 839
+2021-11-11 21:48:08,888 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:48:08,888 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:48:08,889 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:48:08,889 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:48:08,889 INFO supervisord started with pid 839
+2021-11-11 21:48:27,691 INFO spawned: 'crash_platform_server' with pid 1881
+2021-11-11 21:48:28,694 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:48:50,542 INFO spawned: 'game_mongodb' with pid 1889
+2021-11-11 21:48:52,041 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:48:56,081 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-11 21:49:07,420 INFO spawned: 'crash_platform_server' with pid 1920
+2021-11-11 21:49:08,032 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:49:09,036 INFO spawned: 'crash_platform_server' with pid 1929
+2021-11-11 21:49:09,701 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:49:11,708 INFO spawned: 'crash_platform_server' with pid 1938
+2021-11-11 21:49:12,368 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:49:15,375 INFO spawned: 'crash_platform_server' with pid 1947
+2021-11-11 21:49:16,008 INFO exited: crash_platform_server (exit status 1; not expected)
+2021-11-11 21:49:16,008 INFO gave up: crash_platform_server entered FATAL state, too many start retries too quickly
+2021-11-11 21:51:20,365 INFO waiting for game_mongodb to die
+2021-11-11 21:51:23,374 INFO waiting for game_mongodb to die
+2021-11-11 21:51:26,406 INFO waiting for game_mongodb to die
+2021-11-11 21:51:26,517 INFO stopped: game_mongodb (exit status 0)
+2021-11-11 21:51:26,523 CRIT Supervisor running as root (no user in config file)
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-11 21:51:26,523 INFO RPC interface 'supervisor' initialized
+2021-11-11 21:51:26,523 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-11 21:51:26,523 INFO supervisord started with pid 839
+2021-11-11 21:51:39,067 INFO spawned: 'nsqd' with pid 2170
+2021-11-11 21:51:39,068 INFO spawned: 'nsqadmin' with pid 2171
+2021-11-11 21:51:39,069 INFO spawned: 'nsqlookupd' with pid 2172
+2021-11-11 21:51:39,070 INFO spawned: 'game_mongodb' with pid 2176
+2021-11-11 21:51:39,071 INFO spawned: 'account_db_server' with pid 2182
+2021-11-11 21:51:39,072 INFO spawned: 'storage_server' with pid 2192
+2021-11-11 21:51:39,073 INFO spawned: 'disable_word_check_server' with pid 2194
+2021-11-11 21:51:39,074 INFO spawned: 'pvp_server' with pid 2195
+2021-11-11 21:51:39,075 INFO spawned: 'payment_server' with pid 2196
+2021-11-11 21:51:39,076 INFO spawned: 'game_server' with pid 2197
+2021-11-11 21:51:39,104 INFO spawned: 'crash_platform_server' with pid 2201
+2021-11-11 21:51:39,106 INFO spawned: 'gm_server' with pid 2202
+2021-11-11 21:51:39,107 INFO spawned: 'login_server' with pid 2204
+2021-11-11 21:51:40,592 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:40,592 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-11 21:51:44,128 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 01:21:24,882 CRIT Supervisor running as root (no user in config file)
+2021-11-13 01:21:24,883 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 01:21:24,883 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 01:21:24,883 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 01:21:24,883 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 01:21:24,884 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 01:21:25,293 INFO RPC interface 'supervisor' initialized
+2021-11-13 01:21:25,294 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 01:21:25,299 INFO daemonizing the supervisord process
+2021-11-13 01:21:25,299 INFO set current directory: '/mnt/pokemon/deploy_dev/'
+2021-11-13 01:21:25,300 INFO supervisord started with pid 806
+2021-11-13 01:21:33,353 CRIT Supervisor running as root (no user in config file)
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 01:21:33,353 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 01:21:33,355 INFO RPC interface 'supervisor' initialized
+2021-11-13 01:21:33,355 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 01:21:33,355 INFO supervisord started with pid 806
+2021-11-13 01:21:42,983 INFO spawned: 'nsqd' with pid 809
+2021-11-13 01:21:42,988 INFO spawned: 'nsqadmin' with pid 810
+2021-11-13 01:21:42,992 INFO spawned: 'nsqlookupd' with pid 811
+2021-11-13 01:21:42,994 INFO spawned: 'game_mongodb' with pid 812
+2021-11-13 01:21:43,107 INFO spawned: 'account_db_server' with pid 816
+2021-11-13 01:21:43,137 INFO spawned: 'storage_server' with pid 817
+2021-11-13 01:21:43,139 INFO spawned: 'disable_word_check_server' with pid 818
+2021-11-13 01:21:43,151 INFO spawned: 'pvp_server' with pid 819
+2021-11-13 01:21:43,191 INFO spawned: 'payment_server' with pid 820
+2021-11-13 01:21:43,218 INFO spawned: 'game_server' with pid 821
+2021-11-13 01:21:43,267 INFO spawned: 'crash_platform_server' with pid 823
+2021-11-13 01:21:43,316 INFO spawned: 'gm_server' with pid 830
+2021-11-13 01:21:43,387 INFO spawned: 'login_server' with pid 832
+2021-11-13 01:21:44,017 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,017 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,017 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,256 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,292 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:44,347 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 01:21:48,459 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 01:46:40,432 WARN received SIGTERM indicating exit request
+2021-11-13 01:46:40,432 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, login_server, disable_word_check_server, game_server to die
+2021-11-13 01:46:40,439 INFO exited: nsqadmin (exit status 0; expected)
+2021-11-13 01:46:40,439 INFO exited: nsqlookupd (exit status 0; expected)
+2021-11-13 01:46:40,439 INFO exited: payment_server (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,439 INFO stopped: login_server (terminated by SIGHUP)
+2021-11-13 01:46:40,440 WARN received SIGHUP indicating restart request
+2021-11-13 01:46:40,453 INFO exited: nsqd (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,453 INFO exited: crash_platform_server (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,454 INFO exited: game_server (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,458 INFO exited: disable_word_check_server (terminated by SIGTERM; not expected)
+2021-11-13 01:46:40,460 INFO exited: account_db_server (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,468 INFO exited: pvp_server (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,573 INFO exited: storage_server (terminated by SIGHUP; not expected)
+2021-11-13 01:46:40,573 INFO stopped: gm_server (terminated by SIGHUP)
+2021-11-13 01:46:40,628 INFO exited: game_mongodb (exit status 0; expected)
+2021-11-13 01:46:40,635 CRIT Supervisor running as root (no user in config file)
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 01:46:40,636 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 01:46:40,637 INFO RPC interface 'supervisor' initialized
+2021-11-13 01:46:40,637 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 01:46:40,637 INFO supervisord started with pid 806
+2021-11-13 13:48:32,431 CRIT Supervisor running as root (no user in config file)
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 13:48:32,433 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 13:48:32,778 INFO RPC interface 'supervisor' initialized
+2021-11-13 13:48:32,778 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 13:48:32,779 INFO daemonizing the supervisord process
+2021-11-13 13:48:32,780 INFO set current directory: '/mnt/pokemon/deploy_dev/'
+2021-11-13 13:48:32,780 INFO supervisord started with pid 995
+2021-11-13 13:48:38,412 CRIT Supervisor running as root (no user in config file)
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 13:48:38,412 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 13:48:38,413 INFO RPC interface 'supervisor' initialized
+2021-11-13 13:48:38,413 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 13:48:38,413 INFO supervisord started with pid 995
+2021-11-13 13:48:42,206 INFO spawned: 'nsqd' with pid 998
+2021-11-13 13:48:42,209 INFO spawned: 'nsqadmin' with pid 999
+2021-11-13 13:48:42,217 INFO spawned: 'nsqlookupd' with pid 1000
+2021-11-13 13:48:42,222 INFO spawned: 'game_mongodb' with pid 1001
+2021-11-13 13:48:42,227 INFO spawned: 'account_db_server' with pid 1002
+2021-11-13 13:48:42,229 INFO spawned: 'storage_server' with pid 1003
+2021-11-13 13:48:42,232 INFO spawned: 'pvp_server' with pid 1009
+2021-11-13 13:48:42,236 INFO spawned: 'payment_server' with pid 1015
+2021-11-13 13:48:42,237 INFO spawned: 'game_server' with pid 1019
+2021-11-13 13:48:42,241 INFO spawned: 'crash_platform_server' with pid 1020
+2021-11-13 13:48:42,247 INFO spawned: 'gm_server' with pid 1023
+2021-11-13 13:48:42,252 INFO spawned: 'login_server' with pid 1024
+2021-11-13 13:48:43,507 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:43,507 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:48:47,512 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 13:51:11,777 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, login_server, game_server to die
+2021-11-13 13:51:11,778 INFO stopped: login_server (terminated by SIGTERM)
+2021-11-13 13:51:14,835 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, game_server to die
+2021-11-13 13:51:14,885 INFO stopped: gm_server (exit status 0)
+2021-11-13 13:51:18,663 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, game_server to die
+2021-11-13 13:51:21,670 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, game_server to die
+2021-11-13 13:51:25,010 WARN killing 'crash_platform_server' (1020) with SIGKILL
+2021-11-13 13:51:25,010 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, game_server to die
+2021-11-13 13:51:25,013 INFO stopped: crash_platform_server (terminated by SIGKILL)
+2021-11-13 13:51:25,076 INFO stopped: game_server (terminated by SIGTERM)
+2021-11-13 13:51:25,077 INFO stopped: payment_server (terminated by SIGTERM)
+2021-11-13 13:51:25,078 INFO stopped: pvp_server (terminated by SIGTERM)
+2021-11-13 13:51:26,105 INFO stopped: storage_server (terminated by SIGTERM)
+2021-11-13 13:51:26,107 INFO stopped: account_db_server (terminated by SIGTERM)
+2021-11-13 13:51:28,122 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:51:31,625 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:51:34,632 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:51:39,967 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:51:44,352 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:52:04,346 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:52:09,372 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:52:14,152 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:52:54,969 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:53:11,193 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:53:21,800 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:53:59,136 INFO waiting for nsqd, nsqadmin, nsqlookupd, game_mongodb to die
+2021-11-13 13:54:35,282 INFO exited: nsqd (terminated by SIGKILL; not expected)
+2021-11-13 13:54:35,283 INFO exited: nsqadmin (terminated by SIGKILL; not expected)
+2021-11-13 13:54:35,283 INFO exited: nsqlookupd (terminated by SIGKILL; not expected)
+2021-11-13 13:54:35,284 INFO waiting for game_mongodb to die
+2021-11-13 13:54:38,291 INFO waiting for game_mongodb to die
+2021-11-13 13:54:41,297 INFO waiting for game_mongodb to die
+2021-11-13 13:54:44,303 INFO waiting for game_mongodb to die
+2021-11-13 13:54:44,701 INFO stopped: game_mongodb (terminated by SIGKILL)
+2021-11-13 13:54:44,731 CRIT Supervisor running as root (no user in config file)
+2021-11-13 13:54:44,731 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 13:54:44,732 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 13:54:44,736 INFO RPC interface 'supervisor' initialized
+2021-11-13 13:54:44,736 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 13:54:44,736 INFO supervisord started with pid 995
+2021-11-13 13:55:25,283 CRIT Supervisor running as root (no user in config file)
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 13:55:25,283 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 13:55:25,284 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 13:55:25,284 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 13:55:25,284 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 13:55:25,284 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 13:55:25,284 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 13:55:25,284 INFO RPC interface 'supervisor' initialized
+2021-11-13 13:55:25,284 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 13:55:25,284 INFO supervisord started with pid 995
+2021-11-13 13:55:33,412 INFO spawned: 'nsqd' with pid 1170
+2021-11-13 13:55:33,413 INFO spawned: 'nsqadmin' with pid 1171
+2021-11-13 13:55:33,414 INFO spawned: 'nsqlookupd' with pid 1172
+2021-11-13 13:55:33,416 INFO spawned: 'game_mongodb' with pid 1177
+2021-11-13 13:55:33,417 INFO spawned: 'account_db_server' with pid 1179
+2021-11-13 13:55:33,418 INFO spawned: 'storage_server' with pid 1180
+2021-11-13 13:55:33,420 INFO spawned: 'pvp_server' with pid 1181
+2021-11-13 13:55:33,421 INFO spawned: 'payment_server' with pid 1182
+2021-11-13 13:55:33,421 INFO spawned: 'game_server' with pid 1183
+2021-11-13 13:55:33,422 INFO spawned: 'crash_platform_server' with pid 1184
+2021-11-13 13:55:33,423 INFO spawned: 'gm_server' with pid 1185
+2021-11-13 13:55:33,424 INFO spawned: 'login_server' with pid 1186
+2021-11-13 13:55:33,890 INFO exited: payment_server (exit status 1; not expected)
+2021-11-13 13:55:34,591 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,591 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 13:55:34,895 INFO spawned: 'payment_server' with pid 1246
+2021-11-13 13:55:35,187 INFO exited: payment_server (exit status 1; not expected)
+2021-11-13 13:55:37,244 INFO spawned: 'payment_server' with pid 1278
+2021-11-13 13:55:37,375 INFO exited: payment_server (exit status 1; not expected)
+2021-11-13 13:55:38,578 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 13:55:38,678 INFO exited: pvp_server (exit status 2; expected)
+2021-11-13 13:55:41,281 INFO spawned: 'payment_server' with pid 1279
+2021-11-13 13:55:41,540 INFO exited: payment_server (exit status 1; not expected)
+2021-11-13 13:55:41,597 INFO gave up: payment_server entered FATAL state, too many start retries too quickly
+2021-11-13 13:55:42,715 INFO exited: game_server (exit status 1; not expected)
+2021-11-13 13:55:43,483 INFO exited: gm_server (exit status 1; not expected)
+2021-11-13 13:57:15,024 INFO waiting for nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, login_server to die
+2021-11-13 13:57:15,046 INFO stopped: login_server (exit status 0)
+2021-11-13 13:57:18,434 INFO waiting for nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb to die
+2021-11-13 13:57:18,436 INFO stopped: crash_platform_server (exit status 0)
+2021-11-13 13:57:19,285 INFO stopped: storage_server (exit status 0)
+2021-11-13 13:57:19,295 INFO stopped: account_db_server (exit status 0)
+2021-11-13 13:57:19,410 INFO stopped: game_mongodb (exit status 0)
+2021-11-13 13:57:19,415 INFO stopped: nsqlookupd (exit status 0)
+2021-11-13 13:57:19,422 INFO stopped: nsqadmin (exit status 0)
+2021-11-13 13:57:19,561 INFO stopped: nsqd (exit status 0)
+2021-11-13 13:57:19,577 CRIT Supervisor running as root (no user in config file)
+2021-11-13 13:57:19,577 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 13:57:19,577 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 13:57:19,578 INFO RPC interface 'supervisor' initialized
+2021-11-13 13:57:19,579 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 13:57:19,579 INFO supervisord started with pid 995
+2021-11-13 14:04:19,632 CRIT Supervisor running as root (no user in config file)
+2021-11-13 14:04:19,632 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 14:04:19,632 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 14:04:19,633 INFO RPC interface 'supervisor' initialized
+2021-11-13 14:04:19,634 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 14:04:19,634 INFO supervisord started with pid 995
+2021-11-13 14:04:29,804 INFO spawned: 'nsqd' with pid 1305
+2021-11-13 14:04:29,805 INFO spawned: 'nsqadmin' with pid 1306
+2021-11-13 14:04:29,806 INFO spawned: 'nsqlookupd' with pid 1307
+2021-11-13 14:04:29,807 INFO spawned: 'game_mongodb' with pid 1308
+2021-11-13 14:04:29,808 INFO spawned: 'account_db_server' with pid 1309
+2021-11-13 14:04:29,809 INFO spawned: 'storage_server' with pid 1310
+2021-11-13 14:04:29,810 INFO spawned: 'disable_word_check_server' with pid 1311
+2021-11-13 14:04:29,811 INFO spawned: 'pvp_server' with pid 1312
+2021-11-13 14:04:29,812 INFO spawned: 'payment_server' with pid 1313
+2021-11-13 14:04:29,814 INFO spawned: 'game_server' with pid 1314
+2021-11-13 14:04:29,815 INFO spawned: 'crash_platform_server' with pid 1315
+2021-11-13 14:04:29,816 INFO spawned: 'gm_server' with pid 1316
+2021-11-13 14:04:29,817 INFO spawned: 'login_server' with pid 1317
+2021-11-13 14:04:30,846 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:30,846 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:04:35,263 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 14:04:36,475 INFO exited: pvp_server (exit status 2; expected)
+2021-11-13 14:14:41,746 INFO exited: game_server (exit status 1; not expected)
+2021-11-13 14:22:38,996 INFO waiting for nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, login_server, disable_word_check_server to die
+2021-11-13 14:22:38,999 INFO stopped: login_server (exit status 0)
+2021-11-13 14:22:40,927 INFO stopped: gm_server (exit status 0)
+2021-11-13 14:22:42,582 INFO waiting for nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, disable_word_check_server to die
+2021-11-13 14:22:42,586 INFO stopped: crash_platform_server (exit status 0)
+2021-11-13 14:22:43,743 INFO stopped: payment_server (exit status 0)
+2021-11-13 14:22:44,783 INFO stopped: disable_word_check_server (terminated by SIGTERM)
+2021-11-13 14:22:44,815 INFO stopped: storage_server (exit status 0)
+2021-11-13 14:22:44,835 INFO stopped: account_db_server (exit status 0)
+2021-11-13 14:22:45,098 INFO stopped: game_mongodb (exit status 0)
+2021-11-13 14:22:45,100 INFO stopped: nsqlookupd (exit status 0)
+2021-11-13 14:22:45,158 INFO stopped: nsqadmin (exit status 0)
+2021-11-13 14:22:45,243 INFO stopped: nsqd (exit status 0)
+2021-11-13 14:22:45,253 CRIT Supervisor running as root (no user in config file)
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 14:22:45,253 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 14:22:45,254 INFO RPC interface 'supervisor' initialized
+2021-11-13 14:22:45,255 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 14:22:45,255 INFO supervisord started with pid 995
+2021-11-13 14:22:56,049 INFO spawned: 'nsqd' with pid 1485
+2021-11-13 14:22:56,050 INFO spawned: 'nsqadmin' with pid 1486
+2021-11-13 14:22:56,052 INFO spawned: 'nsqlookupd' with pid 1487
+2021-11-13 14:22:56,053 INFO spawned: 'game_mongodb' with pid 1492
+2021-11-13 14:22:56,054 INFO spawned: 'account_db_server' with pid 1493
+2021-11-13 14:22:56,056 INFO spawned: 'storage_server' with pid 1498
+2021-11-13 14:22:56,057 INFO spawned: 'disable_word_check_server' with pid 1503
+2021-11-13 14:22:56,058 INFO spawned: 'pvp_server' with pid 1504
+2021-11-13 14:22:56,060 INFO spawned: 'payment_server' with pid 1505
+2021-11-13 14:22:56,061 INFO spawned: 'game_server' with pid 1506
+2021-11-13 14:22:56,062 INFO spawned: 'crash_platform_server' with pid 1507
+2021-11-13 14:22:56,063 INFO spawned: 'gm_server' with pid 1508
+2021-11-13 14:22:56,064 INFO spawned: 'login_server' with pid 1509
+2021-11-13 14:22:57,134 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:22:57,134 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:23:01,230 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 14:23:02,483 INFO exited: pvp_server (exit status 2; expected)
+2021-11-13 14:27:44,698 INFO waiting for nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, login_server, disable_word_check_server, game_server to die
+2021-11-13 14:27:44,701 INFO stopped: login_server (exit status 0)
+2021-11-13 14:27:46,160 INFO stopped: gm_server (exit status 0)
+2021-11-13 14:27:47,829 INFO waiting for nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, disable_word_check_server, game_server to die
+2021-11-13 14:27:48,371 INFO stopped: crash_platform_server (exit status 0)
+2021-11-13 14:27:48,397 INFO stopped: game_server (terminated by SIGTERM)
+2021-11-13 14:27:48,414 INFO stopped: payment_server (exit status 0)
+2021-11-13 14:27:48,426 INFO stopped: disable_word_check_server (terminated by SIGTERM)
+2021-11-13 14:27:48,435 INFO stopped: storage_server (exit status 0)
+2021-11-13 14:27:48,445 INFO stopped: account_db_server (exit status 0)
+2021-11-13 14:27:48,725 INFO stopped: game_mongodb (exit status 0)
+2021-11-13 14:27:48,728 INFO stopped: nsqlookupd (exit status 0)
+2021-11-13 14:27:48,730 INFO stopped: nsqadmin (exit status 0)
+2021-11-13 14:27:48,951 INFO stopped: nsqd (exit status 0)
+2021-11-13 14:27:48,958 CRIT Supervisor running as root (no user in config file)
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 14:27:48,958 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 14:27:48,959 INFO RPC interface 'supervisor' initialized
+2021-11-13 14:27:48,959 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 14:27:48,959 INFO supervisord started with pid 995
+2021-11-13 14:27:55,401 INFO spawned: 'nsqd' with pid 1651
+2021-11-13 14:27:55,403 INFO spawned: 'nsqadmin' with pid 1652
+2021-11-13 14:27:55,404 INFO spawned: 'nsqlookupd' with pid 1653
+2021-11-13 14:27:55,405 INFO spawned: 'game_mongodb' with pid 1657
+2021-11-13 14:27:55,406 INFO spawned: 'account_db_server' with pid 1664
+2021-11-13 14:27:55,408 INFO spawned: 'storage_server' with pid 1672
+2021-11-13 14:27:55,409 INFO spawned: 'disable_word_check_server' with pid 1676
+2021-11-13 14:27:55,410 INFO spawned: 'pvp_server' with pid 1677
+2021-11-13 14:27:55,411 INFO spawned: 'payment_server' with pid 1679
+2021-11-13 14:27:55,412 INFO spawned: 'game_server' with pid 1680
+2021-11-13 14:27:55,413 INFO spawned: 'crash_platform_server' with pid 1681
+2021-11-13 14:27:55,416 INFO spawned: 'gm_server' with pid 1688
+2021-11-13 14:27:55,417 INFO spawned: 'login_server' with pid 1689
+2021-11-13 14:27:56,569 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:27:56,569 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 14:28:00,426 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-13 16:52:09,060 WARN received SIGTERM indicating exit request
+2021-11-13 16:52:09,061 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, login_server, disable_word_check_server, game_server to die
+2021-11-13 16:52:09,074 INFO exited: nsqadmin (exit status 0; expected)
+2021-11-13 16:52:09,074 INFO exited: nsqlookupd (exit status 0; expected)
+2021-11-13 16:52:09,098 INFO stopped: login_server (exit status 0)
+2021-11-13 16:52:09,099 WARN received SIGHUP indicating restart request
+2021-11-13 16:52:09,108 INFO exited: payment_server (terminated by SIGHUP; not expected)
+2021-11-13 16:52:09,121 INFO exited: crash_platform_server (terminated by SIGHUP; not expected)
+2021-11-13 16:52:09,121 INFO stopped: gm_server (terminated by SIGHUP)
+2021-11-13 16:52:09,136 INFO exited: account_db_server (exit status 0; expected)
+2021-11-13 16:52:09,139 INFO stopped: game_server (terminated by SIGHUP)
+2021-11-13 16:52:09,147 INFO exited: disable_word_check_server (terminated by SIGHUP; not expected)
+2021-11-13 16:52:09,148 INFO stopped: pvp_server (terminated by SIGHUP)
+2021-11-13 16:52:09,157 INFO stopped: storage_server (terminated by SIGHUP)
+2021-11-13 16:52:09,253 INFO exited: nsqd (terminated by SIGHUP; not expected)
+2021-11-13 16:52:09,285 INFO stopped: game_mongodb (exit status 0)
+2021-11-13 16:52:09,294 CRIT Supervisor running as root (no user in config file)
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 16:52:09,295 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 16:52:09,298 INFO RPC interface 'supervisor' initialized
+2021-11-13 16:52:09,298 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 16:52:09,298 INFO supervisord started with pid 995
+2021-11-13 23:52:46,541 CRIT Supervisor running as root (no user in config file)
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 23:52:46,542 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 23:52:46,883 INFO RPC interface 'supervisor' initialized
+2021-11-13 23:52:46,883 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 23:52:46,883 INFO daemonizing the supervisord process
+2021-11-13 23:52:46,884 INFO set current directory: '/mnt/pokemon/deploy_dev/'
+2021-11-13 23:52:46,937 INFO supervisord started with pid 877
+2021-11-13 23:52:54,763 CRIT Supervisor running as root (no user in config file)
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-13 23:52:54,763 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-13 23:52:54,766 INFO RPC interface 'supervisor' initialized
+2021-11-13 23:52:54,766 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-13 23:52:54,766 INFO supervisord started with pid 877
+2021-11-13 23:53:03,776 INFO spawned: 'nsqd' with pid 880
+2021-11-13 23:53:03,777 INFO spawned: 'nsqadmin' with pid 881
+2021-11-13 23:53:03,778 INFO spawned: 'nsqlookupd' with pid 882
+2021-11-13 23:53:03,782 INFO spawned: 'game_mongodb' with pid 883
+2021-11-13 23:53:03,787 INFO spawned: 'account_db_server' with pid 884
+2021-11-13 23:53:03,790 INFO spawned: 'storage_server' with pid 886
+2021-11-13 23:53:03,793 INFO spawned: 'disable_word_check_server' with pid 888
+2021-11-13 23:53:03,798 INFO spawned: 'pvp_server' with pid 889
+2021-11-13 23:53:03,801 INFO spawned: 'payment_server' with pid 890
+2021-11-13 23:53:03,805 INFO spawned: 'game_server' with pid 891
+2021-11-13 23:53:03,809 INFO spawned: 'crash_platform_server' with pid 892
+2021-11-13 23:53:03,813 INFO spawned: 'gm_server' with pid 893
+2021-11-13 23:53:03,817 INFO spawned: 'login_server' with pid 894
+2021-11-13 23:53:04,680 INFO success: nsqd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: nsqadmin entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: nsqlookupd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: account_db_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: storage_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: disable_word_check_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: pvp_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: payment_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: game_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: crash_platform_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,812 INFO success: gm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:04,821 INFO success: login_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-11-13 23:53:09,348 INFO success: game_mongodb entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-11-14 00:12:49,162 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, gm_server, login_server, disable_word_check_server, game_server to die
+2021-11-14 00:12:49,164 INFO stopped: login_server (exit status 0)
+2021-11-14 00:12:51,159 INFO stopped: gm_server (exit status 0)
+2021-11-14 00:12:52,905 INFO waiting for pvp_server, nsqd, nsqadmin, account_db_server, nsqlookupd, storage_server, crash_platform_server, game_mongodb, payment_server, disable_word_check_server, game_server to die
+2021-11-14 00:12:53,669 INFO stopped: crash_platform_server (exit status 0)
+2021-11-14 00:12:54,040 INFO stopped: game_server (exit status 0)
+2021-11-14 00:12:54,055 INFO stopped: payment_server (exit status 0)
+2021-11-14 00:12:54,070 INFO stopped: pvp_server (exit status 0)
+2021-11-14 00:12:54,077 INFO stopped: disable_word_check_server (terminated by SIGTERM)
+2021-11-14 00:12:54,089 INFO stopped: storage_server (exit status 0)
+2021-11-14 00:12:54,098 INFO stopped: account_db_server (exit status 0)
+2021-11-14 00:12:54,347 INFO stopped: game_mongodb (exit status 0)
+2021-11-14 00:12:54,351 INFO stopped: nsqlookupd (exit status 0)
+2021-11-14 00:12:54,352 INFO stopped: nsqadmin (exit status 0)
+2021-11-14 00:12:54,486 INFO stopped: nsqd (exit status 0)
+2021-11-14 00:12:54,492 CRIT Supervisor running as root (no user in config file)
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/account_db_server.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/crash_platform_server.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/disable_word_check_server.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/game_server.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/gm_server.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/login_server.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/mongodb.ini" during parsing
+2021-11-14 00:12:54,492 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqadmin.ini" during parsing
+2021-11-14 00:12:54,493 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqd.ini" during parsing
+2021-11-14 00:12:54,493 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/nsqlookupd.ini" during parsing
+2021-11-14 00:12:54,493 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/payment_server.ini" during parsing
+2021-11-14 00:12:54,493 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/pvp_server.ini" during parsing
+2021-11-14 00:12:54,493 INFO Included extra file "/mnt/pokemon/deploy_dev/./supervisord.dir/storage_server.ini" during parsing
+2021-11-14 00:12:54,494 INFO RPC interface 'supervisor' initialized
+2021-11-14 00:12:54,494 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-11-14 00:12:54,494 INFO supervisord started with pid 877

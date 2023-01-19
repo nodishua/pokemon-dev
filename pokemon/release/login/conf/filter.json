@@ -1,0 +1,4 @@
+{
+	"res/Resources_en/*": ["en"],
+	"res/Resources_tw/*": ["tw"]
+}
